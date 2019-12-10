@@ -1,0 +1,13 @@
+DIGEST 7e55bb539888a8b54740421455922fa1
+FCoq.Init.Prelude
+R691:699 Coq.Init.Notations <> <> lib
+R717:721 Coq.Init.Logic <> <> lib
+R739:748 Coq.Init.Logic_Type <> <> lib
+R766:774 Coq.Init.Datatypes <> <> lib
+R792:797 Coq.Init.Specif <> <> lib
+R808:823 Coq.Init.Decimal <> <> lib
+R834:845 Coq.Init.Nat <> <> lib
+R863:867 Coq.Init.Peano <> <> lib
+R885:895 Coq.Init.Wf <> <> lib
+R913:928 Coq.Init.Tactics <> <> lib
+R946:959 Coq.Init.Tauto <> <> lib

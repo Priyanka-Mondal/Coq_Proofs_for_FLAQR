@@ -1,0 +1,33 @@
+DIGEST aa718cbe7fddd9d6546ef4bc32b3ba24
+FCoq.Logic.RelationalChoice
+ax 755:771 <> relational_choice
+R803:804 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R806:807 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R805:805 Coq.Logic.RelationalChoice <> B var
+R802:802 Coq.Logic.RelationalChoice <> A var
+R818:818 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R852:861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R862:868 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R884:892 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R875:876 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R878:879 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R877:877 Coq.Logic.RelationalChoice <> B var
+R874:874 Coq.Logic.RelationalChoice <> A var
+R909:912 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R893:903 Coq.Init.Logic <> subrelation def
+R908:908 Coq.Logic.RelationalChoice <> R var
+R905:906 Coq.Logic.RelationalChoice <> R' var
+R924:924 Coq.Logic.RelationalChoice <> A var
+R927:934 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R940:941 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R939:939 Coq.Logic.RelationalChoice <> B var
+R942:943 Coq.Logic.RelationalChoice <> R' var
+R947:947 Coq.Logic.RelationalChoice <> y var
+R945:945 Coq.Logic.RelationalChoice <> x var
+R830:830 Coq.Logic.RelationalChoice <> A var
+R833:839 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R845:846 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R844:844 Coq.Logic.RelationalChoice <> B var
+R847:847 Coq.Logic.RelationalChoice <> R var
+R851:851 Coq.Logic.RelationalChoice <> y var
+R849:849 Coq.Logic.RelationalChoice <> x var

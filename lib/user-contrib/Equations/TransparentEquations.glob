@@ -1,0 +1,14 @@
+DIGEST ded90acb4fcf3bc8489f2d475332bc2c
+FEquations.TransparentEquations
+R664:670 Equations.DepElim <> <> lib
+R693:714 Equations.DepElim <> simplification_existT2 thm
+R716:741 Equations.DepElim <> simplification_existT2_dec thm
+R750:770 Equations.DepElim <> simplification_sigma2 thm
+R772:796 Equations.DepElim <> simplification_sigma2_dec thm
+R805:835 Equations.DepElim <> simplification_sigma2_dec_point thm
+R844:861 Equations.DepElim <> simplification_heq thm
+R863:878 Equations.DepElim <> simplification_K thm
+R880:899 Equations.DepElim <> simplification_K_dec thm
+R908:924 Equations.DepElim <> simplify_ind_pack thm
+R926:944 Equations.DepElim <> simplified_ind_pack def
+R946:969 Equations.DepElim <> Id_simplification_sigma2 thm

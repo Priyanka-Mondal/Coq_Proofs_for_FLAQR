@@ -1,0 +1,391 @@
+Set Warnings "-notation-overridden,-parsing".
+Require Import Coq.Arith.Arith.
+Require Import Coq.Arith.EqNat.
+Require Import Coq.omega.Omega.
+Require Import Coq.Lists.List.
+Import ListNotations. 
+Require Import rel.
+Require Import maps.
+Require Import smallstep2.
+Require Import typerevise. 
+Require Import stlc.
+
+
+Module Flow.
+(* no polumophism for now  *)
+(*and no pc also*)
+(*no assume and where*)
+(*no sealed term *)
+(* | tproj : nat -> tm -> tm -> tm
+  | Prodty : ty -> ty -> ty
+   pair : tm -> tm -> tm
+ *)
+
+Inductive pr : Type :=
+  | prin : string -> pr
+  | bot: pr
+  | top : pr  
+  | confpr : pr -> pr
+  | integpr : pr -> pr
+  | andpr : pr -> pr -> pr
+  | orpr : pr -> pr -> pr
+  | joinpr : pr -> pr -> pr
+  | meetpr : pr -> pr -> pr. 
+
+Inductive ty : Type :=
+  | Unit : ty
+  | Fail : ty
+  | Sumty : ty -> ty -> ty
+  | Functy : ty -> ty -> ty
+  | Says: pr -> pr -> ty -> ty.
+
+Inductive tm : Type :=
+  | var : string -> tm
+  | unit : tm
+  | fail : tm
+  | app : tm -> tm -> tm
+  | abs : string -> ty -> tm -> tm
+  | inj : nat -> tm -> tm
+  | eta : pr -> pr -> tm -> tm
+  | case : tm -> string-> tm -> tm -> tm 
+  | bind  : string -> tm -> tm -> tm
+  | run   : tm -> pr -> tm
+  | ret   : tm -> pr -> tm
+  | compEnd : tm -> tm -> tm 
+  | select :  pr -> pr -> tm -> tm -> tm.
+
+Inductive config : Type :=
+  | conf : tm -> pr -> config.
+
+Open Scope string_scope.
+Definition x := "x".
+Definition y := "y".
+Definition z := "z".
+Hint Unfold x.
+Hint Unfold y.
+Hint Unfold z.
+ 
+Inductive value : tm -> Prop :=
+  | v_abs : forall x T t,
+      value (abs x T t)
+  | v_unit :
+      value (unit)
+  | v_fail :
+      value fail
+  | v_inj: forall n v,
+      (value v) -> value (inj n v)
+  | eta_val: forall v l j,
+      (value v) -> value (eta l j v).
+Hint Constructors value.
+
+Reserved Notation 
+"'[' x ':=' s ']' t" (at level 40).
+Fixpoint subst (x:string) 
+(s:tm) (t:tm) : tm :=
+  match t with
+  | var x' =>
+      if beq_string x x' then s else t
+  | fail => fail
+  | unit => 
+       unit
+  | abs x' T t1 =>
+      abs x' T 
+     (if beq_string x x' then t1 else
+     ([x:=s] t1))
+  | app t1 t2 =>
+      app ([x:=s] t1) ([x:=s] t2)
+  | inj n t1 => inj n ([x:=s] t1)
+  | eta l j t1 => eta l j ([x:=s] t1)
+  | case t1 x' t2 t3 => 
+      (if beq_string x x' then case t1 x' t2 t3
+      else
+      case ([x:=s] t1) x' ([x:=s] t2) ([x:=s] t3))
+  | bind x' t1 t2 =>  
+        if beq_string x x' then t else 
+        bind x' ([x := s] t1) ([x := s] t2)
+  | run t1 p => run ([x := s] t1) p
+  | ret t1 p => ret ([x := s] t1) p
+  | compEnd t1 t2 => compEnd ([x:=s] t1) ([x:=s] t2)
+  | select p1 p2 t1 t2 => 
+       select  p1 p2 ([x:=s] t1) ([x:=s] t2) 
+  end
+
+where "'[' x ':=' s ']' t" := (subst x s t).
+
+Inductive substi (s:tm) (x:string) : tm -> tm -> Prop :=
+  | s_var1 :
+      substi s x (var x) s
+  | s_var2 : forall x', x <> x' ->  
+      substi s x (var x') (var x')
+  | s_fail : substi s x fail fail
+  | s_unit : substi s x unit unit
+  | s_abs1 : forall T t1 t1', t1 = abs x T t1' -> 
+              substi s x (abs x T t1') t1
+  | s_abs2 : forall x' T t1 t1', x<>x'->
+    substi s x t1 t1' ->
+    substi s x (abs x' T t1) (abs x' T t1')
+  | s_app : forall t1 t1' t2 t2', 
+       substi s x t1' t1 ->  substi s x t2' t2 ->
+         substi s x (app t1' t2') (app t1 t2)
+  | s_inj  : forall n t1 t1', 
+        substi s x t1 t1' -> 
+        substi s x (inj n t1) (inj n t1')
+  | s_eta : forall l j t1 t1',
+       substi s x t1 t1' ->
+       substi s x (eta l j t1) (eta l j t1')
+  | s_case1 :  forall t1 t2 t3,
+     substi s x (case t1 x t2 t3) (case t1 x t2 t3)
+  | s_case2 :  forall x' t1 t2 t3 t1' t2' t3',
+     x <> x' ->
+     substi s x t1 t1' -> substi s x t2 t2' 
+     -> substi s x t3 t3' ->
+     substi s x (case t1 x' t2 t3) (case t1' x' t2' t3')
+  | s_bind1 : forall t1 t2,
+       substi s x (bind x t1 t2) (bind x t1 t2)
+  | s_bind2 : forall x' t1 t2 t1' t2',
+      x<>x' -> substi s x t1 t1' -> 
+      substi s x t2 t2' ->
+      substi s x (bind x' t1 t2) (bind x' t1' t2') 
+  | s_run : forall t1 t1' p,
+      substi s x t1 t1' ->
+      substi s x (run t1 p) (run t1' p)
+  | s_ret : forall t1 t1' p,
+      substi s x t1 t1' ->
+      substi s x (ret t1 p) (ret t1' p)
+  | s_compEnd : forall t1 t1' t2 t2',
+      substi s x t1 t1' -> substi s x t2 t2' ->
+      substi s x (compEnd t1 t2) (compEnd t1' t2')
+  | s_select: forall p1 p2 t1 t1' t2 t2' ,
+      substi s x t1 t1' -> substi s x t2 t2' ->
+      substi s x (select p1 p2 t1 t2) 
+                 (select p1 p2 t1' t2').
+
+Theorem ex_falso_quodlibet : forall (P:Prop),
+  False -> P.
+Proof.
+intros. inversion H.
+Qed.
+
+Theorem substi_correct : forall s x t t',
+  [x:=s]t = t' <-> substi s x t t'.
+Proof.
+intros. split.
+- generalize dependent t'. induction t; intros.
+  + simpl in H. unfold beq_string in H.
+    destruct (string_dec x0 s0) in H.
+   * rewrite <- e, H. apply s_var1.
+   * rewrite <- H. apply s_var2. apply n.
+  + subst. simpl. apply s_unit.
+  + subst. simpl. apply s_fail.
+  + simpl in H.  subst. apply s_app.
+    apply IHt1. reflexivity.
+    apply IHt2. reflexivity.
+  + simpl in H. unfold beq_string in H.
+    destruct (string_dec x0 s0) in H.
+    subst. apply s_abs1. reflexivity.
+    subst. apply s_abs2. apply n.
+    apply IHt. reflexivity.
+  + simpl in H. subst. apply s_inj.
+    apply IHt. reflexivity.
+  + simpl in H. subst. apply s_eta.
+    apply IHt. reflexivity.
+  + simpl in H. unfold beq_string in H.
+    destruct (string_dec x0 s0) in H.
+    subst. apply s_case1. subst. 
+    apply s_case2. apply n.
+    apply IHt1. reflexivity.
+    apply IHt2. reflexivity.
+    apply IHt3. reflexivity.
+  + simpl in H. unfold beq_string in H.
+    destruct (string_dec x0 s0) in H.
+    subst. apply s_bind1. subst.
+    apply s_bind2. apply n.
+    apply IHt1. reflexivity.
+    apply IHt2. reflexivity.
+  + simpl in H. subst. apply s_run. 
+    apply IHt. reflexivity.
+  + simpl in H. subst. apply s_ret. 
+    apply IHt. reflexivity.
+  + simpl in H. subst. apply s_compEnd.
+    apply IHt1. reflexivity.
+    apply IHt2. reflexivity.
+  + simpl in H. subst. apply s_select.
+    apply IHt1. reflexivity. 
+    apply IHt2. reflexivity.
+- generalize dependent t'. induction t; intros.
+  + inversion H. subst. simpl. unfold beq_string.
+    destruct (string_dec s0 s0). reflexivity.
+    apply ex_falso_quodlibet. apply n.
+    reflexivity. simpl. unfold beq_string.
+    destruct (string_dec x0 s0). 
+    apply ex_falso_quodlibet. rewrite e in H1.
+    apply H1. reflexivity. reflexivity.
+  + simpl. inversion H. reflexivity.
+  + simpl. inversion H. reflexivity.
+  + inversion H. subst. simpl. 
+    apply IHt1 in H2. apply IHt2 in H4.
+   subst. reflexivity.
+  + inversion H. subst. simpl.
+   unfold beq_string. 
+   destruct (string_dec s0 s0). 
+   reflexivity.
+   apply ex_falso_quodlibet. apply n.
+   reflexivity. subst. apply IHt in H5.
+   rewrite <- H5. simpl. 
+   unfold beq_string. 
+   destruct (string_dec x0 s0).
+   apply ex_falso_quodlibet. apply H4. apply e.
+   reflexivity.
+  + simpl. inversion H. 
+    apply IHt in H3. subst. reflexivity.
+  + simpl. inversion H. subst.  apply IHt in H4.
+    subst. reflexivity.
+  + simpl. inversion H. unfold beq_string.
+    destruct (string_dec s0 s0). reflexivity.
+    apply ex_falso_quodlibet. apply n. 
+    reflexivity. unfold beq_string.
+    destruct (string_dec x0 s0). rewrite e in H4.
+    apply ex_falso_quodlibet. apply H4.
+    reflexivity. apply IHt1 in H6. 
+    apply IHt2 in H7. apply IHt3 in H8.
+    subst. reflexivity.
+  + simpl. inversion H. unfold beq_string.
+    destruct (string_dec s0 s0). reflexivity.
+    apply ex_falso_quodlibet. apply n.
+    reflexivity. unfold beq_string.
+    destruct (string_dec x0 s0). 
+    rewrite e in H3. apply ex_falso_quodlibet.
+    apply H3. reflexivity.
+    apply IHt1 in H5. apply IHt2 in H6.
+    subst. reflexivity.
+  + simpl. inversion H. apply IHt in H3.
+    subst. reflexivity.
+  + simpl. inversion H. apply IHt in H3.
+    subst. reflexivity.
+  + simpl. inversion H. apply IHt1 in H2.
+    apply IHt2 in H4. subst. reflexivity.
+  + simpl. inversion H. apply IHt1 in H5.
+    apply IHt2 in H6. subst. reflexivity.
+Qed.
+
+ Reserved Notation 
+"t1 ';' c1 '-->' t2 ';' c2"
+(at level 110,  c1 at level 0,
+t2 at level 40, c2 at level 12). 
+
+Inductive flowstep : config -> config ->Prop :=
+  | ST_Inj1 : forall t1 t1' c,
+        t1 ; c --> t1' ; c ->
+        inj 1 t1 ; c --> inj 1 t1' ; c
+  | ST_Inj2 : forall t2 t2' c,
+        t2 ; c --> t2' ; c ->
+        (inj 2 t2) ; c --> (inj 2 t2') ; c
+  | ST_Eta : forall l j t1 t1' c,
+       t1;c --> t1';c ->
+       eta l j t1;c --> eta l j t1';c
+  | ST_AppAbs : forall x T t12 v2 c,
+         value v2 ->
+         (app (abs x T t12) v2);c --> [x := v2]t12 ; c
+  | ST_App1 : forall t1 t1' t2 c,
+         t1;c --> t1';c ->
+         app t1 t2 ;c--> app t1' t2;c
+  | ST_App2 : forall v1 t2 t2' c,
+         value v1 ->
+         t2;c --> t2';c ->
+         app v1 t2;c --> app v1 t2';c
+  | ST_Case1 : forall t1 x v t2 t3 c,
+       (value v) -> t1 = inj 1 v ->
+      (case t1 x t2 t3);c --> [x:=v] t2;c
+  | ST_Case2 : forall t1 x v t2 t3 c,
+       (value v) -> t1 = inj 2 v ->
+      (case t1 x t2 t3);c --> [x:=v] t3;c
+  | ST_Case : forall t1 t1' x t2 t3 c,
+      t1 ;c--> t1';c ->
+      (case t1 x t2 t3);c --> (case t1' x t2 t3);c
+  | ST_Bind1 : forall t1 t1' t2 x c,
+       t1 ;c--> t1';c ->
+       bind x t1 t2;c --> bind x t1' t2;c
+  | ST_Bind2 : forall t1 t2 v x l j c,
+       value t1 -> t1 = eta l j v ->
+       bind x t1 t2;c --> [x:=v]t2;c
+  | ST_Run1 : forall t1 p c,
+      run t1 p;c --> ret t1 c;p
+  | ST_Run2 : forall p c v,
+      value v ->
+      run v p;c --> v;c
+  | ST_Ret1 : forall t1 p t1',
+      t1;p --> t1';p ->
+      ret t1 p;p --> ret t1' p;p
+  | ST_Ret2 : forall p v c,
+      value v ->
+      ret v c;p --> run v p;c
+  | ST_CompEnd1 : forall t1 t1' t2 c,
+      t1;c --> t1';c ->
+      compEnd t1 t2;c --> compEnd t1' t2;c
+  | ST_CompEnd2 : forall v t2 t2' c,
+      value v -> t2;c --> t2';c -> 
+      compEnd v t2;c --> compEnd v t2';c
+  | ST_Select1 : forall t1 t1' t2 p1 p2 c,
+      t1;c --> t1';c ->
+      select p1 p2 t1 t2 ;c --> select p1 p2 t1' t2 ;c
+  | ST_Select2 : forall v t2 t2' p1 p2 c,
+      value v -> t2;c --> t2';c -> 
+      select p1 p2 v t2 ;c --> select p1 p2 v t2';c
+where "t1 ';' c1 '-->' t2 ';' c2" := (flowstep t1 c1 t2 c2).
+
+
+(* Reserved Notation "Gamma ',' c ';' D '|-' t 'in' T" 
+(at level 30).
+Inductive has_type : context -> del -> 
+pr -> tm -> ty -> Prop :=
+  | T_Var : forall Gamma D c x T,
+      Gamma x = Some T ->
+      Gamma, c ; D |- var x in T
+  | T_Unit : forall Gamma D c,
+      Gamma, c ; D |- unit in Unit
+  | T_Fail : forall Gamma D,
+      Gamma, c ; D |- fail in Fail 
+  | T_Inj : forall T1 T2 Gamma D n t1 c,
+     Gamma, c; D |- t1 in T1 \/
+     Gamma, c; D |- t1 in T2 ->
+     Gamma, c; D |- inj n t1 in Sumty T1 T1 
+  | T_Abs : forall Gamma D x T11 T12 t12 c,
+      (update Gamma x T11) ,c ; D |- t12 in T12 ->
+      Gamma, c; D |- abs x T11 t12 in Functy T11 T12
+  | T_App : forall T11 T12 Gamma D t1 t2 c,
+     Gamma, c; D |- t1 in Functy T11 T12 ->
+     Gamma, c; D |- t2 in T11 ->
+     Gamma, c; D |- app t1 t2 in T12
+  | T_Eta : forall Gamma D l j t1 T c,
+     Gamma, c; D |- t1 in T -> flowsto D (J T) l ->
+     Gamma, c; D |- eta l j t1 in Says l j T
+  | T_Case : forall t1 x t2 t3 T T1 T2 Gamma D c,
+       Gamma, c; D |- t1 in Sumty T1 T2 ->
+       (update Gamma x T1) ,c; D |- t2 in T ->
+       (update Gamma x T2) ,c; D |- t3 in T ->
+       Gamma, c; D |- case t1 x t2 t3 in T
+  | T_Bind : forall x t1 t2 l j  T1 T2 Gamma D c,
+      Gamma, c; D |- t1 in Says l j T1 ->
+      (update Gamma x T1) ,c; D |- t2 in T2 ->
+      Gamma, c; D |- bind x t1 t2 in T2 
+  | T_run : forall Gamma D t1 p T1 c,
+     Gamma, c; D |- t1 in T1 ->
+     Gamma, c; D |- run t1 p in T1
+  | T_ret : forall Gamma D t1 p T1 c,
+     Gamma, c; D |- t1 in T1 ->
+     Gamma, c; D |- ret t1 p in T1
+  | T_CompEnd : forall Gamma D t1 t2 T j1 j2 l1 l2 l j c,
+     Gamma, c; D |- t1 in Says l1 j1  T ->
+     Gamma, c; D |- t2 in Says l2 j2 T ->
+     l = andpr l1 l2 ->
+     j = andpr j1 j2 ->
+     Gamma, c; D |- compEnd t1 t2 in 
+     Says l j T
+  | T_Select : forall Gamma D t1 t2 p1 p2 T j1 j2 l1 l2 c,
+     Gamma, c; D  |- t1 in Says l1 j1 T ->
+     Gamma, c; D  |- t2 in Says l2 j2 T ->
+     p1 = orpr l1 l2 -> 
+     p2 = joinpr j1 j2 ->
+     Gamma, c; D |- select p1 p2 t1 t2 in Says p1 p2 T
+where "Gamma ',' c ';' D '|-' t 'in' T" 
+:= (has_type Gamma D c t T). *)

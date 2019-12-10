@@ -1,0 +1,11 @@
+DIGEST 9841570dc6225c27a46959e10a9a600a
+FCoq.extraction.ExtrOcamlNatInt
+R731:755 Coq.extraction.Extraction <> <> lib
+R774:778 Coq.Arith.Arith <> <> lib
+R780:783 Coq.Arith.Even <> <> lib
+R785:788 Coq.Arith.Div2 <> <> lib
+R790:794 Coq.Arith.EqNat <> <> lib
+R796:801 Coq.Arith.Euclid <> <> lib
+R819:832 Coq.extraction.ExtrOcamlBasic <> <> lib
+R2118:2120 Coq.Init.Datatypes <> nat ind
+R3253:3266 Coq.Arith.Euclid <> diveucl ind

@@ -1,0 +1,49 @@
+DIGEST 010ab80682009745335d09bf0659c43a
+FCoq.NArith.Ndiv_def
+R691:696 Coq.NArith.BinNat <> <> lib
+def 824:832 <> Pdiv_eucl
+R841:854 Coq.NArith.BinNat N pos_div_eucl def
+R859:862 Coq.Numbers.BinNums <> Npos constr
+R864:864 Coq.NArith.Ndiv_def <> b var
+R856:856 Coq.NArith.Ndiv_def <> a var
+def 880:896 <> Pdiv_eucl_correct
+R919:927 Coq.NArith.Ndiv_def <> Pdiv_eucl def
+R931:931 Coq.NArith.Ndiv_def <> b var
+R929:929 Coq.NArith.Ndiv_def <> a var
+R942:944 Coq.Init.Logic <> :type_scope:x_'='_x not
+R936:939 Coq.Numbers.BinNums <> Npos constr
+R941:941 Coq.NArith.Ndiv_def <> a var
+R955:957 Coq.NArith.BinNat <> :N_scope:x_'+'_x not
+R946:948 Coq.NArith.BinNat <> :N_scope:x_'*'_x not
+R945:945 Coq.NArith.Ndiv_def <> q var
+R949:952 Coq.Numbers.BinNums <> Npos constr
+R954:954 Coq.NArith.Ndiv_def <> b var
+R958:958 Coq.NArith.Ndiv_def <> r var
+R964:982 Coq.NArith.BinNat N pos_div_eucl_spec thm
+R987:990 Coq.Numbers.BinNums <> Npos constr
+R992:992 Coq.NArith.Ndiv_def <> b var
+R984:984 Coq.NArith.Ndiv_def <> a var
+prf 1003:1021 <> Pdiv_eucl_remainder
+R1050:1052 Coq.NArith.BinNat <> :N_scope:x_'<'_x not
+R1031:1033 Coq.Init.Datatypes <> snd def
+R1036:1044 Coq.NArith.Ndiv_def <> Pdiv_eucl def
+R1048:1048 Coq.NArith.Ndiv_def <> b var
+R1046:1046 Coq.NArith.Ndiv_def <> a var
+R1053:1056 Coq.Numbers.BinNums <> Npos constr
+R1058:1058 Coq.NArith.Ndiv_def <> b var
+R1079:1102 Coq.NArith.BinNat N pos_div_eucl_remainder thm
+R1107:1110 Coq.Numbers.BinNums <> Npos constr
+R1079:1102 Coq.NArith.BinNat N pos_div_eucl_remainder thm
+R1107:1110 Coq.Numbers.BinNums <> Npos constr
+syndef 1132:1140 <> Ndiv_eucl
+R1145:1154 Coq.NArith.BinNat N div_eucl def
+syndef 1181:1184 <> Ndiv
+R1189:1193 Coq.NArith.BinNat N div def
+syndef 1220:1223 <> Nmod
+R1228:1235 Coq.NArith.BinNat N modulo def
+syndef 1263:1279 <> Ndiv_eucl_correct
+R1284:1298 Coq.NArith.BinNat N div_eucl_spec thm
+syndef 1325:1335 <> Ndiv_mod_eq
+R1340:1349 Coq.NArith.BinNat N div_mod' thm
+syndef 1376:1382 <> Nmod_lt
+R1387:1394 Coq.NArith.BinNat N mod_lt thm

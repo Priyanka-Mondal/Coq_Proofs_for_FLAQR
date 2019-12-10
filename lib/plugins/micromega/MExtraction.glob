@@ -1,0 +1,16 @@
+DIGEST 1a15c0149b027b2893187cca616b457c
+FCoq.micromega.MExtraction
+R1173:1182 Coq.extraction.Extraction <> <> lib
+R1200:1209 Coq.micromega.ZMicromega <> <> lib
+R1227:1236 Coq.micromega.QMicromega <> <> lib
+R1254:1263 Coq.micromega.RMicromega <> <> lib
+R1281:1286 Coq.micromega.VarMap <> <> lib
+R1304:1316 Coq.micromega.RingMicromega <> <> lib
+R1334:1339 Coq.NArith.NArith <> <> lib
+R1357:1362 Coq.QArith.QArith <> <> lib
+R1384:1387 Coq.Init.Datatypes <> prod ind
+R1429:1432 Coq.Init.Datatypes <> list ind
+R1477:1480 Coq.Init.Datatypes <> bool ind
+R1524:1530 Coq.Init.Specif <> sumbool ind
+R1574:1579 Coq.Init.Datatypes <> option ind
+R1624:1628 Coq.Init.Specif <> sumor ind

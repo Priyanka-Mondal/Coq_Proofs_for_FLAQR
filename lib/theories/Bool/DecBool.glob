@@ -1,0 +1,45 @@
+DIGEST da4ea5b68a0ccc17081664978bc14c11
+FCoq.Bool.DecBool
+def 712:716 <> ifdec
+R741:741 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R743:747 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R749:749 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R742:742 Coq.Bool.DecBool <> A var
+R748:748 Coq.Bool.DecBool <> B var
+R757:757 Coq.Bool.DecBool <> C var
+R762:762 Coq.Bool.DecBool <> C var
+R772:772 Coq.Bool.DecBool <> H var
+R786:786 Coq.Bool.DecBool <> y var
+R779:779 Coq.Bool.DecBool <> x var
+prf 799:808 <> ifdec_left
+R843:843 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R845:849 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R851:851 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R844:844 Coq.Bool.DecBool <> A var
+R850:850 Coq.Bool.DecBool <> B var
+R862:865 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R877:877 Coq.Bool.DecBool <> C var
+R891:893 Coq.Init.Logic <> :type_scope:x_'='_x not
+R880:884 Coq.Bool.DecBool <> ifdec def
+R890:890 Coq.Bool.DecBool <> y var
+R888:888 Coq.Bool.DecBool <> x var
+R886:886 Coq.Bool.DecBool <> H var
+R894:894 Coq.Bool.DecBool <> x var
+R859:860 Coq.Init.Logic <> :type_scope:'~'_x not
+R861:861 Coq.Bool.DecBool <> B var
+prf 970:980 <> ifdec_right
+R1015:1015 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1017:1021 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1023:1023 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1016:1016 Coq.Bool.DecBool <> A var
+R1022:1022 Coq.Bool.DecBool <> B var
+R1034:1037 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1049:1049 Coq.Bool.DecBool <> C var
+R1063:1065 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1052:1056 Coq.Bool.DecBool <> ifdec def
+R1062:1062 Coq.Bool.DecBool <> y var
+R1060:1060 Coq.Bool.DecBool <> x var
+R1058:1058 Coq.Bool.DecBool <> H var
+R1066:1066 Coq.Bool.DecBool <> y var
+R1031:1032 Coq.Init.Logic <> :type_scope:'~'_x not
+R1033:1033 Coq.Bool.DecBool <> A var

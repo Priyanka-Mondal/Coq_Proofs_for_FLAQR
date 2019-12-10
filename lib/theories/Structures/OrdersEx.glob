@@ -1,0 +1,196 @@
+DIGEST d518516eb38fd4539291ac5c2721f0f7
+FCoq.Structures.OrdersEx
+R873:878 Coq.Structures.Orders <> <> lib
+R880:887 Coq.Arith.PeanoNat <> <> lib
+R889:900 Coq.PArith.POrderedType <> <> lib
+R902:907 Coq.NArith.BinNat <> <> lib
+R909:914 Coq.ZArith.BinInt <> <> lib
+R917:929 Coq.Classes.RelationPairs <> <> lib
+R931:945 Coq.Structures.EqualitiesFacts <> <> lib
+R1092:1103 Coq.Arith.PeanoNat Nat <> modtype
+mod 1079:1087 <> Nat_as_OT
+R1131:1140 Coq.PArith.BinPos Pos <> modtype
+mod 1113:1126 <> Positive_as_OT
+R1161:1168 Coq.NArith.BinNat N <> modtype
+mod 1150:1156 <> N_as_OT
+R1189:1196 Coq.ZArith.BinInt Z <> modtype
+mod 1178:1184 <> Z_as_OT
+R1286:1296 Coq.Structures.Orders OrderedType <> mod
+R1302:1314 Coq.Structures.Equalities DecidableType <> mod
+R1319:1319 Coq.Structures.OrdersEx O <> modtype
+mod 1274:1281 <> OT_as_DT
+R1406:1423 Coq.Structures.Equalities UsualDecidableType <> mod
+R1428:1436 Coq.Structures.OrdersEx Nat_as_OT <> modtype
+mod 1393:1401 <> Nat_as_DT
+R1464:1481 Coq.Structures.Equalities UsualDecidableType <> mod
+R1486:1499 Coq.Structures.OrdersEx Positive_as_OT <> modtype
+mod 1446:1459 <> Positive_as_DT
+R1520:1537 Coq.Structures.Equalities UsualDecidableType <> mod
+R1542:1548 Coq.Structures.OrdersEx N_as_OT <> modtype
+mod 1509:1515 <> N_as_DT
+R1569:1586 Coq.Structures.Equalities UsualDecidableType <> mod
+R1591:1597 Coq.Structures.OrdersEx Z_as_OT <> modtype
+mod 1558:1564 <> Z_as_DT
+R1759:1769 Coq.Structures.Orders OrderedType <> mod
+R1775:1785 Coq.Structures.Orders OrderedType <> mod
+mod 1737:1751 <> PairOrderedType
+R1797:1813 Coq.Structures.EqualitiesFacts PairDecidableType <> modtype
+R1815:1816 Coq.Structures.OrdersEx O1 <> modtype
+R1818:1819 Coq.Structures.OrdersEx O2 <> modtype
+def 1835:1836 PairOrderedType lt
+R1845:1864 Coq.Classes.RelationClasses <> relation_disjunction def
+R1884:1886 Coq.Classes.RelationPairs <> :signature_scope:x_'*'_x not
+R1879:1883 Coq.Structures.OrdersEx O1 eq defax
+R1887:1891 Coq.Structures.OrdersEx O2 lt defax
+R1872:1875 Coq.Classes.RelationPairs <> :signature_scope:x_'@@1' not
+R1867:1871 Coq.Structures.OrdersEx O1 lt defax
+inst 1917:1927 PairOrderedType lt_strorder
+R1931:1941 Coq.Classes.RelationClasses <> StrictOrder class
+R1943:1944 Coq.Structures.OrdersEx PairOrderedType lt def
+R2028:2050 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R2028:2050 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R2071:2093 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R2071:2093 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+inst 2375:2383 PairOrderedType lt_compat
+R2387:2392 Coq.Classes.Morphisms <> Proper class
+R2410:2411 Coq.Structures.OrdersEx PairOrderedType lt def
+R2397:2399 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2395:2396 Coq.Structures.OrdersEx PairOrderedType eq def
+R2402:2404 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2400:2401 Coq.Structures.OrdersEx PairOrderedType eq def
+R2405:2407 Coq.Init.Logic <> iff def
+def 2545:2551 PairOrderedType compare
+R2568:2577 Coq.Structures.OrdersEx O1 compare defax
+R2588:2590 Coq.Init.Datatypes <> fst def
+R2592:2592 Coq.Structures.OrdersEx <> y var
+R2580:2582 Coq.Init.Datatypes <> fst def
+R2584:2584 Coq.Structures.OrdersEx <> x var
+R2605:2606 Coq.Init.Datatypes <> Eq constr
+R2611:2620 Coq.Structures.OrdersEx O2 compare defax
+R2631:2633 Coq.Init.Datatypes <> snd def
+R2635:2635 Coq.Structures.OrdersEx <> y var
+R2623:2625 Coq.Init.Datatypes <> snd def
+R2627:2627 Coq.Structures.OrdersEx <> x var
+R2643:2644 Coq.Init.Datatypes <> Lt constr
+R2649:2650 Coq.Init.Datatypes <> Lt constr
+R2657:2658 Coq.Init.Datatypes <> Gt constr
+R2663:2664 Coq.Init.Datatypes <> Gt constr
+prf 2681:2692 PairOrderedType compare_spec
+R2708:2715 Coq.Init.Datatypes <> CompSpec def
+R2728:2734 Coq.Structures.OrdersEx PairOrderedType compare def
+R2738:2738 Coq.Structures.OrdersEx <> y var
+R2736:2736 Coq.Structures.OrdersEx <> x var
+R2725:2725 Coq.Structures.OrdersEx <> y var
+R2723:2723 Coq.Structures.OrdersEx <> x var
+R2720:2721 Coq.Structures.OrdersEx PairOrderedType lt def
+R2717:2718 Coq.Structures.OrdersEx PairOrderedType eq def
+R2782:2788 Coq.Structures.OrdersEx PairOrderedType compare def
+R2809:2823 Coq.Structures.OrdersEx O1 compare_spec prfax
+R2809:2823 Coq.Structures.OrdersEx O1 compare_spec prfax
+R2878:2892 Coq.Structures.OrdersEx O2 compare_spec prfax
+R2878:2892 Coq.Structures.OrdersEx O2 compare_spec prfax
+R2956:2970 Coq.Structures.OrdersEx PairOrderedType <> mod
+R3319:3334 Coq.Structures.Orders UsualOrderedType <> mod
+mod 3292:3314 <> PositiveOrderedTypeBits
+def 3350:3350 PositiveOrderedTypeBits t
+R3353:3360 Coq.Numbers.BinNums <> positive ind
+R3373:3382 Coq.Structures.Equalities HasUsualEq <> mod
+R3387:3395 Coq.Structures.Equalities UsualIsEq <> mod
+def 3411:3413 PositiveOrderedTypeBits eqb
+R3418:3424 Coq.PArith.BinPos Pos eqb def
+def 3440:3445 PositiveOrderedTypeBits eqb_eq
+R3450:3459 Coq.PArith.BinPos Pos eqb_eq thm
+R3472:3484 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+def 3499:3505 PositiveOrderedTypeBits bits_lt
+R3512:3519 Coq.Numbers.BinNums <> positive ind
+R3544:3544 Coq.Structures.OrdersEx <> q var
+R3541:3541 Coq.Structures.OrdersEx <> p var
+R3556:3557 Coq.Numbers.BinNums <> xH constr
+R3560:3561 Coq.Numbers.BinNums <> xI constr
+R3568:3571 Coq.Init.Logic <> True ind
+R3578:3579 Coq.Numbers.BinNums <> xH constr
+R3587:3591 Coq.Init.Logic <> False ind
+R3598:3599 Coq.Numbers.BinNums <> xO constr
+R3604:3605 Coq.Numbers.BinNums <> xO constr
+R3612:3618 Coq.Structures.OrdersEx <> bits_lt def
+R3622:3622 Coq.Structures.OrdersEx <> q var
+R3620:3620 Coq.Structures.OrdersEx <> p var
+R3629:3630 Coq.Numbers.BinNums <> xO constr
+R3640:3643 Coq.Init.Logic <> True ind
+R3650:3651 Coq.Numbers.BinNums <> xI constr
+R3656:3657 Coq.Numbers.BinNums <> xI constr
+R3664:3670 Coq.Structures.OrdersEx <> bits_lt def
+R3674:3674 Coq.Structures.OrdersEx <> q var
+R3672:3672 Coq.Structures.OrdersEx <> p var
+R3681:3682 Coq.Numbers.BinNums <> xI constr
+R3692:3696 Coq.Init.Logic <> False ind
+def 3720:3721 PositiveOrderedTypeBits lt
+R3724:3730 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt def
+prf 3742:3757 PositiveOrderedTypeBits bits_lt_antirefl
+R3772:3779 Coq.Numbers.BinNums <> positive ind
+R3782:3783 Coq.Init.Logic <> :type_scope:'~'_x not
+R3784:3790 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt def
+R3794:3794 Coq.Structures.OrdersEx <> x var
+R3792:3792 Coq.Structures.OrdersEx <> x var
+prf 3851:3863 PositiveOrderedTypeBits bits_lt_trans
+R3886:3893 Coq.Numbers.BinNums <> positive ind
+R3907:3910 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3922:3925 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3926:3932 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt def
+R3936:3936 Coq.Structures.OrdersEx <> z var
+R3934:3934 Coq.Structures.OrdersEx <> x var
+R3911:3917 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt def
+R3921:3921 Coq.Structures.OrdersEx <> z var
+R3919:3919 Coq.Structures.OrdersEx <> y var
+R3896:3902 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt def
+R3906:3906 Coq.Structures.OrdersEx <> y var
+R3904:3904 Coq.Structures.OrdersEx <> x var
+inst 4022:4030 PositiveOrderedTypeBits lt_compat
+R4034:4039 Coq.Classes.Morphisms <> Proper class
+R4057:4058 Coq.Structures.OrdersEx PositiveOrderedTypeBits lt def
+R4044:4046 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4042:4043 Coq.Structures.OrdersEx PositiveOrderedTypeBits eq def
+R4049:4051 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4047:4048 Coq.Structures.OrdersEx PositiveOrderedTypeBits eq def
+R4052:4054 Coq.Init.Logic <> iff def
+inst 4143:4153 PositiveOrderedTypeBits lt_strorder
+R4157:4167 Coq.Classes.RelationClasses <> StrictOrder class
+R4169:4170 Coq.Structures.OrdersEx PositiveOrderedTypeBits lt def
+R4200:4215 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt_antirefl thm
+R4225:4237 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt_trans thm
+R4200:4215 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt_antirefl thm
+R4225:4237 Coq.Structures.OrdersEx PositiveOrderedTypeBits bits_lt_trans thm
+def 4261:4267 PositiveOrderedTypeBits compare
+R4289:4289 Coq.Structures.OrdersEx <> y var
+R4286:4286 Coq.Structures.OrdersEx <> x var
+R4305:4306 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'1' not
+R4310:4311 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'1' not
+R4316:4322 Coq.Structures.OrdersEx <> compare def
+R4326:4326 Coq.Structures.OrdersEx <> y var
+R4324:4324 Coq.Structures.OrdersEx <> x var
+R4337:4338 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'1' not
+R4346:4347 Coq.Init.Datatypes <> Gt constr
+R4358:4359 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'0' not
+R4363:4364 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'0' not
+R4369:4375 Coq.Structures.OrdersEx <> compare def
+R4379:4379 Coq.Structures.OrdersEx <> y var
+R4377:4377 Coq.Structures.OrdersEx <> x var
+R4390:4391 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'0' not
+R4399:4400 Coq.Init.Datatypes <> Lt constr
+R4414:4415 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'1' not
+R4420:4421 Coq.Init.Datatypes <> Lt constr
+R4439:4440 Coq.Init.Datatypes <> Eq constr
+R4454:4455 Coq.PArith.BinPosDef <> :positive_scope:x_'~'_'0' not
+R4460:4461 Coq.Init.Datatypes <> Gt constr
+prf 4481:4492 PositiveOrderedTypeBits compare_spec
+R4508:4515 Coq.Init.Datatypes <> CompSpec def
+R4528:4534 Coq.Structures.OrdersEx PositiveOrderedTypeBits compare def
+R4538:4538 Coq.Structures.OrdersEx <> y var
+R4536:4536 Coq.Structures.OrdersEx <> x var
+R4525:4525 Coq.Structures.OrdersEx <> y var
+R4523:4523 Coq.Structures.OrdersEx <> x var
+R4520:4521 Coq.Structures.OrdersEx PositiveOrderedTypeBits lt def
+R4517:4518 Coq.Structures.OrdersEx PositiveOrderedTypeBits eq def
+R4561:4562 Coq.Structures.OrdersEx PositiveOrderedTypeBits eq def
+R4565:4566 Coq.Structures.OrdersEx PositiveOrderedTypeBits lt def
+R4709:4731 Coq.Structures.OrdersEx PositiveOrderedTypeBits <> mod

@@ -1,0 +1,48 @@
+DIGEST 011365a1a6cb73cba8286b12f2895d73
+FCoq.Bool.Zerob
+R691:695 Coq.Arith.Arith <> <> lib
+R713:716 Coq.Bool.Bool <> <> lib
+def 760:764 <> zerob
+R769:771 Coq.Init.Datatypes <> nat ind
+R776:779 Coq.Init.Datatypes <> bool ind
+R792:792 Coq.Bool.Zerob <> n var
+R805:805 Coq.Init.Datatypes <> O constr
+R810:813 Coq.Init.Datatypes <> true constr
+R821:821 Coq.Init.Datatypes <> S constr
+R828:832 Coq.Init.Datatypes <> false constr
+prf 848:863 <> zerob_true_intro
+R876:878 Coq.Init.Datatypes <> nat ind
+R886:889 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R897:899 Coq.Init.Logic <> :type_scope:x_'='_x not
+R890:894 Coq.Bool.Zerob <> zerob def
+R896:896 Coq.Bool.Zerob <> n var
+R900:903 Coq.Init.Datatypes <> true constr
+R882:884 Coq.Init.Logic <> :type_scope:x_'='_x not
+R881:881 Coq.Bool.Zerob <> n var
+prf 1013:1027 <> zerob_true_elim
+R1040:1042 Coq.Init.Datatypes <> nat ind
+R1059:1062 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1064:1066 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1063:1063 Coq.Bool.Zerob <> n var
+R1052:1054 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1045:1049 Coq.Bool.Zerob <> zerob def
+R1051:1051 Coq.Bool.Zerob <> n var
+R1055:1058 Coq.Init.Datatypes <> true constr
+prf 1140:1156 <> zerob_false_intro
+R1169:1171 Coq.Init.Datatypes <> nat ind
+R1180:1183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1191:1193 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1184:1188 Coq.Bool.Zerob <> zerob def
+R1190:1190 Coq.Bool.Zerob <> n var
+R1194:1198 Coq.Init.Datatypes <> false constr
+R1175:1178 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1174:1174 Coq.Bool.Zerob <> n var
+prf 1324:1339 <> zerob_false_elim
+R1352:1354 Coq.Init.Datatypes <> nat ind
+R1372:1375 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1377:1380 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1376:1376 Coq.Bool.Zerob <> n var
+R1364:1366 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1357:1361 Coq.Bool.Zerob <> zerob def
+R1363:1363 Coq.Bool.Zerob <> n var
+R1367:1371 Coq.Init.Datatypes <> false constr

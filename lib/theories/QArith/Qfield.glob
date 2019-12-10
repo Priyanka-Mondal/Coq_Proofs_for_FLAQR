@@ -1,0 +1,187 @@
+DIGEST bc67f6f5019c81ee3b2b635a6074e0de
+FCoq.QArith.Qfield
+R691:695 Coq.setoid_ring.Field <> <> lib
+R713:723 Coq.QArith.QArith_base <> <> lib
+R741:750 Coq.setoid_ring.NArithRing <> <> lib
+def 819:822 <> Qsrt
+R826:836 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R866:868 Coq.QArith.QArith_base <> Qeq def
+R861:864 Coq.QArith.QArith_base <> Qopp def
+R854:859 Coq.QArith.QArith_base <> Qminus def
+R848:852 Coq.QArith.QArith_base <> Qmult def
+R842:846 Coq.QArith.QArith_base <> Qplus def
+R901:909 Coq.QArith.QArith_base <> Qplus_0_l thm
+R901:909 Coq.QArith.QArith_base <> Qplus_0_l thm
+R920:929 Coq.QArith.QArith_base <> Qplus_comm thm
+R920:929 Coq.QArith.QArith_base <> Qplus_comm thm
+R940:950 Coq.QArith.QArith_base <> Qplus_assoc thm
+R940:950 Coq.QArith.QArith_base <> Qplus_assoc thm
+R961:969 Coq.QArith.QArith_base <> Qmult_1_l thm
+R961:969 Coq.QArith.QArith_base <> Qmult_1_l thm
+R980:989 Coq.QArith.QArith_base <> Qmult_comm thm
+R980:989 Coq.QArith.QArith_base <> Qmult_comm thm
+R1000:1010 Coq.QArith.QArith_base <> Qmult_assoc thm
+R1000:1010 Coq.QArith.QArith_base <> Qmult_assoc thm
+R1021:1038 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R1021:1038 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R1064:1074 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R1064:1074 Coq.QArith.QArith_base <> Qplus_opp_r thm
+def 1094:1097 <> Qsft
+R1101:1112 Coq.setoid_ring.Field_theory <> field_theory rec
+R1152:1154 Coq.QArith.QArith_base <> Qeq def
+R1147:1150 Coq.QArith.QArith_base <> Qinv def
+R1142:1145 Coq.QArith.QArith_base <> Qdiv def
+R1137:1140 Coq.QArith.QArith_base <> Qopp def
+R1130:1135 Coq.QArith.QArith_base <> Qminus def
+R1124:1128 Coq.QArith.QArith_base <> Qmult def
+R1118:1122 Coq.QArith.QArith_base <> Qplus def
+R1187:1190 Coq.QArith.Qfield <> Qsrt def
+R1187:1190 Coq.QArith.Qfield <> Qsrt def
+R1249:1258 Coq.QArith.QArith_base <> Qmult_comm thm
+R1249:1258 Coq.QArith.QArith_base <> Qmult_comm thm
+R1249:1258 Coq.QArith.QArith_base <> Qmult_comm thm
+R1269:1279 Coq.QArith.QArith_base <> Qmult_inv_r thm
+R1269:1279 Coq.QArith.QArith_base <> Qmult_inv_r thm
+prf 1306:1318 <> Qpower_theory
+R1322:1333 Coq.setoid_ring.Ring_theory <> power_theory rec
+R1354:1359 Coq.QArith.QArith_base <> Qpower def
+R1347:1352 Coq.ZArith.BinInt Z of_N def
+R1343:1345 Coq.QArith.QArith_base <> Qeq def
+R1337:1341 Coq.QArith.QArith_base <> Qmult def
+R1452:1459 Coq.QArith.QArith_base <> inject_Z def
+R1452:1459 Coq.QArith.QArith_base <> inject_Z def
+R1480:1484 Coq.QArith.QArith_base <> Qmake constr
+R1480:1484 Coq.QArith.QArith_base <> Qmake constr
+R1525:1528 Coq.Init.Datatypes <> true constr
+R1525:1528 Coq.Init.Datatypes <> true constr
+R1631:1634 Coq.Init.Datatypes <> true constr
+R1631:1634 Coq.Init.Datatypes <> true constr
+R1710:1711 Coq.Numbers.BinNums <> Z0 constr
+R1710:1711 Coq.Numbers.BinNums <> Z0 constr
+R1723:1726 Coq.Numbers.BinNums <> Zpos constr
+R1723:1726 Coq.Numbers.BinNums <> Zpos constr
+R1752:1757 Coq.ZArith.BinInt Z of_N def
+R1752:1757 Coq.ZArith.BinInt Z of_N def
+R1776:1779 Coq.setoid_ring.Field_theory <> NtoZ def
+R1776:1779 Coq.setoid_ring.Field_theory <> NtoZ def
+R1740:1743 Coq.Numbers.BinNums <> Npos constr
+R1859:1869 Coq.QArith.QArith_base <> Qeq_bool_eq thm
+R1887:1897 Coq.QArith.QArith_base <> Qeq_eq_bool thm
+R1842:1845 Coq.QArith.Qfield <> Qsft def
+R1932:1944 Coq.QArith.Qfield <> Qpower_theory thm
+R1932:1944 Coq.QArith.Qfield <> Qpower_theory thm
+sec 1992:1999 <> Examples
+var 2007:2009 Examples ex1
+R2028:2028 Coq.QArith.QArith_base <> Q rec
+R2038:2042 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2031:2031 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2035:2036 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2033:2033 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2032:2032 Coq.QArith.Qfield <> x var
+R2034:2034 Coq.QArith.Qfield <> y var
+R2037:2037 Coq.QArith.Qfield <> z var
+R2043:2043 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2047:2049 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2053:2053 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2045:2045 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2044:2044 Coq.QArith.Qfield <> x var
+R2046:2046 Coq.QArith.Qfield <> z var
+R2051:2051 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2050:2050 Coq.QArith.Qfield <> y var
+R2052:2052 Coq.QArith.Qfield <> z var
+var 2084:2086 Examples ex2
+R2103:2103 Coq.QArith.QArith_base <> Q rec
+R2109:2112 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2107:2107 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2106:2106 Coq.QArith.Qfield <> x var
+R2108:2108 Coq.QArith.Qfield <> y var
+R2114:2114 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2113:2113 Coq.QArith.Qfield <> y var
+R2115:2115 Coq.QArith.Qfield <> x var
+var 2146:2148 Examples ex3
+R2167:2167 Coq.QArith.QArith_base <> Q rec
+R2177:2180 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2170:2170 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2174:2175 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2172:2172 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2171:2171 Coq.QArith.Qfield <> x var
+R2173:2173 Coq.QArith.Qfield <> y var
+R2176:2176 Coq.QArith.Qfield <> z var
+R2182:2183 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2187:2187 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2181:2181 Coq.QArith.Qfield <> x var
+R2185:2185 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2184:2184 Coq.QArith.Qfield <> y var
+R2186:2186 Coq.QArith.Qfield <> z var
+var 2218:2220 Examples ex4
+R2249:2251 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2262:2262 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2224:2224 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2235:2237 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2248:2248 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2225:2232 Coq.QArith.QArith_base <> inject_Z def
+R2238:2245 Coq.QArith.QArith_base <> inject_Z def
+R2252:2259 Coq.QArith.QArith_base <> inject_Z def
+var 2283:2285 Examples ex5
+R2292:2295 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2290:2290 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2297:2297 Coq.QArith.QArith_base <> :Q_scope:x_'#'_x not
+var 2319:2321 Examples ex6
+R2336:2339 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2325:2325 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2329:2331 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2335:2335 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2327:2327 Coq.QArith.QArith_base <> :Q_scope:x_'#'_x not
+R2333:2333 Coq.QArith.QArith_base <> :Q_scope:x_'#'_x not
+R2341:2341 Coq.QArith.QArith_base <> :Q_scope:x_'#'_x not
+var 2363:2365 Examples ex7
+R2380:2380 Coq.QArith.QArith_base <> Q rec
+R2386:2388 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2384:2384 Coq.QArith.QArith_base <> :Q_scope:x_'-'_x not
+R2383:2383 Coq.QArith.Qfield <> x var
+R2385:2385 Coq.QArith.Qfield <> x var
+var 2419:2421 Examples ex8
+R2436:2436 Coq.QArith.QArith_base <> Q rec
+R2442:2445 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2440:2440 Coq.QArith.QArith_base <> :Q_scope:x_'^'_x not
+R2439:2439 Coq.QArith.Qfield <> x var
+R2446:2446 Coq.QArith.Qfield <> x var
+var 2476:2478 Examples ex9
+R2493:2493 Coq.QArith.QArith_base <> Q rec
+R2499:2502 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2497:2497 Coq.QArith.QArith_base <> :Q_scope:x_'^'_x not
+R2496:2496 Coq.QArith.Qfield <> x var
+var 2533:2536 Examples ex10
+R2553:2553 Coq.QArith.QArith_base <> Q rec
+R2563:2566 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2574:2577 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2567:2567 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2571:2572 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2569:2569 Coq.QArith.QArith_base <> :Q_scope:x_'/'_x not
+R2568:2568 Coq.QArith.Qfield <> x var
+R2570:2570 Coq.QArith.Qfield <> y var
+R2573:2573 Coq.QArith.Qfield <> y var
+R2578:2578 Coq.QArith.Qfield <> x var
+R2556:2557 Coq.Init.Logic <> :type_scope:'~'_x not
+R2562:2562 Coq.Init.Logic <> :type_scope:'~'_x not
+R2559:2560 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2558:2558 Coq.QArith.Qfield <> y var
+R2612:2619 Coq.QArith.Qfield Examples <> sec
+prf 2629:2637 <> Qopp_plus
+R2660:2663 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2654:2655 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2659:2659 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2657:2657 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2656:2656 Coq.QArith.Qfield <> a var
+R2658:2658 Coq.QArith.Qfield <> b var
+R2666:2668 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2664:2664 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2665:2665 Coq.QArith.Qfield <> a var
+R2669:2669 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2670:2670 Coq.QArith.Qfield <> b var
+prf 2708:2715 <> Qopp_opp
+R2733:2734 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2729:2730 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2731:2731 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2732:2732 Coq.QArith.Qfield <> q var
+R2735:2735 Coq.QArith.Qfield <> q var

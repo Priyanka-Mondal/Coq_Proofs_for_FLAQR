@@ -1,0 +1,21 @@
+DIGEST 5c2ac76e69095a8368cf455272f44051
+FCoq.FSets.FSetList
+R848:860 Coq.FSets.FSetInterface <> <> lib
+R1012:1021 Coq.FSets.FSetCompat <> <> lib
+R1023:1030 Coq.MSets.MSetList <> <> lib
+R1032:1037 Coq.Structures.Orders <> <> lib
+R1039:1047 Coq.Structures.OrdersAlt <> <> lib
+R1067:1077 Coq.Structures.OrderedType OrderedType <> mod
+R1083:1083 Coq.FSets.FSetInterface S <> mod
+R1102:1102 Coq.FSets.FSetList X <> modtype
+mod 1058:1061 <> Make
+R1119:1137 Coq.Structures.OrdersAlt Update_OT <> modtype
+R1139:1139 Coq.FSets.FSetList X <> modtype
+mod 1113:1114 <> Make.X'
+R1158:1170 Coq.MSets.MSetList Make <> modtype
+R1172:1173 Coq.FSets.FSetList Make.X' <> modtype
+mod 1150:1153 <> Make.MSet
+R1185:1208 Coq.FSets.FSetCompat Backport_Sets <> modtype
+R1210:1210 Coq.FSets.FSetList X <> modtype
+R1212:1215 Coq.FSets.FSetList Make.MSet <> modtype
+R1222:1225 Coq.FSets.FSetList Make <> mod

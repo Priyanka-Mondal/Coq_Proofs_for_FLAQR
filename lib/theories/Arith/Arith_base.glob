@@ -1,0 +1,15 @@
+DIGEST 94abe4482e21c243874f62561cd8df91
+FCoq.Arith.Arith_base
+R691:698 Coq.Arith.PeanoNat <> <> lib
+R717:718 Coq.Arith.Le <> <> lib
+R736:737 Coq.Arith.Lt <> <> lib
+R755:758 Coq.Arith.Plus <> <> lib
+R776:777 Coq.Arith.Gt <> <> lib
+R795:799 Coq.Arith.Minus <> <> lib
+R817:820 Coq.Arith.Mult <> <> lib
+R838:844 Coq.Arith.Between <> <> lib
+R862:870 Coq.Arith.Peano_dec <> <> lib
+R888:898 Coq.Arith.Compare_dec <> <> lib
+R916:924 Coq.Arith.Factorial <> <> lib
+R942:946 Coq.Arith.EqNat <> <> lib
+R964:969 Coq.Arith.Wf_nat <> <> lib

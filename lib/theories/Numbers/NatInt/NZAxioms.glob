@@ -1,0 +1,336 @@
+DIGEST e4dff69a82381678287c5c52c0655822
+FCoq.Numbers.NatInt.NZAxioms
+R744:753 Coq.Structures.Equalities <> <> lib
+R755:760 Coq.Structures.Orders <> <> lib
+R762:771 Coq.Numbers.NumPrelude <> <> lib
+R773:785 Coq.Structures.GenericMinMax <> <> lib
+R1156:1158 Coq.Structures.Equalities Typ <> mod
+modtype 1133:1144 <> ZeroSuccPred
+ax 1184:1187 ZeroSuccPred zero
+R1191:1191 Coq.Numbers.NatInt.NZAxioms T t defax
+ax 1216:1219 ZeroSuccPred succ
+R1224:1227 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1228:1228 Coq.Numbers.NatInt.NZAxioms T t defax
+R1223:1223 Coq.Numbers.NatInt.NZAxioms T t defax
+ax 1249:1252 ZeroSuccPred pred
+R1257:1260 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1261:1261 Coq.Numbers.NatInt.NZAxioms T t defax
+R1256:1256 Coq.Numbers.NatInt.NZAxioms T t defax
+R1268:1279 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred <> modtype
+R1319:1321 Coq.Structures.Equalities Typ <> mod
+R1334:1345 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred <> mod
+R1347:1347 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 1295:1314 <> ZeroSuccPredNotation
+R1368:1371 Coq.Numbers.NatInt.NZAxioms NZ zero defax
+not 1361:1361 ZeroSuccPredNotation ::'0'
+syndef 1384:1384 ZeroSuccPredNotation S
+R1389:1392 Coq.Numbers.NatInt.NZAxioms NZ succ defax
+syndef 1405:1405 ZeroSuccPredNotation P
+R1410:1413 Coq.Numbers.NatInt.NZAxioms NZ pred defax
+R1420:1439 Coq.Numbers.NatInt.NZAxioms ZeroSuccPredNotation <> modtype
+R1472:1474 Coq.Structures.Equalities Typ <> mod
+R1481:1492 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred <> mod
+R1494:1494 Coq.Numbers.NatInt.NZAxioms T <> modtype
+R1499:1518 Coq.Numbers.NatInt.NZAxioms ZeroSuccPredNotation <> mod
+R1520:1520 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 1455:1467 <> ZeroSuccPred'
+R1557:1559 Coq.Structures.Equalities Eq' <> mod
+R1572:1584 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred' <> mod
+R1586:1586 Coq.Numbers.NatInt.NZAxioms E <> modtype
+modtype 1536:1545 <> IsNZDomain
+inst 1608:1614 IsNZDomain succ_wd
+R1618:1623 Coq.Classes.Morphisms <> Proper class
+R1637:1637 Coq.Numbers.NatInt.NZAxioms NZ S syndef
+R1628:1632 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1626:1627 Coq.Numbers.NatInt.NZAxioms E eq defax
+R1633:1634 Coq.Numbers.NatInt.NZAxioms E eq defax
+inst 1658:1664 IsNZDomain pred_wd
+R1668:1673 Coq.Classes.Morphisms <> Proper class
+R1687:1687 Coq.Numbers.NatInt.NZAxioms NZ P syndef
+R1678:1682 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1676:1677 Coq.Numbers.NatInt.NZAxioms E eq defax
+R1683:1684 Coq.Numbers.NatInt.NZAxioms E eq defax
+ax 1697:1705 IsNZDomain pred_succ
+R1726:1729 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1719:1719 Coq.Numbers.NatInt.NZAxioms NZ P syndef
+R1722:1722 Coq.Numbers.NatInt.NZAxioms NZ S syndef
+R1724:1724 Coq.Numbers.NatInt.NZAxioms <> n var
+R1730:1730 Coq.Numbers.NatInt.NZAxioms <> n var
+ax 1740:1751 IsNZDomain bi_induction
+R1769:1772 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1768:1768 Coq.Numbers.NatInt.NZAxioms E t defax
+R1798:1805 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1809:1812 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1813:1813 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1839:1843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1854:1854 Coq.Numbers.NatInt.NZAxioms <> A var
+R1856:1856 Coq.Numbers.NatInt.NZAxioms <> n var
+R1827:1831 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1824:1824 Coq.Numbers.NatInt.NZAxioms <> A var
+R1826:1826 Coq.Numbers.NatInt.NZAxioms <> n var
+R1832:1832 Coq.Numbers.NatInt.NZAxioms <> A var
+R1835:1835 Coq.Numbers.NatInt.NZAxioms NZ S syndef
+R1837:1837 Coq.Numbers.NatInt.NZAxioms <> n var
+R1806:1806 Coq.Numbers.NatInt.NZAxioms <> A var
+R1779:1784 Coq.Classes.Morphisms <> Proper class
+R1797:1797 Coq.Numbers.NatInt.NZAxioms <> A var
+R1789:1791 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1787:1788 Coq.Numbers.NatInt.NZAxioms E eq defax
+R1792:1794 Coq.Init.Logic <> iff def
+R1863:1872 Coq.Numbers.NatInt.NZAxioms IsNZDomain <> modtype
+R2087:2089 Coq.Structures.Equalities Typ <> mod
+modtype 2070:2075 <> OneTwo
+ax 2115:2117 OneTwo one
+ax 2119:2121 OneTwo two
+R2125:2125 Coq.Numbers.NatInt.NZAxioms T t defax
+R2132:2137 Coq.Numbers.NatInt.NZAxioms OneTwo <> modtype
+R2171:2173 Coq.Structures.Equalities Typ <> mod
+R2186:2191 Coq.Numbers.NatInt.NZAxioms OneTwo <> mod
+R2193:2193 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 2153:2166 <> OneTwoNotation
+R2214:2216 Coq.Numbers.NatInt.NZAxioms NZ one defax
+not 2207:2207 OneTwoNotation ::'1'
+R2236:2238 Coq.Numbers.NatInt.NZAxioms NZ two defax
+not 2229:2229 OneTwoNotation ::'2'
+R2245:2258 Coq.Numbers.NatInt.NZAxioms OneTwoNotation <> modtype
+R2285:2287 Coq.Structures.Equalities Typ <> mod
+R2293:2298 Coq.Numbers.NatInt.NZAxioms OneTwo <> mod
+R2300:2300 Coq.Numbers.NatInt.NZAxioms T <> modtype
+R2305:2318 Coq.Numbers.NatInt.NZAxioms OneTwoNotation <> mod
+R2320:2320 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 2274:2280 <> OneTwo'
+R2348:2350 Coq.Structures.Equalities Eq' <> mod
+R2355:2367 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred' <> mod
+R2369:2369 Coq.Numbers.NatInt.NZAxioms E <> modtype
+R2374:2380 Coq.Numbers.NatInt.NZAxioms OneTwo' <> mod
+R2382:2382 Coq.Numbers.NatInt.NZAxioms E <> modtype
+modtype 2336:2343 <> IsOneTwo
+ax 2408:2415 IsOneTwo one_succ
+R2420:2423 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2424:2424 Coq.Numbers.NatInt.NZAxioms Z S syndef
+ax 2436:2443 IsOneTwo two_succ
+R2448:2451 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2452:2452 Coq.Numbers.NatInt.NZAxioms Z S syndef
+R2461:2468 Coq.Numbers.NatInt.NZAxioms IsOneTwo <> modtype
+R2500:2511 Coq.Structures.Equalities EqualityType <> mod
+R2516:2527 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred <> mod
+R2532:2541 Coq.Numbers.NatInt.NZAxioms IsNZDomain <> mod
+R2546:2551 Coq.Numbers.NatInt.NZAxioms OneTwo <> mod
+R2556:2563 Coq.Numbers.NatInt.NZAxioms IsOneTwo <> mod
+modtype 2484:2494 <> NZDomainSig
+R2595:2607 Coq.Structures.Equalities EqualityType' <> mod
+R2612:2624 Coq.Numbers.NatInt.NZAxioms ZeroSuccPred' <> mod
+R2629:2638 Coq.Numbers.NatInt.NZAxioms IsNZDomain <> mod
+R2643:2649 Coq.Numbers.NatInt.NZAxioms OneTwo' <> mod
+R2654:2661 Coq.Numbers.NatInt.NZAxioms IsOneTwo <> mod
+modtype 2578:2589 <> NZDomainSig'
+R2754:2756 Coq.Structures.Equalities Typ <> mod
+modtype 2734:2742 <> AddSubMul
+ax 2779:2781 AddSubMul add
+ax 2783:2785 AddSubMul sub
+ax 2787:2789 AddSubMul mul
+R2794:2797 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2799:2802 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2803:2803 Coq.Numbers.NatInt.NZAxioms T t defax
+R2798:2798 Coq.Numbers.NatInt.NZAxioms T t defax
+R2793:2793 Coq.Numbers.NatInt.NZAxioms T t defax
+R2810:2818 Coq.Numbers.NatInt.NZAxioms AddSubMul <> modtype
+R2855:2857 Coq.Structures.Equalities Typ <> mod
+R2870:2878 Coq.Numbers.NatInt.NZAxioms AddSubMul <> mod
+R2880:2880 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 2834:2850 <> AddSubMulNotation
+R2906:2908 Coq.Numbers.NatInt.NZAxioms NZ add defax
+not 2894:2894 AddSubMulNotation ::x_'+'_x
+R2938:2940 Coq.Numbers.NatInt.NZAxioms NZ sub defax
+not 2926:2926 AddSubMulNotation ::x_'-'_x
+R2970:2972 Coq.Numbers.NatInt.NZAxioms NZ mul defax
+not 2958:2958 AddSubMulNotation ::x_'*'_x
+R2984:3000 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation <> modtype
+R3030:3032 Coq.Structures.Equalities Typ <> mod
+R3038:3046 Coq.Numbers.NatInt.NZAxioms AddSubMul <> mod
+R3048:3048 Coq.Numbers.NatInt.NZAxioms T <> modtype
+R3053:3069 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation <> mod
+R3071:3071 Coq.Numbers.NatInt.NZAxioms T <> modtype
+modtype 3016:3025 <> AddSubMul'
+R3109:3120 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+R3133:3142 Coq.Numbers.NatInt.NZAxioms AddSubMul' <> mod
+R3144:3144 Coq.Numbers.NatInt.NZAxioms E <> modtype
+modtype 3087:3097 <> IsAddSubMul
+inst 3166:3171 IsAddSubMul add_wd
+R3175:3180 Coq.Classes.Morphisms <> Proper class
+R3201:3203 Coq.Numbers.NatInt.NZAxioms NZ add defax
+R3185:3189 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3183:3184 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3192:3196 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3190:3191 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3197:3198 Coq.Numbers.NatInt.NZAxioms E eq defax
+inst 3224:3229 IsAddSubMul sub_wd
+R3233:3238 Coq.Classes.Morphisms <> Proper class
+R3259:3261 Coq.Numbers.NatInt.NZAxioms NZ sub defax
+R3243:3247 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3241:3242 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3250:3254 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3248:3249 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3255:3256 Coq.Numbers.NatInt.NZAxioms E eq defax
+inst 3282:3287 IsAddSubMul mul_wd
+R3291:3296 Coq.Classes.Morphisms <> Proper class
+R3317:3319 Coq.Numbers.NatInt.NZAxioms NZ mul defax
+R3301:3305 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3299:3300 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3308:3312 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3306:3307 Coq.Numbers.NatInt.NZAxioms E eq defax
+R3313:3314 Coq.Numbers.NatInt.NZAxioms E eq defax
+ax 3329:3335 IsAddSubMul add_0_l
+R3354:3357 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3350:3352 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3353:3353 Coq.Numbers.NatInt.NZAxioms <> n var
+R3358:3358 Coq.Numbers.NatInt.NZAxioms <> n var
+ax 3368:3377 IsAddSubMul add_succ_l
+R3402:3405 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3393:3393 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3397:3400 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3394:3394 Coq.Numbers.NatInt.NZAxioms E S syndef
+R3396:3396 Coq.Numbers.NatInt.NZAxioms <> n var
+R3401:3401 Coq.Numbers.NatInt.NZAxioms <> m var
+R3406:3406 Coq.Numbers.NatInt.NZAxioms E S syndef
+R3410:3412 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3409:3409 Coq.Numbers.NatInt.NZAxioms <> n var
+R3413:3413 Coq.Numbers.NatInt.NZAxioms <> m var
+ax 3424:3430 IsAddSubMul sub_0_r
+R3449:3452 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3445:3447 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'-'_x not
+R3444:3444 Coq.Numbers.NatInt.NZAxioms <> n var
+R3453:3453 Coq.Numbers.NatInt.NZAxioms <> n var
+ax 3463:3472 IsAddSubMul sub_succ_r
+R3497:3500 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3489:3492 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'-'_x not
+R3496:3496 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'-'_x not
+R3488:3488 Coq.Numbers.NatInt.NZAxioms <> n var
+R3493:3493 Coq.Numbers.NatInt.NZAxioms E S syndef
+R3495:3495 Coq.Numbers.NatInt.NZAxioms <> m var
+R3501:3501 Coq.Numbers.NatInt.NZAxioms E P syndef
+R3505:3507 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'-'_x not
+R3504:3504 Coq.Numbers.NatInt.NZAxioms <> n var
+R3508:3508 Coq.Numbers.NatInt.NZAxioms <> m var
+ax 3519:3525 IsAddSubMul mul_0_l
+R3544:3547 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3540:3542 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R3543:3543 Coq.Numbers.NatInt.NZAxioms <> n var
+ax 3558:3567 IsAddSubMul mul_succ_l
+R3590:3593 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3586:3588 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R3583:3583 Coq.Numbers.NatInt.NZAxioms E S syndef
+R3585:3585 Coq.Numbers.NatInt.NZAxioms <> n var
+R3589:3589 Coq.Numbers.NatInt.NZAxioms <> m var
+R3599:3601 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3595:3597 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R3594:3594 Coq.Numbers.NatInt.NZAxioms <> n var
+R3598:3598 Coq.Numbers.NatInt.NZAxioms <> m var
+R3602:3602 Coq.Numbers.NatInt.NZAxioms <> m var
+R3609:3619 Coq.Numbers.NatInt.NZAxioms IsAddSubMul <> modtype
+R3653:3663 Coq.Numbers.NatInt.NZAxioms NZDomainSig <> mod
+R3668:3676 Coq.Numbers.NatInt.NZAxioms AddSubMul <> mod
+R3681:3691 Coq.Numbers.NatInt.NZAxioms IsAddSubMul <> mod
+modtype 3635:3648 <> NZBasicFunsSig
+R3725:3736 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+R3741:3750 Coq.Numbers.NatInt.NZAxioms AddSubMul' <> mod
+R3754:3764 Coq.Numbers.NatInt.NZAxioms IsAddSubMul <> mod
+modtype 3706:3720 <> NZBasicFunsSig'
+R3836:3849 Coq.Numbers.NatInt.NZAxioms NZBasicFunsSig <> mod
+modtype 3821:3831 <> NZAxiomsSig
+R3880:3894 Coq.Numbers.NatInt.NZAxioms NZBasicFunsSig' <> mod
+modtype 3864:3875 <> NZAxiomsSig'
+R3951:3961 Coq.Numbers.NatInt.NZAxioms NZDomainSig <> mod
+R3966:3970 Coq.Structures.Orders HasLt <> mod
+R3975:3979 Coq.Structures.Orders HasLe <> mod
+modtype 3942:3946 <> NZOrd
+R4004:4015 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+R4020:4024 Coq.Structures.Orders HasLt <> mod
+R4029:4033 Coq.Structures.Orders HasLe <> mod
+R4060:4069 Coq.Structures.Orders LtNotation <> mod
+R4074:4083 Coq.Structures.Orders LeNotation <> mod
+R4088:4099 Coq.Structures.Orders LtLeNotation <> mod
+modtype 3994:3999 <> NZOrd'
+R4136:4141 Coq.Numbers.NatInt.NZAxioms NZOrd' <> mod
+modtype 4115:4121 <> IsNZOrd
+inst 4163:4167 IsNZOrd lt_wd
+R4171:4176 Coq.Classes.Morphisms <> Proper class
+R4198:4199 Coq.Numbers.NatInt.NZAxioms NZ lt defax
+R4181:4185 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4179:4180 Coq.Numbers.NatInt.NZAxioms NZ eq defax
+R4188:4192 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4186:4187 Coq.Numbers.NatInt.NZAxioms NZ eq defax
+R4193:4195 Coq.Init.Logic <> iff def
+ax 4209:4219 IsNZOrd lt_eq_cases
+R4241:4245 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4236:4239 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R4235:4235 Coq.Numbers.NatInt.NZAxioms <> n var
+R4240:4240 Coq.Numbers.NatInt.NZAxioms <> m var
+R4251:4254 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4247:4249 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R4246:4246 Coq.Numbers.NatInt.NZAxioms <> n var
+R4250:4250 Coq.Numbers.NatInt.NZAxioms <> m var
+R4256:4259 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R4255:4255 Coq.Numbers.NatInt.NZAxioms <> n var
+R4260:4260 Coq.Numbers.NatInt.NZAxioms <> m var
+ax 4270:4278 IsNZOrd lt_irrefl
+R4292:4294 Coq.Init.Logic <> :type_scope:'~'_x not
+R4300:4300 Coq.Init.Logic <> :type_scope:'~'_x not
+R4296:4298 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R4295:4295 Coq.Numbers.NatInt.NZAxioms <> n var
+R4299:4299 Coq.Numbers.NatInt.NZAxioms <> n var
+ax 4310:4318 IsNZOrd lt_succ_r
+R4341:4345 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4335:4337 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R4334:4334 Coq.Numbers.NatInt.NZAxioms <> n var
+R4338:4338 Coq.Numbers.NatInt.NZAxioms NZ S syndef
+R4340:4340 Coq.Numbers.NatInt.NZAxioms <> m var
+R4347:4350 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R4346:4346 Coq.Numbers.NatInt.NZAxioms <> n var
+R4351:4351 Coq.Numbers.NatInt.NZAxioms <> m var
+R4358:4364 Coq.Numbers.NatInt.NZAxioms IsNZOrd <> modtype
+R4485:4489 Coq.Numbers.NatInt.NZAxioms NZOrd <> mod
+R4494:4500 Coq.Numbers.NatInt.NZAxioms IsNZOrd <> mod
+modtype 4473:4480 <> NZOrdSig
+R4528:4533 Coq.Numbers.NatInt.NZAxioms NZOrd' <> mod
+R4538:4544 Coq.Numbers.NatInt.NZAxioms IsNZOrd <> mod
+modtype 4515:4523 <> NZOrdSig'
+R4608:4621 Coq.Numbers.NatInt.NZAxioms NZBasicFunsSig <> mod
+R4626:4633 Coq.Numbers.NatInt.NZAxioms NZOrdSig <> mod
+R4639:4646 Coq.Numbers.NatInt.NZAxioms NZOrdSig <> mod
+R4651:4659 Coq.Numbers.NatInt.NZAxioms AddSubMul <> mod
+R4664:4674 Coq.Numbers.NatInt.NZAxioms IsAddSubMul <> mod
+R4679:4687 Coq.Structures.GenericMinMax HasMinMax <> mod
+modtype 4590:4603 <> NZOrdAxiomsSig
+R4721:4734 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R4740:4748 Coq.Numbers.NatInt.NZAxioms NZOrdSig' <> mod
+R4753:4762 Coq.Numbers.NatInt.NZAxioms AddSubMul' <> mod
+R4767:4777 Coq.Numbers.NatInt.NZAxioms IsAddSubMul <> mod
+R4782:4790 Coq.Structures.GenericMinMax HasMinMax <> mod
+modtype 4702:4716 <> NZOrdAxiomsSig'
+R4864:4871 Coq.Numbers.NatInt.NZAxioms NZOrdSig <> mod
+R4876:4885 Coq.Structures.Orders HasCompare <> mod
+modtype 4849:4859 <> NZDecOrdSig
+R4916:4924 Coq.Numbers.NatInt.NZAxioms NZOrdSig' <> mod
+R4929:4938 Coq.Structures.Orders HasCompare <> mod
+modtype 4900:4911 <> NZDecOrdSig'
+R4975:4988 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R4993:5002 Coq.Structures.Orders HasCompare <> mod
+modtype 4954:4970 <> NZDecOrdAxiomsSig
+R5039:5053 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R5058:5067 Coq.Structures.Orders HasCompare <> mod
+modtype 5017:5034 <> NZDecOrdAxiomsSig'
+R5131:5145 Coq.Numbers.NatInt.NZAxioms NZBasicFunsSig' <> mod
+modtype 5109:5116 <> NZSquare
+ax 5167:5172 NZSquare square
+R5177:5180 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5181:5181 Coq.Numbers.NatInt.NZAxioms NZ t defax
+R5176:5176 Coq.Numbers.NatInt.NZAxioms NZ t defax
+ax 5191:5201 NZSquare square_spec
+R5223:5226 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R5215:5220 Coq.Numbers.NatInt.NZAxioms NZSquare square defax
+R5222:5222 Coq.Numbers.NatInt.NZAxioms <> n var
+R5228:5230 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R5227:5227 Coq.Numbers.NatInt.NZAxioms <> n var
+R5231:5231 Coq.Numbers.NatInt.NZAxioms <> n var
+R5238:5245 Coq.Numbers.NatInt.NZAxioms NZSquare <> modtype

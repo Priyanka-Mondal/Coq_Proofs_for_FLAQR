@@ -1,0 +1,20 @@
+DIGEST acd20573bfe36390721cdee86eb10916
+FCoq.ZArith.Zminmax
+R691:696 Coq.Structures.Orders <> <> lib
+R698:703 Coq.ZArith.BinInt <> <> lib
+R705:712 Coq.ZArith.Zcompare <> <> lib
+R714:719 Coq.ZArith.Zorder <> <> lib
+syndef 835:857 <> Zmin_max_absorption_r_r
+R862:881 Coq.ZArith.BinInt Z min_max_absorption thm
+syndef 908:930 <> Zmax_min_absorption_r_r
+R935:954 Coq.ZArith.BinInt Z max_min_absorption thm
+syndef 981:996 <> Zmax_min_distr_r
+R1001:1015 Coq.ZArith.BinInt Z max_min_distr thm
+syndef 1042:1057 <> Zmin_max_distr_r
+R1062:1076 Coq.ZArith.BinInt Z min_max_distr thm
+syndef 1103:1120 <> Zmax_min_modular_r
+R1125:1141 Coq.ZArith.BinInt Z max_min_modular thm
+syndef 1168:1185 <> Zmin_max_modular_r
+R1190:1206 Coq.ZArith.BinInt Z min_max_modular thm
+syndef 1233:1248 <> max_min_disassoc
+R1253:1270 Coq.ZArith.BinInt Z max_min_disassoc thm

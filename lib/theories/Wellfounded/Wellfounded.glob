@@ -1,0 +1,10 @@
+DIGEST 2c8182133b38adf4c764b2a83053c473
+FCoq.Wellfounded.Wellfounded
+R691:704 Coq.Wellfounded.Disjoint_Union <> <> lib
+R722:730 Coq.Wellfounded.Inclusion <> <> lib
+R748:760 Coq.Wellfounded.Inverse_Image <> <> lib
+R778:805 Coq.Wellfounded.Lexicographic_Exponentiation <> <> lib
+R823:843 Coq.Wellfounded.Lexicographic_Product <> <> lib
+R861:878 Coq.Wellfounded.Transitive_Closure <> <> lib
+R896:900 Coq.Wellfounded.Union <> <> lib
+R918:930 Coq.Wellfounded.Well_Ordering <> <> lib

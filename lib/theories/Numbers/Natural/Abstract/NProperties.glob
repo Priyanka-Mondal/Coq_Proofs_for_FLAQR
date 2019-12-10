@@ -1,0 +1,44 @@
+DIGEST 4c42d8f9c068c85c001f28db30c6b984
+FCoq.Numbers.Natural.Abstract.NProperties
+R691:697 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R715:721 Coq.Numbers.Natural.Abstract.NMaxMin <> <> lib
+R723:729 Coq.Numbers.Natural.Abstract.NParity <> <> lib
+R731:734 Coq.Numbers.Natural.Abstract.NPow <> <> lib
+R736:740 Coq.Numbers.Natural.Abstract.NSqrt <> <> lib
+R742:745 Coq.Numbers.Natural.Abstract.NLog <> <> lib
+R747:750 Coq.Numbers.Natural.Abstract.NDiv <> <> lib
+R752:755 Coq.Numbers.Natural.Abstract.NGcd <> <> lib
+R757:760 Coq.Numbers.Natural.Abstract.NLcm <> <> lib
+R762:766 Coq.Numbers.Natural.Abstract.NBits <> <> lib
+R1184:1197 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig <> mod
+R1203:1213 Coq.Numbers.Natural.Abstract.NMaxMin NMaxMinProp <> mod
+R1215:1215 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+modtype 1170:1179 <> NBasicProp
+R1245:1254 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> mod
+R1259:1268 Coq.Numbers.Natural.Abstract.NProperties NBasicProp <> mod
+R1270:1270 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1277:1287 Coq.Numbers.Natural.Abstract.NParity NParityProp <> mod
+R1289:1289 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1291:1291 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1296:1303 Coq.Numbers.Natural.Abstract.NPow NPowProp <> mod
+R1305:1305 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1307:1307 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1312:1320 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp <> modtype
+R1322:1322 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1324:1324 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1331:1339 Coq.Numbers.Natural.Abstract.NLog NLog2Prop <> mod
+R1341:1341 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1343:1343 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1348:1355 Coq.Numbers.Natural.Abstract.NDiv NDivProp <> mod
+R1357:1357 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1359:1359 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1364:1371 Coq.Numbers.Natural.Abstract.NGcd NGcdProp <> mod
+R1373:1373 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1375:1375 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1380:1387 Coq.Numbers.Natural.Abstract.NLcm NLcmProp <> mod
+R1389:1389 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1391:1391 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+R1398:1406 Coq.Numbers.Natural.Abstract.NBits NBitsProp <> mod
+R1408:1408 Coq.Numbers.Natural.Abstract.NProperties N <> modtype
+R1410:1410 Coq.Numbers.Natural.Abstract.NProperties P <> modtype
+modtype 1231:1240 <> NExtraProp

@@ -1,0 +1,5 @@
+DIGEST de2ce3bf3c44ba29d0579f4dc0296232
+FCoq.QArith.QArith
+R691:701 Coq.QArith.QArith_base <> <> lib
+R719:723 Coq.QArith.Qring <> <> lib
+R741:750 Coq.QArith.Qreduction <> <> lib

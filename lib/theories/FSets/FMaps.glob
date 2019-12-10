@@ -1,0 +1,12 @@
+DIGEST a4333759db86a166b056299ba865285b
+FCoq.FSets.FMaps
+R692:702 Coq.Structures.OrderedType <> <> lib
+R704:716 Coq.Structures.OrderedTypeEx <> <> lib
+R718:731 Coq.Structures.OrderedTypeAlt <> <> lib
+R749:761 Coq.Structures.DecidableType <> <> lib
+R763:777 Coq.Structures.DecidableTypeEx <> <> lib
+R795:807 Coq.FSets.FMapInterface <> <> lib
+R825:836 Coq.FSets.FMapPositive <> <> lib
+R854:862 Coq.FSets.FMapFacts <> <> lib
+R880:891 Coq.FSets.FMapWeakList <> <> lib
+R909:916 Coq.FSets.FMapList <> <> lib

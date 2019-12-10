@@ -1,0 +1,788 @@
+DIGEST ff748c6a3ea7d46e9f34336ade12b172
+FBignums.SpecViaQ.QSig
+R541:546 Coq.QArith.QArith <> <> lib
+R548:553 Coq.QArith.Qpower <> <> lib
+R555:561 Coq.QArith.Qminmax <> <> lib
+R563:568 Coq.Structures.Orders <> <> lib
+R570:582 Coq.Classes.RelationPairs <> <> lib
+R584:596 Coq.Structures.GenericMinMax <> <> lib
+modtype 763:767 <> QType
+ax 782:782 QType t
+ax 804:807 QType to_Q
+R812:815 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R816:816 Coq.QArith.QArith_base <> Q rec
+R811:811 Bignums.SpecViaQ.QSig QType t defax
+R847:850 Bignums.SpecViaQ.QSig QType to_Q defax
+not 835:835 QType ::'['_x_']'
+def 869:870 QType eq
+R882:885 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R879:879 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R881:881 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R880:880 Bignums.SpecViaQ.QSig <> x var
+R886:886 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R888:888 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R887:887 Bignums.SpecViaQ.QSig <> y var
+def 903:904 QType lt
+R916:918 Coq.QArith.QArith_base <> :Q_scope:x_'<'_x not
+R913:913 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R915:915 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R914:914 Bignums.SpecViaQ.QSig <> x var
+R919:919 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R921:921 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R920:920 Bignums.SpecViaQ.QSig <> y var
+def 936:937 QType le
+R949:952 Coq.QArith.QArith_base <> :Q_scope:x_'<='_x not
+R946:946 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R948:948 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R947:947 Bignums.SpecViaQ.QSig <> x var
+R953:953 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R955:955 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R954:954 Bignums.SpecViaQ.QSig <> y var
+ax 970:973 QType of_Q
+R978:981 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R982:982 Bignums.SpecViaQ.QSig QType t defax
+R977:977 Coq.QArith.QArith_base <> Q rec
+ax 996:1004 QType spec_of_Q
+R1030:1033 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1017:1020 Bignums.SpecViaQ.QSig QType to_Q defax
+R1023:1026 Bignums.SpecViaQ.QSig QType of_Q defax
+R1028:1028 Bignums.SpecViaQ.QSig <> x var
+R1034:1034 Bignums.SpecViaQ.QSig <> x var
+ax 1049:1051 QType red
+R1056:1059 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1060:1060 Bignums.SpecViaQ.QSig QType t defax
+R1055:1055 Bignums.SpecViaQ.QSig QType t defax
+ax 1074:1080 QType compare
+R1085:1088 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1090:1093 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1094:1103 Coq.Init.Datatypes <> comparison ind
+R1089:1089 Bignums.SpecViaQ.QSig QType t defax
+R1084:1084 Bignums.SpecViaQ.QSig QType t defax
+ax 1117:1123 QType eq_bool
+R1128:1131 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1133:1136 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1137:1140 Coq.Init.Datatypes <> bool ind
+R1132:1132 Bignums.SpecViaQ.QSig QType t defax
+R1127:1127 Bignums.SpecViaQ.QSig QType t defax
+ax 1154:1156 QType max
+R1161:1164 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1166:1169 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1170:1170 Bignums.SpecViaQ.QSig QType t defax
+R1165:1165 Bignums.SpecViaQ.QSig QType t defax
+R1160:1160 Bignums.SpecViaQ.QSig QType t defax
+ax 1184:1186 QType min
+R1191:1194 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1196:1199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1200:1200 Bignums.SpecViaQ.QSig QType t defax
+R1195:1195 Bignums.SpecViaQ.QSig QType t defax
+R1190:1190 Bignums.SpecViaQ.QSig QType t defax
+ax 1214:1217 QType zero
+R1221:1221 Bignums.SpecViaQ.QSig QType t defax
+ax 1235:1237 QType one
+R1241:1241 Bignums.SpecViaQ.QSig QType t defax
+ax 1255:1263 QType minus_one
+R1267:1267 Bignums.SpecViaQ.QSig QType t defax
+ax 1281:1283 QType add
+R1288:1291 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1293:1296 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1297:1297 Bignums.SpecViaQ.QSig QType t defax
+R1292:1292 Bignums.SpecViaQ.QSig QType t defax
+R1287:1287 Bignums.SpecViaQ.QSig QType t defax
+ax 1311:1313 QType sub
+R1318:1321 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1323:1326 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1327:1327 Bignums.SpecViaQ.QSig QType t defax
+R1322:1322 Bignums.SpecViaQ.QSig QType t defax
+R1317:1317 Bignums.SpecViaQ.QSig QType t defax
+ax 1341:1343 QType opp
+R1348:1351 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1352:1352 Bignums.SpecViaQ.QSig QType t defax
+R1347:1347 Bignums.SpecViaQ.QSig QType t defax
+ax 1366:1368 QType mul
+R1373:1376 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1378:1381 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1382:1382 Bignums.SpecViaQ.QSig QType t defax
+R1377:1377 Bignums.SpecViaQ.QSig QType t defax
+R1372:1372 Bignums.SpecViaQ.QSig QType t defax
+ax 1396:1401 QType square
+R1406:1409 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1410:1410 Bignums.SpecViaQ.QSig QType t defax
+R1405:1405 Bignums.SpecViaQ.QSig QType t defax
+ax 1424:1426 QType inv
+R1431:1434 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1435:1435 Bignums.SpecViaQ.QSig QType t defax
+R1430:1430 Bignums.SpecViaQ.QSig QType t defax
+ax 1449:1451 QType div
+R1456:1459 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1461:1464 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1465:1465 Bignums.SpecViaQ.QSig QType t defax
+R1460:1460 Bignums.SpecViaQ.QSig QType t defax
+R1455:1455 Bignums.SpecViaQ.QSig QType t defax
+ax 1479:1483 QType power
+R1488:1491 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1493:1496 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1497:1497 Bignums.SpecViaQ.QSig QType t defax
+R1492:1492 Coq.Numbers.BinNums <> Z ind
+R1487:1487 Bignums.SpecViaQ.QSig QType t defax
+ax 1512:1519 QType spec_red
+R1540:1543 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1533:1533 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1539:1539 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1534:1536 Bignums.SpecViaQ.QSig QType red defax
+R1538:1538 Bignums.SpecViaQ.QSig <> x var
+R1544:1544 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1546:1546 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1545:1545 Bignums.SpecViaQ.QSig <> x var
+ax 1560:1574 QType strong_spec_red
+R1595:1597 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1588:1588 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1594:1594 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1589:1591 Bignums.SpecViaQ.QSig QType red defax
+R1593:1593 Bignums.SpecViaQ.QSig <> x var
+R1598:1601 Coq.QArith.Qreduction <> Qred def
+R1603:1603 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1605:1605 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1604:1604 Bignums.SpecViaQ.QSig <> x var
+ax 1619:1630 QType spec_compare
+R1657:1660 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1671:1671 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1646:1652 Bignums.SpecViaQ.QSig QType compare defax
+R1656:1656 Bignums.SpecViaQ.QSig <> y var
+R1654:1654 Bignums.SpecViaQ.QSig <> x var
+R1664:1667 Coq.QArith.QArith_base <> :Q_scope:x_'?='_x not
+R1661:1661 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1663:1663 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1662:1662 Bignums.SpecViaQ.QSig <> x var
+R1668:1668 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1670:1670 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1669:1669 Bignums.SpecViaQ.QSig <> y var
+ax 1685:1696 QType spec_eq_bool
+R1723:1725 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1712:1718 Bignums.SpecViaQ.QSig QType eq_bool defax
+R1722:1722 Bignums.SpecViaQ.QSig <> y var
+R1720:1720 Bignums.SpecViaQ.QSig <> x var
+R1726:1733 Coq.QArith.QArith_base <> Qeq_bool def
+R1739:1739 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1741:1741 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1740:1740 Bignums.SpecViaQ.QSig <> y var
+R1735:1735 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1737:1737 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1736:1736 Bignums.SpecViaQ.QSig <> x var
+ax 1755:1762 QType spec_max
+R1787:1790 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1778:1778 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1786:1786 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1779:1781 Bignums.SpecViaQ.QSig QType max defax
+R1785:1785 Bignums.SpecViaQ.QSig <> y var
+R1783:1783 Bignums.SpecViaQ.QSig <> x var
+R1791:1794 Coq.QArith.Qminmax <> Qmax def
+R1800:1800 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1802:1802 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1801:1801 Bignums.SpecViaQ.QSig <> y var
+R1796:1796 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1798:1798 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1797:1797 Bignums.SpecViaQ.QSig <> x var
+ax 1816:1823 QType spec_min
+R1848:1851 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1839:1839 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1847:1847 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1840:1842 Bignums.SpecViaQ.QSig QType min defax
+R1846:1846 Bignums.SpecViaQ.QSig <> y var
+R1844:1844 Bignums.SpecViaQ.QSig <> x var
+R1852:1855 Coq.QArith.Qminmax <> Qmin def
+R1861:1861 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1863:1863 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1862:1862 Bignums.SpecViaQ.QSig <> y var
+R1857:1857 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1859:1859 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1858:1858 Bignums.SpecViaQ.QSig <> x var
+ax 1877:1882 QType spec_0
+R1891:1894 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1885:1885 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1890:1890 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1886:1889 Bignums.SpecViaQ.QSig QType zero defax
+ax 1909:1914 QType spec_1
+R1922:1925 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1917:1917 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1921:1921 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1918:1920 Bignums.SpecViaQ.QSig QType one defax
+ax 1940:1946 QType spec_m1
+R1960:1963 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1949:1949 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1959:1959 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R1950:1958 Bignums.SpecViaQ.QSig QType minus_one defax
+R1964:1964 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+ax 1981:1988 QType spec_add
+R2012:2015 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2003:2003 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2011:2011 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2004:2006 Bignums.SpecViaQ.QSig QType add defax
+R2010:2010 Bignums.SpecViaQ.QSig <> y var
+R2008:2008 Bignums.SpecViaQ.QSig <> x var
+R2019:2021 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2016:2016 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2018:2018 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2017:2017 Bignums.SpecViaQ.QSig <> x var
+R2022:2022 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2024:2024 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2023:2023 Bignums.SpecViaQ.QSig <> y var
+ax 2038:2045 QType spec_sub
+R2069:2072 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2060:2060 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2068:2068 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2061:2063 Bignums.SpecViaQ.QSig QType sub defax
+R2067:2067 Bignums.SpecViaQ.QSig <> y var
+R2065:2065 Bignums.SpecViaQ.QSig <> x var
+R2076:2078 Coq.QArith.QArith_base <> :Q_scope:x_'-'_x not
+R2073:2073 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2075:2075 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2074:2074 Bignums.SpecViaQ.QSig <> x var
+R2079:2079 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2081:2081 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2080:2080 Bignums.SpecViaQ.QSig <> y var
+ax 2095:2102 QType spec_opp
+R2122:2125 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2115:2115 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2121:2121 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2116:2118 Bignums.SpecViaQ.QSig QType opp defax
+R2120:2120 Bignums.SpecViaQ.QSig <> x var
+R2126:2127 Coq.QArith.QArith_base <> :Q_scope:'-'_x not
+R2128:2128 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2130:2130 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2129:2129 Bignums.SpecViaQ.QSig <> x var
+ax 2144:2151 QType spec_mul
+R2175:2178 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2166:2166 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2174:2174 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2167:2169 Bignums.SpecViaQ.QSig QType mul defax
+R2173:2173 Bignums.SpecViaQ.QSig <> y var
+R2171:2171 Bignums.SpecViaQ.QSig <> x var
+R2182:2184 Coq.QArith.QArith_base <> :Q_scope:x_'*'_x not
+R2179:2179 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2181:2181 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2180:2180 Bignums.SpecViaQ.QSig <> x var
+R2185:2185 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2187:2187 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2186:2186 Bignums.SpecViaQ.QSig <> y var
+ax 2201:2211 QType spec_square
+R2234:2237 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2224:2224 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2233:2233 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2225:2230 Bignums.SpecViaQ.QSig QType square defax
+R2232:2232 Bignums.SpecViaQ.QSig <> x var
+R2241:2243 Coq.QArith.QArith_base <> :Q_scope:x_'^'_x not
+R2238:2238 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2240:2240 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2239:2239 Bignums.SpecViaQ.QSig <> x var
+ax 2258:2265 QType spec_inv
+R2286:2289 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2279:2279 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2285:2285 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2280:2282 Bignums.SpecViaQ.QSig QType inv defax
+R2284:2284 Bignums.SpecViaQ.QSig <> x var
+R2290:2291 Coq.QArith.QArith_base <> :Q_scope:'/'_x not
+R2292:2292 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2294:2294 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2293:2293 Bignums.SpecViaQ.QSig <> x var
+ax 2308:2315 QType spec_div
+R2339:2342 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2330:2330 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2338:2338 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2331:2333 Bignums.SpecViaQ.QSig QType div defax
+R2337:2337 Bignums.SpecViaQ.QSig <> y var
+R2335:2335 Bignums.SpecViaQ.QSig <> x var
+R2346:2348 Coq.QArith.QArith_base <> :Q_scope:x_'/'_x not
+R2343:2343 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2345:2345 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2344:2344 Bignums.SpecViaQ.QSig <> x var
+R2349:2349 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2351:2351 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2350:2350 Bignums.SpecViaQ.QSig <> y var
+ax 2365:2374 QType spec_power
+R2400:2403 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2389:2389 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2399:2399 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2390:2394 Bignums.SpecViaQ.QSig QType power defax
+R2398:2398 Bignums.SpecViaQ.QSig <> z var
+R2396:2396 Bignums.SpecViaQ.QSig <> x var
+R2407:2409 Coq.QArith.QArith_base <> :Q_scope:x_'^'_x not
+R2404:2404 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2406:2406 Bignums.SpecViaQ.QSig QType ::'['_x_']' not
+R2405:2405 Bignums.SpecViaQ.QSig <> x var
+R2410:2410 Bignums.SpecViaQ.QSig <> z var
+R2418:2422 Bignums.SpecViaQ.QSig QType <> modtype
+R2660:2664 Bignums.SpecViaQ.QSig QType <> mod
+modtype 2633:2646 <> QType_Notation
+R2690:2693 Bignums.SpecViaQ.QSig Q to_Q defax
+not 2678:2678 QType_Notation ::'['_x_']'
+R2715:2716 Bignums.SpecViaQ.QSig Q eq def
+not 2706:2706 QType_Notation ::x_'=='_x
+R2756:2756 Coq.Init.Logic <> :type_scope:'~'_x not
+R2758:2759 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+not 2743:2743 QType_Notation ::x_'!='_x
+R2793:2794 Bignums.SpecViaQ.QSig Q le def
+not 2785:2785 QType_Notation ::x_'<='_x
+R2811:2812 Bignums.SpecViaQ.QSig Q lt def
+not 2804:2804 QType_Notation ::x_'<'_x
+R2832:2835 Bignums.SpecViaQ.QSig Q zero defax
+not 2825:2825 QType_Notation ::'0'
+R2855:2857 Bignums.SpecViaQ.QSig Q one defax
+not 2848:2848 QType_Notation ::'1'
+R2874:2876 Bignums.SpecViaQ.QSig Q add defax
+not 2867:2867 QType_Notation ::x_'+'_x
+R2893:2895 Bignums.SpecViaQ.QSig Q sub defax
+not 2886:2886 QType_Notation ::x_'-'_x
+R2912:2914 Bignums.SpecViaQ.QSig Q mul defax
+not 2905:2905 QType_Notation ::x_'*'_x
+R2937:2939 Bignums.SpecViaQ.QSig Q opp defax
+not 2927:2927 QType_Notation ::'-'_x
+R2959:2961 Bignums.SpecViaQ.QSig Q div defax
+not 2952:2952 QType_Notation ::x_'/'_x
+R2984:2986 Bignums.SpecViaQ.QSig Q inv defax
+not 2974:2974 QType_Notation ::'/'_x
+R3006:3010 Bignums.SpecViaQ.QSig Q power defax
+not 2999:2999 QType_Notation ::x_'^'_x
+R3017:3030 Bignums.SpecViaQ.QSig QType_Notation <> modtype
+R3056:3060 Bignums.SpecViaQ.QSig QType <> mod
+R3065:3078 Bignums.SpecViaQ.QSig QType_Notation <> mod
+modtype 3046:3051 <> QType'
+R3114:3119 Bignums.SpecViaQ.QSig QType' <> mod
+mod 3090:3100 <> QProperties
+R3162:3169 Bignums.SpecViaQ.QSig Q spec_red defax
+R3171:3182 Bignums.SpecViaQ.QSig Q spec_compare defax
+R3184:3195 Bignums.SpecViaQ.QSig Q spec_eq_bool defax
+R3197:3204 Bignums.SpecViaQ.QSig Q spec_min defax
+R3206:3213 Bignums.SpecViaQ.QSig Q spec_max defax
+R3216:3223 Bignums.SpecViaQ.QSig Q spec_add defax
+R3225:3232 Bignums.SpecViaQ.QSig Q spec_sub defax
+R3234:3241 Bignums.SpecViaQ.QSig Q spec_opp defax
+R3243:3250 Bignums.SpecViaQ.QSig Q spec_mul defax
+R3252:3262 Bignums.SpecViaQ.QSig Q spec_square defax
+R3264:3271 Bignums.SpecViaQ.QSig Q spec_inv defax
+R3273:3280 Bignums.SpecViaQ.QSig Q spec_div defax
+R3283:3292 Bignums.SpecViaQ.QSig Q spec_power defax
+R3324:3325 Bignums.SpecViaQ.QSig Q eq def
+R3328:3329 Bignums.SpecViaQ.QSig Q lt def
+R3332:3333 Bignums.SpecViaQ.QSig Q le def
+R3379:3384 Bignums.SpecViaQ.QSig Q spec_0 defax
+R3404:3409 Bignums.SpecViaQ.QSig Q spec_1 defax
+R3429:3435 Bignums.SpecViaQ.QSig Q spec_m1 defax
+R3852:3858 Coq.Classes.RelationPairs <> Measure class
+R3860:3863 Bignums.SpecViaQ.QSig Q to_Q defax
+inst 3875:3882 QProperties eq_equiv
+R3886:3896 Coq.Classes.RelationClasses <> Equivalence class
+R3898:3899 Bignums.SpecViaQ.QSig Q eq def
+R3918:3919 Bignums.SpecViaQ.QSig Q eq def
+R3927:3936 Coq.Classes.RelationPairs <> RelCompFun def
+R3942:3945 Bignums.SpecViaQ.QSig Q to_Q defax
+R3938:3940 Coq.QArith.QArith_base <> Qeq def
+R3918:3919 Bignums.SpecViaQ.QSig Q eq def
+R3927:3936 Coq.Classes.RelationPairs <> RelCompFun def
+R3942:3945 Bignums.SpecViaQ.QSig Q to_Q defax
+R3938:3940 Coq.QArith.QArith_base <> Qeq def
+inst 3985:3989 QProperties lt_wd
+R3993:3998 Coq.Classes.Morphisms <> Proper class
+R4016:4017 Bignums.SpecViaQ.QSig Q lt def
+R4003:4005 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4001:4002 Bignums.SpecViaQ.QSig Q eq def
+R4008:4010 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4006:4007 Bignums.SpecViaQ.QSig Q eq def
+R4011:4013 Coq.Init.Logic <> iff def
+inst 4037:4041 QProperties le_wd
+R4045:4050 Coq.Classes.Morphisms <> Proper class
+R4068:4069 Bignums.SpecViaQ.QSig Q le def
+R4055:4057 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4053:4054 Bignums.SpecViaQ.QSig Q eq def
+R4060:4062 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4058:4059 Bignums.SpecViaQ.QSig Q eq def
+R4063:4065 Coq.Init.Logic <> iff def
+inst 4089:4094 QProperties red_wd
+R4098:4103 Coq.Classes.Morphisms <> Proper class
+R4115:4117 Bignums.SpecViaQ.QSig Q red defax
+R4108:4110 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4106:4107 Bignums.SpecViaQ.QSig Q eq def
+R4111:4112 Bignums.SpecViaQ.QSig Q eq def
+inst 4137:4146 QProperties compare_wd
+R4150:4155 Coq.Classes.Morphisms <> Proper class
+R4178:4184 Bignums.SpecViaQ.QSig Q compare defax
+R4160:4162 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4158:4159 Bignums.SpecViaQ.QSig Q eq def
+R4165:4167 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4163:4164 Bignums.SpecViaQ.QSig Q eq def
+R4168:4175 Coq.Init.Logic <> eq ind
+inst 4204:4213 QProperties eq_bool_wd
+R4217:4222 Coq.Classes.Morphisms <> Proper class
+R4245:4251 Bignums.SpecViaQ.QSig Q eq_bool defax
+R4227:4229 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4225:4226 Bignums.SpecViaQ.QSig Q eq def
+R4232:4234 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4230:4231 Bignums.SpecViaQ.QSig Q eq def
+R4235:4242 Coq.Init.Logic <> eq ind
+inst 4271:4276 QProperties min_wd
+R4280:4285 Coq.Classes.Morphisms <> Proper class
+R4302:4304 Bignums.SpecViaQ.QSig Q min defax
+R4290:4292 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4288:4289 Bignums.SpecViaQ.QSig Q eq def
+R4295:4297 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4293:4294 Bignums.SpecViaQ.QSig Q eq def
+R4298:4299 Bignums.SpecViaQ.QSig Q eq def
+inst 4324:4329 QProperties max_wd
+R4333:4338 Coq.Classes.Morphisms <> Proper class
+R4355:4357 Bignums.SpecViaQ.QSig Q max defax
+R4343:4345 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4341:4342 Bignums.SpecViaQ.QSig Q eq def
+R4348:4350 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4346:4347 Bignums.SpecViaQ.QSig Q eq def
+R4351:4352 Bignums.SpecViaQ.QSig Q eq def
+inst 4377:4382 QProperties add_wd
+R4386:4391 Coq.Classes.Morphisms <> Proper class
+R4408:4410 Bignums.SpecViaQ.QSig Q add defax
+R4396:4398 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4394:4395 Bignums.SpecViaQ.QSig Q eq def
+R4401:4403 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4399:4400 Bignums.SpecViaQ.QSig Q eq def
+R4404:4405 Bignums.SpecViaQ.QSig Q eq def
+inst 4430:4435 QProperties sub_wd
+R4439:4444 Coq.Classes.Morphisms <> Proper class
+R4461:4463 Bignums.SpecViaQ.QSig Q sub defax
+R4449:4451 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4447:4448 Bignums.SpecViaQ.QSig Q eq def
+R4454:4456 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4452:4453 Bignums.SpecViaQ.QSig Q eq def
+R4457:4458 Bignums.SpecViaQ.QSig Q eq def
+inst 4483:4488 QProperties opp_wd
+R4492:4497 Coq.Classes.Morphisms <> Proper class
+R4509:4511 Bignums.SpecViaQ.QSig Q opp defax
+R4502:4504 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4500:4501 Bignums.SpecViaQ.QSig Q eq def
+R4505:4506 Bignums.SpecViaQ.QSig Q eq def
+inst 4531:4536 QProperties mul_wd
+R4540:4545 Coq.Classes.Morphisms <> Proper class
+R4562:4564 Bignums.SpecViaQ.QSig Q mul defax
+R4550:4552 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4548:4549 Bignums.SpecViaQ.QSig Q eq def
+R4555:4557 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4553:4554 Bignums.SpecViaQ.QSig Q eq def
+R4558:4559 Bignums.SpecViaQ.QSig Q eq def
+inst 4584:4592 QProperties square_wd
+R4596:4601 Coq.Classes.Morphisms <> Proper class
+R4613:4618 Bignums.SpecViaQ.QSig Q square defax
+R4606:4608 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4604:4605 Bignums.SpecViaQ.QSig Q eq def
+R4609:4610 Bignums.SpecViaQ.QSig Q eq def
+inst 4638:4643 QProperties inv_wd
+R4647:4652 Coq.Classes.Morphisms <> Proper class
+R4664:4666 Bignums.SpecViaQ.QSig Q inv defax
+R4657:4659 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4655:4656 Bignums.SpecViaQ.QSig Q eq def
+R4660:4661 Bignums.SpecViaQ.QSig Q eq def
+inst 4686:4691 QProperties div_wd
+R4695:4700 Coq.Classes.Morphisms <> Proper class
+R4717:4719 Bignums.SpecViaQ.QSig Q div defax
+R4705:4707 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4703:4704 Bignums.SpecViaQ.QSig Q eq def
+R4710:4712 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4708:4709 Bignums.SpecViaQ.QSig Q eq def
+R4713:4714 Bignums.SpecViaQ.QSig Q eq def
+inst 4739:4746 QProperties power_wd
+R4750:4755 Coq.Classes.Morphisms <> Proper class
+R4778:4782 Bignums.SpecViaQ.QSig Q power defax
+R4760:4762 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4758:4759 Bignums.SpecViaQ.QSig Q eq def
+R4771:4773 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4763:4770 Coq.Init.Logic <> eq ind
+R4774:4775 Bignums.SpecViaQ.QSig Q eq def
+prf 4829:4840 QProperties compare_spec
+R4856:4866 Coq.Init.Datatypes <> CompareSpec ind
+R4888:4894 Bignums.SpecViaQ.QSig Q compare defax
+R4898:4898 Bignums.SpecViaQ.QSig <> y var
+R4896:4896 Bignums.SpecViaQ.QSig <> x var
+R4883:4883 Bignums.SpecViaQ.QSig QType_Notation ::x_'<'_x not
+R4882:4882 Bignums.SpecViaQ.QSig <> y var
+R4884:4884 Bignums.SpecViaQ.QSig <> x var
+R4877:4877 Bignums.SpecViaQ.QSig QType_Notation ::x_'<'_x not
+R4876:4876 Bignums.SpecViaQ.QSig <> x var
+R4878:4878 Bignums.SpecViaQ.QSig <> y var
+R4870:4871 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R4869:4869 Bignums.SpecViaQ.QSig <> x var
+R4872:4872 Bignums.SpecViaQ.QSig <> y var
+R4933:4945 Coq.QArith.QArith_base <> Qcompare_spec thm
+R4951:4951 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4953:4953 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4947:4947 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4949:4949 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4933:4945 Coq.QArith.QArith_base <> Qcompare_spec thm
+R4951:4951 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4953:4953 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4947:4947 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+R4949:4949 Bignums.SpecViaQ.QSig QType_Notation ::'['_x_']' not
+def 5017:5025 QProperties lt_compat
+R5030:5034 Bignums.SpecViaQ.QSig QProperties lt_wd inst
+inst 5046:5056 QProperties lt_strorder
+R5060:5070 Coq.Classes.RelationClasses <> StrictOrder class
+R5072:5073 Bignums.SpecViaQ.QSig Q lt def
+R5092:5093 Bignums.SpecViaQ.QSig Q lt def
+R5101:5110 Coq.Classes.RelationPairs <> RelCompFun def
+R5116:5119 Bignums.SpecViaQ.QSig Q to_Q defax
+R5112:5114 Coq.QArith.QArith_base <> Qlt def
+R5092:5093 Bignums.SpecViaQ.QSig Q lt def
+R5101:5110 Coq.Classes.RelationPairs <> RelCompFun def
+R5116:5119 Bignums.SpecViaQ.QSig Q to_Q defax
+R5112:5114 Coq.QArith.QArith_base <> Qlt def
+prf 5144:5150 QProperties le_lteq
+R5170:5174 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5167:5168 Bignums.SpecViaQ.QSig QType_Notation ::x_'<='_x not
+R5166:5166 Bignums.SpecViaQ.QSig <> x var
+R5169:5169 Bignums.SpecViaQ.QSig <> y var
+R5178:5181 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5176:5176 Bignums.SpecViaQ.QSig QType_Notation ::x_'<'_x not
+R5175:5175 Bignums.SpecViaQ.QSig <> x var
+R5177:5177 Bignums.SpecViaQ.QSig <> y var
+R5183:5184 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5182:5182 Bignums.SpecViaQ.QSig <> x var
+R5185:5185 Bignums.SpecViaQ.QSig <> y var
+R5215:5222 Coq.QArith.QArith_base <> Qle_lteq thm
+R5215:5222 Coq.QArith.QArith_base <> Qle_lteq thm
+prf 5237:5244 QProperties lt_total
+R5263:5266 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5261:5261 Bignums.SpecViaQ.QSig QType_Notation ::x_'<'_x not
+R5260:5260 Bignums.SpecViaQ.QSig <> x var
+R5262:5262 Bignums.SpecViaQ.QSig <> y var
+R5271:5274 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5268:5269 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5267:5267 Bignums.SpecViaQ.QSig <> x var
+R5270:5270 Bignums.SpecViaQ.QSig <> y var
+R5276:5276 Bignums.SpecViaQ.QSig QType_Notation ::x_'<'_x not
+R5275:5275 Bignums.SpecViaQ.QSig <> y var
+R5277:5277 Bignums.SpecViaQ.QSig <> x var
+R5305:5316 Bignums.SpecViaQ.QSig QProperties compare_spec thm
+R5305:5316 Bignums.SpecViaQ.QSig QProperties compare_spec thm
+def 5383:5385 QProperties eqb
+R5390:5396 Bignums.SpecViaQ.QSig Q eq_bool defax
+prf 5406:5411 QProperties eqb_eq
+R5445:5449 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5438:5440 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5427:5433 Bignums.SpecViaQ.QSig Q eq_bool defax
+R5437:5437 Bignums.SpecViaQ.QSig <> y var
+R5435:5435 Bignums.SpecViaQ.QSig <> x var
+R5441:5444 Coq.Init.Datatypes <> true constr
+R5451:5454 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5450:5450 Bignums.SpecViaQ.QSig <> x var
+R5455:5455 Bignums.SpecViaQ.QSig <> y var
+R5485:5496 Coq.QArith.QArith_base <> Qeq_bool_iff thm
+R5485:5496 Coq.QArith.QArith_base <> Qeq_bool_iff thm
+prf 5511:5521 QProperties eqb_correct
+R5555:5558 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5560:5563 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5559:5559 Bignums.SpecViaQ.QSig <> x var
+R5564:5564 Bignums.SpecViaQ.QSig <> y var
+R5548:5550 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5537:5543 Bignums.SpecViaQ.QSig Q eq_bool defax
+R5547:5547 Bignums.SpecViaQ.QSig <> y var
+R5545:5545 Bignums.SpecViaQ.QSig <> x var
+R5551:5554 Coq.Init.Datatypes <> true constr
+R5584:5589 Bignums.SpecViaQ.QSig QProperties eqb_eq thm
+R5584:5589 Bignums.SpecViaQ.QSig QProperties eqb_eq thm
+prf 5604:5615 QProperties eqb_complete
+R5637:5640 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5652:5654 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5641:5647 Bignums.SpecViaQ.QSig Q eq_bool defax
+R5651:5651 Bignums.SpecViaQ.QSig <> y var
+R5649:5649 Bignums.SpecViaQ.QSig <> x var
+R5655:5658 Coq.Init.Datatypes <> true constr
+R5632:5635 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5631:5631 Bignums.SpecViaQ.QSig <> x var
+R5636:5636 Bignums.SpecViaQ.QSig <> y var
+R5678:5683 Bignums.SpecViaQ.QSig QProperties eqb_eq thm
+R5678:5683 Bignums.SpecViaQ.QSig QProperties eqb_eq thm
+prf 5734:5738 QProperties max_l
+R5758:5761 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5769:5772 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5762:5764 Bignums.SpecViaQ.QSig Q max defax
+R5768:5768 Bignums.SpecViaQ.QSig <> y var
+R5766:5766 Bignums.SpecViaQ.QSig <> x var
+R5773:5773 Bignums.SpecViaQ.QSig <> x var
+R5755:5756 Bignums.SpecViaQ.QSig QType_Notation ::x_'<='_x not
+R5754:5754 Bignums.SpecViaQ.QSig <> y var
+R5757:5757 Bignums.SpecViaQ.QSig <> x var
+R5807:5821 Coq.QArith.Qminmax Q max_l def
+R5807:5821 Coq.QArith.Qminmax Q max_l def
+prf 5836:5840 QProperties max_r
+R5860:5863 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5871:5874 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5864:5866 Bignums.SpecViaQ.QSig Q max defax
+R5870:5870 Bignums.SpecViaQ.QSig <> y var
+R5868:5868 Bignums.SpecViaQ.QSig <> x var
+R5875:5875 Bignums.SpecViaQ.QSig <> y var
+R5857:5858 Bignums.SpecViaQ.QSig QType_Notation ::x_'<='_x not
+R5856:5856 Bignums.SpecViaQ.QSig <> x var
+R5859:5859 Bignums.SpecViaQ.QSig <> y var
+R5909:5923 Coq.QArith.Qminmax Q max_r def
+R5909:5923 Coq.QArith.Qminmax Q max_r def
+prf 5938:5942 QProperties min_l
+R5962:5965 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5973:5976 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R5966:5968 Bignums.SpecViaQ.QSig Q min defax
+R5972:5972 Bignums.SpecViaQ.QSig <> y var
+R5970:5970 Bignums.SpecViaQ.QSig <> x var
+R5977:5977 Bignums.SpecViaQ.QSig <> x var
+R5959:5960 Bignums.SpecViaQ.QSig QType_Notation ::x_'<='_x not
+R5958:5958 Bignums.SpecViaQ.QSig <> x var
+R5961:5961 Bignums.SpecViaQ.QSig <> y var
+R6011:6025 Coq.QArith.Qminmax Q min_l def
+R6011:6025 Coq.QArith.Qminmax Q min_l def
+prf 6040:6044 QProperties min_r
+R6064:6067 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6075:6078 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6068:6070 Bignums.SpecViaQ.QSig Q min defax
+R6074:6074 Bignums.SpecViaQ.QSig <> y var
+R6072:6072 Bignums.SpecViaQ.QSig <> x var
+R6079:6079 Bignums.SpecViaQ.QSig <> y var
+R6061:6062 Bignums.SpecViaQ.QSig QType_Notation ::x_'<='_x not
+R6060:6060 Bignums.SpecViaQ.QSig <> y var
+R6063:6063 Bignums.SpecViaQ.QSig <> x var
+R6113:6127 Coq.QArith.Qminmax Q min_r def
+R6113:6127 Coq.QArith.Qminmax Q min_r def
+prf 6162:6168 QProperties add_0_l
+R6185:6188 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6183:6183 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6184:6184 Bignums.SpecViaQ.QSig <> x var
+R6189:6189 Bignums.SpecViaQ.QSig <> x var
+R6219:6227 Coq.QArith.QArith_base <> Qplus_0_l thm
+R6219:6227 Coq.QArith.QArith_base <> Qplus_0_l thm
+prf 6242:6249 QProperties add_comm
+R6268:6271 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6266:6266 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6265:6265 Bignums.SpecViaQ.QSig <> x var
+R6267:6267 Bignums.SpecViaQ.QSig <> y var
+R6273:6273 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6272:6272 Bignums.SpecViaQ.QSig <> y var
+R6274:6274 Bignums.SpecViaQ.QSig <> x var
+R6304:6313 Coq.QArith.QArith_base <> Qplus_comm thm
+R6304:6313 Coq.QArith.QArith_base <> Qplus_comm thm
+prf 6328:6336 QProperties add_assoc
+R6361:6364 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6355:6356 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6360:6360 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6354:6354 Bignums.SpecViaQ.QSig <> x var
+R6358:6358 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6357:6357 Bignums.SpecViaQ.QSig <> y var
+R6359:6359 Bignums.SpecViaQ.QSig <> z var
+R6368:6368 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6366:6366 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6365:6365 Bignums.SpecViaQ.QSig <> x var
+R6367:6367 Bignums.SpecViaQ.QSig <> y var
+R6369:6369 Bignums.SpecViaQ.QSig <> z var
+R6399:6409 Coq.QArith.QArith_base <> Qplus_assoc thm
+R6399:6409 Coq.QArith.QArith_base <> Qplus_assoc thm
+prf 6424:6430 QProperties mul_1_l
+R6447:6450 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6445:6445 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6446:6446 Bignums.SpecViaQ.QSig <> x var
+R6451:6451 Bignums.SpecViaQ.QSig <> x var
+R6481:6489 Coq.QArith.QArith_base <> Qmult_1_l thm
+R6481:6489 Coq.QArith.QArith_base <> Qmult_1_l thm
+prf 6504:6511 QProperties mul_comm
+R6530:6533 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6528:6528 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6527:6527 Bignums.SpecViaQ.QSig <> x var
+R6529:6529 Bignums.SpecViaQ.QSig <> y var
+R6535:6535 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6534:6534 Bignums.SpecViaQ.QSig <> y var
+R6536:6536 Bignums.SpecViaQ.QSig <> x var
+R6566:6575 Coq.QArith.QArith_base <> Qmult_comm thm
+R6566:6575 Coq.QArith.QArith_base <> Qmult_comm thm
+prf 6590:6598 QProperties mul_assoc
+R6623:6626 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6617:6618 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6622:6622 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6616:6616 Bignums.SpecViaQ.QSig <> x var
+R6620:6620 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6619:6619 Bignums.SpecViaQ.QSig <> y var
+R6621:6621 Bignums.SpecViaQ.QSig <> z var
+R6630:6630 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6628:6628 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6627:6627 Bignums.SpecViaQ.QSig <> x var
+R6629:6629 Bignums.SpecViaQ.QSig <> y var
+R6631:6631 Bignums.SpecViaQ.QSig <> z var
+R6661:6671 Coq.QArith.QArith_base <> Qmult_assoc thm
+R6661:6671 Coq.QArith.QArith_base <> Qmult_assoc thm
+prf 6686:6700 QProperties mul_add_distr_r
+R6725:6728 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6718:6718 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6722:6723 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6720:6720 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6719:6719 Bignums.SpecViaQ.QSig <> x var
+R6721:6721 Bignums.SpecViaQ.QSig <> y var
+R6724:6724 Bignums.SpecViaQ.QSig <> z var
+R6732:6734 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6730:6730 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6729:6729 Bignums.SpecViaQ.QSig <> x var
+R6731:6731 Bignums.SpecViaQ.QSig <> z var
+R6736:6736 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R6735:6735 Bignums.SpecViaQ.QSig <> y var
+R6737:6737 Bignums.SpecViaQ.QSig <> z var
+R6767:6784 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+R6767:6784 Coq.QArith.QArith_base <> Qmult_plus_distr_l thm
+prf 6799:6809 QProperties sub_add_opp
+R6828:6831 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6826:6826 Bignums.SpecViaQ.QSig QType_Notation ::x_'-'_x not
+R6825:6825 Bignums.SpecViaQ.QSig <> x var
+R6827:6827 Bignums.SpecViaQ.QSig <> y var
+R6833:6834 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6837:6837 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6832:6832 Bignums.SpecViaQ.QSig <> x var
+R6835:6835 Bignums.SpecViaQ.QSig QType_Notation ::'-'_x not
+R6836:6836 Bignums.SpecViaQ.QSig <> y var
+R6872:6877 Coq.QArith.QArith_base <> Qminus def
+prf 6892:6905 QProperties add_opp_diag_r
+R6925:6928 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R6920:6921 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6924:6924 Bignums.SpecViaQ.QSig QType_Notation ::x_'+'_x not
+R6919:6919 Bignums.SpecViaQ.QSig <> x var
+R6922:6922 Bignums.SpecViaQ.QSig QType_Notation ::'-'_x not
+R6923:6923 Bignums.SpecViaQ.QSig <> x var
+R6959:6969 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R6959:6969 Coq.QArith.QArith_base <> Qplus_opp_r thm
+prf 7005:7011 QProperties neq_1_0
+R7016:7017 Bignums.SpecViaQ.QSig QType_Notation ::x_'!='_x not
+R7048:7058 Coq.QArith.QArith_base <> Q_apart_0_1 thm
+R7048:7058 Coq.QArith.QArith_base <> Q_apart_0_1 thm
+prf 7073:7083 QProperties div_mul_inv
+R7102:7105 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R7100:7100 Bignums.SpecViaQ.QSig QType_Notation ::x_'/'_x not
+R7099:7099 Bignums.SpecViaQ.QSig <> x var
+R7101:7101 Bignums.SpecViaQ.QSig <> y var
+R7107:7108 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R7111:7111 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R7106:7106 Bignums.SpecViaQ.QSig <> x var
+R7109:7109 Bignums.SpecViaQ.QSig QType_Notation ::'/'_x not
+R7110:7110 Bignums.SpecViaQ.QSig <> y var
+R7146:7149 Coq.QArith.QArith_base <> Qdiv def
+prf 7164:7177 QProperties mul_inv_diag_l
+R7195:7198 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7205:7208 Bignums.SpecViaQ.QSig QType_Notation ::x_'=='_x not
+R7201:7203 Bignums.SpecViaQ.QSig QType_Notation ::x_'*'_x not
+R7199:7199 Bignums.SpecViaQ.QSig QType_Notation ::'/'_x not
+R7200:7200 Bignums.SpecViaQ.QSig <> x var
+R7204:7204 Bignums.SpecViaQ.QSig <> x var
+R7192:7193 Bignums.SpecViaQ.QSig QType_Notation ::x_'!='_x not
+R7191:7191 Bignums.SpecViaQ.QSig <> x var
+R7243:7252 Coq.QArith.QArith_base <> Qmult_comm thm
+R7243:7252 Coq.QArith.QArith_base <> Qmult_comm thm
+R7243:7252 Coq.QArith.QArith_base <> Qmult_comm thm
+R7261:7271 Coq.QArith.QArith_base <> Qmult_inv_r thm
+R7261:7271 Coq.QArith.QArith_base <> Qmult_inv_r thm
+R7284:7294 Bignums.SpecViaQ.QSig QProperties <> mod
+R7319:7323 Bignums.SpecViaQ.QSig QType <> mod
+R7330:7334 Bignums.SpecViaQ.QSig QType <> mod
+R7339:7348 Coq.Structures.Orders TotalOrder <> mod
+R7353:7362 Coq.Structures.Orders HasCompare <> mod
+R7364:7364 Bignums.SpecViaQ.QSig Q <> modtype
+R7369:7377 Coq.Structures.GenericMinMax HasMinMax <> mod
+R7379:7379 Bignums.SpecViaQ.QSig Q <> modtype
+R7384:7392 Coq.Structures.Equalities HasEqBool <> mod
+R7394:7394 Bignums.SpecViaQ.QSig Q <> modtype
+R7400:7400 Bignums.SpecViaQ.QSig Q <> modtype
+R7405:7415 Bignums.SpecViaQ.QSig QProperties <> modtype
+mod 7305:7312 <> QTypeExt

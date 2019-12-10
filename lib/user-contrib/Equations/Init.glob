@@ -1,0 +1,93 @@
+DIGEST d93213c107eecd6a2f9aeceadf4d5d90
+FEquations.Init
+R527:547 Coq.Unicode.Utf8_core <> <> lib
+R565:583 Coq.Program.Program <> <> lib
+def 1160:1167 <> fixproto
+R1172:1173 Coq.Init.Datatypes <> tt constr
+def 1270:1277 <> hidebody
+R1295:1295 Equations.Init <> A var
+R1301:1301 Equations.Init <> a var
+R1375:1382 Equations.Init <> hidebody def
+R1480:1487 Equations.Init <> fixproto def
+R1480:1487 Equations.Init <> fixproto def
+constr 2124:2129 <> sigmaI
+rec 2081:2085 <> sigma
+proj 2133:2135 <> pr1
+proj 2142:2144 <> pr2
+R2104:2107 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2103:2103 Equations.Init <> A var
+R2139:2139 Equations.Init <> A var
+R2148:2148 Equations.Init <> B var
+R2150:2152 Equations.Init <> pr1 meth
+R2197:2201 Equations.Init <> sigma rec
+R2197:2201 Equations.Init <> sigma rec
+R2236:2241 Equations.Init <> sigmaI constr
+R2236:2241 Equations.Init <> sigmaI constr
+mod 2304:2318 <> Sigma_Notations
+R2355:2359 Equations.Init <> sigma rec
+not 2333:2333 Sigma_Notations :equations_scope:'&{'_x_':'_x_'&'_x_'}'
+R2454:2458 Equations.Init <> sigma rec
+not 2432:2432 Sigma_Notations :type_scope:'&{'_x_':'_x_'&'_x_'}'
+R2557:2562 Equations.Init <> sigmaI constr
+R2575:2580 Equations.Init <> sigmaI constr
+not 2526:2526 Sigma_Notations :equations_scope:'&('_x_','_'..'_','_x_'&'_x_')'
+R2719:2721 Equations.Init <> pr1 proj
+not 2706:2706 Sigma_Notations :equations_scope:x_'.1'
+R2797:2799 Equations.Init <> pr2 proj
+not 2784:2784 Sigma_Notations :equations_scope:x_'.2'
+R2856:2870 Equations.Init Sigma_Notations <> mod
+ind 2994:2998 <> Empty
+ind 3030:3031 <> Id
+constr 3081:3087 <> id_refl
+R3057:3057 Equations.Init <> A var
+R3063:3066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3091:3092 Equations.Init <> Id ind
+R3096:3096 Equations.Init <> a var
+R3094:3094 Equations.Init <> a var
+R3091:3092 Equations.Init <> A var
+R3109:3115 Equations.Init <> id_refl constr
+R3109:3115 Equations.Init <> id_refl constr
+mod 3139:3150 <> Id_Notations
+R3180:3181 Equations.Init <> Id ind
+not 3165:3165 Id_Notations :equations_scope:x_'='_x
+R3235:3236 Equations.Init <> Id ind
+not 3220:3220 Id_Notations :type_scope:x_'='_x
+R3294:3297 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3298:3302 Equations.Init <> Empty ind
+R3286:3287 Equations.Init <> Id ind
+not 3270:3270 Id_Notations :equations_scope:x_'<>'_x
+R3359:3362 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3363:3367 Equations.Init <> Empty ind
+R3351:3352 Equations.Init <> Id ind
+not 3335:3335 Id_Notations :type_scope:x_'<>'_x
+R3406:3412 Equations.Init <> id_refl constr
+not 3395:3395 Id_Notations :equations_scope:'1'
+R3443:3454 Equations.Init Id_Notations <> mod
+sec 3488:3495 <> IdTheory
+prf 3571:3576 <> id_sym
+R3585:3585 Equations.Init <> IdTheory.A var
+R3595:3598 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3600:3602 Equations.Init Id_Notations :type_scope:x_'='_x not
+R3599:3599 Equations.Init <> y var
+R3603:3603 Equations.Init <> x var
+R3591:3593 Equations.Init Id_Notations :type_scope:x_'='_x not
+R3590:3590 Equations.Init <> x var
+R3594:3594 Equations.Init <> y var
+prf 3654:3661 <> id_trans
+R3672:3672 Equations.Init <> IdTheory.A var
+R3682:3685 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3691:3694 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3696:3698 Equations.Init Id_Notations :type_scope:x_'='_x not
+R3695:3695 Equations.Init <> x var
+R3699:3699 Equations.Init <> z var
+R3687:3689 Equations.Init Id_Notations :type_scope:x_'='_x not
+R3686:3686 Equations.Init <> y var
+R3690:3690 Equations.Init <> z var
+R3678:3680 Equations.Init Id_Notations :type_scope:x_'='_x not
+R3677:3677 Equations.Init <> x var
+R3681:3681 Equations.Init <> y var
+R3729:3730 Coq.Init.Datatypes <> id def
+R3729:3730 Coq.Init.Datatypes <> id def
+R3747:3754 Equations.Init IdTheory <> sec
+R3987:3990 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3987:3990 Coq.Init.Logic <> :type_scope:x_'->'_x not

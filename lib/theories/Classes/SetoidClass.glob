@@ -1,0 +1,117 @@
+DIGEST dad8c208db887946be898c970e014fa7
+FCoq.Classes.SetoidClass
+R920:938 Coq.Program.Program <> <> lib
+R957:976 Coq.Relations.Relation_Definitions <> <> lib
+R994:1020 Coq.Classes.RelationClasses <> <> lib
+R1038:1058 Coq.Classes.Morphisms <> <> lib
+rec 1107:1112 <> Setoid
+proj 1123:1127 <> equiv
+proj 1146:1157 <> setoid_equiv
+R1131:1138 Coq.Relations.Relation_Definitions <> relation def
+R1140:1140 Coq.Classes.SetoidClass <> A var
+R1162:1172 Coq.Classes.RelationClasses <> Equivalence class
+R1174:1178 Coq.Classes.SetoidClass <> equiv meth
+def 1412:1422 <> setoid_refl
+R1431:1436 Coq.Classes.SetoidClass <> Setoid class
+R1443:1451 Coq.Classes.RelationClasses <> Reflexive class
+R1453:1457 Coq.Classes.SetoidClass <> equiv meth
+def 1503:1512 <> setoid_sym
+R1521:1526 Coq.Classes.SetoidClass <> Setoid class
+R1533:1541 Coq.Classes.RelationClasses <> Symmetric class
+R1543:1547 Coq.Classes.SetoidClass <> equiv meth
+def 1593:1604 <> setoid_trans
+R1613:1618 Coq.Classes.SetoidClass <> Setoid class
+R1625:1634 Coq.Classes.RelationClasses <> Transitive class
+R1636:1640 Coq.Classes.SetoidClass <> equiv meth
+inst 1914:1923 <> iff_setoid
+R1927:1932 Coq.Classes.SetoidClass <> Setoid class
+R1961:1972 Coq.Classes.SetoidClass <> setoid_equiv meth
+R1946:1950 Coq.Classes.SetoidClass <> equiv meth
+R1955:1957 Coq.Init.Logic <> iff def
+R1977:1991 Coq.Classes.RelationClasses <> iff_equivalence inst
+R2358:2362 Coq.Classes.SetoidClass <> equiv meth
+not 2343:2343 <> :type_scope:x_'=='_x
+R2441:2450 Coq.Classes.RelationClasses <> complement def
+R2452:2456 Coq.Classes.SetoidClass <> equiv meth
+not 2425:2425 <> :type_scope:x_'=/='_x
+R2651:2654 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R2651:2654 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R2749:2752 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R2749:2752 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+prf 2953:2970 <> nequiv_equiv_trans
+R2983:2988 Coq.Classes.SetoidClass <> Setoid class
+R3002:3002 Coq.Classes.SetoidClass <> A var
+R3013:3016 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3023:3026 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3028:3032 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3027:3027 Coq.Classes.SetoidClass <> x var
+R3033:3033 Coq.Classes.SetoidClass <> z var
+R3018:3021 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3017:3017 Coq.Classes.SetoidClass <> y var
+R3022:3022 Coq.Classes.SetoidClass <> z var
+R3007:3011 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3006:3006 Coq.Classes.SetoidClass <> x var
+R3012:3012 Coq.Classes.SetoidClass <> y var
+R3080:3083 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3080:3083 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3119:3122 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3119:3122 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+prf 3184:3201 <> equiv_nequiv_trans
+R3214:3219 Coq.Classes.SetoidClass <> Setoid class
+R3233:3233 Coq.Classes.SetoidClass <> A var
+R3243:3246 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3254:3257 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3259:3263 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3258:3258 Coq.Classes.SetoidClass <> x var
+R3264:3264 Coq.Classes.SetoidClass <> z var
+R3248:3252 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3247:3247 Coq.Classes.SetoidClass <> y var
+R3253:3253 Coq.Classes.SetoidClass <> z var
+R3238:3241 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3237:3237 Coq.Classes.SetoidClass <> x var
+R3242:3242 Coq.Classes.SetoidClass <> y var
+R3301:3304 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3301:3304 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3340:3343 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3340:3343 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3460:3463 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3460:3463 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3506:3509 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3506:3509 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R3553:3557 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3553:3557 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R3722:3727 Coq.Classes.SetoidClass <> Setoid class
+R3722:3727 Coq.Classes.SetoidClass <> Setoid class
+R3802:3807 Coq.Classes.SetoidClass <> Setoid class
+R3802:3807 Coq.Classes.SetoidClass <> Setoid class
+R3865:3869 Coq.Classes.SetoidClass <> equiv meth
+R3772:3776 Coq.Classes.SetoidClass <> equiv meth
+inst 4039:4053 <> setoid_morphism
+R4062:4067 Coq.Classes.SetoidClass <> Setoid class
+R4074:4079 Coq.Classes.Morphisms <> Proper class
+R4107:4111 Coq.Classes.SetoidClass <> equiv meth
+R4087:4091 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'++>'_x not
+R4082:4086 Coq.Classes.SetoidClass <> equiv meth
+R4097:4101 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'++>'_x not
+R4092:4096 Coq.Classes.SetoidClass <> equiv meth
+R4102:4104 Coq.Init.Logic <> iff def
+R4118:4127 Coq.Classes.Morphisms <> proper_prf def
+inst 4148:4174 <> setoid_partial_app_morphism
+R4183:4188 Coq.Classes.SetoidClass <> Setoid class
+R4198:4198 Coq.Classes.SetoidClass <> A var
+R4203:4208 Coq.Classes.Morphisms <> Proper class
+R4227:4231 Coq.Classes.SetoidClass <> equiv meth
+R4233:4233 Coq.Classes.SetoidClass <> x var
+R4216:4220 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'++>'_x not
+R4211:4215 Coq.Classes.SetoidClass <> equiv meth
+R4221:4223 Coq.Init.Logic <> iff def
+R4241:4250 Coq.Classes.Morphisms <> proper_prf def
+rec 4366:4378 <> PartialSetoid
+proj 4398:4403 <> pequiv
+proj 4420:4429 <> pequiv_prf
+R4407:4414 Coq.Relations.Relation_Definitions <> relation def
+R4416:4416 Coq.Classes.SetoidClass <> A var
+R4434:4436 Coq.Classes.RelationClasses <> PER class
+R4438:4443 Coq.Classes.SetoidClass <> pequiv meth
+R4524:4529 Coq.Classes.SetoidClass <> pequiv meth
+not 4515:4515 <> :type_scope:x_'=~='_x

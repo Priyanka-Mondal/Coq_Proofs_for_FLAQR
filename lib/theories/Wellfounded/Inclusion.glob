@@ -1,0 +1,40 @@
+DIGEST c025d9f0a771b4cbd6ed6447640e06da
+FCoq.Wellfounded.Inclusion
+R720:739 Coq.Relations.Relation_Definitions <> <> lib
+sec 751:761 <> WfInclusion
+var 775:775 WfInclusion A
+var 797:798 WfInclusion R1
+var 800:801 WfInclusion R2
+R806:809 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R811:814 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R810:810 Coq.Wellfounded.Inclusion <> WfInclusion.A var
+R805:805 Coq.Wellfounded.Inclusion <> WfInclusion.A var
+prf 830:837 <> Acc_incl
+R858:861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R871:871 Coq.Wellfounded.Inclusion <> WfInclusion.A var
+R882:885 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R886:888 Coq.Init.Wf <> Acc ind
+R893:893 Coq.Wellfounded.Inclusion <> z var
+R890:891 Coq.Wellfounded.Inclusion <> WfInclusion.R1 var
+R874:876 Coq.Init.Wf <> Acc ind
+R881:881 Coq.Wellfounded.Inclusion <> z var
+R878:879 Coq.Wellfounded.Inclusion <> WfInclusion.R2 var
+R841:849 Coq.Relations.Relation_Definitions <> inclusion def
+R856:857 Coq.Wellfounded.Inclusion <> WfInclusion.R2 var
+R853:854 Coq.Wellfounded.Inclusion <> WfInclusion.R1 var
+R851:851 Coq.Wellfounded.Inclusion <> WfInclusion.A var
+R932:940 Coq.Init.Wf <> Acc_intro constr
+R932:940 Coq.Init.Wf <> Acc_intro constr
+prf 1003:1009 <> wf_incl
+R1030:1033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1049:1052 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1053:1064 Coq.Init.Wf <> well_founded def
+R1066:1067 Coq.Wellfounded.Inclusion <> WfInclusion.R1 var
+R1034:1045 Coq.Init.Wf <> well_founded def
+R1047:1048 Coq.Wellfounded.Inclusion <> WfInclusion.R2 var
+R1013:1021 Coq.Relations.Relation_Definitions <> inclusion def
+R1028:1029 Coq.Wellfounded.Inclusion <> WfInclusion.R2 var
+R1025:1026 Coq.Wellfounded.Inclusion <> WfInclusion.R1 var
+R1023:1023 Coq.Wellfounded.Inclusion <> WfInclusion.A var
+R1090:1101 Coq.Init.Wf <> well_founded def
+R1132:1142 Coq.Wellfounded.Inclusion WfInclusion <> sec

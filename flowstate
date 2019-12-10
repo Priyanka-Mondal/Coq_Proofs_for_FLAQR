@@ -1,0 +1,75 @@
+Set Warnings "-notation-overridden,-parsing".
+Require Import Coq.Arith.Arith.
+Require Import Coq.Arith.EqNat.
+Require Import Coq.omega.Omega.
+Require Import Coq.Lists.List.
+Import ListNotations.
+Require Import maps.
+Require Import imp.
+Require Import rel.
+Require Import smallstep.
+Require Import type.
+
+(*Definition sumtype (s1:Type, s2:Type)*)
+
+(*Inductive flowType : Type :=
+  | unitType : flowType
+  | sumType : flowType -> flowType -> flowType
+  | prodType : flowType -> flowType -> flowType.
+*)
+
+
+Inductive flowt : Type :=
+  | const
+  | sumt (t1: flowt) (t2: flowt)
+  | prodt (t1: flowt) (t2:flowt).
+  
+Inductive term : Type :=
+  | inj : bool -> term -> term -> term
+  | prod : term -> term -> term.
+
+Reserved Notation " t '\\' n " 
+(at level 50, left associativity).
+
+Inductive evalflow : term -> Prop :=
+  | E_injS : forall t1 t2 t3,  
+            t1 \\ t1' -> inj t1 t2 t3 \\ inj t1' t2 t3
+  | E_injT : forall t1 t2 t3,  
+            t1 \\ true -> inj t1 t2 t3 \\ t2
+  | E_injF : forall t1 t2 t3,  
+            t1 \\ false -> inj t1 t2 t3 \\ t3
+
+where " t '\\' n " := (evalflow t n).
+
+
+Reserved Notation " t '\\' n " 
+(at level 50, left associativity).
+
+
+
+(**
+Inductive val : flowt -> Prop :=
+  | unitVal : val (unit)
+  | injVal : forall t1 t2, val t1 ->
+             val t2 -> val (sumt t1 t2)
+  | pairVal: forall t1 t2, val t1 -> 
+             val t2 -> val (prodt t1 t2).
+
+Inductive exp : flowt :=
+  | E_Unpair : forall ,
+      C n \\ n
+  | E_Plus : forall t1 t2 n1 n2,
+      t1 \\ n1 ->
+      t2 \\ n2 ->
+      P t1 t2 \\ (n1 + n2)
+
+Reserved Notation "t1 '==>' t2" (at level 40).
+Inductive step : flowt -> Prop :=
+  | injT : forall t1 t2,
+      (tif ttrue t1 t2) ==> t1
+
+Fixpoint exp (e : flowt) : flowt :=
+  match e with
+  |  => n
+  | P a1 a2 => evalF a1 + evalF a2
+  end.

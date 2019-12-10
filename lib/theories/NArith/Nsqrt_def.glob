@@ -1,0 +1,16 @@
+DIGEST a8143144fd8ccf8e8c00738284cb777e
+FCoq.NArith.Nsqrt_def
+R691:696 Coq.NArith.BinNat <> <> lib
+syndef 796:803 <> Nsqrtrem
+R808:816 Coq.NArith.BinNat N sqrtrem def
+syndef 843:847 <> Nsqrt
+R852:857 Coq.NArith.BinNat N sqrt def
+syndef 884:896 <> Nsqrtrem_spec
+R901:914 Coq.NArith.BinNat N sqrtrem_spec thm
+syndef 941:950 <> Nsqrt_spec
+R965:975 Coq.NArith.BinNat N sqrt_spec thm
+R980:987 Coq.NArith.BinNat N le_0_l thm
+R989:989 Coq.NArith.Nsqrt_def <> n var
+R977:977 Coq.NArith.Nsqrt_def <> n var
+syndef 1018:1030 <> Nsqrtrem_sqrt
+R1035:1048 Coq.NArith.BinNat N sqrtrem_sqrt thm

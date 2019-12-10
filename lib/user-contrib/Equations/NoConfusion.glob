@@ -1,0 +1,29 @@
+DIGEST 40544cf0814bf53db30a6607b9fd84dc
+FEquations.NoConfusion
+R701:719 Coq.Program.Program <> <> lib
+R721:727 Coq.Bool.Bvector <> <> lib
+R729:732 Coq.Lists.List <> <> lib
+R750:768 Equations.Signature <> <> lib
+R770:784 Equations.EqDec <> <> lib
+R802:818 Equations.DepElim <> <> lib
+R1006:1010 Equations.Init <> sigma rec
+R1006:1010 Equations.Init <> sigma rec
+R1546:1548 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1546:1548 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2263:2264 Coq.Init.Logic <> eq ind
+R2263:2264 Coq.Init.Logic <> eq ind
+R2276:2277 Coq.Init.Logic <> eq ind
+R2276:2277 Coq.Init.Logic <> eq ind
+R2326:2327 Coq.Init.Logic <> eq ind
+R2326:2327 Coq.Init.Logic <> eq ind
+R2374:2375 Coq.Init.Logic <> eq ind
+R2374:2375 Coq.Init.Logic <> eq ind
+R2438:2441 Coq.Init.Datatypes <> unit ind
+R2443:2446 Coq.Init.Datatypes <> bool ind
+R2448:2450 Coq.Init.Datatypes <> nat ind
+R2452:2457 Coq.Init.Datatypes <> option ind
+R2459:2461 Coq.Init.Datatypes <> sum ind
+R2463:2466 Coq.Init.Datatypes <> prod ind
+R2468:2471 Coq.Init.Datatypes <> list ind
+R2473:2476 Coq.Init.Specif <> sigT ind
+R2478:2480 Coq.Init.Specif <> sig ind

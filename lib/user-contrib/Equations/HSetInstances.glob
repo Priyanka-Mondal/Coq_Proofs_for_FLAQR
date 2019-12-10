@@ -1,0 +1,65 @@
+DIGEST 328a7ac9bdc641d2f8d85af118a3c59d
+FEquations.HSetInstances
+R542:545 Equations.Init <> <> lib
+R547:553 Equations.DepElim <> <> lib
+R555:559 Equations.HSets <> <> lib
+inst 600:609 <> eqdec_hset
+R624:628 Equations.HSets <> EqDec class
+R630:630 Equations.HSetInstances <> A var
+R635:638 Equations.HSets <> HSet class
+R640:640 Equations.HSetInstances <> A var
+R668:684 Equations.HSets <> eq_proofs_unicity thm
+R668:684 Equations.HSets <> eq_proofs_unicity thm
+inst 734:743 <> unit_eqdec
+R747:751 Equations.HSets <> EqDec class
+R753:756 Coq.Init.Datatypes <> unit ind
+inst 798:807 <> bool_eqdec
+R811:815 Equations.HSets <> EqDec class
+R817:820 Coq.Init.Datatypes <> bool ind
+inst 862:870 <> nat_eqdec
+R874:878 Equations.HSets <> EqDec class
+R880:882 Coq.Init.Datatypes <> nat ind
+inst 924:933 <> prod_eqdec
+R943:947 Equations.HSets <> EqDec class
+R949:949 Equations.HSetInstances <> A var
+R954:958 Equations.HSets <> EqDec class
+R960:960 Equations.HSetInstances <> B var
+R965:969 Equations.HSets <> EqDec class
+R972:975 Coq.Init.Datatypes <> prod ind
+R979:979 Equations.HSetInstances <> B var
+R977:977 Equations.HSetInstances <> A var
+inst 1022:1030 <> sum_eqdec
+R1040:1044 Equations.HSets <> EqDec class
+R1046:1046 Equations.HSetInstances <> A var
+R1051:1055 Equations.HSets <> EqDec class
+R1057:1057 Equations.HSetInstances <> B var
+R1062:1066 Equations.HSets <> EqDec class
+R1070:1072 Coq.Init.Datatypes <> :type_scope:x_'+'_x not
+R1069:1069 Equations.HSetInstances <> A var
+R1073:1073 Equations.HSetInstances <> B var
+inst 1116:1125 <> list_eqdec
+R1133:1137 Equations.HSets <> EqDec class
+R1139:1139 Equations.HSetInstances <> A var
+R1144:1148 Equations.HSets <> EqDec class
+R1151:1154 Coq.Init.Datatypes <> list ind
+R1156:1156 Equations.HSetInstances <> A var
+def 1285:1296 <> eqdec_sig_Id
+R1327:1330 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1326:1326 Equations.HSetInstances <> A var
+R1355:1365 Equations.HSets <> EqDec class
+R1367:1367 Equations.HSetInstances <> A var
+R1382:1392 Equations.HSets <> EqDec class
+R1395:1395 Equations.HSetInstances <> B var
+R1397:1397 Equations.HSetInstances <> a var
+R1405:1415 Equations.HSets <> EqDec class
+R1422:1426 Equations.Init <> sigma rec
+R1430:1430 Equations.HSetInstances <> B var
+R1428:1428 Equations.HSetInstances <> A var
+R1483:1494 Equations.HSets <> eq_dec def
+R1483:1494 Equations.HSets <> eq_dec def
+R1538:1549 Equations.HSets <> eq_dec def
+R1538:1549 Equations.HSets <> eq_dec def
+R1631:1654 Equations.DepElim <> Id_simplification_sigma2 thm
+R1631:1654 Equations.DepElim <> Id_simplification_sigma2 thm
+R1691:1714 Equations.DepElim <> Id_simplification_sigma1 thm
+R1691:1714 Equations.DepElim <> Id_simplification_sigma1 thm

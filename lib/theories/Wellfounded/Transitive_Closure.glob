@@ -1,0 +1,54 @@
+DIGEST 1800e55d3890fe24256082aec287943b
+FCoq.Wellfounded.Transitive_Closure
+R720:739 Coq.Relations.Relation_Definitions <> <> lib
+R757:774 Coq.Relations.Relation_Operators <> <> lib
+sec 786:806 <> Wf_Transitive_Closure
+var 820:820 Wf_Transitive_Closure A
+var 841:841 Wf_Transitive_Closure R
+R845:852 Coq.Relations.Relation_Definitions <> relation def
+R854:854 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+syndef 869:878 <> trans_clos
+R884:893 Coq.Relations.Relation_Operators <> clos_trans ind
+R897:897 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R895:895 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+prf 910:924 <> incl_clos_trans
+R928:936 Coq.Relations.Relation_Definitions <> inclusion def
+R942:951 Coq.Wellfounded.Transitive_Closure <> trans_clos syndef
+R940:940 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R938:938 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+prf 995:1008 <> Acc_clos_trans
+R1021:1021 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+R1031:1034 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1035:1037 Coq.Init.Wf <> Acc ind
+R1050:1050 Coq.Wellfounded.Transitive_Closure <> x var
+R1039:1048 Coq.Wellfounded.Transitive_Closure <> trans_clos syndef
+R1024:1026 Coq.Init.Wf <> Acc ind
+R1030:1030 Coq.Wellfounded.Transitive_Closure <> x var
+R1028:1028 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1093:1101 Coq.Init.Wf <> Acc_intro constr
+R1093:1101 Coq.Init.Wf <> Acc_intro constr
+R1165:1171 Coq.Init.Wf <> Acc_inv thm
+R1165:1171 Coq.Init.Wf <> Acc_inv thm
+prf 1249:1261 <> Acc_inv_trans
+R1276:1276 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.A var
+R1293:1296 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1304:1307 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1308:1310 Coq.Init.Wf <> Acc ind
+R1314:1314 Coq.Wellfounded.Transitive_Closure <> y var
+R1312:1312 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1297:1299 Coq.Init.Wf <> Acc ind
+R1303:1303 Coq.Wellfounded.Transitive_Closure <> x var
+R1301:1301 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1279:1288 Coq.Wellfounded.Transitive_Closure <> trans_clos syndef
+R1292:1292 Coq.Wellfounded.Transitive_Closure <> x var
+R1290:1290 Coq.Wellfounded.Transitive_Closure <> y var
+R1387:1393 Coq.Init.Wf <> Acc_inv thm
+R1387:1393 Coq.Init.Wf <> Acc_inv thm
+prf 1433:1445 <> wf_clos_trans
+R1463:1466 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1467:1478 Coq.Init.Wf <> well_founded def
+R1480:1489 Coq.Wellfounded.Transitive_Closure <> trans_clos syndef
+R1449:1460 Coq.Init.Wf <> well_founded def
+R1462:1462 Coq.Wellfounded.Transitive_Closure <> Wf_Transitive_Closure.R var
+R1512:1523 Coq.Init.Wf <> well_founded def
+R1558:1578 Coq.Wellfounded.Transitive_Closure Wf_Transitive_Closure <> sec

@@ -1,0 +1,14 @@
+DIGEST 7dc3468895f20ec6bec086aab89efd2d
+FLtac2.Ltac2
+R541:550 Ltac2.Init <> <> lib
+R562:570 Ltac2.Int <> <> lib
+R581:592 Ltac2.String <> <> lib
+R603:613 Ltac2.Ident <> <> lib
+R624:634 Ltac2.Array <> <> lib
+R645:657 Ltac2.Message <> <> lib
+R668:679 Ltac2.Constr <> <> lib
+R690:702 Ltac2.Control <> <> lib
+R713:723 Ltac2.Fresh <> <> lib
+R734:746 Ltac2.Pattern <> <> lib
+R757:765 Ltac2.Std <> <> lib
+R783:797 Ltac2.Notations <> <> lib

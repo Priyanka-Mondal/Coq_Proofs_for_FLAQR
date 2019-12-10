@@ -1,0 +1,98 @@
+DIGEST b62ef46351eb763ba036893203eca9a0
+FCoq.setoid_ring.Algebra_syntax
+ind 682:685 <> Zero
+constr 701:704 <> zero
+rec 682:685 <> Zero
+proj 701:704 <> zero
+R708:708 Coq.setoid_ring.Algebra_syntax <> A var
+R727:730 Coq.setoid_ring.Algebra_syntax <> zero def
+not 720:720 <> ::'0'
+ind 739:741 <> One
+constr 757:759 <> one
+rec 739:741 <> One
+proj 757:759 <> one
+R763:763 Coq.setoid_ring.Algebra_syntax <> A var
+R782:784 Coq.setoid_ring.Algebra_syntax <> one def
+not 775:775 <> ::'1'
+ind 793:800 <> Addition
+constr 816:823 <> addition
+rec 793:800 <> Addition
+proj 816:823 <> addition
+R828:831 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R833:836 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R837:837 Coq.setoid_ring.Algebra_syntax <> A var
+R832:832 Coq.setoid_ring.Algebra_syntax <> A var
+R827:827 Coq.setoid_ring.Algebra_syntax <> A var
+R858:865 Coq.setoid_ring.Algebra_syntax <> addition def
+not 849:849 <> ::'_+_'
+R889:896 Coq.setoid_ring.Algebra_syntax <> addition def
+not 877:877 <> ::x_'+'_x
+ind 910:923 <> Multiplication
+constr 941:954 <> multiplication
+rec 910:923 <> Multiplication
+proj 941:954 <> multiplication
+R959:962 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R964:967 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R968:968 Coq.setoid_ring.Algebra_syntax <> B var
+R963:963 Coq.setoid_ring.Algebra_syntax <> B var
+R958:958 Coq.setoid_ring.Algebra_syntax <> A var
+R989:1002 Coq.setoid_ring.Algebra_syntax <> multiplication def
+not 980:980 <> ::'_*_'
+R1026:1039 Coq.setoid_ring.Algebra_syntax <> multiplication def
+not 1014:1014 <> ::x_'*'_x
+ind 1053:1063 <> Subtraction
+constr 1079:1089 <> subtraction
+rec 1053:1063 <> Subtraction
+proj 1079:1089 <> subtraction
+R1094:1097 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1099:1102 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1103:1103 Coq.setoid_ring.Algebra_syntax <> A var
+R1098:1098 Coq.setoid_ring.Algebra_syntax <> A var
+R1093:1093 Coq.setoid_ring.Algebra_syntax <> A var
+R1124:1134 Coq.setoid_ring.Algebra_syntax <> subtraction def
+not 1115:1115 <> ::'_-_'
+R1158:1168 Coq.setoid_ring.Algebra_syntax <> subtraction def
+not 1146:1146 <> ::x_'-'_x
+ind 1182:1189 <> Opposite
+constr 1205:1212 <> opposite
+rec 1182:1189 <> Opposite
+proj 1205:1212 <> opposite
+R1217:1220 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1221:1221 Coq.setoid_ring.Algebra_syntax <> A var
+R1216:1216 Coq.setoid_ring.Algebra_syntax <> A var
+R1241:1248 Coq.setoid_ring.Algebra_syntax <> opposite def
+not 1233:1233 <> ::'-_'
+R1270:1277 Coq.setoid_ring.Algebra_syntax <> opposite def
+not 1260:1260 <> ::'-'_x
+ind 1290:1297 <> Equality
+constr 1312:1319 <> equality
+rec 1290:1297 <> Equality
+proj 1312:1319 <> equality
+R1324:1327 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1329:1332 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1328:1328 Coq.setoid_ring.Algebra_syntax <> A var
+R1323:1323 Coq.setoid_ring.Algebra_syntax <> A var
+R1358:1365 Coq.setoid_ring.Algebra_syntax <> equality def
+not 1348:1348 <> ::'_==_'
+R1390:1397 Coq.setoid_ring.Algebra_syntax <> equality def
+not 1377:1377 <> ::x_'=='_x
+ind 1443:1449 <> Bracket
+constr 1465:1471 <> bracket
+rec 1443:1449 <> Bracket
+proj 1465:1471 <> bracket
+R1476:1479 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1480:1480 Coq.setoid_ring.Algebra_syntax <> B var
+R1475:1475 Coq.setoid_ring.Algebra_syntax <> A var
+R1504:1510 Coq.setoid_ring.Algebra_syntax <> bracket def
+not 1492:1492 <> ::'['_x_']'
+ind 1523:1527 <> Power
+constr 1544:1548 <> power
+rec 1523:1527 <> Power
+proj 1544:1548 <> power
+R1553:1556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1558:1561 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1562:1562 Coq.setoid_ring.Algebra_syntax <> A var
+R1557:1557 Coq.setoid_ring.Algebra_syntax <> B var
+R1552:1552 Coq.setoid_ring.Algebra_syntax <> A var
+R1586:1590 Coq.setoid_ring.Algebra_syntax <> power def
+not 1574:1574 <> ::x_'^'_x

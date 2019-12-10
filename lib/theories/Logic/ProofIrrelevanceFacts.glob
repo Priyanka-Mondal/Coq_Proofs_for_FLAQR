@@ -1,0 +1,101 @@
+DIGEST c92f30a93544cd66b5dd0f437e731e5c
+FCoq.Logic.ProofIrrelevanceFacts
+R769:778 Coq.Logic.EqdepFacts <> <> lib
+modtype 794:809 <> ProofIrrelevance
+ax 821:837 ProofIrrelevance proof_irrelevance
+R864:864 Coq.Logic.ProofIrrelevanceFacts <> P var
+R870:872 Coq.Init.Logic <> :type_scope:x_'='_x not
+R868:869 Coq.Logic.ProofIrrelevanceFacts <> p1 var
+R873:874 Coq.Logic.ProofIrrelevanceFacts <> p2 var
+R882:897 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevance <> modtype
+R934:949 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevance <> mod
+mod 908:929 <> ProofIrrelevanceTheory
+mod 1032:1041 <> ProofIrrelevanceTheory.Eq_rect_eq
+prf 1054:1063 ProofIrrelevanceTheory.Eq_rect_eq eq_rect_eq
+R1092:1092 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1099:1102 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1098:1098 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1112:1112 Coq.Logic.ProofIrrelevanceFacts <> Q var
+R1114:1114 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1121:1123 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1120:1120 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1124:1124 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1137:1139 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1136:1136 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1140:1146 Coq.Init.Logic <> eq_rect scheme
+R1156:1156 Coq.Logic.ProofIrrelevanceFacts <> h var
+R1154:1154 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1152:1152 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1150:1150 Coq.Logic.ProofIrrelevanceFacts <> Q var
+R1148:1148 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1230:1236 Coq.Init.Logic <> eq_refl constr
+R1192:1210 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1230:1236 Coq.Init.Logic <> eq_refl constr
+R1192:1210 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1230:1236 Coq.Init.Logic <> eq_refl constr
+R1192:1210 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1276:1285 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory.Eq_rect_eq <> mod
+R1376:1386 Coq.Logic.EqdepFacts EqdepTheory <> modtype
+R1388:1397 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory.Eq_rect_eq <> modtype
+mod 1361:1371 <> ProofIrrelevanceTheory.EqdepTheory
+def 1433:1439 ProofIrrelevanceTheory eq_indd
+R1458:1459 Coq.Init.Logic <> eq ind
+prf 1556:1571 ProofIrrelevanceTheory subset_eq_compat
+R1599:1600 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1598:1598 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1612:1612 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1618:1618 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1620:1620 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1626:1626 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1628:1628 Coq.Logic.ProofIrrelevanceFacts <> y var
+R1643:1646 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1658:1660 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1647:1651 Coq.Init.Specif <> exist constr
+R1657:1657 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1655:1655 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1653:1653 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1661:1665 Coq.Init.Specif <> exist constr
+R1671:1671 Coq.Logic.ProofIrrelevanceFacts <> q var
+R1669:1669 Coq.Logic.ProofIrrelevanceFacts <> y var
+R1667:1667 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1639:1641 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1638:1638 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1642:1642 Coq.Logic.ProofIrrelevanceFacts <> y var
+R1745:1751 Coq.Init.Logic <> eq_rect scheme
+R1707:1725 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1745:1751 Coq.Init.Logic <> eq_rect scheme
+R1707:1725 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1745:1751 Coq.Init.Logic <> eq_rect scheme
+R1707:1725 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R1782:1788 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory eq_indd scheme
+R1782:1788 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory eq_indd scheme
+prf 1824:1840 ProofIrrelevanceTheory subsetT_eq_compat
+R1868:1869 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1867:1867 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1881:1881 Coq.Logic.ProofIrrelevanceFacts <> U var
+R1887:1887 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1889:1889 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1895:1895 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1897:1897 Coq.Logic.ProofIrrelevanceFacts <> y var
+R1912:1915 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1928:1930 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1916:1921 Coq.Init.Specif <> existT constr
+R1927:1927 Coq.Logic.ProofIrrelevanceFacts <> p var
+R1925:1925 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1923:1923 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1931:1936 Coq.Init.Specif <> existT constr
+R1942:1942 Coq.Logic.ProofIrrelevanceFacts <> q var
+R1940:1940 Coq.Logic.ProofIrrelevanceFacts <> y var
+R1938:1938 Coq.Logic.ProofIrrelevanceFacts <> P var
+R1908:1910 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1907:1907 Coq.Logic.ProofIrrelevanceFacts <> x var
+R1911:1911 Coq.Logic.ProofIrrelevanceFacts <> y var
+R2016:2022 Coq.Init.Logic <> eq_rect scheme
+R1978:1996 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R2016:2022 Coq.Init.Logic <> eq_rect scheme
+R1978:1996 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R2016:2022 Coq.Init.Logic <> eq_rect scheme
+R1978:1996 Coq.Logic.ProofIrrelevanceFacts M proof_irrelevance prfax
+R2053:2059 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory eq_indd scheme
+R2053:2059 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory eq_indd scheme
+R2091:2112 Coq.Logic.ProofIrrelevanceFacts ProofIrrelevanceTheory <> mod

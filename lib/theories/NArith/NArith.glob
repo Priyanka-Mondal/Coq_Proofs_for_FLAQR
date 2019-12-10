@@ -1,0 +1,25 @@
+DIGEST e063040bac9de3ba921cbb5225187ef6
+FCoq.NArith.NArith
+R734:740 Coq.Numbers.BinNums <> <> lib
+R758:763 Coq.PArith.BinPos <> <> lib
+R781:786 Coq.NArith.BinNat <> <> lib
+R804:807 Coq.NArith.Nnat <> <> lib
+R825:832 Coq.NArith.Ndiv_def <> <> lib
+R850:858 Coq.NArith.Nsqrt_def <> <> lib
+R876:883 Coq.NArith.Ngcd_def <> <> lib
+R901:907 Coq.NArith.Ndigits <> <> lib
+R925:934 Coq.setoid_ring.NArithRing <> <> lib
+sec 1168:1176 <> TestOrder
+var 1184:1187 TestOrder test
+R1207:1210 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1215:1218 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1220:1220 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1219:1219 Coq.NArith.NArith <> x var
+R1221:1221 Coq.NArith.NArith <> y var
+R1212:1213 Coq.NArith.BinNat <> :N_scope:x_'<='_x not
+R1211:1211 Coq.NArith.NArith <> y var
+R1214:1214 Coq.NArith.NArith <> x var
+R1204:1205 Coq.NArith.BinNat <> :N_scope:x_'<='_x not
+R1203:1203 Coq.NArith.NArith <> x var
+R1206:1206 Coq.NArith.NArith <> y var
+R1252:1260 Coq.NArith.NArith TestOrder <> sec

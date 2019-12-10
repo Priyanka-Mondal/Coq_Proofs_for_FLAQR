@@ -1,0 +1,22 @@
+DIGEST 0f4df3dfe546965d1e7b755dda67b1f9
+FCoq.Init.Tauto
+R15:23 Coq.Init.Notations <> <> lib
+R41:49 Coq.Init.Datatypes <> <> lib
+R67:71 Coq.Init.Logic <> <> lib
+R211:228 Coq.Init.Logic <> not def
+R211:228 Coq.Init.Logic <> not def
+R243:260 Coq.Init.Logic <> not def
+R663:680 Coq.Init.Logic <> iff def
+R663:680 Coq.Init.Logic <> iff def
+R738:755 Coq.Init.Logic <> not def
+R738:755 Coq.Init.Logic <> not def
+R1456:1473 Coq.Init.Logic <> iff def
+R1456:1473 Coq.Init.Logic <> iff def
+R1850:1867 Coq.Init.Logic <> iff def
+R1850:1867 Coq.Init.Logic <> iff def
+R1895:1912 Coq.Init.Logic <> not def
+R1895:1912 Coq.Init.Logic <> not def
+R2354:2356 Coq.Init.Logic <> not def
+R2354:2356 Coq.Init.Logic <> not def
+R2434:2436 Coq.Init.Logic <> not def
+R2283:2283 Coq.Init.Tauto <> y var

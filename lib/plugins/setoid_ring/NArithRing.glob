@@ -1,0 +1,10 @@
+DIGEST 48b86721843e8e02869ede27bae11382
+FCoq.setoid_ring.NArithRing
+R691:694 Coq.setoid_ring.Ring <> <> lib
+R712:717 Coq.PArith.BinPos <> <> lib
+R719:724 Coq.NArith.BinNat <> <> lib
+R814:817 Coq.Init.Datatypes <> true constr
+R814:817 Coq.Init.Datatypes <> true constr
+R841:851 Coq.setoid_ring.InitialRing <> NotConstant def
+R876:878 Coq.setoid_ring.InitialRing <> Nth thm
+R891:897 Coq.setoid_ring.InitialRing <> Neqb_ok thm

@@ -1,0 +1,5 @@
+DIGEST ec97f2313551f7068ac8f13680964123
+FCoq.omega.OmegaTactic
+R727:737 Coq.ZArith.ZArith_base <> <> lib
+R748:758 Coq.omega.OmegaLemmas <> <> lib
+R769:776 Coq.omega.PreOmega <> <> lib

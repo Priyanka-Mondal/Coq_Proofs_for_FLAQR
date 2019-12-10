@@ -1,0 +1,20 @@
+DIGEST e5a2d04bbed5c9c29456ed1c3b02bb91
+FCoq.NArith.Ngcd_def
+R691:696 Coq.PArith.BinPos <> <> lib
+R698:703 Coq.NArith.BinNat <> <> lib
+syndef 829:835 <> Ndivide
+R840:847 Coq.NArith.BinNat N divide def
+syndef 874:877 <> Ngcd
+R882:886 Coq.NArith.BinNat N gcd def
+syndef 913:917 <> Nggcd
+R922:927 Coq.NArith.BinNat N ggcd def
+syndef 954:962 <> Nggcd_gcd
+R967:976 Coq.NArith.BinNat N ggcd_gcd thm
+syndef 1003:1024 <> Nggcd_correct_divisors
+R1029:1051 Coq.NArith.BinNat N ggcd_correct_divisors thm
+syndef 1078:1090 <> Ngcd_divide_l
+R1095:1108 Coq.NArith.BinNat N gcd_divide_l thm
+syndef 1135:1147 <> Ngcd_divide_r
+R1152:1165 Coq.NArith.BinNat N gcd_divide_r thm
+syndef 1192:1204 <> Ngcd_greatest
+R1209:1222 Coq.NArith.BinNat N gcd_greatest thm

@@ -1,0 +1,322 @@
+DIGEST bf72a07fac6670b742e7b05930e72363
+FCoq.Sorting.Sorted
+R1046:1049 Coq.Lists.List <> <> lib
+R1051:1059 Coq.Relations.Relations <> <> lib
+R1061:1071 Coq.Sets.Relations_1 <> <> lib
+R1175:1177 Coq.Init.Datatypes <> nil constr
+not 1166:1166 <> ::'['_']'
+R1230:1233 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1239:1242 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1243:1244 Coq.Sorting.Sorted <> ::'['_']' not
+not 1208:1208 <> ::'['_x_';'_'..'_';'_x_']'
+R1275:1284 Coq.Sets.Relations_1 <> Transitive def
+R1275:1284 Coq.Sets.Relations_1 <> Transitive def
+sec 1302:1305 <> defs
+var 1320:1320 defs A
+var 1341:1341 defs R
+R1346:1349 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1351:1354 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1350:1350 Coq.Sorting.Sorted <> defs.A var
+R1345:1345 Coq.Sorting.Sorted <> defs.A var
+ind 1445:1457 <> LocallySorted
+constr 1485:1495 <> LSorted_nil
+constr 1522:1534 <> LSorted_cons1
+constr 1564:1576 <> LSorted_consn
+R1467:1470 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1461:1464 Coq.Init.Datatypes <> list ind
+R1466:1466 Coq.Sorting.Sorted <> defs.A var
+R1499:1511 Coq.Sorting.Sorted <> LocallySorted ind
+R1513:1514 Coq.Sorting.Sorted <> ::'['_']' not
+R1540:1552 Coq.Sorting.Sorted <> LocallySorted ind
+R1554:1554 Coq.Sorting.Sorted <> ::'['_x_';'_'..'_';'_x_']' not
+R1556:1556 Coq.Sorting.Sorted <> ::'['_x_';'_'..'_';'_x_']' not
+R1555:1555 Coq.Sorting.Sorted <> a var
+R1616:1619 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1625:1628 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1629:1641 Coq.Sorting.Sorted <> LocallySorted ind
+R1645:1648 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1644:1644 Coq.Sorting.Sorted <> a var
+R1650:1653 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1649:1649 Coq.Sorting.Sorted <> b var
+R1654:1654 Coq.Sorting.Sorted <> l var
+R1620:1620 Coq.Sorting.Sorted <> defs.R var
+R1624:1624 Coq.Sorting.Sorted <> b var
+R1622:1622 Coq.Sorting.Sorted <> a var
+R1594:1606 Coq.Sorting.Sorted <> LocallySorted ind
+R1610:1613 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1609:1609 Coq.Sorting.Sorted <> b var
+R1614:1614 Coq.Sorting.Sorted <> l var
+ind 1737:1741 <> HdRel
+constr 1771:1779 <> HdRel_nil
+constr 1800:1809 <> HdRel_cons
+R1753:1756 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1747:1750 Coq.Init.Datatypes <> list ind
+R1752:1752 Coq.Sorting.Sorted <> defs.A var
+R1783:1787 Coq.Sorting.Sorted <> HdRel ind
+R1791:1792 Coq.Sorting.Sorted <> ::'['_']' not
+R1789:1789 Coq.Sorting.Sorted <> a var
+R1822:1825 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1826:1830 Coq.Sorting.Sorted <> HdRel ind
+R1836:1839 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1835:1835 Coq.Sorting.Sorted <> b var
+R1840:1840 Coq.Sorting.Sorted <> l var
+R1832:1832 Coq.Sorting.Sorted <> a var
+R1817:1817 Coq.Sorting.Sorted <> defs.R var
+R1821:1821 Coq.Sorting.Sorted <> b var
+R1819:1819 Coq.Sorting.Sorted <> a var
+ind 1857:1862 <> Sorted
+constr 1890:1899 <> Sorted_nil
+constr 1919:1929 <> Sorted_cons
+R1872:1875 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1866:1869 Coq.Init.Datatypes <> list ind
+R1871:1871 Coq.Sorting.Sorted <> defs.A var
+R1903:1908 Coq.Sorting.Sorted <> Sorted ind
+R1910:1911 Coq.Sorting.Sorted <> ::'['_']' not
+R1945:1948 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1958:1961 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1962:1967 Coq.Sorting.Sorted <> Sorted ind
+R1971:1974 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R1970:1970 Coq.Sorting.Sorted <> a var
+R1975:1975 Coq.Sorting.Sorted <> l var
+R1949:1953 Coq.Sorting.Sorted <> HdRel ind
+R1957:1957 Coq.Sorting.Sorted <> l var
+R1955:1955 Coq.Sorting.Sorted <> a var
+R1937:1942 Coq.Sorting.Sorted <> Sorted ind
+R1944:1944 Coq.Sorting.Sorted <> l var
+prf 1988:1996 <> HdRel_inv
+R2030:2033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2034:2034 Coq.Sorting.Sorted <> defs.R var
+R2038:2038 Coq.Sorting.Sorted <> b var
+R2036:2036 Coq.Sorting.Sorted <> a var
+R2014:2018 Coq.Sorting.Sorted <> HdRel ind
+R2024:2027 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2023:2023 Coq.Sorting.Sorted <> b var
+R2028:2028 Coq.Sorting.Sorted <> l var
+R2020:2020 Coq.Sorting.Sorted <> a var
+prf 2089:2098 <> Sorted_inv
+R2133:2136 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2145:2148 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2137:2142 Coq.Sorting.Sorted <> Sorted ind
+R2144:2144 Coq.Sorting.Sorted <> l var
+R2149:2153 Coq.Sorting.Sorted <> HdRel ind
+R2157:2157 Coq.Sorting.Sorted <> l var
+R2155:2155 Coq.Sorting.Sorted <> a var
+R2118:2123 Coq.Sorting.Sorted <> Sorted ind
+R2127:2130 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2126:2126 Coq.Sorting.Sorted <> a var
+R2131:2131 Coq.Sorting.Sorted <> l var
+prf 2222:2232 <> Sorted_rect
+R2255:2258 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2249:2252 Coq.Init.Datatypes <> list ind
+R2254:2254 Coq.Sorting.Sorted <> defs.A var
+R2275:2284 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2285:2285 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2340:2350 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2360:2363 Coq.Init.Datatypes <> list ind
+R2365:2365 Coq.Sorting.Sorted <> defs.A var
+R2376:2379 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2380:2380 Coq.Sorting.Sorted <> P var
+R2382:2382 Coq.Sorting.Sorted <> l var
+R2368:2373 Coq.Sorting.Sorted <> Sorted ind
+R2375:2375 Coq.Sorting.Sorted <> l var
+R2306:2309 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2313:2316 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2326:2329 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2330:2330 Coq.Sorting.Sorted <> P var
+R2334:2337 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2333:2333 Coq.Sorting.Sorted <> a var
+R2338:2338 Coq.Sorting.Sorted <> l var
+R2317:2321 Coq.Sorting.Sorted <> HdRel ind
+R2325:2325 Coq.Sorting.Sorted <> l var
+R2323:2323 Coq.Sorting.Sorted <> a var
+R2310:2310 Coq.Sorting.Sorted <> P var
+R2312:2312 Coq.Sorting.Sorted <> l var
+R2298:2303 Coq.Sorting.Sorted <> Sorted ind
+R2305:2305 Coq.Sorting.Sorted <> l var
+R2271:2271 Coq.Sorting.Sorted <> P var
+R2273:2274 Coq.Sorting.Sorted <> ::'['_']' not
+prf 2485:2508 <> Sorted_LocallySorted_iff
+R2530:2534 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2522:2527 Coq.Sorting.Sorted <> Sorted ind
+R2529:2529 Coq.Sorting.Sorted <> l var
+R2535:2547 Coq.Sorting.Sorted <> LocallySorted ind
+R2549:2549 Coq.Sorting.Sorted <> l var
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2631:2636 Coq.Sorting.Sorted <> Sorted ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2639:2651 Coq.Sorting.Sorted <> LocallySorted ind
+R2654:2658 Coq.Sorting.Sorted <> HdRel ind
+R2697:2709 Coq.Sorting.Sorted <> LocallySorted ind
+R2697:2709 Coq.Sorting.Sorted <> LocallySorted ind
+ind 2801:2814 <> StronglySorted
+constr 2842:2852 <> SSorted_nil
+constr 2880:2891 <> SSorted_cons
+R2824:2827 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2818:2821 Coq.Init.Datatypes <> list ind
+R2823:2823 Coq.Sorting.Sorted <> defs.A var
+R2856:2869 Coq.Sorting.Sorted <> StronglySorted ind
+R2871:2872 Coq.Sorting.Sorted <> ::'['_']' not
+R2915:2918 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2933:2936 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2937:2950 Coq.Sorting.Sorted <> StronglySorted ind
+R2954:2957 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R2953:2953 Coq.Sorting.Sorted <> a var
+R2958:2958 Coq.Sorting.Sorted <> l var
+R2919:2924 Coq.Lists.List <> Forall ind
+R2932:2932 Coq.Sorting.Sorted <> l var
+R2927:2927 Coq.Sorting.Sorted <> defs.R var
+R2929:2929 Coq.Sorting.Sorted <> a var
+R2899:2912 Coq.Sorting.Sorted <> StronglySorted ind
+R2914:2914 Coq.Sorting.Sorted <> l var
+prf 2971:2988 <> StronglySorted_inv
+R3027:3034 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3051:3054 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3035:3048 Coq.Sorting.Sorted <> StronglySorted ind
+R3050:3050 Coq.Sorting.Sorted <> l var
+R3055:3060 Coq.Lists.List <> Forall ind
+R3068:3068 Coq.Sorting.Sorted <> l var
+R3063:3063 Coq.Sorting.Sorted <> defs.R var
+R3065:3065 Coq.Sorting.Sorted <> a var
+R3004:3017 Coq.Sorting.Sorted <> StronglySorted ind
+R3021:3024 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3020:3020 Coq.Sorting.Sorted <> a var
+R3025:3025 Coq.Sorting.Sorted <> l var
+prf 3131:3149 <> StronglySorted_rect
+R3172:3175 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3166:3169 Coq.Init.Datatypes <> list ind
+R3171:3171 Coq.Sorting.Sorted <> defs.A var
+R3192:3201 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3202:3202 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3270:3280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3307:3310 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3311:3311 Coq.Sorting.Sorted <> P var
+R3313:3313 Coq.Sorting.Sorted <> l var
+R3291:3304 Coq.Sorting.Sorted <> StronglySorted ind
+R3306:3306 Coq.Sorting.Sorted <> l var
+R3231:3234 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3238:3241 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3256:3259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3260:3260 Coq.Sorting.Sorted <> P var
+R3264:3267 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3263:3263 Coq.Sorting.Sorted <> a var
+R3268:3268 Coq.Sorting.Sorted <> l var
+R3242:3247 Coq.Lists.List <> Forall ind
+R3255:3255 Coq.Sorting.Sorted <> l var
+R3250:3250 Coq.Sorting.Sorted <> defs.R var
+R3252:3252 Coq.Sorting.Sorted <> a var
+R3235:3235 Coq.Sorting.Sorted <> P var
+R3237:3237 Coq.Sorting.Sorted <> l var
+R3215:3228 Coq.Sorting.Sorted <> StronglySorted ind
+R3230:3230 Coq.Sorting.Sorted <> l var
+R3188:3188 Coq.Sorting.Sorted <> P var
+R3190:3191 Coq.Sorting.Sorted <> ::'['_']' not
+prf 3399:3416 <> StronglySorted_rec
+R3439:3442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3433:3436 Coq.Init.Datatypes <> list ind
+R3438:3438 Coq.Sorting.Sorted <> defs.A var
+R3459:3468 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3469:3469 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3537:3547 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3574:3577 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3578:3578 Coq.Sorting.Sorted <> P var
+R3580:3580 Coq.Sorting.Sorted <> l var
+R3558:3571 Coq.Sorting.Sorted <> StronglySorted ind
+R3573:3573 Coq.Sorting.Sorted <> l var
+R3498:3501 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3505:3508 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3523:3526 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3527:3527 Coq.Sorting.Sorted <> P var
+R3531:3534 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3530:3530 Coq.Sorting.Sorted <> a var
+R3535:3535 Coq.Sorting.Sorted <> l var
+R3509:3514 Coq.Lists.List <> Forall ind
+R3522:3522 Coq.Sorting.Sorted <> l var
+R3517:3517 Coq.Sorting.Sorted <> defs.R var
+R3519:3519 Coq.Sorting.Sorted <> a var
+R3502:3502 Coq.Sorting.Sorted <> P var
+R3504:3504 Coq.Sorting.Sorted <> l var
+R3482:3495 Coq.Sorting.Sorted <> StronglySorted ind
+R3497:3497 Coq.Sorting.Sorted <> l var
+R3455:3455 Coq.Sorting.Sorted <> P var
+R3457:3458 Coq.Sorting.Sorted <> ::'['_']' not
+prf 3650:3670 <> StronglySorted_Sorted
+R3700:3703 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3704:3709 Coq.Sorting.Sorted <> Sorted ind
+R3711:3711 Coq.Sorting.Sorted <> l var
+R3684:3697 Coq.Sorting.Sorted <> StronglySorted ind
+R3699:3699 Coq.Sorting.Sorted <> l var
+prf 3844:3857 <> Sorted_extends
+R3877:3880 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3906:3909 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3910:3915 Coq.Lists.List <> Forall ind
+R3923:3923 Coq.Sorting.Sorted <> l var
+R3918:3918 Coq.Sorting.Sorted <> defs.R var
+R3920:3920 Coq.Sorting.Sorted <> a var
+R3893:3898 Coq.Sorting.Sorted <> Sorted ind
+R3902:3903 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3901:3901 Coq.Sorting.Sorted <> a var
+R3904:3904 Coq.Sorting.Sorted <> l var
+R3865:3874 Coq.Sets.Relations_1 <> Transitive def
+R3876:3876 Coq.Sorting.Sorted <> defs.R var
+R3961:3964 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3972:3973 Coq.Sorting.Sorted <> ::'['_']' not
+R3978:3981 Coq.Init.Logic <> True ind
+R3986:3989 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3995:4000 Coq.Lists.List <> Forall ind
+R4003:4003 Coq.Sorting.Sorted <> defs.R var
+R3961:3964 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3972:3973 Coq.Sorting.Sorted <> ::'['_']' not
+R3978:3981 Coq.Init.Logic <> True ind
+R3986:3989 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R3995:4000 Coq.Lists.List <> Forall ind
+R4003:4003 Coq.Sorting.Sorted <> defs.R var
+R4112:4122 Coq.Lists.List <> Forall_impl thm
+R4112:4122 Coq.Lists.List <> Forall_impl thm
+prf 4173:4193 <> Sorted_StronglySorted
+R4213:4216 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4235:4238 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4239:4252 Coq.Sorting.Sorted <> StronglySorted ind
+R4254:4254 Coq.Sorting.Sorted <> l var
+R4227:4232 Coq.Sorting.Sorted <> Sorted ind
+R4234:4234 Coq.Sorting.Sorted <> l var
+R4201:4210 Coq.Sets.Relations_1 <> Transitive def
+R4212:4212 Coq.Sorting.Sorted <> defs.R var
+R4315:4328 Coq.Sorting.Sorted <> Sorted_extends thm
+R4315:4328 Coq.Sorting.Sorted <> Sorted_extends thm
+R4378:4381 Coq.Sorting.Sorted defs <> sec
+R4403:4407 Coq.Sorting.Sorted <> HdRel ind
+R4428:4433 Coq.Sorting.Sorted <> Sorted ind
+syndef 4514:4520 <> lelistA
+R4525:4529 Coq.Sorting.Sorted <> HdRel ind
+syndef 4556:4562 <> nil_leA
+R4567:4575 Coq.Sorting.Sorted <> HdRel_nil constr
+syndef 4602:4609 <> cons_leA
+R4614:4623 Coq.Sorting.Sorted <> HdRel_cons constr
+syndef 4651:4654 <> sort
+R4659:4664 Coq.Sorting.Sorted <> Sorted ind
+syndef 4691:4698 <> nil_sort
+R4703:4712 Coq.Sorting.Sorted <> Sorted_nil constr
+syndef 4739:4747 <> cons_sort
+R4752:4762 Coq.Sorting.Sorted <> Sorted_cons constr
+syndef 4790:4800 <> lelistA_inv
+R4805:4813 Coq.Sorting.Sorted <> HdRel_inv thm
+syndef 4840:4847 <> sort_inv
+R4852:4861 Coq.Sorting.Sorted <> Sorted_inv thm
+syndef 4888:4896 <> sort_rect
+R4901:4911 Coq.Sorting.Sorted <> Sorted_rect thm

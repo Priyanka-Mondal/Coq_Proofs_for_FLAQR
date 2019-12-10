@@ -1,0 +1,21 @@
+DIGEST 27c56c38f28d63beff8099f6d4f60575
+FCoq.Logic.PropExtensionality
+ax 771:798 <> propositional_extensionality
+R825:825 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R833:837 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R839:841 Coq.Init.Logic <> :type_scope:x_'='_x not
+R838:838 Coq.Logic.PropExtensionality <> P var
+R842:842 Coq.Logic.PropExtensionality <> Q var
+R827:831 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R826:826 Coq.Logic.PropExtensionality <> P var
+R832:832 Coq.Logic.PropExtensionality <> Q var
+R861:874 Coq.Logic.ClassicalFacts <> <> lib
+prf 886:902 <> proof_irrelevance
+R929:929 Coq.Logic.PropExtensionality <> P var
+R935:937 Coq.Init.Logic <> :type_scope:x_'='_x not
+R933:934 Coq.Logic.PropExtensionality <> p1 var
+R938:939 Coq.Logic.PropExtensionality <> p2 var
+R957:984 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R957:984 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R995:1022 Coq.Logic.PropExtensionality <> propositional_extensionality prfax
+R995:1022 Coq.Logic.PropExtensionality <> propositional_extensionality prfax

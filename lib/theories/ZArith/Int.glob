@@ -1,0 +1,1128 @@
+DIGEST 273fd2bff6235a9342616281aa99c332
+FCoq.ZArith.Int
+R1005:1010 Coq.ZArith.BinInt <> <> lib
+modtype 1124:1126 <> Int
+ax 1142:1142 Int t
+ax 1195:1197 Int i2z
+R1202:1205 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1206:1206 Coq.Numbers.BinNums <> Z ind
+R1201:1201 Coq.ZArith.Int Int t defax
+ax 1222:1223 Int _0
+R1227:1227 Coq.ZArith.Int Int t defax
+ax 1242:1243 Int _1
+R1247:1247 Coq.ZArith.Int Int t defax
+ax 1262:1263 Int _2
+R1267:1267 Coq.ZArith.Int Int t defax
+ax 1282:1283 Int _3
+R1287:1287 Coq.ZArith.Int Int t defax
+ax 1302:1304 Int add
+R1309:1312 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1314:1317 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1318:1318 Coq.ZArith.Int Int t defax
+R1313:1313 Coq.ZArith.Int Int t defax
+R1308:1308 Coq.ZArith.Int Int t defax
+ax 1333:1335 Int opp
+R1340:1343 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1344:1344 Coq.ZArith.Int Int t defax
+R1339:1339 Coq.ZArith.Int Int t defax
+ax 1359:1361 Int sub
+R1366:1369 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1371:1374 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1375:1375 Coq.ZArith.Int Int t defax
+R1370:1370 Coq.ZArith.Int Int t defax
+R1365:1365 Coq.ZArith.Int Int t defax
+ax 1390:1392 Int mul
+R1397:1400 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1402:1405 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1406:1406 Coq.ZArith.Int Int t defax
+R1401:1401 Coq.ZArith.Int Int t defax
+R1396:1396 Coq.ZArith.Int Int t defax
+ax 1421:1423 Int max
+R1428:1431 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1433:1436 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1437:1437 Coq.ZArith.Int Int t defax
+R1432:1432 Coq.ZArith.Int Int t defax
+R1427:1427 Coq.ZArith.Int Int t defax
+R1459:1460 Coq.ZArith.Int Int _0 defax
+not 1452:1452 Int :Int_scope:'0'
+R1493:1494 Coq.ZArith.Int Int _1 defax
+not 1486:1486 Int :Int_scope:'1'
+R1527:1528 Coq.ZArith.Int Int _2 defax
+not 1520:1520 Int :Int_scope:'2'
+R1561:1562 Coq.ZArith.Int Int _3 defax
+not 1554:1554 Int :Int_scope:'3'
+R1592:1594 Coq.ZArith.Int Int add defax
+not 1585:1585 Int :Int_scope:x_'+'_x
+R1624:1626 Coq.ZArith.Int Int sub defax
+not 1617:1617 Int :Int_scope:x_'-'_x
+R1656:1658 Coq.ZArith.Int Int mul defax
+not 1649:1649 Int :Int_scope:x_'*'_x
+R1694:1696 Coq.ZArith.Int Int opp defax
+not 1684:1684 Int :Int_scope:'-'_x
+R1926:1928 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1921:1923 Coq.ZArith.Int Int i2z defax
+R1929:1931 Coq.ZArith.Int Int i2z defax
+not 1908:1908 Int :Int_scope:x_'=='_x
+R2031:2034 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R2026:2028 Coq.ZArith.Int Int i2z defax
+R2035:2037 Coq.ZArith.Int Int i2z defax
+not 2013:2013 Int :Int_scope:x_'<='_x
+R2085:2087 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2080:2082 Coq.ZArith.Int Int i2z defax
+R2088:2090 Coq.ZArith.Int Int i2z defax
+not 2068:2068 Int :Int_scope:x_'<'_x
+R2139:2142 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R2134:2136 Coq.ZArith.Int Int i2z defax
+R2143:2145 Coq.ZArith.Int Int i2z defax
+not 2121:2121 Int :Int_scope:x_'>='_x
+R2193:2195 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R2188:2190 Coq.ZArith.Int Int i2z defax
+R2196:2198 Coq.ZArith.Int Int i2z defax
+not 2176:2176 Int :Int_scope:x_'>'_x
+R2253:2256 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2248:2251 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+R2258:2261 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+not 2229:2229 Int :Int_scope:x_'<='_x_'<='_x
+R2312:2315 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2307:2310 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+R2317:2319 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+not 2289:2289 Int :Int_scope:x_'<='_x_'<'_x
+R2368:2371 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2364:2366 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+R2373:2375 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+not 2347:2347 Int :Int_scope:x_'<'_x_'<'_x
+R2425:2428 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2421:2423 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+R2430:2433 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+not 2403:2403 Int :Int_scope:x_'<'_x_'<='_x
+ax 2494:2496 Int eqb
+R2501:2504 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2506:2509 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2510:2513 Coq.Init.Datatypes <> bool ind
+R2505:2505 Coq.ZArith.Int Int t defax
+R2500:2500 Coq.ZArith.Int Int t defax
+ax 2524:2526 Int ltb
+R2531:2534 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2536:2539 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2540:2543 Coq.Init.Datatypes <> bool ind
+R2535:2535 Coq.ZArith.Int Int t defax
+R2530:2530 Coq.ZArith.Int Int t defax
+ax 2554:2556 Int leb
+R2561:2564 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2566:2569 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2570:2573 Coq.Init.Datatypes <> bool ind
+R2565:2565 Coq.ZArith.Int Int t defax
+R2560:2560 Coq.ZArith.Int Int t defax
+R2593:2595 Coq.ZArith.Int Int eqb prfax
+not 2585:2585 Int ::x_'=?'_x
+R2614:2616 Coq.ZArith.Int Int ltb prfax
+not 2606:2606 Int ::x_'<?'_x
+R2636:2638 Coq.ZArith.Int Int leb prfax
+not 2627:2627 Int ::x_'<=?'_x
+ax 2722:2730 Int gt_le_dec
+R2747:2747 Coq.ZArith.Int Int t defax
+R2750:2750 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2756:2760 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2767:2767 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2752:2754 Coq.ZArith.Int Int :Int_scope:x_'>'_x not
+R2751:2751 Coq.ZArith.Int <> x var
+R2755:2755 Coq.ZArith.Int <> y var
+R2762:2765 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+R2761:2761 Coq.ZArith.Int <> x var
+R2766:2766 Coq.ZArith.Int <> y var
+ax 2778:2786 Int ge_lt_dec
+R2804:2804 Coq.ZArith.Int Int t defax
+R2807:2807 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2814:2818 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2824:2824 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2809:2812 Coq.ZArith.Int Int :Int_scope:x_'>='_x not
+R2808:2808 Coq.ZArith.Int <> x var
+R2813:2813 Coq.ZArith.Int <> y var
+R2820:2822 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+R2819:2819 Coq.ZArith.Int <> x var
+R2823:2823 Coq.ZArith.Int <> y var
+ax 2835:2840 Int eq_dec
+R2857:2857 Coq.ZArith.Int Int t defax
+R2860:2861 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2868:2873 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2880:2881 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2863:2866 Coq.ZArith.Int Int :Int_scope:x_'=='_x not
+R2862:2862 Coq.ZArith.Int <> x var
+R2867:2867 Coq.ZArith.Int <> y var
+R2874:2875 Coq.Init.Logic <> :type_scope:'~'_x not
+R2877:2878 Coq.ZArith.Int Int :Int_scope:x_'=='_x not
+R2876:2876 Coq.ZArith.Int <> x var
+R2879:2879 Coq.ZArith.Int <> y var
+ax 3162:3167 Int i2z_eq
+R3184:3184 Coq.ZArith.Int Int t defax
+R3193:3196 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3198:3200 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3197:3197 Coq.ZArith.Int <> n var
+R3201:3201 Coq.ZArith.Int <> p var
+R3188:3191 Coq.ZArith.Int Int :Int_scope:x_'=='_x not
+R3187:3187 Coq.ZArith.Int <> n var
+R3192:3192 Coq.ZArith.Int <> p var
+ax 3319:3323 Int i2z_0
+R3333:3335 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3327:3329 Coq.ZArith.Int Int i2z defax
+R3331:3332 Coq.ZArith.Int Int _0 defax
+ax 3349:3353 Int i2z_1
+R3363:3365 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3357:3359 Coq.ZArith.Int Int i2z defax
+R3361:3362 Coq.ZArith.Int Int _1 defax
+ax 3379:3383 Int i2z_2
+R3393:3395 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3387:3389 Coq.ZArith.Int Int i2z defax
+R3391:3392 Coq.ZArith.Int Int _2 defax
+ax 3409:3413 Int i2z_3
+R3423:3425 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3417:3419 Coq.ZArith.Int Int i2z defax
+R3421:3422 Coq.ZArith.Int Int _3 defax
+ax 3439:3445 Int i2z_add
+R3472:3474 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3461:3463 Coq.ZArith.Int Int i2z defax
+R3467:3469 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R3466:3466 Coq.ZArith.Int <> n var
+R3470:3470 Coq.ZArith.Int <> p var
+R3481:3483 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R3476:3478 Coq.ZArith.Int Int i2z defax
+R3480:3480 Coq.ZArith.Int <> n var
+R3484:3486 Coq.ZArith.Int Int i2z defax
+R3488:3488 Coq.ZArith.Int <> p var
+ax 3502:3508 Int i2z_opp
+R3530:3532 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3522:3524 Coq.ZArith.Int Int i2z defax
+R3527:3527 Coq.ZArith.Int Int :Int_scope:'-'_x not
+R3528:3528 Coq.ZArith.Int <> n var
+R3534:3534 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R3535:3537 Coq.ZArith.Int Int i2z defax
+R3539:3539 Coq.ZArith.Int <> n var
+ax 3553:3559 Int i2z_sub
+R3586:3588 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3575:3577 Coq.ZArith.Int Int i2z defax
+R3581:3583 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R3580:3580 Coq.ZArith.Int <> n var
+R3584:3584 Coq.ZArith.Int <> p var
+R3595:3597 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R3590:3592 Coq.ZArith.Int Int i2z defax
+R3594:3594 Coq.ZArith.Int <> n var
+R3598:3600 Coq.ZArith.Int Int i2z defax
+R3602:3602 Coq.ZArith.Int <> p var
+ax 3616:3622 Int i2z_mul
+R3649:3651 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3638:3640 Coq.ZArith.Int Int i2z defax
+R3644:3646 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R3643:3643 Coq.ZArith.Int <> n var
+R3647:3647 Coq.ZArith.Int <> p var
+R3658:3660 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3653:3655 Coq.ZArith.Int Int i2z defax
+R3657:3657 Coq.ZArith.Int <> n var
+R3661:3663 Coq.ZArith.Int Int i2z defax
+R3665:3665 Coq.ZArith.Int <> p var
+ax 3679:3685 Int i2z_max
+R3714:3716 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3701:3703 Coq.ZArith.Int Int i2z defax
+R3706:3708 Coq.ZArith.Int Int max defax
+R3712:3712 Coq.ZArith.Int <> p var
+R3710:3710 Coq.ZArith.Int <> n var
+R3717:3721 Coq.ZArith.BinInt Z max def
+R3732:3734 Coq.ZArith.Int Int i2z defax
+R3736:3736 Coq.ZArith.Int <> p var
+R3724:3726 Coq.ZArith.Int Int i2z defax
+R3728:3728 Coq.ZArith.Int <> n var
+ax 3748:3754 Int i2z_eqb
+R3777:3779 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3770:3772 Coq.ZArith.Int Int eqb prfax
+R3776:3776 Coq.ZArith.Int <> p var
+R3774:3774 Coq.ZArith.Int <> n var
+R3780:3784 Coq.ZArith.BinInt Z eqb def
+R3795:3797 Coq.ZArith.Int Int i2z defax
+R3799:3799 Coq.ZArith.Int <> p var
+R3787:3789 Coq.ZArith.Int Int i2z defax
+R3791:3791 Coq.ZArith.Int <> n var
+ax 3811:3817 Int i2z_ltb
+R3840:3842 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3833:3835 Coq.ZArith.Int Int ltb prfax
+R3839:3839 Coq.ZArith.Int <> p var
+R3837:3837 Coq.ZArith.Int <> n var
+R3843:3847 Coq.ZArith.BinInt Z ltb def
+R3858:3860 Coq.ZArith.Int Int i2z defax
+R3862:3862 Coq.ZArith.Int <> p var
+R3850:3852 Coq.ZArith.Int Int i2z defax
+R3854:3854 Coq.ZArith.Int <> n var
+ax 3874:3880 Int i2z_leb
+R3903:3905 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3896:3898 Coq.ZArith.Int Int leb prfax
+R3902:3902 Coq.ZArith.Int <> p var
+R3900:3900 Coq.ZArith.Int <> n var
+R3906:3910 Coq.ZArith.BinInt Z leb def
+R3921:3923 Coq.ZArith.Int Int i2z defax
+R3925:3925 Coq.ZArith.Int <> p var
+R3913:3915 Coq.ZArith.Int Int i2z defax
+R3917:3917 Coq.ZArith.Int <> n var
+R3934:3936 Coq.ZArith.Int Int <> modtype
+R4007:4009 Coq.ZArith.Int Int <> mod
+mod 3989:3995 <> MoreInt
+syndef 4030:4032 MoreInt int
+R4037:4039 Coq.ZArith.Int I t defax
+prf 4051:4056 MoreInt eqb_eq
+R4079:4083 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4064:4064 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4071:4074 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4066:4069 Coq.ZArith.Int Int ::x_'=?'_x not
+R4065:4065 Coq.ZArith.Int <> n var
+R4070:4070 Coq.ZArith.Int <> p var
+R4075:4078 Coq.Init.Datatypes <> true constr
+R4085:4088 Coq.ZArith.Int Int :Int_scope:x_'=='_x not
+R4084:4084 Coq.ZArith.Int <> n var
+R4089:4089 Coq.ZArith.Int <> p var
+R4116:4122 Coq.ZArith.Int I i2z_eqb prfax
+R4125:4132 Coq.ZArith.BinInt Z eqb_eq thm
+R4116:4122 Coq.ZArith.Int I i2z_eqb prfax
+R4116:4122 Coq.ZArith.Int I i2z_eqb prfax
+R4125:4132 Coq.ZArith.BinInt Z eqb_eq thm
+R4125:4132 Coq.ZArith.BinInt Z eqb_eq thm
+prf 4151:4157 MoreInt eqb_neq
+R4181:4185 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4165:4165 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4172:4175 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4167:4170 Coq.ZArith.Int Int ::x_'=?'_x not
+R4166:4166 Coq.ZArith.Int <> n var
+R4171:4171 Coq.ZArith.Int <> p var
+R4176:4180 Coq.Init.Datatypes <> false constr
+R4186:4187 Coq.Init.Logic <> :type_scope:'~'_x not
+R4194:4194 Coq.Init.Logic <> :type_scope:'~'_x not
+R4189:4192 Coq.ZArith.Int Int :Int_scope:x_'=='_x not
+R4188:4188 Coq.ZArith.Int <> n var
+R4193:4193 Coq.ZArith.Int <> p var
+R4220:4225 Coq.ZArith.Int MoreInt eqb_eq thm
+R4220:4225 Coq.ZArith.Int MoreInt eqb_eq thm
+R4220:4225 Coq.ZArith.Int MoreInt eqb_eq thm
+R4239:4242 Coq.ZArith.Int Int ::x_'=?'_x not
+R4239:4242 Coq.ZArith.Int Int ::x_'=?'_x not
+prf 4274:4279 MoreInt ltb_lt
+R4302:4306 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4287:4287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4294:4297 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4289:4292 Coq.ZArith.Int Int ::x_'<?'_x not
+R4288:4288 Coq.ZArith.Int <> n var
+R4293:4293 Coq.ZArith.Int <> p var
+R4298:4301 Coq.Init.Datatypes <> true constr
+R4308:4310 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+R4307:4307 Coq.ZArith.Int <> n var
+R4311:4311 Coq.ZArith.Int <> p var
+R4338:4344 Coq.ZArith.Int I i2z_ltb prfax
+R4347:4354 Coq.ZArith.BinInt Z ltb_lt thm
+R4338:4344 Coq.ZArith.Int I i2z_ltb prfax
+R4338:4344 Coq.ZArith.Int I i2z_ltb prfax
+R4347:4354 Coq.ZArith.BinInt Z ltb_lt thm
+R4347:4354 Coq.ZArith.BinInt Z ltb_lt thm
+prf 4373:4379 MoreInt ltb_nlt
+R4403:4407 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4387:4387 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4394:4397 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4389:4392 Coq.ZArith.Int Int ::x_'<?'_x not
+R4388:4388 Coq.ZArith.Int <> n var
+R4393:4393 Coq.ZArith.Int <> p var
+R4398:4402 Coq.Init.Datatypes <> false constr
+R4408:4409 Coq.Init.Logic <> :type_scope:'~'_x not
+R4415:4415 Coq.Init.Logic <> :type_scope:'~'_x not
+R4411:4413 Coq.ZArith.Int Int :Int_scope:x_'<'_x not
+R4410:4410 Coq.ZArith.Int <> n var
+R4414:4414 Coq.ZArith.Int <> p var
+R4441:4446 Coq.ZArith.Int MoreInt ltb_lt thm
+R4441:4446 Coq.ZArith.Int MoreInt ltb_lt thm
+R4441:4446 Coq.ZArith.Int MoreInt ltb_lt thm
+R4460:4463 Coq.ZArith.Int Int ::x_'<?'_x not
+R4460:4463 Coq.ZArith.Int Int ::x_'<?'_x not
+prf 4495:4500 MoreInt leb_le
+R4524:4528 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4508:4508 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4516:4519 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4510:4514 Coq.ZArith.Int Int ::x_'<=?'_x not
+R4509:4509 Coq.ZArith.Int <> n var
+R4515:4515 Coq.ZArith.Int <> p var
+R4520:4523 Coq.Init.Datatypes <> true constr
+R4530:4533 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+R4529:4529 Coq.ZArith.Int <> n var
+R4534:4534 Coq.ZArith.Int <> p var
+R4561:4567 Coq.ZArith.Int I i2z_leb prfax
+R4570:4577 Coq.ZArith.BinInt Z leb_le thm
+R4561:4567 Coq.ZArith.Int I i2z_leb prfax
+R4561:4567 Coq.ZArith.Int I i2z_leb prfax
+R4570:4577 Coq.ZArith.BinInt Z leb_le thm
+R4570:4577 Coq.ZArith.BinInt Z leb_le thm
+prf 4596:4602 MoreInt leb_nle
+R4627:4631 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4610:4610 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4618:4621 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4612:4616 Coq.ZArith.Int Int ::x_'<=?'_x not
+R4611:4611 Coq.ZArith.Int <> n var
+R4617:4617 Coq.ZArith.Int <> p var
+R4622:4626 Coq.Init.Datatypes <> false constr
+R4632:4633 Coq.Init.Logic <> :type_scope:'~'_x not
+R4640:4640 Coq.Init.Logic <> :type_scope:'~'_x not
+R4635:4638 Coq.ZArith.Int Int :Int_scope:x_'<='_x not
+R4634:4634 Coq.ZArith.Int <> n var
+R4639:4639 Coq.ZArith.Int <> p var
+R4666:4671 Coq.ZArith.Int MoreInt leb_le thm
+R4666:4671 Coq.ZArith.Int MoreInt leb_le thm
+R4666:4671 Coq.ZArith.Int MoreInt leb_le thm
+R4685:4689 Coq.ZArith.Int Int ::x_'<=?'_x not
+R4685:4689 Coq.ZArith.Int Int ::x_'<=?'_x not
+R4835:4839 Coq.ZArith.Int I i2z_0 prfax
+R4841:4845 Coq.ZArith.Int I i2z_1 prfax
+R4847:4851 Coq.ZArith.Int I i2z_2 prfax
+R4853:4857 Coq.ZArith.Int I i2z_3 prfax
+R4859:4865 Coq.ZArith.Int I i2z_add prfax
+R4867:4873 Coq.ZArith.Int I i2z_opp prfax
+R4875:4881 Coq.ZArith.Int I i2z_sub prfax
+R4883:4889 Coq.ZArith.Int I i2z_mul prfax
+R4891:4897 Coq.ZArith.Int I i2z_max prfax
+R4903:4909 Coq.ZArith.Int I i2z_eqb prfax
+R4911:4917 Coq.ZArith.Int I i2z_ltb prfax
+R4919:4925 Coq.ZArith.Int I i2z_leb prfax
+R4977:4979 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4977:4979 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5085:5087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5085:5087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5107:5112 Coq.ZArith.Int I i2z_eq prfax
+R5009:5015 Coq.Init.Logic <> f_equal thm
+R5017:5019 Coq.ZArith.Int I i2z defax
+R5616:5618 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5616:5618 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5665:5667 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5665:5667 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5741:5742 Coq.Init.Logic <> eq ind
+R5748:5748 Coq.Numbers.BinNums <> Z ind
+R5741:5742 Coq.Init.Logic <> eq ind
+R5748:5748 Coq.Numbers.BinNums <> Z ind
+R5793:5796 Coq.ZArith.BinInt Z lt def
+R5793:5796 Coq.ZArith.BinInt Z lt def
+R5840:5843 Coq.ZArith.BinInt Z le def
+R5840:5843 Coq.ZArith.BinInt Z le def
+R5887:5890 Coq.ZArith.BinInt Z gt def
+R5887:5890 Coq.ZArith.BinInt Z gt def
+R5934:5937 Coq.ZArith.BinInt Z ge def
+R5934:5937 Coq.ZArith.BinInt Z ge def
+R5982:5985 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5982:5985 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6293:6297 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6293:6297 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6337:6340 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6337:6340 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6380:6383 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6380:6383 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6422:6423 Coq.Init.Logic <> :type_scope:'~'_x not
+R6422:6423 Coq.Init.Logic <> :type_scope:'~'_x not
+R5698:5704 Coq.Init.Logic <> f_equal thm
+R5706:5708 Coq.ZArith.Int I i2z defax
+R5632:5637 Coq.ZArith.Int I i2z_eq prfax
+ind 6490:6494 MoreInt ExprI
+constr 6511:6513 MoreInt EI0
+constr 6529:6531 MoreInt EI1
+constr 6547:6549 MoreInt EI2
+constr 6565:6567 MoreInt EI3
+constr 6583:6587 MoreInt EIadd
+constr 6621:6625 MoreInt EIopp
+constr 6650:6654 MoreInt EIsub
+constr 6688:6692 MoreInt EImul
+constr 6726:6730 MoreInt EImax
+constr 6764:6768 MoreInt EIraw
+R6517:6521 Coq.ZArith.Int <> ExprI ind
+R6535:6539 Coq.ZArith.Int <> ExprI ind
+R6553:6557 Coq.ZArith.Int <> ExprI ind
+R6571:6575 Coq.ZArith.Int <> ExprI ind
+R6596:6599 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6605:6608 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6609:6613 Coq.ZArith.Int <> ExprI ind
+R6600:6604 Coq.ZArith.Int <> ExprI ind
+R6591:6595 Coq.ZArith.Int <> ExprI ind
+R6634:6637 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6638:6642 Coq.ZArith.Int <> ExprI ind
+R6629:6633 Coq.ZArith.Int <> ExprI ind
+R6663:6666 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6672:6675 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6676:6680 Coq.ZArith.Int <> ExprI ind
+R6667:6671 Coq.ZArith.Int <> ExprI ind
+R6658:6662 Coq.ZArith.Int <> ExprI ind
+R6701:6704 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6710:6713 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6714:6718 Coq.ZArith.Int <> ExprI ind
+R6705:6709 Coq.ZArith.Int <> ExprI ind
+R6696:6700 Coq.ZArith.Int <> ExprI ind
+R6739:6742 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6748:6751 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6752:6756 Coq.ZArith.Int <> ExprI ind
+R6743:6747 Coq.ZArith.Int <> ExprI ind
+R6734:6738 Coq.ZArith.Int <> ExprI ind
+R6775:6778 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6779:6783 Coq.ZArith.Int <> ExprI ind
+R6772:6774 Coq.ZArith.Int MoreInt int syndef
+ind 6799:6803 MoreInt ExprZ
+constr 6820:6824 MoreInt EZadd
+constr 6858:6862 MoreInt EZopp
+constr 6887:6891 MoreInt EZsub
+constr 6925:6929 MoreInt EZmul
+constr 6963:6967 MoreInt EZmax
+constr 7001:7005 MoreInt EZofI
+constr 7030:7034 MoreInt EZraw
+R6833:6836 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6842:6845 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6846:6850 Coq.ZArith.Int <> ExprZ ind
+R6837:6841 Coq.ZArith.Int <> ExprZ ind
+R6828:6832 Coq.ZArith.Int <> ExprZ ind
+R6871:6874 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6875:6879 Coq.ZArith.Int <> ExprZ ind
+R6866:6870 Coq.ZArith.Int <> ExprZ ind
+R6900:6903 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6909:6912 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6913:6917 Coq.ZArith.Int <> ExprZ ind
+R6904:6908 Coq.ZArith.Int <> ExprZ ind
+R6895:6899 Coq.ZArith.Int <> ExprZ ind
+R6938:6941 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6947:6950 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6951:6955 Coq.ZArith.Int <> ExprZ ind
+R6942:6946 Coq.ZArith.Int <> ExprZ ind
+R6933:6937 Coq.ZArith.Int <> ExprZ ind
+R6976:6979 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6985:6988 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6989:6993 Coq.ZArith.Int <> ExprZ ind
+R6980:6984 Coq.ZArith.Int <> ExprZ ind
+R6971:6975 Coq.ZArith.Int <> ExprZ ind
+R7014:7017 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7018:7022 Coq.ZArith.Int <> ExprZ ind
+R7009:7013 Coq.ZArith.Int MoreInt ExprI ind
+R7039:7042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7043:7047 Coq.ZArith.Int <> ExprZ ind
+R7038:7038 Coq.Numbers.BinNums <> Z ind
+ind 7063:7067 MoreInt ExprP
+constr 7085:7088 MoreInt EPeq
+constr 7122:7125 MoreInt EPlt
+constr 7159:7162 MoreInt EPle
+constr 7196:7199 MoreInt EPgt
+constr 7233:7236 MoreInt EPge
+constr 7270:7275 MoreInt EPimpl
+constr 7309:7315 MoreInt EPequiv
+constr 7349:7353 MoreInt EPand
+constr 7387:7390 MoreInt EPor
+constr 7424:7428 MoreInt EPneg
+constr 7453:7457 MoreInt EPraw
+R7097:7100 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7106:7109 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7110:7114 Coq.ZArith.Int <> ExprP ind
+R7101:7105 Coq.ZArith.Int MoreInt ExprZ ind
+R7092:7096 Coq.ZArith.Int MoreInt ExprZ ind
+R7134:7137 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7143:7146 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7147:7151 Coq.ZArith.Int <> ExprP ind
+R7138:7142 Coq.ZArith.Int MoreInt ExprZ ind
+R7129:7133 Coq.ZArith.Int MoreInt ExprZ ind
+R7171:7174 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7180:7183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7184:7188 Coq.ZArith.Int <> ExprP ind
+R7175:7179 Coq.ZArith.Int MoreInt ExprZ ind
+R7166:7170 Coq.ZArith.Int MoreInt ExprZ ind
+R7208:7211 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7217:7220 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7221:7225 Coq.ZArith.Int <> ExprP ind
+R7212:7216 Coq.ZArith.Int MoreInt ExprZ ind
+R7203:7207 Coq.ZArith.Int MoreInt ExprZ ind
+R7245:7248 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7254:7257 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7258:7262 Coq.ZArith.Int <> ExprP ind
+R7249:7253 Coq.ZArith.Int MoreInt ExprZ ind
+R7240:7244 Coq.ZArith.Int MoreInt ExprZ ind
+R7284:7287 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7293:7296 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7297:7301 Coq.ZArith.Int <> ExprP ind
+R7288:7292 Coq.ZArith.Int <> ExprP ind
+R7279:7283 Coq.ZArith.Int <> ExprP ind
+R7324:7327 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7333:7336 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7337:7341 Coq.ZArith.Int <> ExprP ind
+R7328:7332 Coq.ZArith.Int <> ExprP ind
+R7319:7323 Coq.ZArith.Int <> ExprP ind
+R7362:7365 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7371:7374 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7375:7379 Coq.ZArith.Int <> ExprP ind
+R7366:7370 Coq.ZArith.Int <> ExprP ind
+R7357:7361 Coq.ZArith.Int <> ExprP ind
+R7399:7402 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7408:7411 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7412:7416 Coq.ZArith.Int <> ExprP ind
+R7403:7407 Coq.ZArith.Int <> ExprP ind
+R7394:7398 Coq.ZArith.Int <> ExprP ind
+R7437:7440 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7441:7445 Coq.ZArith.Int <> ExprP ind
+R7432:7436 Coq.ZArith.Int <> ExprP ind
+R7465:7468 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7469:7473 Coq.ZArith.Int <> ExprP ind
+R7665:7667 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R7665:7667 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R7743:7745 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R7743:7745 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R7821:7823 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R7821:7823 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R7897:7899 Coq.ZArith.Int I max defax
+R7897:7899 Coq.ZArith.Int I max defax
+R7977:7978 Coq.ZArith.Int Int :Int_scope:'-'_x not
+R7977:7978 Coq.ZArith.Int Int :Int_scope:'-'_x not
+R8045:8049 Coq.ZArith.Int MoreInt EIraw constr
+R8013:8017 Coq.ZArith.Int MoreInt EIopp constr
+R7956:7960 Coq.ZArith.Int MoreInt EImax constr
+R7876:7880 Coq.ZArith.Int MoreInt EImul constr
+R7798:7802 Coq.ZArith.Int MoreInt EIsub constr
+R7720:7724 Coq.ZArith.Int MoreInt EIadd constr
+R7650:7652 Coq.ZArith.Int MoreInt EI3 constr
+R7624:7626 Coq.ZArith.Int MoreInt EI2 constr
+R7598:7600 Coq.ZArith.Int MoreInt EI1 constr
+R7572:7574 Coq.ZArith.Int MoreInt EI0 constr
+R8148:8150 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R8148:8150 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R8230:8232 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R8230:8232 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R8312:8314 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R8312:8314 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R8392:8396 Coq.ZArith.BinInt Z max def
+R8392:8396 Coq.ZArith.BinInt Z max def
+R8476:8477 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R8476:8477 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R8534:8536 Coq.ZArith.Int I i2z defax
+R8534:8536 Coq.ZArith.Int I i2z defax
+R8604:8608 Coq.ZArith.Int MoreInt EZraw constr
+R8572:8576 Coq.ZArith.Int MoreInt EZofI constr
+R8516:8520 Coq.ZArith.Int MoreInt EZopp constr
+R8454:8458 Coq.ZArith.Int MoreInt EZmax constr
+R8370:8374 Coq.ZArith.Int MoreInt EZmul constr
+R8288:8292 Coq.ZArith.Int MoreInt EZsub constr
+R8206:8210 Coq.ZArith.Int MoreInt EZadd constr
+R8709:8713 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R8709:8713 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R8793:8796 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8793:8796 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8875:8878 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R8875:8878 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R8956:8959 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R8956:8959 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R9034:9035 Coq.Init.Logic <> :type_scope:'~'_x not
+R9034:9035 Coq.Init.Logic <> :type_scope:'~'_x not
+R9090:9091 Coq.Init.Logic <> eq ind
+R9097:9097 Coq.Numbers.BinNums <> Z ind
+R9090:9091 Coq.Init.Logic <> eq ind
+R9097:9097 Coq.Numbers.BinNums <> Z ind
+R9179:9181 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9179:9181 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9260:9263 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9260:9263 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9342:9344 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9342:9344 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9423:9426 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R9423:9426 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R9517:9521 Coq.ZArith.Int MoreInt EPraw constr
+R9482:9485 Coq.ZArith.Int MoreInt EPge constr
+R9400:9403 Coq.ZArith.Int MoreInt EPgt constr
+R9319:9322 Coq.ZArith.Int MoreInt EPle constr
+R9237:9240 Coq.ZArith.Int MoreInt EPlt constr
+R9156:9159 Coq.ZArith.Int MoreInt EPeq constr
+R9071:9075 Coq.ZArith.Int MoreInt EPneg constr
+R9013:9016 Coq.ZArith.Int MoreInt EPor constr
+R8932:8936 Coq.ZArith.Int MoreInt EPand constr
+R8850:8855 Coq.ZArith.Int MoreInt EPimpl constr
+R8767:8773 Coq.ZArith.Int MoreInt EPequiv constr
+def 9574:9577 MoreInt ei2i
+R9582:9586 Coq.ZArith.Int MoreInt ExprI ind
+R9591:9593 Coq.ZArith.Int MoreInt int syndef
+R9608:9608 Coq.ZArith.Int <> e var
+R9623:9625 Coq.ZArith.Int MoreInt EI0 constr
+R9640:9642 Coq.ZArith.Int MoreInt EI1 constr
+R9657:9659 Coq.ZArith.Int MoreInt EI2 constr
+R9674:9676 Coq.ZArith.Int MoreInt EI3 constr
+R9691:9695 Coq.ZArith.Int MoreInt EIadd constr
+R9706:9706 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R9714:9716 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R9724:9724 Coq.ZArith.Int Int :Int_scope:x_'+'_x not
+R9707:9710 Coq.ZArith.Int <> ei2i def
+R9717:9720 Coq.ZArith.Int <> ei2i def
+R9734:9738 Coq.ZArith.Int MoreInt EIsub constr
+R9749:9749 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R9757:9759 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R9767:9767 Coq.ZArith.Int Int :Int_scope:x_'-'_x not
+R9750:9753 Coq.ZArith.Int <> ei2i def
+R9760:9763 Coq.ZArith.Int <> ei2i def
+R9777:9781 Coq.ZArith.Int MoreInt EImul constr
+R9792:9792 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R9800:9802 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R9810:9810 Coq.ZArith.Int Int :Int_scope:x_'*'_x not
+R9793:9796 Coq.ZArith.Int <> ei2i def
+R9803:9806 Coq.ZArith.Int <> ei2i def
+R9820:9824 Coq.ZArith.Int MoreInt EImax constr
+R9835:9837 Coq.ZArith.Int I max defax
+R9850:9853 Coq.ZArith.Int <> ei2i def
+R9840:9843 Coq.ZArith.Int <> ei2i def
+R9867:9871 Coq.ZArith.Int MoreInt EIopp constr
+R9878:9879 Coq.ZArith.Int Int :Int_scope:'-'_x not
+R9886:9886 Coq.ZArith.Int Int :Int_scope:'-'_x not
+R9880:9883 Coq.ZArith.Int <> ei2i def
+R9885:9885 Coq.ZArith.Int <> e var
+R9896:9900 Coq.ZArith.Int MoreInt EIraw constr
+def 9955:9958 MoreInt ez2z
+R9963:9967 Coq.ZArith.Int MoreInt ExprZ ind
+R9972:9972 Coq.Numbers.BinNums <> Z ind
+R9987:9987 Coq.ZArith.Int <> e var
+R10002:10006 Coq.ZArith.Int MoreInt EZadd constr
+R10018:10018 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10026:10028 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10036:10036 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10019:10022 Coq.ZArith.Int <> ez2z def
+R10029:10032 Coq.ZArith.Int <> ez2z def
+R10049:10053 Coq.ZArith.Int MoreInt EZsub constr
+R10065:10065 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R10073:10075 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R10083:10083 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R10066:10069 Coq.ZArith.Int <> ez2z def
+R10076:10079 Coq.ZArith.Int <> ez2z def
+R10096:10100 Coq.ZArith.Int MoreInt EZmul constr
+R10112:10112 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10120:10122 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10130:10130 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10113:10116 Coq.ZArith.Int <> ez2z def
+R10123:10126 Coq.ZArith.Int <> ez2z def
+R10143:10147 Coq.ZArith.Int MoreInt EZmax constr
+R10158:10162 Coq.ZArith.BinInt Z max def
+R10175:10178 Coq.ZArith.Int <> ez2z def
+R10165:10168 Coq.ZArith.Int <> ez2z def
+R10192:10196 Coq.ZArith.Int MoreInt EZopp constr
+R10204:10205 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R10212:10212 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R10206:10209 Coq.ZArith.Int <> ez2z def
+R10211:10211 Coq.ZArith.Int <> e var
+R10225:10229 Coq.ZArith.Int MoreInt EZofI constr
+R10236:10238 Coq.ZArith.Int I i2z defax
+R10241:10244 Coq.ZArith.Int MoreInt ei2i def
+R10246:10246 Coq.ZArith.Int <> e var
+R10257:10261 Coq.ZArith.Int MoreInt EZraw constr
+def 10319:10322 MoreInt ep2p
+R10327:10331 Coq.ZArith.Int MoreInt ExprP ind
+R10354:10354 Coq.ZArith.Int <> e var
+R10369:10372 Coq.ZArith.Int MoreInt EPeq constr
+R10383:10383 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10391:10395 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10403:10403 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10384:10387 Coq.ZArith.Int MoreInt ez2z def
+R10396:10399 Coq.ZArith.Int MoreInt ez2z def
+R10413:10416 Coq.ZArith.Int MoreInt EPlt constr
+R10428:10428 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10436:10438 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10446:10446 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10429:10432 Coq.ZArith.Int MoreInt ez2z def
+R10439:10442 Coq.ZArith.Int MoreInt ez2z def
+R10459:10462 Coq.ZArith.Int MoreInt EPle constr
+R10474:10474 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10482:10485 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10493:10493 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10475:10478 Coq.ZArith.Int MoreInt ez2z def
+R10486:10489 Coq.ZArith.Int MoreInt ez2z def
+R10506:10509 Coq.ZArith.Int MoreInt EPgt constr
+R10521:10521 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10529:10531 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10539:10539 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10522:10525 Coq.ZArith.Int MoreInt ez2z def
+R10532:10535 Coq.ZArith.Int MoreInt ez2z def
+R10552:10555 Coq.ZArith.Int MoreInt EPge constr
+R10567:10567 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R10575:10578 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R10586:10586 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R10568:10571 Coq.ZArith.Int MoreInt ez2z def
+R10579:10582 Coq.ZArith.Int MoreInt ez2z def
+R10599:10604 Coq.ZArith.Int MoreInt EPimpl constr
+R10615:10615 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10623:10628 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10636:10636 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10629:10632 Coq.ZArith.Int <> ep2p def
+R10616:10619 Coq.ZArith.Int <> ep2p def
+R10646:10652 Coq.ZArith.Int MoreInt EPequiv constr
+R10663:10663 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R10671:10677 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R10685:10685 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R10664:10667 Coq.ZArith.Int <> ep2p def
+R10678:10681 Coq.ZArith.Int <> ep2p def
+R10695:10699 Coq.ZArith.Int MoreInt EPand constr
+R10710:10710 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10718:10723 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10731:10731 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10711:10714 Coq.ZArith.Int <> ep2p def
+R10724:10727 Coq.ZArith.Int <> ep2p def
+R10741:10744 Coq.ZArith.Int MoreInt EPor constr
+R10755:10755 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10763:10768 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10776:10776 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10756:10759 Coq.ZArith.Int <> ep2p def
+R10769:10772 Coq.ZArith.Int <> ep2p def
+R10786:10790 Coq.ZArith.Int MoreInt EPneg constr
+R10797:10799 Coq.Init.Logic <> :type_scope:'~'_x not
+R10806:10806 Coq.Init.Logic <> :type_scope:'~'_x not
+R10800:10803 Coq.ZArith.Int <> ep2p def
+R10805:10805 Coq.ZArith.Int <> e var
+R10816:10820 Coq.ZArith.Int MoreInt EPraw constr
+def 10917:10923 MoreInt norm_ei
+R10928:10932 Coq.ZArith.Int MoreInt ExprI ind
+R10937:10941 Coq.ZArith.Int MoreInt ExprZ ind
+R10956:10956 Coq.ZArith.Int <> e var
+R10971:10973 Coq.ZArith.Int MoreInt EI0 constr
+R10978:10982 Coq.ZArith.Int MoreInt EZraw constr
+R10998:11000 Coq.ZArith.Int MoreInt EI1 constr
+R11005:11009 Coq.ZArith.Int MoreInt EZraw constr
+R11025:11027 Coq.ZArith.Int MoreInt EI2 constr
+R11032:11036 Coq.ZArith.Int MoreInt EZraw constr
+R11052:11054 Coq.ZArith.Int MoreInt EI3 constr
+R11059:11063 Coq.ZArith.Int MoreInt EZraw constr
+R11079:11083 Coq.ZArith.Int MoreInt EIadd constr
+R11094:11098 Coq.ZArith.Int MoreInt EZadd constr
+R11114:11120 Coq.ZArith.Int <> norm_ei def
+R11101:11107 Coq.ZArith.Int <> norm_ei def
+R11134:11138 Coq.ZArith.Int MoreInt EIsub constr
+R11149:11153 Coq.ZArith.Int MoreInt EZsub constr
+R11169:11175 Coq.ZArith.Int <> norm_ei def
+R11156:11162 Coq.ZArith.Int <> norm_ei def
+R11189:11193 Coq.ZArith.Int MoreInt EImul constr
+R11204:11208 Coq.ZArith.Int MoreInt EZmul constr
+R11224:11230 Coq.ZArith.Int <> norm_ei def
+R11211:11217 Coq.ZArith.Int <> norm_ei def
+R11244:11248 Coq.ZArith.Int MoreInt EImax constr
+R11259:11263 Coq.ZArith.Int MoreInt EZmax constr
+R11279:11285 Coq.ZArith.Int <> norm_ei def
+R11266:11272 Coq.ZArith.Int <> norm_ei def
+R11299:11303 Coq.ZArith.Int MoreInt EIopp constr
+R11310:11314 Coq.ZArith.Int MoreInt EZopp constr
+R11317:11323 Coq.ZArith.Int <> norm_ei def
+R11325:11325 Coq.ZArith.Int <> e var
+R11336:11340 Coq.ZArith.Int MoreInt EIraw constr
+R11347:11351 Coq.ZArith.Int MoreInt EZofI constr
+R11354:11358 Coq.ZArith.Int MoreInt EIraw constr
+def 11426:11432 MoreInt norm_ez
+R11437:11441 Coq.ZArith.Int MoreInt ExprZ ind
+R11446:11450 Coq.ZArith.Int MoreInt ExprZ ind
+R11465:11465 Coq.ZArith.Int <> e var
+R11480:11484 Coq.ZArith.Int MoreInt EZadd constr
+R11495:11499 Coq.ZArith.Int MoreInt EZadd constr
+R11515:11521 Coq.ZArith.Int <> norm_ez def
+R11502:11508 Coq.ZArith.Int <> norm_ez def
+R11535:11539 Coq.ZArith.Int MoreInt EZsub constr
+R11550:11554 Coq.ZArith.Int MoreInt EZsub constr
+R11570:11576 Coq.ZArith.Int <> norm_ez def
+R11557:11563 Coq.ZArith.Int <> norm_ez def
+R11590:11594 Coq.ZArith.Int MoreInt EZmul constr
+R11605:11609 Coq.ZArith.Int MoreInt EZmul constr
+R11625:11631 Coq.ZArith.Int <> norm_ez def
+R11612:11618 Coq.ZArith.Int <> norm_ez def
+R11645:11649 Coq.ZArith.Int MoreInt EZmax constr
+R11660:11664 Coq.ZArith.Int MoreInt EZmax constr
+R11680:11686 Coq.ZArith.Int <> norm_ez def
+R11667:11673 Coq.ZArith.Int <> norm_ez def
+R11700:11704 Coq.ZArith.Int MoreInt EZopp constr
+R11711:11715 Coq.ZArith.Int MoreInt EZopp constr
+R11718:11724 Coq.ZArith.Int <> norm_ez def
+R11726:11726 Coq.ZArith.Int <> e var
+R11737:11741 Coq.ZArith.Int MoreInt EZofI constr
+R11749:11755 Coq.ZArith.Int MoreInt norm_ei def
+R11757:11757 Coq.ZArith.Int <> e var
+R11767:11771 Coq.ZArith.Int MoreInt EZraw constr
+R11778:11782 Coq.ZArith.Int MoreInt EZraw constr
+def 11849:11855 MoreInt norm_ep
+R11860:11864 Coq.ZArith.Int MoreInt ExprP ind
+R11869:11873 Coq.ZArith.Int MoreInt ExprP ind
+R11888:11888 Coq.ZArith.Int <> e var
+R11903:11906 Coq.ZArith.Int MoreInt EPeq constr
+R11917:11920 Coq.ZArith.Int MoreInt EPeq constr
+R11936:11942 Coq.ZArith.Int MoreInt norm_ez def
+R11923:11929 Coq.ZArith.Int MoreInt norm_ez def
+R11956:11959 Coq.ZArith.Int MoreInt EPlt constr
+R11970:11973 Coq.ZArith.Int MoreInt EPlt constr
+R11989:11995 Coq.ZArith.Int MoreInt norm_ez def
+R11976:11982 Coq.ZArith.Int MoreInt norm_ez def
+R12009:12012 Coq.ZArith.Int MoreInt EPle constr
+R12023:12026 Coq.ZArith.Int MoreInt EPle constr
+R12042:12048 Coq.ZArith.Int MoreInt norm_ez def
+R12029:12035 Coq.ZArith.Int MoreInt norm_ez def
+R12062:12065 Coq.ZArith.Int MoreInt EPgt constr
+R12076:12079 Coq.ZArith.Int MoreInt EPgt constr
+R12095:12101 Coq.ZArith.Int MoreInt norm_ez def
+R12082:12088 Coq.ZArith.Int MoreInt norm_ez def
+R12115:12118 Coq.ZArith.Int MoreInt EPge constr
+R12129:12132 Coq.ZArith.Int MoreInt EPge constr
+R12148:12154 Coq.ZArith.Int MoreInt norm_ez def
+R12135:12141 Coq.ZArith.Int MoreInt norm_ez def
+R12168:12173 Coq.ZArith.Int MoreInt EPimpl constr
+R12184:12189 Coq.ZArith.Int MoreInt EPimpl constr
+R12205:12211 Coq.ZArith.Int <> norm_ep def
+R12192:12198 Coq.ZArith.Int <> norm_ep def
+R12225:12231 Coq.ZArith.Int MoreInt EPequiv constr
+R12242:12248 Coq.ZArith.Int MoreInt EPequiv constr
+R12264:12270 Coq.ZArith.Int <> norm_ep def
+R12251:12257 Coq.ZArith.Int <> norm_ep def
+R12284:12288 Coq.ZArith.Int MoreInt EPand constr
+R12299:12303 Coq.ZArith.Int MoreInt EPand constr
+R12319:12325 Coq.ZArith.Int <> norm_ep def
+R12306:12312 Coq.ZArith.Int <> norm_ep def
+R12339:12342 Coq.ZArith.Int MoreInt EPor constr
+R12353:12356 Coq.ZArith.Int MoreInt EPor constr
+R12372:12378 Coq.ZArith.Int <> norm_ep def
+R12359:12365 Coq.ZArith.Int <> norm_ep def
+R12392:12396 Coq.ZArith.Int MoreInt EPneg constr
+R12403:12407 Coq.ZArith.Int MoreInt EPneg constr
+R12410:12416 Coq.ZArith.Int <> norm_ep def
+R12418:12418 Coq.ZArith.Int <> e var
+R12429:12433 Coq.ZArith.Int MoreInt EPraw constr
+R12440:12444 Coq.ZArith.Int MoreInt EPraw constr
+prf 12466:12480 MoreInt norm_ei_correct
+R12485:12489 Coq.ZArith.Int MoreInt ExprI ind
+R12510:12512 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12494:12497 Coq.ZArith.Int MoreInt ez2z def
+R12500:12506 Coq.ZArith.Int MoreInt norm_ei def
+R12508:12508 Coq.ZArith.Int <> e var
+R12513:12515 Coq.ZArith.Int I i2z defax
+R12518:12521 Coq.ZArith.Int MoreInt ei2i def
+R12523:12523 Coq.ZArith.Int <> e var
+prf 12603:12617 MoreInt norm_ez_correct
+R12622:12626 Coq.ZArith.Int MoreInt ExprZ ind
+R12647:12649 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12631:12634 Coq.ZArith.Int MoreInt ez2z def
+R12637:12643 Coq.ZArith.Int MoreInt norm_ez def
+R12645:12645 Coq.ZArith.Int <> e var
+R12650:12653 Coq.ZArith.Int MoreInt ez2z def
+R12655:12655 Coq.ZArith.Int <> e var
+R12724:12738 Coq.ZArith.Int MoreInt norm_ei_correct thm
+R12724:12738 Coq.ZArith.Int MoreInt norm_ei_correct thm
+prf 12757:12771 MoreInt norm_ep_correct
+R12776:12780 Coq.ZArith.Int MoreInt ExprP ind
+R12801:12805 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R12785:12788 Coq.ZArith.Int MoreInt ep2p def
+R12791:12797 Coq.ZArith.Int MoreInt norm_ep def
+R12799:12799 Coq.ZArith.Int <> e var
+R12806:12809 Coq.ZArith.Int MoreInt ep2p def
+R12811:12811 Coq.ZArith.Int <> e var
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+R12856:12870 Coq.ZArith.Int MoreInt norm_ez_correct thm
+prf 12900:12915 MoreInt norm_ep_correct2
+R12920:12924 Coq.ZArith.Int MoreInt ExprP ind
+R12945:12948 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12949:12952 Coq.ZArith.Int MoreInt ep2p def
+R12954:12954 Coq.ZArith.Int <> e var
+R12929:12932 Coq.ZArith.Int MoreInt ep2p def
+R12935:12941 Coq.ZArith.Int MoreInt norm_ep def
+R12943:12943 Coq.ZArith.Int <> e var
+R12988:13002 Coq.ZArith.Int MoreInt norm_ep_correct thm
+R12988:13002 Coq.ZArith.Int MoreInt norm_ep_correct thm
+R13122:13125 Coq.ZArith.Int MoreInt ep2p def
+R13137:13152 Coq.ZArith.Int MoreInt norm_ep_correct2 thm
+R13312:13318 Coq.ZArith.Int MoreInt <> mod
+R13456:13458 Coq.ZArith.Int Int <> mod
+mod 13444:13451 <> Z_as_Int
+def 13502:13502 Z_as_Int t
+R13507:13507 Coq.Numbers.BinNums <> Z ind
+def 13523:13524 Z_as_Int _0
+def 13545:13546 Z_as_Int _1
+def 13567:13568 Z_as_Int _2
+def 13589:13590 Z_as_Int _3
+def 13611:13613 Z_as_Int add
+R13618:13622 Coq.ZArith.BinInt Z add def
+def 13638:13640 Z_as_Int opp
+R13645:13649 Coq.ZArith.BinInt Z opp def
+def 13665:13667 Z_as_Int sub
+R13672:13676 Coq.ZArith.BinInt Z sub def
+def 13692:13694 Z_as_Int mul
+R13699:13703 Coq.ZArith.BinInt Z mul def
+def 13719:13721 Z_as_Int max
+R13726:13730 Coq.ZArith.BinInt Z max def
+def 13746:13748 Z_as_Int eqb
+R13753:13757 Coq.ZArith.BinInt Z eqb def
+def 13773:13775 Z_as_Int ltb
+R13780:13784 Coq.ZArith.BinInt Z ltb def
+def 13800:13802 Z_as_Int leb
+R13807:13811 Coq.ZArith.BinInt Z leb def
+def 13828:13833 Z_as_Int eq_dec
+R13838:13845 Coq.ZArith.BinInt Z eq_dec def
+def 13861:13869 Z_as_Int gt_le_dec
+R13877:13877 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13883:13888 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13895:13896 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13879:13881 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R13878:13878 Coq.ZArith.Int <> i var
+R13882:13882 Coq.ZArith.Int <> j var
+R13890:13893 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R13889:13889 Coq.ZArith.Int <> i var
+R13894:13894 Coq.ZArith.Int <> j var
+R13924:13933 Coq.ZArith.BinInt Z ltb_spec thm
+R13924:13933 Coq.ZArith.BinInt Z ltb_spec thm
+R13956:13959 Coq.ZArith.BinInt <> :Z_scope:x_'<?'_x not
+R13956:13959 Coq.ZArith.BinInt <> :Z_scope:x_'<?'_x not
+R14014:14020 Coq.ZArith.BinInt Z lt_gt thm
+R14014:14020 Coq.ZArith.BinInt Z lt_gt thm
+def 14047:14055 Z_as_Int ge_lt_dec
+R14063:14063 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14070:14075 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14081:14082 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14065:14068 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R14064:14064 Coq.ZArith.Int <> i var
+R14069:14069 Coq.ZArith.Int <> j var
+R14077:14079 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14076:14076 Coq.ZArith.Int <> i var
+R14080:14080 Coq.ZArith.Int <> j var
+R14110:14119 Coq.ZArith.BinInt Z ltb_spec thm
+R14110:14119 Coq.ZArith.BinInt Z ltb_spec thm
+R14142:14145 Coq.ZArith.BinInt <> :Z_scope:x_'<?'_x not
+R14142:14145 Coq.ZArith.BinInt <> :Z_scope:x_'<?'_x not
+R14200:14206 Coq.ZArith.BinInt Z le_ge thm
+R14200:14206 Coq.ZArith.BinInt Z le_ge thm
+def 14234:14236 Z_as_Int i2z
+R14241:14244 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14245:14245 Coq.Numbers.BinNums <> Z ind
+R14240:14240 Coq.ZArith.Int Z_as_Int t def
+R14259:14259 Coq.ZArith.Int <> n var
+prf 14270:14275 Z_as_Int i2z_eq
+R14296:14299 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14301:14303 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14300:14300 Coq.ZArith.Int <> n var
+R14304:14304 Coq.ZArith.Int <> p var
+R14288:14290 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14283:14285 Coq.ZArith.Int Z_as_Int i2z def
+R14287:14287 Coq.ZArith.Int <> n var
+R14291:14293 Coq.ZArith.Int Z_as_Int i2z def
+R14295:14295 Coq.ZArith.Int <> p var
+prf 14336:14340 Z_as_Int i2z_0
+R14350:14352 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14344:14346 Coq.ZArith.Int Z_as_Int i2z def
+R14348:14349 Coq.ZArith.Int Z_as_Int _0 def
+prf 14390:14394 Z_as_Int i2z_1
+R14404:14406 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14398:14400 Coq.ZArith.Int Z_as_Int i2z def
+R14402:14403 Coq.ZArith.Int Z_as_Int _1 def
+prf 14444:14448 Z_as_Int i2z_2
+R14458:14460 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14452:14454 Coq.ZArith.Int Z_as_Int i2z def
+R14456:14457 Coq.ZArith.Int Z_as_Int _2 def
+prf 14498:14502 Z_as_Int i2z_3
+R14512:14514 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14506:14508 Coq.ZArith.Int Z_as_Int i2z def
+R14510:14511 Coq.ZArith.Int Z_as_Int _3 def
+prf 14552:14558 Z_as_Int i2z_add
+R14577:14579 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14566:14568 Coq.ZArith.Int Z_as_Int i2z def
+R14572:14574 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R14571:14571 Coq.ZArith.Int <> n var
+R14575:14575 Coq.ZArith.Int <> p var
+R14585:14587 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R14580:14582 Coq.ZArith.Int Z_as_Int i2z def
+R14584:14584 Coq.ZArith.Int <> n var
+R14588:14590 Coq.ZArith.Int Z_as_Int i2z def
+R14592:14592 Coq.ZArith.Int <> p var
+prf 14630:14636 Z_as_Int i2z_opp
+R14651:14653 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14642:14644 Coq.ZArith.Int Z_as_Int i2z def
+R14647:14648 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R14649:14649 Coq.ZArith.Int <> n var
+R14654:14655 Coq.ZArith.BinInt <> :Z_scope:'-'_x not
+R14656:14658 Coq.ZArith.Int Z_as_Int i2z def
+R14660:14660 Coq.ZArith.Int <> n var
+prf 14698:14704 Z_as_Int i2z_sub
+R14723:14725 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14712:14714 Coq.ZArith.Int Z_as_Int i2z def
+R14718:14720 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R14717:14717 Coq.ZArith.Int <> n var
+R14721:14721 Coq.ZArith.Int <> p var
+R14731:14733 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R14726:14728 Coq.ZArith.Int Z_as_Int i2z def
+R14730:14730 Coq.ZArith.Int <> n var
+R14734:14736 Coq.ZArith.Int Z_as_Int i2z def
+R14738:14738 Coq.ZArith.Int <> p var
+prf 14776:14782 Z_as_Int i2z_mul
+R14801:14803 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14790:14792 Coq.ZArith.Int Z_as_Int i2z def
+R14796:14798 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14795:14795 Coq.ZArith.Int <> n var
+R14799:14799 Coq.ZArith.Int <> p var
+R14809:14811 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14804:14806 Coq.ZArith.Int Z_as_Int i2z def
+R14808:14808 Coq.ZArith.Int <> n var
+R14812:14814 Coq.ZArith.Int Z_as_Int i2z def
+R14816:14816 Coq.ZArith.Int <> p var
+prf 14854:14860 Z_as_Int i2z_max
+R14881:14883 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14868:14870 Coq.ZArith.Int Z_as_Int i2z def
+R14873:14875 Coq.ZArith.Int Z_as_Int max def
+R14879:14879 Coq.ZArith.Int <> p var
+R14877:14877 Coq.ZArith.Int <> n var
+R14884:14888 Coq.ZArith.BinInt Z max def
+R14899:14901 Coq.ZArith.Int Z_as_Int i2z def
+R14903:14903 Coq.ZArith.Int <> p var
+R14891:14893 Coq.ZArith.Int Z_as_Int i2z def
+R14895:14895 Coq.ZArith.Int <> n var
+prf 14942:14948 Z_as_Int i2z_eqb
+R14963:14965 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14956:14958 Coq.ZArith.Int Z_as_Int eqb def
+R14962:14962 Coq.ZArith.Int <> p var
+R14960:14960 Coq.ZArith.Int <> n var
+R14966:14970 Coq.ZArith.BinInt Z eqb def
+R14981:14983 Coq.ZArith.Int Z_as_Int i2z def
+R14985:14985 Coq.ZArith.Int <> p var
+R14973:14975 Coq.ZArith.Int Z_as_Int i2z def
+R14977:14977 Coq.ZArith.Int <> n var
+prf 15024:15030 Z_as_Int i2z_leb
+R15045:15047 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15038:15040 Coq.ZArith.Int Z_as_Int leb def
+R15044:15044 Coq.ZArith.Int <> p var
+R15042:15042 Coq.ZArith.Int <> n var
+R15048:15052 Coq.ZArith.BinInt Z leb def
+R15063:15065 Coq.ZArith.Int Z_as_Int i2z def
+R15067:15067 Coq.ZArith.Int <> p var
+R15055:15057 Coq.ZArith.Int Z_as_Int i2z def
+R15059:15059 Coq.ZArith.Int <> n var
+prf 15106:15112 Z_as_Int i2z_ltb
+R15127:15129 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15120:15122 Coq.ZArith.Int Z_as_Int ltb def
+R15126:15126 Coq.ZArith.Int <> p var
+R15124:15124 Coq.ZArith.Int <> n var
+R15130:15134 Coq.ZArith.BinInt Z ltb def
+R15145:15147 Coq.ZArith.Int Z_as_Int i2z def
+R15149:15149 Coq.ZArith.Int <> p var
+R15137:15139 Coq.ZArith.Int Z_as_Int i2z def
+R15141:15141 Coq.ZArith.Int <> n var
+syndef 15238:15241 Z_as_Int plus
+R15246:15248 Coq.ZArith.Int Z_as_Int add def
+syndef 15277:15281 Z_as_Int minus
+R15286:15288 Coq.ZArith.Int Z_as_Int sub def
+syndef 15317:15320 Z_as_Int mult
+R15325:15327 Coq.ZArith.Int Z_as_Int mul def
+R15349:15356 Coq.ZArith.Int Z_as_Int <> mod

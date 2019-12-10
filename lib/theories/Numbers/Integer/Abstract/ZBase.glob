@@ -1,0 +1,53 @@
+DIGEST 4c963530a1786f61c77a57a9668ff4a5
+FCoq.Numbers.Integer.Abstract.ZBase
+R841:849 Coq.Logic.Decidable <> <> lib
+R867:873 Coq.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R891:902 Coq.Numbers.NatInt.NZProperties <> <> lib
+R935:949 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+mod 913:921 <> ZBaseProp
+R961:966 Coq.Numbers.NatInt.NZProperties NZProp <> mod
+R968:968 Coq.Numbers.Integer.Abstract.ZBase Z <> modtype
+prf 1051:1058 ZBaseProp pred_inj
+R1084:1087 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1089:1092 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1088:1088 Coq.Numbers.Integer.Abstract.ZBase <> n var
+R1093:1093 Coq.Numbers.Integer.Abstract.ZBase <> m var
+R1077:1080 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1074:1074 Coq.Numbers.Integer.Abstract.ZBase Z P syndef
+R1076:1076 Coq.Numbers.Integer.Abstract.ZBase <> n var
+R1081:1081 Coq.Numbers.Integer.Abstract.ZBase Z P syndef
+R1083:1083 Coq.Numbers.Integer.Abstract.ZBase <> m var
+R1123:1129 Coq.Numbers.Integer.Abstract.ZBase Z succ_wd prfax
+R1123:1129 Coq.Numbers.Integer.Abstract.ZBase Z succ_wd prfax
+R1151:1159 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1151:1159 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1151:1159 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1151:1159 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+prf 1181:1191 ZBaseProp pred_inj_wd
+R1221:1225 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1213:1216 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1209:1209 Coq.Numbers.Integer.Abstract.ZBase Z P syndef
+R1211:1212 Coq.Numbers.Integer.Abstract.ZBase <> n1 var
+R1217:1217 Coq.Numbers.Integer.Abstract.ZBase Z P syndef
+R1219:1220 Coq.Numbers.Integer.Abstract.ZBase <> n2 var
+R1228:1231 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1226:1227 Coq.Numbers.Integer.Abstract.ZBase <> n1 var
+R1232:1233 Coq.Numbers.Integer.Abstract.ZBase <> n2 var
+R1271:1278 Coq.Numbers.Integer.Abstract.ZBase ZBaseProp pred_inj thm
+R1271:1278 Coq.Numbers.Integer.Abstract.ZBase ZBaseProp pred_inj thm
+prf 1316:1322 ZBaseProp succ_m1
+R1332:1335 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1326:1326 Coq.Numbers.Integer.Abstract.ZBase Z S syndef
+R1359:1366 Coq.Numbers.Integer.Abstract.ZBase Z one_succ prfax
+R1369:1376 Coq.Numbers.Integer.Abstract.ZBase Z opp_succ prfax
+R1379:1383 Coq.Numbers.Integer.Abstract.ZBase Z opp_0 prfax
+R1386:1394 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1359:1366 Coq.Numbers.Integer.Abstract.ZBase Z one_succ prfax
+R1359:1366 Coq.Numbers.Integer.Abstract.ZBase Z one_succ prfax
+R1369:1376 Coq.Numbers.Integer.Abstract.ZBase Z opp_succ prfax
+R1369:1376 Coq.Numbers.Integer.Abstract.ZBase Z opp_succ prfax
+R1379:1383 Coq.Numbers.Integer.Abstract.ZBase Z opp_0 prfax
+R1379:1383 Coq.Numbers.Integer.Abstract.ZBase Z opp_0 prfax
+R1386:1394 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1386:1394 Coq.Numbers.Integer.Abstract.ZBase Z succ_pred prfax
+R1407:1415 Coq.Numbers.Integer.Abstract.ZBase ZBaseProp <> mod

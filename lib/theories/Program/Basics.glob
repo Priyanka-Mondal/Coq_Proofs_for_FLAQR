@@ -1,0 +1,50 @@
+DIGEST 0d7c3afc993af984f6bb9b5c3b8ea066
+FCoq.Program.Basics
+R1006:1007 Coq.Init.Datatypes <> id def
+R1006:1007 Coq.Init.Datatypes <> id def
+def 1058:1064 <> compose
+R1080:1083 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1084:1084 Coq.Program.Basics <> C var
+R1079:1079 Coq.Program.Basics <> B var
+R1093:1096 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1097:1097 Coq.Program.Basics <> B var
+R1092:1092 Coq.Program.Basics <> A var
+R1113:1113 Coq.Program.Basics <> A var
+R1118:1118 Coq.Program.Basics <> g var
+R1121:1121 Coq.Program.Basics <> f var
+R1123:1123 Coq.Program.Basics <> x var
+R1140:1146 Coq.Program.Basics <> compose def
+R1175:1181 Coq.Program.Basics <> compose def
+not 1159:1159 <> :program_scope:x_'∘'_x
+def 1348:1352 <> arrow
+R1371:1374 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1375:1375 Coq.Program.Basics <> B var
+R1370:1370 Coq.Program.Basics <> A var
+def 1419:1422 <> impl
+R1448:1451 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1452:1452 Coq.Program.Basics <> B var
+R1447:1447 Coq.Program.Basics <> A var
+def 1527:1531 <> const
+R1544:1544 Coq.Program.Basics <> A var
+R1558:1558 Coq.Program.Basics <> B var
+R1563:1563 Coq.Program.Basics <> a var
+def 1656:1659 <> flip
+R1675:1678 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1680:1683 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1684:1684 Coq.Program.Basics <> C var
+R1679:1679 Coq.Program.Basics <> B var
+R1674:1674 Coq.Program.Basics <> A var
+R1694:1694 Coq.Program.Basics <> f var
+R1698:1698 Coq.Program.Basics <> x var
+R1696:1696 Coq.Program.Basics <> y var
+def 1750:1754 <> apply
+R1768:1771 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1772:1772 Coq.Program.Basics <> B var
+R1767:1767 Coq.Program.Basics <> A var
+R1780:1780 Coq.Program.Basics <> A var
+R1786:1786 Coq.Program.Basics <> f var
+R1788:1788 Coq.Program.Basics <> x var
+R1867:1876 Coq.Init.Datatypes <> prod_curry def
+R1867:1876 Coq.Init.Datatypes <> prod_curry def
+R1903:1914 Coq.Init.Datatypes <> prod_uncurry def
+R1903:1914 Coq.Init.Datatypes <> prod_uncurry def

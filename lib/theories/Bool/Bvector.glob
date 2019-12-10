@@ -1,0 +1,133 @@
+DIGEST 433bbecf492c5bbeb50b3672a7577836
+FCoq.Bool.Bvector
+R752:755 Coq.Bool.Bool <> <> lib
+R757:763 Coq.Bool.Sumbool <> <> lib
+R774:779 Coq.Vectors.Vector <> <> lib
+R828:832 Coq.Arith.Minus <> <> lib
+sec 1537:1551 <> BOOLEAN_VECTORS
+def 2226:2232 <> Bvector
+R2237:2244 Coq.Vectors.Vector <> t ind
+R2246:2249 Coq.Init.Datatypes <> bool ind
+def 2264:2267 <> Bnil
+R2273:2282 Coq.Vectors.Vector <> nil constr
+R2284:2287 Coq.Init.Datatypes <> bool ind
+def 2302:2306 <> Bcons
+R2312:2322 Coq.Vectors.Vector <> cons constr
+R2324:2327 Coq.Init.Datatypes <> bool ind
+def 2342:2351 <> Bvect_true
+R2356:2367 Coq.Vectors.Vector <> const def
+R2369:2372 Coq.Init.Datatypes <> true constr
+def 2387:2397 <> Bvect_false
+R2402:2413 Coq.Vectors.Vector <> const def
+R2415:2419 Coq.Init.Datatypes <> false constr
+def 2434:2437 <> Blow
+R2443:2451 Coq.Vectors.Vector <> hd def
+R2453:2456 Coq.Init.Datatypes <> bool ind
+def 2471:2475 <> Bhigh
+R2481:2489 Coq.Vectors.Vector <> tl def
+R2491:2494 Coq.Init.Datatypes <> bool ind
+def 2509:2513 <> Bsign
+R2519:2529 Coq.Vectors.Vector <> last def
+R2531:2534 Coq.Init.Datatypes <> bool ind
+def 2549:2552 <> Bneg
+R2558:2567 Coq.Vectors.Vector <> map def
+R2573:2576 Coq.Init.Datatypes <> negb def
+def 2591:2595 <> BVand
+R2601:2611 Coq.Vectors.Vector <> map2 def
+R2619:2622 Coq.Init.Datatypes <> andb def
+def 2637:2640 <> BVor
+R2646:2656 Coq.Vectors.Vector <> map2 def
+R2664:2666 Coq.Init.Datatypes <> orb def
+def 2681:2685 <> BVxor
+R2691:2701 Coq.Vectors.Vector <> map2 def
+R2709:2712 Coq.Init.Datatypes <> xorb def
+def 2727:2733 <> BshiftL
+R2738:2740 Coq.Init.Datatypes <> nat ind
+R2747:2753 Coq.Bool.Bvector <> Bvector def
+R2756:2756 Coq.Init.Datatypes <> S constr
+R2758:2758 Coq.Bool.Bvector <> n var
+R2769:2772 Coq.Init.Datatypes <> bool ind
+R2780:2784 Coq.Bool.Bvector <> Bcons def
+R2795:2809 Coq.Vectors.Vector <> shiftout def
+R2811:2812 Coq.Bool.Bvector <> bv var
+R2792:2792 Coq.Bool.Bvector <> n var
+R2786:2790 Coq.Bool.Bvector <> carry var
+def 2828:2835 <> BshiftRl
+R2840:2842 Coq.Init.Datatypes <> nat ind
+R2849:2855 Coq.Bool.Bvector <> Bvector def
+R2858:2858 Coq.Init.Datatypes <> S constr
+R2860:2860 Coq.Bool.Bvector <> n var
+R2871:2874 Coq.Init.Datatypes <> bool ind
+R2882:2886 Coq.Bool.Bvector <> Bhigh def
+R2895:2908 Coq.Vectors.Vector <> shiftin def
+R2916:2917 Coq.Bool.Bvector <> bv var
+R2910:2914 Coq.Bool.Bvector <> carry var
+R2889:2889 Coq.Init.Datatypes <> S constr
+R2891:2891 Coq.Bool.Bvector <> n var
+def 2933:2940 <> BshiftRa
+R2945:2947 Coq.Init.Datatypes <> nat ind
+R2954:2960 Coq.Bool.Bvector <> Bvector def
+R2963:2963 Coq.Init.Datatypes <> S constr
+R2965:2965 Coq.Bool.Bvector <> n var
+R2974:2978 Coq.Bool.Bvector <> Bhigh def
+R2987:3004 Coq.Vectors.Vector <> shiftrepeat def
+R3006:3007 Coq.Bool.Bvector <> bv var
+R2981:2981 Coq.Init.Datatypes <> S constr
+R2983:2983 Coq.Bool.Bvector <> n var
+def 3021:3032 <> BshiftL_iter
+R3037:3039 Coq.Init.Datatypes <> nat ind
+R3046:3052 Coq.Bool.Bvector <> Bvector def
+R3055:3055 Coq.Init.Datatypes <> S constr
+R3057:3057 Coq.Bool.Bvector <> n var
+R3064:3066 Coq.Init.Datatypes <> nat ind
+R3071:3077 Coq.Bool.Bvector <> Bvector def
+R3080:3080 Coq.Init.Datatypes <> S constr
+R3082:3082 Coq.Bool.Bvector <> n var
+R3096:3096 Coq.Bool.Bvector <> p var
+R3109:3109 Coq.Init.Datatypes <> O constr
+R3114:3115 Coq.Bool.Bvector <> bv var
+R3123:3123 Coq.Init.Datatypes <> S constr
+R3131:3137 Coq.Bool.Bvector <> BshiftL def
+R3164:3168 Coq.Init.Datatypes <> false constr
+R3142:3153 Coq.Bool.Bvector <> BshiftL_iter def
+R3157:3158 Coq.Bool.Bvector <> bv var
+R3155:3155 Coq.Bool.Bvector <> n var
+R3139:3139 Coq.Bool.Bvector <> n var
+def 3187:3199 <> BshiftRl_iter
+R3204:3206 Coq.Init.Datatypes <> nat ind
+R3213:3219 Coq.Bool.Bvector <> Bvector def
+R3222:3222 Coq.Init.Datatypes <> S constr
+R3224:3224 Coq.Bool.Bvector <> n var
+R3231:3233 Coq.Init.Datatypes <> nat ind
+R3238:3244 Coq.Bool.Bvector <> Bvector def
+R3247:3247 Coq.Init.Datatypes <> S constr
+R3249:3249 Coq.Bool.Bvector <> n var
+R3263:3263 Coq.Bool.Bvector <> p var
+R3276:3276 Coq.Init.Datatypes <> O constr
+R3281:3282 Coq.Bool.Bvector <> bv var
+R3290:3290 Coq.Init.Datatypes <> S constr
+R3298:3305 Coq.Bool.Bvector <> BshiftRl def
+R3333:3337 Coq.Init.Datatypes <> false constr
+R3310:3322 Coq.Bool.Bvector <> BshiftRl_iter def
+R3326:3327 Coq.Bool.Bvector <> bv var
+R3324:3324 Coq.Bool.Bvector <> n var
+R3307:3307 Coq.Bool.Bvector <> n var
+def 3356:3368 <> BshiftRa_iter
+R3373:3375 Coq.Init.Datatypes <> nat ind
+R3382:3388 Coq.Bool.Bvector <> Bvector def
+R3391:3391 Coq.Init.Datatypes <> S constr
+R3393:3393 Coq.Bool.Bvector <> n var
+R3400:3402 Coq.Init.Datatypes <> nat ind
+R3407:3413 Coq.Bool.Bvector <> Bvector def
+R3416:3416 Coq.Init.Datatypes <> S constr
+R3418:3418 Coq.Bool.Bvector <> n var
+R3432:3432 Coq.Bool.Bvector <> p var
+R3445:3445 Coq.Init.Datatypes <> O constr
+R3450:3451 Coq.Bool.Bvector <> bv var
+R3459:3459 Coq.Init.Datatypes <> S constr
+R3467:3474 Coq.Bool.Bvector <> BshiftRa def
+R3479:3491 Coq.Bool.Bvector <> BshiftRa_iter def
+R3495:3496 Coq.Bool.Bvector <> bv var
+R3493:3493 Coq.Bool.Bvector <> n var
+R3476:3476 Coq.Bool.Bvector <> n var
+R3514:3528 Coq.Bool.Bvector BOOLEAN_VECTORS <> sec

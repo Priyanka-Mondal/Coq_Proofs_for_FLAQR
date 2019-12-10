@@ -1,0 +1,13 @@
+DIGEST d2627b904ecdddbf149fef7cedf7b1af
+FEquations.Equations
+R601:619 Coq.Program.Program <> <> lib
+R720:726 Equations.Classes <> <> lib
+R728:736 Equations.Signature <> <> lib
+R738:744 Equations.DepElim <> <> lib
+R746:764 Equations.FunctionalInduction <> <> lib
+R766:770 Equations.Below <> <> lib
+R803:816 Equations.EqDecInstances <> <> lib
+R818:830 Equations.HSetInstances <> <> lib
+R863:866 Equations.Init <> <> lib
+R868:878 Equations.NoConfusion <> <> lib
+R880:886 Equations.Subterm <> <> lib

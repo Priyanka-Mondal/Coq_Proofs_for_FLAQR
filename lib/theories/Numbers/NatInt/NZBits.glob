@@ -1,0 +1,268 @@
+DIGEST 3da0bb5d9909a4542c0ef32f20f516e1
+FCoq.Numbers.NatInt.NZBits
+R691:694 Coq.Bool.Bool <> <> lib
+R696:703 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R705:714 Coq.Numbers.NatInt.NZMulOrder <> <> lib
+R716:723 Coq.Numbers.NatInt.NZParity <> <> lib
+R725:729 Coq.Numbers.NatInt.NZPow <> <> lib
+R731:735 Coq.Numbers.NatInt.NZDiv <> <> lib
+R737:741 Coq.Numbers.NatInt.NZLog <> <> lib
+R824:826 Coq.Structures.Equalities Typ <> mod
+modtype 807:810 <> Bits
+ax 848:854 Bits testbit
+R859:862 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R864:867 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R868:871 Coq.Init.Datatypes <> bool ind
+R863:863 Coq.Numbers.NatInt.NZBits A t defax
+R858:858 Coq.Numbers.NatInt.NZBits A t defax
+ax 893:898 Bits shiftl
+ax 900:905 Bits shiftr
+ax 907:910 Bits land
+ax 912:914 Bits lor
+ax 916:920 Bits ldiff
+ax 922:925 Bits lxor
+R930:933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R935:938 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R939:939 Coq.Numbers.NatInt.NZBits A t defax
+R934:934 Coq.Numbers.NatInt.NZBits A t defax
+R929:929 Coq.Numbers.NatInt.NZBits A t defax
+ax 960:963 Bits div2
+R968:971 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R972:972 Coq.Numbers.NatInt.NZBits A t defax
+R967:967 Coq.Numbers.NatInt.NZBits A t defax
+R979:982 Coq.Numbers.NatInt.NZBits Bits <> modtype
+R1023:1025 Coq.Structures.Equalities Typ <> mod
+R1039:1042 Coq.Numbers.NatInt.NZBits Bits <> mod
+R1044:1044 Coq.Numbers.NatInt.NZBits A <> modtype
+modtype 998:1009 <> BitsNotation
+R1073:1079 Coq.Numbers.NatInt.NZBits B testbit defax
+not 1058:1058 BitsNotation ::x_'.['_x_']'
+R1134:1139 Coq.Numbers.NatInt.NZBits B shiftr defax
+not 1126:1126 BitsNotation ::x_'>>'_x
+R1189:1194 Coq.Numbers.NatInt.NZBits B shiftl defax
+not 1181:1181 BitsNotation ::x_'<<'_x
+R1233:1244 Coq.Numbers.NatInt.NZBits BitsNotation <> modtype
+R1269:1271 Coq.Structures.Equalities Typ <> mod
+R1277:1280 Coq.Numbers.NatInt.NZBits Bits <> mod
+R1282:1282 Coq.Numbers.NatInt.NZBits A <> modtype
+R1287:1298 Coq.Numbers.NatInt.NZBits BitsNotation <> mod
+R1300:1300 Coq.Numbers.NatInt.NZBits A <> modtype
+modtype 1260:1264 <> Bits'
+R1340:1354 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1368:1372 Coq.Numbers.NatInt.NZBits Bits' <> mod
+R1374:1374 Coq.Numbers.NatInt.NZBits A <> modtype
+modtype 1316:1325 <> NZBitsSpec
+inst 1397:1406 NZBitsSpec testbit_wd
+R1410:1415 Coq.Classes.Morphisms <> Proper class
+R1438:1444 Coq.Numbers.NatInt.NZBits B testbit defax
+R1420:1422 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1418:1419 Coq.Numbers.NatInt.NZBits A eq defax
+R1425:1427 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1423:1424 Coq.Numbers.NatInt.NZBits A eq defax
+R1428:1435 Coq.Init.Logic <> eq ind
+ax 1454:1466 NZBitsSpec testbit_odd_0
+R1491:1493 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1480:1480 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1486:1488 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1490:1490 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1484:1484 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1482:1482 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1483:1483 Coq.Numbers.NatInt.NZBits <> a var
+R1494:1497 Coq.Init.Datatypes <> true constr
+ax 1507:1520 NZBitsSpec testbit_even_0
+R1543:1545 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1534:1534 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1538:1540 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1542:1542 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1536:1536 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1537:1537 Coq.Numbers.NatInt.NZBits <> a var
+R1546:1550 Coq.Init.Datatypes <> false constr
+ax 1560:1575 NZBitsSpec testbit_odd_succ
+R1595:1598 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1612:1614 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1599:1599 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1605:1607 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1611:1611 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1603:1603 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1601:1601 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1602:1602 Coq.Numbers.NatInt.NZBits <> a var
+R1608:1608 Coq.Numbers.NatInt.NZBits A S syndef
+R1610:1610 Coq.Numbers.NatInt.NZBits <> n var
+R1616:1617 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1619:1619 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1615:1615 Coq.Numbers.NatInt.NZBits <> a var
+R1618:1618 Coq.Numbers.NatInt.NZBits <> n var
+R1592:1593 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1594:1594 Coq.Numbers.NatInt.NZBits <> n var
+ax 1629:1645 NZBitsSpec testbit_even_succ
+R1665:1668 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1680:1682 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1669:1669 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1673:1675 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1679:1679 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1671:1671 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1672:1672 Coq.Numbers.NatInt.NZBits <> a var
+R1676:1676 Coq.Numbers.NatInt.NZBits A S syndef
+R1678:1678 Coq.Numbers.NatInt.NZBits <> n var
+R1684:1685 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1687:1687 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1683:1683 Coq.Numbers.NatInt.NZBits <> a var
+R1686:1686 Coq.Numbers.NatInt.NZBits <> n var
+R1662:1663 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1664:1664 Coq.Numbers.NatInt.NZBits <> n var
+ax 1697:1709 NZBitsSpec testbit_neg_r
+R1728:1731 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1737:1739 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1733:1734 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1736:1736 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1732:1732 Coq.Numbers.NatInt.NZBits <> a var
+R1735:1735 Coq.Numbers.NatInt.NZBits <> n var
+R1740:1744 Coq.Init.Datatypes <> false constr
+R1726:1726 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1725:1725 Coq.Numbers.NatInt.NZBits <> n var
+ax 1755:1765 NZBitsSpec shiftr_spec
+R1787:1790 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1803:1805 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1791:1791 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1798:1800 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1802:1802 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1793:1796 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'>>'_x not
+R1792:1792 Coq.Numbers.NatInt.NZBits <> a var
+R1797:1797 Coq.Numbers.NatInt.NZBits <> n var
+R1801:1801 Coq.Numbers.NatInt.NZBits <> m var
+R1807:1808 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1812:1812 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1806:1806 Coq.Numbers.NatInt.NZBits <> a var
+R1810:1810 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1809:1809 Coq.Numbers.NatInt.NZBits <> m var
+R1811:1811 Coq.Numbers.NatInt.NZBits <> n var
+R1784:1785 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1786:1786 Coq.Numbers.NatInt.NZBits <> m var
+ax 1822:1837 NZBitsSpec shiftl_spec_high
+R1859:1862 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1867:1870 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1883:1885 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1871:1871 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1878:1880 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1882:1882 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1873:1876 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'<<'_x not
+R1872:1872 Coq.Numbers.NatInt.NZBits <> a var
+R1877:1877 Coq.Numbers.NatInt.NZBits <> n var
+R1881:1881 Coq.Numbers.NatInt.NZBits <> m var
+R1887:1888 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1892:1892 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1886:1886 Coq.Numbers.NatInt.NZBits <> a var
+R1890:1890 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'-'_x not
+R1889:1889 Coq.Numbers.NatInt.NZBits <> m var
+R1891:1891 Coq.Numbers.NatInt.NZBits <> n var
+R1864:1865 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1863:1863 Coq.Numbers.NatInt.NZBits <> n var
+R1866:1866 Coq.Numbers.NatInt.NZBits <> m var
+R1856:1857 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1858:1858 Coq.Numbers.NatInt.NZBits <> m var
+ax 1902:1916 NZBitsSpec shiftl_spec_low
+R1937:1940 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1953:1955 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1941:1941 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1948:1950 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1952:1952 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1943:1946 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'<<'_x not
+R1942:1942 Coq.Numbers.NatInt.NZBits <> a var
+R1947:1947 Coq.Numbers.NatInt.NZBits <> n var
+R1951:1951 Coq.Numbers.NatInt.NZBits <> m var
+R1956:1960 Coq.Init.Datatypes <> false constr
+R1935:1935 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1934:1934 Coq.Numbers.NatInt.NZBits <> m var
+R1936:1936 Coq.Numbers.NatInt.NZBits <> n var
+ax 1971:1979 NZBitsSpec land_spec
+R2011:2013 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1997:1997 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2006:2008 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2010:2010 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R1998:2001 Coq.Numbers.NatInt.NZBits B land defax
+R2005:2005 Coq.Numbers.NatInt.NZBits <> b var
+R2003:2003 Coq.Numbers.NatInt.NZBits <> a var
+R2009:2009 Coq.Numbers.NatInt.NZBits <> n var
+R2019:2022 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2015:2016 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2018:2018 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2014:2014 Coq.Numbers.NatInt.NZBits <> a var
+R2017:2017 Coq.Numbers.NatInt.NZBits <> n var
+R2024:2025 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2027:2027 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2023:2023 Coq.Numbers.NatInt.NZBits <> b var
+R2026:2026 Coq.Numbers.NatInt.NZBits <> n var
+ax 2037:2044 NZBitsSpec lor_spec
+R2075:2077 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2062:2062 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2070:2072 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2074:2074 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2063:2065 Coq.Numbers.NatInt.NZBits B lor defax
+R2069:2069 Coq.Numbers.NatInt.NZBits <> b var
+R2067:2067 Coq.Numbers.NatInt.NZBits <> a var
+R2073:2073 Coq.Numbers.NatInt.NZBits <> n var
+R2083:2086 Coq.Init.Datatypes <> :bool_scope:x_'||'_x not
+R2079:2080 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2082:2082 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2078:2078 Coq.Numbers.NatInt.NZBits <> a var
+R2081:2081 Coq.Numbers.NatInt.NZBits <> n var
+R2088:2089 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2091:2091 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2087:2087 Coq.Numbers.NatInt.NZBits <> b var
+R2090:2090 Coq.Numbers.NatInt.NZBits <> n var
+ax 2101:2110 NZBitsSpec ldiff_spec
+R2143:2145 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2128:2128 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2138:2140 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2142:2142 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2129:2133 Coq.Numbers.NatInt.NZBits B ldiff defax
+R2137:2137 Coq.Numbers.NatInt.NZBits <> b var
+R2135:2135 Coq.Numbers.NatInt.NZBits <> a var
+R2141:2141 Coq.Numbers.NatInt.NZBits <> n var
+R2151:2154 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2147:2148 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2150:2150 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2146:2146 Coq.Numbers.NatInt.NZBits <> a var
+R2149:2149 Coq.Numbers.NatInt.NZBits <> n var
+R2155:2158 Coq.Init.Datatypes <> negb def
+R2161:2162 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2164:2164 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2160:2160 Coq.Numbers.NatInt.NZBits <> b var
+R2163:2163 Coq.Numbers.NatInt.NZBits <> n var
+ax 2174:2182 NZBitsSpec lxor_spec
+R2214:2216 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2200:2200 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2209:2211 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2213:2213 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2201:2204 Coq.Numbers.NatInt.NZBits B lxor defax
+R2208:2208 Coq.Numbers.NatInt.NZBits <> b var
+R2206:2206 Coq.Numbers.NatInt.NZBits <> a var
+R2212:2212 Coq.Numbers.NatInt.NZBits <> n var
+R2217:2220 Coq.Init.Datatypes <> xorb def
+R2229:2230 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2232:2232 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2228:2228 Coq.Numbers.NatInt.NZBits <> b var
+R2231:2231 Coq.Numbers.NatInt.NZBits <> n var
+R2223:2224 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2226:2226 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'.['_x_']' not
+R2222:2222 Coq.Numbers.NatInt.NZBits <> a var
+R2225:2225 Coq.Numbers.NatInt.NZBits <> n var
+ax 2242:2250 NZBitsSpec div2_spec
+R2270:2273 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2264:2267 Coq.Numbers.NatInt.NZBits B div2 defax
+R2269:2269 Coq.Numbers.NatInt.NZBits <> a var
+R2275:2278 Coq.Numbers.NatInt.NZBits BitsNotation ::x_'>>'_x not
+R2274:2274 Coq.Numbers.NatInt.NZBits <> a var
+R2287:2296 Coq.Numbers.NatInt.NZBits NZBitsSpec <> modtype
+R2322:2335 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R2341:2344 Coq.Numbers.NatInt.NZBits Bits <> mod
+R2346:2346 Coq.Numbers.NatInt.NZBits A <> modtype
+R2351:2360 Coq.Numbers.NatInt.NZBits NZBitsSpec <> mod
+R2362:2362 Coq.Numbers.NatInt.NZBits A <> modtype
+modtype 2312:2317 <> NZBits
+R2388:2401 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R2407:2411 Coq.Numbers.NatInt.NZBits Bits' <> mod
+R2413:2413 Coq.Numbers.NatInt.NZBits A <> modtype
+R2418:2427 Coq.Numbers.NatInt.NZBits NZBitsSpec <> mod
+R2429:2429 Coq.Numbers.NatInt.NZBits A <> modtype
+modtype 2377:2383 <> NZBits'

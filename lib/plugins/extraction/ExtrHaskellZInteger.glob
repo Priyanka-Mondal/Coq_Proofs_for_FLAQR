@@ -1,0 +1,7 @@
+DIGEST fb07aa570af70f34c20a8a3a845d3c37
+FCoq.extraction.ExtrHaskellZInteger
+R59:83 Coq.extraction.Extraction <> <> lib
+R102:107 Coq.ZArith.ZArith <> <> lib
+R125:139 Coq.extraction.ExtrHaskellZNum <> <> lib
+R336:343 Coq.Numbers.BinNums <> positive ind
+R645:645 Coq.Numbers.BinNums <> Z ind

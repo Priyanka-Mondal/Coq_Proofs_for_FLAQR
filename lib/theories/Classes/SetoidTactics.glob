@@ -1,0 +1,52 @@
+DIGEST cc70823eed72e53f9872787118a7ea80
+FCoq.Classes.SetoidTactics
+R817:844 Coq.Classes.CRelationClasses <> <> lib
+R846:867 Coq.Classes.CMorphisms <> <> lib
+R885:905 Coq.Classes.Morphisms <> <> lib
+R907:932 Coq.Classes.Morphisms_Prop <> <> lib
+R950:976 Coq.Classes.RelationClasses <> <> lib
+R978:1011 Coq.Relations.Relation_Definitions <> <> lib
+R1029:1051 Coq.Classes.Equivalence <> <> lib
+R1053:1070 Coq.Program.Basics <> <> lib
+rec 1410:1424 <> DefaultRelation
+R1433:1440 Coq.Relations.Relation_Definitions <> relation def
+R1442:1442 Coq.Classes.SetoidTactics <> A var
+def 1532:1547 <> default_relation
+R1551:1565 Coq.Classes.SetoidTactics <> DefaultRelation class
+R1575:1575 Coq.Classes.SetoidTactics <> R var
+inst 1684:1702 <> equivalence_default
+R1706:1716 Coq.Classes.RelationClasses <> Equivalence class
+R1725:1739 Coq.Classes.SetoidTactics <> DefaultRelation class
+R1741:1741 Coq.Classes.SetoidTactics <> R var
+R1938:1953 Coq.Classes.SetoidTactics <> default_relation def
+R2089:2104 Coq.Classes.SetoidTactics <> default_relation def
+R2253:2268 Coq.Classes.SetoidTactics <> default_relation def
+R2420:2435 Coq.Classes.SetoidTactics <> default_relation def
+R2580:2595 Coq.Classes.SetoidTactics <> default_relation def
+R2718:2733 Coq.Classes.SetoidTactics <> default_relation def
+R2847:2862 Coq.Classes.SetoidTactics <> default_relation def
+R3005:3020 Coq.Classes.SetoidTactics <> default_relation def
+R3138:3153 Coq.Classes.SetoidTactics <> default_relation def
+R3297:3312 Coq.Classes.SetoidTactics <> default_relation def
+R3447:3462 Coq.Classes.SetoidTactics <> default_relation def
+R3626:3641 Coq.Classes.SetoidTactics <> default_relation def
+R5325:5343 Coq.Program.Tactics <> <> lib
+R5455:5459 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5444:5451 Coq.Init.Logic <> eq ind
+R5455:5459 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5444:5451 Coq.Init.Logic <> eq ind
+R5523:5527 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5523:5527 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5654:5659 Coq.Classes.Morphisms <> Proper class
+R5654:5659 Coq.Classes.Morphisms <> Proper class
+R5745:5749 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5734:5741 Coq.Init.Logic <> eq ind
+R5745:5749 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5734:5741 Coq.Init.Logic <> eq ind
+R5797:5801 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5797:5801 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5916:5919 Coq.Program.Basics <> flip def
+R5990:5994 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5990:5994 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6032:6036 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R6059:6063 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not

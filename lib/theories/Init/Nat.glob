@@ -1,0 +1,507 @@
+DIGEST 5a5db98aa8f750ff91f2b19391effc2f
+FCoq.Init.Nat
+R691:699 Coq.Init.Notations <> <> lib
+R701:705 Coq.Init.Logic <> <> lib
+R707:715 Coq.Init.Datatypes <> <> lib
+R726:732 Coq.Init.Decimal <> <> lib
+def 1116:1116 <> t
+R1121:1123 Coq.Init.Datatypes <> nat ind
+def 1159:1162 <> zero
+def 1181:1183 <> one
+def 1202:1204 <> two
+def 1252:1255 <> succ
+R1260:1260 Coq.Init.Datatypes <> S constr
+def 1275:1278 <> pred
+R1293:1293 Coq.Init.Nat <> n var
+R1311:1311 Coq.Init.Nat <> n var
+R1319:1319 Coq.Init.Datatypes <> S constr
+def 1345:1347 <> add
+R1428:1430 Coq.Init.Nat <> add def
+R1364:1364 Coq.Init.Nat <> n var
+R1380:1380 Coq.Init.Nat <> m var
+R1386:1386 Coq.Init.Datatypes <> S constr
+R1393:1393 Coq.Init.Datatypes <> S constr
+R1397:1399 Coq.Init.Nat <> :nat_scope:x_'+'_x not
+R1400:1400 Coq.Init.Nat <> m var
+R1428:1430 Coq.Init.Nat <> add def
+not 1416:1416 <> :nat_scope:x_'+'_x
+def 1462:1467 <> double
+R1475:1477 Coq.Init.Nat <> :nat_scope:x_'+'_x not
+R1474:1474 Coq.Init.Nat <> n var
+R1478:1478 Coq.Init.Nat <> n var
+def 1491:1493 <> mul
+R1574:1576 Coq.Init.Nat <> mul def
+R1510:1510 Coq.Init.Nat <> n var
+R1532:1532 Coq.Init.Datatypes <> S constr
+R1540:1542 Coq.Init.Nat <> :nat_scope:x_'+'_x not
+R1539:1539 Coq.Init.Nat <> m var
+R1544:1546 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R1547:1547 Coq.Init.Nat <> m var
+R1574:1576 Coq.Init.Nat <> mul def
+not 1562:1562 <> :nat_scope:x_'*'_x
+def 1660:1662 <> sub
+R1750:1752 Coq.Init.Nat <> sub def
+R1682:1682 Coq.Init.Nat <> m var
+R1679:1679 Coq.Init.Nat <> n var
+R1693:1693 Coq.Init.Datatypes <> S constr
+R1698:1698 Coq.Init.Datatypes <> S constr
+R1706:1708 Coq.Init.Nat <> :nat_scope:x_'-'_x not
+R1723:1723 Coq.Init.Nat <> n var
+R1750:1752 Coq.Init.Nat <> sub def
+not 1738:1738 <> :nat_scope:x_'-'_x
+def 1805:1807 <> eqb
+R1815:1818 Coq.Init.Datatypes <> bool ind
+R1834:1834 Coq.Init.Nat <> m var
+R1831:1831 Coq.Init.Nat <> n var
+R1855:1858 Coq.Init.Datatypes <> true constr
+R1869:1869 Coq.Init.Datatypes <> S constr
+R1876:1880 Coq.Init.Datatypes <> false constr
+R1888:1888 Coq.Init.Datatypes <> S constr
+R1898:1902 Coq.Init.Datatypes <> false constr
+R1910:1910 Coq.Init.Datatypes <> S constr
+R1916:1916 Coq.Init.Datatypes <> S constr
+R1924:1926 Coq.Init.Nat <> eqb def
+def 1951:1953 <> leb
+R1961:1964 Coq.Init.Datatypes <> bool ind
+R1980:1980 Coq.Init.Nat <> m var
+R1977:1977 Coq.Init.Nat <> n var
+R2001:2004 Coq.Init.Datatypes <> true constr
+R2020:2024 Coq.Init.Datatypes <> false constr
+R2032:2032 Coq.Init.Datatypes <> S constr
+R2038:2038 Coq.Init.Datatypes <> S constr
+R2046:2048 Coq.Init.Nat <> leb def
+def 2075:2077 <> ltb
+R2086:2088 Coq.Init.Nat <> leb def
+R2096:2096 Coq.Init.Nat <> m var
+R2091:2091 Coq.Init.Datatypes <> S constr
+R2093:2093 Coq.Init.Nat <> n var
+R2114:2116 Coq.Init.Nat <> eqb def
+not 2106:2106 <> :nat_scope:x_'=?'_x
+R2160:2162 Coq.Init.Nat <> leb def
+not 2151:2151 <> :nat_scope:x_'<=?'_x
+R2205:2207 Coq.Init.Nat <> ltb def
+not 2197:2197 <> :nat_scope:x_'<?'_x
+def 2246:2252 <> compare
+R2260:2269 Coq.Init.Datatypes <> comparison ind
+R2285:2285 Coq.Init.Nat <> m var
+R2282:2282 Coq.Init.Nat <> n var
+R2305:2306 Coq.Init.Datatypes <> Eq constr
+R2316:2316 Coq.Init.Datatypes <> S constr
+R2323:2324 Coq.Init.Datatypes <> Lt constr
+R2331:2331 Coq.Init.Datatypes <> S constr
+R2341:2342 Coq.Init.Datatypes <> Gt constr
+R2349:2349 Coq.Init.Datatypes <> S constr
+R2355:2355 Coq.Init.Datatypes <> S constr
+R2363:2369 Coq.Init.Nat <> compare def
+R2399:2405 Coq.Init.Nat <> compare def
+not 2391:2391 <> :nat_scope:x_'?='_x
+def 2472:2474 <> max
+R2494:2494 Coq.Init.Nat <> m var
+R2491:2491 Coq.Init.Nat <> n var
+R2515:2515 Coq.Init.Nat <> m var
+R2523:2523 Coq.Init.Datatypes <> S constr
+R2534:2534 Coq.Init.Nat <> n var
+R2542:2542 Coq.Init.Datatypes <> S constr
+R2548:2548 Coq.Init.Datatypes <> S constr
+R2556:2556 Coq.Init.Datatypes <> S constr
+R2559:2561 Coq.Init.Nat <> max def
+def 2587:2589 <> min
+R2609:2609 Coq.Init.Nat <> m var
+R2606:2606 Coq.Init.Nat <> n var
+R2638:2638 Coq.Init.Datatypes <> S constr
+R2657:2657 Coq.Init.Datatypes <> S constr
+R2663:2663 Coq.Init.Datatypes <> S constr
+R2671:2671 Coq.Init.Datatypes <> S constr
+R2674:2676 Coq.Init.Nat <> min def
+def 2726:2729 <> even
+R2735:2738 Coq.Init.Datatypes <> bool ind
+R2751:2751 Coq.Init.Nat <> n var
+R2769:2772 Coq.Init.Datatypes <> true constr
+R2785:2789 Coq.Init.Datatypes <> false constr
+R2797:2797 Coq.Init.Datatypes <> S constr
+R2800:2800 Coq.Init.Datatypes <> S constr
+R2809:2812 Coq.Init.Nat <> even def
+def 2836:2838 <> odd
+R2845:2848 Coq.Init.Datatypes <> negb def
+R2851:2854 Coq.Init.Nat <> even def
+R2856:2856 Coq.Init.Nat <> n var
+def 2887:2889 <> pow
+R2974:2976 Coq.Init.Nat <> pow def
+R2906:2906 Coq.Init.Nat <> m var
+R2932:2932 Coq.Init.Datatypes <> S constr
+R2940:2943 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R2947:2947 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R2939:2939 Coq.Init.Nat <> n var
+R2945:2945 Coq.Init.Nat <> :nat_scope:x_'^'_x not
+R2944:2944 Coq.Init.Nat <> n var
+R2946:2946 Coq.Init.Nat <> m var
+R2974:2976 Coq.Init.Nat <> pow def
+not 2962:2962 <> :nat_scope:x_'^'_x
+def 3060:3067 <> tail_add
+R3084:3084 Coq.Init.Nat <> n var
+R3097:3097 Coq.Init.Datatypes <> O constr
+R3102:3102 Coq.Init.Nat <> m var
+R3110:3110 Coq.Init.Datatypes <> S constr
+R3117:3124 Coq.Init.Nat <> tail_add def
+R3129:3129 Coq.Init.Datatypes <> S constr
+R3131:3131 Coq.Init.Nat <> m var
+R3126:3126 Coq.Init.Nat <> n var
+def 3195:3205 <> tail_addmul
+R3224:3224 Coq.Init.Nat <> n var
+R3237:3237 Coq.Init.Datatypes <> O constr
+R3242:3242 Coq.Init.Nat <> r var
+R3250:3250 Coq.Init.Datatypes <> S constr
+R3257:3267 Coq.Init.Nat <> tail_addmul def
+R3286:3286 Coq.Init.Nat <> m var
+R3284:3284 Coq.Init.Nat <> n var
+R3270:3277 Coq.Init.Nat <> tail_add def
+R3281:3281 Coq.Init.Nat <> r var
+R3279:3279 Coq.Init.Nat <> m var
+def 3307:3314 <> tail_mul
+R3323:3333 Coq.Init.Nat <> tail_addmul def
+R3339:3339 Coq.Init.Nat <> m var
+R3337:3337 Coq.Init.Nat <> n var
+syndef 3431:3433 <> ten
+R3439:3439 Coq.Init.Datatypes <> S constr
+R3442:3442 Coq.Init.Datatypes <> S constr
+R3445:3445 Coq.Init.Datatypes <> S constr
+R3448:3448 Coq.Init.Datatypes <> S constr
+R3451:3451 Coq.Init.Datatypes <> S constr
+R3454:3454 Coq.Init.Datatypes <> S constr
+R3457:3457 Coq.Init.Datatypes <> S constr
+R3460:3460 Coq.Init.Datatypes <> S constr
+R3463:3463 Coq.Init.Datatypes <> S constr
+R3466:3466 Coq.Init.Datatypes <> S constr
+R3468:3468 Coq.Init.Datatypes <> O constr
+def 3491:3501 <> of_uint_acc
+R3506:3517 Coq.Init.Decimal <> uint ind
+R3524:3526 Coq.Init.Datatypes <> nat ind
+R3540:3540 Coq.Init.Nat <> d var
+R3551:3561 Coq.Init.Decimal <> Nil constr
+R3566:3568 Coq.Init.Nat <> acc var
+R3574:3583 Coq.Init.Decimal <> D0 constr
+R3590:3600 Coq.Init.Nat <> of_uint_acc def
+R3605:3612 Coq.Init.Nat <> tail_mul def
+R3618:3620 Coq.Init.Nat <> acc var
+R3614:3616 Coq.Init.Nat <> ten syndef
+R3602:3602 Coq.Init.Nat <> d var
+R3627:3636 Coq.Init.Decimal <> D1 constr
+R3643:3653 Coq.Init.Nat <> of_uint_acc def
+R3658:3658 Coq.Init.Datatypes <> S constr
+R3661:3668 Coq.Init.Nat <> tail_mul def
+R3674:3676 Coq.Init.Nat <> acc var
+R3670:3672 Coq.Init.Nat <> ten syndef
+R3655:3655 Coq.Init.Nat <> d var
+R3684:3693 Coq.Init.Decimal <> D2 constr
+R3700:3710 Coq.Init.Nat <> of_uint_acc def
+R3715:3715 Coq.Init.Datatypes <> S constr
+R3718:3718 Coq.Init.Datatypes <> S constr
+R3721:3728 Coq.Init.Nat <> tail_mul def
+R3734:3736 Coq.Init.Nat <> acc var
+R3730:3732 Coq.Init.Nat <> ten syndef
+R3712:3712 Coq.Init.Nat <> d var
+R3745:3754 Coq.Init.Decimal <> D3 constr
+R3761:3771 Coq.Init.Nat <> of_uint_acc def
+R3776:3776 Coq.Init.Datatypes <> S constr
+R3779:3779 Coq.Init.Datatypes <> S constr
+R3782:3782 Coq.Init.Datatypes <> S constr
+R3785:3792 Coq.Init.Nat <> tail_mul def
+R3798:3800 Coq.Init.Nat <> acc var
+R3794:3796 Coq.Init.Nat <> ten syndef
+R3773:3773 Coq.Init.Nat <> d var
+R3810:3819 Coq.Init.Decimal <> D4 constr
+R3826:3836 Coq.Init.Nat <> of_uint_acc def
+R3841:3841 Coq.Init.Datatypes <> S constr
+R3844:3844 Coq.Init.Datatypes <> S constr
+R3847:3847 Coq.Init.Datatypes <> S constr
+R3850:3850 Coq.Init.Datatypes <> S constr
+R3853:3860 Coq.Init.Nat <> tail_mul def
+R3866:3868 Coq.Init.Nat <> acc var
+R3862:3864 Coq.Init.Nat <> ten syndef
+R3838:3838 Coq.Init.Nat <> d var
+R3879:3888 Coq.Init.Decimal <> D5 constr
+R3895:3905 Coq.Init.Nat <> of_uint_acc def
+R3910:3910 Coq.Init.Datatypes <> S constr
+R3913:3913 Coq.Init.Datatypes <> S constr
+R3916:3916 Coq.Init.Datatypes <> S constr
+R3919:3919 Coq.Init.Datatypes <> S constr
+R3922:3922 Coq.Init.Datatypes <> S constr
+R3925:3932 Coq.Init.Nat <> tail_mul def
+R3938:3940 Coq.Init.Nat <> acc var
+R3934:3936 Coq.Init.Nat <> ten syndef
+R3907:3907 Coq.Init.Nat <> d var
+R3952:3961 Coq.Init.Decimal <> D6 constr
+R3968:3978 Coq.Init.Nat <> of_uint_acc def
+R3983:3983 Coq.Init.Datatypes <> S constr
+R3986:3986 Coq.Init.Datatypes <> S constr
+R3989:3989 Coq.Init.Datatypes <> S constr
+R3992:3992 Coq.Init.Datatypes <> S constr
+R3995:3995 Coq.Init.Datatypes <> S constr
+R3998:3998 Coq.Init.Datatypes <> S constr
+R4001:4008 Coq.Init.Nat <> tail_mul def
+R4014:4016 Coq.Init.Nat <> acc var
+R4010:4012 Coq.Init.Nat <> ten syndef
+R3980:3980 Coq.Init.Nat <> d var
+R4029:4038 Coq.Init.Decimal <> D7 constr
+R4045:4055 Coq.Init.Nat <> of_uint_acc def
+R4060:4060 Coq.Init.Datatypes <> S constr
+R4063:4063 Coq.Init.Datatypes <> S constr
+R4066:4066 Coq.Init.Datatypes <> S constr
+R4069:4069 Coq.Init.Datatypes <> S constr
+R4072:4072 Coq.Init.Datatypes <> S constr
+R4075:4075 Coq.Init.Datatypes <> S constr
+R4078:4078 Coq.Init.Datatypes <> S constr
+R4081:4088 Coq.Init.Nat <> tail_mul def
+R4094:4096 Coq.Init.Nat <> acc var
+R4090:4092 Coq.Init.Nat <> ten syndef
+R4057:4057 Coq.Init.Nat <> d var
+R4110:4119 Coq.Init.Decimal <> D8 constr
+R4126:4136 Coq.Init.Nat <> of_uint_acc def
+R4141:4141 Coq.Init.Datatypes <> S constr
+R4144:4144 Coq.Init.Datatypes <> S constr
+R4147:4147 Coq.Init.Datatypes <> S constr
+R4150:4150 Coq.Init.Datatypes <> S constr
+R4153:4153 Coq.Init.Datatypes <> S constr
+R4156:4156 Coq.Init.Datatypes <> S constr
+R4159:4159 Coq.Init.Datatypes <> S constr
+R4162:4162 Coq.Init.Datatypes <> S constr
+R4165:4172 Coq.Init.Nat <> tail_mul def
+R4178:4180 Coq.Init.Nat <> acc var
+R4174:4176 Coq.Init.Nat <> ten syndef
+R4138:4138 Coq.Init.Nat <> d var
+R4195:4204 Coq.Init.Decimal <> D9 constr
+R4211:4221 Coq.Init.Nat <> of_uint_acc def
+R4226:4226 Coq.Init.Datatypes <> S constr
+R4229:4229 Coq.Init.Datatypes <> S constr
+R4232:4232 Coq.Init.Datatypes <> S constr
+R4235:4235 Coq.Init.Datatypes <> S constr
+R4238:4238 Coq.Init.Datatypes <> S constr
+R4241:4241 Coq.Init.Datatypes <> S constr
+R4244:4244 Coq.Init.Datatypes <> S constr
+R4247:4247 Coq.Init.Datatypes <> S constr
+R4250:4250 Coq.Init.Datatypes <> S constr
+R4253:4260 Coq.Init.Nat <> tail_mul def
+R4266:4268 Coq.Init.Nat <> acc var
+R4262:4264 Coq.Init.Nat <> ten syndef
+R4223:4223 Coq.Init.Nat <> d var
+def 4299:4305 <> of_uint
+R4310:4321 Coq.Init.Decimal <> uint ind
+R4327:4337 Coq.Init.Nat <> of_uint_acc def
+R4341:4341 Coq.Init.Datatypes <> O constr
+R4339:4339 Coq.Init.Nat <> d var
+def 4354:4367 <> to_little_uint
+R4386:4386 Coq.Init.Nat <> n var
+R4397:4397 Coq.Init.Datatypes <> O constr
+R4402:4404 Coq.Init.Nat <> acc var
+R4410:4410 Coq.Init.Datatypes <> S constr
+R4417:4430 Coq.Init.Nat <> to_little_uint def
+R4435:4453 Coq.Init.Decimal Little succ def
+R4455:4457 Coq.Init.Nat <> acc var
+R4432:4432 Coq.Init.Nat <> n var
+def 4479:4485 <> to_uint
+R4494:4504 Coq.Init.Decimal <> rev def
+R4507:4520 Coq.Init.Nat <> to_little_uint def
+R4524:4535 Coq.Init.Decimal <> zero syndef
+R4522:4522 Coq.Init.Nat <> n var
+def 4551:4556 <> of_int
+R4561:4571 Coq.Init.Decimal <> int ind
+R4576:4581 Coq.Init.Datatypes <> option ind
+R4583:4585 Coq.Init.Datatypes <> nat ind
+R4598:4609 Coq.Init.Decimal <> norm def
+R4611:4611 Coq.Init.Nat <> d var
+R4624:4634 Coq.Init.Decimal <> Pos constr
+R4641:4644 Coq.Init.Datatypes <> Some constr
+R4647:4653 Coq.Init.Nat <> of_uint def
+R4669:4672 Coq.Init.Datatypes <> None constr
+def 4693:4698 <> to_int
+R4705:4715 Coq.Init.Decimal <> Pos constr
+R4718:4724 Coq.Init.Nat <> to_uint def
+R4726:4726 Coq.Init.Nat <> n var
+def 4929:4934 <> divmod
+R4955:4955 Coq.Init.Nat <> x var
+R4973:4973 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4975:4975 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4977:4977 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4974:4974 Coq.Init.Nat <> q var
+R4976:4976 Coq.Init.Nat <> u var
+R4985:4985 Coq.Init.Datatypes <> S constr
+R4999:4999 Coq.Init.Nat <> u var
+R5029:5034 Coq.Init.Nat <> divmod def
+R5047:5047 Coq.Init.Nat <> y var
+R5042:5042 Coq.Init.Datatypes <> S constr
+R5044:5044 Coq.Init.Nat <> q var
+R5039:5039 Coq.Init.Nat <> y var
+R5067:5067 Coq.Init.Datatypes <> S constr
+R5075:5080 Coq.Init.Nat <> divmod def
+R5087:5087 Coq.Init.Nat <> q var
+R5085:5085 Coq.Init.Nat <> y var
+def 5129:5131 <> div
+R5148:5148 Coq.Init.Nat <> y var
+R5166:5166 Coq.Init.Nat <> y var
+R5174:5174 Coq.Init.Datatypes <> S constr
+R5182:5184 Coq.Init.Datatypes <> fst def
+R5187:5192 Coq.Init.Nat <> divmod def
+R5194:5194 Coq.Init.Nat <> x var
+def 5224:5229 <> modulo
+R5246:5246 Coq.Init.Nat <> y var
+R5264:5264 Coq.Init.Nat <> y var
+R5272:5272 Coq.Init.Datatypes <> S constr
+R5282:5284 Coq.Init.Nat <> :nat_scope:x_'-'_x not
+R5285:5287 Coq.Init.Datatypes <> snd def
+R5290:5295 Coq.Init.Nat <> divmod def
+R5297:5297 Coq.Init.Nat <> x var
+R5329:5331 Coq.Init.Nat <> div def
+not 5322:5322 <> :nat_scope:x_'/'_x
+R5361:5366 Coq.Init.Nat <> modulo def
+not 5352:5352 <> :nat_scope:x_'mod'_x
+def 5654:5656 <> gcd
+R5673:5673 Coq.Init.Nat <> a var
+R5685:5685 Coq.Init.Datatypes <> O constr
+R5690:5690 Coq.Init.Nat <> b var
+R5697:5697 Coq.Init.Datatypes <> S constr
+R5705:5707 Coq.Init.Nat <> gcd def
+R5725:5725 Coq.Init.Datatypes <> S constr
+R5711:5716 Coq.Init.Nat <> :nat_scope:x_'mod'_x not
+R5721:5721 Coq.Init.Nat <> :nat_scope:x_'mod'_x not
+R5710:5710 Coq.Init.Nat <> b var
+R5717:5717 Coq.Init.Datatypes <> S constr
+def 5768:5773 <> square
+R5781:5783 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R5780:5780 Coq.Init.Nat <> n var
+R5784:5784 Coq.Init.Nat <> n var
+def 6401:6409 <> sqrt_iter
+R6430:6430 Coq.Init.Nat <> k var
+R6443:6443 Coq.Init.Datatypes <> O constr
+R6448:6448 Coq.Init.Nat <> p var
+R6456:6456 Coq.Init.Datatypes <> S constr
+R6470:6470 Coq.Init.Nat <> r var
+R6495:6495 Coq.Init.Datatypes <> O constr
+R6500:6508 Coq.Init.Nat <> sqrt_iter def
+R6530:6530 Coq.Init.Datatypes <> S constr
+R6533:6533 Coq.Init.Datatypes <> S constr
+R6535:6535 Coq.Init.Nat <> q var
+R6520:6520 Coq.Init.Datatypes <> S constr
+R6523:6523 Coq.Init.Datatypes <> S constr
+R6525:6525 Coq.Init.Nat <> q var
+R6514:6514 Coq.Init.Datatypes <> S constr
+R6516:6516 Coq.Init.Nat <> p var
+R6557:6557 Coq.Init.Datatypes <> S constr
+R6565:6573 Coq.Init.Nat <> sqrt_iter def
+R6580:6580 Coq.Init.Nat <> q var
+R6578:6578 Coq.Init.Nat <> p var
+def 6622:6625 <> sqrt
+R6632:6640 Coq.Init.Nat <> sqrt_iter def
+R6642:6642 Coq.Init.Nat <> n var
+def 7540:7548 <> log2_iter
+R7569:7569 Coq.Init.Nat <> k var
+R7582:7582 Coq.Init.Datatypes <> O constr
+R7587:7587 Coq.Init.Nat <> p var
+R7595:7595 Coq.Init.Datatypes <> S constr
+R7609:7609 Coq.Init.Nat <> r var
+R7634:7634 Coq.Init.Datatypes <> O constr
+R7639:7647 Coq.Init.Nat <> log2_iter def
+R7664:7664 Coq.Init.Nat <> q var
+R7659:7659 Coq.Init.Datatypes <> S constr
+R7661:7661 Coq.Init.Nat <> q var
+R7653:7653 Coq.Init.Datatypes <> S constr
+R7655:7655 Coq.Init.Nat <> p var
+R7684:7684 Coq.Init.Datatypes <> S constr
+R7692:7700 Coq.Init.Nat <> log2_iter def
+R7708:7708 Coq.Init.Datatypes <> S constr
+R7710:7710 Coq.Init.Nat <> q var
+R7705:7705 Coq.Init.Nat <> p var
+def 7753:7756 <> log2
+R7763:7771 Coq.Init.Nat <> log2_iter def
+R7774:7777 Coq.Init.Nat <> pred def
+R7779:7779 Coq.Init.Nat <> n var
+def 7837:7840 <> iter
+R7845:7847 Coq.Init.Datatypes <> nat ind
+R7858:7859 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7860:7860 Coq.Init.Nat <> A var
+R7857:7857 Coq.Init.Nat <> A var
+R7866:7866 Coq.Init.Nat <> A var
+R7871:7871 Coq.Init.Nat <> A var
+R7877:7884 Coq.Init.Datatypes <> nat_rect scheme
+R7914:7914 Coq.Init.Nat <> n var
+R7911:7911 Coq.Init.Nat <> f var
+R7899:7899 Coq.Init.Nat <> x var
+R7896:7896 Coq.Init.Nat <> A var
+def 8277:8280 <> div2
+R8295:8295 Coq.Init.Nat <> n var
+R8317:8317 Coq.Init.Datatypes <> S constr
+R8330:8330 Coq.Init.Datatypes <> S constr
+R8333:8333 Coq.Init.Datatypes <> S constr
+R8342:8342 Coq.Init.Datatypes <> S constr
+R8345:8348 Coq.Init.Nat <> div2 def
+def 8371:8377 <> testbit
+R8385:8388 Coq.Init.Datatypes <> bool ind
+R8400:8400 Coq.Init.Nat <> n var
+R8417:8419 Coq.Init.Nat <> odd def
+R8421:8421 Coq.Init.Nat <> a var
+R8428:8428 Coq.Init.Datatypes <> S constr
+R8435:8441 Coq.Init.Nat <> testbit def
+R8452:8452 Coq.Init.Nat <> n var
+R8444:8447 Coq.Init.Nat <> div2 def
+R8449:8449 Coq.Init.Nat <> a var
+def 8472:8477 <> shiftl
+R8484:8491 Coq.Init.Datatypes <> nat_rect scheme
+R8507:8512 Coq.Init.Nat <> double def
+R8495:8495 Coq.Init.Nat <> a var
+def 8527:8532 <> shiftr
+R8539:8546 Coq.Init.Datatypes <> nat_rect scheme
+R8562:8565 Coq.Init.Nat <> div2 def
+R8550:8550 Coq.Init.Nat <> a var
+def 8579:8585 <> bitwise
+R8595:8596 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8601:8602 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8603:8606 Coq.Init.Datatypes <> bool ind
+R8597:8600 Coq.Init.Datatypes <> bool ind
+R8591:8594 Coq.Init.Datatypes <> bool ind
+R8625:8625 Coq.Init.Nat <> n var
+R8647:8647 Coq.Init.Datatypes <> S constr
+R8659:8659 Coq.Init.Nat <> :nat_scope:x_'+'_x not
+R8695:8702 Coq.Init.Nat <> :nat_scope:x_'+'_x not
+R8663:8664 Coq.Init.Nat <> op var
+R8675:8677 Coq.Init.Nat <> odd def
+R8679:8679 Coq.Init.Nat <> b var
+R8667:8669 Coq.Init.Nat <> odd def
+R8671:8671 Coq.Init.Nat <> a var
+R8704:8705 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R8737:8737 Coq.Init.Nat <> :nat_scope:x_'*'_x not
+R8706:8712 Coq.Init.Nat <> bitwise def
+R8730:8733 Coq.Init.Nat <> div2 def
+R8735:8735 Coq.Init.Nat <> b var
+R8721:8724 Coq.Init.Nat <> div2 def
+R8726:8726 Coq.Init.Nat <> a var
+R8714:8715 Coq.Init.Nat <> op var
+def 8757:8760 <> land
+R8769:8775 Coq.Init.Nat <> bitwise def
+R8786:8786 Coq.Init.Nat <> b var
+R8784:8784 Coq.Init.Nat <> a var
+R8782:8782 Coq.Init.Nat <> a var
+R8777:8780 Coq.Init.Datatypes <> andb def
+def 8800:8802 <> lor
+R8811:8817 Coq.Init.Nat <> bitwise def
+R8835:8835 Coq.Init.Nat <> b var
+R8833:8833 Coq.Init.Nat <> a var
+R8824:8826 Coq.Init.Nat <> max def
+R8830:8830 Coq.Init.Nat <> b var
+R8828:8828 Coq.Init.Nat <> a var
+R8819:8821 Coq.Init.Datatypes <> orb def
+def 8849:8853 <> ldiff
+R8862:8868 Coq.Init.Nat <> bitwise def
+R8905:8905 Coq.Init.Nat <> b var
+R8903:8903 Coq.Init.Nat <> a var
+R8901:8901 Coq.Init.Nat <> a var
+R8883:8886 Coq.Init.Datatypes <> andb def
+R8891:8894 Coq.Init.Datatypes <> negb def
+R8896:8897 Coq.Init.Nat <> b' var
+R8888:8888 Coq.Init.Nat <> b var
+def 8919:8922 <> lxor
+R8931:8937 Coq.Init.Nat <> bitwise def
+R8956:8956 Coq.Init.Nat <> b var
+R8954:8954 Coq.Init.Nat <> a var
+R8945:8947 Coq.Init.Nat <> max def
+R8951:8951 Coq.Init.Nat <> b var
+R8949:8949 Coq.Init.Nat <> a var
+R8939:8942 Coq.Init.Datatypes <> xorb def

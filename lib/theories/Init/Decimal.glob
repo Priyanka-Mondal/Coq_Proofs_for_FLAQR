@@ -1,0 +1,266 @@
+DIGEST 6f6483574c63e103b3d7b0fb83a8d1c8
+FCoq.Init.Decimal
+ind 1104:1107 <> uint
+constr 1115:1117 <> Nil
+constr 1122:1123 <> D0
+constr 1137:1138 <> D1
+constr 1152:1153 <> D2
+constr 1167:1168 <> D3
+constr 1182:1183 <> D4
+constr 1197:1198 <> D5
+constr 1212:1213 <> D6
+constr 1227:1228 <> D7
+constr 1242:1243 <> D8
+constr 1257:1258 <> D9
+R1118:1118 Coq.Init.Decimal <> uint ind
+R1128:1131 Coq.Init.Decimal <> uint ind
+R1133:1133 Coq.Init.Decimal <> uint ind
+R1143:1146 Coq.Init.Decimal <> uint ind
+R1148:1148 Coq.Init.Decimal <> uint ind
+R1158:1161 Coq.Init.Decimal <> uint ind
+R1163:1163 Coq.Init.Decimal <> uint ind
+R1173:1176 Coq.Init.Decimal <> uint ind
+R1178:1178 Coq.Init.Decimal <> uint ind
+R1188:1191 Coq.Init.Decimal <> uint ind
+R1193:1193 Coq.Init.Decimal <> uint ind
+R1203:1206 Coq.Init.Decimal <> uint ind
+R1208:1208 Coq.Init.Decimal <> uint ind
+R1218:1221 Coq.Init.Decimal <> uint ind
+R1223:1223 Coq.Init.Decimal <> uint ind
+R1233:1236 Coq.Init.Decimal <> uint ind
+R1238:1238 Coq.Init.Decimal <> uint ind
+R1248:1251 Coq.Init.Decimal <> uint ind
+R1253:1253 Coq.Init.Decimal <> uint ind
+R1263:1266 Coq.Init.Decimal <> uint ind
+R1268:1268 Coq.Init.Decimal <> uint ind
+syndef 1472:1475 <> zero
+R1481:1482 Coq.Init.Decimal <> D0 constr
+R1484:1486 Coq.Init.Decimal <> Nil constr
+ind 1571:1573 <> int
+constr 1578:1580 <> Pos
+constr 1593:1595 <> Neg
+R1585:1588 Coq.Init.Decimal <> uint ind
+R1590:1590 Coq.Init.Decimal <> int ind
+R1600:1603 Coq.Init.Decimal <> uint ind
+R1605:1605 Coq.Init.Decimal <> int ind
+def 2055:2060 <> nzhead
+R2075:2075 Coq.Init.Decimal <> d var
+R2086:2087 Coq.Init.Decimal <> D0 constr
+R2094:2099 Coq.Init.Decimal <> nzhead def
+R2101:2101 Coq.Init.Decimal <> d var
+R2112:2112 Coq.Init.Decimal <> d var
+def 2186:2190 <> unorm
+R2205:2210 Coq.Init.Decimal <> nzhead def
+R2212:2212 Coq.Init.Decimal <> d var
+R2223:2225 Coq.Init.Decimal <> Nil constr
+R2230:2233 Coq.Init.Decimal <> zero syndef
+R2244:2244 Coq.Init.Decimal <> d var
+def 2315:2318 <> norm
+R2333:2333 Coq.Init.Decimal <> d var
+R2344:2346 Coq.Init.Decimal <> Pos constr
+R2353:2355 Coq.Init.Decimal <> Pos constr
+R2358:2362 Coq.Init.Decimal <> unorm def
+R2364:2364 Coq.Init.Decimal <> d var
+R2371:2373 Coq.Init.Decimal <> Neg constr
+R2390:2395 Coq.Init.Decimal <> nzhead def
+R2397:2397 Coq.Init.Decimal <> d var
+R2410:2412 Coq.Init.Decimal <> Nil constr
+R2417:2419 Coq.Init.Decimal <> Pos constr
+R2421:2424 Coq.Init.Decimal <> zero syndef
+R2437:2439 Coq.Init.Decimal <> Neg constr
+R2441:2441 Coq.Init.Decimal <> d var
+def 2627:2629 <> opp
+R2634:2636 Coq.Init.Decimal <> int ind
+R2650:2650 Coq.Init.Decimal <> d var
+R2661:2663 Coq.Init.Decimal <> Pos constr
+R2670:2672 Coq.Init.Decimal <> Neg constr
+R2674:2674 Coq.Init.Decimal <> d var
+R2680:2682 Coq.Init.Decimal <> Neg constr
+R2689:2691 Coq.Init.Decimal <> Pos constr
+R2693:2693 Coq.Init.Decimal <> d var
+def 2811:2816 <> revapp
+R2826:2829 Coq.Init.Decimal <> uint ind
+R2843:2843 Coq.Init.Decimal <> d var
+R2854:2856 Coq.Init.Decimal <> Nil constr
+R2861:2862 Coq.Init.Decimal <> d' var
+R2868:2869 Coq.Init.Decimal <> D0 constr
+R2876:2881 Coq.Init.Decimal <> revapp def
+R2886:2887 Coq.Init.Decimal <> D0 constr
+R2889:2890 Coq.Init.Decimal <> d' var
+R2883:2883 Coq.Init.Decimal <> d var
+R2897:2898 Coq.Init.Decimal <> D1 constr
+R2905:2910 Coq.Init.Decimal <> revapp def
+R2915:2916 Coq.Init.Decimal <> D1 constr
+R2918:2919 Coq.Init.Decimal <> d' var
+R2912:2912 Coq.Init.Decimal <> d var
+R2926:2927 Coq.Init.Decimal <> D2 constr
+R2934:2939 Coq.Init.Decimal <> revapp def
+R2944:2945 Coq.Init.Decimal <> D2 constr
+R2947:2948 Coq.Init.Decimal <> d' var
+R2941:2941 Coq.Init.Decimal <> d var
+R2955:2956 Coq.Init.Decimal <> D3 constr
+R2963:2968 Coq.Init.Decimal <> revapp def
+R2973:2974 Coq.Init.Decimal <> D3 constr
+R2976:2977 Coq.Init.Decimal <> d' var
+R2970:2970 Coq.Init.Decimal <> d var
+R2984:2985 Coq.Init.Decimal <> D4 constr
+R2992:2997 Coq.Init.Decimal <> revapp def
+R3002:3003 Coq.Init.Decimal <> D4 constr
+R3005:3006 Coq.Init.Decimal <> d' var
+R2999:2999 Coq.Init.Decimal <> d var
+R3013:3014 Coq.Init.Decimal <> D5 constr
+R3021:3026 Coq.Init.Decimal <> revapp def
+R3031:3032 Coq.Init.Decimal <> D5 constr
+R3034:3035 Coq.Init.Decimal <> d' var
+R3028:3028 Coq.Init.Decimal <> d var
+R3042:3043 Coq.Init.Decimal <> D6 constr
+R3050:3055 Coq.Init.Decimal <> revapp def
+R3060:3061 Coq.Init.Decimal <> D6 constr
+R3063:3064 Coq.Init.Decimal <> d' var
+R3057:3057 Coq.Init.Decimal <> d var
+R3071:3072 Coq.Init.Decimal <> D7 constr
+R3079:3084 Coq.Init.Decimal <> revapp def
+R3089:3090 Coq.Init.Decimal <> D7 constr
+R3092:3093 Coq.Init.Decimal <> d' var
+R3086:3086 Coq.Init.Decimal <> d var
+R3100:3101 Coq.Init.Decimal <> D8 constr
+R3108:3113 Coq.Init.Decimal <> revapp def
+R3118:3119 Coq.Init.Decimal <> D8 constr
+R3121:3122 Coq.Init.Decimal <> d' var
+R3115:3115 Coq.Init.Decimal <> d var
+R3129:3130 Coq.Init.Decimal <> D9 constr
+R3137:3142 Coq.Init.Decimal <> revapp def
+R3147:3148 Coq.Init.Decimal <> D9 constr
+R3150:3151 Coq.Init.Decimal <> d' var
+R3144:3144 Coq.Init.Decimal <> d var
+def 3173:3175 <> rev
+R3182:3187 Coq.Init.Decimal <> revapp def
+R3191:3193 Coq.Init.Decimal <> Nil constr
+R3189:3189 Coq.Init.Decimal <> d var
+mod 3204:3209 <> Little
+def 3265:3268 Little succ
+R3283:3283 Coq.Init.Decimal <> d var
+R3294:3296 Coq.Init.Decimal <> Nil constr
+R3301:3302 Coq.Init.Decimal <> D1 constr
+R3304:3306 Coq.Init.Decimal <> Nil constr
+R3312:3313 Coq.Init.Decimal <> D0 constr
+R3320:3321 Coq.Init.Decimal <> D1 constr
+R3323:3323 Coq.Init.Decimal <> d var
+R3329:3330 Coq.Init.Decimal <> D1 constr
+R3337:3338 Coq.Init.Decimal <> D2 constr
+R3340:3340 Coq.Init.Decimal <> d var
+R3346:3347 Coq.Init.Decimal <> D2 constr
+R3354:3355 Coq.Init.Decimal <> D3 constr
+R3357:3357 Coq.Init.Decimal <> d var
+R3363:3364 Coq.Init.Decimal <> D3 constr
+R3371:3372 Coq.Init.Decimal <> D4 constr
+R3374:3374 Coq.Init.Decimal <> d var
+R3380:3381 Coq.Init.Decimal <> D4 constr
+R3388:3389 Coq.Init.Decimal <> D5 constr
+R3391:3391 Coq.Init.Decimal <> d var
+R3397:3398 Coq.Init.Decimal <> D5 constr
+R3405:3406 Coq.Init.Decimal <> D6 constr
+R3408:3408 Coq.Init.Decimal <> d var
+R3414:3415 Coq.Init.Decimal <> D6 constr
+R3422:3423 Coq.Init.Decimal <> D7 constr
+R3425:3425 Coq.Init.Decimal <> d var
+R3431:3432 Coq.Init.Decimal <> D7 constr
+R3439:3440 Coq.Init.Decimal <> D8 constr
+R3442:3442 Coq.Init.Decimal <> d var
+R3448:3449 Coq.Init.Decimal <> D8 constr
+R3456:3457 Coq.Init.Decimal <> D9 constr
+R3459:3459 Coq.Init.Decimal <> d var
+R3465:3466 Coq.Init.Decimal <> D9 constr
+R3473:3474 Coq.Init.Decimal <> D0 constr
+R3477:3480 Coq.Init.Decimal <> succ def
+R3482:3482 Coq.Init.Decimal <> d var
+def 3541:3546 Little double
+def 3880:3890 Little succ_double
+R3561:3561 Coq.Init.Decimal <> d var
+R3572:3574 Coq.Init.Decimal <> Nil constr
+R3579:3581 Coq.Init.Decimal <> Nil constr
+R3587:3588 Coq.Init.Decimal <> D0 constr
+R3595:3596 Coq.Init.Decimal <> D0 constr
+R3599:3604 Coq.Init.Decimal <> double def
+R3606:3606 Coq.Init.Decimal <> d var
+R3613:3614 Coq.Init.Decimal <> D1 constr
+R3621:3622 Coq.Init.Decimal <> D2 constr
+R3625:3630 Coq.Init.Decimal <> double def
+R3632:3632 Coq.Init.Decimal <> d var
+R3639:3640 Coq.Init.Decimal <> D2 constr
+R3647:3648 Coq.Init.Decimal <> D4 constr
+R3651:3656 Coq.Init.Decimal <> double def
+R3658:3658 Coq.Init.Decimal <> d var
+R3665:3666 Coq.Init.Decimal <> D3 constr
+R3673:3674 Coq.Init.Decimal <> D6 constr
+R3677:3682 Coq.Init.Decimal <> double def
+R3684:3684 Coq.Init.Decimal <> d var
+R3691:3692 Coq.Init.Decimal <> D4 constr
+R3699:3700 Coq.Init.Decimal <> D8 constr
+R3703:3708 Coq.Init.Decimal <> double def
+R3710:3710 Coq.Init.Decimal <> d var
+R3717:3718 Coq.Init.Decimal <> D5 constr
+R3725:3726 Coq.Init.Decimal <> D0 constr
+R3729:3739 Coq.Init.Decimal <> succ_double def
+R3741:3741 Coq.Init.Decimal <> d var
+R3748:3749 Coq.Init.Decimal <> D6 constr
+R3756:3757 Coq.Init.Decimal <> D2 constr
+R3760:3770 Coq.Init.Decimal <> succ_double def
+R3772:3772 Coq.Init.Decimal <> d var
+R3779:3780 Coq.Init.Decimal <> D7 constr
+R3787:3788 Coq.Init.Decimal <> D4 constr
+R3791:3801 Coq.Init.Decimal <> succ_double def
+R3803:3803 Coq.Init.Decimal <> d var
+R3810:3811 Coq.Init.Decimal <> D8 constr
+R3818:3819 Coq.Init.Decimal <> D6 constr
+R3822:3832 Coq.Init.Decimal <> succ_double def
+R3834:3834 Coq.Init.Decimal <> d var
+R3841:3842 Coq.Init.Decimal <> D9 constr
+R3849:3850 Coq.Init.Decimal <> D8 constr
+R3853:3863 Coq.Init.Decimal <> succ_double def
+R3865:3865 Coq.Init.Decimal <> d var
+R3905:3905 Coq.Init.Decimal <> d var
+R3916:3918 Coq.Init.Decimal <> Nil constr
+R3923:3924 Coq.Init.Decimal <> D1 constr
+R3926:3928 Coq.Init.Decimal <> Nil constr
+R3934:3935 Coq.Init.Decimal <> D0 constr
+R3942:3943 Coq.Init.Decimal <> D1 constr
+R3946:3951 Coq.Init.Decimal <> double def
+R3953:3953 Coq.Init.Decimal <> d var
+R3960:3961 Coq.Init.Decimal <> D1 constr
+R3968:3969 Coq.Init.Decimal <> D3 constr
+R3972:3977 Coq.Init.Decimal <> double def
+R3979:3979 Coq.Init.Decimal <> d var
+R3986:3987 Coq.Init.Decimal <> D2 constr
+R3994:3995 Coq.Init.Decimal <> D5 constr
+R3998:4003 Coq.Init.Decimal <> double def
+R4005:4005 Coq.Init.Decimal <> d var
+R4012:4013 Coq.Init.Decimal <> D3 constr
+R4020:4021 Coq.Init.Decimal <> D7 constr
+R4024:4029 Coq.Init.Decimal <> double def
+R4031:4031 Coq.Init.Decimal <> d var
+R4038:4039 Coq.Init.Decimal <> D4 constr
+R4046:4047 Coq.Init.Decimal <> D9 constr
+R4050:4055 Coq.Init.Decimal <> double def
+R4057:4057 Coq.Init.Decimal <> d var
+R4064:4065 Coq.Init.Decimal <> D5 constr
+R4072:4073 Coq.Init.Decimal <> D1 constr
+R4076:4086 Coq.Init.Decimal <> succ_double def
+R4088:4088 Coq.Init.Decimal <> d var
+R4095:4096 Coq.Init.Decimal <> D6 constr
+R4103:4104 Coq.Init.Decimal <> D3 constr
+R4107:4117 Coq.Init.Decimal <> succ_double def
+R4119:4119 Coq.Init.Decimal <> d var
+R4126:4127 Coq.Init.Decimal <> D7 constr
+R4134:4135 Coq.Init.Decimal <> D5 constr
+R4138:4148 Coq.Init.Decimal <> succ_double def
+R4150:4150 Coq.Init.Decimal <> d var
+R4157:4158 Coq.Init.Decimal <> D8 constr
+R4165:4166 Coq.Init.Decimal <> D7 constr
+R4169:4179 Coq.Init.Decimal <> succ_double def
+R4181:4181 Coq.Init.Decimal <> d var
+R4188:4189 Coq.Init.Decimal <> D9 constr
+R4196:4197 Coq.Init.Decimal <> D9 constr
+R4200:4210 Coq.Init.Decimal <> succ_double def
+R4212:4212 Coq.Init.Decimal <> d var
+R4227:4232 Coq.Init.Decimal Little <> mod

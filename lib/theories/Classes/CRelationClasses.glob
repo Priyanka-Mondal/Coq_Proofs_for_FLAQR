@@ -1,0 +1,480 @@
+DIGEST 6f46fa7943eeda6da343335c90e8dda7
+FCoq.Classes.CRelationClasses
+R945:960 Coq.Classes.Init <> <> lib
+R978:995 Coq.Program.Basics <> <> lib
+R1013:1031 Coq.Program.Tactics <> <> lib
+def 1134:1142 <> crelation
+R1159:1162 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1164:1167 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1163:1163 Coq.Classes.CRelationClasses <> A var
+R1158:1158 Coq.Classes.CRelationClasses <> A var
+def 1186:1190 <> arrow
+R1209:1212 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1213:1213 Coq.Classes.CRelationClasses <> B var
+R1208:1208 Coq.Classes.CRelationClasses <> A var
+def 1228:1231 <> flip
+R1254:1257 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1259:1262 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1263:1263 Coq.Classes.CRelationClasses <> C var
+R1258:1258 Coq.Classes.CRelationClasses <> B var
+R1253:1253 Coq.Classes.CRelationClasses <> A var
+R1280:1280 Coq.Classes.CRelationClasses <> f var
+R1284:1284 Coq.Classes.CRelationClasses <> x var
+R1282:1282 Coq.Classes.CRelationClasses <> y var
+def 1299:1302 <> iffT
+R1321:1321 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1328:1332 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1339:1339 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1323:1326 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1327:1327 Coq.Classes.CRelationClasses <> B var
+R1322:1322 Coq.Classes.CRelationClasses <> A var
+R1334:1337 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1338:1338 Coq.Classes.CRelationClasses <> A var
+R1333:1333 Coq.Classes.CRelationClasses <> B var
+sec 1440:1443 <> Defs
+ind 1575:1583 <> Reflexive
+constr 1610:1620 <> reflexivity
+rec 1575:1583 <> Reflexive
+proj 1610:1620 <> reflexivity
+R1590:1598 Coq.Classes.CRelationClasses <> crelation def
+R1600:1600 Coq.Classes.CRelationClasses <> Defs.A var
+R1635:1635 Coq.Classes.CRelationClasses <> Defs.A var
+R1638:1638 Coq.Classes.CRelationClasses <> R var
+R1642:1642 Coq.Classes.CRelationClasses <> x var
+R1640:1640 Coq.Classes.CRelationClasses <> x var
+def 1659:1668 <> complement
+R1675:1683 Coq.Classes.CRelationClasses <> crelation def
+R1685:1685 Coq.Classes.CRelationClasses <> Defs.A var
+R1690:1698 Coq.Classes.CRelationClasses <> crelation def
+R1700:1700 Coq.Classes.CRelationClasses <> Defs.A var
+R1726:1729 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1730:1734 Coq.Init.Logic <> False ind
+R1721:1721 Coq.Classes.CRelationClasses <> R var
+R1725:1725 Coq.Classes.CRelationClasses <> y var
+R1723:1723 Coq.Classes.CRelationClasses <> x var
+prf 1853:1870 <> complement_inverse
+R1895:1897 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1876:1885 Coq.Classes.CRelationClasses <> complement def
+R1888:1891 Coq.Classes.CRelationClasses <> flip def
+R1893:1893 Coq.Classes.CRelationClasses <> R var
+R1898:1901 Coq.Classes.CRelationClasses <> flip def
+R1904:1913 Coq.Classes.CRelationClasses <> complement def
+R1915:1915 Coq.Classes.CRelationClasses <> R var
+ind 1955:1965 <> Irreflexive
+constr 1992:2004 <> irreflexivity
+rec 1955:1965 <> Irreflexive
+proj 1992:2004 <> irreflexivity
+R1972:1980 Coq.Classes.CRelationClasses <> crelation def
+R1982:1982 Coq.Classes.CRelationClasses <> Defs.A var
+R2008:2016 Coq.Classes.CRelationClasses <> Reflexive class
+R2019:2028 Coq.Classes.CRelationClasses <> complement def
+R2030:2030 Coq.Classes.CRelationClasses <> R var
+ind 2043:2051 <> Symmetric
+constr 2078:2085 <> symmetry
+rec 2043:2051 <> Symmetric
+proj 2078:2085 <> symmetry
+R2058:2066 Coq.Classes.CRelationClasses <> crelation def
+R2068:2068 Coq.Classes.CRelationClasses <> Defs.A var
+R2108:2111 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2112:2112 Coq.Classes.CRelationClasses <> R var
+R2116:2116 Coq.Classes.CRelationClasses <> x var
+R2114:2114 Coq.Classes.CRelationClasses <> y var
+R2103:2103 Coq.Classes.CRelationClasses <> R var
+R2107:2107 Coq.Classes.CRelationClasses <> y var
+R2105:2105 Coq.Classes.CRelationClasses <> x var
+ind 2130:2139 <> Asymmetric
+constr 2166:2174 <> asymmetry
+rec 2130:2139 <> Asymmetric
+proj 2166:2174 <> asymmetry
+R2146:2154 Coq.Classes.CRelationClasses <> crelation def
+R2156:2156 Coq.Classes.CRelationClasses <> Defs.A var
+R2197:2201 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2225:2225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2202:2211 Coq.Classes.CRelationClasses <> complement def
+R2217:2217 Coq.Classes.CRelationClasses <> x var
+R2215:2215 Coq.Classes.CRelationClasses <> y var
+R2213:2213 Coq.Classes.CRelationClasses <> R var
+R2192:2192 Coq.Classes.CRelationClasses <> R var
+R2196:2196 Coq.Classes.CRelationClasses <> y var
+R2194:2194 Coq.Classes.CRelationClasses <> x var
+ind 2239:2248 <> Transitive
+constr 2275:2286 <> transitivity
+rec 2239:2248 <> Transitive
+proj 2275:2286 <> transitivity
+R2255:2263 Coq.Classes.CRelationClasses <> crelation def
+R2265:2265 Coq.Classes.CRelationClasses <> Defs.A var
+R2311:2314 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2320:2323 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2324:2324 Coq.Classes.CRelationClasses <> R var
+R2328:2328 Coq.Classes.CRelationClasses <> z var
+R2326:2326 Coq.Classes.CRelationClasses <> x var
+R2315:2315 Coq.Classes.CRelationClasses <> R var
+R2319:2319 Coq.Classes.CRelationClasses <> z var
+R2317:2317 Coq.Classes.CRelationClasses <> y var
+R2306:2306 Coq.Classes.CRelationClasses <> R var
+R2310:2310 Coq.Classes.CRelationClasses <> y var
+R2308:2308 Coq.Classes.CRelationClasses <> x var
+rec 2473:2480 <> PreOrder
+proj 2510:2527 <> PreOrder_Reflexive
+proj 2554:2572 <> PreOrder_Transitive
+R2487:2495 Coq.Classes.CRelationClasses <> crelation def
+R2497:2497 Coq.Classes.CRelationClasses <> Defs.A var
+R2532:2540 Coq.Classes.CRelationClasses <> Reflexive class
+R2542:2542 Coq.Classes.CRelationClasses <> R var
+R2577:2586 Coq.Classes.CRelationClasses <> Transitive class
+R2588:2588 Coq.Classes.CRelationClasses <> R var
+rec 2668:2678 <> StrictOrder
+proj 2708:2730 <> StrictOrder_Irreflexive
+proj 2755:2776 <> StrictOrder_Transitive
+R2685:2693 Coq.Classes.CRelationClasses <> crelation def
+R2695:2695 Coq.Classes.CRelationClasses <> Defs.A var
+R2735:2745 Coq.Classes.CRelationClasses <> Irreflexive class
+R2747:2747 Coq.Classes.CRelationClasses <> R var
+R2781:2790 Coq.Classes.CRelationClasses <> Transitive class
+R2792:2792 Coq.Classes.CRelationClasses <> R var
+inst 2874:2895 <> StrictOrder_Asymmetric
+R2899:2909 Coq.Classes.CRelationClasses <> StrictOrder class
+R2916:2925 Coq.Classes.CRelationClasses <> Asymmetric class
+R2927:2927 Coq.Classes.CRelationClasses <> R var
+rec 3038:3040 <> PER
+proj 3070:3082 <> PER_Symmetric
+proj 3109:3122 <> PER_Transitive
+R3047:3055 Coq.Classes.CRelationClasses <> crelation def
+R3057:3057 Coq.Classes.CRelationClasses <> Defs.A var
+R3087:3095 Coq.Classes.CRelationClasses <> Symmetric class
+R3097:3097 Coq.Classes.CRelationClasses <> R var
+R3127:3136 Coq.Classes.CRelationClasses <> Transitive class
+R3138:3138 Coq.Classes.CRelationClasses <> R var
+rec 3190:3200 <> Equivalence
+proj 3230:3250 <> Equivalence_Reflexive
+proj 3273:3293 <> Equivalence_Symmetric
+proj 3316:3337 <> Equivalence_Transitive
+R3207:3215 Coq.Classes.CRelationClasses <> crelation def
+R3217:3217 Coq.Classes.CRelationClasses <> Defs.A var
+R3255:3263 Coq.Classes.CRelationClasses <> Reflexive class
+R3265:3265 Coq.Classes.CRelationClasses <> R var
+R3298:3306 Coq.Classes.CRelationClasses <> Symmetric class
+R3308:3308 Coq.Classes.CRelationClasses <> R var
+R3342:3351 Coq.Classes.CRelationClasses <> Transitive class
+R3353:3353 Coq.Classes.CRelationClasses <> R var
+inst 3431:3445 <> Equivalence_PER
+R3453:3463 Coq.Classes.CRelationClasses <> Equivalence class
+R3465:3465 Coq.Classes.CRelationClasses <> R var
+R3470:3472 Coq.Classes.CRelationClasses <> PER class
+R3474:3474 Coq.Classes.CRelationClasses <> R var
+R3537:3550 Coq.Classes.CRelationClasses <> PER_Transitive meth
+R3490:3502 Coq.Classes.CRelationClasses <> PER_Symmetric meth
+R3507:3527 Coq.Classes.CRelationClasses <> Equivalence_Symmetric meth
+R3555:3576 Coq.Classes.CRelationClasses <> Equivalence_Transitive meth
+ind 3681:3693 <> Antisymmetric
+constr 3749:3760 <> antisymmetry
+rec 3681:3693 <> Antisymmetric
+proj 3749:3760 <> antisymmetry
+R3707:3717 Coq.Classes.CRelationClasses <> Equivalence class
+R3719:3721 Coq.Classes.CRelationClasses <> eqA var
+R3729:3737 Coq.Classes.CRelationClasses <> crelation def
+R3739:3739 Coq.Classes.CRelationClasses <> Defs.A var
+R3783:3786 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3792:3795 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3796:3798 Coq.Classes.CRelationClasses <> eqA var
+R3802:3802 Coq.Classes.CRelationClasses <> y var
+R3800:3800 Coq.Classes.CRelationClasses <> x var
+R3787:3787 Coq.Classes.CRelationClasses <> R var
+R3791:3791 Coq.Classes.CRelationClasses <> x var
+R3789:3789 Coq.Classes.CRelationClasses <> y var
+R3778:3778 Coq.Classes.CRelationClasses <> R var
+R3782:3782 Coq.Classes.CRelationClasses <> y var
+R3780:3780 Coq.Classes.CRelationClasses <> x var
+ind 3814:3824 <> subrelation
+constr 3854:3867 <> is_subrelation
+rec 3814:3824 <> subrelation
+proj 3854:3867 <> is_subrelation
+R3834:3842 Coq.Classes.CRelationClasses <> crelation def
+R3844:3844 Coq.Classes.CRelationClasses <> Defs.A var
+R3890:3893 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3894:3895 Coq.Classes.CRelationClasses <> R' var
+R3899:3899 Coq.Classes.CRelationClasses <> y var
+R3897:3897 Coq.Classes.CRelationClasses <> x var
+R3885:3885 Coq.Classes.CRelationClasses <> R var
+R3889:3889 Coq.Classes.CRelationClasses <> y var
+R3887:3887 Coq.Classes.CRelationClasses <> x var
+prf 3974:3994 <> subrelation_symmetric
+R4000:4008 Coq.Classes.CRelationClasses <> Symmetric class
+R4010:4010 Coq.Classes.CRelationClasses <> R var
+R4015:4025 Coq.Classes.CRelationClasses <> subrelation class
+R4036:4036 Coq.Classes.CRelationClasses <> R var
+R4028:4031 Coq.Classes.CRelationClasses <> flip def
+R4033:4033 Coq.Classes.CRelationClasses <> R var
+R4085:4092 Coq.Classes.CRelationClasses <> symmetry def
+R4085:4092 Coq.Classes.CRelationClasses <> symmetry def
+sec 4123:4126 Defs flip
+prf 4142:4155 <> flip_Reflexive
+R4159:4167 Coq.Classes.CRelationClasses <> Reflexive class
+R4174:4182 Coq.Classes.CRelationClasses <> Reflexive class
+R4185:4188 Coq.Classes.CRelationClasses <> flip def
+R4190:4190 Coq.Classes.CRelationClasses <> R var
+def 4245:4260 <> flip_Irreflexive
+R4264:4274 Coq.Classes.CRelationClasses <> Irreflexive class
+R4281:4291 Coq.Classes.CRelationClasses <> Irreflexive class
+R4294:4297 Coq.Classes.CRelationClasses <> flip def
+R4299:4299 Coq.Classes.CRelationClasses <> R var
+R4311:4323 Coq.Classes.CRelationClasses <> irreflexivity def
+R4329:4329 Coq.Classes.CRelationClasses <> R var
+def 4361:4374 <> flip_Symmetric
+R4378:4386 Coq.Classes.CRelationClasses <> Symmetric class
+R4393:4401 Coq.Classes.CRelationClasses <> Symmetric class
+R4404:4407 Coq.Classes.CRelationClasses <> flip def
+R4409:4409 Coq.Classes.CRelationClasses <> R var
+R4434:4441 Coq.Classes.CRelationClasses <> symmetry def
+R4450:4450 Coq.Classes.CRelationClasses <> H var
+R4447:4447 Coq.Classes.CRelationClasses <> R var
+def 4481:4495 <> flip_Asymmetric
+R4499:4508 Coq.Classes.CRelationClasses <> Asymmetric class
+R4515:4524 Coq.Classes.CRelationClasses <> Asymmetric class
+R4527:4530 Coq.Classes.CRelationClasses <> flip def
+R4532:4532 Coq.Classes.CRelationClasses <> R var
+R4560:4568 Coq.Classes.CRelationClasses <> asymmetry def
+R4579:4580 Coq.Classes.CRelationClasses <> H' var
+R4577:4577 Coq.Classes.CRelationClasses <> H var
+R4574:4574 Coq.Classes.CRelationClasses <> R var
+def 4611:4625 <> flip_Transitive
+R4629:4638 Coq.Classes.CRelationClasses <> Transitive class
+R4645:4654 Coq.Classes.CRelationClasses <> Transitive class
+R4657:4660 Coq.Classes.CRelationClasses <> flip def
+R4662:4662 Coq.Classes.CRelationClasses <> R var
+R4692:4703 Coq.Classes.CRelationClasses <> transitivity def
+R4715:4715 Coq.Classes.CRelationClasses <> H var
+R4712:4713 Coq.Classes.CRelationClasses <> H' var
+R4709:4709 Coq.Classes.CRelationClasses <> R var
+def 4742:4759 <> flip_Antisymmetric
+R4763:4775 Coq.Classes.CRelationClasses <> Antisymmetric class
+R4792:4804 Coq.Classes.CRelationClasses <> Antisymmetric class
+R4811:4814 Coq.Classes.CRelationClasses <> flip def
+R4816:4816 Coq.Classes.CRelationClasses <> R var
+R4806:4808 Coq.Classes.CRelationClasses <> eqA var
+prf 4903:4915 <> flip_PreOrder
+R4919:4926 Coq.Classes.CRelationClasses <> PreOrder class
+R4933:4940 Coq.Classes.CRelationClasses <> PreOrder class
+R4943:4946 Coq.Classes.CRelationClasses <> flip def
+R4948:4948 Coq.Classes.CRelationClasses <> R var
+prf 4991:5006 <> flip_StrictOrder
+R5010:5020 Coq.Classes.CRelationClasses <> StrictOrder class
+R5027:5037 Coq.Classes.CRelationClasses <> StrictOrder class
+R5040:5043 Coq.Classes.CRelationClasses <> flip def
+R5045:5045 Coq.Classes.CRelationClasses <> R var
+prf 5088:5095 <> flip_PER
+R5099:5101 Coq.Classes.CRelationClasses <> PER class
+R5108:5110 Coq.Classes.CRelationClasses <> PER class
+R5113:5116 Coq.Classes.CRelationClasses <> flip def
+R5118:5118 Coq.Classes.CRelationClasses <> R var
+prf 5161:5176 <> flip_Equivalence
+R5180:5190 Coq.Classes.CRelationClasses <> Equivalence class
+R5197:5207 Coq.Classes.CRelationClasses <> Equivalence class
+R5210:5213 Coq.Classes.CRelationClasses <> flip def
+R5215:5215 Coq.Classes.CRelationClasses <> R var
+R5254:5257 Coq.Classes.CRelationClasses Defs.flip <> sec
+sec 5271:5280 Defs complement
+def 5299:5320 <> complement_Irreflexive
+R5324:5332 Coq.Classes.CRelationClasses <> Reflexive class
+R5345:5355 Coq.Classes.CRelationClasses <> Irreflexive class
+R5358:5367 Coq.Classes.CRelationClasses <> complement def
+R5369:5369 Coq.Classes.CRelationClasses <> R var
+def 5417:5436 <> complement_Symmetric
+R5440:5448 Coq.Classes.CRelationClasses <> Symmetric class
+R5455:5463 Coq.Classes.CRelationClasses <> Symmetric class
+R5466:5475 Coq.Classes.CRelationClasses <> complement def
+R5477:5477 Coq.Classes.CRelationClasses <> R var
+R5515:5524 Coq.Classes.CRelationClasses Defs.complement <> sec
+rec 5973:5987 <> RewriteRelation
+R5995:6003 Coq.Classes.CRelationClasses <> crelation def
+R6005:6005 Coq.Classes.CRelationClasses <> Defs.A var
+inst 6136:6164 <> equivalence_rewrite_crelation
+R6168:6178 Coq.Classes.CRelationClasses <> Equivalence class
+R6187:6201 Coq.Classes.CRelationClasses <> RewriteRelation class
+R6203:6205 Coq.Classes.CRelationClasses <> eqA var
+sec 6246:6252 Defs Leibniz
+inst 6275:6286 <> eq_Reflexive
+R6290:6298 Coq.Classes.CRelationClasses <> Reflexive class
+R6302:6303 Coq.Init.Logic <> eq ind
+R6305:6305 Coq.Classes.CRelationClasses <> Defs.A var
+R6312:6318 Coq.Init.Logic <> eq_refl constr
+R6320:6320 Coq.Classes.CRelationClasses <> Defs.A var
+inst 6343:6354 <> eq_Symmetric
+R6358:6366 Coq.Classes.CRelationClasses <> Symmetric class
+R6370:6371 Coq.Init.Logic <> eq ind
+R6373:6373 Coq.Classes.CRelationClasses <> Defs.A var
+R6380:6385 Coq.Init.Logic <> eq_sym thm
+R6387:6387 Coq.Classes.CRelationClasses <> Defs.A var
+inst 6410:6422 <> eq_Transitive
+R6426:6435 Coq.Classes.CRelationClasses <> Transitive class
+R6439:6440 Coq.Init.Logic <> eq ind
+R6442:6442 Coq.Classes.CRelationClasses <> Defs.A var
+R6449:6456 Coq.Init.Logic <> eq_trans thm
+R6458:6458 Coq.Classes.CRelationClasses <> Defs.A var
+inst 6667:6680 <> eq_equivalence
+R6684:6694 Coq.Classes.CRelationClasses <> Equivalence class
+R6698:6699 Coq.Init.Logic <> eq ind
+R6701:6701 Coq.Classes.CRelationClasses <> Defs.A var
+R6716:6722 Coq.Classes.CRelationClasses Defs.Leibniz <> sec
+R6732:6735 Coq.Classes.CRelationClasses Defs <> sec
+R6812:6826 Coq.Classes.CRelationClasses <> RewriteRelation class
+R6828:6831 Coq.Program.Basics <> impl def
+R6844:6858 Coq.Classes.CRelationClasses <> RewriteRelation class
+R6860:6862 Coq.Init.Logic <> iff def
+R6980:6988 Coq.Classes.CRelationClasses <> Reflexive class
+R6991:7000 Coq.Classes.CRelationClasses <> complement def
+R7022:7034 Coq.Classes.CRelationClasses <> irreflexivity def
+R7074:7082 Coq.Classes.CRelationClasses <> Symmetric class
+R7085:7094 Coq.Classes.CRelationClasses <> complement def
+R7174:7184 Coq.Classes.CRelationClasses <> Irreflexive class
+R7187:7196 Coq.Classes.CRelationClasses <> complement def
+R7279:7287 Coq.Classes.CRelationClasses <> Reflexive class
+R7290:7293 Coq.Classes.CRelationClasses <> flip def
+R7308:7321 Coq.Classes.CRelationClasses <> flip_Reflexive thm
+R7361:7371 Coq.Classes.CRelationClasses <> Irreflexive class
+R7374:7377 Coq.Classes.CRelationClasses <> flip def
+R7453:7461 Coq.Classes.CRelationClasses <> Symmetric class
+R7464:7467 Coq.Classes.CRelationClasses <> flip def
+R7541:7550 Coq.Classes.CRelationClasses <> Asymmetric class
+R7553:7556 Coq.Classes.CRelationClasses <> flip def
+R7631:7643 Coq.Classes.CRelationClasses <> Antisymmetric class
+R7646:7649 Coq.Classes.CRelationClasses <> flip def
+R7727:7736 Coq.Classes.CRelationClasses <> Transitive class
+R7739:7742 Coq.Classes.CRelationClasses <> flip def
+R7817:7827 Coq.Classes.CRelationClasses <> StrictOrder class
+R7830:7833 Coq.Classes.CRelationClasses <> flip def
+R7909:7916 Coq.Classes.CRelationClasses <> PreOrder class
+R7919:7922 Coq.Classes.CRelationClasses <> flip def
+R7996:8006 Coq.Classes.CRelationClasses <> subrelation class
+R8009:8012 Coq.Classes.CRelationClasses <> flip def
+R8039:8059 Coq.Classes.CRelationClasses <> subrelation_symmetric thm
+R8512:8516 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R8512:8516 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R8628:8632 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R8628:8632 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R9033:9036 Coq.Classes.CRelationClasses <> flip def
+R9039:9042 Coq.Program.Basics <> impl def
+R9045:9049 Coq.Classes.CRelationClasses <> arrow def
+inst 9207:9220 <> impl_Reflexive
+R9224:9232 Coq.Classes.CRelationClasses <> Reflexive class
+R9234:9237 Coq.Program.Basics <> impl def
+inst 9257:9271 <> impl_Transitive
+R9275:9284 Coq.Classes.CRelationClasses <> Transitive class
+R9286:9289 Coq.Program.Basics <> impl def
+inst 9331:9343 <> iff_Reflexive
+R9347:9355 Coq.Classes.CRelationClasses <> Reflexive class
+R9357:9359 Coq.Init.Logic <> iff def
+R9364:9371 Coq.Init.Logic <> iff_refl thm
+inst 9383:9395 <> iff_Symmetric
+R9399:9407 Coq.Classes.CRelationClasses <> Symmetric class
+R9409:9411 Coq.Init.Logic <> iff def
+R9416:9422 Coq.Init.Logic <> iff_sym thm
+inst 9434:9447 <> iff_Transitive
+R9451:9460 Coq.Classes.CRelationClasses <> Transitive class
+R9462:9464 Coq.Init.Logic <> iff def
+R9469:9477 Coq.Init.Logic <> iff_trans thm
+inst 9561:9575 <> iff_equivalence
+R9579:9589 Coq.Classes.CRelationClasses <> Equivalence class
+R9591:9593 Coq.Init.Logic <> iff def
+inst 9614:9628 <> arrow_Reflexive
+R9632:9640 Coq.Classes.CRelationClasses <> Reflexive class
+R9642:9646 Coq.Classes.CRelationClasses <> arrow def
+inst 9666:9681 <> arrow_Transitive
+R9685:9694 Coq.Classes.CRelationClasses <> Transitive class
+R9696:9700 Coq.Classes.CRelationClasses <> arrow def
+inst 9713:9726 <> iffT_Reflexive
+R9730:9738 Coq.Classes.CRelationClasses <> Reflexive class
+R9740:9743 Coq.Classes.CRelationClasses <> iffT def
+inst 9784:9797 <> iffT_Symmetric
+R9801:9809 Coq.Classes.CRelationClasses <> Symmetric class
+R9811:9814 Coq.Classes.CRelationClasses <> iffT def
+inst 9856:9870 <> iffT_Transitive
+R9874:9883 Coq.Classes.CRelationClasses <> Transitive class
+R9885:9888 Coq.Classes.CRelationClasses <> iffT def
+sec 10340:10345 <> Binary
+def 10384:10403 <> relation_equivalence
+R10407:10415 Coq.Classes.CRelationClasses <> crelation def
+R10418:10426 Coq.Classes.CRelationClasses <> crelation def
+R10428:10428 Coq.Classes.CRelationClasses <> Binary.A var
+R10462:10465 Coq.Classes.CRelationClasses <> iffT def
+R10476:10477 Coq.Classes.CRelationClasses <> R' var
+R10481:10481 Coq.Classes.CRelationClasses <> y var
+R10479:10479 Coq.Classes.CRelationClasses <> x var
+R10468:10468 Coq.Classes.CRelationClasses <> R var
+R10472:10472 Coq.Classes.CRelationClasses <> y var
+R10470:10470 Coq.Classes.CRelationClasses <> x var
+R10505:10519 Coq.Classes.CRelationClasses <> RewriteRelation class
+R10521:10540 Coq.Classes.CRelationClasses <> relation_equivalence def
+def 10559:10578 <> relation_conjunction
+R10585:10593 Coq.Classes.CRelationClasses <> crelation def
+R10595:10595 Coq.Classes.CRelationClasses <> Binary.A var
+R10604:10612 Coq.Classes.CRelationClasses <> crelation def
+R10614:10614 Coq.Classes.CRelationClasses <> Binary.A var
+R10619:10627 Coq.Classes.CRelationClasses <> crelation def
+R10629:10629 Coq.Classes.CRelationClasses <> Binary.A var
+R10649:10652 Coq.Init.Datatypes <> prod ind
+R10663:10664 Coq.Classes.CRelationClasses <> R' var
+R10668:10668 Coq.Classes.CRelationClasses <> y var
+R10666:10666 Coq.Classes.CRelationClasses <> x var
+R10655:10655 Coq.Classes.CRelationClasses <> R var
+R10659:10659 Coq.Classes.CRelationClasses <> y var
+R10657:10657 Coq.Classes.CRelationClasses <> x var
+def 10686:10705 <> relation_disjunction
+R10712:10720 Coq.Classes.CRelationClasses <> crelation def
+R10722:10722 Coq.Classes.CRelationClasses <> Binary.A var
+R10731:10739 Coq.Classes.CRelationClasses <> crelation def
+R10741:10741 Coq.Classes.CRelationClasses <> Binary.A var
+R10746:10754 Coq.Classes.CRelationClasses <> crelation def
+R10756:10756 Coq.Classes.CRelationClasses <> Binary.A var
+R10776:10778 Coq.Init.Datatypes <> sum ind
+R10789:10790 Coq.Classes.CRelationClasses <> R' var
+R10794:10794 Coq.Classes.CRelationClasses <> y var
+R10792:10792 Coq.Classes.CRelationClasses <> x var
+R10781:10781 Coq.Classes.CRelationClasses <> R var
+R10785:10785 Coq.Classes.CRelationClasses <> y var
+R10783:10783 Coq.Classes.CRelationClasses <> x var
+inst 10910:10941 <> relation_equivalence_equivalence
+R10949:10959 Coq.Classes.CRelationClasses <> Equivalence class
+R10961:10980 Coq.Classes.CRelationClasses <> relation_equivalence def
+R11011:11030 Coq.Classes.CRelationClasses <> relation_equivalence def
+R11033:11036 Coq.Classes.CRelationClasses <> iffT def
+inst 11168:11196 <> relation_implication_preorder
+R11200:11207 Coq.Classes.CRelationClasses <> PreOrder class
+R11211:11221 Coq.Classes.CRelationClasses <> subrelation class
+R11223:11223 Coq.Classes.CRelationClasses <> Binary.A var
+ind 11448:11459 <> PartialOrder
+constr 11524:11548 <> partial_order_equivalence
+rec 11448:11459 <> PartialOrder
+proj 11524:11548 <> partial_order_equivalence
+R11473:11483 Coq.Classes.CRelationClasses <> Equivalence class
+R11487:11489 Coq.Classes.CRelationClasses <> eqA var
+R11485:11485 Coq.Classes.CRelationClasses <> Binary.A var
+R11503:11510 Coq.Classes.CRelationClasses <> PreOrder class
+R11514:11514 Coq.Classes.CRelationClasses <> R var
+R11512:11512 Coq.Classes.CRelationClasses <> Binary.A var
+R11552:11571 Coq.Classes.CRelationClasses <> relation_equivalence def
+R11578:11597 Coq.Classes.CRelationClasses <> relation_conjunction def
+R11602:11605 Coq.Classes.CRelationClasses <> flip def
+R11607:11607 Coq.Classes.CRelationClasses <> R var
+R11599:11599 Coq.Classes.CRelationClasses <> R var
+R11573:11575 Coq.Classes.CRelationClasses <> eqA var
+inst 11828:11848 <> partial_order_antisym
+R11852:11863 Coq.Classes.CRelationClasses <> PartialOrder class
+R11876:11888 Coq.Classes.CRelationClasses <> Antisymmetric class
+R11896:11896 Coq.Classes.CRelationClasses <> R var
+R11892:11894 Coq.Classes.CRelationClasses <> eqA var
+R11890:11890 Coq.Classes.CRelationClasses <> Binary.A var
+prf 11976:11995 <> PartialOrder_inverse
+R11999:12010 Coq.Classes.CRelationClasses <> PartialOrder class
+R12021:12032 Coq.Classes.CRelationClasses <> PartialOrder class
+R12039:12042 Coq.Classes.CRelationClasses <> flip def
+R12044:12044 Coq.Classes.CRelationClasses <> R var
+R12034:12036 Coq.Classes.CRelationClasses <> eqA var
+R12064:12067 Coq.Classes.CRelationClasses <> flip def
+R12090:12093 Coq.Classes.CRelationClasses <> flip def
+R12119:12126 Coq.Classes.CRelationClasses <> symmetry def
+R12119:12126 Coq.Classes.CRelationClasses <> symmetry def
+R12154:12173 Coq.Classes.CRelationClasses <> relation_conjunction def
+R12235:12240 Coq.Classes.CRelationClasses Binary <> sec
+R12259:12270 Coq.Classes.CRelationClasses <> PartialOrder class
+R12273:12276 Coq.Classes.CRelationClasses <> flip def

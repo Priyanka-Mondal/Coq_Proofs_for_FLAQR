@@ -1,0 +1,15 @@
+DIGEST a68405714267a376dbc96240f7754305
+FCoq.Reals.Rpow_def
+R691:702 Coq.Reals.Rdefinitions <> <> lib
+def 715:717 <> pow
+R722:722 Coq.Reals.Rdefinitions <> R defax
+R728:730 Coq.Init.Datatypes <> nat ind
+R735:735 Coq.Reals.Rdefinitions <> R defax
+R748:748 Coq.Reals.Rpow_def <> n var
+R761:761 Coq.Init.Datatypes <> O constr
+R774:774 Coq.Init.Datatypes <> S constr
+R781:785 Coq.Reals.Rdefinitions <> Rmult defax
+R790:792 Coq.Reals.Rpow_def <> pow def
+R796:796 Coq.Reals.Rpow_def <> n var
+R794:794 Coq.Reals.Rpow_def <> r var
+R787:787 Coq.Reals.Rpow_def <> r var

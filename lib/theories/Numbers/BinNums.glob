@@ -1,0 +1,41 @@
+DIGEST 9da6934fc1d7ccc3c2f4a8c23462de18
+FCoq.Numbers.BinNums
+ind 1122:1129 <> positive
+constr 1144:1145 <> xI
+constr 1174:1175 <> xO
+constr 1204:1205 <> xH
+R1157:1160 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1161:1168 Coq.Numbers.BinNums <> positive ind
+R1149:1156 Coq.Numbers.BinNums <> positive ind
+R1187:1190 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1191:1198 Coq.Numbers.BinNums <> positive ind
+R1179:1186 Coq.Numbers.BinNums <> positive ind
+R1209:1216 Coq.Numbers.BinNums <> positive ind
+R1315:1316 Coq.Numbers.BinNums <> xO constr
+R1315:1316 Coq.Numbers.BinNums <> xO constr
+R1340:1341 Coq.Numbers.BinNums <> xI constr
+R1340:1341 Coq.Numbers.BinNums <> xI constr
+ind 1604:1604 <> N
+constr 1619:1620 <> N0
+constr 1630:1633 <> Npos
+R1624:1624 Coq.Numbers.BinNums <> N ind
+R1645:1648 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1649:1649 Coq.Numbers.BinNums <> N ind
+R1637:1644 Coq.Numbers.BinNums <> positive ind
+R1720:1723 Coq.Numbers.BinNums <> Npos constr
+R1720:1723 Coq.Numbers.BinNums <> Npos constr
+ind 2104:2104 <> Z
+constr 2119:2120 <> Z0
+constr 2130:2133 <> Zpos
+constr 2155:2158 <> Zneg
+R2124:2124 Coq.Numbers.BinNums <> Z ind
+R2145:2148 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2149:2149 Coq.Numbers.BinNums <> Z ind
+R2137:2144 Coq.Numbers.BinNums <> positive ind
+R2170:2173 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2174:2174 Coq.Numbers.BinNums <> Z ind
+R2162:2169 Coq.Numbers.BinNums <> positive ind
+R2245:2248 Coq.Numbers.BinNums <> Zpos constr
+R2245:2248 Coq.Numbers.BinNums <> Zpos constr
+R2272:2275 Coq.Numbers.BinNums <> Zneg constr
+R2272:2275 Coq.Numbers.BinNums <> Zneg constr

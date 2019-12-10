@@ -1,0 +1,113 @@
+DIGEST 2e0615d6fd4f8d6909d29462c3f6b211
+FCoq.Logic.Classical_Pred_Type
+R848:861 Coq.Logic.Classical_Prop <> <> lib
+sec 873:879 <> Generic
+var 891:891 Generic U
+prf 947:960 <> not_all_not_ex
+R975:978 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R974:974 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1006:1010 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1011:1017 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1023:1024 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1022:1022 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1025:1025 Coq.Logic.Classical_Pred_Type <> P var
+R1027:1027 Coq.Logic.Classical_Pred_Type <> n var
+R985:987 Coq.Init.Logic <> :type_scope:'~'_x not
+R1005:1005 Coq.Init.Logic <> :type_scope:'~'_x not
+R997:997 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1000:1001 Coq.Init.Logic <> :type_scope:'~'_x not
+R1002:1002 Coq.Logic.Classical_Pred_Type <> P var
+R1004:1004 Coq.Logic.Classical_Pred_Type <> n var
+R1060:1063 Coq.Logic.Classical_Prop <> NNPP thm
+R1060:1063 Coq.Logic.Classical_Prop <> NNPP thm
+prf 1145:1158 <> not_all_ex_not
+R1173:1176 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1172:1172 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1202:1206 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1207:1213 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1219:1220 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1218:1218 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1221:1222 Coq.Init.Logic <> :type_scope:'~'_x not
+R1223:1223 Coq.Logic.Classical_Pred_Type <> P var
+R1225:1225 Coq.Logic.Classical_Pred_Type <> n var
+R1183:1185 Coq.Init.Logic <> :type_scope:'~'_x not
+R1201:1201 Coq.Init.Logic <> :type_scope:'~'_x not
+R1195:1195 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1198:1198 Coq.Logic.Classical_Pred_Type <> P var
+R1200:1200 Coq.Logic.Classical_Pred_Type <> n var
+R1291:1292 Coq.Init.Logic <> :type_scope:'~'_x not
+R1295:1295 Coq.Logic.Classical_Pred_Type <> x var
+R1258:1271 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R1291:1292 Coq.Init.Logic <> :type_scope:'~'_x not
+R1295:1295 Coq.Logic.Classical_Pred_Type <> x var
+R1258:1271 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R1339:1342 Coq.Logic.Classical_Prop <> NNPP thm
+R1339:1342 Coq.Logic.Classical_Prop <> NNPP thm
+prf 1368:1381 <> not_ex_all_not
+R1396:1399 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1395:1395 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1427:1430 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1440:1440 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1443:1444 Coq.Init.Logic <> :type_scope:'~'_x not
+R1445:1445 Coq.Logic.Classical_Pred_Type <> P var
+R1447:1447 Coq.Logic.Classical_Pred_Type <> n var
+R1406:1408 Coq.Init.Logic <> :type_scope:'~'_x not
+R1426:1426 Coq.Init.Logic <> :type_scope:'~'_x not
+R1409:1415 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1421:1422 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1420:1420 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1423:1423 Coq.Logic.Classical_Pred_Type <> P var
+R1425:1425 Coq.Logic.Classical_Pred_Type <> n var
+R1485:1487 Coq.Init.Logic <> not def
+prf 1556:1569 <> not_ex_not_all
+R1584:1587 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1583:1583 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1617:1620 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1630:1630 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1633:1633 Coq.Logic.Classical_Pred_Type <> P var
+R1635:1635 Coq.Logic.Classical_Pred_Type <> n var
+R1594:1596 Coq.Init.Logic <> :type_scope:'~'_x not
+R1616:1616 Coq.Init.Logic <> :type_scope:'~'_x not
+R1597:1603 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1609:1610 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1608:1608 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1611:1612 Coq.Init.Logic <> :type_scope:'~'_x not
+R1613:1613 Coq.Logic.Classical_Pred_Type <> P var
+R1615:1615 Coq.Logic.Classical_Pred_Type <> n var
+R1665:1668 Coq.Logic.Classical_Prop <> NNPP thm
+R1665:1668 Coq.Logic.Classical_Prop <> NNPP thm
+prf 1725:1738 <> ex_not_not_all
+R1753:1756 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1752:1752 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1763:1763 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1783:1787 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1788:1790 Coq.Init.Logic <> :type_scope:'~'_x not
+R1806:1806 Coq.Init.Logic <> :type_scope:'~'_x not
+R1800:1800 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1803:1803 Coq.Logic.Classical_Pred_Type <> P var
+R1805:1805 Coq.Logic.Classical_Pred_Type <> n var
+R1764:1770 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1776:1777 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1775:1775 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1778:1779 Coq.Init.Logic <> :type_scope:'~'_x not
+R1780:1780 Coq.Logic.Classical_Pred_Type <> P var
+R1782:1782 Coq.Logic.Classical_Pred_Type <> n var
+R1844:1846 Coq.Init.Logic <> not def
+prf 1900:1913 <> all_not_not_ex
+R1928:1931 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1927:1927 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1938:1938 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1956:1960 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1961:1963 Coq.Init.Logic <> :type_scope:'~'_x not
+R1981:1981 Coq.Init.Logic <> :type_scope:'~'_x not
+R1964:1970 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1976:1977 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1975:1975 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1978:1978 Coq.Logic.Classical_Pred_Type <> P var
+R1980:1980 Coq.Logic.Classical_Pred_Type <> n var
+R1948:1948 Coq.Logic.Classical_Pred_Type <> Generic.U var
+R1951:1952 Coq.Init.Logic <> :type_scope:'~'_x not
+R1953:1953 Coq.Logic.Classical_Pred_Type <> P var
+R1955:1955 Coq.Logic.Classical_Pred_Type <> n var
+R2019:2021 Coq.Init.Logic <> not def
+R2104:2110 Coq.Logic.Classical_Pred_Type Generic <> sec

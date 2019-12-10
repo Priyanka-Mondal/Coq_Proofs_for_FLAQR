@@ -1,0 +1,94 @@
+DIGEST b60aa2562ee7d880b59f3837a54ec39e
+FCoq.quote.Quote
+sec 1338:1350 <> variables_map
+var 1363:1363 variables_map A
+ind 1384:1389 <> varmap
+constr 1405:1412 <> Empty_vm
+constr 1427:1433 <> Node_vm
+R1416:1421 Coq.quote.Quote <> varmap ind
+R1438:1441 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1448:1451 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1458:1461 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1462:1467 Coq.quote.Quote <> varmap ind
+R1452:1457 Coq.quote.Quote <> varmap ind
+R1442:1447 Coq.quote.Quote <> varmap ind
+R1437:1437 Coq.quote.Quote <> variables_map.A var
+ind 1481:1485 <> index
+constr 1500:1507 <> Left_idx
+constr 1530:1538 <> Right_idx
+constr 1561:1567 <> End_idx
+R1516:1519 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1520:1524 Coq.quote.Quote <> index ind
+R1511:1515 Coq.quote.Quote <> index ind
+R1547:1550 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1551:1555 Coq.quote.Quote <> index ind
+R1542:1546 Coq.quote.Quote <> index ind
+R1571:1575 Coq.quote.Quote <> index ind
+def 1588:1598 <> varmap_find
+R1615:1615 Coq.quote.Quote <> variables_map.A var
+R1621:1625 Coq.quote.Quote <> index ind
+R1631:1636 Coq.quote.Quote <> varmap ind
+R1652:1652 Coq.quote.Quote <> variables_map.A var
+R1668:1668 Coq.quote.Quote <> v var
+R1665:1665 Coq.quote.Quote <> i var
+R1679:1685 Coq.quote.Quote <> End_idx constr
+R1688:1694 Coq.quote.Quote <> Node_vm constr
+R1711:1719 Coq.quote.Quote <> Right_idx constr
+R1725:1731 Coq.quote.Quote <> Node_vm constr
+R1744:1754 Coq.quote.Quote <> varmap_find def
+R1756:1768 Coq.quote.Quote <> default_value var
+R1780:1787 Coq.quote.Quote <> Left_idx constr
+R1793:1799 Coq.quote.Quote <> Node_vm constr
+R1812:1822 Coq.quote.Quote <> varmap_find def
+R1824:1836 Coq.quote.Quote <> default_value var
+R1856:1868 Coq.quote.Quote <> default_value var
+def 1887:1894 <> index_eq
+R1901:1905 Coq.quote.Quote <> index ind
+R1901:1905 Coq.quote.Quote <> index ind
+R1921:1924 Coq.Init.Datatypes <> bool ind
+R1940:1940 Coq.quote.Quote <> m var
+R1937:1937 Coq.quote.Quote <> n var
+R1951:1957 Coq.quote.Quote <> End_idx constr
+R1960:1966 Coq.quote.Quote <> End_idx constr
+R1971:1974 Coq.Init.Datatypes <> true constr
+R1980:1987 Coq.quote.Quote <> Left_idx constr
+R1993:2000 Coq.quote.Quote <> Left_idx constr
+R2008:2015 Coq.quote.Quote <> index_eq def
+R2027:2035 Coq.quote.Quote <> Right_idx constr
+R2041:2049 Coq.quote.Quote <> Right_idx constr
+R2057:2064 Coq.quote.Quote <> index_eq def
+R2084:2088 Coq.Init.Datatypes <> false constr
+def 2107:2114 <> index_lt
+R2121:2125 Coq.quote.Quote <> index ind
+R2121:2125 Coq.quote.Quote <> index ind
+R2141:2144 Coq.Init.Datatypes <> bool ind
+R2160:2160 Coq.quote.Quote <> m var
+R2157:2157 Coq.quote.Quote <> n var
+R2171:2177 Coq.quote.Quote <> End_idx constr
+R2180:2187 Coq.quote.Quote <> Left_idx constr
+R2194:2197 Coq.Init.Datatypes <> true constr
+R2203:2209 Coq.quote.Quote <> End_idx constr
+R2212:2220 Coq.quote.Quote <> Right_idx constr
+R2227:2230 Coq.Init.Datatypes <> true constr
+R2236:2243 Coq.quote.Quote <> Left_idx constr
+R2249:2257 Coq.quote.Quote <> Right_idx constr
+R2265:2268 Coq.Init.Datatypes <> true constr
+R2274:2282 Coq.quote.Quote <> Right_idx constr
+R2288:2296 Coq.quote.Quote <> Right_idx constr
+R2304:2311 Coq.quote.Quote <> index_lt def
+R2323:2330 Coq.quote.Quote <> Left_idx constr
+R2336:2343 Coq.quote.Quote <> Left_idx constr
+R2351:2358 Coq.quote.Quote <> index_lt def
+R2378:2382 Coq.Init.Datatypes <> false constr
+prf 2398:2410 <> index_eq_prop
+R2425:2429 Coq.quote.Quote <> index ind
+R2451:2454 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2456:2458 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2455:2455 Coq.quote.Quote <> n var
+R2459:2459 Coq.quote.Quote <> m var
+R2444:2446 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2432:2439 Coq.quote.Quote <> index_eq def
+R2443:2443 Coq.quote.Quote <> m var
+R2441:2441 Coq.quote.Quote <> n var
+R2447:2450 Coq.Init.Datatypes <> true constr
+R2708:2720 Coq.quote.Quote variables_map <> sec

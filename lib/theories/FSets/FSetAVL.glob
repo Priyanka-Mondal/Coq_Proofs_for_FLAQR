@@ -1,0 +1,32 @@
+DIGEST c3fb8718ecf1f4e948ccf12ccac4351a
+FCoq.FSets.FSetAVL
+R1920:1932 Coq.FSets.FSetInterface <> <> lib
+R1934:1939 Coq.ZArith.ZArith <> <> lib
+R1941:1943 Coq.ZArith.Int <> <> lib
+R2095:2104 Coq.FSets.FSetCompat <> <> lib
+R2106:2112 Coq.MSets.MSetAVL <> <> lib
+R2114:2119 Coq.Structures.Orders <> <> lib
+R2121:2129 Coq.Structures.OrdersAlt <> <> lib
+R2151:2153 Coq.ZArith.Int Int <> mod
+R2159:2169 Coq.Structures.OrderedType OrderedType <> mod
+R2175:2175 Coq.FSets.FSetInterface S <> mod
+R2194:2194 Coq.FSets.FSetAVL X <> modtype
+mod 2140:2146 <> IntMake
+R2211:2229 Coq.Structures.OrdersAlt Update_OT <> modtype
+R2231:2231 Coq.FSets.FSetAVL X <> modtype
+mod 2205:2206 <> IntMake.X'
+R2250:2264 Coq.MSets.MSetAVL IntMake <> modtype
+R2266:2266 Coq.FSets.FSetAVL I <> modtype
+R2268:2269 Coq.FSets.FSetAVL IntMake.X' <> modtype
+mod 2242:2245 <> IntMake.MSet
+R2281:2304 Coq.FSets.FSetCompat Backport_Sets <> modtype
+R2306:2306 Coq.FSets.FSetAVL X <> modtype
+R2308:2311 Coq.FSets.FSetAVL IntMake.MSet <> modtype
+R2318:2324 Coq.FSets.FSetAVL IntMake <> mod
+R2425:2435 Coq.Structures.OrderedType OrderedType <> mod
+R2441:2441 Coq.FSets.FSetInterface S <> mod
+R2460:2460 Coq.FSets.FSetAVL X <> modtype
+R2465:2471 Coq.FSets.FSetAVL IntMake <> modtype
+R2473:2480 Coq.ZArith.Int Z_as_Int <> modtype
+R2483:2483 Coq.FSets.FSetAVL X <> modtype
+mod 2416:2419 <> Make

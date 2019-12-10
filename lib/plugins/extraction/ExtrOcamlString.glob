@@ -1,0 +1,7 @@
+DIGEST 7357586177ace66bfc3295203c518764
+FCoq.extraction.ExtrOcamlString
+R751:775 Coq.extraction.Extraction <> <> lib
+R794:798 Coq.Strings.Ascii <> <> lib
+R800:805 Coq.Strings.String <> <> lib
+R827:831 Coq.Strings.Ascii <> ascii ind
+R1512:1517 Coq.Strings.String <> string ind

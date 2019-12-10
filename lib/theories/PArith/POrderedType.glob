@@ -1,0 +1,15 @@
+DIGEST 0f928da1f20a28c8b7fabfb12eed7d72
+FCoq.PArith.POrderedType
+R691:696 Coq.PArith.BinPos <> <> lib
+R698:707 Coq.Structures.Equalities <> <> lib
+R709:714 Coq.Structures.Orders <> <> lib
+R716:724 Coq.Structures.OrdersTac <> <> lib
+R844:865 Coq.Structures.Equalities UsualDecidableTypeFull <> mod
+R870:872 Coq.PArith.BinPos Pos <> modtype
+mod 826:839 <> Positive_as_DT
+R1083:1097 Coq.Structures.Orders OrderedTypeFull <> mod
+R1102:1104 Coq.PArith.BinPos Pos <> modtype
+mod 1065:1078 <> Positive_as_OT
+R1315:1329 Coq.Structures.OrdersTac OTF_to_OrderTac <> modtype
+R1331:1344 Coq.PArith.POrderedType Positive_as_OT <> modtype
+mod 1298:1310 <> PositiveOrder

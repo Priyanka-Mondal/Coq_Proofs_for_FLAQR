@@ -1,0 +1,20 @@
+DIGEST be0f97575b905571bb1dc74d85caf5db
+FCoq.setoid_ring.Rings_Z
+R691:695 Coq.setoid_ring.Cring <> <> lib
+R713:727 Coq.setoid_ring.Integral_domain <> <> lib
+R745:758 Coq.setoid_ring.Ncring_initial <> <> lib
+R776:780 Coq.omega.Omega <> <> lib
+inst 793:796 <> Zcri
+R800:804 Coq.setoid_ring.Cring <> Cring class
+R811:812 Coq.setoid_ring.Ncring_initial <> Zr inst
+R828:837 Coq.ZArith.BinInt Z mul_comm thm
+R828:837 Coq.ZArith.BinInt Z mul_comm thm
+prf 856:865 <> Z_one_zero
+R871:874 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+inst 903:905 <> Zdi
+R910:924 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R932:935 Coq.setoid_ring.Rings_Z <> Zcri inst
+R961:974 Coq.ZArith.BinInt <> Zmult_integral thm
+R961:974 Coq.ZArith.BinInt <> Zmult_integral thm
+R983:992 Coq.setoid_ring.Rings_Z <> Z_one_zero thm
+R983:992 Coq.setoid_ring.Rings_Z <> Z_one_zero thm

@@ -1,0 +1,1344 @@
+DIGEST 8c3cdb3cddd1068454a5121ef3eb813a
+FCoq.ZArith.Zorder
+R982:987 Coq.PArith.BinPos <> <> lib
+R989:994 Coq.ZArith.BinInt <> <> lib
+R996:1004 Coq.Logic.Decidable <> <> lib
+R1006:1013 Coq.ZArith.Zcompare <> <> lib
+R1031:1040 Coq.Arith.Arith_base <> <> lib
+prf 1263:1277 <> Ztrichotomy_inf
+R1302:1305 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R1311:1311 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R1285:1285 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1291:1295 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1301:1301 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1287:1289 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R1286:1286 Coq.ZArith.Zorder <> n var
+R1290:1290 Coq.ZArith.Zorder <> m var
+R1297:1299 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1296:1296 Coq.ZArith.Zorder <> n var
+R1300:1300 Coq.ZArith.Zorder <> m var
+R1307:1309 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R1306:1306 Coq.ZArith.Zorder <> n var
+R1310:1310 Coq.ZArith.Zorder <> m var
+R1330:1332 Coq.ZArith.BinInt Z gt def
+R1335:1337 Coq.ZArith.BinInt Z lt def
+R1352:1363 Coq.ZArith.BinInt Z compare_eq thm
+R1352:1363 Coq.ZArith.BinInt Z compare_eq thm
+R1384:1387 Coq.ZArith.BinInt <> :Z_scope:x_'?='_x not
+R1384:1387 Coq.ZArith.BinInt <> :Z_scope:x_'?='_x not
+prf 1453:1463 <> Ztrichotomy
+R1476:1479 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1472:1474 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R1471:1471 Coq.ZArith.Zorder <> n var
+R1475:1475 Coq.ZArith.Zorder <> m var
+R1485:1488 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1481:1483 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1480:1480 Coq.ZArith.Zorder <> n var
+R1484:1484 Coq.ZArith.Zorder <> m var
+R1490:1492 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R1489:1489 Coq.ZArith.Zorder <> n var
+R1493:1493 Coq.ZArith.Zorder <> m var
+R1527:1541 Coq.ZArith.BinInt Z lt_trichotomy thm
+R1527:1541 Coq.ZArith.BinInt Z lt_trichotomy thm
+syndef 1682:1687 <> dec_eq
+R1692:1705 Coq.ZArith.BinInt Z eq_decidable thm
+syndef 1732:1738 <> dec_Zle
+R1743:1756 Coq.ZArith.BinInt Z le_decidable thm
+syndef 1783:1789 <> dec_Zlt
+R1794:1807 Coq.ZArith.BinInt Z lt_decidable thm
+prf 1834:1840 <> dec_Zne
+R1848:1856 Coq.Logic.Decidable <> decidable def
+R1859:1861 Coq.ZArith.BinInt <> Zne def
+R1865:1865 Coq.ZArith.Zorder <> m var
+R1863:1863 Coq.ZArith.Zorder <> n var
+R1888:1901 Coq.ZArith.BinInt Z eq_decidable thm
+R1888:1901 Coq.ZArith.BinInt Z eq_decidable thm
+prf 1950:1956 <> dec_Zgt
+R1964:1972 Coq.Logic.Decidable <> decidable def
+R1976:1978 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R1975:1975 Coq.ZArith.Zorder <> n var
+R1979:1979 Coq.ZArith.Zorder <> m var
+R2002:2015 Coq.ZArith.BinInt Z lt_decidable thm
+R2002:2015 Coq.ZArith.BinInt Z lt_decidable thm
+prf 2073:2079 <> dec_Zge
+R2087:2095 Coq.Logic.Decidable <> decidable def
+R2099:2102 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R2098:2098 Coq.ZArith.Zorder <> n var
+R2103:2103 Coq.ZArith.Zorder <> m var
+R2126:2139 Coq.ZArith.BinInt Z le_decidable thm
+R2126:2139 Coq.ZArith.BinInt Z le_decidable thm
+prf 2197:2203 <> not_Zeq
+R2217:2220 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2226:2229 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2222:2224 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2221:2221 Coq.ZArith.Zorder <> n var
+R2225:2225 Coq.ZArith.Zorder <> m var
+R2231:2233 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2230:2230 Coq.ZArith.Zorder <> m var
+R2234:2234 Coq.ZArith.Zorder <> n var
+R2212:2215 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R2211:2211 Coq.ZArith.Zorder <> n var
+R2216:2216 Coq.ZArith.Zorder <> m var
+R2252:2264 Coq.ZArith.BinInt Z lt_gt_cases thm
+R2252:2264 Coq.ZArith.BinInt Z lt_gt_cases thm
+syndef 2325:2330 <> Zgt_lt
+R2335:2341 Coq.ZArith.BinInt Z gt_lt thm
+syndef 2368:2373 <> Zlt_gt
+R2378:2384 Coq.ZArith.BinInt Z lt_gt thm
+syndef 2411:2416 <> Zge_le
+R2421:2427 Coq.ZArith.BinInt Z ge_le thm
+syndef 2454:2459 <> Zle_ge
+R2464:2470 Coq.ZArith.BinInt Z le_ge thm
+syndef 2497:2506 <> Zgt_iff_lt
+R2511:2521 Coq.ZArith.BinInt Z gt_lt_iff thm
+syndef 2548:2557 <> Zge_iff_le
+R2562:2572 Coq.ZArith.BinInt Z ge_le_iff thm
+prf 2597:2606 <> Zle_not_lt
+R2620:2623 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2624:2625 Coq.Init.Logic <> :type_scope:'~'_x not
+R2627:2629 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2626:2626 Coq.ZArith.Zorder <> m var
+R2630:2630 Coq.ZArith.Zorder <> n var
+R2615:2618 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R2614:2614 Coq.ZArith.Zorder <> n var
+R2619:2619 Coq.ZArith.Zorder <> m var
+R2647:2654 Coq.ZArith.BinInt Z le_ngt thm
+R2647:2654 Coq.ZArith.BinInt Z le_ngt thm
+prf 2669:2678 <> Zlt_not_le
+R2691:2694 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2695:2696 Coq.Init.Logic <> :type_scope:'~'_x not
+R2698:2701 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R2697:2697 Coq.ZArith.Zorder <> m var
+R2702:2702 Coq.ZArith.Zorder <> n var
+R2687:2689 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2686:2686 Coq.ZArith.Zorder <> n var
+R2690:2690 Coq.ZArith.Zorder <> m var
+R2719:2726 Coq.ZArith.BinInt Z lt_nge thm
+R2719:2726 Coq.ZArith.BinInt Z lt_nge thm
+prf 2741:2750 <> Zle_not_gt
+R2764:2767 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2768:2769 Coq.Init.Logic <> :type_scope:'~'_x not
+R2771:2773 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R2770:2770 Coq.ZArith.Zorder <> n var
+R2774:2774 Coq.ZArith.Zorder <> m var
+R2759:2762 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R2758:2758 Coq.ZArith.Zorder <> n var
+R2763:2763 Coq.ZArith.Zorder <> m var
+prf 2807:2816 <> Zgt_not_le
+R2829:2832 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2833:2834 Coq.Init.Logic <> :type_scope:'~'_x not
+R2836:2839 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R2835:2835 Coq.ZArith.Zorder <> n var
+R2840:2840 Coq.ZArith.Zorder <> m var
+R2825:2827 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R2824:2824 Coq.ZArith.Zorder <> n var
+R2828:2828 Coq.ZArith.Zorder <> m var
+R2874:2881 Coq.ZArith.BinInt Z lt_nge thm
+R2874:2881 Coq.ZArith.BinInt Z lt_nge thm
+prf 2896:2905 <> Znot_ge_lt
+R2921:2924 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2926:2928 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R2925:2925 Coq.ZArith.Zorder <> n var
+R2929:2929 Coq.ZArith.Zorder <> m var
+R2913:2914 Coq.Init.Logic <> :type_scope:'~'_x not
+R2916:2919 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R2915:2915 Coq.ZArith.Zorder <> n var
+R2920:2920 Coq.ZArith.Zorder <> m var
+R2963:2970 Coq.ZArith.BinInt Z nle_gt thm
+R2963:2970 Coq.ZArith.BinInt Z nle_gt thm
+prf 2985:2994 <> Znot_lt_ge
+R3009:3012 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3014:3017 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R3013:3013 Coq.ZArith.Zorder <> n var
+R3018:3018 Coq.ZArith.Zorder <> m var
+R3002:3003 Coq.Init.Logic <> :type_scope:'~'_x not
+R3005:3007 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R3004:3004 Coq.ZArith.Zorder <> n var
+R3008:3008 Coq.ZArith.Zorder <> m var
+prf 3051:3060 <> Znot_gt_le
+R3074:3077 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3079:3082 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R3078:3078 Coq.ZArith.Zorder <> n var
+R3083:3083 Coq.ZArith.Zorder <> m var
+R3067:3068 Coq.Init.Logic <> :type_scope:'~'_x not
+R3070:3072 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R3069:3069 Coq.ZArith.Zorder <> n var
+R3073:3073 Coq.ZArith.Zorder <> m var
+prf 3116:3125 <> Znot_le_gt
+R3141:3144 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3146:3148 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R3145:3145 Coq.ZArith.Zorder <> n var
+R3149:3149 Coq.ZArith.Zorder <> m var
+R3133:3134 Coq.Init.Logic <> :type_scope:'~'_x not
+R3136:3139 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R3135:3135 Coq.ZArith.Zorder <> n var
+R3140:3140 Coq.ZArith.Zorder <> m var
+R3183:3190 Coq.ZArith.BinInt Z nle_gt thm
+R3183:3190 Coq.ZArith.BinInt Z nle_gt thm
+prf 3205:3211 <> not_Zne
+R3228:3231 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3233:3235 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3232:3232 Coq.ZArith.Zorder <> n var
+R3236:3236 Coq.ZArith.Zorder <> m var
+R3219:3220 Coq.Init.Logic <> :type_scope:'~'_x not
+R3221:3223 Coq.ZArith.BinInt <> Zne def
+R3227:3227 Coq.ZArith.Zorder <> m var
+R3225:3225 Coq.ZArith.Zorder <> n var
+R3270:3283 Coq.ZArith.BinInt Z eq_decidable thm
+R3270:3283 Coq.ZArith.BinInt Z eq_decidable thm
+syndef 3394:3401 <> Zle_refl
+R3406:3414 Coq.ZArith.BinInt Z le_refl thm
+syndef 3441:3446 <> Zeq_le
+R3451:3462 Coq.ZArith.BinInt Z eq_le_incl thm
+syndef 3544:3554 <> Zle_antisym
+R3559:3571 Coq.ZArith.BinInt Z le_antisymm thm
+syndef 3617:3624 <> Zlt_asym
+R3629:3638 Coq.ZArith.BinInt Z lt_asymm thm
+prf 3663:3670 <> Zgt_asym
+R3683:3686 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3687:3688 Coq.Init.Logic <> :type_scope:'~'_x not
+R3690:3692 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R3689:3689 Coq.ZArith.Zorder <> m var
+R3693:3693 Coq.ZArith.Zorder <> n var
+R3679:3681 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R3678:3678 Coq.ZArith.Zorder <> n var
+R3682:3682 Coq.ZArith.Zorder <> m var
+R3727:3736 Coq.ZArith.BinInt Z lt_asymm thm
+R3727:3736 Coq.ZArith.BinInt Z lt_asymm thm
+syndef 3776:3785 <> Zlt_irrefl
+R3790:3800 Coq.ZArith.BinInt Z lt_irrefl thm
+syndef 3827:3836 <> Zlt_not_eq
+R3841:3848 Coq.ZArith.BinInt Z lt_neq thm
+prf 3873:3882 <> Zgt_irrefl
+R3888:3889 Coq.Init.Logic <> :type_scope:'~'_x not
+R3891:3893 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R3890:3890 Coq.ZArith.Zorder <> n var
+R3894:3894 Coq.ZArith.Zorder <> n var
+R3928:3938 Coq.ZArith.BinInt Z lt_irrefl thm
+R3928:3938 Coq.ZArith.BinInt Z lt_irrefl thm
+syndef 3988:3998 <> Zlt_le_weak
+R4003:4014 Coq.ZArith.BinInt Z lt_le_incl thm
+syndef 4041:4056 <> Zle_lt_or_eq_iff
+R4061:4073 Coq.ZArith.BinInt Z lt_eq_cases thm
+prf 4098:4109 <> Zle_lt_or_eq
+R4123:4126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4132:4135 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4128:4130 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R4127:4127 Coq.ZArith.Zorder <> n var
+R4131:4131 Coq.ZArith.Zorder <> m var
+R4137:4139 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4136:4136 Coq.ZArith.Zorder <> n var
+R4140:4140 Coq.ZArith.Zorder <> m var
+R4118:4121 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R4117:4117 Coq.ZArith.Zorder <> n var
+R4122:4122 Coq.ZArith.Zorder <> m var
+R4158:4170 Coq.ZArith.BinInt Z lt_eq_cases thm
+R4158:4170 Coq.ZArith.BinInt Z lt_eq_cases thm
+syndef 4206:4214 <> Zle_or_lt
+R4219:4231 Coq.ZArith.BinInt Z le_gt_cases thm
+syndef 4297:4305 <> Zlt_trans
+R4310:4319 Coq.ZArith.BinInt Z lt_trans thm
+prf 4344:4352 <> Zgt_trans
+R4367:4370 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4376:4379 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4381:4383 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4380:4380 Coq.ZArith.Zorder <> n var
+R4384:4384 Coq.ZArith.Zorder <> p var
+R4372:4374 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4371:4371 Coq.ZArith.Zorder <> m var
+R4375:4375 Coq.ZArith.Zorder <> p var
+R4363:4365 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4362:4362 Coq.ZArith.Zorder <> n var
+R4366:4366 Coq.ZArith.Zorder <> m var
+syndef 4482:4493 <> Zlt_le_trans
+R4498:4510 Coq.ZArith.BinInt Z lt_le_trans thm
+syndef 4537:4548 <> Zle_lt_trans
+R4553:4565 Coq.ZArith.BinInt Z le_lt_trans thm
+prf 4590:4601 <> Zle_gt_trans
+R4617:4620 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4626:4629 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4631:4633 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4630:4630 Coq.ZArith.Zorder <> n var
+R4634:4634 Coq.ZArith.Zorder <> p var
+R4622:4624 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4621:4621 Coq.ZArith.Zorder <> m var
+R4625:4625 Coq.ZArith.Zorder <> p var
+R4612:4615 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R4611:4611 Coq.ZArith.Zorder <> m var
+R4616:4616 Coq.ZArith.Zorder <> n var
+prf 4683:4694 <> Zgt_le_trans
+R4709:4712 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4719:4722 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4724:4726 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4723:4723 Coq.ZArith.Zorder <> n var
+R4727:4727 Coq.ZArith.Zorder <> p var
+R4714:4717 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R4713:4713 Coq.ZArith.Zorder <> p var
+R4718:4718 Coq.ZArith.Zorder <> m var
+R4705:4707 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R4704:4704 Coq.ZArith.Zorder <> n var
+R4708:4708 Coq.ZArith.Zorder <> m var
+syndef 4816:4824 <> Zle_trans
+R4829:4838 Coq.ZArith.BinInt Z le_trans thm
+prf 4863:4871 <> Zge_trans
+R4887:4890 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4897:4900 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4902:4905 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R4901:4901 Coq.ZArith.Zorder <> n var
+R4906:4906 Coq.ZArith.Zorder <> p var
+R4892:4895 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R4891:4891 Coq.ZArith.Zorder <> m var
+R4896:4896 Coq.ZArith.Zorder <> p var
+R4882:4885 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R4881:4881 Coq.ZArith.Zorder <> n var
+R4886:4886 Coq.ZArith.Zorder <> m var
+prf 5111:5125 <> Zsucc_le_compat
+R5139:5142 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5151:5154 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R5143:5148 Coq.ZArith.BinInt Z succ def
+R5150:5150 Coq.ZArith.Zorder <> m var
+R5155:5160 Coq.ZArith.BinInt Z succ def
+R5162:5162 Coq.ZArith.Zorder <> n var
+R5134:5137 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R5133:5133 Coq.ZArith.Zorder <> m var
+R5138:5138 Coq.ZArith.Zorder <> n var
+R5180:5193 Coq.ZArith.BinInt Z succ_le_mono thm
+R5180:5193 Coq.ZArith.BinInt Z succ_le_mono thm
+prf 5208:5222 <> Zsucc_lt_compat
+R5235:5238 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5247:5249 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R5239:5244 Coq.ZArith.BinInt Z succ def
+R5246:5246 Coq.ZArith.Zorder <> n var
+R5250:5255 Coq.ZArith.BinInt Z succ def
+R5257:5257 Coq.ZArith.Zorder <> m var
+R5231:5233 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R5230:5230 Coq.ZArith.Zorder <> n var
+R5234:5234 Coq.ZArith.Zorder <> m var
+R5275:5288 Coq.ZArith.BinInt Z succ_lt_mono thm
+R5275:5288 Coq.ZArith.BinInt Z succ_lt_mono thm
+prf 5303:5317 <> Zsucc_gt_compat
+R5330:5333 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5342:5344 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R5334:5339 Coq.ZArith.BinInt Z succ def
+R5341:5341 Coq.ZArith.Zorder <> m var
+R5345:5350 Coq.ZArith.BinInt Z succ def
+R5352:5352 Coq.ZArith.Zorder <> n var
+R5326:5328 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R5325:5325 Coq.ZArith.Zorder <> m var
+R5329:5329 Coq.ZArith.Zorder <> n var
+R5386:5399 Coq.ZArith.BinInt Z succ_lt_mono thm
+R5386:5399 Coq.ZArith.BinInt Z succ_lt_mono thm
+prf 5502:5513 <> Zsucc_gt_reg
+R5540:5543 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5545:5547 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R5544:5544 Coq.ZArith.Zorder <> m var
+R5548:5548 Coq.ZArith.Zorder <> n var
+R5529:5531 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R5521:5526 Coq.ZArith.BinInt Z succ def
+R5528:5528 Coq.ZArith.Zorder <> m var
+R5532:5537 Coq.ZArith.BinInt Z succ def
+R5539:5539 Coq.ZArith.Zorder <> n var
+R5582:5595 Coq.ZArith.BinInt Z succ_lt_mono thm
+R5582:5595 Coq.ZArith.BinInt Z succ_lt_mono thm
+prf 5610:5621 <> Zsucc_le_reg
+R5649:5652 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5654:5657 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R5653:5653 Coq.ZArith.Zorder <> m var
+R5658:5658 Coq.ZArith.Zorder <> n var
+R5637:5640 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R5629:5634 Coq.ZArith.BinInt Z succ def
+R5636:5636 Coq.ZArith.Zorder <> m var
+R5641:5646 Coq.ZArith.BinInt Z succ def
+R5648:5648 Coq.ZArith.Zorder <> n var
+R5676:5689 Coq.ZArith.BinInt Z succ_le_mono thm
+R5676:5689 Coq.ZArith.BinInt Z succ_le_mono thm
+prf 5704:5715 <> Zsucc_lt_reg
+R5742:5745 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5747:5749 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R5746:5746 Coq.ZArith.Zorder <> n var
+R5750:5750 Coq.ZArith.Zorder <> m var
+R5731:5733 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R5723:5728 Coq.ZArith.BinInt Z succ def
+R5730:5730 Coq.ZArith.Zorder <> n var
+R5734:5739 Coq.ZArith.BinInt Z succ def
+R5741:5741 Coq.ZArith.Zorder <> m var
+R5768:5781 Coq.ZArith.BinInt Z succ_lt_mono thm
+R5768:5781 Coq.ZArith.BinInt Z succ_lt_mono thm
+syndef 5839:5846 <> Zlt_succ
+R5851:5866 Coq.ZArith.BinInt Z lt_succ_diag_r thm
+syndef 5893:5900 <> Zlt_pred
+R5905:5915 Coq.ZArith.BinInt Z lt_pred_l thm
+prf 5940:5947 <> Zgt_succ
+R5961:5963 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R5953:5958 Coq.ZArith.BinInt Z succ def
+R5960:5960 Coq.ZArith.Zorder <> n var
+R5964:5964 Coq.ZArith.Zorder <> n var
+R5998:6013 Coq.ZArith.BinInt Z lt_succ_diag_r thm
+R5998:6013 Coq.ZArith.BinInt Z lt_succ_diag_r thm
+prf 6028:6039 <> Znot_le_succ
+R6045:6046 Coq.Init.Logic <> :type_scope:'~'_x not
+R6055:6058 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6047:6052 Coq.ZArith.BinInt Z succ def
+R6054:6054 Coq.ZArith.Zorder <> n var
+R6059:6059 Coq.ZArith.Zorder <> n var
+R6077:6084 Coq.ZArith.BinInt Z lt_nge thm
+R6087:6102 Coq.ZArith.BinInt Z lt_succ_diag_r thm
+R6077:6084 Coq.ZArith.BinInt Z lt_nge thm
+R6087:6102 Coq.ZArith.BinInt Z lt_succ_diag_r thm
+syndef 6191:6200 <> Zlt_succ_r
+R6205:6215 Coq.ZArith.BinInt Z lt_succ_r thm
+syndef 6242:6251 <> Zle_succ_l
+R6256:6266 Coq.ZArith.BinInt Z le_succ_l thm
+prf 6291:6301 <> Zgt_le_succ
+R6314:6317 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6326:6329 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6318:6323 Coq.ZArith.BinInt Z succ def
+R6325:6325 Coq.ZArith.Zorder <> n var
+R6330:6330 Coq.ZArith.Zorder <> m var
+R6310:6312 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R6309:6309 Coq.ZArith.Zorder <> m var
+R6313:6313 Coq.ZArith.Zorder <> n var
+R6364:6374 Coq.ZArith.BinInt Z le_succ_l thm
+R6364:6374 Coq.ZArith.BinInt Z le_succ_l thm
+prf 6389:6399 <> Zle_gt_succ
+R6413:6416 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6425:6427 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R6417:6422 Coq.ZArith.BinInt Z succ def
+R6424:6424 Coq.ZArith.Zorder <> m var
+R6428:6428 Coq.ZArith.Zorder <> n var
+R6408:6411 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6407:6407 Coq.ZArith.Zorder <> n var
+R6412:6412 Coq.ZArith.Zorder <> m var
+R6462:6472 Coq.ZArith.BinInt Z lt_succ_r thm
+R6462:6472 Coq.ZArith.BinInt Z lt_succ_r thm
+prf 6487:6497 <> Zle_lt_succ
+R6511:6514 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6516:6518 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R6515:6515 Coq.ZArith.Zorder <> n var
+R6519:6524 Coq.ZArith.BinInt Z succ def
+R6526:6526 Coq.ZArith.Zorder <> m var
+R6506:6509 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6505:6505 Coq.ZArith.Zorder <> n var
+R6510:6510 Coq.ZArith.Zorder <> m var
+R6544:6554 Coq.ZArith.BinInt Z lt_succ_r thm
+R6544:6554 Coq.ZArith.BinInt Z lt_succ_r thm
+prf 6569:6579 <> Zlt_le_succ
+R6592:6595 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6604:6607 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6596:6601 Coq.ZArith.BinInt Z succ def
+R6603:6603 Coq.ZArith.Zorder <> n var
+R6608:6608 Coq.ZArith.Zorder <> m var
+R6588:6590 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R6587:6587 Coq.ZArith.Zorder <> n var
+R6591:6591 Coq.ZArith.Zorder <> m var
+R6626:6636 Coq.ZArith.BinInt Z le_succ_l thm
+R6626:6636 Coq.ZArith.BinInt Z le_succ_l thm
+prf 6651:6661 <> Zgt_succ_le
+R6681:6684 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6686:6689 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6685:6685 Coq.ZArith.Zorder <> n var
+R6690:6690 Coq.ZArith.Zorder <> m var
+R6677:6679 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R6669:6674 Coq.ZArith.BinInt Z succ def
+R6676:6676 Coq.ZArith.Zorder <> m var
+R6680:6680 Coq.ZArith.Zorder <> n var
+R6724:6734 Coq.ZArith.BinInt Z lt_succ_r thm
+R6724:6734 Coq.ZArith.BinInt Z lt_succ_r thm
+prf 6749:6759 <> Zlt_succ_le
+R6779:6782 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6784:6787 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6783:6783 Coq.ZArith.Zorder <> n var
+R6788:6788 Coq.ZArith.Zorder <> m var
+R6768:6770 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R6767:6767 Coq.ZArith.Zorder <> n var
+R6771:6776 Coq.ZArith.BinInt Z succ def
+R6778:6778 Coq.ZArith.Zorder <> m var
+R6806:6816 Coq.ZArith.BinInt Z lt_succ_r thm
+R6806:6816 Coq.ZArith.BinInt Z lt_succ_r thm
+prf 6831:6841 <> Zle_succ_gt
+R6862:6865 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6867:6869 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R6866:6866 Coq.ZArith.Zorder <> m var
+R6870:6870 Coq.ZArith.Zorder <> n var
+R6857:6860 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R6849:6854 Coq.ZArith.BinInt Z succ def
+R6856:6856 Coq.ZArith.Zorder <> n var
+R6861:6861 Coq.ZArith.Zorder <> m var
+R6904:6914 Coq.ZArith.BinInt Z le_succ_l thm
+R6904:6914 Coq.ZArith.BinInt Z le_succ_l thm
+syndef 6956:6963 <> Zle_succ
+R6968:6983 Coq.ZArith.BinInt Z le_succ_diag_r thm
+syndef 7010:7017 <> Zle_pred
+R7022:7032 Coq.ZArith.BinInt Z le_pred_l thm
+syndef 7059:7069 <> Zlt_lt_succ
+R7074:7087 Coq.ZArith.BinInt Z lt_lt_succ_r thm
+syndef 7114:7124 <> Zle_le_succ
+R7129:7142 Coq.ZArith.BinInt Z le_le_succ_r thm
+prf 7167:7177 <> Zle_succ_le
+R7198:7201 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7203:7206 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R7202:7202 Coq.ZArith.Zorder <> n var
+R7207:7207 Coq.ZArith.Zorder <> m var
+R7193:7196 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R7185:7190 Coq.ZArith.BinInt Z succ def
+R7192:7192 Coq.ZArith.Zorder <> n var
+R7197:7197 Coq.ZArith.Zorder <> m var
+R7237:7248 Coq.ZArith.BinInt Z lt_le_incl thm
+R7251:7261 Coq.ZArith.BinInt Z le_succ_l thm
+R7237:7248 Coq.ZArith.BinInt Z lt_le_incl thm
+R7251:7261 Coq.ZArith.BinInt Z le_succ_l thm
+prf 7416:7428 <> Zgt_succ_pred
+R7448:7451 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7460:7462 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R7452:7457 Coq.ZArith.BinInt Z pred def
+R7459:7459 Coq.ZArith.Zorder <> m var
+R7463:7463 Coq.ZArith.Zorder <> n var
+R7437:7439 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R7436:7436 Coq.ZArith.Zorder <> m var
+R7440:7445 Coq.ZArith.BinInt Z succ def
+R7447:7447 Coq.ZArith.Zorder <> n var
+R7497:7513 Coq.ZArith.BinInt Z lt_succ_lt_pred thm
+R7497:7513 Coq.ZArith.BinInt Z lt_succ_lt_pred thm
+prf 7528:7540 <> Zlt_succ_pred
+R7560:7563 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7565:7567 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R7564:7564 Coq.ZArith.Zorder <> n var
+R7568:7573 Coq.ZArith.BinInt Z pred def
+R7575:7575 Coq.ZArith.Zorder <> m var
+R7556:7558 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R7548:7553 Coq.ZArith.BinInt Z succ def
+R7555:7555 Coq.ZArith.Zorder <> n var
+R7559:7559 Coq.ZArith.Zorder <> m var
+R7593:7609 Coq.ZArith.BinInt Z lt_succ_lt_pred thm
+R7593:7609 Coq.ZArith.BinInt Z lt_succ_lt_pred thm
+prf 7682:7696 <> Zlt_0_le_0_pred
+R7707:7710 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7712:7715 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R7716:7721 Coq.ZArith.BinInt Z pred def
+R7723:7723 Coq.ZArith.Zorder <> n var
+R7703:7705 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R7706:7706 Coq.ZArith.Zorder <> n var
+R7741:7752 Coq.ZArith.BinInt Z lt_le_pred thm
+R7741:7752 Coq.ZArith.BinInt Z lt_le_pred thm
+prf 7767:7781 <> Zgt_0_le_0_pred
+R7792:7795 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7797:7800 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R7801:7806 Coq.ZArith.BinInt Z pred def
+R7808:7808 Coq.ZArith.Zorder <> n var
+R7788:7790 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R7787:7787 Coq.ZArith.Zorder <> n var
+R7842:7853 Coq.ZArith.BinInt Z lt_le_pred thm
+R7842:7853 Coq.ZArith.BinInt Z lt_le_pred thm
+syndef 7913:7919 <> Zlt_0_1
+R7924:7931 Coq.ZArith.BinInt Z lt_0_1 thm
+syndef 7958:7964 <> Zle_0_1
+R7969:7976 Coq.ZArith.BinInt Z le_0_1 thm
+prf 8001:8011 <> Zle_neg_pos
+R8026:8033 Coq.Numbers.BinNums <> positive ind
+R8042:8045 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R8036:8039 Coq.Numbers.BinNums <> Zneg constr
+R8041:8041 Coq.ZArith.Zorder <> p var
+R8046:8049 Coq.Numbers.BinNums <> Zpos constr
+R8051:8051 Coq.ZArith.Zorder <> q var
+R8069:8084 Coq.ZArith.BinInt Pos2Z neg_le_pos thm
+R8069:8084 Coq.ZArith.BinInt Pos2Z neg_le_pos thm
+prf 8099:8107 <> Zgt_pos_0
+R8120:8127 Coq.Numbers.BinNums <> positive ind
+R8136:8138 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R8130:8133 Coq.Numbers.BinNums <> Zpos constr
+R8135:8135 Coq.ZArith.Zorder <> p var
+prf 8219:8227 <> Zle_0_pos
+R8240:8247 Coq.Numbers.BinNums <> positive ind
+R8251:8254 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R8255:8258 Coq.Numbers.BinNums <> Zpos constr
+R8260:8260 Coq.ZArith.Zorder <> p var
+R8278:8296 Coq.ZArith.BinInt Pos2Z pos_is_nonneg thm
+R8278:8296 Coq.ZArith.BinInt Pos2Z pos_is_nonneg thm
+prf 8311:8319 <> Zlt_neg_0
+R8332:8339 Coq.Numbers.BinNums <> positive ind
+R8348:8350 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R8342:8345 Coq.Numbers.BinNums <> Zneg constr
+R8347:8347 Coq.ZArith.Zorder <> p var
+R8369:8384 Coq.ZArith.BinInt Pos2Z neg_is_neg thm
+R8369:8384 Coq.ZArith.BinInt Pos2Z neg_is_neg thm
+prf 8399:8407 <> Zle_0_nat
+R8420:8422 Coq.Init.Datatypes <> nat ind
+R8426:8429 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R8430:8437 Coq.ZArith.BinInt Z of_nat def
+R8439:8439 Coq.ZArith.Zorder <> n var
+R8485:8493 Coq.ZArith.BinInt Z le_refl thm
+R8485:8493 Coq.ZArith.BinInt Z le_refl thm
+prf 8574:8590 <> Zgt_succ_gt_or_eq
+R8610:8613 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8619:8622 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R8615:8617 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R8614:8614 Coq.ZArith.Zorder <> n var
+R8618:8618 Coq.ZArith.Zorder <> m var
+R8624:8626 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8623:8623 Coq.ZArith.Zorder <> m var
+R8627:8627 Coq.ZArith.Zorder <> n var
+R8606:8608 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R8598:8603 Coq.ZArith.BinInt Z succ def
+R8605:8605 Coq.ZArith.Zorder <> n var
+R8609:8609 Coq.ZArith.Zorder <> m var
+R8673:8685 Coq.ZArith.BinInt Z lt_eq_cases thm
+R8688:8698 Coq.ZArith.BinInt Z lt_succ_r thm
+R8673:8685 Coq.ZArith.BinInt Z lt_eq_cases thm
+R8688:8698 Coq.ZArith.BinInt Z lt_succ_r thm
+syndef 8782:8799 <> Zplus_lt_le_compat
+R8804:8819 Coq.ZArith.BinInt Z add_lt_le_mono thm
+syndef 8846:8863 <> Zplus_le_lt_compat
+R8868:8883 Coq.ZArith.BinInt Z add_le_lt_mono thm
+syndef 8910:8924 <> Zplus_le_compat
+R8929:8941 Coq.ZArith.BinInt Z add_le_mono thm
+syndef 8968:8982 <> Zplus_lt_compat
+R8987:8999 Coq.ZArith.BinInt Z add_lt_mono thm
+prf 9024:9040 <> Zplus_gt_compat_l
+R9055:9058 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9064:9066 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9060:9062 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9059:9059 Coq.ZArith.Zorder <> p var
+R9063:9063 Coq.ZArith.Zorder <> n var
+R9068:9070 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9067:9067 Coq.ZArith.Zorder <> p var
+R9071:9071 Coq.ZArith.Zorder <> m var
+R9051:9053 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9050:9050 Coq.ZArith.Zorder <> n var
+R9054:9054 Coq.ZArith.Zorder <> m var
+R9105:9119 Coq.ZArith.BinInt Z add_lt_mono_l thm
+R9105:9119 Coq.ZArith.BinInt Z add_lt_mono_l thm
+prf 9134:9150 <> Zplus_gt_compat_r
+R9165:9168 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9174:9176 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9170:9172 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9169:9169 Coq.ZArith.Zorder <> n var
+R9173:9173 Coq.ZArith.Zorder <> p var
+R9178:9180 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9177:9177 Coq.ZArith.Zorder <> m var
+R9181:9181 Coq.ZArith.Zorder <> p var
+R9161:9163 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R9160:9160 Coq.ZArith.Zorder <> n var
+R9164:9164 Coq.ZArith.Zorder <> m var
+R9215:9229 Coq.ZArith.BinInt Z add_lt_mono_r thm
+R9215:9229 Coq.ZArith.BinInt Z add_lt_mono_r thm
+prf 9244:9260 <> Zplus_le_compat_l
+R9276:9279 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9285:9288 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9281:9283 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9280:9280 Coq.ZArith.Zorder <> p var
+R9284:9284 Coq.ZArith.Zorder <> n var
+R9290:9292 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9289:9289 Coq.ZArith.Zorder <> p var
+R9293:9293 Coq.ZArith.Zorder <> m var
+R9271:9274 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9270:9270 Coq.ZArith.Zorder <> n var
+R9275:9275 Coq.ZArith.Zorder <> m var
+R9311:9325 Coq.ZArith.BinInt Z add_le_mono_l thm
+R9311:9325 Coq.ZArith.BinInt Z add_le_mono_l thm
+prf 9340:9356 <> Zplus_le_compat_r
+R9372:9375 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9381:9384 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9377:9379 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9376:9376 Coq.ZArith.Zorder <> n var
+R9380:9380 Coq.ZArith.Zorder <> p var
+R9386:9388 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9385:9385 Coq.ZArith.Zorder <> m var
+R9389:9389 Coq.ZArith.Zorder <> p var
+R9367:9370 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9366:9366 Coq.ZArith.Zorder <> n var
+R9371:9371 Coq.ZArith.Zorder <> m var
+R9407:9421 Coq.ZArith.BinInt Z add_le_mono_r thm
+R9407:9421 Coq.ZArith.BinInt Z add_le_mono_r thm
+prf 9436:9452 <> Zplus_lt_compat_l
+R9467:9470 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9476:9478 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9472:9474 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9471:9471 Coq.ZArith.Zorder <> p var
+R9475:9475 Coq.ZArith.Zorder <> n var
+R9480:9482 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9479:9479 Coq.ZArith.Zorder <> p var
+R9483:9483 Coq.ZArith.Zorder <> m var
+R9463:9465 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9462:9462 Coq.ZArith.Zorder <> n var
+R9466:9466 Coq.ZArith.Zorder <> m var
+R9501:9515 Coq.ZArith.BinInt Z add_lt_mono_l thm
+R9501:9515 Coq.ZArith.BinInt Z add_lt_mono_l thm
+prf 9530:9546 <> Zplus_lt_compat_r
+R9561:9564 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9570:9572 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9566:9568 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9565:9565 Coq.ZArith.Zorder <> n var
+R9569:9569 Coq.ZArith.Zorder <> p var
+R9574:9576 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9573:9573 Coq.ZArith.Zorder <> m var
+R9577:9577 Coq.ZArith.Zorder <> p var
+R9557:9559 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R9556:9556 Coq.ZArith.Zorder <> n var
+R9560:9560 Coq.ZArith.Zorder <> m var
+R9595:9609 Coq.ZArith.BinInt Z add_lt_mono_r thm
+R9595:9609 Coq.ZArith.BinInt Z add_lt_mono_r thm
+syndef 9683:9699 <> Zplus_le_0_compat
+R9704:9722 Coq.ZArith.BinInt Z add_nonneg_nonneg thm
+prf 9795:9808 <> Zplus_le_reg_l
+R9832:9835 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9837:9840 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9836:9836 Coq.ZArith.Zorder <> n var
+R9841:9841 Coq.ZArith.Zorder <> m var
+R9823:9826 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9819:9821 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9818:9818 Coq.ZArith.Zorder <> p var
+R9822:9822 Coq.ZArith.Zorder <> n var
+R9828:9830 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9827:9827 Coq.ZArith.Zorder <> p var
+R9831:9831 Coq.ZArith.Zorder <> m var
+R9858:9872 Coq.ZArith.BinInt Z add_le_mono_l thm
+R9858:9872 Coq.ZArith.BinInt Z add_le_mono_l thm
+prf 9887:9900 <> Zplus_le_reg_r
+R9924:9927 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9929:9932 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9928:9928 Coq.ZArith.Zorder <> n var
+R9933:9933 Coq.ZArith.Zorder <> m var
+R9915:9918 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R9911:9913 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9910:9910 Coq.ZArith.Zorder <> n var
+R9914:9914 Coq.ZArith.Zorder <> p var
+R9920:9922 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R9919:9919 Coq.ZArith.Zorder <> m var
+R9923:9923 Coq.ZArith.Zorder <> p var
+R9950:9964 Coq.ZArith.BinInt Z add_le_mono_r thm
+R9950:9964 Coq.ZArith.BinInt Z add_le_mono_r thm
+prf 9979:9992 <> Zplus_lt_reg_l
+R10015:10018 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10020:10022 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10019:10019 Coq.ZArith.Zorder <> n var
+R10023:10023 Coq.ZArith.Zorder <> m var
+R10007:10009 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10003:10005 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10002:10002 Coq.ZArith.Zorder <> p var
+R10006:10006 Coq.ZArith.Zorder <> n var
+R10011:10013 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10010:10010 Coq.ZArith.Zorder <> p var
+R10014:10014 Coq.ZArith.Zorder <> m var
+R10040:10054 Coq.ZArith.BinInt Z add_lt_mono_l thm
+R10040:10054 Coq.ZArith.BinInt Z add_lt_mono_l thm
+prf 10069:10082 <> Zplus_lt_reg_r
+R10105:10108 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10110:10112 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10109:10109 Coq.ZArith.Zorder <> n var
+R10113:10113 Coq.ZArith.Zorder <> m var
+R10097:10099 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10093:10095 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10092:10092 Coq.ZArith.Zorder <> n var
+R10096:10096 Coq.ZArith.Zorder <> p var
+R10101:10103 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10100:10100 Coq.ZArith.Zorder <> m var
+R10104:10104 Coq.ZArith.Zorder <> p var
+R10130:10144 Coq.ZArith.BinInt Z add_lt_mono_r thm
+R10130:10144 Coq.ZArith.BinInt Z add_lt_mono_r thm
+prf 10159:10172 <> Zplus_gt_reg_l
+R10195:10198 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10200:10202 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10199:10199 Coq.ZArith.Zorder <> n var
+R10203:10203 Coq.ZArith.Zorder <> m var
+R10187:10189 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10183:10185 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10182:10182 Coq.ZArith.Zorder <> p var
+R10186:10186 Coq.ZArith.Zorder <> n var
+R10191:10193 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10190:10190 Coq.ZArith.Zorder <> p var
+R10194:10194 Coq.ZArith.Zorder <> m var
+R10236:10250 Coq.ZArith.BinInt Z add_lt_mono_l thm
+R10236:10250 Coq.ZArith.BinInt Z add_lt_mono_l thm
+prf 10265:10278 <> Zplus_gt_reg_r
+R10301:10304 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10306:10308 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10305:10305 Coq.ZArith.Zorder <> n var
+R10309:10309 Coq.ZArith.Zorder <> m var
+R10293:10295 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10289:10291 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10288:10288 Coq.ZArith.Zorder <> n var
+R10292:10292 Coq.ZArith.Zorder <> p var
+R10297:10299 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R10296:10296 Coq.ZArith.Zorder <> m var
+R10300:10300 Coq.ZArith.Zorder <> p var
+R10342:10356 Coq.ZArith.BinInt Z add_lt_mono_r thm
+R10342:10356 Coq.ZArith.BinInt Z add_lt_mono_r thm
+prf 10463:10479 <> Zmult_le_compat_r
+R10495:10498 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10505:10508 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10514:10517 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10510:10512 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10509:10509 Coq.ZArith.Zorder <> n var
+R10513:10513 Coq.ZArith.Zorder <> p var
+R10519:10521 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10518:10518 Coq.ZArith.Zorder <> m var
+R10522:10522 Coq.ZArith.Zorder <> p var
+R10500:10503 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10504:10504 Coq.ZArith.Zorder <> p var
+R10490:10493 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10489:10489 Coq.ZArith.Zorder <> n var
+R10494:10494 Coq.ZArith.Zorder <> m var
+R10551:10572 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R10551:10572 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+prf 10587:10603 <> Zmult_le_compat_l
+R10619:10622 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10629:10632 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10638:10641 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10634:10636 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10633:10633 Coq.ZArith.Zorder <> p var
+R10637:10637 Coq.ZArith.Zorder <> n var
+R10643:10645 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10642:10642 Coq.ZArith.Zorder <> p var
+R10646:10646 Coq.ZArith.Zorder <> m var
+R10624:10627 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10628:10628 Coq.ZArith.Zorder <> p var
+R10614:10617 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R10613:10613 Coq.ZArith.Zorder <> n var
+R10618:10618 Coq.ZArith.Zorder <> m var
+R10675:10696 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+R10675:10696 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+prf 10711:10727 <> Zmult_lt_compat_r
+R10742:10745 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10751:10754 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10760:10762 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10756:10758 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10755:10755 Coq.ZArith.Zorder <> n var
+R10759:10759 Coq.ZArith.Zorder <> p var
+R10764:10766 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10763:10763 Coq.ZArith.Zorder <> m var
+R10767:10767 Coq.ZArith.Zorder <> p var
+R10747:10749 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10746:10746 Coq.ZArith.Zorder <> n var
+R10750:10750 Coq.ZArith.Zorder <> m var
+R10738:10740 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10741:10741 Coq.ZArith.Zorder <> p var
+R10784:10802 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R10784:10802 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 10817:10833 <> Zmult_gt_compat_r
+R10848:10851 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10857:10860 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10866:10868 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10862:10864 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10861:10861 Coq.ZArith.Zorder <> n var
+R10865:10865 Coq.ZArith.Zorder <> p var
+R10870:10872 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10869:10869 Coq.ZArith.Zorder <> m var
+R10873:10873 Coq.ZArith.Zorder <> p var
+R10853:10855 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10852:10852 Coq.ZArith.Zorder <> n var
+R10856:10856 Coq.ZArith.Zorder <> m var
+R10844:10846 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10843:10843 Coq.ZArith.Zorder <> p var
+R10906:10924 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R10906:10924 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 10939:10960 <> Zmult_gt_0_lt_compat_r
+R10975:10978 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10984:10987 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10993:10995 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10989:10991 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10988:10988 Coq.ZArith.Zorder <> n var
+R10992:10992 Coq.ZArith.Zorder <> p var
+R10997:10999 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R10996:10996 Coq.ZArith.Zorder <> m var
+R11000:11000 Coq.ZArith.Zorder <> p var
+R10980:10982 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R10979:10979 Coq.ZArith.Zorder <> n var
+R10983:10983 Coq.ZArith.Zorder <> m var
+R10971:10973 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R10970:10970 Coq.ZArith.Zorder <> p var
+R11033:11051 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R11033:11051 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 11066:11087 <> Zmult_gt_0_le_compat_r
+R11102:11105 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11112:11115 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11121:11124 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R11117:11119 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11116:11116 Coq.ZArith.Zorder <> n var
+R11120:11120 Coq.ZArith.Zorder <> p var
+R11126:11128 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11125:11125 Coq.ZArith.Zorder <> m var
+R11129:11129 Coq.ZArith.Zorder <> p var
+R11107:11110 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R11106:11106 Coq.ZArith.Zorder <> n var
+R11111:11111 Coq.ZArith.Zorder <> m var
+R11098:11100 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R11097:11097 Coq.ZArith.Zorder <> p var
+R11162:11180 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R11162:11180 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 11195:11216 <> Zmult_lt_0_le_compat_r
+R11231:11234 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11241:11244 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11250:11253 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R11246:11248 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11245:11245 Coq.ZArith.Zorder <> n var
+R11249:11249 Coq.ZArith.Zorder <> p var
+R11255:11257 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11254:11254 Coq.ZArith.Zorder <> m var
+R11258:11258 Coq.ZArith.Zorder <> p var
+R11236:11239 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R11235:11235 Coq.ZArith.Zorder <> n var
+R11240:11240 Coq.ZArith.Zorder <> m var
+R11227:11229 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11230:11230 Coq.ZArith.Zorder <> p var
+R11275:11293 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R11275:11293 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 11308:11329 <> Zmult_gt_0_lt_compat_l
+R11344:11347 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11353:11356 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11362:11364 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11358:11360 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11357:11357 Coq.ZArith.Zorder <> p var
+R11361:11361 Coq.ZArith.Zorder <> n var
+R11366:11368 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11365:11365 Coq.ZArith.Zorder <> p var
+R11369:11369 Coq.ZArith.Zorder <> m var
+R11349:11351 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11348:11348 Coq.ZArith.Zorder <> n var
+R11352:11352 Coq.ZArith.Zorder <> m var
+R11340:11342 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R11339:11339 Coq.ZArith.Zorder <> p var
+R11402:11420 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+R11402:11420 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+prf 11435:11451 <> Zmult_lt_compat_l
+R11466:11469 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11475:11478 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11484:11486 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11480:11482 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11479:11479 Coq.ZArith.Zorder <> p var
+R11483:11483 Coq.ZArith.Zorder <> n var
+R11488:11490 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11487:11487 Coq.ZArith.Zorder <> p var
+R11491:11491 Coq.ZArith.Zorder <> m var
+R11471:11473 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11470:11470 Coq.ZArith.Zorder <> n var
+R11474:11474 Coq.ZArith.Zorder <> m var
+R11462:11464 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R11465:11465 Coq.ZArith.Zorder <> p var
+R11508:11526 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+R11508:11526 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+prf 11541:11557 <> Zmult_gt_compat_l
+R11572:11575 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11581:11584 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11590:11592 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R11586:11588 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11585:11585 Coq.ZArith.Zorder <> p var
+R11589:11589 Coq.ZArith.Zorder <> n var
+R11594:11596 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11593:11593 Coq.ZArith.Zorder <> p var
+R11597:11597 Coq.ZArith.Zorder <> m var
+R11577:11579 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R11576:11576 Coq.ZArith.Zorder <> n var
+R11580:11580 Coq.ZArith.Zorder <> m var
+R11568:11570 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R11567:11567 Coq.ZArith.Zorder <> p var
+R11630:11648 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+R11630:11648 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+prf 11663:11679 <> Zmult_ge_compat_r
+R11695:11698 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11705:11708 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11714:11717 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11710:11712 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11709:11709 Coq.ZArith.Zorder <> n var
+R11713:11713 Coq.ZArith.Zorder <> p var
+R11719:11721 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11718:11718 Coq.ZArith.Zorder <> m var
+R11722:11722 Coq.ZArith.Zorder <> p var
+R11700:11703 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11699:11699 Coq.ZArith.Zorder <> p var
+R11690:11693 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11689:11689 Coq.ZArith.Zorder <> n var
+R11694:11694 Coq.ZArith.Zorder <> m var
+R11767:11788 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+R11767:11788 Coq.ZArith.BinInt Z mul_le_mono_nonneg_r thm
+prf 11803:11819 <> Zmult_ge_compat_l
+R11835:11838 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11845:11848 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11854:11857 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11850:11852 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11849:11849 Coq.ZArith.Zorder <> p var
+R11853:11853 Coq.ZArith.Zorder <> n var
+R11859:11861 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R11858:11858 Coq.ZArith.Zorder <> p var
+R11862:11862 Coq.ZArith.Zorder <> m var
+R11840:11843 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11839:11839 Coq.ZArith.Zorder <> p var
+R11830:11833 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11829:11829 Coq.ZArith.Zorder <> n var
+R11834:11834 Coq.ZArith.Zorder <> m var
+R11907:11928 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+R11907:11928 Coq.ZArith.BinInt Z mul_le_mono_nonneg_l thm
+prf 11943:11957 <> Zmult_ge_compat
+R11977:11980 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11987:11990 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11997:12000 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12007:12010 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12016:12019 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R12012:12014 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12011:12011 Coq.ZArith.Zorder <> n var
+R12015:12015 Coq.ZArith.Zorder <> m var
+R12021:12023 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12020:12020 Coq.ZArith.Zorder <> p var
+R12024:12024 Coq.ZArith.Zorder <> q var
+R12002:12005 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R12001:12001 Coq.ZArith.Zorder <> q var
+R11992:11995 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11991:11991 Coq.ZArith.Zorder <> p var
+R11982:11985 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11981:11981 Coq.ZArith.Zorder <> m var
+R11986:11986 Coq.ZArith.Zorder <> q var
+R11972:11975 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R11971:11971 Coq.ZArith.Zorder <> n var
+R11976:11976 Coq.ZArith.Zorder <> p var
+R12069:12088 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+R12069:12088 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+prf 12103:12117 <> Zmult_le_compat
+R12137:12140 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12147:12150 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12157:12160 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12167:12170 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12176:12179 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12172:12174 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12171:12171 Coq.ZArith.Zorder <> n var
+R12175:12175 Coq.ZArith.Zorder <> m var
+R12181:12183 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12180:12180 Coq.ZArith.Zorder <> p var
+R12184:12184 Coq.ZArith.Zorder <> q var
+R12162:12165 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12166:12166 Coq.ZArith.Zorder <> m var
+R12152:12155 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12156:12156 Coq.ZArith.Zorder <> n var
+R12142:12145 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12141:12141 Coq.ZArith.Zorder <> m var
+R12146:12146 Coq.ZArith.Zorder <> q var
+R12132:12135 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12131:12131 Coq.ZArith.Zorder <> n var
+R12136:12136 Coq.ZArith.Zorder <> p var
+R12213:12232 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+R12213:12232 Coq.ZArith.BinInt Z mul_le_mono_nonneg thm
+prf 12324:12342 <> Zmult_gt_0_lt_reg_r
+R12357:12360 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12374:12377 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12379:12381 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12378:12378 Coq.ZArith.Zorder <> n var
+R12382:12382 Coq.ZArith.Zorder <> m var
+R12366:12368 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12362:12364 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12361:12361 Coq.ZArith.Zorder <> n var
+R12365:12365 Coq.ZArith.Zorder <> p var
+R12370:12372 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12369:12369 Coq.ZArith.Zorder <> m var
+R12373:12373 Coq.ZArith.Zorder <> p var
+R12353:12355 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12352:12352 Coq.ZArith.Zorder <> p var
+R12415:12433 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R12415:12433 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 12448:12461 <> Zmult_lt_reg_r
+R12476:12479 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12493:12496 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12498:12500 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12497:12497 Coq.ZArith.Zorder <> n var
+R12501:12501 Coq.ZArith.Zorder <> m var
+R12485:12487 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12481:12483 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12480:12480 Coq.ZArith.Zorder <> n var
+R12484:12484 Coq.ZArith.Zorder <> p var
+R12489:12491 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12488:12488 Coq.ZArith.Zorder <> m var
+R12492:12492 Coq.ZArith.Zorder <> p var
+R12472:12474 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12475:12475 Coq.ZArith.Zorder <> p var
+R12518:12536 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R12518:12536 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 12551:12564 <> Zmult_le_reg_r
+R12579:12582 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12597:12600 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12602:12605 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12601:12601 Coq.ZArith.Zorder <> n var
+R12606:12606 Coq.ZArith.Zorder <> m var
+R12588:12591 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12584:12586 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12583:12583 Coq.ZArith.Zorder <> n var
+R12587:12587 Coq.ZArith.Zorder <> p var
+R12593:12595 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12592:12592 Coq.ZArith.Zorder <> m var
+R12596:12596 Coq.ZArith.Zorder <> p var
+R12575:12577 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12574:12574 Coq.ZArith.Zorder <> p var
+R12639:12657 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R12639:12657 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 12672:12690 <> Zmult_lt_0_le_reg_r
+R12705:12708 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12723:12726 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12728:12731 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12727:12727 Coq.ZArith.Zorder <> n var
+R12732:12732 Coq.ZArith.Zorder <> m var
+R12714:12717 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R12710:12712 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12709:12709 Coq.ZArith.Zorder <> n var
+R12713:12713 Coq.ZArith.Zorder <> p var
+R12719:12721 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12718:12718 Coq.ZArith.Zorder <> m var
+R12722:12722 Coq.ZArith.Zorder <> p var
+R12701:12703 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R12704:12704 Coq.ZArith.Zorder <> p var
+R12749:12767 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R12749:12767 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 12782:12795 <> Zmult_ge_reg_r
+R12810:12813 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12828:12831 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12833:12836 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R12832:12832 Coq.ZArith.Zorder <> n var
+R12837:12837 Coq.ZArith.Zorder <> m var
+R12819:12822 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R12815:12817 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12814:12814 Coq.ZArith.Zorder <> n var
+R12818:12818 Coq.ZArith.Zorder <> p var
+R12824:12826 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12823:12823 Coq.ZArith.Zorder <> m var
+R12827:12827 Coq.ZArith.Zorder <> p var
+R12806:12808 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12805:12805 Coq.ZArith.Zorder <> p var
+R12870:12888 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R12870:12888 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+prf 12903:12916 <> Zmult_gt_reg_r
+R12931:12934 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12948:12951 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12953:12955 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12952:12952 Coq.ZArith.Zorder <> n var
+R12956:12956 Coq.ZArith.Zorder <> m var
+R12940:12942 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12936:12938 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12935:12935 Coq.ZArith.Zorder <> n var
+R12939:12939 Coq.ZArith.Zorder <> p var
+R12944:12946 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R12943:12943 Coq.ZArith.Zorder <> m var
+R12947:12947 Coq.ZArith.Zorder <> p var
+R12927:12929 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R12926:12926 Coq.ZArith.Zorder <> p var
+R12989:13007 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+R12989:13007 Coq.ZArith.BinInt Z mul_lt_mono_pos_r thm
+prf 13022:13036 <> Zmult_lt_compat
+R13060:13063 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13074:13077 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13083:13085 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R13079:13081 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13078:13078 Coq.ZArith.Zorder <> n var
+R13082:13082 Coq.ZArith.Zorder <> m var
+R13087:13089 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13086:13086 Coq.ZArith.Zorder <> p var
+R13090:13090 Coq.ZArith.Zorder <> q var
+R13065:13068 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x_'<'_x not
+R13070:13072 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x_'<'_x not
+R13069:13069 Coq.ZArith.Zorder <> m var
+R13069:13069 Coq.ZArith.Zorder <> m var
+R13073:13073 Coq.ZArith.Zorder <> q var
+R13051:13054 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x_'<'_x not
+R13056:13058 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x_'<'_x not
+R13055:13055 Coq.ZArith.Zorder <> n var
+R13055:13055 Coq.ZArith.Zorder <> n var
+R13059:13059 Coq.ZArith.Zorder <> p var
+R13137:13156 Coq.ZArith.BinInt Z mul_lt_mono_nonneg thm
+R13137:13156 Coq.ZArith.BinInt Z mul_lt_mono_nonneg thm
+prf 13171:13186 <> Zmult_lt_compat2
+R13210:13213 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13223:13226 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13232:13234 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R13228:13230 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13227:13227 Coq.ZArith.Zorder <> n var
+R13231:13231 Coq.ZArith.Zorder <> m var
+R13236:13238 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13235:13235 Coq.ZArith.Zorder <> p var
+R13239:13239 Coq.ZArith.Zorder <> q var
+R13215:13217 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x_'<'_x not
+R13219:13221 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x_'<'_x not
+R13218:13218 Coq.ZArith.Zorder <> m var
+R13218:13218 Coq.ZArith.Zorder <> m var
+R13222:13222 Coq.ZArith.Zorder <> q var
+R13201:13203 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x_'<='_x not
+R13205:13208 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x_'<='_x not
+R13204:13204 Coq.ZArith.Zorder <> n var
+R13204:13204 Coq.ZArith.Zorder <> n var
+R13209:13209 Coq.ZArith.Zorder <> p var
+R13307:13309 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13286:13298 Coq.ZArith.BinInt Z le_lt_trans thm
+R13307:13309 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13286:13298 Coq.ZArith.BinInt Z le_lt_trans thm
+R13323:13341 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R13323:13341 Coq.ZArith.BinInt Z mul_le_mono_pos_r thm
+R13362:13380 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+R13362:13380 Coq.ZArith.BinInt Z mul_lt_mono_pos_l thm
+syndef 13483:13499 <> Zmult_le_0_compat
+R13504:13522 Coq.ZArith.BinInt Z mul_nonneg_nonneg thm
+syndef 13549:13565 <> Zmult_lt_0_compat
+R13570:13582 Coq.ZArith.BinInt Z mul_pos_pos thm
+syndef 13609:13625 <> Zmult_lt_O_compat
+R13630:13642 Coq.ZArith.BinInt Z mul_pos_pos thm
+prf 13667:13683 <> Zmult_gt_0_compat
+R13696:13699 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13705:13708 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13714:13716 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R13710:13712 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13709:13709 Coq.ZArith.Zorder <> n var
+R13713:13713 Coq.ZArith.Zorder <> m var
+R13701:13703 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R13700:13700 Coq.ZArith.Zorder <> m var
+R13692:13694 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R13691:13691 Coq.ZArith.Zorder <> n var
+R13750:13762 Coq.ZArith.BinInt Z mul_pos_pos thm
+R13750:13762 Coq.ZArith.BinInt Z mul_pos_pos thm
+prf 13806:13827 <> Zmult_gt_0_le_0_compat
+R13840:13843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13850:13853 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13855:13858 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R13860:13862 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R13859:13859 Coq.ZArith.Zorder <> m var
+R13863:13863 Coq.ZArith.Zorder <> n var
+R13845:13848 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R13849:13849 Coq.ZArith.Zorder <> m var
+R13836:13838 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R13835:13835 Coq.ZArith.Zorder <> n var
+R13904:13922 Coq.ZArith.BinInt Z mul_nonneg_nonneg thm
+R13904:13922 Coq.ZArith.BinInt Z mul_nonneg_nonneg thm
+R13946:13957 Coq.ZArith.BinInt Z lt_le_incl thm
+R13946:13957 Coq.ZArith.BinInt Z lt_le_incl thm
+prf 14049:14064 <> Zmult_le_0_reg_r
+R14077:14080 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14091:14094 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14096:14099 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R14100:14100 Coq.ZArith.Zorder <> m var
+R14082:14085 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R14087:14089 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14086:14086 Coq.ZArith.Zorder <> m var
+R14090:14090 Coq.ZArith.Zorder <> n var
+R14073:14075 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14072:14072 Coq.ZArith.Zorder <> n var
+R14133:14153 Coq.ZArith.BinInt Z mul_nonneg_cancel_r thm
+R14133:14153 Coq.ZArith.BinInt Z mul_nonneg_cancel_r thm
+prf 14168:14183 <> Zmult_lt_0_reg_r
+R14196:14199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14209:14212 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14214:14216 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14217:14217 Coq.ZArith.Zorder <> m var
+R14201:14203 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14205:14207 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14204:14204 Coq.ZArith.Zorder <> m var
+R14208:14208 Coq.ZArith.Zorder <> n var
+R14192:14194 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14195:14195 Coq.ZArith.Zorder <> n var
+R14234:14251 Coq.ZArith.BinInt Z mul_pos_cancel_r thm
+R14234:14251 Coq.ZArith.BinInt Z mul_pos_cancel_r thm
+prf 14266:14286 <> Zmult_gt_0_lt_0_reg_r
+R14299:14302 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14312:14315 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14317:14319 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14320:14320 Coq.ZArith.Zorder <> m var
+R14304:14306 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14308:14310 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14307:14307 Coq.ZArith.Zorder <> m var
+R14311:14311 Coq.ZArith.Zorder <> n var
+R14295:14297 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14294:14294 Coq.ZArith.Zorder <> n var
+R14353:14370 Coq.ZArith.BinInt Z mul_pos_cancel_r thm
+R14353:14370 Coq.ZArith.BinInt Z mul_pos_cancel_r thm
+prf 14385:14400 <> Zmult_gt_0_reg_l
+R14413:14416 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14426:14429 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14431:14433 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14430:14430 Coq.ZArith.Zorder <> m var
+R14422:14424 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14418:14420 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14417:14417 Coq.ZArith.Zorder <> n var
+R14421:14421 Coq.ZArith.Zorder <> m var
+R14409:14411 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14408:14408 Coq.ZArith.Zorder <> n var
+R14467:14484 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+R14467:14484 Coq.ZArith.BinInt Z mul_pos_cancel_l thm
+prf 14559:14574 <> Zlt_square_simpl
+R14588:14591 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14605:14608 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14610:14612 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14609:14609 Coq.ZArith.Zorder <> m var
+R14613:14613 Coq.ZArith.Zorder <> n var
+R14597:14599 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R14593:14595 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14592:14592 Coq.ZArith.Zorder <> m var
+R14596:14596 Coq.ZArith.Zorder <> m var
+R14601:14603 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14600:14600 Coq.ZArith.Zorder <> n var
+R14604:14604 Coq.ZArith.Zorder <> n var
+R14583:14586 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R14587:14587 Coq.ZArith.Zorder <> n var
+R14630:14653 Coq.ZArith.BinInt Z square_lt_simpl_nonneg thm
+R14630:14653 Coq.ZArith.BinInt Z square_lt_simpl_nonneg thm
+prf 14668:14683 <> Zgt_square_simpl
+R14697:14700 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14714:14717 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14719:14721 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14718:14718 Coq.ZArith.Zorder <> n var
+R14722:14722 Coq.ZArith.Zorder <> m var
+R14706:14708 Coq.ZArith.BinInt <> :Z_scope:x_'>'_x not
+R14702:14704 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14701:14701 Coq.ZArith.Zorder <> n var
+R14705:14705 Coq.ZArith.Zorder <> n var
+R14710:14712 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R14709:14709 Coq.ZArith.Zorder <> m var
+R14713:14713 Coq.ZArith.Zorder <> m var
+R14692:14695 Coq.ZArith.BinInt <> :Z_scope:x_'>='_x not
+R14691:14691 Coq.ZArith.Zorder <> n var
+R14755:14778 Coq.ZArith.BinInt Z square_lt_simpl_nonneg thm
+R14755:14778 Coq.ZArith.BinInt Z square_lt_simpl_nonneg thm
+syndef 14839:14851 <> Zle_plus_swap
+R14856:14872 Coq.ZArith.BinInt Z le_add_le_sub_r thm
+syndef 14899:14911 <> Zlt_plus_swap
+R14916:14932 Coq.ZArith.BinInt Z lt_add_lt_sub_r thm
+syndef 14959:14978 <> Zlt_minus_simpl_swap
+R14983:14994 Coq.ZArith.BinInt Z lt_sub_pos thm
+prf 15019:15031 <> Zeq_plus_swap
+R15050:15054 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R15046:15048 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15042:15044 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R15041:15041 Coq.ZArith.Zorder <> n var
+R15045:15045 Coq.ZArith.Zorder <> p var
+R15049:15049 Coq.ZArith.Zorder <> m var
+R15056:15058 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15055:15055 Coq.ZArith.Zorder <> n var
+R15060:15062 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R15059:15059 Coq.ZArith.Zorder <> m var
+R15063:15063 Coq.ZArith.Zorder <> p var
+R15080:15091 Coq.ZArith.BinInt Z add_move_r thm
+R15080:15091 Coq.ZArith.BinInt Z add_move_r thm
+prf 15106:15119 <> Zlt_0_minus_lt
+R15136:15139 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15141:15143 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R15140:15140 Coq.ZArith.Zorder <> m var
+R15144:15144 Coq.ZArith.Zorder <> n var
+R15128:15130 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R15132:15134 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R15131:15131 Coq.ZArith.Zorder <> n var
+R15135:15135 Coq.ZArith.Zorder <> m var
+R15161:15170 Coq.ZArith.BinInt Z lt_0_sub thm
+R15161:15170 Coq.ZArith.BinInt Z lt_0_sub thm
+prf 15185:15198 <> Zle_0_minus_le
+R15216:15219 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15221:15224 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R15220:15220 Coq.ZArith.Zorder <> m var
+R15225:15225 Coq.ZArith.Zorder <> n var
+R15207:15210 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R15212:15214 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R15211:15211 Coq.ZArith.Zorder <> n var
+R15215:15215 Coq.ZArith.Zorder <> m var
+R15242:15251 Coq.ZArith.BinInt Z le_0_sub thm
+R15242:15251 Coq.ZArith.BinInt Z le_0_sub thm
+prf 15266:15279 <> Zle_minus_le_0
+R15293:15296 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15298:15301 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R15303:15305 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R15302:15302 Coq.ZArith.Zorder <> n var
+R15306:15306 Coq.ZArith.Zorder <> m var
+R15288:15291 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R15287:15287 Coq.ZArith.Zorder <> m var
+R15292:15292 Coq.ZArith.Zorder <> n var
+R15323:15332 Coq.ZArith.BinInt Z le_0_sub thm
+R15323:15332 Coq.ZArith.BinInt Z le_0_sub thm
+syndef 15375:15388 <> Zlt_O_minus_lt
+R15393:15406 Coq.ZArith.Zorder <> Zlt_0_minus_lt thm

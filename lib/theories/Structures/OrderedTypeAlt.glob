@@ -1,0 +1,197 @@
+DIGEST ea123b86d05ecfc45c88b0b06ca52fb0
+FCoq.Structures.OrderedTypeAlt
+R690:700 Coq.Structures.OrderedType <> <> lib
+modtype 941:954 <> OrderedTypeAlt
+ax 969:969 OrderedTypeAlt t
+ax 991:997 OrderedTypeAlt compare
+R1002:1005 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1007:1010 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1011:1020 Coq.Init.Datatypes <> comparison ind
+R1006:1006 Coq.Structures.OrderedTypeAlt OrderedTypeAlt t defax
+R1001:1001 Coq.Structures.OrderedTypeAlt OrderedTypeAlt t defax
+R1039:1045 Coq.Structures.OrderedTypeAlt OrderedTypeAlt compare defax
+not 1031:1031 OrderedTypeAlt ::x_'?='_x
+ax 1092:1102 OrderedTypeAlt compare_sym
+R1121:1121 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1126:1129 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1123:1124 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1122:1122 Coq.Structures.OrderedTypeAlt <> y var
+R1125:1125 Coq.Structures.OrderedTypeAlt <> x var
+R1130:1136 Coq.Init.Datatypes <> CompOpp def
+R1140:1141 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1139:1139 Coq.Structures.OrderedTypeAlt <> x var
+R1142:1142 Coq.Structures.OrderedTypeAlt <> y var
+ax 1157:1169 OrderedTypeAlt compare_trans
+R1202:1205 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1216:1219 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1220:1220 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1225:1228 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1222:1223 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1221:1221 Coq.Structures.OrderedTypeAlt <> x var
+R1224:1224 Coq.Structures.OrderedTypeAlt <> z var
+R1229:1229 Coq.Structures.OrderedTypeAlt <> c var
+R1206:1206 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1211:1214 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1208:1209 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1207:1207 Coq.Structures.OrderedTypeAlt <> y var
+R1210:1210 Coq.Structures.OrderedTypeAlt <> z var
+R1215:1215 Coq.Structures.OrderedTypeAlt <> c var
+R1192:1192 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1197:1200 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1194:1195 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1193:1193 Coq.Structures.OrderedTypeAlt <> x var
+R1196:1196 Coq.Structures.OrderedTypeAlt <> y var
+R1201:1201 Coq.Structures.OrderedTypeAlt <> c var
+R1237:1250 Coq.Structures.OrderedTypeAlt OrderedTypeAlt <> modtype
+R1341:1354 Coq.Structures.OrderedTypeAlt OrderedTypeAlt <> mod
+R1360:1370 Coq.Structures.OrderedType OrderedType <> mod
+mod 1317:1336 <> OrderedType_from_Alt
+def 1397:1397 OrderedType_from_Alt t
+R1402:1402 Coq.Structures.OrderedTypeAlt O t defax
+def 1418:1419 OrderedType_from_Alt eq
+R1428:1428 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1433:1436 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1430:1431 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1429:1429 Coq.Structures.OrderedTypeAlt <> x var
+R1432:1432 Coq.Structures.OrderedTypeAlt <> y var
+R1437:1438 Coq.Init.Datatypes <> Eq constr
+def 1453:1454 OrderedType_from_Alt lt
+R1463:1463 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1468:1471 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1465:1466 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1464:1464 Coq.Structures.OrderedTypeAlt <> x var
+R1467:1467 Coq.Structures.OrderedTypeAlt <> y var
+R1472:1473 Coq.Init.Datatypes <> Lt constr
+prf 1484:1490 OrderedType_from_Alt eq_refl
+R1504:1505 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1509:1509 Coq.Structures.OrderedTypeAlt <> x var
+R1507:1507 Coq.Structures.OrderedTypeAlt <> x var
+R1538:1539 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1554:1564 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R1554:1564 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R1584:1587 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R1584:1587 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+prf 1642:1647 OrderedType_from_Alt eq_sym
+R1669:1672 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1673:1674 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1678:1678 Coq.Structures.OrderedTypeAlt <> x var
+R1676:1676 Coq.Structures.OrderedTypeAlt <> y var
+R1663:1664 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1668:1668 Coq.Structures.OrderedTypeAlt <> y var
+R1666:1666 Coq.Structures.OrderedTypeAlt <> x var
+R1697:1698 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1718:1728 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R1718:1728 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R1718:1728 Coq.Structures.OrderedTypeAlt O compare_sym defax
+def 1775:1782 OrderedType_from_Alt eq_trans
+R1788:1800 Coq.Structures.OrderedTypeAlt O compare_trans defax
+R1802:1803 Coq.Init.Datatypes <> Eq constr
+def 1820:1827 OrderedType_from_Alt lt_trans
+R1833:1845 Coq.Structures.OrderedTypeAlt O compare_trans defax
+R1847:1848 Coq.Init.Datatypes <> Lt constr
+prf 1860:1868 OrderedType_from_Alt lt_not_eq
+R1890:1893 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1894:1894 Coq.Init.Logic <> :type_scope:'~'_x not
+R1895:1896 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1900:1900 Coq.Structures.OrderedTypeAlt <> y var
+R1898:1898 Coq.Structures.OrderedTypeAlt <> x var
+R1884:1885 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt lt def
+R1889:1889 Coq.Structures.OrderedTypeAlt <> y var
+R1887:1887 Coq.Structures.OrderedTypeAlt <> x var
+R1919:1920 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R1923:1924 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt lt def
+def 1980:1986 OrderedType_from_Alt compare
+R2002:2008 Coq.Structures.OrderedType <> Compare ind
+R2018:2018 Coq.Structures.OrderedTypeAlt <> y var
+R2016:2016 Coq.Structures.OrderedTypeAlt <> x var
+R2013:2014 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R2010:2011 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt lt def
+R2049:2052 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R2049:2052 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R2072:2073 Coq.Structures.OrderedType <> EQ constr
+R2072:2073 Coq.Structures.OrderedType <> EQ constr
+R2089:2090 Coq.Structures.OrderedType <> LT constr
+R2089:2090 Coq.Structures.OrderedType <> LT constr
+R2106:2107 Coq.Structures.OrderedType <> GT constr
+R2106:2107 Coq.Structures.OrderedType <> GT constr
+R2124:2134 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R2124:2134 Coq.Structures.OrderedTypeAlt O compare_sym defax
+R2124:2134 Coq.Structures.OrderedTypeAlt O compare_sym defax
+def 2177:2182 OrderedType_from_Alt eq_dec
+R2198:2199 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2206:2212 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2221:2222 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2200:2201 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R2205:2205 Coq.Structures.OrderedTypeAlt <> y var
+R2203:2203 Coq.Structures.OrderedTypeAlt <> x var
+R2213:2214 Coq.Init.Logic <> :type_scope:'~'_x not
+R2215:2216 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R2220:2220 Coq.Structures.OrderedTypeAlt <> y var
+R2218:2218 Coq.Structures.OrderedTypeAlt <> x var
+R2249:2250 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt eq def
+R2261:2264 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R2261:2264 Coq.Structures.OrderedTypeAlt OrderedTypeAlt ::x_'?='_x not
+R2330:2349 Coq.Structures.OrderedTypeAlt OrderedType_from_Alt <> mod
+R2446:2456 Coq.Structures.OrderedType OrderedType <> mod
+R2462:2475 Coq.Structures.OrderedTypeAlt OrderedTypeAlt <> mod
+mod 2424:2441 <> OrderedType_to_Alt
+R2501:2516 Coq.Structures.OrderedType OrderedTypeFacts <> modtype
+R2518:2518 Coq.Structures.OrderedTypeAlt O <> modtype
+mod 2497:2498 <> OrderedType_to_Alt.MO
+def 2547:2547 OrderedType_to_Alt t
+R2552:2552 Coq.Structures.OrderedTypeAlt O t defax
+def 2568:2574 OrderedType_to_Alt compare
+R2589:2595 Coq.Structures.OrderedTypeAlt O compare defax
+R2599:2599 Coq.Structures.OrderedTypeAlt <> y var
+R2597:2597 Coq.Structures.OrderedTypeAlt <> x var
+R2611:2612 Coq.Structures.OrderedType <> LT constr
+R2619:2620 Coq.Init.Datatypes <> Lt constr
+R2627:2628 Coq.Structures.OrderedType <> EQ constr
+R2635:2636 Coq.Init.Datatypes <> Eq constr
+R2643:2644 Coq.Structures.OrderedType <> GT constr
+R2651:2652 Coq.Init.Datatypes <> Gt constr
+R2677:2683 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt compare def
+not 2669:2669 OrderedType_to_Alt ::x_'?='_x
+prf 2726:2736 OrderedType_to_Alt compare_sym
+R2755:2755 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2760:2763 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2757:2758 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt ::x_'?='_x not
+R2756:2756 Coq.Structures.OrderedTypeAlt <> y var
+R2759:2759 Coq.Structures.OrderedTypeAlt <> x var
+R2764:2770 Coq.Init.Datatypes <> CompOpp def
+R2774:2775 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt ::x_'?='_x not
+R2773:2773 Coq.Structures.OrderedTypeAlt <> x var
+R2776:2776 Coq.Structures.OrderedTypeAlt <> y var
+R2808:2814 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt compare def
+R2827:2835 Coq.Structures.OrderedTypeAlt O compare defax
+R2827:2835 Coq.Structures.OrderedTypeAlt O compare defax
+prf 2876:2888 OrderedType_to_Alt compare_trans
+R2921:2924 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2935:2938 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2939:2939 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2944:2947 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2941:2942 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt ::x_'?='_x not
+R2940:2940 Coq.Structures.OrderedTypeAlt <> x var
+R2943:2943 Coq.Structures.OrderedTypeAlt <> z var
+R2948:2948 Coq.Structures.OrderedTypeAlt <> c var
+R2925:2925 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2930:2933 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2927:2928 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt ::x_'?='_x not
+R2926:2926 Coq.Structures.OrderedTypeAlt <> y var
+R2929:2929 Coq.Structures.OrderedTypeAlt <> z var
+R2934:2934 Coq.Structures.OrderedTypeAlt <> c var
+R2911:2911 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2916:2919 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2913:2914 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt ::x_'?='_x not
+R2912:2912 Coq.Structures.OrderedTypeAlt <> x var
+R2915:2915 Coq.Structures.OrderedTypeAlt <> y var
+R2920:2920 Coq.Structures.OrderedTypeAlt <> c var
+R2996:3002 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt compare def
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3021:3029 Coq.Structures.OrderedTypeAlt O compare defax
+R3088:3105 Coq.Structures.OrderedTypeAlt OrderedType_to_Alt <> mod

@@ -1,0 +1,20 @@
+DIGEST ea39e11a9dbdc65d4f870e1dd3fdfb9a
+FCoq.ZArith.ZArith_base
+R871:877 Coq.Numbers.BinNums <> <> lib
+R895:900 Coq.PArith.BinPos <> <> lib
+R918:923 Coq.NArith.BinNat <> <> lib
+R941:946 Coq.ZArith.BinInt <> <> lib
+R964:971 Coq.ZArith.Zcompare <> <> lib
+R989:994 Coq.ZArith.Zorder <> <> lib
+R1012:1016 Coq.ZArith.Zeven <> <> lib
+R1034:1040 Coq.ZArith.Zminmax <> <> lib
+R1058:1061 Coq.ZArith.Zmin <> <> lib
+R1079:1082 Coq.ZArith.Zmax <> <> lib
+R1100:1103 Coq.ZArith.Zabs <> <> lib
+R1121:1124 Coq.ZArith.Znat <> <> lib
+R1142:1150 Coq.ZArith.auxiliary <> <> lib
+R1168:1177 Coq.ZArith.ZArith_dec <> <> lib
+R1195:1199 Coq.ZArith.Zbool <> <> lib
+R1217:1221 Coq.ZArith.Zmisc <> <> lib
+R1239:1242 Coq.ZArith.Wf_Z <> <> lib
+R1444:1449 Coq.ZArith.Zhints <> <> lib

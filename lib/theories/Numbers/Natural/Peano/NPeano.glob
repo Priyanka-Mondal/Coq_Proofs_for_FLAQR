@@ -1,0 +1,160 @@
+DIGEST fd2eae7f938c8801a725d689a6ac3e25
+FCoq.Numbers.Natural.Peano.NPeano
+R841:848 Coq.Arith.PeanoNat <> <> lib
+R850:853 Coq.Arith.Even <> <> lib
+R855:861 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R1004:1013 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> mod
+R1018:1020 Coq.Arith.PeanoNat Nat <> modtype
+mod 997:999 <> Nat
+syndef 1112:1114 <> leb
+R1119:1125 Coq.Numbers.Natural.Peano.NPeano <> leb def
+syndef 1152:1154 <> ltb
+R1159:1165 Coq.Numbers.Natural.Peano.NPeano <> ltb def
+syndef 1192:1197 <> leb_le
+R1202:1211 Coq.Numbers.Natural.Peano.NPeano <> leb_le thm
+syndef 1238:1243 <> ltb_lt
+R1248:1257 Coq.Numbers.Natural.Peano.NPeano <> ltb_lt thm
+syndef 1284:1286 <> pow
+R1291:1297 Coq.Numbers.Natural.Peano.NPeano <> pow def
+syndef 1324:1330 <> pow_0_r
+R1335:1345 Coq.Numbers.Natural.Peano.NPeano <> pow_0_r thm
+syndef 1372:1381 <> pow_succ_r
+R1386:1399 Coq.Numbers.Natural.Peano.NPeano <> pow_succ_r thm
+syndef 1426:1431 <> square
+R1436:1445 Coq.Numbers.Natural.Peano.NPeano <> square def
+syndef 1472:1482 <> square_spec
+R1487:1501 Coq.Numbers.Natural.Peano.NPeano <> square_spec thm
+syndef 1528:1531 <> Even
+R1536:1543 Coq.Numbers.Natural.Peano.NPeano <> Even def
+syndef 1570:1572 <> Odd
+R1577:1583 Coq.Numbers.Natural.Peano.NPeano <> Odd def
+syndef 1610:1613 <> even
+R1618:1625 Coq.Numbers.Natural.Peano.NPeano <> even def
+syndef 1652:1654 <> odd
+R1659:1665 Coq.Numbers.Natural.Peano.NPeano <> odd def
+syndef 1692:1700 <> even_spec
+R1705:1717 Coq.Numbers.Natural.Peano.NPeano <> even_spec thm
+syndef 1744:1751 <> odd_spec
+R1756:1767 Coq.Numbers.Natural.Peano.NPeano <> odd_spec thm
+prf 1792:1801 <> Even_equiv
+R1813:1817 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1807:1810 Coq.Numbers.Natural.Peano.NPeano <> Even syndef
+R1812:1812 Coq.Numbers.Natural.Peano.NPeano <> n var
+R1818:1826 Coq.Arith.Even <> even ind
+R1828:1828 Coq.Numbers.Natural.Peano.NPeano <> n var
+R1854:1868 Coq.Arith.Even <> even_equiv thm
+R1854:1868 Coq.Arith.Even <> even_equiv thm
+prf 1882:1890 <> Odd_equiv
+R1901:1905 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1896:1898 Coq.Numbers.Natural.Peano.NPeano <> Odd syndef
+R1900:1900 Coq.Numbers.Natural.Peano.NPeano <> n var
+R1906:1913 Coq.Arith.Even <> odd ind
+R1915:1915 Coq.Numbers.Natural.Peano.NPeano <> n var
+R1941:1954 Coq.Arith.Even <> odd_equiv thm
+R1941:1954 Coq.Arith.Even <> odd_equiv thm
+syndef 1972:1977 <> divmod
+R1982:1991 Coq.Numbers.Natural.Peano.NPeano <> divmod def
+syndef 2018:2020 <> div
+R2025:2031 Coq.Numbers.Natural.Peano.NPeano <> div def
+syndef 2058:2063 <> modulo
+R2068:2077 Coq.Numbers.Natural.Peano.NPeano <> modulo def
+syndef 2104:2114 <> divmod_spec
+R2119:2133 Coq.Numbers.Natural.Peano.NPeano <> divmod_spec thm
+syndef 2160:2166 <> div_mod
+R2171:2181 Coq.Numbers.Natural.Peano.NPeano <> div_mod thm
+syndef 2208:2220 <> mod_bound_pos
+R2225:2241 Coq.Numbers.Natural.Peano.NPeano <> mod_bound_pos thm
+syndef 2268:2276 <> sqrt_iter
+R2281:2293 Coq.Numbers.Natural.Peano.NPeano <> sqrt_iter def
+syndef 2320:2323 <> sqrt
+R2328:2335 Coq.Numbers.Natural.Peano.NPeano <> sqrt def
+syndef 2362:2375 <> sqrt_iter_spec
+R2380:2397 Coq.Numbers.Natural.Peano.NPeano <> sqrt_iter_spec thm
+syndef 2424:2432 <> sqrt_spec
+R2437:2449 Coq.Numbers.Natural.Peano.NPeano <> sqrt_spec def
+syndef 2476:2484 <> log2_iter
+R2489:2501 Coq.Numbers.Natural.Peano.NPeano <> log2_iter def
+syndef 2528:2531 <> log2
+R2536:2543 Coq.Numbers.Natural.Peano.NPeano <> log2 def
+syndef 2570:2583 <> log2_iter_spec
+R2588:2605 Coq.Numbers.Natural.Peano.NPeano <> log2_iter_spec thm
+syndef 2632:2640 <> log2_spec
+R2645:2657 Coq.Numbers.Natural.Peano.NPeano <> log2_spec thm
+syndef 2684:2694 <> log2_nonpos
+R2699:2713 Coq.Numbers.Natural.Peano.NPeano <> log2_nonpos thm
+syndef 2740:2742 <> gcd
+R2747:2753 Coq.Numbers.Natural.Peano.NPeano <> gcd def
+syndef 2780:2785 <> divide
+R2790:2799 Coq.Numbers.Natural.Peano.NPeano <> divide def
+syndef 2826:2835 <> gcd_divide
+R2840:2853 Coq.Numbers.Natural.Peano.NPeano <> gcd_divide thm
+syndef 2880:2891 <> gcd_divide_l
+R2896:2911 Coq.Numbers.Natural.Peano.NPeano <> gcd_divide_l thm
+syndef 2938:2949 <> gcd_divide_r
+R2954:2969 Coq.Numbers.Natural.Peano.NPeano <> gcd_divide_r thm
+syndef 2996:3007 <> gcd_greatest
+R3012:3027 Coq.Numbers.Natural.Peano.NPeano <> gcd_greatest thm
+syndef 3054:3060 <> testbit
+R3065:3075 Coq.Numbers.Natural.Peano.NPeano <> testbit def
+syndef 3102:3107 <> shiftl
+R3112:3121 Coq.Numbers.Natural.Peano.NPeano <> shiftl def
+syndef 3148:3153 <> shiftr
+R3158:3167 Coq.Numbers.Natural.Peano.NPeano <> shiftr def
+syndef 3194:3200 <> bitwise
+R3205:3215 Coq.Numbers.Natural.Peano.NPeano <> bitwise def
+syndef 3242:3245 <> land
+R3250:3257 Coq.Numbers.Natural.Peano.NPeano <> land def
+syndef 3284:3286 <> lor
+R3291:3297 Coq.Numbers.Natural.Peano.NPeano <> lor def
+syndef 3324:3328 <> ldiff
+R3333:3341 Coq.Numbers.Natural.Peano.NPeano <> ldiff def
+syndef 3368:3371 <> lxor
+R3376:3383 Coq.Numbers.Natural.Peano.NPeano <> lxor def
+syndef 3410:3421 <> double_twice
+R3426:3441 Coq.Numbers.Natural.Peano.NPeano <> double_twice thm
+syndef 3468:3478 <> testbit_0_l
+R3483:3497 Coq.Numbers.Natural.Peano.NPeano <> testbit_0_l thm
+syndef 3524:3536 <> testbit_odd_0
+R3541:3557 Coq.Numbers.Natural.Peano.NPeano <> testbit_odd_0 thm
+syndef 3584:3597 <> testbit_even_0
+R3602:3619 Coq.Numbers.Natural.Peano.NPeano <> testbit_even_0 thm
+syndef 3646:3661 <> testbit_odd_succ
+R3666:3685 Coq.Numbers.Natural.Peano.NPeano <> testbit_odd_succ def
+syndef 3712:3728 <> testbit_even_succ
+R3733:3753 Coq.Numbers.Natural.Peano.NPeano <> testbit_even_succ def
+syndef 3780:3790 <> shiftr_spec
+R3795:3809 Coq.Numbers.Natural.Peano.NPeano <> shiftr_spec def
+syndef 3836:3851 <> shiftl_spec_high
+R3856:3875 Coq.Numbers.Natural.Peano.NPeano <> shiftl_spec_high def
+syndef 3902:3916 <> shiftl_spec_low
+R3921:3939 Coq.Numbers.Natural.Peano.NPeano <> shiftl_spec_low thm
+syndef 3966:3977 <> div2_bitwise
+R3982:3997 Coq.Numbers.Natural.Peano.NPeano <> div2_bitwise thm
+syndef 4024:4034 <> odd_bitwise
+R4039:4053 Coq.Numbers.Natural.Peano.NPeano <> odd_bitwise thm
+syndef 4080:4088 <> div2_decr
+R4093:4105 Coq.Numbers.Natural.Peano.NPeano <> div2_decr thm
+syndef 4132:4148 <> testbit_bitwise_1
+R4153:4173 Coq.Numbers.Natural.Peano.NPeano <> testbit_bitwise_1 thm
+syndef 4200:4216 <> testbit_bitwise_2
+R4221:4241 Coq.Numbers.Natural.Peano.NPeano <> testbit_bitwise_2 thm
+syndef 4268:4276 <> land_spec
+R4281:4293 Coq.Numbers.Natural.Peano.NPeano <> land_spec thm
+syndef 4320:4329 <> ldiff_spec
+R4334:4347 Coq.Numbers.Natural.Peano.NPeano <> ldiff_spec thm
+syndef 4374:4381 <> lor_spec
+R4386:4397 Coq.Numbers.Natural.Peano.NPeano <> lor_spec thm
+syndef 4424:4432 <> lxor_spec
+R4437:4449 Coq.Numbers.Natural.Peano.NPeano <> lxor_spec thm
+R4483:4489 Coq.Numbers.Natural.Peano.NPeano <> leb def
+not 4474:4474 <> :nat_scope:x_'<=?'_x
+R4532:4538 Coq.Numbers.Natural.Peano.NPeano <> ltb def
+not 4524:4524 <> :nat_scope:x_'<?'_x
+R4580:4586 Coq.Numbers.Natural.Peano.NPeano <> pow def
+not 4573:4573 <> :nat_scope:x_'^'_x
+R4614:4620 Coq.Numbers.Natural.Peano.NPeano <> div def
+not 4607:4607 <> :nat_scope:x_'/'_x
+R4650:4659 Coq.Numbers.Natural.Peano.NPeano <> modulo def
+not 4641:4641 <> :nat_scope:x_'mod'_x
+R4731:4740 Coq.Numbers.Natural.Peano.NPeano <> divide def
+not 4715:4715 <> :nat_scope:'('_x_'|'_x_')'

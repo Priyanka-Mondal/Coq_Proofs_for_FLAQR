@@ -1,0 +1,53 @@
+DIGEST 1cd32e82df8fc3e79b68ce916e964d2d
+FCoq.QArith.QOrderedType
+R691:701 Coq.QArith.QArith_base <> <> lib
+R703:712 Coq.Structures.Equalities <> <> lib
+R714:719 Coq.Structures.Orders <> <> lib
+R721:729 Coq.Structures.OrdersTac <> <> lib
+R833:849 Coq.Structures.Equalities DecidableTypeFull <> mod
+mod 822:828 <> Q_as_DT
+def 864:864 Q_as_DT t
+R869:869 Coq.QArith.QArith_base <> Q rec
+def 884:885 Q_as_DT eq
+R890:892 Coq.QArith.QArith_base <> Qeq def
+def 907:914 Q_as_DT eq_equiv
+R919:926 Coq.QArith.QArith_base <> Q_Setoid inst
+def 941:943 Q_as_DT eqb
+R948:955 Coq.QArith.QArith_base <> Qeq_bool def
+def 970:975 Q_as_DT eqb_eq
+R980:991 Coq.QArith.QArith_base <> Qeq_bool_iff thm
+R1004:1013 Coq.Structures.Equalities BackportEq <> modtype
+R1058:1070 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+R1092:1098 Coq.QArith.QOrderedType Q_as_DT <> mod
+R1301:1315 Coq.Structures.Orders OrderedTypeFull <> mod
+mod 1290:1296 <> Q_as_OT
+R1327:1333 Coq.QArith.QOrderedType Q_as_DT <> modtype
+def 1348:1349 Q_as_OT lt
+R1354:1356 Coq.QArith.QArith_base <> Qlt def
+def 1371:1372 Q_as_OT le
+R1377:1379 Coq.QArith.QArith_base <> Qle def
+def 1394:1400 Q_as_OT compare
+R1405:1412 Coq.QArith.QArith_base <> Qcompare def
+inst 1426:1436 Q_as_OT lt_strorder
+R1440:1450 Coq.Classes.RelationClasses <> StrictOrder class
+R1452:1454 Coq.QArith.QArith_base <> Qlt def
+R1480:1489 Coq.QArith.QArith_base <> Qlt_irrefl thm
+R1499:1507 Coq.QArith.QArith_base <> Qlt_trans thm
+R1480:1489 Coq.QArith.QArith_base <> Qlt_irrefl thm
+R1499:1507 Coq.QArith.QArith_base <> Qlt_trans thm
+inst 1528:1536 Q_as_OT lt_compat
+R1540:1545 Coq.Classes.Morphisms <> Proper class
+R1565:1567 Coq.QArith.QArith_base <> Qlt def
+R1551:1553 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1548:1550 Coq.QArith.QArith_base <> Qeq def
+R1557:1559 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1554:1556 Coq.QArith.QArith_base <> Qeq def
+R1560:1562 Coq.Init.Logic <> iff def
+def 1609:1615 Q_as_OT le_lteq
+R1620:1627 Coq.QArith.QArith_base <> Qle_lteq thm
+def 1642:1653 Q_as_OT compare_spec
+R1658:1670 Coq.QArith.QArith_base <> Qcompare_spec thm
+R1678:1684 Coq.QArith.QOrderedType Q_as_OT <> mod
+R1750:1764 Coq.Structures.OrdersTac OTF_to_OrderTac <> modtype
+R1766:1772 Coq.QArith.QOrderedType Q_as_OT <> modtype
+mod 1740:1745 <> QOrder

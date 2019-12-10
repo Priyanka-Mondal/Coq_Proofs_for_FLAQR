@@ -1,0 +1,23 @@
+DIGEST e072c9161139276d2bd87d91c9a7d3fe
+FCoq.Reals.Ranalysis
+R691:695 Coq.Reals.Rbase <> <> lib
+R713:722 Coq.Reals.Rfunctions <> <> lib
+R740:745 Coq.Reals.Rtrigo <> <> lib
+R763:771 Coq.Reals.SeqSeries <> <> lib
+R789:798 Coq.Reals.Ranalysis1 <> <> lib
+R816:825 Coq.Reals.Ranalysis2 <> <> lib
+R843:852 Coq.Reals.Ranalysis3 <> <> lib
+R870:878 Coq.Reals.Rtopology <> <> lib
+R896:898 Coq.Reals.MVT <> <> lib
+R916:926 Coq.Reals.PSeries_reg <> <> lib
+R944:951 Coq.Reals.Exp_prop <> <> lib
+R969:978 Coq.Reals.Rtrigo_reg <> <> lib
+R996:1004 Coq.Reals.Rsqrt_def <> <> lib
+R1022:1027 Coq.Reals.R_sqrt <> <> lib
+R1045:1055 Coq.Reals.Rtrigo_calc <> <> lib
+R1073:1077 Coq.Reals.Rgeom <> <> lib
+R1095:1099 Coq.Reals.RList <> <> lib
+R1117:1124 Coq.Reals.Sqrt_reg <> <> lib
+R1142:1151 Coq.Reals.Ranalysis4 <> <> lib
+R1169:1174 Coq.Reals.Rpower <> <> lib
+R1192:1204 Coq.Reals.Ranalysis_reg <> <> lib

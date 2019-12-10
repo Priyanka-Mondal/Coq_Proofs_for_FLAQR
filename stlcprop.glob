@@ -1,0 +1,64 @@
+DIGEST 47857c9203952ee24cdc532ca219c843
+Fstlcprop
+R61:64 maps <> <> lib
+R82:85 type <> <> lib
+R103:106 stlc <> <> lib
+R124:132 smallstep <> <> lib
+mod 142:149 <> STLCProp
+prf 172:191 STLCProp canonical_forms_bool
+R227:232 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R240:245 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R246:246 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R256:261 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R272:272 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R248:250 Coq.Init.Logic <> :type_scope:x_'='_x not
+R247:247 stlcprop <> t var
+R251:255 stlc STLC ttrue constr
+R263:265 Coq.Init.Logic <> :type_scope:x_'='_x not
+R262:262 stlcprop <> t var
+R266:271 stlc STLC tfalse constr
+R233:237 stlc STLC value ind
+R239:239 stlcprop <> t var
+R212:215 stlc STLC ::x_'|-'_x_'∈'_x not
+R217:221 stlc STLC ::x_'|-'_x_'∈'_x not
+R207:211 maps <> empty def
+R216:216 stlcprop <> t var
+R222:226 stlc STLC TBool constr
+prf 374:392 STLCProp canonical_forms_fun
+R443:448 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R456:461 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R462:468 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R472:473 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R475:477 Coq.Init.Logic <> :type_scope:x_'='_x not
+R474:474 stlcprop <> t var
+R478:481 stlc STLC tabs constr
+R488:488 stlcprop <> u var
+R485:486 stlcprop <> T1 var
+R483:483 stlcprop <> x var
+R449:453 stlc STLC value ind
+R455:455 stlcprop <> t var
+R419:422 stlc STLC ::x_'|-'_x_'∈'_x not
+R424:429 stlc STLC ::x_'|-'_x_'∈'_x not
+R442:442 stlc STLC ::x_'|-'_x_'∈'_x not
+R414:418 maps <> empty def
+R423:423 stlcprop <> t var
+R430:435 stlc STLC TArrow constr
+R440:441 stlcprop <> T2 var
+R437:438 stlcprop <> T1 var
+prf 614:621 STLCProp progress
+R655:660 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R668:671 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R661:665 stlc STLC value ind
+R667:667 stlcprop <> t var
+R672:678 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R681:682 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R684:688 stlc STLC ::x_'==>'_x not
+R683:683 stlcprop <> t var
+R689:690 stlcprop <> t' var
+R644:647 stlc STLC ::x_'|-'_x_'∈'_x not
+R649:653 stlc STLC ::x_'|-'_x_'∈'_x not
+R639:643 maps <> empty def
+R648:648 stlcprop <> t var
+R654:654 stlcprop <> T var
+R736:740 stlc STLC T_Var constr
+R736:740 stlc STLC T_Var constr

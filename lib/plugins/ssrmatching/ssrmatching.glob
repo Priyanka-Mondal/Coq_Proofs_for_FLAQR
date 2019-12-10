@@ -1,0 +1,17 @@
+DIGEST 101a29de458d66222e1fd41abaed8bdb
+FCoq.ssrmatching.ssrmatching
+mod 208:224 <> SsrMatchingSyntax
+not 697:697 SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')'
+syndef 886:888 SsrMatchingSyntax RHS
+R893:893 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R895:898 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R904:904 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R900:902 Coq.Init.Logic <> :type_scope:x_'='_x not
+R903:903 Coq.ssrmatching.ssrmatching <> X var
+syndef 924:926 SsrMatchingSyntax LHS
+R931:931 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R933:936 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R942:942 Coq.ssrmatching.ssrmatching SsrMatchingSyntax :ssrpatternscope:'('_x_'in'_x_')' not
+R938:940 Coq.Init.Logic <> :type_scope:x_'='_x not
+R937:937 Coq.ssrmatching.ssrmatching <> X var
+R958:974 Coq.ssrmatching.ssrmatching SsrMatchingSyntax <> mod

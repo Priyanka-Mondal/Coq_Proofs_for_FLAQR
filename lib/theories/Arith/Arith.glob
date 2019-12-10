@@ -1,0 +1,4 @@
+DIGEST 6f7a44c8a0ff08a6fa301588ce9f6c4e
+FCoq.Arith.Arith
+R691:700 Coq.Arith.Arith_base <> <> lib
+R718:726 Coq.setoid_ring.ArithRing <> <> lib

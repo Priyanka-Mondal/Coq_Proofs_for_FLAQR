@@ -1,0 +1,109 @@
+DIGEST 4e3b66d3bd3aad2a421793b673eb4adc
+FCoq.Wellfounded.Inverse_Image
+sec 713:725 <> Inverse_Image
+var 741:741 Inverse_Image A
+var 743:743 Inverse_Image B
+var 764:764 Inverse_Image R
+R769:772 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R774:777 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R773:773 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R768:768 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+var 795:795 Inverse_Image f
+R800:803 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R804:804 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R799:799 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+var 814:816 Inverse_Image Rof
+R823:823 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+R836:836 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R845:845 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R847:847 Coq.Wellfounded.Inverse_Image <> y var
+R839:839 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R841:841 Coq.Wellfounded.Inverse_Image <> x var
+prf 861:869 <> Acc_lemma
+R882:882 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R892:895 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R905:905 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+R915:918 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R919:921 Coq.Init.Wf <> Acc ind
+R927:927 Coq.Wellfounded.Inverse_Image <> x var
+R923:925 Coq.Wellfounded.Inverse_Image <> Inverse_Image.Rof var
+R909:911 Coq.Init.Logic <> :type_scope:x_'='_x not
+R908:908 Coq.Wellfounded.Inverse_Image <> y var
+R912:912 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R914:914 Coq.Wellfounded.Inverse_Image <> x var
+R885:887 Coq.Init.Wf <> Acc ind
+R891:891 Coq.Wellfounded.Inverse_Image <> y var
+R889:889 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R993:1001 Coq.Init.Wf <> Acc_intro constr
+R993:1001 Coq.Init.Wf <> Acc_intro constr
+R1036:1036 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R1036:1036 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+prf 1097:1113 <> Acc_inverse_image
+R1126:1126 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+R1140:1143 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1144:1146 Coq.Init.Wf <> Acc ind
+R1152:1152 Coq.Wellfounded.Inverse_Image <> x var
+R1148:1150 Coq.Wellfounded.Inverse_Image <> Inverse_Image.Rof var
+R1129:1131 Coq.Init.Wf <> Acc ind
+R1136:1136 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R1138:1138 Coq.Wellfounded.Inverse_Image <> x var
+R1133:1133 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R1183:1191 Coq.Wellfounded.Inverse_Image <> Acc_lemma thm
+R1194:1194 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+R1183:1191 Coq.Wellfounded.Inverse_Image <> Acc_lemma thm
+R1194:1194 Coq.Wellfounded.Inverse_Image <> Inverse_Image.f var
+prf 1228:1243 <> wf_inverse_image
+R1261:1264 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1265:1276 Coq.Init.Wf <> well_founded def
+R1278:1280 Coq.Wellfounded.Inverse_Image <> Inverse_Image.Rof var
+R1247:1258 Coq.Init.Wf <> well_founded def
+R1260:1260 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R1315:1331 Coq.Wellfounded.Inverse_Image <> Acc_inverse_image thm
+R1315:1331 Coq.Wellfounded.Inverse_Image <> Acc_inverse_image thm
+var 1359:1359 Inverse_Image F
+R1364:1367 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1369:1372 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1368:1368 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R1363:1363 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+var 1385:1387 Inverse_Image RoF
+R1394:1394 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+R1411:1418 Coq.Init.Logic <> :type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1420:1422 Coq.Init.Logic <> :type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1424:1425 Coq.Init.Logic <> :type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1431:1434 Coq.Init.Logic <> :type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1461:1461 Coq.Init.Logic <> :type_scope:'exists2'_x_':'_x_','_x_'&'_x not
+R1423:1423 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R1426:1426 Coq.Wellfounded.Inverse_Image <> Inverse_Image.F var
+R1430:1430 Coq.Wellfounded.Inverse_Image <> b var
+R1428:1428 Coq.Wellfounded.Inverse_Image <> x var
+R1444:1444 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R1452:1455 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1456:1456 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R1460:1460 Coq.Wellfounded.Inverse_Image <> c var
+R1458:1458 Coq.Wellfounded.Inverse_Image <> b var
+R1447:1447 Coq.Wellfounded.Inverse_Image <> Inverse_Image.F var
+R1451:1451 Coq.Wellfounded.Inverse_Image <> c var
+R1449:1449 Coq.Wellfounded.Inverse_Image <> y var
+prf 1473:1487 <> Acc_inverse_rel
+R1500:1500 Coq.Wellfounded.Inverse_Image <> Inverse_Image.B var
+R1510:1513 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1523:1523 Coq.Wellfounded.Inverse_Image <> Inverse_Image.A var
+R1531:1534 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1535:1537 Coq.Init.Wf <> Acc ind
+R1543:1543 Coq.Wellfounded.Inverse_Image <> x var
+R1539:1541 Coq.Wellfounded.Inverse_Image <> Inverse_Image.RoF var
+R1526:1526 Coq.Wellfounded.Inverse_Image <> Inverse_Image.F var
+R1530:1530 Coq.Wellfounded.Inverse_Image <> b var
+R1528:1528 Coq.Wellfounded.Inverse_Image <> x var
+R1503:1505 Coq.Init.Wf <> Acc ind
+R1509:1509 Coq.Wellfounded.Inverse_Image <> b var
+R1507:1507 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+prf 1695:1708 <> wf_inverse_rel
+R1726:1729 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1730:1741 Coq.Init.Wf <> well_founded def
+R1743:1745 Coq.Wellfounded.Inverse_Image <> Inverse_Image.RoF var
+R1712:1723 Coq.Init.Wf <> well_founded def
+R1725:1725 Coq.Wellfounded.Inverse_Image <> Inverse_Image.R var
+R1819:1833 Coq.Wellfounded.Inverse_Image <> Acc_inverse_rel thm
+R1819:1833 Coq.Wellfounded.Inverse_Image <> Acc_inverse_rel thm
+R1857:1869 Coq.Wellfounded.Inverse_Image Inverse_Image <> sec

@@ -1,0 +1,210 @@
+DIGEST 210e10d88e46a209fd649029b978e8b5
+FCoq.Classes.EquivDec
+R837:859 Coq.Classes.Equivalence <> <> lib
+R1008:1026 Coq.Logic.Decidable <> <> lib
+R1044:1056 Coq.Bool.Bool <> <> lib
+R1074:1092 Coq.Arith.Peano_dec <> <> lib
+R1110:1128 Coq.Program.Program <> <> lib
+ind 1195:1214 <> DecidableEquivalence
+constr 1246:1261 <> setoid_decidable
+rec 1195:1214 <> DecidableEquivalence
+proj 1246:1261 <> setoid_decidable
+R1226:1236 Coq.Classes.RelationClasses <> Equivalence class
+R1278:1278 Coq.Classes.EquivDec <> A var
+R1281:1289 Coq.Logic.Decidable <> decidable def
+R1293:1297 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R1292:1292 Coq.Classes.EquivDec <> x var
+R1298:1298 Coq.Classes.EquivDec <> y var
+ind 1399:1403 <> EqDec
+constr 1438:1446 <> equiv_dec
+rec 1399:1403 <> EqDec
+proj 1438:1446 <> equiv_dec
+R1418:1428 Coq.Classes.RelationClasses <> Equivalence class
+R1430:1430 Coq.Classes.EquivDec <> R var
+R1463:1463 Coq.Classes.EquivDec <> A var
+R1466:1467 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1475:1481 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1489:1490 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1469:1473 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R1468:1468 Coq.Classes.EquivDec <> x var
+R1474:1474 Coq.Classes.EquivDec <> y var
+R1483:1487 Coq.Classes.Equivalence <> :equiv_scope:x_'=/='_x not
+R1482:1482 Coq.Classes.EquivDec <> x var
+R1488:1488 Coq.Classes.EquivDec <> y var
+R1698:1706 Coq.Classes.EquivDec <> equiv_dec def
+not 1683:1683 <> :equiv_scope:x_'=='_x
+def 1782:1793 <> swap_sumbool
+R1806:1807 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1809:1815 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1817:1818 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1808:1808 Coq.Classes.EquivDec <> A var
+R1816:1816 Coq.Classes.EquivDec <> B var
+R1823:1824 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1826:1832 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1834:1835 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1825:1825 Coq.Classes.EquivDec <> B var
+R1833:1833 Coq.Classes.EquivDec <> A var
+R1848:1848 Coq.Classes.EquivDec <> x var
+R1861:1864 Coq.Init.Specif <> left constr
+R1872:1876 Coq.Init.Specif <> right constr
+R1890:1894 Coq.Init.Specif <> right constr
+R1902:1905 Coq.Init.Specif <> left constr
+def 2002:2011 <> nequiv_dec
+R2015:2019 Coq.Classes.EquivDec <> EqDec class
+R2031:2031 Coq.Classes.EquivDec <> A var
+R2036:2037 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2045:2051 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2059:2060 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2039:2043 Coq.Classes.Equivalence <> :equiv_scope:x_'=/='_x not
+R2038:2038 Coq.Classes.EquivDec <> x var
+R2044:2044 Coq.Classes.EquivDec <> y var
+R2053:2057 Coq.Classes.Equivalence <> :equiv_scope:x_'==='_x not
+R2052:2052 Coq.Classes.EquivDec <> x var
+R2058:2058 Coq.Classes.EquivDec <> y var
+R2076:2087 Coq.Classes.EquivDec <> swap_sumbool def
+R2091:2094 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R2090:2090 Coq.Classes.EquivDec <> x var
+R2095:2095 Coq.Classes.EquivDec <> y var
+R2159:2168 Coq.Classes.EquivDec <> nequiv_dec def
+not 2151:2151 <> :equiv_scope:x_'<>'_x
+def 2294:2303 <> equiv_decb
+R2307:2311 Coq.Classes.EquivDec <> EqDec class
+R2323:2323 Coq.Classes.EquivDec <> A var
+R2328:2331 Coq.Init.Datatypes <> bool ind
+R2342:2345 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R2341:2341 Coq.Classes.EquivDec <> x var
+R2346:2346 Coq.Classes.EquivDec <> y var
+R2363:2367 Coq.Init.Datatypes <> false constr
+R2353:2356 Coq.Init.Datatypes <> true constr
+def 2382:2392 <> nequiv_decb
+R2396:2400 Coq.Classes.EquivDec <> EqDec class
+R2412:2412 Coq.Classes.EquivDec <> A var
+R2417:2420 Coq.Init.Datatypes <> bool ind
+R2427:2430 Coq.Init.Datatypes <> negb def
+R2433:2442 Coq.Classes.EquivDec <> equiv_decb def
+R2446:2446 Coq.Classes.EquivDec <> y var
+R2444:2444 Coq.Classes.EquivDec <> x var
+R2466:2475 Coq.Classes.EquivDec <> equiv_decb def
+not 2457:2457 <> ::x_'==b'_x
+R2525:2535 Coq.Classes.EquivDec <> nequiv_decb def
+not 2516:2516 <> ::x_'<>b'_x
+inst 2755:2766 <> nat_eq_eqdec
+R2770:2774 Coq.Classes.EquivDec <> EqDec class
+R2780:2781 Coq.Init.Logic <> eq ind
+R2776:2778 Coq.Init.Datatypes <> nat ind
+R2786:2795 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+inst 2816:2825 <> bool_eqdec
+R2829:2833 Coq.Classes.EquivDec <> EqDec class
+R2840:2841 Coq.Init.Logic <> eq ind
+R2835:2838 Coq.Init.Datatypes <> bool ind
+R2846:2853 Coq.Bool.Bool <> bool_dec thm
+inst 2874:2883 <> unit_eqdec
+R2887:2891 Coq.Classes.EquivDec <> EqDec class
+R2898:2899 Coq.Init.Logic <> eq ind
+R2893:2896 Coq.Init.Datatypes <> unit ind
+R2915:2921 Coq.Program.Utils <> in_left syndef
+R3035:3044 Coq.Classes.RelationClasses <> complement def
+R3047:3051 Coq.Classes.Equivalence <> equiv def
+inst 3088:3097 <> prod_eqdec
+R3101:3105 Coq.Classes.EquivDec <> EqDec class
+R3109:3110 Coq.Init.Logic <> eq ind
+R3113:3117 Coq.Classes.EquivDec <> EqDec class
+R3121:3122 Coq.Init.Logic <> eq ind
+R3131:3135 Coq.Classes.EquivDec <> EqDec class
+R3148:3149 Coq.Init.Logic <> eq ind
+R3138:3141 Coq.Init.Datatypes <> prod ind
+R3145:3145 Coq.Classes.EquivDec <> B var
+R3143:3143 Coq.Classes.EquivDec <> A var
+R3158:3166 Coq.Classes.EquivDec <> equiv_dec def
+R3196:3196 Coq.Classes.EquivDec <> x var
+R3184:3184 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3187:3188 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3191:3191 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3222:3222 Coq.Classes.EquivDec <> y var
+R3210:3210 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3213:3214 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3217:3217 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3236:3239 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3308:3315 Coq.Program.Utils <> in_right syndef
+R3259:3262 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3290:3297 Coq.Program.Utils <> in_right syndef
+R3271:3277 Coq.Program.Utils <> in_left syndef
+inst 3338:3346 <> sum_eqdec
+R3350:3354 Coq.Classes.EquivDec <> EqDec class
+R3358:3359 Coq.Init.Logic <> eq ind
+R3362:3366 Coq.Classes.EquivDec <> EqDec class
+R3370:3371 Coq.Init.Logic <> eq ind
+R3378:3382 Coq.Classes.EquivDec <> EqDec class
+R3394:3395 Coq.Init.Logic <> eq ind
+R3385:3387 Coq.Init.Datatypes <> sum ind
+R3391:3391 Coq.Classes.EquivDec <> B var
+R3389:3389 Coq.Classes.EquivDec <> A var
+R3404:3412 Coq.Classes.EquivDec <> equiv_dec def
+R3434:3434 Coq.Classes.EquivDec <> y var
+R3431:3431 Coq.Classes.EquivDec <> x var
+R3449:3451 Coq.Init.Datatypes <> inl constr
+R3456:3458 Coq.Init.Datatypes <> inl constr
+R3469:3472 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3493:3500 Coq.Program.Utils <> in_right syndef
+R3480:3486 Coq.Program.Utils <> in_left syndef
+R3510:3512 Coq.Init.Datatypes <> inr constr
+R3517:3519 Coq.Init.Datatypes <> inr constr
+R3530:3533 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3554:3561 Coq.Program.Utils <> in_right syndef
+R3541:3547 Coq.Program.Utils <> in_left syndef
+R3571:3573 Coq.Init.Datatypes <> inl constr
+R3578:3580 Coq.Init.Datatypes <> inr constr
+R3586:3588 Coq.Init.Datatypes <> inr constr
+R3593:3595 Coq.Init.Datatypes <> inl constr
+R3602:3609 Coq.Program.Utils <> in_right syndef
+R3602:3609 Coq.Program.Utils <> in_right syndef
+inst 3801:3819 <> bool_function_eqdec
+R3823:3827 Coq.Classes.EquivDec <> EqDec class
+R3831:3832 Coq.Init.Logic <> eq ind
+R3839:3843 Coq.Classes.EquivDec <> EqDec class
+R3857:3858 Coq.Init.Logic <> eq ind
+R3850:3853 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3854:3854 Coq.Classes.EquivDec <> A var
+R3846:3849 Coq.Init.Datatypes <> bool ind
+R3867:3875 Coq.Classes.EquivDec <> equiv_dec def
+R3897:3900 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3891:3891 Coq.Classes.EquivDec <> f var
+R3893:3896 Coq.Init.Datatypes <> true constr
+R3901:3901 Coq.Classes.EquivDec <> g var
+R3903:3906 Coq.Init.Datatypes <> true constr
+R3983:3990 Coq.Program.Utils <> in_right syndef
+R3929:3932 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R3922:3922 Coq.Classes.EquivDec <> f var
+R3924:3928 Coq.Init.Datatypes <> false constr
+R3933:3933 Coq.Classes.EquivDec <> g var
+R3935:3939 Coq.Init.Datatypes <> false constr
+R3965:3972 Coq.Program.Utils <> in_right syndef
+R3946:3952 Coq.Program.Utils <> in_left syndef
+R4092:4095 Coq.Lists.List <> <> lib
+inst 4116:4125 <> list_eqdec
+R4135:4139 Coq.Classes.EquivDec <> EqDec class
+R4143:4144 Coq.Init.Logic <> eq ind
+R4151:4155 Coq.Classes.EquivDec <> EqDec class
+R4166:4167 Coq.Init.Logic <> eq ind
+R4158:4161 Coq.Init.Datatypes <> list ind
+R4163:4163 Coq.Classes.EquivDec <> A var
+R4176:4184 Coq.Classes.EquivDec <> equiv_dec def
+R4208:4211 Coq.Init.Datatypes <> list ind
+R4232:4232 Coq.Classes.EquivDec <> y var
+R4229:4229 Coq.Classes.EquivDec <> x var
+R4247:4249 Coq.Init.Datatypes <> nil constr
+R4252:4254 Coq.Init.Datatypes <> nil constr
+R4259:4265 Coq.Program.Utils <> in_left syndef
+R4275:4278 Coq.Init.Datatypes <> cons constr
+R4287:4290 Coq.Init.Datatypes <> cons constr
+R4316:4319 Coq.Classes.EquivDec <> :equiv_scope:x_'=='_x not
+R4395:4402 Coq.Program.Utils <> in_right syndef
+R4342:4344 Coq.Classes.EquivDec <> aux var
+R4371:4378 Coq.Program.Utils <> in_right syndef
+R4358:4364 Coq.Program.Utils <> in_left syndef
+R4420:4427 Coq.Program.Utils <> in_right syndef
+R4480:4482 Coq.Init.Logic <> not def
+R4539:4543 Coq.Classes.Equivalence <> equiv def
+R4546:4555 Coq.Classes.RelationClasses <> complement def
+R4539:4543 Coq.Classes.Equivalence <> equiv def
+R4546:4555 Coq.Classes.RelationClasses <> complement def

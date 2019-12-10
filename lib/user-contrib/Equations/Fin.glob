@@ -1,0 +1,212 @@
+DIGEST 7e9c6774f9a52b0f648f440fa9448caa
+FEquations.Fin
+R599:617 Coq.Program.Program <> <> lib
+R619:637 Equations.Equations <> <> lib
+ind 709:711 <> fin
+constr 731:732 <> fz
+constr 760:761 <> fs
+R718:721 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R715:717 Coq.Init.Datatypes <> nat ind
+R748:750 Equations.Fin <> fin ind
+R753:753 Coq.Init.Datatypes <> S constr
+R755:755 Equations.Fin <> n var
+R782:785 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R786:788 Equations.Fin <> fin ind
+R791:791 Coq.Init.Datatypes <> S constr
+R793:793 Equations.Fin <> n var
+R777:779 Equations.Fin <> fin ind
+R781:781 Equations.Fin <> n var
+def 853:855 <> fog
+R866:868 Equations.Fin <> fin ind
+R870:870 Equations.Fin <> n var
+R875:877 Coq.Init.Datatypes <> nat ind
+R882:884 Equations.Fin <> fog def
+R899:900 Equations.Fin <> fz constr
+R913:915 Equations.Fin <> fog def
+R918:919 Equations.Fin <> fs constr
+R892:892 Coq.Init.Datatypes <> S constr
+R929:929 Coq.Init.Datatypes <> S constr
+R932:934 Equations.Fin <> fog def
+R999:1017 Equations.FunctionalInduction <> <> lib
+prf 1028:1034 <> fog_inj
+R1045:1047 Equations.Fin <> fin ind
+R1049:1049 Equations.Fin <> n var
+R1059:1061 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1054:1056 Equations.Fin <> fog def
+R1058:1058 Equations.Fin <> f var
+R1062:1062 Equations.Fin <> n var
+def 1186:1188 <> gof
+R1194:1196 Equations.Fin <> fin ind
+R1199:1199 Coq.Init.Datatypes <> S constr
+R1207:1209 Equations.Fin <> gof def
+R1211:1211 Coq.Init.Datatypes <> O constr
+R1221:1223 Equations.Fin <> gof def
+R1226:1226 Coq.Init.Datatypes <> S constr
+R1216:1217 Equations.Fin <> fz constr
+R1234:1235 Equations.Fin <> fs constr
+R1238:1240 Equations.Fin <> gof def
+prf 1253:1259 <> fog_gof
+R1276:1278 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1265:1267 Equations.Fin <> fog def
+R1270:1272 Equations.Fin <> gof def
+R1274:1274 Equations.Fin <> n var
+R1279:1279 Equations.Fin <> n var
+R1328:1330 Equations.Fin <> gof def
+R1328:1330 Equations.Fin <> gof def
+ind 1740:1744 <> finle
+constr 1800:1803 <> leqz
+constr 1840:1843 <> leqs
+R1760:1762 Coq.Init.Datatypes <> nat ind
+R1770:1772 Equations.Fin <> fin ind
+R1774:1774 Equations.Fin <> n var
+R1782:1784 Equations.Fin <> fin ind
+R1786:1786 Equations.Fin <> n var
+R1821:1825 Equations.Fin <> finle ind
+R1836:1836 Equations.Fin <> j var
+R1833:1834 Equations.Fin <> fz constr
+R1828:1828 Coq.Init.Datatypes <> S constr
+R1830:1830 Equations.Fin <> n var
+R1874:1877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1878:1882 Equations.Fin <> finle ind
+R1898:1899 Equations.Fin <> fs constr
+R1901:1901 Equations.Fin <> j var
+R1891:1892 Equations.Fin <> fs constr
+R1894:1894 Equations.Fin <> i var
+R1885:1885 Coq.Init.Datatypes <> S constr
+R1887:1887 Equations.Fin <> n var
+R1863:1867 Equations.Fin <> finle ind
+R1873:1873 Equations.Fin <> j var
+R1871:1871 Equations.Fin <> i var
+R1869:1869 Equations.Fin <> n var
+def 1913:1925 <> finle_ind_dep
+R1944:1948 Equations.Fin <> finle ind
+inst 1971:1984 <> finle_ind_pack
+R1994:2020 Equations.DepElim <> DependentEliminationPackage class
+R2023:2027 Equations.Fin <> finle ind
+R2033:2033 Equations.Fin <> y var
+R2031:2031 Equations.Fin <> x var
+R2029:2029 Equations.Fin <> n var
+R2060:2063 Equations.DepElim <> elim meth
+R2043:2051 Equations.DepElim <> elim_type meth
+R2068:2080 Equations.Fin <> finle_ind_dep scheme
+R2096:2100 Equations.Fin <> finle ind
+R2096:2100 Equations.Fin <> finle ind
+R2116:2129 Coq.Vectors.Vector <> <> lib
+R2142:2151 Coq.Vectors.Vector <> nil constr
+R2142:2151 Coq.Vectors.Vector <> nil constr
+R2168:2178 Coq.Vectors.Vector <> cons constr
+R2168:2178 Coq.Vectors.Vector <> cons constr
+syndef 2200:2203 <> vnil
+R2208:2217 Coq.Vectors.Vector <> nil constr
+syndef 2229:2233 <> vcons
+R2238:2248 Coq.Vectors.Vector <> cons constr
+def 2270:2272 <> nth
+R2287:2294 Coq.Vectors.Vector <> t ind
+R2298:2298 Equations.Fin <> n var
+R2296:2296 Equations.Fin <> A var
+R2306:2308 Equations.Fin <> fin ind
+R2310:2310 Equations.Fin <> n var
+R2320:2322 Equations.Fin <> nth def
+R2325:2329 Coq.Vectors.Vector <> cons constr
+R2338:2339 Equations.Fin <> fz constr
+R2348:2350 Equations.Fin <> nth def
+R2353:2357 Coq.Vectors.Vector <> cons constr
+R2367:2368 Equations.Fin <> fs constr
+R2378:2380 Equations.Fin <> nth def
+def 2406:2413 <> tabulate
+R2433:2436 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2437:2437 Equations.Fin <> A var
+R2428:2430 Equations.Fin <> fin ind
+R2432:2432 Equations.Fin <> n var
+R2442:2449 Coq.Vectors.Vector <> t ind
+R2458:2465 Equations.Fin <> tabulate def
+R2471:2471 Coq.Init.Datatypes <> O constr
+R2486:2493 Equations.Fin <> tabulate def
+R2500:2500 Coq.Init.Datatypes <> S constr
+R2479:2482 Equations.Fin <> vnil syndef
+R2511:2515 Equations.Fin <> vcons syndef
+R2525:2532 Equations.Fin <> tabulate def
+R2536:2540 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R2541:2542 Equations.Fin <> fs constr
+R2520:2521 Equations.Fin <> fz constr
+R2602:2604 Equations.Fin <> fin ind
+def 2668:2676 <> Below_fin
+R2698:2701 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2693:2695 Equations.Fin <> fin ind
+R2697:2697 Equations.Fin <> n var
+R2717:2719 Equations.Fin <> fin ind
+R2721:2721 Equations.Fin <> n var
+R2734:2742 Equations.Fin <> Below_fin def
+R2746:2747 Equations.Fin <> fz constr
+R2759:2767 Equations.Fin <> Below_fin def
+R2772:2773 Equations.Fin <> fs constr
+R2752:2755 Coq.Init.Datatypes <> unit ind
+R2789:2791 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2792:2800 Equations.Fin <> Below_fin def
+R2827:2846 Equations.Fin <> Below_fin_equation_2 def
+def 2916:2924 <> below_fin
+R2946:2949 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2941:2943 Equations.Fin <> fin ind
+R2945:2945 Equations.Fin <> n var
+R2980:2982 Equations.Fin <> fin ind
+R2984:2984 Equations.Fin <> n var
+R3001:3004 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3005:3005 Equations.Fin <> P var
+R3009:3009 Equations.Fin <> v var
+R3007:3007 Equations.Fin <> n var
+R2988:2996 Equations.Fin <> Below_fin def
+R3000:3000 Equations.Fin <> v var
+R2998:2998 Equations.Fin <> P var
+R3023:3025 Equations.Fin <> fin ind
+R3027:3027 Equations.Fin <> n var
+R3032:3040 Equations.Fin <> Below_fin def
+R3049:3057 Equations.Fin <> below_fin def
+R3066:3067 Equations.Fin <> fz constr
+R3077:3085 Equations.Fin <> below_fin def
+R3095:3096 Equations.Fin <> fs constr
+R3072:3073 Coq.Init.Datatypes <> tt constr
+R3119:3127 Equations.Fin <> below_fin def
+R3145:3145 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3157:3158 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3161:3161 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3155:3156 Equations.Fin <> bf var
+R3159:3160 Equations.Fin <> bf var
+R3179:3187 Equations.Fin <> Below_fin def
+def 3202:3208 <> rec_fin
+R3230:3233 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3225:3227 Equations.Fin <> fin ind
+R3229:3229 Equations.Fin <> n var
+R3270:3272 Equations.Fin <> fin ind
+R3274:3274 Equations.Fin <> n var
+R3291:3294 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3295:3295 Equations.Fin <> P var
+R3299:3299 Equations.Fin <> v var
+R3297:3297 Equations.Fin <> n var
+R3278:3286 Equations.Fin <> Below_fin def
+R3290:3290 Equations.Fin <> v var
+R3288:3288 Equations.Fin <> P var
+R3304:3304 Equations.Fin <> P var
+R3308:3308 Equations.Fin <> v var
+R3306:3306 Equations.Fin <> n var
+R3315:3318 Equations.Fin <> step var
+R3325:3333 Equations.Fin <> below_fin def
+R3342:3342 Equations.Fin <> v var
+R3337:3340 Equations.Fin <> step var
+R3335:3335 Equations.Fin <> P var
+R3322:3322 Equations.Fin <> v var
+R3320:3320 Equations.Fin <> n var
+inst 3381:3392 <> fin_Recursor
+R3398:3405 Equations.Below <> Recursor class
+R3408:3410 Equations.Fin <> fin ind
+R3412:3412 Equations.Fin <> n var
+R3497:3499 Equations.Below <> rec meth
+R3422:3429 Equations.Below <> rec_type meth
+R3470:3473 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3465:3467 Equations.Fin <> fin ind
+R3469:3469 Equations.Fin <> n var
+R3486:3486 Equations.Fin <> P var
+R3490:3490 Equations.Fin <> v var
+R3520:3526 Equations.Fin <> rec_fin def
+R3532:3535 Equations.Fin <> step var
+R3530:3530 Equations.Fin <> v var
+R3528:3528 Equations.Fin <> P var

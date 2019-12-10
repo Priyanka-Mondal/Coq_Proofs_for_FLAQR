@@ -1,0 +1,7 @@
+DIGEST 788422ae4a2f45a75d40277278638643
+FCoq.Unicode.Utf8
+R718:726 Coq.Unicode.Utf8_core <> <> lib
+R770:771 Coq.Init.Peano <> le ind
+not 756:756 <> ::x_'≤'_x
+R834:835 Coq.Init.Peano <> ge def
+not 820:820 <> ::x_'≥'_x

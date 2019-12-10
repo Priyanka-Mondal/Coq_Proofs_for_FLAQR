@@ -1,0 +1,6 @@
+DIGEST c734fb9fef19b808df5ad626024b876a
+FCoq.PArith.PArith
+R736:742 Coq.Numbers.BinNums <> <> lib
+R744:749 Coq.PArith.BinPos <> <> lib
+R751:754 Coq.PArith.Pnat <> <> lib
+R756:767 Coq.PArith.POrderedType <> <> lib

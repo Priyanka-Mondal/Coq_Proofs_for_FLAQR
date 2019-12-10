@@ -1,0 +1,166 @@
+DIGEST 5b25f24e88002249edb1b4c68be11570
+FCoq.Reals.Rdefinitions
+R909:919 Coq.ZArith.ZArith_base <> <> lib
+ax 933:933 <> R
+ax 1148:1149 <> R0
+R1153:1153 Coq.Reals.Rdefinitions <> R defax
+ax 1166:1167 <> R1
+R1171:1171 Coq.Reals.Rdefinitions <> R defax
+ax 1184:1188 <> Rplus
+R1193:1196 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1198:1201 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1202:1202 Coq.Reals.Rdefinitions <> R defax
+R1197:1197 Coq.Reals.Rdefinitions <> R defax
+R1192:1192 Coq.Reals.Rdefinitions <> R defax
+ax 1215:1219 <> Rmult
+R1224:1227 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1229:1232 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1233:1233 Coq.Reals.Rdefinitions <> R defax
+R1228:1228 Coq.Reals.Rdefinitions <> R defax
+R1223:1223 Coq.Reals.Rdefinitions <> R defax
+ax 1246:1249 <> Ropp
+R1254:1257 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1258:1258 Coq.Reals.Rdefinitions <> R defax
+R1253:1253 Coq.Reals.Rdefinitions <> R defax
+ax 1271:1274 <> Rinv
+R1279:1282 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1283:1283 Coq.Reals.Rdefinitions <> R defax
+R1278:1278 Coq.Reals.Rdefinitions <> R defax
+ax 1296:1298 <> Rlt
+R1303:1306 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1308:1311 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1307:1307 Coq.Reals.Rdefinitions <> R defax
+R1302:1302 Coq.Reals.Rdefinitions <> R defax
+ax 1328:1329 <> up
+R1334:1337 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1338:1338 Coq.Numbers.BinNums <> Z ind
+R1333:1333 Coq.Reals.Rdefinitions <> R defax
+R1355:1359 Coq.Reals.Rdefinitions <> Rplus defax
+not 1348:1348 <> :R_scope:x_'+'_x
+R1385:1389 Coq.Reals.Rdefinitions <> Rmult defax
+not 1378:1378 <> :R_scope:x_'*'_x
+R1421:1424 Coq.Reals.Rdefinitions <> Ropp defax
+not 1411:1411 <> :R_scope:'-'_x
+R1459:1462 Coq.Reals.Rdefinitions <> Rinv defax
+not 1449:1449 <> :R_scope:'/'_x
+R1492:1494 Coq.Reals.Rdefinitions <> Rlt defax
+not 1485:1485 <> :R_scope:x_'<'_x
+def 1595:1597 <> Rgt
+R1606:1606 Coq.Reals.Rdefinitions <> R defax
+R1621:1623 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R1619:1620 Coq.Reals.Rdefinitions <> r2 var
+R1624:1625 Coq.Reals.Rdefinitions <> r1 var
+def 1653:1655 <> Rle
+R1664:1664 Coq.Reals.Rdefinitions <> R defax
+R1684:1687 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1679:1681 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R1677:1678 Coq.Reals.Rdefinitions <> r1 var
+R1682:1683 Coq.Reals.Rdefinitions <> r2 var
+R1690:1692 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1688:1689 Coq.Reals.Rdefinitions <> r1 var
+R1693:1694 Coq.Reals.Rdefinitions <> r2 var
+def 1722:1724 <> Rge
+R1733:1733 Coq.Reals.Rdefinitions <> R defax
+R1755:1758 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1746:1748 Coq.Reals.Rdefinitions <> Rgt def
+R1753:1754 Coq.Reals.Rdefinitions <> r2 var
+R1750:1751 Coq.Reals.Rdefinitions <> r1 var
+R1761:1763 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1759:1760 Coq.Reals.Rdefinitions <> r1 var
+R1764:1765 Coq.Reals.Rdefinitions <> r2 var
+def 1793:1798 <> Rminus
+R1807:1807 Coq.Reals.Rdefinitions <> R defax
+R1812:1812 Coq.Reals.Rdefinitions <> R defax
+R1819:1821 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R1817:1818 Coq.Reals.Rdefinitions <> r1 var
+R1822:1823 Coq.Reals.Rdefinitions <> :R_scope:'-'_x not
+R1824:1825 Coq.Reals.Rdefinitions <> r2 var
+def 1853:1856 <> Rdiv
+R1865:1865 Coq.Reals.Rdefinitions <> R defax
+R1870:1870 Coq.Reals.Rdefinitions <> R defax
+R1877:1879 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R1875:1876 Coq.Reals.Rdefinitions <> r1 var
+R1880:1881 Coq.Reals.Rdefinitions <> :R_scope:'/'_x not
+R1882:1883 Coq.Reals.Rdefinitions <> r2 var
+R1914:1919 Coq.Reals.Rdefinitions <> Rminus def
+not 1907:1907 <> :R_scope:x_'-'_x
+R1945:1948 Coq.Reals.Rdefinitions <> Rdiv def
+not 1938:1938 <> :R_scope:x_'/'_x
+R1978:1980 Coq.Reals.Rdefinitions <> Rle def
+not 1970:1970 <> :R_scope:x_'<='_x
+R2007:2009 Coq.Reals.Rdefinitions <> Rge def
+not 1999:1999 <> :R_scope:x_'>='_x
+R2036:2038 Coq.Reals.Rdefinitions <> Rgt def
+not 2028:2028 <> :R_scope:x_'>'_x
+R2085:2088 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2080:2083 Coq.Reals.Rdefinitions <> :R_scope:x_'<='_x not
+R2090:2093 Coq.Reals.Rdefinitions <> :R_scope:x_'<='_x not
+not 2061:2061 <> :R_scope:x_'<='_x_'<='_x
+R2141:2144 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2136:2139 Coq.Reals.Rdefinitions <> :R_scope:x_'<='_x not
+R2146:2149 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+not 2117:2117 <> :R_scope:x_'<='_x_'<'_x
+R2197:2200 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2192:2195 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R2202:2205 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+not 2173:2173 <> :R_scope:x_'<'_x_'<'_x
+R2253:2256 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2248:2251 Coq.Reals.Rdefinitions <> :R_scope:x_'<'_x not
+R2258:2261 Coq.Reals.Rdefinitions <> :R_scope:x_'<='_x not
+not 2229:2229 <> :R_scope:x_'<'_x_'<='_x
+def 2507:2511 <> IPR_2
+R2516:2523 Coq.Numbers.BinNums <> positive ind
+R2528:2528 Coq.Reals.Rdefinitions <> R defax
+R2541:2541 Coq.Reals.Rdefinitions <> p var
+R2552:2553 Coq.Numbers.BinNums <> xH constr
+R2560:2562 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R2558:2559 Coq.Reals.Rdefinitions <> R1 defax
+R2563:2564 Coq.Reals.Rdefinitions <> R1 defax
+R2570:2571 Coq.Numbers.BinNums <> xO constr
+R2578:2578 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R2586:2589 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R2581:2583 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R2579:2580 Coq.Reals.Rdefinitions <> R1 defax
+R2584:2585 Coq.Reals.Rdefinitions <> R1 defax
+R2590:2594 Coq.Reals.Rdefinitions <> IPR_2 def
+R2596:2596 Coq.Reals.Rdefinitions <> p var
+R2602:2603 Coq.Numbers.BinNums <> xI constr
+R2610:2610 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R2618:2622 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R2635:2635 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R2613:2615 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R2611:2612 Coq.Reals.Rdefinitions <> R1 defax
+R2616:2617 Coq.Reals.Rdefinitions <> R1 defax
+R2625:2627 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R2623:2624 Coq.Reals.Rdefinitions <> R1 defax
+R2628:2632 Coq.Reals.Rdefinitions <> IPR_2 def
+R2634:2634 Coq.Reals.Rdefinitions <> p var
+def 2656:2658 <> IPR
+R2663:2670 Coq.Numbers.BinNums <> positive ind
+R2675:2675 Coq.Reals.Rdefinitions <> R defax
+R2688:2688 Coq.Reals.Rdefinitions <> p var
+R2699:2700 Coq.Numbers.BinNums <> xH constr
+R2705:2706 Coq.Reals.Rdefinitions <> R1 defax
+R2712:2713 Coq.Numbers.BinNums <> xO constr
+R2720:2724 Coq.Reals.Rdefinitions <> IPR_2 def
+R2726:2726 Coq.Reals.Rdefinitions <> p var
+R2732:2733 Coq.Numbers.BinNums <> xI constr
+R2742:2744 Coq.Reals.Rdefinitions <> :R_scope:x_'+'_x not
+R2740:2741 Coq.Reals.Rdefinitions <> R1 defax
+R2745:2749 Coq.Reals.Rdefinitions <> IPR_2 def
+R2751:2751 Coq.Reals.Rdefinitions <> p var
+R2770:2772 Coq.Reals.Rdefinitions <> IPR def
+R2770:2772 Coq.Reals.Rdefinitions <> IPR def
+def 2825:2827 <> IZR
+R2832:2832 Coq.Numbers.BinNums <> Z ind
+R2837:2837 Coq.Reals.Rdefinitions <> R defax
+R2850:2850 Coq.Reals.Rdefinitions <> z var
+R2861:2862 Coq.Numbers.BinNums <> Z0 constr
+R2867:2868 Coq.Reals.Rdefinitions <> R0 defax
+R2874:2877 Coq.Numbers.BinNums <> Zpos constr
+R2884:2886 Coq.Reals.Rdefinitions <> IPR def
+R2894:2897 Coq.Numbers.BinNums <> Zneg constr
+R2904:2905 Coq.Reals.Rdefinitions <> :R_scope:'-'_x not
+R2906:2908 Coq.Reals.Rdefinitions <> IPR def
+R2929:2931 Coq.Reals.Rdefinitions <> IZR def
+R2929:2931 Coq.Reals.Rdefinitions <> IZR def

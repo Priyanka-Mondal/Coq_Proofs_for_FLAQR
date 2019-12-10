@@ -1,0 +1,556 @@
+DIGEST 076ef507b7d2bc8b9d1a01357ae6ae9d
+Ftyperevise
+R71:81 Coq.Arith.Arith <> <> lib
+R99:102 maps <> <> lib
+R120:122 imp <> <> lib
+R140:149 smallstep2 <> <> lib
+R170:174 typerevise <> multi ind
+ind 188:189 <> tm
+constr 205:209 <> ttrue
+constr 220:225 <> tfalse
+constr 236:238 <> tif
+constr 267:271 <> tzero
+constr 282:286 <> tsucc
+constr 303:307 <> tpred
+constr 324:330 <> tiszero
+R213:214 typerevise <> tm ind
+R229:230 typerevise <> tm ind
+R244:247 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R250:253 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R256:259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R260:261 typerevise <> tm ind
+R254:255 typerevise <> tm ind
+R248:249 typerevise <> tm ind
+R242:243 typerevise <> tm ind
+R275:276 typerevise <> tm ind
+R292:295 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R296:297 typerevise <> tm ind
+R290:291 typerevise <> tm ind
+R313:316 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R317:318 typerevise <> tm ind
+R311:312 typerevise <> tm ind
+R336:339 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R340:341 typerevise <> tm ind
+R334:335 typerevise <> tm ind
+ind 355:360 <> bvalue
+constr 382:388 <> bv_true
+constr 409:416 <> bv_false
+R366:369 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R364:365 typerevise <> tm ind
+R392:397 typerevise <> bvalue ind
+R399:403 typerevise <> ttrue constr
+R420:425 typerevise <> bvalue ind
+R427:432 typerevise <> tfalse constr
+ind 445:450 <> nvalue
+constr 472:478 <> nv_zero
+constr 499:505 <> nv_succ
+R456:459 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R454:455 typerevise <> tm ind
+R482:487 typerevise <> nvalue ind
+R489:493 typerevise <> tzero constr
+R527:530 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R531:536 typerevise <> nvalue ind
+R539:543 typerevise <> tsucc constr
+R545:545 typerevise <> t var
+R519:524 typerevise <> nvalue ind
+R526:526 typerevise <> t var
+def 560:564 <> value
+R569:570 typerevise <> tm ind
+R584:587 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R576:581 typerevise <> bvalue ind
+R583:583 typerevise <> t var
+R588:593 typerevise <> nvalue ind
+R595:595 typerevise <> t var
+R616:621 typerevise <> nvalue ind
+R623:628 typerevise <> bvalue ind
+R643:647 typerevise <> value def
+R662:667 maps <> update def
+ind 728:731 <> step
+constr 759:767 <> ST_IfTrue
+constr 820:829 <> ST_IfFalse
+constr 883:887 <> ST_If
+constr 977:983 <> ST_Succ
+constr 1059:1069 <> ST_PredZero
+constr 1107:1117 <> ST_PredSucc
+constr 1187:1193 <> ST_Pred
+constr 1269:1281 <> ST_IszeroZero
+constr 1321:1333 <> ST_IszeroSucc
+constr 1410:1418 <> ST_Iszero
+R737:740 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R743:746 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R741:742 typerevise <> tm ind
+R735:736 typerevise <> tm ind
+R1519:1522 typerevise <> step ind
+R791:791 typerevise <> ::x_'-->'_x not
+R807:812 typerevise <> ::x_'-->'_x not
+R792:794 typerevise <> tif constr
+R805:806 typerevise <> t2 var
+R802:803 typerevise <> t1 var
+R796:800 typerevise <> ttrue constr
+R813:814 typerevise <> t1 var
+R853:853 typerevise <> ::x_'-->'_x not
+R870:875 typerevise <> ::x_'-->'_x not
+R854:856 typerevise <> tif constr
+R868:869 typerevise <> t2 var
+R865:866 typerevise <> t1 var
+R858:863 typerevise <> tfalse constr
+R876:877 typerevise <> t2 var
+R928:937 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R938:938 typerevise <> ::x_'-->'_x not
+R951:957 typerevise <> ::x_'-->'_x not
+R971:971 typerevise <> ::x_'-->'_x not
+R939:941 typerevise <> tif constr
+R949:950 typerevise <> t3 var
+R946:947 typerevise <> t2 var
+R943:944 typerevise <> t1 var
+R958:960 typerevise <> tif constr
+R969:970 typerevise <> t3 var
+R966:967 typerevise <> t2 var
+R962:964 typerevise <> t1' var
+R920:924 typerevise <> ::x_'-->'_x not
+R918:919 typerevise <> t1 var
+R925:927 typerevise <> t1' var
+R1018:1027 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1028:1028 typerevise <> ::x_'-->'_x not
+R1037:1043 typerevise <> ::x_'-->'_x not
+R1053:1053 typerevise <> ::x_'-->'_x not
+R1029:1033 typerevise <> tsucc constr
+R1035:1036 typerevise <> t1 var
+R1044:1048 typerevise <> tsucc constr
+R1050:1052 typerevise <> t1' var
+R1010:1014 typerevise <> ::x_'-->'_x not
+R1008:1009 typerevise <> t1 var
+R1015:1017 typerevise <> t1' var
+R1079:1079 typerevise <> ::x_'-->'_x not
+R1091:1096 typerevise <> ::x_'-->'_x not
+R1080:1084 typerevise <> tpred constr
+R1086:1090 typerevise <> tzero constr
+R1097:1101 typerevise <> tzero constr
+R1147:1156 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1157:1157 typerevise <> ::x_'-->'_x not
+R1174:1179 typerevise <> ::x_'-->'_x not
+R1158:1162 typerevise <> tpred constr
+R1165:1169 typerevise <> tsucc constr
+R1171:1172 typerevise <> t1 var
+R1180:1181 typerevise <> t1 var
+R1138:1143 typerevise <> nvalue ind
+R1145:1146 typerevise <> t1 var
+R1228:1237 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1238:1238 typerevise <> ::x_'-->'_x not
+R1247:1253 typerevise <> ::x_'-->'_x not
+R1263:1263 typerevise <> ::x_'-->'_x not
+R1239:1243 typerevise <> tpred constr
+R1245:1246 typerevise <> t1 var
+R1254:1258 typerevise <> tpred constr
+R1260:1262 typerevise <> t1' var
+R1220:1224 typerevise <> ::x_'-->'_x not
+R1218:1219 typerevise <> t1 var
+R1225:1227 typerevise <> t1' var
+R1291:1291 typerevise <> ::x_'-->'_x not
+R1305:1310 typerevise <> ::x_'-->'_x not
+R1292:1298 typerevise <> tiszero constr
+R1300:1304 typerevise <> tzero constr
+R1311:1315 typerevise <> ttrue constr
+R1364:1373 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1374:1374 typerevise <> ::x_'-->'_x not
+R1393:1398 typerevise <> ::x_'-->'_x not
+R1375:1381 typerevise <> tiszero constr
+R1384:1388 typerevise <> tsucc constr
+R1390:1391 typerevise <> t1 var
+R1399:1404 typerevise <> tfalse constr
+R1355:1360 typerevise <> nvalue ind
+R1362:1363 typerevise <> t1 var
+R1453:1462 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1463:1463 typerevise <> ::x_'-->'_x not
+R1474:1480 typerevise <> ::x_'-->'_x not
+R1492:1492 typerevise <> ::x_'-->'_x not
+R1464:1470 typerevise <> tiszero constr
+R1472:1473 typerevise <> t1 var
+R1481:1487 typerevise <> tiszero constr
+R1489:1491 typerevise <> t1' var
+R1445:1449 typerevise <> ::x_'-->'_x not
+R1443:1444 typerevise <> t1 var
+R1450:1452 typerevise <> t1' var
+R1519:1522 typerevise <> step ind
+not 1501:1501 <> ::x_'-->'_x
+R1550:1553 typerevise <> step ind
+syndef 1566:1581 <> step_normal_form
+R1587:1597 smallstep2 <> normal_form def
+R1599:1602 typerevise <> step ind
+def 1617:1621 <> stuck
+R1626:1627 typerevise <> tm ind
+R1660:1663 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1642:1657 typerevise <> step_normal_form syndef
+R1659:1659 typerevise <> t var
+R1664:1665 Coq.Init.Logic <> :type_scope:'~'_x not
+R1666:1670 typerevise <> value def
+R1672:1672 typerevise <> t var
+R1687:1691 typerevise <> stuck def
+def 1703:1720 <> some_term_is_stuck
+R1726:1732 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1734:1735 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1736:1740 typerevise <> stuck def
+R1742:1742 typerevise <> t var
+R1760:1764 typerevise <> tsucc constr
+R1766:1770 typerevise <> ttrue constr
+R1760:1764 typerevise <> tsucc constr
+R1766:1770 typerevise <> ttrue constr
+R1781:1785 typerevise <> stuck def
+R1830:1832 Coq.Init.Logic <> not def
+R1893:1895 Coq.Init.Logic <> not def
+prf 1973:1984 <> tsucc_is_val
+R2016:2019 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2020:2025 typerevise <> nvalue ind
+R2027:2027 typerevise <> t var
+R2000:2005 typerevise <> nvalue ind
+R2008:2012 typerevise <> tsucc constr
+R2014:2014 typerevise <> t var
+prf 2080:2090 <> nval_is_val
+R2111:2114 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2115:2119 typerevise <> value def
+R2121:2121 typerevise <> t var
+R2103:2108 typerevise <> nvalue ind
+R2110:2110 typerevise <> t var
+prf 2194:2204 <> value_is_nf
+R2227:2230 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2231:2246 typerevise <> step_normal_form syndef
+R2248:2248 typerevise <> t var
+R2220:2224 typerevise <> value def
+R2226:2226 typerevise <> t var
+R2298:2300 Coq.Init.Logic <> not def
+prf 2574:2591 <> step_deterministic
+R2596:2608 smallstep2 <> deterministic def
+R2610:2613 typerevise <> step ind
+R2641:2653 smallstep2 <> deterministic def
+R3062:3072 typerevise <> nval_is_val thm
+R3062:3072 typerevise <> nval_is_val thm
+R3086:3096 typerevise <> value_is_nf thm
+R3086:3096 typerevise <> value_is_nf thm
+ind 3162:3163 <> ty
+constr 3179:3183 <> TBool
+constr 3194:3197 <> TNat
+R3187:3188 typerevise <> ty ind
+R3201:3202 typerevise <> ty ind
+ind 3265:3272 <> has_type
+constr 3300:3305 <> T_True
+constr 3338:3344 <> T_False
+constr 3378:3381 <> T_If
+constr 3503:3508 <> T_Zero
+constr 3540:3545 <> T_Succ
+constr 3615:3620 <> T_Pred
+constr 3785:3792 <> T_Iszero
+R3278:3281 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3284:3287 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3282:3283 typerevise <> ty ind
+R3276:3277 typerevise <> tm ind
+R3889:3896 typerevise <> has_type ind
+R3316:3318 typerevise <> ::'|-'_x_'in'_x not
+R3324:3327 typerevise <> ::'|-'_x_'in'_x not
+R3319:3323 typerevise <> ttrue constr
+R3328:3332 typerevise <> TBool constr
+R3355:3357 typerevise <> ::'|-'_x_'in'_x not
+R3364:3367 typerevise <> ::'|-'_x_'in'_x not
+R3358:3363 typerevise <> tfalse constr
+R3368:3372 typerevise <> TBool constr
+R3425:3435 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3446:3456 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3467:3477 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3478:3480 typerevise <> ::'|-'_x_'in'_x not
+R3493:3496 typerevise <> ::'|-'_x_'in'_x not
+R3481:3483 typerevise <> tif constr
+R3491:3492 typerevise <> t3 var
+R3488:3489 typerevise <> t2 var
+R3485:3486 typerevise <> t1 var
+R3497:3497 typerevise <> T var
+R3457:3459 typerevise <> ::'|-'_x_'in'_x not
+R3462:3465 typerevise <> ::'|-'_x_'in'_x not
+R3460:3461 typerevise <> t3 var
+R3466:3466 typerevise <> T var
+R3436:3438 typerevise <> ::'|-'_x_'in'_x not
+R3441:3444 typerevise <> ::'|-'_x_'in'_x not
+R3439:3440 typerevise <> t2 var
+R3445:3445 typerevise <> T var
+R3411:3413 typerevise <> ::'|-'_x_'in'_x not
+R3416:3419 typerevise <> ::'|-'_x_'in'_x not
+R3414:3415 typerevise <> t1 var
+R3420:3424 typerevise <> TBool constr
+R3519:3521 typerevise <> ::'|-'_x_'in'_x not
+R3527:3530 typerevise <> ::'|-'_x_'in'_x not
+R3522:3526 typerevise <> tzero constr
+R3531:3534 typerevise <> TNat constr
+R3580:3590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3591:3593 typerevise <> ::'|-'_x_'in'_x not
+R3602:3605 typerevise <> ::'|-'_x_'in'_x not
+R3594:3598 typerevise <> tsucc constr
+R3600:3601 typerevise <> t1 var
+R3606:3609 typerevise <> TNat constr
+R3567:3569 typerevise <> ::'|-'_x_'in'_x not
+R3572:3575 typerevise <> ::'|-'_x_'in'_x not
+R3570:3571 typerevise <> t1 var
+R3576:3579 typerevise <> TNat constr
+R3655:3665 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3666:3668 typerevise <> ::'|-'_x_'in'_x not
+R3677:3680 typerevise <> ::'|-'_x_'in'_x not
+R3669:3673 typerevise <> tpred constr
+R3675:3676 typerevise <> t1 var
+R3681:3684 typerevise <> TNat constr
+R3642:3644 typerevise <> ::'|-'_x_'in'_x not
+R3647:3650 typerevise <> ::'|-'_x_'in'_x not
+R3645:3646 typerevise <> t1 var
+R3651:3654 typerevise <> TNat constr
+R3827:3837 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3838:3840 typerevise <> ::'|-'_x_'in'_x not
+R3851:3854 typerevise <> ::'|-'_x_'in'_x not
+R3841:3847 typerevise <> tiszero constr
+R3849:3850 typerevise <> t1 var
+R3855:3859 typerevise <> TBool constr
+R3814:3816 typerevise <> ::'|-'_x_'in'_x not
+R3819:3822 typerevise <> ::'|-'_x_'in'_x not
+R3817:3818 typerevise <> t1 var
+R3823:3826 typerevise <> TNat constr
+R3889:3896 typerevise <> has_type ind
+not 3869:3869 <> ::'|-'_x_'in'_x
+R3922:3929 typerevise <> has_type ind
+R3950:3953 typerevise <> step ind
+def 3965:3974 <> has_type_1
+R3980:3982 typerevise <> ::'|-'_x_'in'_x not
+R4013:4016 typerevise <> ::'|-'_x_'in'_x not
+R3983:3985 typerevise <> tif constr
+R4001:4005 typerevise <> tsucc constr
+R4007:4011 typerevise <> tzero constr
+R3994:3998 typerevise <> tzero constr
+R3987:3992 typerevise <> tfalse constr
+R4017:4020 typerevise <> TNat constr
+R4036:4039 typerevise <> T_If constr
+R4036:4039 typerevise <> T_If constr
+R4060:4065 typerevise <> T_Succ constr
+R4060:4065 typerevise <> T_Succ constr
+def 4088:4099 <> has_type_not
+R4105:4107 Coq.Init.Logic <> :type_scope:'~'_x not
+R4142:4142 Coq.Init.Logic <> :type_scope:'~'_x not
+R4108:4110 typerevise <> ::'|-'_x_'in'_x not
+R4133:4136 typerevise <> ::'|-'_x_'in'_x not
+R4111:4113 typerevise <> tif constr
+R4128:4132 typerevise <> ttrue constr
+R4122:4126 typerevise <> tzero constr
+R4115:4120 typerevise <> tfalse constr
+R4137:4141 typerevise <> TBool constr
+R4159:4161 Coq.Init.Logic <> not def
+def 4213:4241 <> succ_hastype_nat__hastype_nat
+R4275:4280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4281:4283 typerevise <> ::'|-'_x_'in'_x not
+R4285:4288 typerevise <> ::'|-'_x_'in'_x not
+R4284:4284 typerevise <> t var
+R4289:4292 typerevise <> TNat constr
+R4257:4259 typerevise <> ::'|-'_x_'in'_x not
+R4267:4270 typerevise <> ::'|-'_x_'in'_x not
+R4260:4264 typerevise <> tsucc constr
+R4266:4266 typerevise <> t var
+R4271:4274 typerevise <> TNat constr
+prf 4355:4368 <> bool_canonical
+R4397:4400 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4408:4411 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4412:4417 typerevise <> bvalue ind
+R4419:4419 typerevise <> t var
+R4401:4405 typerevise <> value def
+R4407:4407 typerevise <> t var
+R4384:4386 typerevise <> ::'|-'_x_'in'_x not
+R4388:4391 typerevise <> ::'|-'_x_'in'_x not
+R4387:4387 typerevise <> t var
+R4392:4396 typerevise <> TBool constr
+prf 4521:4533 <> nat_canonical
+R4559:4562 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4570:4573 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4574:4579 typerevise <> nvalue ind
+R4581:4581 typerevise <> t var
+R4563:4567 typerevise <> value def
+R4569:4569 typerevise <> t var
+R4547:4549 typerevise <> ::'|-'_x_'in'_x not
+R4551:4554 typerevise <> ::'|-'_x_'in'_x not
+R4550:4550 typerevise <> t var
+R4555:4558 typerevise <> TNat constr
+prf 4683:4690 <> progress
+R4717:4722 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4730:4733 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R4723:4727 typerevise <> value def
+R4729:4729 typerevise <> t var
+R4734:4740 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4743:4744 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4746:4750 typerevise <> ::x_'-->'_x not
+R4745:4745 typerevise <> t var
+R4751:4752 typerevise <> t' var
+R4708:4710 typerevise <> ::'|-'_x_'in'_x not
+R4712:4715 typerevise <> ::'|-'_x_'in'_x not
+R4711:4711 typerevise <> t var
+R4716:4716 typerevise <> T var
+R4874:4879 typerevise <> bvalue ind
+R4874:4879 typerevise <> bvalue ind
+R4894:4907 typerevise <> bool_canonical thm
+R4894:4907 typerevise <> bool_canonical thm
+R4961:4969 typerevise <> ST_IfTrue constr
+R4961:4969 typerevise <> ST_IfTrue constr
+R4989:4998 typerevise <> ST_IfFalse constr
+R4989:4998 typerevise <> ST_IfFalse constr
+R5022:5024 typerevise <> tif constr
+R5022:5024 typerevise <> tif constr
+R5042:5046 typerevise <> ST_If constr
+R5042:5046 typerevise <> ST_If constr
+R5118:5123 typerevise <> nvalue ind
+R5118:5123 typerevise <> nvalue ind
+R5138:5150 typerevise <> nat_canonical thm
+R5138:5150 typerevise <> nat_canonical thm
+R5222:5226 typerevise <> tsucc constr
+R5222:5226 typerevise <> tsucc constr
+R5238:5244 typerevise <> ST_Succ constr
+R5238:5244 typerevise <> ST_Succ constr
+R5302:5307 typerevise <> nvalue ind
+R5302:5307 typerevise <> nvalue ind
+R5320:5332 typerevise <> nat_canonical thm
+R5320:5332 typerevise <> nat_canonical thm
+R5380:5384 typerevise <> tzero constr
+R5380:5384 typerevise <> tzero constr
+R5393:5403 typerevise <> ST_PredZero constr
+R5393:5403 typerevise <> ST_PredZero constr
+R5422:5432 typerevise <> ST_PredSucc constr
+R5422:5432 typerevise <> ST_PredSucc constr
+R5475:5479 typerevise <> tpred constr
+R5475:5479 typerevise <> tpred constr
+R5491:5497 typerevise <> ST_Pred constr
+R5491:5497 typerevise <> ST_Pred constr
+R5555:5560 typerevise <> nvalue ind
+R5555:5560 typerevise <> nvalue ind
+R5573:5585 typerevise <> nat_canonical thm
+R5573:5585 typerevise <> nat_canonical thm
+R5633:5637 typerevise <> ttrue constr
+R5633:5637 typerevise <> ttrue constr
+R5646:5658 typerevise <> ST_IszeroZero constr
+R5646:5658 typerevise <> ST_IszeroZero constr
+R5668:5673 typerevise <> tfalse constr
+R5668:5673 typerevise <> tfalse constr
+R5682:5694 typerevise <> ST_IszeroSucc constr
+R5682:5694 typerevise <> ST_IszeroSucc constr
+R5736:5742 typerevise <> tiszero constr
+R5736:5742 typerevise <> tiszero constr
+R5754:5762 typerevise <> ST_Iszero constr
+R5754:5762 typerevise <> ST_Iszero constr
+prf 5789:5800 <> preservation
+R5830:5835 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5844:5849 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5850:5852 typerevise <> ::'|-'_x_'in'_x not
+R5855:5858 typerevise <> ::'|-'_x_'in'_x not
+R5853:5854 typerevise <> t' var
+R5859:5859 typerevise <> T var
+R5837:5841 typerevise <> ::x_'-->'_x not
+R5836:5836 typerevise <> t var
+R5842:5843 typerevise <> t' var
+R5821:5823 typerevise <> ::'|-'_x_'in'_x not
+R5825:5828 typerevise <> ::'|-'_x_'in'_x not
+R5824:5824 typerevise <> t var
+R5829:5829 typerevise <> T var
+R6050:6053 typerevise <> T_If constr
+R6050:6053 typerevise <> T_If constr
+R6167:6172 typerevise <> T_Succ constr
+R6167:6172 typerevise <> T_Succ constr
+prf 6314:6326 <> preservation'
+R6356:6361 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6370:6375 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6376:6378 typerevise <> ::'|-'_x_'in'_x not
+R6381:6384 typerevise <> ::'|-'_x_'in'_x not
+R6379:6380 typerevise <> t' var
+R6385:6385 typerevise <> T var
+R6363:6367 typerevise <> ::x_'-->'_x not
+R6362:6362 typerevise <> t var
+R6368:6369 typerevise <> t' var
+R6347:6349 typerevise <> ::'|-'_x_'in'_x not
+R6351:6354 typerevise <> ::'|-'_x_'in'_x not
+R6350:6350 typerevise <> t var
+R6355:6355 typerevise <> T var
+R6531:6534 typerevise <> T_If constr
+R6531:6534 typerevise <> T_If constr
+R6606:6611 typerevise <> T_Succ constr
+R6606:6611 typerevise <> T_Succ constr
+R6724:6729 typerevise <> T_Pred constr
+R6724:6729 typerevise <> T_Pred constr
+R6823:6830 typerevise <> T_Iszero constr
+R6823:6830 typerevise <> T_Iszero constr
+def 6876:6884 <> multistep
+R6890:6894 smallstep2 <> multi ind
+R6896:6899 typerevise <> step ind
+R6931:6939 typerevise <> multistep def
+not 6912:6912 <> ::x_'-->*'_x
+prf 7201:7209 <> soundness
+R7239:7244 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7254:7259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7260:7261 Coq.Init.Logic <> :type_scope:'~'_x not
+R7270:7270 Coq.Init.Logic <> :type_scope:'~'_x not
+R7262:7266 typerevise <> stuck def
+R7268:7269 typerevise <> t' var
+R7246:7251 typerevise <> ::x_'-->*'_x not
+R7245:7245 typerevise <> t var
+R7252:7253 typerevise <> t' var
+R7230:7232 typerevise <> ::'|-'_x_'in'_x not
+R7234:7237 typerevise <> ::'|-'_x_'in'_x not
+R7233:7233 typerevise <> t var
+R7238:7238 typerevise <> T var
+R7339:7346 typerevise <> progress thm
+R7339:7346 typerevise <> progress thm
+R7422:7433 typerevise <> preservation prfax
+R7422:7433 typerevise <> preservation prfax
+prf 7465:7474 <> soundness'
+R7504:7509 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7519:7524 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7525:7526 Coq.Init.Logic <> :type_scope:'~'_x not
+R7535:7535 Coq.Init.Logic <> :type_scope:'~'_x not
+R7527:7531 typerevise <> stuck def
+R7533:7534 typerevise <> t' var
+R7511:7516 typerevise <> ::x_'-->*'_x not
+R7510:7510 typerevise <> t var
+R7517:7518 typerevise <> t' var
+R7495:7497 typerevise <> ::'|-'_x_'in'_x not
+R7499:7502 typerevise <> ::'|-'_x_'in'_x not
+R7498:7498 typerevise <> t var
+R7503:7503 typerevise <> T var
+R7600:7602 Coq.Init.Logic <> not def
+R7622:7626 typerevise <> stuck def
+R7649:7656 typerevise <> progress thm
+R7649:7656 typerevise <> progress thm
+R7787:7798 typerevise <> preservation prfax
+R7787:7798 typerevise <> preservation prfax
+prf 7827:7843 <> subject_expansion
+R7848:7854 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7856:7857 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7858:7864 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7867:7868 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7869:7875 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7877:7880 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R7889:7892 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7882:7886 typerevise <> ::x_'-->'_x not
+R7881:7881 typerevise <> t var
+R7887:7888 typerevise <> t' var
+R7903:7906 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R7893:7895 typerevise <> ::'|-'_x_'in'_x not
+R7898:7901 typerevise <> ::'|-'_x_'in'_x not
+R7896:7897 typerevise <> t' var
+R7902:7902 typerevise <> T var
+R7907:7908 Coq.Init.Logic <> :type_scope:'~'_x not
+R7909:7911 typerevise <> ::'|-'_x_'in'_x not
+R7913:7916 typerevise <> ::'|-'_x_'in'_x not
+R7912:7912 typerevise <> t var
+R7917:7917 typerevise <> T var
+R7959:7961 typerevise <> tif constr
+R7976:7980 typerevise <> ttrue constr
+R7970:7974 typerevise <> tzero constr
+R7963:7968 typerevise <> tfalse constr
+R7944:7951 Coq.Init.Logic <> ex_intro constr
+R7959:7961 typerevise <> tif constr
+R7976:7980 typerevise <> ttrue constr
+R7970:7974 typerevise <> tzero constr
+R7963:7968 typerevise <> tfalse constr
+R7944:7951 Coq.Init.Logic <> ex_intro constr
+R7991:7995 typerevise <> ttrue constr
+R7991:7995 typerevise <> ttrue constr
+R8005:8009 typerevise <> TBool constr
+R8005:8009 typerevise <> TBool constr
+R8025:8034 typerevise <> ST_IfFalse constr
+R8025:8034 typerevise <> ST_IfFalse constr
+R8057:8059 Coq.Init.Logic <> not def

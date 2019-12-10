@@ -1,0 +1,73 @@
+DIGEST a1c9564c56e28e7ea0b8f87a17a42077
+FEquations.FunctionalInduction
+R542:546 Equations.EqDec <> <> lib
+R548:554 Equations.DepElim <> <> lib
+rec 796:814 <> FunctionalInduction
+proj 842:855 <> fun_ind_prf_ty
+proj 865:875 <> fun_ind_prf
+R832:832 Equations.FunctionalInduction <> A var
+R879:892 Equations.FunctionalInduction <> fun_ind_prf_ty meth
+R1230:1240 Equations.FunctionalInduction <> fun_ind_prf meth
+R1512:1514 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1495:1504 Coq.Init.Logic <> refl_equal syndef
+ind 2407:2427 <> FunctionalElimination
+constr 2484:2491 <> fun_elim
+rec 2407:2427 <> FunctionalElimination
+proj 2484:2491 <> fun_elim
+R2445:2445 Equations.FunctionalInduction <> A var
+R2474:2476 Coq.Init.Datatypes <> nat ind
+R2495:2505 Equations.FunctionalInduction <> fun_elim_ty var
+R2582:2582 Coq.Init.Datatypes <> S constr
+R2582:2582 Coq.Init.Datatypes <> S constr
+R3012:3019 Equations.FunctionalInduction <> fun_elim def
+R3147:3149 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3133:3139 Coq.Init.Logic <> eq_refl constr
+R4280:4287 Equations.FunctionalInduction <> fun_elim def
+R4280:4287 Equations.FunctionalInduction <> fun_elim def
+R5108:5110 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5262:5264 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5262:5264 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5383:5384 Equations.Init <> Id ind
+R5383:5384 Equations.Init <> Id ind
+R5427:5433 Equations.Init <> id_refl constr
+R5449:5461 Equations.DepElim <> Id_rect_dep_r thm
+R5464:5472 Equations.DepElim <> Id_rect_r def
+R5475:5481 Equations.DepElim <> Id_rect def
+R5302:5308 Coq.Init.Logic <> eq_refl constr
+R5324:5332 Coq.Init.Logic <> eq_rect_r def
+R5335:5341 Coq.Init.Logic <> eq_rect scheme
+prf 5759:5770 <> uncurry_conj
+R5789:5789 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5801:5806 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5818:5818 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5808:5811 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5813:5816 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5817:5817 Equations.FunctionalInduction <> C var
+R5812:5812 Equations.FunctionalInduction <> B var
+R5807:5807 Equations.FunctionalInduction <> A var
+R5796:5799 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5800:5800 Equations.FunctionalInduction <> C var
+R5791:5794 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5790:5790 Equations.FunctionalInduction <> A var
+R5795:5795 Equations.FunctionalInduction <> B var
+R5852:5855 Coq.Init.Logic <> conj constr
+R5852:5855 Coq.Init.Logic <> conj constr
+R5937:5940 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5937:5940 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5974:5977 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5974:5977 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6002:6004 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6002:6004 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R6038:6040 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R6038:6040 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R6173:6176 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6173:6176 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6212:6215 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6212:6215 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6265:6265 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6274:6278 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6268:6271 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6265:6265 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6274:6278 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6268:6271 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6299:6310 Equations.FunctionalInduction <> uncurry_conj thm

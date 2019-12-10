@@ -1,0 +1,11 @@
+DIGEST 4432e7da67c8af0b10c8ae0488d73e2d
+FEquations.Classes
+R15:34 Coq.Relations.Relation_Definitions <> <> lib
+ind 162:172 <> WellFounded
+constr 207:217 <> wellfounded
+rec 162:172 <> WellFounded
+proj 207:217 <> wellfounded
+R190:197 Coq.Relations.Relation_Definitions <> relation def
+R199:199 Equations.Classes <> A var
+R221:232 Coq.Init.Wf <> well_founded def
+R234:234 Equations.Classes <> R var

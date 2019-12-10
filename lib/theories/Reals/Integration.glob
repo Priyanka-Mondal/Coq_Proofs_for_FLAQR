@@ -1,0 +1,5 @@
+DIGEST ae481da56b35b5c6b29d524d7ef64335
+FCoq.Reals.Integration
+R691:699 Coq.Reals.NewtonInt <> <> lib
+R717:729 Coq.Reals.RiemannInt_SF <> <> lib
+R747:756 Coq.Reals.RiemannInt <> <> lib

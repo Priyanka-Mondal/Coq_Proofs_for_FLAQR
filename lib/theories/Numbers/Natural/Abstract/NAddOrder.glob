@@ -1,0 +1,80 @@
+DIGEST f0f0a2f793beb12e25d5f00daeb63f60
+FCoq.Numbers.Natural.Abstract.NAddOrder
+R841:846 Coq.Numbers.Natural.Abstract.NOrder <> <> lib
+R883:897 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+mod 857:869 <> NAddOrderProp
+R909:918 Coq.Numbers.Natural.Abstract.NOrder NOrderProp <> modtype
+R920:920 Coq.Numbers.Natural.Abstract.NAddOrder N <> modtype
+prf 992:999 NAddOrderProp le_add_r
+R1016:1019 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1015:1015 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1021:1023 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1020:1020 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1024:1024 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1061:1067 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1080:1089 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp eq_le_incl thm
+R1061:1067 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1061:1067 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1080:1089 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp eq_le_incl thm
+R1113:1122 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_succ_r thm
+R1135:1146 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_le_succ_r thm
+R1113:1122 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_succ_r thm
+R1113:1122 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_succ_r thm
+R1135:1146 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_le_succ_r thm
+prf 1163:1173 NAddOrderProp lt_lt_add_r
+R1196:1199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1201:1203 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1200:1200 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1205:1207 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1204:1204 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1208:1208 Coq.Numbers.Natural.Abstract.NAddOrder <> p var
+R1192:1194 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1191:1191 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1195:1195 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1246:1252 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1246:1252 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1246:1252 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_0_r thm
+R1264:1277 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_lt_le_mono thm
+R1300:1305 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+R1264:1277 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_lt_le_mono thm
+R1300:1305 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+prf 1323:1333 NAddOrderProp lt_lt_add_l
+R1356:1359 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1361:1363 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1360:1360 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1365:1367 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1364:1364 Coq.Numbers.Natural.Abstract.NAddOrder <> p var
+R1368:1368 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1352:1354 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1351:1351 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1355:1355 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1400:1407 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_comm thm
+R1416:1426 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp lt_lt_add_r thm
+R1400:1407 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_comm thm
+R1400:1407 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_comm thm
+R1416:1426 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp lt_lt_add_r thm
+prf 1443:1451 NAddOrderProp add_pos_l
+R1472:1475 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1477:1479 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1481:1483 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1480:1480 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1484:1484 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1468:1470 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1471:1471 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1508:1521 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_pos_nonneg thm
+R1508:1521 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_pos_nonneg thm
+R1542:1547 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+R1542:1547 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+prf 1564:1572 NAddOrderProp add_pos_r
+R1593:1596 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1598:1600 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1602:1604 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R1601:1601 Coq.Numbers.Natural.Abstract.NAddOrder <> n var
+R1605:1605 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1589:1591 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1592:1592 Coq.Numbers.Natural.Abstract.NAddOrder <> m var
+R1629:1642 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_nonneg_pos thm
+R1629:1642 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp add_nonneg_pos thm
+R1651:1656 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+R1651:1656 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp le_0_l thm
+R1681:1693 Coq.Numbers.Natural.Abstract.NAddOrder NAddOrderProp <> mod

@@ -1,0 +1,160 @@
+DIGEST c0906ee581ab772fac62a0d49a8e3ba2
+FCoq.Classes.SetoidDec
+R954:976 Coq.Classes.SetoidClass <> <> lib
+R1125:1143 Coq.Logic.Decidable <> <> lib
+ind 1153:1167 <> DecidableSetoid
+constr 1190:1205 <> setoid_decidable
+rec 1153:1167 <> DecidableSetoid
+proj 1190:1205 <> setoid_decidable
+R1175:1180 Coq.Classes.SetoidClass <> Setoid class
+R1222:1222 Coq.Classes.SetoidDec <> A var
+R1225:1233 Coq.Logic.Decidable <> decidable def
+R1237:1240 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R1236:1236 Coq.Classes.SetoidDec <> x var
+R1241:1241 Coq.Classes.SetoidDec <> y var
+ind 1342:1346 <> EqDec
+constr 1369:1377 <> equiv_dec
+rec 1342:1346 <> EqDec
+proj 1369:1377 <> equiv_dec
+R1354:1359 Coq.Classes.SetoidClass <> Setoid class
+R1394:1394 Coq.Classes.SetoidDec <> A var
+R1397:1398 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1405:1411 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1419:1420 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1400:1403 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R1399:1399 Coq.Classes.SetoidDec <> x var
+R1404:1404 Coq.Classes.SetoidDec <> y var
+R1413:1417 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R1412:1412 Coq.Classes.SetoidDec <> x var
+R1418:1418 Coq.Classes.SetoidDec <> y var
+R1628:1636 Coq.Classes.SetoidDec <> equiv_dec def
+not 1613:1613 <> ::x_'=='_x
+def 1698:1709 <> swap_sumbool
+R1722:1723 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1725:1731 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1733:1734 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1724:1724 Coq.Classes.SetoidDec <> A var
+R1732:1732 Coq.Classes.SetoidDec <> B var
+R1739:1740 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1742:1748 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1750:1751 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1741:1741 Coq.Classes.SetoidDec <> B var
+R1749:1749 Coq.Classes.SetoidDec <> A var
+R1764:1764 Coq.Classes.SetoidDec <> x var
+R1777:1780 Coq.Init.Specif <> left constr
+R1788:1792 Coq.Init.Specif <> right constr
+R1806:1810 Coq.Init.Specif <> right constr
+R1818:1821 Coq.Init.Specif <> left constr
+R1852:1870 Coq.Program.Program <> <> lib
+def 1955:1964 <> nequiv_dec
+R1968:1972 Coq.Classes.SetoidDec <> EqDec class
+R1984:1984 Coq.Classes.SetoidDec <> A var
+R1989:1990 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1998:2004 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2011:2012 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1992:1996 Coq.Classes.SetoidClass <> :type_scope:x_'=/='_x not
+R1991:1991 Coq.Classes.SetoidDec <> x var
+R1997:1997 Coq.Classes.SetoidDec <> y var
+R2006:2009 Coq.Classes.SetoidClass <> :type_scope:x_'=='_x not
+R2005:2005 Coq.Classes.SetoidDec <> x var
+R2010:2010 Coq.Classes.SetoidDec <> y var
+R2017:2028 Coq.Classes.SetoidDec <> swap_sumbool def
+R2032:2035 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R2031:2031 Coq.Classes.SetoidDec <> x var
+R2036:2036 Coq.Classes.SetoidDec <> y var
+R2100:2109 Coq.Classes.SetoidDec <> nequiv_dec def
+not 2091:2091 <> ::x_'=/='_x
+def 2221:2230 <> equiv_decb
+R2234:2238 Coq.Classes.SetoidDec <> EqDec class
+R2250:2250 Coq.Classes.SetoidDec <> A var
+R2255:2258 Coq.Init.Datatypes <> bool ind
+R2269:2272 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R2268:2268 Coq.Classes.SetoidDec <> x var
+R2273:2273 Coq.Classes.SetoidDec <> y var
+R2290:2294 Coq.Init.Datatypes <> false constr
+R2280:2283 Coq.Init.Datatypes <> true constr
+def 2309:2319 <> nequiv_decb
+R2323:2327 Coq.Classes.SetoidDec <> EqDec class
+R2339:2339 Coq.Classes.SetoidDec <> A var
+R2344:2347 Coq.Init.Datatypes <> bool ind
+R2354:2357 Coq.Init.Datatypes <> negb def
+R2360:2369 Coq.Classes.SetoidDec <> equiv_decb def
+R2373:2373 Coq.Classes.SetoidDec <> y var
+R2371:2371 Coq.Classes.SetoidDec <> x var
+R2393:2402 Coq.Classes.SetoidDec <> equiv_decb def
+not 2384:2384 <> ::x_'==b'_x
+R2452:2462 Coq.Classes.SetoidDec <> nequiv_decb def
+not 2443:2443 <> ::x_'<>b'_x
+R2559:2573 Coq.Arith.Arith <> <> lib
+inst 2714:2722 <> eq_setoid
+R2728:2733 Coq.Classes.SetoidClass <> Setoid class
+R2735:2735 Coq.Classes.SetoidDec <> A var
+R2763:2774 Coq.Classes.SetoidClass <> setoid_equiv meth
+R2749:2753 Coq.Classes.SetoidClass <> equiv meth
+R2758:2759 Coq.Init.Logic <> eq ind
+R2779:2792 Coq.Classes.RelationClasses <> eq_equivalence inst
+inst 2815:2826 <> nat_eq_eqdec
+R2830:2834 Coq.Classes.SetoidDec <> EqDec class
+R2837:2845 Coq.Classes.SetoidDec <> eq_setoid inst
+R2847:2849 Coq.Init.Datatypes <> nat ind
+R2857:2866 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R2885:2897 Coq.Bool.Bool <> <> lib
+inst 2918:2927 <> bool_eqdec
+R2931:2935 Coq.Classes.SetoidDec <> EqDec class
+R2938:2946 Coq.Classes.SetoidDec <> eq_setoid inst
+R2948:2951 Coq.Init.Datatypes <> bool ind
+R2959:2966 Coq.Bool.Bool <> bool_dec thm
+inst 2987:2996 <> unit_eqdec
+R3000:3004 Coq.Classes.SetoidDec <> EqDec class
+R3007:3015 Coq.Classes.SetoidDec <> eq_setoid inst
+R3017:3020 Coq.Init.Datatypes <> unit ind
+R3039:3045 Coq.Program.Utils <> in_left syndef
+inst 3148:3157 <> prod_eqdec
+R3163:3167 Coq.Classes.SetoidDec <> EqDec class
+R3170:3178 Coq.Classes.SetoidDec <> eq_setoid inst
+R3186:3190 Coq.Classes.SetoidDec <> EqDec class
+R3193:3201 Coq.Classes.SetoidDec <> eq_setoid inst
+R3210:3214 Coq.Classes.SetoidDec <> EqDec class
+R3217:3225 Coq.Classes.SetoidDec <> eq_setoid inst
+R3228:3231 Coq.Init.Datatypes <> prod ind
+R3235:3235 Coq.Classes.SetoidDec <> B var
+R3233:3233 Coq.Classes.SetoidDec <> A var
+R3276:3276 Coq.Classes.SetoidDec <> x var
+R3264:3264 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3267:3268 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3271:3271 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3302:3302 Coq.Classes.SetoidDec <> y var
+R3290:3290 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3293:3294 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3297:3297 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3316:3319 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R3388:3395 Coq.Program.Utils <> in_right syndef
+R3339:3342 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R3370:3377 Coq.Program.Utils <> in_right syndef
+R3351:3357 Coq.Program.Utils <> in_left syndef
+R3431:3440 Coq.Classes.RelationClasses <> complement def
+R3431:3440 Coq.Classes.RelationClasses <> complement def
+inst 3572:3590 <> bool_function_eqdec
+R3596:3600 Coq.Classes.SetoidDec <> EqDec class
+R3603:3611 Coq.Classes.SetoidDec <> eq_setoid inst
+R3620:3624 Coq.Classes.SetoidDec <> EqDec class
+R3627:3635 Coq.Classes.SetoidDec <> eq_setoid inst
+R3642:3645 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3646:3646 Coq.Classes.SetoidDec <> A var
+R3638:3641 Coq.Init.Datatypes <> bool ind
+R3679:3682 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R3673:3673 Coq.Classes.SetoidDec <> f var
+R3675:3678 Coq.Init.Datatypes <> true constr
+R3683:3683 Coq.Classes.SetoidDec <> g var
+R3685:3688 Coq.Init.Datatypes <> true constr
+R3765:3772 Coq.Program.Utils <> in_right syndef
+R3711:3714 Coq.Classes.SetoidDec <> ::x_'=='_x not
+R3704:3704 Coq.Classes.SetoidDec <> f var
+R3706:3710 Coq.Init.Datatypes <> false constr
+R3715:3715 Coq.Classes.SetoidDec <> g var
+R3717:3721 Coq.Init.Datatypes <> false constr
+R3747:3754 Coq.Program.Utils <> in_right syndef
+R3728:3734 Coq.Program.Utils <> in_left syndef
+R3818:3827 Coq.Classes.RelationClasses <> complement def
+R3818:3827 Coq.Classes.RelationClasses <> complement def
+R3818:3827 Coq.Classes.RelationClasses <> complement def

@@ -1,0 +1,17 @@
+DIGEST cb0e8aacb063b22acc2c08ad2558495b
+FCoq.micromega.Lia
+R1143:1152 Coq.micromega.ZMicromega <> <> lib
+R1170:1175 Coq.ZArith.ZArith <> <> lib
+R1193:1205 Coq.micromega.RingMicromega <> <> lib
+R1223:1228 Coq.micromega.VarMap <> <> lib
+R1239:1257 Coq.micromega.Tauto <> <> lib
+R1335:1340 Coq.ZArith.BinInt Z succ def
+R1356:1361 Coq.ZArith.BinInt Z pred def
+R1428:1439 Coq.micromega.Tauto <> eval_f def
+R1442:1454 Coq.micromega.ZMicromega <> Zeval_formula def
+R1458:1461 Coq.micromega.VarMap <> find def
+R1465:1466 Coq.Numbers.BinNums <> Z0 constr
+R1463:1463 Coq.Numbers.BinNums <> Z ind
+R1496:1514 Coq.micromega.ZMicromega <> ZTautoChecker_sound thm
+R1650:1656 Coq.Init.Logic <> eq_refl constr
+R1658:1661 Coq.Init.Datatypes <> true constr

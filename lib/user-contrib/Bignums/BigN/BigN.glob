@@ -1,0 +1,297 @@
+DIGEST 3f14ca8456f2d4279af08f2486449f67
+FBignums.BigN.BigN
+R645:649 Coq.Numbers.Cyclic.Int31.Int31 <> <> lib
+R667:678 Coq.Numbers.Cyclic.Abstract.CyclicAxioms <> <> lib
+R680:687 Coq.Numbers.Cyclic.Int31.Cyclic31 <> <> lib
+R689:694 Coq.Numbers.Cyclic.Int31.Ring31 <> <> lib
+R696:699 Bignums.SpecViaZ.NSig <> <> lib
+R701:711 Bignums.SpecViaZ.NSigNAxioms <> <> lib
+R713:717 Bignums.BigN.NMake <> <> lib
+R721:731 Coq.Numbers.Natural.Abstract.NProperties <> <> lib
+R733:745 Coq.Structures.GenericMinMax <> <> lib
+R1228:1232 Bignums.SpecViaZ.NSig NType <> mod
+R1237:1251 Coq.Structures.Orders OrderedTypeFull <> mod
+R1256:1265 Coq.Structures.Orders TotalOrder <> mod
+R1272:1281 Bignums.BigN.NMake Make <> modtype
+R1283:1293 Coq.Numbers.Cyclic.Int31.Cyclic31 Int31Cyclic <> modtype
+R1300:1313 Bignums.SpecViaZ.NSigNAxioms NTypeIsNAxioms <> modtype
+R1320:1329 Coq.Numbers.Natural.Abstract.NProperties NBasicProp <> mod
+R1346:1355 Coq.Numbers.Natural.Abstract.NProperties NExtraProp <> mod
+R1374:1386 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+R1405:1427 Coq.Structures.GenericMinMax MinMaxLogicalProperties <> modtype
+R1446:1464 Coq.Structures.GenericMinMax MinMaxDecProperties <> modtype
+mod 1220:1223 <> BigN
+syndef 1550:1553 <> bigN
+R1558:1563 Bignums.BigN.BigN <> t def
+R1624:1630 Bignums.BigN.BigN <> N0 constr
+R1624:1630 Bignums.BigN.BigN <> N0 constr
+R1663:1671 Bignums.BigN.BigN <> zero def
+not 1656:1656 <> :bigN_scope:'0'
+R1734:1741 Bignums.BigN.BigN <> one def
+not 1727:1727 <> :bigN_scope:'1'
+R1804:1811 Bignums.BigN.BigN <> two def
+not 1797:1797 <> :bigN_scope:'2'
+R1865:1872 Bignums.BigN.BigN <> add def
+not 1858:1858 <> :bigN_scope:x_'+'_x
+R1901:1908 Bignums.BigN.BigN <> sub def
+not 1894:1894 <> :bigN_scope:x_'-'_x
+R1937:1944 Bignums.BigN.BigN <> mul def
+not 1930:1930 <> :bigN_scope:x_'*'_x
+R1973:1980 Bignums.BigN.BigN <> div def
+not 1966:1966 <> :bigN_scope:x_'/'_x
+R2009:2016 Bignums.BigN.BigN <> pow def
+not 2002:2002 <> :bigN_scope:x_'^'_x
+R2046:2057 Bignums.BigN.BigN <> compare def
+not 2038:2038 <> :bigN_scope:x_'?='_x
+R2087:2094 Bignums.BigN.BigN <> eqb def
+not 2079:2079 <> :bigN_scope:x_'=?'_x
+R2157:2164 Bignums.BigN.BigN <> leb def
+not 2148:2148 <> :bigN_scope:x_'<=?'_x
+R2226:2233 Bignums.BigN.BigN <> ltb def
+not 2218:2218 <> :bigN_scope:x_'<?'_x
+R2295:2301 Bignums.BigN.BigN <> eq def
+not 2287:2287 <> :bigN_scope:x_'=='_x
+R2371:2371 Coq.Init.Logic <> :type_scope:'~'_x not
+R2373:2374 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+not 2358:2358 <> :bigN_scope:x_'!='_x
+R2437:2443 Bignums.BigN.BigN <> lt def
+not 2430:2430 <> :bigN_scope:x_'<'_x
+R2473:2479 Bignums.BigN.BigN <> le def
+not 2465:2465 <> :bigN_scope:x_'<='_x
+R2517:2519 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+not 2504:2504 <> :bigN_scope:x_'>'_x
+R2575:2578 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+not 2561:2561 <> :bigN_scope:x_'>='_x
+R2639:2642 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2637:2637 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+R2644:2644 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+not 2620:2620 <> :bigN_scope:x_'<'_x_'<'_x
+R2691:2694 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2689:2689 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+R2696:2697 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+not 2671:2671 <> :bigN_scope:x_'<'_x_'<='_x
+R2745:2748 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2742:2743 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R2750:2750 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+not 2724:2724 <> :bigN_scope:x_'<='_x_'<'_x
+R2799:2802 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2796:2797 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R2804:2805 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+not 2777:2777 <> :bigN_scope:x_'<='_x_'<='_x
+R2844:2852 Bignums.BigN.BigN <> to_Z def
+not 2832:2832 <> :bigN_scope:'['_x_']'
+R2886:2896 Bignums.BigN.BigN <> modulo def
+not 2877:2877 <> :bigN_scope:x_'mod'_x
+prf 2995:3003 <> succ_pred
+R3017:3020 Bignums.BigN.BigN <> bigN syndef
+R3030:3033 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3057:3060 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+R3034:3042 Bignums.BigN.BigN <> succ def
+R3045:3053 Bignums.BigN.BigN <> pred def
+R3055:3055 Bignums.BigN.BigN <> q var
+R3061:3061 Bignums.BigN.BigN <> q var
+R3026:3028 Bignums.BigN.BigN <> :bigN_scope:x_'<'_x not
+R3029:3029 Bignums.BigN.BigN <> q var
+R3085:3098 Bignums.BigN.BigN <> succ_pred thm
+R3085:3098 Bignums.BigN.BigN <> succ_pred thm
+prf 3184:3191 <> BigNring
+R3195:3210 Coq.setoid_ring.Ring_theory <> semi_ring_theory rec
+R3234:3240 Bignums.BigN.BigN <> eq def
+R3225:3232 Bignums.BigN.BigN <> mul def
+R3216:3223 Bignums.BigN.BigN <> add def
+R3269:3280 Bignums.BigN.BigN <> add_0_l thm
+R3269:3280 Bignums.BigN.BigN <> add_0_l thm
+R3289:3301 Bignums.BigN.BigN <> add_comm thm
+R3289:3301 Bignums.BigN.BigN <> add_comm thm
+R3310:3323 Bignums.BigN.BigN <> add_assoc thm
+R3310:3323 Bignums.BigN.BigN <> add_assoc thm
+R3332:3343 Bignums.BigN.BigN <> mul_1_l thm
+R3332:3343 Bignums.BigN.BigN <> mul_1_l thm
+R3352:3363 Bignums.BigN.BigN <> mul_0_l thm
+R3352:3363 Bignums.BigN.BigN <> mul_0_l thm
+R3372:3384 Bignums.BigN.BigN <> mul_comm thm
+R3372:3384 Bignums.BigN.BigN <> mul_comm thm
+R3393:3406 Bignums.BigN.BigN <> mul_assoc thm
+R3393:3406 Bignums.BigN.BigN <> mul_assoc thm
+R3415:3434 Bignums.BigN.BigN <> mul_add_distr_r thm
+R3415:3434 Bignums.BigN.BigN <> mul_add_distr_r thm
+prf 3449:3463 <> BigNeqb_correct
+R3494:3497 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3499:3500 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+R3498:3498 Bignums.BigN.BigN <> x var
+R3501:3501 Bignums.BigN.BigN <> y var
+R3479:3479 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3486:3489 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3481:3484 Bignums.BigN.BigN <> :bigN_scope:x_'=?'_x not
+R3480:3480 Bignums.BigN.BigN <> x var
+R3485:3485 Bignums.BigN.BigN <> y var
+R3490:3493 Coq.Init.Datatypes <> true constr
+R3521:3531 Bignums.BigN.BigN <> eqb_eq thm
+R3521:3531 Bignums.BigN.BigN <> eqb_eq thm
+prf 3546:3554 <> BigNpower
+R3558:3569 Coq.setoid_ring.Ring_theory <> power_theory rec
+R3600:3607 Bignums.BigN.BigN <> pow def
+R3590:3598 Bignums.BigN.BigN <> of_N def
+R3582:3588 Bignums.BigN.BigN <> eq def
+R3573:3580 Bignums.BigN.BigN <> mul def
+R3651:3663 Bignums.BigN.BigN <> spec_pow thm
+R3666:3679 Bignums.BigN.BigN <> spec_of_N thm
+R3651:3663 Bignums.BigN.BigN <> spec_pow thm
+R3651:3663 Bignums.BigN.BigN <> spec_pow thm
+R3666:3679 Bignums.BigN.BigN <> spec_of_N thm
+R3666:3679 Bignums.BigN.BigN <> spec_of_N thm
+R3705:3714 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R3690:3702 Coq.ZArith.Zpow_def <> Zpower_theory thm
+R3705:3714 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R3690:3702 Coq.ZArith.Zpow_def <> Zpower_theory thm
+R3705:3714 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R3690:3702 Coq.ZArith.Zpow_def <> Zpower_theory thm
+prf 3821:3827 <> BigNdiv
+R3831:3840 Coq.setoid_ring.Ring_theory <> div_theory rec
+R3893:3896 Bignums.BigN.BigN <> :bigN_scope:x_'=?'_x not
+R3892:3892 Bignums.BigN.BigN <> b var
+R3915:3927 Bignums.BigN.BigN <> div_eucl def
+R3931:3931 Bignums.BigN.BigN <> b var
+R3929:3929 Bignums.BigN.BigN <> a var
+R3904:3904 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3906:3906 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3908:3908 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3907:3907 Bignums.BigN.BigN <> a var
+R3870:3871 Coq.Init.Datatypes <> id def
+R3859:3866 Bignums.BigN.BigN <> mul def
+R3850:3857 Bignums.BigN.BigN <> add def
+R3842:3848 Bignums.BigN.BigN <> eq def
+R3962:3963 Coq.Init.Datatypes <> id def
+R3994:4003 Coq.ZArith.BinInt Z eqb_spec thm
+R3994:4003 Coq.ZArith.BinInt Z eqb_spec thm
+R4059:4076 Bignums.BigN.BigN <> spec_div_eucl thm
+R4059:4076 Bignums.BigN.BigN <> spec_div_eucl thm
+R4096:4109 Coq.ZArith.Zdiv <> Z_div_mod_full thm
+R4115:4115 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4117:4117 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4111:4111 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4113:4113 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4096:4109 Coq.ZArith.Zdiv <> Z_div_mod_full thm
+R4115:4115 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4117:4117 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4111:4111 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4113:4113 Bignums.BigN.BigN <> :bigN_scope:'['_x_']' not
+R4134:4146 Bignums.BigN.BigN <> div_eucl def
+R4158:4167 Coq.ZArith.BinInt Z div_eucl def
+R4134:4146 Bignums.BigN.BigN <> div_eucl def
+R4158:4167 Coq.ZArith.BinInt Z div_eucl def
+R4336:4337 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+R4336:4337 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+R4359:4360 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R4359:4360 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R4411:4415 Coq.Init.Datatypes <> false constr
+R4411:4415 Coq.Init.Datatypes <> false constr
+R4440:4443 Coq.Init.Datatypes <> true constr
+R4440:4443 Coq.Init.Datatypes <> true constr
+R4428:4432 Coq.Init.Datatypes <> false constr
+R4350:4353 Coq.Init.Datatypes <> true constr
+R4539:4545 Bignums.BigN.BigN <> N0 constr
+R4539:4545 Bignums.BigN.BigN <> N0 constr
+R4574:4580 Bignums.BigN.BigN <> N1 constr
+R4574:4580 Bignums.BigN.BigN <> N1 constr
+R4609:4615 Bignums.BigN.BigN <> N2 constr
+R4609:4615 Bignums.BigN.BigN <> N2 constr
+R4644:4650 Bignums.BigN.BigN <> N3 constr
+R4644:4650 Bignums.BigN.BigN <> N3 constr
+R4679:4685 Bignums.BigN.BigN <> N4 constr
+R4679:4685 Bignums.BigN.BigN <> N4 constr
+R4714:4720 Bignums.BigN.BigN <> N5 constr
+R4714:4720 Bignums.BigN.BigN <> N5 constr
+R4749:4755 Bignums.BigN.BigN <> N6 constr
+R4749:4755 Bignums.BigN.BigN <> N6 constr
+R4784:4790 Bignums.BigN.BigN <> Nn constr
+R4784:4790 Bignums.BigN.BigN <> Nn constr
+R4893:4901 Bignums.BigN.BigN <> zero def
+R4893:4901 Bignums.BigN.BigN <> zero def
+R4923:4930 Bignums.BigN.BigN <> one def
+R4923:4930 Bignums.BigN.BigN <> one def
+R4952:4959 Bignums.BigN.BigN <> two def
+R4952:4959 Bignums.BigN.BigN <> two def
+R4994:4998 Coq.Init.Datatypes <> false constr
+R4972:4975 Coq.Init.Datatypes <> true constr
+R4943:4946 Coq.Init.Datatypes <> true constr
+R4914:4917 Coq.Init.Datatypes <> true constr
+R4828:4831 Coq.Init.Datatypes <> true constr
+R4828:4831 Coq.Init.Datatypes <> true constr
+R4859:4863 Coq.Init.Datatypes <> false constr
+R4859:4863 Coq.Init.Datatypes <> false constr
+R4876:4880 Coq.Init.Datatypes <> false constr
+R5053:5056 Coq.Init.Datatypes <> true constr
+R5053:5056 Coq.Init.Datatypes <> true constr
+R5075:5079 Coq.Init.Datatypes <> false constr
+R5075:5079 Coq.Init.Datatypes <> false constr
+R5092:5102 Coq.setoid_ring.InitialRing <> NotConstant def
+R5159:5162 Coq.Init.Datatypes <> true constr
+R5159:5162 Coq.Init.Datatypes <> true constr
+R5203:5207 Coq.Init.Datatypes <> false constr
+R5203:5207 Coq.Init.Datatypes <> false constr
+R5220:5230 Coq.setoid_ring.InitialRing <> NotConstant def
+R5187:5195 Bignums.BigN.BigN <> to_N def
+R5279:5282 Coq.Init.Datatypes <> true constr
+R5279:5282 Coq.Init.Datatypes <> true constr
+R5301:5305 Coq.Init.Datatypes <> false constr
+R5301:5305 Coq.Init.Datatypes <> false constr
+R5318:5328 Coq.setoid_ring.InitialRing <> NotConstant def
+R5398:5405 Bignums.BigN.BigN <> BigNring thm
+R5419:5433 Bignums.BigN.BigN <> BigNeqb_correct thm
+R5471:5479 Bignums.BigN.BigN <> BigNpower thm
+R5500:5506 Bignums.BigN.BigN <> BigNdiv thm
+sec 5519:5526 <> TestRing
+var 5533:5536 TestRing test
+R5571:5574 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+R5567:5569 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5561:5563 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5553:5555 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5557:5557 Bignums.BigN.BigN <> :bigN_scope:x_'*'_x not
+R5556:5556 Bignums.BigN.BigN <> x var
+R5559:5559 Bignums.BigN.BigN <> :bigN_scope:x_'^'_x not
+R5558:5558 Bignums.BigN.BigN <> y var
+R5565:5565 Bignums.BigN.BigN <> :bigN_scope:x_'^'_x not
+R5564:5564 Bignums.BigN.BigN <> x var
+R5588:5590 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5582:5584 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5578:5580 Bignums.BigN.BigN <> :bigN_scope:x_'+'_x not
+R5576:5576 Bignums.BigN.BigN <> :bigN_scope:x_'*'_x not
+R5586:5586 Bignums.BigN.BigN <> :bigN_scope:x_'*'_x not
+R5585:5585 Bignums.BigN.BigN <> y var
+R5587:5587 Bignums.BigN.BigN <> x var
+R5594:5594 Bignums.BigN.BigN <> :bigN_scope:x_'*'_x not
+R5592:5592 Bignums.BigN.BigN <> :bigN_scope:x_'*'_x not
+R5593:5593 Bignums.BigN.BigN <> x var
+R5595:5595 Bignums.BigN.BigN <> x var
+R5643:5650 Bignums.BigN.BigN TestRing <> sec
+sec 5741:5749 <> TestOrder
+var 5756:5759 TestOrder test
+R5776:5779 Bignums.BigN.BigN <> bigN syndef
+R5786:5789 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5794:5797 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5799:5800 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+R5798:5798 Bignums.BigN.BigN <> x var
+R5801:5801 Bignums.BigN.BigN <> y var
+R5791:5792 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R5790:5790 Bignums.BigN.BigN <> y var
+R5793:5793 Bignums.BigN.BigN <> x var
+R5783:5784 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R5782:5782 Bignums.BigN.BigN <> x var
+R5785:5785 Bignums.BigN.BigN <> y var
+R5832:5840 Bignums.BigN.BigN TestOrder <> sec
+sec 5921:5929 <> TestOmega
+var 5936:5939 TestOmega test
+R5956:5959 Bignums.BigN.BigN <> bigN syndef
+R5966:5969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5974:5977 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5979:5980 Bignums.BigN.BigN <> :bigN_scope:x_'=='_x not
+R5978:5978 Bignums.BigN.BigN <> x var
+R5981:5981 Bignums.BigN.BigN <> y var
+R5971:5972 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R5970:5970 Bignums.BigN.BigN <> y var
+R5973:5973 Bignums.BigN.BigN <> x var
+R5963:5964 Bignums.BigN.BigN <> :bigN_scope:x_'<='_x not
+R5962:5962 Bignums.BigN.BigN <> x var
+R5965:5965 Bignums.BigN.BigN <> y var
+R6030:6038 Bignums.BigN.BigN TestOmega <> sec

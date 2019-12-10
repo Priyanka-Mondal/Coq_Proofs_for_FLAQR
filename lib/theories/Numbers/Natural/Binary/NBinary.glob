@@ -1,0 +1,9 @@
+DIGEST fec54fb519082cbbfa7965589fbfbb63
+FCoq.Numbers.Natural.Binary.NBinary
+R841:846 Coq.PArith.BinPos <> <> lib
+R864:869 Coq.NArith.BinNat <> <> lib
+R887:893 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R895:905 Coq.Numbers.Natural.Abstract.NProperties <> <> lib
+R1000:1009 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> mod
+R1014:1014 Coq.NArith.BinNat N <> modtype
+mod 995:995 <> N

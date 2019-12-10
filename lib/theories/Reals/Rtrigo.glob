@@ -1,0 +1,19 @@
+DIGEST 419318781b84ccde77d7534ad8e0134b
+FCoq.Reals.Rtrigo
+R691:695 Coq.Reals.Rbase <> <> lib
+R713:722 Coq.Reals.Rfunctions <> <> lib
+R740:748 Coq.Reals.SeqSeries <> <> lib
+R766:775 Coq.Reals.Rtrigo_fun <> <> lib
+R793:802 Coq.Reals.Rtrigo_def <> <> lib
+R820:829 Coq.Reals.Rtrigo_alt <> <> lib
+R847:853 Coq.Reals.Cos_rel <> <> lib
+R871:878 Coq.Reals.Cos_plus <> <> lib
+R896:906 Coq.ZArith.ZArith_base <> <> lib
+R924:935 Coq.ZArith.Zcomplements <> <> lib
+R953:959 Coq.fourier.Fourier <> <> lib
+R977:986 Coq.Reals.Ranalysis1 <> <> lib
+R1004:1012 Coq.Reals.Rsqrt_def <> <> lib
+R1031:1041 Coq.Reals.PSeries_reg <> <> lib
+R1059:1065 Coq.Reals.Rtrigo1 <> <> lib
+R1083:1087 Coq.Reals.Ratan <> <> lib
+R1105:1110 Coq.Reals.Machin <> <> lib

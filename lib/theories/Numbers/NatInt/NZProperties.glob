@@ -1,0 +1,6 @@
+DIGEST 30a9a652227cc0c1e7c242f06018cadd
+FCoq.Numbers.NatInt.NZProperties
+R841:848 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R850:859 Coq.Numbers.NatInt.NZMulOrder <> <> lib
+R1034:1047 Coq.Numbers.NatInt.NZMulOrder NZMulOrderProp <> mod
+modtype 1024:1029 <> NZProp

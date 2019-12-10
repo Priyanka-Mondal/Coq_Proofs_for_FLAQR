@@ -1,0 +1,17 @@
+DIGEST 003440ac27adaa24d2f4b23d2756be45
+FCoq.FSets.FSets
+R691:701 Coq.Structures.OrderedType <> <> lib
+R719:731 Coq.Structures.OrderedTypeEx <> <> lib
+R749:762 Coq.Structures.OrderedTypeAlt <> <> lib
+R780:792 Coq.Structures.DecidableType <> <> lib
+R810:824 Coq.Structures.DecidableTypeEx <> <> lib
+R842:854 Coq.FSets.FSetInterface <> <> lib
+R872:881 Coq.FSets.FSetBridge <> <> lib
+R899:907 Coq.FSets.FSetFacts <> <> lib
+R925:934 Coq.FSets.FSetDecide <> <> lib
+R952:965 Coq.FSets.FSetProperties <> <> lib
+R983:998 Coq.FSets.FSetEqProperties <> <> lib
+R1016:1027 Coq.FSets.FSetWeakList <> <> lib
+R1045:1052 Coq.FSets.FSetList <> <> lib
+R1070:1081 Coq.FSets.FSetPositive <> <> lib
+R1099:1105 Coq.FSets.FSetAVL <> <> lib

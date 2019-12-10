@@ -1,0 +1,8 @@
+DIGEST 3e08032a77b25d1d39a79fac6e87a55f
+FCoq.Reals.SplitRmult
+R771:775 Coq.Reals.Rbase <> <> lib
+R841:844 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R832:834 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R841:844 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R832:834 Coq.Reals.Rdefinitions <> :R_scope:x_'*'_x not
+R865:893 Coq.Reals.RIneq <> Rmult_integral_contrapositive thm

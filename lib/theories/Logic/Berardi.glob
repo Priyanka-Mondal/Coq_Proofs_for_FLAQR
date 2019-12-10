@@ -1,0 +1,224 @@
+DIGEST 7cbe873fa65fcc752e2e65981caef40b
+FCoq.Logic.Berardi
+sec 1323:1338 <> Berardis_paradox
+var 1376:1377 Berardis_paradox EM
+R1397:1400 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1396:1396 Coq.Logic.Berardi <> P var
+R1401:1402 Coq.Init.Logic <> :type_scope:'~'_x not
+R1403:1403 Coq.Logic.Berardi <> P var
+def 1457:1462 <> IFProp
+R1482:1482 Coq.Logic.Berardi <> P var
+R1496:1497 Coq.Logic.Berardi <> Berardis_paradox.EM var
+R1499:1499 Coq.Logic.Berardi <> B var
+R1510:1518 Coq.Init.Logic <> or_introl constr
+R1525:1526 Coq.Logic.Berardi <> e1 var
+R1532:1540 Coq.Init.Logic <> or_intror constr
+R1547:1548 Coq.Logic.Berardi <> e2 var
+prf 1665:1669 <> AC_IF
+R1699:1699 Coq.Logic.Berardi <> P var
+R1706:1709 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1705:1705 Coq.Logic.Berardi <> P var
+R1720:1720 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1730:1734 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1735:1735 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1747:1751 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1752:1752 Coq.Logic.Berardi <> Q var
+R1755:1760 Coq.Logic.Berardi <> IFProp def
+R1767:1768 Coq.Logic.Berardi <> e2 var
+R1764:1765 Coq.Logic.Berardi <> e1 var
+R1762:1762 Coq.Logic.Berardi <> B var
+R1739:1742 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1743:1743 Coq.Logic.Berardi <> Q var
+R1745:1746 Coq.Logic.Berardi <> e2 var
+R1736:1737 Coq.Init.Logic <> :type_scope:'~'_x not
+R1738:1738 Coq.Logic.Berardi <> B var
+R1722:1725 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1726:1726 Coq.Logic.Berardi <> Q var
+R1728:1729 Coq.Logic.Berardi <> e1 var
+R1721:1721 Coq.Logic.Berardi <> B var
+R1812:1817 Coq.Logic.Berardi <> IFProp def
+R1826:1827 Coq.Logic.Berardi <> Berardis_paradox.EM var
+R1826:1827 Coq.Logic.Berardi <> Berardis_paradox.EM var
+var 2001:2004 Berardis_paradox Bool
+var 2023:2023 Berardis_paradox T
+R2027:2030 Coq.Logic.Berardi <> Berardis_paradox.Bool var
+var 2042:2042 Berardis_paradox F
+R2046:2049 Coq.Logic.Berardi <> Berardis_paradox.Bool var
+def 2093:2095 <> pow
+R2110:2113 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2114:2117 Coq.Logic.Berardi <> Berardis_paradox.Bool var
+R2109:2109 Coq.Logic.Berardi <> P var
+sec 2170:2177 Berardis_paradox Retracts
+var 2191:2191 Berardis_paradox.Retracts A
+var 2193:2193 Berardis_paradox.Retracts B
+rec 2211:2217 <> retract
+proj 2232:2232 <> i
+proj 2244:2244 <> j
+proj 2256:2258 <> inv
+R2237:2240 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2241:2241 Coq.Logic.Berardi <> Berardis_paradox.Retracts.B var
+R2236:2236 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2249:2252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2253:2253 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2248:2248 Coq.Logic.Berardi <> Berardis_paradox.Retracts.B var
+R2271:2271 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2281:2283 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2274:2274 Coq.Logic.Berardi <> j meth
+R2277:2277 Coq.Logic.Berardi <> i meth
+R2279:2279 Coq.Logic.Berardi <> a var
+R2284:2284 Coq.Logic.Berardi <> a var
+rec 2295:2306 <> retract_cond
+proj 2321:2322 <> i2
+proj 2334:2335 <> j2
+proj 2347:2350 <> inv2
+R2327:2330 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2331:2331 Coq.Logic.Berardi <> Berardis_paradox.Retracts.B var
+R2326:2326 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2340:2343 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2344:2344 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2339:2339 Coq.Logic.Berardi <> Berardis_paradox.Retracts.B var
+R2361:2364 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2374:2374 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2386:2388 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2377:2378 Coq.Logic.Berardi <> j2 meth
+R2381:2382 Coq.Logic.Berardi <> i2 meth
+R2384:2384 Coq.Logic.Berardi <> a var
+R2389:2389 Coq.Logic.Berardi <> a var
+R2354:2360 Coq.Logic.Berardi <> retract rec
+prf 2469:2470 <> AC
+R2483:2494 Coq.Logic.Berardi <> retract_cond rec
+R2504:2507 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2517:2517 Coq.Logic.Berardi <> Berardis_paradox.Retracts.A var
+R2537:2539 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2523:2524 Coq.Logic.Berardi <> j2 proj
+R2531:2532 Coq.Logic.Berardi <> i2 proj
+R2535:2535 Coq.Logic.Berardi <> a var
+R2528:2528 Coq.Logic.Berardi <> r var
+R2520:2520 Coq.Logic.Berardi <> r var
+R2540:2540 Coq.Logic.Berardi <> a var
+R2497:2503 Coq.Logic.Berardi <> retract rec
+R2569:2572 Coq.Logic.Berardi <> inv2 proj
+R2569:2572 Coq.Logic.Berardi <> inv2 proj
+R2586:2593 Coq.Logic.Berardi Berardis_paradox.Retracts <> sec
+prf 2841:2842 <> L1
+R2863:2874 Coq.Logic.Berardi <> retract_cond rec
+R2885:2887 Coq.Logic.Berardi <> pow def
+R2889:2889 Coq.Logic.Berardi <> B var
+R2877:2879 Coq.Logic.Berardi <> pow def
+R2881:2881 Coq.Logic.Berardi <> A var
+R2922:2923 Coq.Logic.Berardi <> Berardis_paradox.EM var
+R2926:2932 Coq.Logic.Berardi <> retract rec
+R2943:2945 Coq.Logic.Berardi <> pow def
+R2935:2937 Coq.Logic.Berardi <> pow def
+R2922:2923 Coq.Logic.Berardi <> Berardis_paradox.EM var
+R2926:2932 Coq.Logic.Berardi <> retract rec
+R2943:2945 Coq.Logic.Berardi <> pow def
+R2935:2937 Coq.Logic.Berardi <> pow def
+R3015:3017 Coq.Logic.Berardi <> pow def
+R3031:3031 Coq.Logic.Berardi <> Berardis_paradox.F var
+R3042:3044 Coq.Logic.Berardi <> pow def
+R3058:3058 Coq.Logic.Berardi <> Berardis_paradox.F var
+R3015:3017 Coq.Logic.Berardi <> pow def
+R3031:3031 Coq.Logic.Berardi <> Berardis_paradox.F var
+R3042:3044 Coq.Logic.Berardi <> pow def
+R3058:3058 Coq.Logic.Berardi <> Berardis_paradox.F var
+def 3138:3138 <> U
+R3158:3160 Coq.Logic.Berardi <> pow def
+R3162:3162 Coq.Logic.Berardi <> P var
+def 3220:3220 <> f
+R3225:3225 Coq.Logic.Berardi <> U def
+R3230:3232 Coq.Logic.Berardi <> pow def
+R3234:3234 Coq.Logic.Berardi <> U def
+R3239:3239 Coq.Logic.Berardi <> u var
+R3241:3241 Coq.Logic.Berardi <> U def
+def 3256:3256 <> g
+R3261:3263 Coq.Logic.Berardi <> pow def
+R3265:3265 Coq.Logic.Berardi <> U def
+R3270:3270 Coq.Logic.Berardi <> U def
+R3296:3297 Coq.Logic.Berardi <> j2 proj
+R3300:3301 Coq.Logic.Berardi <> L1 thm
+R3305:3305 Coq.Logic.Berardi <> U def
+R3303:3303 Coq.Logic.Berardi <> X var
+R3321:3322 Coq.Logic.Berardi <> i2 proj
+R3325:3326 Coq.Logic.Berardi <> L1 thm
+R3330:3330 Coq.Logic.Berardi <> U def
+R3328:3328 Coq.Logic.Berardi <> U def
+R3336:3337 Coq.Logic.Berardi <> lX var
+R3340:3341 Coq.Logic.Berardi <> rU var
+R3343:3343 Coq.Logic.Berardi <> h var
+prf 3496:3510 <> retract_pow_U_U
+R3514:3520 Coq.Logic.Berardi <> retract rec
+R3530:3530 Coq.Logic.Berardi <> U def
+R3523:3525 Coq.Logic.Berardi <> pow def
+R3527:3527 Coq.Logic.Berardi <> U def
+R3547:3547 Coq.Logic.Berardi <> g def
+R3549:3549 Coq.Logic.Berardi <> f def
+R3547:3547 Coq.Logic.Berardi <> g def
+R3549:3549 Coq.Logic.Berardi <> f def
+R3568:3568 Coq.Logic.Berardi <> f def
+R3571:3571 Coq.Logic.Berardi <> g def
+R3587:3588 Coq.Logic.Berardi <> AC thm
+R3587:3588 Coq.Logic.Berardi <> AC thm
+R3606:3608 Coq.Logic.Berardi <> pow def
+R3610:3610 Coq.Logic.Berardi <> U def
+R3615:3615 Coq.Logic.Berardi <> x var
+R3625:3627 Coq.Logic.Berardi <> pow def
+R3629:3629 Coq.Logic.Berardi <> U def
+R3634:3634 Coq.Logic.Berardi <> x var
+R3606:3608 Coq.Logic.Berardi <> pow def
+R3610:3610 Coq.Logic.Berardi <> U def
+R3615:3615 Coq.Logic.Berardi <> x var
+R3625:3627 Coq.Logic.Berardi <> pow def
+R3629:3629 Coq.Logic.Berardi <> U def
+R3634:3634 Coq.Logic.Berardi <> x var
+def 3730:3734 <> Not_b
+R3739:3742 Coq.Logic.Berardi <> Berardis_paradox.Bool var
+R3748:3753 Coq.Logic.Berardi <> IFProp def
+R3765:3765 Coq.Logic.Berardi <> Berardis_paradox.T var
+R3763:3763 Coq.Logic.Berardi <> Berardis_paradox.F var
+R3757:3759 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3756:3756 Coq.Logic.Berardi <> b var
+R3760:3760 Coq.Logic.Berardi <> Berardis_paradox.T var
+def 3831:3831 <> R
+R3835:3835 Coq.Logic.Berardi <> U def
+R3840:3840 Coq.Logic.Berardi <> g def
+R3849:3849 Coq.Logic.Berardi <> U def
+R3854:3858 Coq.Logic.Berardi <> Not_b def
+R3861:3861 Coq.Logic.Berardi <> u var
+R3865:3865 Coq.Logic.Berardi <> u var
+R3863:3863 Coq.Logic.Berardi <> U def
+prf 3878:3893 <> not_has_fixpoint
+R3900:3902 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3897:3897 Coq.Logic.Berardi <> R def
+R3899:3899 Coq.Logic.Berardi <> R def
+R3903:3907 Coq.Logic.Berardi <> Not_b def
+R3910:3910 Coq.Logic.Berardi <> R def
+R3912:3912 Coq.Logic.Berardi <> R def
+R3930:3930 Coq.Logic.Berardi <> R def
+R3945:3945 Coq.Logic.Berardi <> g def
+R3956:3957 Coq.Logic.Berardi <> AC thm
+R3956:3957 Coq.Logic.Berardi <> AC thm
+R3956:3957 Coq.Logic.Berardi <> AC thm
+R3956:3957 Coq.Logic.Berardi <> AC thm
+R3983:3985 Coq.Logic.Berardi <> pow def
+R3987:3987 Coq.Logic.Berardi <> U def
+R3992:3992 Coq.Logic.Berardi <> x var
+R4002:4004 Coq.Logic.Berardi <> pow def
+R4006:4006 Coq.Logic.Berardi <> U def
+R4011:4011 Coq.Logic.Berardi <> x var
+R3983:3985 Coq.Logic.Berardi <> pow def
+R3987:3987 Coq.Logic.Berardi <> U def
+R3992:3992 Coq.Logic.Berardi <> x var
+R4002:4004 Coq.Logic.Berardi <> pow def
+R4006:4006 Coq.Logic.Berardi <> U def
+R4011:4011 Coq.Logic.Berardi <> x var
+prf 4039:4065 <> classical_proof_irrelevence
+R4070:4072 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4069:4069 Coq.Logic.Berardi <> Berardis_paradox.T var
+R4073:4073 Coq.Logic.Berardi <> Berardis_paradox.F var
+R4094:4109 Coq.Logic.Berardi <> not_has_fixpoint thm
+R4094:4109 Coq.Logic.Berardi <> not_has_fixpoint thm
+R4119:4123 Coq.Logic.Berardi <> Not_b def
+R4132:4136 Coq.Logic.Berardi <> AC_IF thm
+R4132:4136 Coq.Logic.Berardi <> AC_IF thm
+R4262:4277 Coq.Logic.Berardi Berardis_paradox <> sec

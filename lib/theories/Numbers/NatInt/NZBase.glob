@@ -1,0 +1,113 @@
+DIGEST b4243730a5a3f8a95063cabc95c71752
+FCoq.Numbers.NatInt.NZBase
+R841:848 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R888:899 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+modtype 864:873 <> NZBaseProp
+R912:921 Coq.Structures.Equalities BackportEq <> modtype
+R923:924 Coq.Numbers.NatInt.NZBase NZ <> modtype
+R926:927 Coq.Numbers.NatInt.NZBase NZ <> modtype
+prf 970:979 NZBaseProp eq_sym_iff
+R999:1003 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R996:997 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R995:995 Coq.Numbers.NatInt.NZBase <> x var
+R998:998 Coq.Numbers.NatInt.NZBase <> y var
+R1005:1006 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1004:1004 Coq.Numbers.NatInt.NZBase <> y var
+R1007:1007 Coq.Numbers.NatInt.NZBase <> x var
+prf 1179:1185 NZBaseProp neq_sym
+R1207:1210 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1212:1215 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R1211:1211 Coq.Numbers.NatInt.NZBase <> m var
+R1216:1216 Coq.Numbers.NatInt.NZBase <> n var
+R1202:1205 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R1201:1201 Coq.Numbers.NatInt.NZBase <> n var
+R1206:1206 Coq.Numbers.NatInt.NZBase <> m var
+prf 1291:1298 NZBaseProp eq_stepl
+R1322:1325 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1332:1335 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1337:1340 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1336:1336 Coq.Numbers.NatInt.NZBase <> z var
+R1341:1341 Coq.Numbers.NatInt.NZBase <> y var
+R1327:1330 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1326:1326 Coq.Numbers.NatInt.NZBase <> x var
+R1331:1331 Coq.Numbers.NatInt.NZBase <> z var
+R1317:1320 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1316:1316 Coq.Numbers.NatInt.NZBase <> x var
+R1321:1321 Coq.Numbers.NatInt.NZBase <> y var
+R1414:1421 Coq.Numbers.NatInt.NZBase NZBaseProp eq_stepl thm
+R1503:1524 Coq.Classes.RelationClasses <> Equivalence_Transitive meth
+R1530:1537 Coq.Numbers.NatInt.NZBase NZ eq_equiv prfax
+prf 1550:1557 NZBaseProp succ_inj
+R1587:1590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1593:1596 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1591:1592 Coq.Numbers.NatInt.NZBase <> n1 var
+R1597:1598 Coq.Numbers.NatInt.NZBase <> n2 var
+R1579:1582 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1575:1575 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1577:1578 Coq.Numbers.NatInt.NZBase <> n1 var
+R1583:1583 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1585:1586 Coq.Numbers.NatInt.NZBase <> n2 var
+R1630:1636 Coq.Numbers.NatInt.NZBase NZ pred_wd prfax
+R1630:1636 Coq.Numbers.NatInt.NZBase NZ pred_wd prfax
+R1661:1669 Coq.Numbers.NatInt.NZBase NZ pred_succ prfax
+R1661:1669 Coq.Numbers.NatInt.NZBase NZ pred_succ prfax
+R1661:1669 Coq.Numbers.NatInt.NZBase NZ pred_succ prfax
+R1661:1669 Coq.Numbers.NatInt.NZBase NZ pred_succ prfax
+R1661:1669 Coq.Numbers.NatInt.NZBase NZ pred_succ prfax
+prf 1789:1799 NZBaseProp succ_inj_wd
+R1829:1833 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1821:1824 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1817:1817 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1819:1820 Coq.Numbers.NatInt.NZBase <> n1 var
+R1825:1825 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1827:1828 Coq.Numbers.NatInt.NZBase <> n2 var
+R1836:1839 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1834:1835 Coq.Numbers.NatInt.NZBase <> n1 var
+R1840:1841 Coq.Numbers.NatInt.NZBase <> n2 var
+R1872:1879 Coq.Numbers.NatInt.NZBase NZBaseProp succ_inj thm
+R1872:1879 Coq.Numbers.NatInt.NZBase NZBaseProp succ_inj thm
+prf 1917:1931 NZBaseProp succ_inj_wd_neg
+R1957:1961 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1950:1953 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R1947:1947 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1949:1949 Coq.Numbers.NatInt.NZBase <> n var
+R1954:1954 Coq.Numbers.NatInt.NZBase NZ S syndef
+R1956:1956 Coq.Numbers.NatInt.NZBase <> m var
+R1963:1966 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R1962:1962 Coq.Numbers.NatInt.NZBase <> n var
+R1967:1967 Coq.Numbers.NatInt.NZBase <> m var
+R1997:2007 Coq.Numbers.NatInt.NZBase NZBaseProp succ_inj_wd thm
+R1997:2007 Coq.Numbers.NatInt.NZBase NZBaseProp succ_inj_wd thm
+R1997:2007 Coq.Numbers.NatInt.NZBase NZBaseProp succ_inj_wd thm
+sec 2141:2156 NZBaseProp CentralInduction
+var 2169:2169 NZBaseProp.CentralInduction A
+R2174:2177 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2173:2173 Coq.Numbers.NatInt.NZBase NZ t defax
+var 2195:2198 NZBaseProp.CentralInduction A_wd
+R2202:2207 Coq.Classes.Morphisms <> Proper class
+R2220:2220 Coq.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2212:2214 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2210:2211 Coq.Numbers.NatInt.NZBase NZ eq defax
+R2215:2217 Coq.Init.Logic <> iff def
+prf 2232:2248 NZBaseProp central_induction
+R2267:2274 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2275:2275 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2301:2311 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2322:2322 Coq.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2324:2324 Coq.Numbers.NatInt.NZBase <> n var
+R2289:2293 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2286:2286 Coq.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2288:2288 Coq.Numbers.NatInt.NZBase <> n var
+R2294:2294 Coq.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2297:2297 Coq.Numbers.NatInt.NZBase NZ S syndef
+R2299:2299 Coq.Numbers.NatInt.NZBase <> n var
+R2264:2264 Coq.Numbers.NatInt.NZBase <> NZBaseProp.CentralInduction.A var
+R2266:2266 Coq.Numbers.NatInt.NZBase <> z var
+R2384:2395 Coq.Numbers.NatInt.NZBase NZ bi_induction prfax
+R2384:2395 Coq.Numbers.NatInt.NZBase NZ bi_induction prfax
+R2429:2440 Coq.Numbers.NatInt.NZBase NZ bi_induction prfax
+R2429:2440 Coq.Numbers.NatInt.NZBase NZ bi_induction prfax
+R2488:2503 Coq.Numbers.NatInt.NZBase NZBaseProp.CentralInduction <> sec
+R2578:2589 Coq.Numbers.NatInt.NZBase NZ bi_induction prfax
+R2675:2691 Coq.Numbers.NatInt.NZBase NZBaseProp central_induction thm
+R2714:2723 Coq.Numbers.NatInt.NZBase NZBaseProp <> modtype

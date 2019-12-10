@@ -1,0 +1,43 @@
+DIGEST 5e1a2feb7eb206c21bca4a7c367aa810
+FCoq.setoid_ring.Ring
+R691:694 Coq.Bool.Bool <> <> lib
+R712:722 Coq.setoid_ring.Ring_theory <> <> lib
+R740:748 Coq.setoid_ring.Ring_base <> <> lib
+R766:776 Coq.setoid_ring.InitialRing <> <> lib
+R794:801 Coq.setoid_ring.Ring_tac <> <> lib
+prf 811:820 <> BoolTheory
+R826:836 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R883:884 Coq.Init.Logic <> eq ind
+R889:892 Coq.Init.Datatypes <> bool ind
+R871:874 Coq.Init.Datatypes <> bool ind
+R879:879 Coq.setoid_ring.Ring <> b var
+R859:862 Coq.Init.Datatypes <> xorb def
+R854:857 Coq.Init.Datatypes <> andb def
+R849:852 Coq.Init.Datatypes <> xorb def
+R844:847 Coq.Init.Datatypes <> true constr
+R838:842 Coq.Init.Datatypes <> false constr
+def 1213:1219 <> bool_eq
+R1228:1231 Coq.Init.Datatypes <> bool ind
+R1242:1243 Coq.setoid_ring.Ring <> b1 var
+R1258:1261 Coq.Init.Datatypes <> negb def
+R1263:1264 Coq.setoid_ring.Ring <> b2 var
+R1250:1251 Coq.setoid_ring.Ring <> b2 var
+prf 1274:1283 <> bool_eq_ok
+R1321:1324 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1327:1329 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1325:1326 Coq.setoid_ring.Ring <> b1 var
+R1330:1331 Coq.setoid_ring.Ring <> b2 var
+R1314:1316 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1301:1307 Coq.setoid_ring.Ring <> bool_eq def
+R1312:1313 Coq.setoid_ring.Ring <> b2 var
+R1309:1310 Coq.setoid_ring.Ring <> b1 var
+R1317:1320 Coq.Init.Datatypes <> true constr
+R1438:1441 Coq.Init.Datatypes <> true constr
+R1438:1441 Coq.Init.Datatypes <> true constr
+R1464:1468 Coq.Init.Datatypes <> false constr
+R1464:1468 Coq.Init.Datatypes <> false constr
+R1505:1515 Coq.setoid_ring.InitialRing <> NotConstant def
+R1481:1485 Coq.Init.Datatypes <> false constr
+R1454:1457 Coq.Init.Datatypes <> true constr
+R1547:1556 Coq.setoid_ring.Ring <> BoolTheory thm
+R1569:1578 Coq.setoid_ring.Ring <> bool_eq_ok thm

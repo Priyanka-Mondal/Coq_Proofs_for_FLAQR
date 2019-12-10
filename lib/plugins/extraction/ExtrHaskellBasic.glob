@@ -1,0 +1,11 @@
+DIGEST bc11344e56c5dfeee7ade934e3060e8d
+FCoq.extraction.ExtrHaskellBasic
+R67:91 Coq.extraction.Extraction <> <> lib
+R113:116 Coq.Init.Datatypes <> bool ind
+R190:195 Coq.Init.Datatypes <> option ind
+R272:275 Coq.Init.Datatypes <> unit ind
+R313:316 Coq.Init.Datatypes <> list ind
+R364:367 Coq.Init.Datatypes <> prod ind
+R408:414 Coq.Init.Specif <> sumbool ind
+R488:492 Coq.Init.Specif <> sumor ind
+R569:571 Coq.Init.Datatypes <> sum ind

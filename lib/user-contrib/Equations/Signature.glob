@@ -1,0 +1,23 @@
+DIGEST f0655218e0db7a55e23ff8a67b3590fa
+FEquations.Signature
+R662:665 Equations.Init <> <> lib
+R667:671 Equations.EqDec <> <> lib
+R769:773 Equations.Init <> sigma rec
+R787:790 Coq.Init.Datatypes <> unit ind
+R769:773 Equations.Init <> sigma rec
+R787:790 Coq.Init.Datatypes <> unit ind
+R895:899 Equations.Init <> sigma rec
+R895:899 Equations.Init <> sigma rec
+R973:977 Equations.Init <> sigma rec
+R973:977 Equations.Init <> sigma rec
+R1116:1120 Equations.Init <> sigma rec
+R1116:1120 Equations.Init <> sigma rec
+rec 1233:1241 <> Signature
+proj 1295:1303 <> signature
+proj 1335:1348 <> signature_pack
+R1322:1325 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1307:1321 Equations.Signature <> signature_index var
+R1355:1358 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1359:1363 Equations.Init <> sigma rec
+R1367:1375 Equations.Signature <> signature meth
+R1352:1354 Equations.Signature <> fam var

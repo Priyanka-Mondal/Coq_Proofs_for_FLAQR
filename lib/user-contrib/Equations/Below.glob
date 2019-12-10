@@ -1,0 +1,91 @@
+DIGEST efd176446d55c38ac36f06526b773df7
+FEquations.Below
+R655:661 Coq.Bool.Bvector <> <> lib
+R679:692 Coq.Vectors.Vector <> <> lib
+R710:728 Coq.Program.Program <> <> lib
+R746:759 Equations.Init <> <> lib
+R761:777 Equations.DepElim <> <> lib
+rec 945:956 <> BelowPackage
+proj 976:980 <> Below
+proj 998:1002 <> below
+R985:988 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R984:984 Equations.Below <> A var
+R1018:1018 Equations.Below <> A var
+R1022:1026 Equations.Below <> Below meth
+R1028:1028 Equations.Below <> a var
+rec 1098:1105 <> Recursor
+proj 1125:1132 <> rec_type
+proj 1157:1159 <> rec
+R1147:1147 Equations.Below <> A var
+R1174:1174 Equations.Below <> A var
+R1177:1184 Equations.Below <> rec_type meth
+R1186:1186 Equations.Below <> x var
+R1482:1484 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1528:1531 Coq.Program.Equality <> ::x_'~='_x not
+R1880:1882 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1880:1882 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2280:2288 Coq.Program.Tactics <> fix_proto def
+R2280:2288 Coq.Program.Tactics <> fix_proto def
+R2371:2378 Equations.Init <> fixproto def
+R2371:2378 Equations.Init <> fixproto def
+R2309:2317 Coq.Program.Tactics <> fix_proto def
+R2423:2431 Coq.Program.Tactics <> fix_proto def
+R2553:2555 Coq.Init.Datatypes <> nat ind
+def 2570:2576 <> rec_nat
+R2586:2589 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2583:2585 Coq.Init.Datatypes <> nat ind
+R2629:2632 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2633:2633 Equations.Below <> P var
+R2635:2635 Equations.Below <> n var
+R2616:2624 Equations.Below <> Below_nat def
+R2628:2628 Equations.Below <> n var
+R2626:2626 Equations.Below <> P var
+R2640:2640 Equations.Below <> P var
+R2642:2642 Equations.Below <> n var
+R2649:2652 Equations.Below <> step var
+R2657:2665 Equations.Below <> below_nat def
+R2674:2674 Equations.Below <> n var
+R2669:2672 Equations.Below <> step var
+R2667:2667 Equations.Below <> P var
+R2654:2654 Equations.Below <> n var
+inst 2688:2699 <> nat_Recursor
+R2703:2710 Equations.Below <> Recursor class
+R2712:2714 Coq.Init.Datatypes <> nat ind
+R2769:2771 Equations.Below <> rec meth
+R2723:2730 Equations.Below <> rec_type meth
+R2759:2759 Equations.Below <> P var
+R2761:2761 Equations.Below <> n var
+R2792:2798 Equations.Below <> rec_nat def
+R2804:2807 Equations.Below <> step var
+R2802:2802 Equations.Below <> n var
+R2800:2800 Equations.Below <> P var
+syndef 2822:2827 <> vector
+R2832:2839 Coq.Vectors.Vector <> t ind
+R2867:2869 Coq.Vectors.Vector <> nil constr
+R2867:2869 Coq.Vectors.Vector <> nil constr
+R2886:2889 Coq.Vectors.Vector <> cons constr
+R2886:2889 Coq.Vectors.Vector <> cons constr
+def 2927:2938 <> Below_vector
+R2967:2970 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2957:2962 Equations.Below <> vector syndef
+R2966:2966 Equations.Below <> n var
+R2964:2964 Equations.Below <> A var
+R2984:2989 Equations.Below <> vector syndef
+R2993:2993 Equations.Below <> n var
+R2991:2991 Equations.Below <> A var
+R3006:3017 Equations.Below <> Below_vector def
+R3028:3030 Coq.Vectors.Vector <> nil constr
+R3042:3053 Equations.Below <> Below_vector def
+R3067:3070 Coq.Vectors.Vector <> cons constr
+R3035:3038 Coq.Init.Datatypes <> unit ind
+R3061:3061 Coq.Init.Datatypes <> S constr
+R3086:3086 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3092:3095 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3096:3107 Equations.Below <> Below_vector def
+R3138:3160 Equations.Below <> Below_vector_equation_2 def
+R4069:4080 Equations.DepElim <> hide_pattern def
+R4159:4169 Equations.DepElim <> add_pattern def
+R4340:4342 Equations.Below <> rec meth
+R4647:4658 Equations.DepElim <> hide_pattern def
+R4828:4830 Equations.Below <> rec meth
+R5189:5200 Equations.DepElim <> hide_pattern def

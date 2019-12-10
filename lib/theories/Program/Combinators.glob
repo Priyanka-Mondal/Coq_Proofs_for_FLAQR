@@ -1,0 +1,77 @@
+DIGEST 32226434551c7a1f51a8a48e9fefeae8
+FCoq.Program.Combinators
+R884:901 Coq.Program.Basics <> <> lib
+R919:942 Coq.Logic.FunctionalExtensionality <> <> lib
+prf 1048:1062 <> compose_id_left
+R1083:1086 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1087:1087 Coq.Program.Combinators <> B var
+R1082:1082 Coq.Program.Combinators <> A var
+R1099:1101 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1093:1097 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1091:1092 Coq.Init.Datatypes <> id def
+R1098:1098 Coq.Program.Combinators <> f var
+R1102:1102 Coq.Program.Combinators <> f var
+prf 1149:1164 <> compose_id_right
+R1185:1188 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1189:1189 Coq.Program.Combinators <> B var
+R1184:1184 Coq.Program.Combinators <> A var
+R1201:1203 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1194:1198 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1193:1193 Coq.Program.Combinators <> f var
+R1199:1200 Coq.Init.Datatypes <> id def
+R1204:1204 Coq.Program.Combinators <> f var
+prf 1251:1263 <> compose_assoc
+R1288:1291 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1292:1292 Coq.Program.Combinators <> B var
+R1287:1287 Coq.Program.Combinators <> A var
+R1301:1304 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1305:1305 Coq.Program.Combinators <> C var
+R1300:1300 Coq.Program.Combinators <> B var
+R1314:1317 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1318:1318 Coq.Program.Combinators <> D var
+R1313:1313 Coq.Program.Combinators <> C var
+R1337:1339 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1331:1335 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1325:1329 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1324:1324 Coq.Program.Combinators <> h var
+R1330:1330 Coq.Program.Combinators <> g var
+R1336:1336 Coq.Program.Combinators <> f var
+R1341:1346 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1354:1354 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1340:1340 Coq.Program.Combinators <> h var
+R1348:1352 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1347:1347 Coq.Program.Combinators <> g var
+R1353:1353 Coq.Program.Combinators <> f var
+R1409:1423 Coq.Program.Combinators <> compose_id_left thm
+R1426:1441 Coq.Program.Combinators <> compose_id_right thm
+R1468:1480 Coq.Program.Combinators <> compose_assoc thm
+prf 1527:1535 <> flip_flip
+R1573:1575 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1564:1568 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1554:1557 Coq.Program.Basics <> flip def
+R1563:1563 Coq.Program.Combinators <> C var
+R1561:1561 Coq.Program.Combinators <> B var
+R1559:1559 Coq.Program.Combinators <> A var
+R1569:1572 Coq.Program.Basics <> flip def
+R1576:1577 Coq.Init.Datatypes <> id def
+prf 1690:1707 <> prod_uncurry_curry
+R1759:1761 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1744:1748 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1726:1737 Coq.Init.Datatypes <> prod_uncurry def
+R1743:1743 Coq.Program.Combinators <> C var
+R1741:1741 Coq.Program.Combinators <> B var
+R1739:1739 Coq.Program.Combinators <> A var
+R1749:1758 Coq.Init.Datatypes <> prod_curry def
+R1762:1763 Coq.Init.Datatypes <> id def
+prf 1810:1827 <> prod_curry_uncurry
+R1879:1881 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1862:1866 Coq.Program.Basics <> :program_scope:x_'∘'_x not
+R1846:1855 Coq.Init.Datatypes <> prod_curry def
+R1861:1861 Coq.Program.Combinators <> C var
+R1859:1859 Coq.Program.Combinators <> B var
+R1857:1857 Coq.Program.Combinators <> A var
+R1867:1878 Coq.Init.Datatypes <> prod_uncurry def
+R1882:1883 Coq.Init.Datatypes <> id def
+R1920:1931 Coq.Init.Datatypes <> prod_uncurry def
+R1934:1943 Coq.Init.Datatypes <> prod_curry def
+R1946:1952 Coq.Program.Basics <> compose def

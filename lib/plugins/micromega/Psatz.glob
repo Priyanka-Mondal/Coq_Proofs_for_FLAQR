@@ -1,0 +1,26 @@
+DIGEST 9a3bc909f12c679a347b6e86f4c01fb6
+FCoq.micromega.Psatz
+R1143:1152 Coq.micromega.ZMicromega <> <> lib
+R1170:1179 Coq.micromega.QMicromega <> <> lib
+R1197:1206 Coq.micromega.RMicromega <> <> lib
+R1224:1229 Coq.QArith.QArith <> <> lib
+R1247:1252 Coq.ZArith.ZArith <> <> lib
+R1270:1281 Coq.Reals.Rdefinitions <> <> lib
+R1299:1311 Coq.micromega.RingMicromega <> <> lib
+R1329:1334 Coq.micromega.VarMap <> <> lib
+R1345:1363 Coq.micromega.Tauto <> <> lib
+R1374:1376 Coq.micromega.Lia <> <> lib
+R1387:1389 Coq.micromega.Lra <> <> lib
+R1400:1402 Coq.micromega.Lqa <> <> lib
+R1547:1547 Coq.Numbers.BinNums <> Z ind
+R1547:1547 Coq.Numbers.BinNums <> Z ind
+R1610:1610 Coq.Reals.Rdefinitions <> R defax
+R1610:1610 Coq.Reals.Rdefinitions <> R defax
+R1672:1672 Coq.QArith.QArith_base <> Q rec
+R1672:1672 Coq.QArith.QArith_base <> Q rec
+R1961:1961 Coq.Numbers.BinNums <> Z ind
+R1961:1961 Coq.Numbers.BinNums <> Z ind
+R1978:1978 Coq.QArith.QArith_base <> Q rec
+R1978:1978 Coq.QArith.QArith_base <> Q rec
+R1995:1995 Coq.Reals.Rdefinitions <> R defax
+R1995:1995 Coq.Reals.Rdefinitions <> R defax

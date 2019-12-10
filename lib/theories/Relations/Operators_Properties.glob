@@ -1,0 +1,595 @@
+DIGEST 9643b46a7d5aa68949fa28c5ce4c0dd4
+FCoq.Relations.Operators_Properties
+R1067:1086 Coq.Relations.Relation_Definitions <> <> lib
+R1104:1121 Coq.Relations.Relation_Operators <> <> lib
+sec 1133:1142 <> Properties
+R1158:1166 Coq.Relations.Relation_Operators <> clos_refl ind
+R1158:1166 Coq.Relations.Relation_Operators <> clos_refl ind
+R1191:1205 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R1191:1205 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R1230:1247 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R1230:1247 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R1272:1289 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R1272:1289 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R1314:1332 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R1314:1332 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R1357:1378 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R1357:1378 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R1403:1424 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R1403:1424 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R1449:1458 Coq.Relations.Relation_Operators <> clos_trans ind
+R1449:1458 Coq.Relations.Relation_Operators <> clos_trans ind
+R1483:1495 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R1483:1495 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R1520:1532 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R1520:1532 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R1557:1565 Coq.Relations.Relation_Definitions <> inclusion def
+R1557:1565 Coq.Relations.Relation_Definitions <> inclusion def
+R1590:1597 Coq.Relations.Relation_Definitions <> preorder rec
+R1590:1597 Coq.Relations.Relation_Definitions <> preorder rec
+var 1618:1618 Properties A
+var 1639:1639 Properties R
+R1643:1650 Coq.Relations.Relation_Definitions <> relation def
+R1652:1652 Coq.Relations.Operators_Properties <> Properties.A var
+sec 1666:1680 Properties Clos_Refl_Trans
+R1713:1727 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+not 1703:1703 Properties.Clos_Refl_Trans ::x_'*'
+prf 1864:1882 <> clos_rt_is_preorder
+R1886:1893 Coq.Relations.Relation_Definitions <> preorder rec
+R1896:1896 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans ::x_'*' not
+R1895:1895 Coq.Relations.Operators_Properties <> Properties.R var
+R1922:1935 Coq.Relations.Relation_Definitions <> Build_preorder constr
+R1922:1935 Coq.Relations.Relation_Definitions <> Build_preorder constr
+R1951:1957 Coq.Relations.Relation_Operators <> rt_refl constr
+R1961:1961 Coq.Relations.Operators_Properties <> Properties.R var
+R1959:1959 Coq.Relations.Operators_Properties <> Properties.A var
+R1951:1957 Coq.Relations.Relation_Operators <> rt_refl constr
+R1961:1961 Coq.Relations.Operators_Properties <> Properties.R var
+R1959:1959 Coq.Relations.Operators_Properties <> Properties.A var
+R1979:1986 Coq.Relations.Relation_Operators <> rt_trans constr
+R1990:1990 Coq.Relations.Operators_Properties <> Properties.R var
+R1988:1988 Coq.Relations.Operators_Properties <> Properties.A var
+R1979:1986 Coq.Relations.Relation_Operators <> rt_trans constr
+R1990:1990 Coq.Relations.Operators_Properties <> Properties.R var
+R1988:1988 Coq.Relations.Operators_Properties <> Properties.A var
+prf 2083:2100 <> clos_rt_idempotent
+R2104:2112 Coq.Relations.Relation_Definitions <> inclusion def
+R2121:2121 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans ::x_'*' not
+R2120:2120 Coq.Relations.Operators_Properties <> Properties.R var
+R2114:2114 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans ::x_'*' not
+R2117:2118 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans ::x_'*' not
+R2116:2116 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans ::x_'*' not
+R2115:2115 Coq.Relations.Operators_Properties <> Properties.R var
+R2207:2214 Coq.Relations.Relation_Operators <> rt_trans constr
+R2207:2214 Coq.Relations.Relation_Operators <> rt_trans constr
+R2256:2270 Coq.Relations.Operators_Properties Properties.Clos_Refl_Trans <> sec
+sec 2284:2302 Properties Clos_Refl_Sym_Trans
+prf 2423:2438 <> clos_rt_clos_rst
+R2448:2456 Coq.Relations.Relation_Definitions <> inclusion def
+R2479:2497 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R2499:2499 Coq.Relations.Operators_Properties <> Properties.R var
+R2459:2473 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2475:2475 Coq.Relations.Operators_Properties <> Properties.R var
+R2572:2580 Coq.Relations.Relation_Operators <> rst_trans constr
+R2572:2580 Coq.Relations.Relation_Operators <> rst_trans constr
+prf 2712:2725 <> clos_r_clos_rt
+R2735:2743 Coq.Relations.Relation_Definitions <> inclusion def
+R2760:2774 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2776:2776 Coq.Relations.Operators_Properties <> Properties.R var
+R2746:2754 Coq.Relations.Relation_Operators <> clos_refl ind
+R2756:2756 Coq.Relations.Operators_Properties <> Properties.R var
+prf 2887:2895 <> clos_rt_t
+R2940:2943 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2960:2969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2970:2979 Coq.Relations.Relation_Operators <> clos_trans ind
+R2985:2985 Coq.Relations.Operators_Properties <> z var
+R2983:2983 Coq.Relations.Operators_Properties <> x var
+R2981:2981 Coq.Relations.Operators_Properties <> Properties.R var
+R2944:2953 Coq.Relations.Relation_Operators <> clos_trans ind
+R2959:2959 Coq.Relations.Operators_Properties <> z var
+R2957:2957 Coq.Relations.Operators_Properties <> y var
+R2955:2955 Coq.Relations.Operators_Properties <> Properties.R var
+R2919:2933 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R2939:2939 Coq.Relations.Operators_Properties <> y var
+R2937:2937 Coq.Relations.Operators_Properties <> x var
+R2935:2935 Coq.Relations.Operators_Properties <> Properties.R var
+R3079:3085 Coq.Relations.Relation_Operators <> t_trans constr
+R3079:3085 Coq.Relations.Relation_Operators <> t_trans constr
+prf 3221:3237 <> clos_rst_is_equiv
+R3241:3251 Coq.Relations.Relation_Definitions <> equivalence rec
+R3256:3274 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3276:3276 Coq.Relations.Operators_Properties <> Properties.R var
+R3253:3253 Coq.Relations.Operators_Properties <> Properties.A var
+R3303:3319 Coq.Relations.Relation_Definitions <> Build_equivalence constr
+R3303:3319 Coq.Relations.Relation_Definitions <> Build_equivalence constr
+R3335:3342 Coq.Relations.Relation_Operators <> rst_refl constr
+R3346:3346 Coq.Relations.Operators_Properties <> Properties.R var
+R3344:3344 Coq.Relations.Operators_Properties <> Properties.A var
+R3335:3342 Coq.Relations.Relation_Operators <> rst_refl constr
+R3346:3346 Coq.Relations.Operators_Properties <> Properties.R var
+R3344:3344 Coq.Relations.Operators_Properties <> Properties.A var
+R3363:3371 Coq.Relations.Relation_Operators <> rst_trans constr
+R3375:3375 Coq.Relations.Operators_Properties <> Properties.R var
+R3373:3373 Coq.Relations.Operators_Properties <> Properties.A var
+R3363:3371 Coq.Relations.Relation_Operators <> rst_trans constr
+R3375:3375 Coq.Relations.Operators_Properties <> Properties.R var
+R3373:3373 Coq.Relations.Operators_Properties <> Properties.A var
+R3392:3398 Coq.Relations.Relation_Operators <> rst_sym constr
+R3402:3402 Coq.Relations.Operators_Properties <> Properties.R var
+R3400:3400 Coq.Relations.Operators_Properties <> Properties.A var
+R3392:3398 Coq.Relations.Relation_Operators <> rst_sym constr
+R3402:3402 Coq.Relations.Operators_Properties <> Properties.R var
+R3400:3400 Coq.Relations.Operators_Properties <> Properties.A var
+prf 3505:3523 <> clos_rst_idempotent
+R3533:3541 Coq.Relations.Relation_Definitions <> inclusion def
+R3596:3614 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3616:3616 Coq.Relations.Operators_Properties <> Properties.R var
+R3544:3562 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3565:3583 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R3585:3585 Coq.Relations.Operators_Properties <> Properties.R var
+R3689:3697 Coq.Relations.Relation_Operators <> rst_trans constr
+R3689:3697 Coq.Relations.Relation_Operators <> rst_trans constr
+R3739:3757 Coq.Relations.Operators_Properties Properties.Clos_Refl_Sym_Trans <> sec
+sec 3771:3782 Properties Equivalences
+prf 4014:4027 <> clos_t1n_trans
+R4062:4065 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4066:4075 Coq.Relations.Relation_Operators <> clos_trans ind
+R4081:4081 Coq.Relations.Operators_Properties <> y var
+R4079:4079 Coq.Relations.Operators_Properties <> x var
+R4077:4077 Coq.Relations.Operators_Properties <> Properties.R var
+R4043:4055 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R4061:4061 Coq.Relations.Operators_Properties <> y var
+R4059:4059 Coq.Relations.Operators_Properties <> x var
+R4057:4057 Coq.Relations.Operators_Properties <> Properties.R var
+prf 4198:4211 <> clos_trans_t1n
+R4243:4246 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4247:4259 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R4265:4265 Coq.Relations.Operators_Properties <> y var
+R4263:4263 Coq.Relations.Operators_Properties <> x var
+R4261:4261 Coq.Relations.Operators_Properties <> Properties.R var
+R4227:4236 Coq.Relations.Relation_Operators <> clos_trans ind
+R4242:4242 Coq.Relations.Operators_Properties <> y var
+R4240:4240 Coq.Relations.Operators_Properties <> x var
+R4238:4238 Coq.Relations.Operators_Properties <> Properties.R var
+R4500:4513 Coq.Relations.Operators_Properties <> clos_t1n_trans thm
+R4500:4513 Coq.Relations.Operators_Properties <> clos_t1n_trans thm
+prf 4542:4559 <> clos_trans_t1n_iff
+R4599:4603 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4583:4592 Coq.Relations.Relation_Operators <> clos_trans ind
+R4598:4598 Coq.Relations.Operators_Properties <> y var
+R4596:4596 Coq.Relations.Operators_Properties <> x var
+R4594:4594 Coq.Relations.Operators_Properties <> Properties.R var
+R4604:4616 Coq.Relations.Relation_Operators <> clos_trans_1n ind
+R4622:4622 Coq.Relations.Operators_Properties <> y var
+R4620:4620 Coq.Relations.Operators_Properties <> x var
+R4618:4618 Coq.Relations.Operators_Properties <> Properties.R var
+R4661:4674 Coq.Relations.Operators_Properties <> clos_trans_t1n thm
+R4661:4674 Coq.Relations.Operators_Properties <> clos_trans_t1n thm
+R4689:4702 Coq.Relations.Operators_Properties <> clos_t1n_trans thm
+R4689:4702 Coq.Relations.Operators_Properties <> clos_t1n_trans thm
+prf 4787:4800 <> clos_tn1_trans
+R4835:4838 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4839:4848 Coq.Relations.Relation_Operators <> clos_trans ind
+R4854:4854 Coq.Relations.Operators_Properties <> y var
+R4852:4852 Coq.Relations.Operators_Properties <> x var
+R4850:4850 Coq.Relations.Operators_Properties <> Properties.R var
+R4816:4828 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R4834:4834 Coq.Relations.Operators_Properties <> y var
+R4832:4832 Coq.Relations.Operators_Properties <> x var
+R4830:4830 Coq.Relations.Operators_Properties <> Properties.R var
+prf 4981:4994 <> clos_trans_tn1
+R5027:5030 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5031:5043 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R5049:5049 Coq.Relations.Operators_Properties <> y var
+R5047:5047 Coq.Relations.Operators_Properties <> x var
+R5045:5045 Coq.Relations.Operators_Properties <> Properties.R var
+R5011:5020 Coq.Relations.Relation_Operators <> clos_trans ind
+R5026:5026 Coq.Relations.Operators_Properties <> y var
+R5024:5024 Coq.Relations.Operators_Properties <> x var
+R5022:5022 Coq.Relations.Operators_Properties <> Properties.R var
+prf 5247:5264 <> clos_trans_tn1_iff
+R5304:5308 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5288:5297 Coq.Relations.Relation_Operators <> clos_trans ind
+R5303:5303 Coq.Relations.Operators_Properties <> y var
+R5301:5301 Coq.Relations.Operators_Properties <> x var
+R5299:5299 Coq.Relations.Operators_Properties <> Properties.R var
+R5309:5321 Coq.Relations.Relation_Operators <> clos_trans_n1 ind
+R5327:5327 Coq.Relations.Operators_Properties <> y var
+R5325:5325 Coq.Relations.Operators_Properties <> x var
+R5323:5323 Coq.Relations.Operators_Properties <> Properties.R var
+R5366:5379 Coq.Relations.Operators_Properties <> clos_trans_tn1 thm
+R5366:5379 Coq.Relations.Operators_Properties <> clos_trans_tn1 thm
+R5394:5407 Coq.Relations.Operators_Properties <> clos_tn1_trans thm
+R5394:5407 Coq.Relations.Operators_Properties <> clos_tn1_trans thm
+prf 5539:5552 <> clos_rt1n_step
+R5573:5576 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5577:5594 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R5600:5600 Coq.Relations.Operators_Properties <> y var
+R5598:5598 Coq.Relations.Operators_Properties <> x var
+R5596:5596 Coq.Relations.Operators_Properties <> Properties.R var
+R5568:5568 Coq.Relations.Operators_Properties <> Properties.R var
+R5572:5572 Coq.Relations.Operators_Properties <> y var
+R5570:5570 Coq.Relations.Operators_Properties <> x var
+prf 5692:5705 <> clos_rtn1_step
+R5726:5729 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5730:5747 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R5753:5753 Coq.Relations.Operators_Properties <> y var
+R5751:5751 Coq.Relations.Operators_Properties <> x var
+R5749:5749 Coq.Relations.Operators_Properties <> Properties.R var
+R5721:5721 Coq.Relations.Operators_Properties <> Properties.R var
+R5725:5725 Coq.Relations.Operators_Properties <> y var
+R5723:5723 Coq.Relations.Operators_Properties <> x var
+prf 5845:5856 <> clos_rt1n_rt
+R5904:5907 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5908:5922 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R5928:5928 Coq.Relations.Operators_Properties <> y var
+R5926:5926 Coq.Relations.Operators_Properties <> x var
+R5924:5924 Coq.Relations.Operators_Properties <> Properties.R var
+R5880:5897 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R5903:5903 Coq.Relations.Operators_Properties <> y var
+R5901:5901 Coq.Relations.Operators_Properties <> x var
+R5899:5899 Coq.Relations.Operators_Properties <> Properties.R var
+prf 6063:6074 <> clos_rt_rt1n
+R6119:6122 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6123:6140 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R6146:6146 Coq.Relations.Operators_Properties <> y var
+R6144:6144 Coq.Relations.Operators_Properties <> x var
+R6142:6142 Coq.Relations.Operators_Properties <> Properties.R var
+R6098:6112 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R6118:6118 Coq.Relations.Operators_Properties <> y var
+R6116:6116 Coq.Relations.Operators_Properties <> x var
+R6114:6114 Coq.Relations.Operators_Properties <> Properties.R var
+R6191:6204 Coq.Relations.Operators_Properties <> clos_rt1n_step thm
+R6191:6204 Coq.Relations.Operators_Properties <> clos_rt1n_step thm
+R6418:6429 Coq.Relations.Operators_Properties <> clos_rt1n_rt thm
+R6418:6429 Coq.Relations.Operators_Properties <> clos_rt1n_rt thm
+prf 6458:6473 <> clos_rt_rt1n_iff
+R6516:6520 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6495:6509 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R6515:6515 Coq.Relations.Operators_Properties <> y var
+R6513:6513 Coq.Relations.Operators_Properties <> x var
+R6511:6511 Coq.Relations.Operators_Properties <> Properties.R var
+R6521:6538 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R6544:6544 Coq.Relations.Operators_Properties <> y var
+R6542:6542 Coq.Relations.Operators_Properties <> x var
+R6540:6540 Coq.Relations.Operators_Properties <> Properties.R var
+R6583:6594 Coq.Relations.Operators_Properties <> clos_rt_rt1n thm
+R6583:6594 Coq.Relations.Operators_Properties <> clos_rt_rt1n thm
+R6609:6620 Coq.Relations.Operators_Properties <> clos_rt1n_rt thm
+R6609:6620 Coq.Relations.Operators_Properties <> clos_rt1n_rt thm
+prf 6753:6764 <> clos_rtn1_rt
+R6812:6815 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6816:6830 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R6836:6836 Coq.Relations.Operators_Properties <> y var
+R6834:6834 Coq.Relations.Operators_Properties <> x var
+R6832:6832 Coq.Relations.Operators_Properties <> Properties.R var
+R6788:6805 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R6811:6811 Coq.Relations.Operators_Properties <> y var
+R6809:6809 Coq.Relations.Operators_Properties <> x var
+R6807:6807 Coq.Relations.Operators_Properties <> Properties.R var
+prf 6977:6988 <> clos_rt_rtn1
+R7034:7037 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7038:7055 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R7061:7061 Coq.Relations.Operators_Properties <> y var
+R7059:7059 Coq.Relations.Operators_Properties <> x var
+R7057:7057 Coq.Relations.Operators_Properties <> Properties.R var
+R7013:7027 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R7033:7033 Coq.Relations.Operators_Properties <> y var
+R7031:7031 Coq.Relations.Operators_Properties <> x var
+R7029:7029 Coq.Relations.Operators_Properties <> Properties.R var
+R7106:7119 Coq.Relations.Operators_Properties <> clos_rtn1_step thm
+R7106:7119 Coq.Relations.Operators_Properties <> clos_rtn1_step thm
+prf 7238:7253 <> clos_rt_rtn1_iff
+R7298:7302 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R7277:7291 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R7297:7297 Coq.Relations.Operators_Properties <> y var
+R7295:7295 Coq.Relations.Operators_Properties <> x var
+R7293:7293 Coq.Relations.Operators_Properties <> Properties.R var
+R7303:7320 Coq.Relations.Relation_Operators <> clos_refl_trans_n1 ind
+R7326:7326 Coq.Relations.Operators_Properties <> y var
+R7324:7324 Coq.Relations.Operators_Properties <> x var
+R7322:7322 Coq.Relations.Operators_Properties <> Properties.R var
+R7365:7376 Coq.Relations.Operators_Properties <> clos_rt_rtn1 thm
+R7365:7376 Coq.Relations.Operators_Properties <> clos_rt_rtn1 thm
+R7391:7402 Coq.Relations.Operators_Properties <> clos_rtn1_rt thm
+R7391:7402 Coq.Relations.Operators_Properties <> clos_rtn1_rt thm
+prf 7475:7498 <> clos_refl_trans_ind_left
+R7518:7518 Coq.Relations.Operators_Properties <> Properties.A var
+R7525:7528 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7524:7524 Coq.Relations.Operators_Properties <> Properties.A var
+R7539:7543 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7544:7544 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7603:7608 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7618:7618 Coq.Relations.Operators_Properties <> Properties.A var
+R7642:7645 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7646:7646 Coq.Relations.Operators_Properties <> P var
+R7648:7648 Coq.Relations.Operators_Properties <> z var
+R7621:7635 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R7641:7641 Coq.Relations.Operators_Properties <> z var
+R7639:7639 Coq.Relations.Operators_Properties <> x var
+R7637:7637 Coq.Relations.Operators_Properties <> Properties.R var
+R7556:7556 Coq.Relations.Operators_Properties <> Properties.A var
+R7580:7583 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7587:7590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7596:7599 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7600:7600 Coq.Relations.Operators_Properties <> P var
+R7602:7602 Coq.Relations.Operators_Properties <> z var
+R7591:7591 Coq.Relations.Operators_Properties <> Properties.R var
+R7595:7595 Coq.Relations.Operators_Properties <> z var
+R7593:7593 Coq.Relations.Operators_Properties <> y var
+R7584:7584 Coq.Relations.Operators_Properties <> P var
+R7586:7586 Coq.Relations.Operators_Properties <> y var
+R7559:7573 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R7579:7579 Coq.Relations.Operators_Properties <> y var
+R7577:7577 Coq.Relations.Operators_Properties <> x var
+R7575:7575 Coq.Relations.Operators_Properties <> Properties.R var
+R7536:7536 Coq.Relations.Operators_Properties <> P var
+R7538:7538 Coq.Relations.Operators_Properties <> x var
+R7926:7933 Coq.Relations.Relation_Operators <> rt_trans constr
+R7926:7933 Coq.Relations.Relation_Operators <> rt_trans constr
+prf 8030:8043 <> rt1n_ind_right
+R8060:8063 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8059:8059 Coq.Relations.Operators_Properties <> Properties.A var
+R8073:8073 Coq.Relations.Operators_Properties <> Properties.A var
+R8086:8095 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8096:8096 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8156:8166 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8201:8204 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8205:8205 Coq.Relations.Operators_Properties <> P var
+R8207:8207 Coq.Relations.Operators_Properties <> x var
+R8177:8194 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R8200:8200 Coq.Relations.Operators_Properties <> z var
+R8198:8198 Coq.Relations.Operators_Properties <> x var
+R8196:8196 Coq.Relations.Operators_Properties <> Properties.R var
+R8114:8117 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8142:8145 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8149:8152 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8153:8153 Coq.Relations.Operators_Properties <> P var
+R8155:8155 Coq.Relations.Operators_Properties <> x var
+R8146:8146 Coq.Relations.Operators_Properties <> P var
+R8148:8148 Coq.Relations.Operators_Properties <> y var
+R8118:8135 Coq.Relations.Relation_Operators <> clos_refl_trans_1n ind
+R8141:8141 Coq.Relations.Operators_Properties <> z var
+R8139:8139 Coq.Relations.Operators_Properties <> y var
+R8137:8137 Coq.Relations.Operators_Properties <> Properties.R var
+R8109:8109 Coq.Relations.Operators_Properties <> Properties.R var
+R8113:8113 Coq.Relations.Operators_Properties <> y var
+R8111:8111 Coq.Relations.Operators_Properties <> x var
+R8083:8083 Coq.Relations.Operators_Properties <> P var
+R8085:8085 Coq.Relations.Operators_Properties <> z var
+prf 8284:8308 <> clos_refl_trans_ind_right
+R8325:8328 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8324:8324 Coq.Relations.Operators_Properties <> Properties.A var
+R8338:8338 Coq.Relations.Operators_Properties <> Properties.A var
+R8351:8360 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8361:8361 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8418:8428 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8460:8463 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8464:8464 Coq.Relations.Operators_Properties <> P var
+R8466:8466 Coq.Relations.Operators_Properties <> x var
+R8439:8453 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R8459:8459 Coq.Relations.Operators_Properties <> z var
+R8457:8457 Coq.Relations.Operators_Properties <> x var
+R8455:8455 Coq.Relations.Operators_Properties <> Properties.R var
+R8379:8382 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8386:8389 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8411:8414 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8415:8415 Coq.Relations.Operators_Properties <> P var
+R8417:8417 Coq.Relations.Operators_Properties <> x var
+R8390:8404 Coq.Relations.Relation_Operators <> clos_refl_trans ind
+R8410:8410 Coq.Relations.Operators_Properties <> z var
+R8408:8408 Coq.Relations.Operators_Properties <> y var
+R8406:8406 Coq.Relations.Operators_Properties <> Properties.R var
+R8383:8383 Coq.Relations.Operators_Properties <> P var
+R8385:8385 Coq.Relations.Operators_Properties <> y var
+R8374:8374 Coq.Relations.Operators_Properties <> Properties.R var
+R8378:8378 Coq.Relations.Operators_Properties <> y var
+R8376:8376 Coq.Relations.Operators_Properties <> x var
+R8348:8348 Coq.Relations.Operators_Properties <> P var
+R8350:8350 Coq.Relations.Operators_Properties <> z var
+R8511:8526 Coq.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+R8511:8526 Coq.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+R8557:8570 Coq.Relations.Operators_Properties <> rt1n_ind_right thm
+R8557:8570 Coq.Relations.Operators_Properties <> rt1n_ind_right thm
+R8639:8654 Coq.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+R8639:8654 Coq.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+prf 8826:8839 <> clos_rst1n_rst
+R8890:8893 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8894:8912 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R8918:8918 Coq.Relations.Operators_Properties <> y var
+R8916:8916 Coq.Relations.Operators_Properties <> x var
+R8914:8914 Coq.Relations.Operators_Properties <> Properties.R var
+R8862:8883 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R8889:8889 Coq.Relations.Operators_Properties <> y var
+R8887:8887 Coq.Relations.Operators_Properties <> x var
+R8885:8885 Coq.Relations.Operators_Properties <> Properties.R var
+prf 9091:9106 <> clos_rst1n_trans
+R9152:9163 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9192:9195 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9196:9217 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9223:9223 Coq.Relations.Operators_Properties <> z var
+R9221:9221 Coq.Relations.Operators_Properties <> x var
+R9219:9219 Coq.Relations.Operators_Properties <> Properties.R var
+R9164:9185 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9191:9191 Coq.Relations.Operators_Properties <> z var
+R9189:9189 Coq.Relations.Operators_Properties <> y var
+R9187:9187 Coq.Relations.Operators_Properties <> Properties.R var
+R9124:9145 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9151:9151 Coq.Relations.Operators_Properties <> y var
+R9149:9149 Coq.Relations.Operators_Properties <> x var
+R9147:9147 Coq.Relations.Operators_Properties <> Properties.R var
+prf 9312:9325 <> clos_rst1n_sym
+R9369:9378 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9379:9400 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9406:9406 Coq.Relations.Operators_Properties <> x var
+R9404:9404 Coq.Relations.Operators_Properties <> y var
+R9402:9402 Coq.Relations.Operators_Properties <> Properties.R var
+R9341:9362 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9368:9368 Coq.Relations.Operators_Properties <> y var
+R9366:9366 Coq.Relations.Operators_Properties <> x var
+R9364:9364 Coq.Relations.Operators_Properties <> Properties.R var
+R9505:9520 Coq.Relations.Operators_Properties <> clos_rst1n_trans thm
+R9505:9520 Coq.Relations.Operators_Properties <> clos_rst1n_trans thm
+prf 9603:9616 <> clos_rst_rst1n
+R9664:9667 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9668:9689 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9695:9695 Coq.Relations.Operators_Properties <> y var
+R9693:9693 Coq.Relations.Operators_Properties <> x var
+R9691:9691 Coq.Relations.Operators_Properties <> Properties.R var
+R9639:9657 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R9663:9663 Coq.Relations.Operators_Properties <> y var
+R9661:9661 Coq.Relations.Operators_Properties <> x var
+R9659:9659 Coq.Relations.Operators_Properties <> Properties.R var
+R9805:9818 Coq.Relations.Operators_Properties <> clos_rst1n_sym thm
+R9805:9818 Coq.Relations.Operators_Properties <> clos_rst1n_sym thm
+R9840:9855 Coq.Relations.Operators_Properties <> clos_rst1n_trans thm
+R9840:9855 Coq.Relations.Operators_Properties <> clos_rst1n_trans thm
+prf 9885:9902 <> clos_rst_rst1n_iff
+R9949:9953 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R9924:9942 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R9948:9948 Coq.Relations.Operators_Properties <> y var
+R9946:9946 Coq.Relations.Operators_Properties <> x var
+R9944:9944 Coq.Relations.Operators_Properties <> Properties.R var
+R9954:9975 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_1n ind
+R9981:9981 Coq.Relations.Operators_Properties <> y var
+R9979:9979 Coq.Relations.Operators_Properties <> x var
+R9977:9977 Coq.Relations.Operators_Properties <> Properties.R var
+R10020:10033 Coq.Relations.Operators_Properties <> clos_rst_rst1n thm
+R10020:10033 Coq.Relations.Operators_Properties <> clos_rst_rst1n thm
+R10048:10061 Coq.Relations.Operators_Properties <> clos_rst1n_rst thm
+R10048:10061 Coq.Relations.Operators_Properties <> clos_rst1n_rst thm
+prf 10214:10227 <> clos_rstn1_rst
+R10277:10280 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10281:10299 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R10305:10305 Coq.Relations.Operators_Properties <> y var
+R10303:10303 Coq.Relations.Operators_Properties <> x var
+R10301:10301 Coq.Relations.Operators_Properties <> Properties.R var
+R10249:10270 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10276:10276 Coq.Relations.Operators_Properties <> y var
+R10274:10274 Coq.Relations.Operators_Properties <> x var
+R10272:10272 Coq.Relations.Operators_Properties <> Properties.R var
+prf 10478:10493 <> clos_rstn1_trans
+R10539:10548 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10577:10580 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10581:10602 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10608:10608 Coq.Relations.Operators_Properties <> z var
+R10606:10606 Coq.Relations.Operators_Properties <> x var
+R10604:10604 Coq.Relations.Operators_Properties <> Properties.R var
+R10549:10570 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10576:10576 Coq.Relations.Operators_Properties <> z var
+R10574:10574 Coq.Relations.Operators_Properties <> y var
+R10572:10572 Coq.Relations.Operators_Properties <> Properties.R var
+R10511:10532 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10538:10538 Coq.Relations.Operators_Properties <> y var
+R10536:10536 Coq.Relations.Operators_Properties <> x var
+R10534:10534 Coq.Relations.Operators_Properties <> Properties.R var
+prf 10742:10755 <> clos_rstn1_sym
+R10799:10808 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10809:10830 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10836:10836 Coq.Relations.Operators_Properties <> x var
+R10834:10834 Coq.Relations.Operators_Properties <> y var
+R10832:10832 Coq.Relations.Operators_Properties <> Properties.R var
+R10771:10792 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R10798:10798 Coq.Relations.Operators_Properties <> y var
+R10796:10796 Coq.Relations.Operators_Properties <> x var
+R10794:10794 Coq.Relations.Operators_Properties <> Properties.R var
+R10932:10947 Coq.Relations.Operators_Properties <> clos_rstn1_trans thm
+R10932:10947 Coq.Relations.Operators_Properties <> clos_rstn1_trans thm
+prf 11029:11042 <> clos_rst_rstn1
+R11089:11092 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11093:11114 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11120:11120 Coq.Relations.Operators_Properties <> y var
+R11118:11118 Coq.Relations.Operators_Properties <> x var
+R11116:11116 Coq.Relations.Operators_Properties <> Properties.R var
+R11064:11082 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R11088:11088 Coq.Relations.Operators_Properties <> y var
+R11086:11086 Coq.Relations.Operators_Properties <> x var
+R11084:11084 Coq.Relations.Operators_Properties <> Properties.R var
+R11241:11254 Coq.Relations.Operators_Properties <> clos_rstn1_sym thm
+R11241:11254 Coq.Relations.Operators_Properties <> clos_rstn1_sym thm
+R11276:11291 Coq.Relations.Operators_Properties <> clos_rstn1_trans thm
+R11276:11291 Coq.Relations.Operators_Properties <> clos_rstn1_trans thm
+prf 11321:11338 <> clos_rst_rstn1_iff
+R11385:11389 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R11360:11378 Coq.Relations.Relation_Operators <> clos_refl_sym_trans ind
+R11384:11384 Coq.Relations.Operators_Properties <> y var
+R11382:11382 Coq.Relations.Operators_Properties <> x var
+R11380:11380 Coq.Relations.Operators_Properties <> Properties.R var
+R11390:11411 Coq.Relations.Relation_Operators <> clos_refl_sym_trans_n1 ind
+R11417:11417 Coq.Relations.Operators_Properties <> y var
+R11415:11415 Coq.Relations.Operators_Properties <> x var
+R11413:11413 Coq.Relations.Operators_Properties <> Properties.R var
+R11456:11469 Coq.Relations.Operators_Properties <> clos_rst_rstn1 thm
+R11456:11469 Coq.Relations.Operators_Properties <> clos_rst_rstn1 thm
+R11484:11497 Coq.Relations.Operators_Properties <> clos_rstn1_rst thm
+R11484:11497 Coq.Relations.Operators_Properties <> clos_rstn1_rst thm
+R11516:11527 Coq.Relations.Operators_Properties Properties.Equivalences <> sec
+prf 11539:11563 <> clos_trans_transp_permute
+R11610:11614 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R11583:11588 Coq.Relations.Relation_Operators <> transp def
+R11609:11609 Coq.Relations.Operators_Properties <> y var
+R11607:11607 Coq.Relations.Operators_Properties <> x var
+R11593:11602 Coq.Relations.Relation_Operators <> clos_trans ind
+R11604:11604 Coq.Relations.Operators_Properties <> Properties.R var
+R11615:11624 Coq.Relations.Relation_Operators <> clos_trans ind
+R11641:11641 Coq.Relations.Operators_Properties <> y var
+R11639:11639 Coq.Relations.Operators_Properties <> x var
+R11627:11632 Coq.Relations.Relation_Operators <> transp def
+R11636:11636 Coq.Relations.Operators_Properties <> Properties.R var
+R11718:11724 Coq.Relations.Relation_Operators <> t_trans constr
+R11688:11693 Coq.Relations.Relation_Operators <> t_step constr
+R11688:11693 Coq.Relations.Relation_Operators <> t_step constr
+R11688:11693 Coq.Relations.Relation_Operators <> t_step constr
+R11718:11724 Coq.Relations.Relation_Operators <> t_trans constr
+R11688:11693 Coq.Relations.Relation_Operators <> t_step constr
+R11688:11693 Coq.Relations.Relation_Operators <> t_step constr
+R11718:11724 Coq.Relations.Relation_Operators <> t_trans constr
+R11752:11761 Coq.Relations.Operators_Properties Properties <> sec
+syndef 11811:11819 <> trans_tn1
+R11824:11837 Coq.Relations.Operators_Properties <> clos_trans_tn1 thm
+syndef 11864:11872 <> tn1_trans
+R11877:11890 Coq.Relations.Operators_Properties <> clos_tn1_trans thm
+syndef 11917:11931 <> tn1_trans_equiv
+R11936:11953 Coq.Relations.Operators_Properties <> clos_trans_tn1_iff thm
+syndef 11981:11989 <> trans_t1n
+R11994:12007 Coq.Relations.Operators_Properties <> clos_trans_t1n thm
+syndef 12034:12042 <> t1n_trans
+R12047:12060 Coq.Relations.Operators_Properties <> clos_t1n_trans thm
+syndef 12087:12101 <> t1n_trans_equiv
+R12106:12123 Coq.Relations.Operators_Properties <> clos_trans_t1n_iff thm
+syndef 12151:12156 <> R_rtn1
+R12161:12174 Coq.Relations.Operators_Properties <> clos_rtn1_step thm
+syndef 12201:12210 <> trans_rt1n
+R12215:12226 Coq.Relations.Operators_Properties <> clos_rt_rt1n thm
+syndef 12253:12262 <> rt1n_trans
+R12267:12278 Coq.Relations.Operators_Properties <> clos_rt1n_rt thm
+syndef 12305:12320 <> rt1n_trans_equiv
+R12325:12340 Coq.Relations.Operators_Properties <> clos_rt_rt1n_iff thm
+syndef 12368:12373 <> R_rt1n
+R12378:12391 Coq.Relations.Operators_Properties <> clos_rt1n_step thm
+syndef 12418:12427 <> trans_rtn1
+R12432:12443 Coq.Relations.Operators_Properties <> clos_rt_rtn1 thm
+syndef 12470:12479 <> rtn1_trans
+R12484:12495 Coq.Relations.Operators_Properties <> clos_rtn1_rt thm
+syndef 12522:12537 <> rtn1_trans_equiv
+R12542:12557 Coq.Relations.Operators_Properties <> clos_rt_rtn1_iff thm
+syndef 12585:12593 <> rts1n_rts
+R12598:12611 Coq.Relations.Operators_Properties <> clos_rst1n_rst thm
+syndef 12638:12649 <> rts_1n_trans
+R12654:12669 Coq.Relations.Operators_Properties <> clos_rst1n_trans thm
+syndef 12696:12704 <> rts1n_sym
+R12709:12722 Coq.Relations.Operators_Properties <> clos_rst1n_sym thm
+syndef 12749:12757 <> rts_rts1n
+R12762:12775 Coq.Relations.Operators_Properties <> clos_rst_rst1n thm
+syndef 12802:12816 <> rts_rts1n_equiv
+R12821:12838 Coq.Relations.Operators_Properties <> clos_rst_rst1n_iff thm
+syndef 12866:12874 <> rtsn1_rts
+R12879:12892 Coq.Relations.Operators_Properties <> clos_rstn1_rst thm
+syndef 12919:12929 <> rtsn1_trans
+R12934:12949 Coq.Relations.Operators_Properties <> clos_rstn1_trans thm
+syndef 12976:12984 <> rtsn1_sym
+R12989:13002 Coq.Relations.Operators_Properties <> clos_rstn1_sym thm
+syndef 13029:13037 <> rts_rtsn1
+R13042:13055 Coq.Relations.Operators_Properties <> clos_rst_rstn1 thm
+syndef 13082:13096 <> rts_rtsn1_equiv
+R13101:13118 Coq.Relations.Operators_Properties <> clos_rst_rstn1_iff thm

@@ -1,0 +1,402 @@
+DIGEST 1c4ecd2758546a5ee19f2d95a3640926
+FCoq.Lists.Streams
+sec 725:731 <> Streams
+var 744:744 Streams A
+ind 767:772 <> Stream
+constr 788:791 <> Cons
+R796:799 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R806:809 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R810:815 Coq.Lists.Streams <> Stream ind
+R800:805 Coq.Lists.Streams <> Stream ind
+R795:795 Coq.Lists.Streams <> Streams.A var
+def 831:832 <> hd
+R837:842 Coq.Lists.Streams <> Stream coind
+R854:854 Coq.Lists.Streams <> x var
+R891:894 Coq.Lists.Streams <> Cons constr
+def 950:951 <> tl
+R956:961 Coq.Lists.Streams <> Stream coind
+R973:973 Coq.Lists.Streams <> x var
+R1010:1013 Coq.Lists.Streams <> Cons constr
+def 1068:1077 <> Str_nth_tl
+R1082:1084 Coq.Init.Datatypes <> nat ind
+R1090:1095 Coq.Lists.Streams <> Stream coind
+R1100:1105 Coq.Lists.Streams <> Stream coind
+R1118:1118 Coq.Lists.Streams <> n var
+R1129:1129 Coq.Init.Datatypes <> O constr
+R1134:1134 Coq.Lists.Streams <> s var
+R1140:1140 Coq.Init.Datatypes <> S constr
+R1147:1156 Coq.Lists.Streams <> Str_nth_tl def
+R1161:1162 Coq.Lists.Streams <> tl def
+R1164:1164 Coq.Lists.Streams <> s var
+def 1186:1192 <> Str_nth
+R1197:1199 Coq.Init.Datatypes <> nat ind
+R1205:1210 Coq.Lists.Streams <> Stream coind
+R1215:1215 Coq.Lists.Streams <> Streams.A var
+R1220:1221 Coq.Lists.Streams <> hd def
+R1224:1233 Coq.Lists.Streams <> Str_nth_tl def
+R1237:1237 Coq.Lists.Streams <> s var
+R1235:1235 Coq.Lists.Streams <> n var
+prf 1249:1261 <> unfold_Stream
+R1275:1280 Coq.Lists.Streams <> Stream coind
+R1284:1286 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1283:1283 Coq.Lists.Streams <> x var
+R1293:1293 Coq.Lists.Streams <> x var
+R1324:1327 Coq.Lists.Streams <> Cons constr
+R1336:1339 Coq.Lists.Streams <> Cons constr
+prf 1423:1431 <> tl_nth_tl
+R1446:1448 Coq.Init.Datatypes <> nat ind
+R1454:1459 Coq.Lists.Streams <> Stream coind
+R1482:1484 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1463:1464 Coq.Lists.Streams <> tl def
+R1467:1476 Coq.Lists.Streams <> Str_nth_tl def
+R1480:1480 Coq.Lists.Streams <> s var
+R1478:1478 Coq.Lists.Streams <> n var
+R1485:1494 Coq.Lists.Streams <> Str_nth_tl def
+R1499:1500 Coq.Lists.Streams <> tl def
+R1502:1502 Coq.Lists.Streams <> s var
+R1496:1496 Coq.Lists.Streams <> n var
+prf 1595:1609 <> Str_nth_tl_plus
+R1626:1628 Coq.Init.Datatypes <> nat ind
+R1634:1639 Coq.Lists.Streams <> Stream coind
+R1675:1677 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1646:1655 Coq.Lists.Streams <> Str_nth_tl def
+R1660:1669 Coq.Lists.Streams <> Str_nth_tl def
+R1673:1673 Coq.Lists.Streams <> s var
+R1671:1671 Coq.Lists.Streams <> m var
+R1657:1657 Coq.Lists.Streams <> n var
+R1678:1687 Coq.Lists.Streams <> Str_nth_tl def
+R1697:1697 Coq.Lists.Streams <> s var
+R1691:1693 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1690:1690 Coq.Lists.Streams <> n var
+R1694:1694 Coq.Lists.Streams <> m var
+R1778:1786 Coq.Lists.Streams <> tl_nth_tl thm
+R1778:1786 Coq.Lists.Streams <> tl_nth_tl thm
+R1778:1786 Coq.Lists.Streams <> tl_nth_tl thm
+prf 1825:1836 <> Str_nth_plus
+R1853:1855 Coq.Init.Datatypes <> nat ind
+R1861:1866 Coq.Lists.Streams <> Stream coind
+R1896:1898 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1870:1876 Coq.Lists.Streams <> Str_nth def
+R1881:1890 Coq.Lists.Streams <> Str_nth_tl def
+R1894:1894 Coq.Lists.Streams <> s var
+R1892:1892 Coq.Lists.Streams <> m var
+R1878:1878 Coq.Lists.Streams <> n var
+R1899:1905 Coq.Lists.Streams <> Str_nth def
+R1915:1915 Coq.Lists.Streams <> s var
+R1909:1911 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1908:1908 Coq.Lists.Streams <> n var
+R1912:1912 Coq.Lists.Streams <> m var
+R1933:1939 Coq.Lists.Streams <> Str_nth def
+R1950:1964 Coq.Lists.Streams <> Str_nth_tl_plus thm
+R1950:1964 Coq.Lists.Streams <> Str_nth_tl_plus thm
+R1950:1964 Coq.Lists.Streams <> Str_nth_tl_plus thm
+ind 2060:2063 <> EqSt
+constr 2095:2098 <> eqst
+R2073:2078 Coq.Lists.Streams <> Stream coind
+R2123:2126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2147:2150 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2151:2154 Coq.Lists.Streams <> EqSt ind
+R2159:2160 Coq.Lists.Streams <> s2 var
+R2156:2157 Coq.Lists.Streams <> s1 var
+R2127:2130 Coq.Lists.Streams <> EqSt ind
+R2141:2142 Coq.Lists.Streams <> tl def
+R2144:2145 Coq.Lists.Streams <> s2 var
+R2133:2134 Coq.Lists.Streams <> tl def
+R2136:2137 Coq.Lists.Streams <> s1 var
+R2115:2117 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2110:2111 Coq.Lists.Streams <> hd def
+R2113:2114 Coq.Lists.Streams <> s1 var
+R2118:2119 Coq.Lists.Streams <> hd def
+R2121:2122 Coq.Lists.Streams <> s2 var
+prf 2377:2387 <> EqSt_reflex
+R2400:2405 Coq.Lists.Streams <> Stream coind
+R2408:2411 Coq.Lists.Streams <> EqSt coind
+R2415:2415 Coq.Lists.Streams <> s var
+R2413:2413 Coq.Lists.Streams <> s var
+prf 2470:2477 <> sym_EqSt
+R2494:2499 Coq.Lists.Streams <> Stream coind
+R2512:2515 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2516:2519 Coq.Lists.Streams <> EqSt coind
+R2524:2525 Coq.Lists.Streams <> s1 var
+R2521:2522 Coq.Lists.Streams <> s2 var
+R2502:2505 Coq.Lists.Streams <> EqSt coind
+R2510:2511 Coq.Lists.Streams <> s2 var
+R2507:2508 Coq.Lists.Streams <> s1 var
+prf 2630:2639 <> trans_EqSt
+R2660:2665 Coq.Lists.Streams <> Stream coind
+R2678:2681 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2692:2695 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2696:2699 Coq.Lists.Streams <> EqSt coind
+R2704:2705 Coq.Lists.Streams <> s3 var
+R2701:2702 Coq.Lists.Streams <> s1 var
+R2682:2685 Coq.Lists.Streams <> EqSt coind
+R2690:2691 Coq.Lists.Streams <> s3 var
+R2687:2688 Coq.Lists.Streams <> s2 var
+R2668:2671 Coq.Lists.Streams <> EqSt coind
+R2676:2677 Coq.Lists.Streams <> s2 var
+R2673:2674 Coq.Lists.Streams <> s1 var
+R2744:2745 Coq.Lists.Streams <> hd def
+R2744:2745 Coq.Lists.Streams <> hd def
+R2842:2843 Coq.Lists.Streams <> tl def
+R2834:2835 Coq.Lists.Streams <> tl def
+R2826:2827 Coq.Lists.Streams <> tl def
+R2842:2843 Coq.Lists.Streams <> tl def
+R2834:2835 Coq.Lists.Streams <> tl def
+R2826:2827 Coq.Lists.Streams <> tl def
+prf 3030:3039 <> eqst_ntheq
+R3054:3056 Coq.Init.Datatypes <> nat ind
+R3066:3071 Coq.Lists.Streams <> Stream coind
+R3085:3088 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3101:3103 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3089:3095 Coq.Lists.Streams <> Str_nth def
+R3099:3100 Coq.Lists.Streams <> s1 var
+R3097:3097 Coq.Lists.Streams <> n var
+R3104:3110 Coq.Lists.Streams <> Str_nth def
+R3114:3115 Coq.Lists.Streams <> s2 var
+R3112:3112 Coq.Lists.Streams <> n var
+R3075:3078 Coq.Lists.Streams <> EqSt coind
+R3083:3084 Coq.Lists.Streams <> s2 var
+R3080:3081 Coq.Lists.Streams <> s1 var
+R3125:3131 Coq.Lists.Streams <> Str_nth def
+prf 3302:3311 <> ntheq_eqst
+R3329:3334 Coq.Lists.Streams <> Stream coind
+R3340:3340 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3382:3386 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3387:3390 Coq.Lists.Streams <> EqSt coind
+R3395:3396 Coq.Lists.Streams <> s2 var
+R3392:3393 Coq.Lists.Streams <> s1 var
+R3350:3352 Coq.Init.Datatypes <> nat ind
+R3367:3369 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3355:3361 Coq.Lists.Streams <> Str_nth def
+R3365:3366 Coq.Lists.Streams <> s1 var
+R3363:3363 Coq.Lists.Streams <> n var
+R3370:3376 Coq.Lists.Streams <> Str_nth def
+R3380:3381 Coq.Lists.Streams <> s2 var
+R3378:3378 Coq.Lists.Streams <> n var
+R3452:3452 Coq.Init.Datatypes <> S constr
+R3452:3452 Coq.Init.Datatypes <> S constr
+sec 3473:3489 Streams Stream_Properties
+var 3502:3502 Streams.Stream_Properties P
+R3512:3515 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3506:3511 Coq.Lists.Streams <> Stream coind
+ind 3693:3698 <> Exists
+constr 3728:3731 <> Here
+constr 3755:3761 <> Further
+R3705:3710 Coq.Lists.Streams <> Stream coind
+R3738:3741 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3742:3747 Coq.Lists.Streams <> Exists ind
+R3749:3749 Coq.Lists.Streams <> x var
+R3735:3735 Coq.Lists.Streams <> Streams.Stream_Properties.P var
+R3737:3737 Coq.Lists.Streams <> x var
+R3778:3781 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3782:3787 Coq.Lists.Streams <> Exists ind
+R3789:3789 Coq.Lists.Streams <> x var
+R3765:3770 Coq.Lists.Streams <> Exists ind
+R3773:3774 Coq.Lists.Streams <> tl def
+R3776:3776 Coq.Lists.Streams <> x var
+ind 3805:3810 <> ForAll
+constr 3838:3851 <> HereAndFurther
+R3816:3821 Coq.Lists.Streams <> Stream coind
+R3858:3861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3875:3878 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3879:3884 Coq.Lists.Streams <> ForAll ind
+R3886:3886 Coq.Lists.Streams <> x var
+R3862:3867 Coq.Lists.Streams <> ForAll ind
+R3870:3871 Coq.Lists.Streams <> tl def
+R3873:3873 Coq.Lists.Streams <> x var
+R3855:3855 Coq.Lists.Streams <> Streams.Stream_Properties.P var
+R3857:3857 Coq.Lists.Streams <> x var
+prf 3896:3912 <> ForAll_Str_nth_tl
+R3936:3939 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3940:3945 Coq.Lists.Streams <> ForAll coind
+R3948:3957 Coq.Lists.Streams <> Str_nth_tl def
+R3961:3961 Coq.Lists.Streams <> x var
+R3959:3959 Coq.Lists.Streams <> m var
+R3928:3933 Coq.Lists.Streams <> ForAll coind
+R3935:3935 Coq.Lists.Streams <> x var
+sec 4053:4071 Streams.Stream_Properties Co_Induction_ForAll
+var 4083:4085 Streams.Stream_Properties.Co_Induction_ForAll Inv
+R4095:4098 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4089:4094 Coq.Lists.Streams <> Stream coind
+var 4116:4123 Streams.Stream_Properties.Co_Induction_ForAll InvThenP
+R4136:4141 Coq.Lists.Streams <> Stream coind
+R4149:4152 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4153:4153 Coq.Lists.Streams <> Streams.Stream_Properties.P var
+R4155:4155 Coq.Lists.Streams <> x var
+R4144:4146 Coq.Lists.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4148:4148 Coq.Lists.Streams <> x var
+var 4169:4179 Streams.Stream_Properties.Co_Induction_ForAll InvIsStable
+R4192:4197 Coq.Lists.Streams <> Stream coind
+R4205:4208 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4209:4211 Coq.Lists.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4214:4215 Coq.Lists.Streams <> tl def
+R4217:4217 Coq.Lists.Streams <> x var
+R4200:4202 Coq.Lists.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4204:4204 Coq.Lists.Streams <> x var
+prf 4230:4241 <> ForAll_coind
+R4254:4259 Coq.Lists.Streams <> Stream coind
+R4267:4270 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4271:4276 Coq.Lists.Streams <> ForAll coind
+R4278:4278 Coq.Lists.Streams <> x var
+R4262:4264 Coq.Lists.Streams <> Streams.Stream_Properties.Co_Induction_ForAll.Inv var
+R4266:4266 Coq.Lists.Streams <> x var
+R4322:4340 Coq.Lists.Streams Streams.Stream_Properties.Co_Induction_ForAll <> sec
+R4348:4364 Coq.Lists.Streams Streams.Stream_Properties <> sec
+R4372:4378 Coq.Lists.Streams Streams <> sec
+sec 4390:4392 <> Map
+var 4405:4405 Map A
+var 4407:4407 Map B
+var 4426:4426 Map f
+R4431:4434 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4435:4435 Coq.Lists.Streams <> Map.B var
+R4430:4430 Coq.Lists.Streams <> Map.A var
+def 4449:4451 <> map
+R4456:4461 Coq.Lists.Streams <> Stream coind
+R4463:4463 Coq.Lists.Streams <> Map.A var
+R4468:4473 Coq.Lists.Streams <> Stream coind
+R4475:4475 Coq.Lists.Streams <> Map.B var
+R4480:4483 Coq.Lists.Streams <> Cons constr
+R4497:4499 Coq.Lists.Streams <> map def
+R4502:4503 Coq.Lists.Streams <> tl def
+R4505:4505 Coq.Lists.Streams <> s var
+R4486:4486 Coq.Lists.Streams <> Map.f var
+R4489:4490 Coq.Lists.Streams <> hd def
+R4492:4492 Coq.Lists.Streams <> s var
+prf 4517:4530 <> Str_nth_tl_map
+R4566:4567 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4546:4555 Coq.Lists.Streams <> Str_nth_tl def
+R4560:4562 Coq.Lists.Streams <> map def
+R4564:4564 Coq.Lists.Streams <> s var
+R4557:4557 Coq.Lists.Streams <> n var
+R4568:4570 Coq.Lists.Streams <> map def
+R4573:4582 Coq.Lists.Streams <> Str_nth_tl def
+R4586:4586 Coq.Lists.Streams <> s var
+R4584:4584 Coq.Lists.Streams <> n var
+prf 4663:4673 <> Str_nth_map
+R4706:4707 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4689:4695 Coq.Lists.Streams <> Str_nth def
+R4700:4702 Coq.Lists.Streams <> map def
+R4704:4704 Coq.Lists.Streams <> s var
+R4697:4697 Coq.Lists.Streams <> n var
+R4708:4708 Coq.Lists.Streams <> Map.f var
+R4711:4717 Coq.Lists.Streams <> Str_nth def
+R4721:4721 Coq.Lists.Streams <> s var
+R4719:4719 Coq.Lists.Streams <> n var
+R4751:4757 Coq.Lists.Streams <> Str_nth def
+R4768:4781 Coq.Lists.Streams <> Str_nth_tl_map thm
+R4768:4781 Coq.Lists.Streams <> Str_nth_tl_map thm
+R4768:4781 Coq.Lists.Streams <> Str_nth_tl_map thm
+prf 4809:4818 <> ForAll_map
+R4840:4843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4832:4837 Coq.Lists.Streams <> Stream coind
+R4839:4839 Coq.Lists.Streams <> Map.B var
+R4853:4858 Coq.Lists.Streams <> Stream coind
+R4860:4860 Coq.Lists.Streams <> Map.A var
+R4893:4897 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4864:4869 Coq.Lists.Streams <> ForAll coind
+R4892:4892 Coq.Lists.Streams <> S var
+R4881:4881 Coq.Lists.Streams <> P var
+R4884:4886 Coq.Lists.Streams <> map def
+R4888:4888 Coq.Lists.Streams <> s var
+R4898:4903 Coq.Lists.Streams <> ForAll coind
+R4908:4910 Coq.Lists.Streams <> map def
+R4912:4912 Coq.Lists.Streams <> S var
+R4905:4905 Coq.Lists.Streams <> P var
+prf 5052:5061 <> Exists_map
+R5083:5086 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5075:5080 Coq.Lists.Streams <> Stream coind
+R5082:5082 Coq.Lists.Streams <> Map.B var
+R5096:5101 Coq.Lists.Streams <> Stream coind
+R5103:5103 Coq.Lists.Streams <> Map.A var
+R5136:5139 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5140:5145 Coq.Lists.Streams <> Exists ind
+R5150:5152 Coq.Lists.Streams <> map def
+R5154:5154 Coq.Lists.Streams <> S var
+R5147:5147 Coq.Lists.Streams <> P var
+R5107:5112 Coq.Lists.Streams <> Exists ind
+R5135:5135 Coq.Lists.Streams <> S var
+R5124:5124 Coq.Lists.Streams <> P var
+R5127:5129 Coq.Lists.Streams <> map def
+R5131:5131 Coq.Lists.Streams <> s var
+R5233:5235 Coq.Lists.Streams Map <> sec
+sec 5247:5261 <> Constant_Stream
+var 5273:5273 Constant_Stream A
+var 5292:5292 Constant_Stream a
+R5296:5296 Coq.Lists.Streams <> Constant_Stream.A var
+def 5310:5314 <> const
+R5319:5324 Coq.Lists.Streams <> Stream coind
+R5326:5326 Coq.Lists.Streams <> Constant_Stream.A var
+R5331:5334 Coq.Lists.Streams <> Cons constr
+R5338:5342 Coq.Lists.Streams <> const def
+R5336:5336 Coq.Lists.Streams <> Constant_Stream.a var
+R5349:5363 Coq.Lists.Streams Constant_Stream <> sec
+sec 5375:5377 <> Zip
+var 5390:5390 Zip A
+var 5392:5392 Zip B
+var 5394:5394 Zip C
+var 5413:5413 Zip f
+R5417:5420 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5422:5425 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5426:5426 Coq.Lists.Streams <> Zip.C var
+R5421:5421 Coq.Lists.Streams <> Zip.B var
+R5416:5416 Coq.Lists.Streams <> Zip.A var
+def 5441:5447 <> zipWith
+R5452:5457 Coq.Lists.Streams <> Stream coind
+R5459:5459 Coq.Lists.Streams <> Zip.A var
+R5465:5470 Coq.Lists.Streams <> Stream coind
+R5472:5472 Coq.Lists.Streams <> Zip.B var
+R5477:5482 Coq.Lists.Streams <> Stream coind
+R5484:5484 Coq.Lists.Streams <> Zip.C var
+R5489:5492 Coq.Lists.Streams <> Cons constr
+R5513:5519 Coq.Lists.Streams <> zipWith def
+R5529:5530 Coq.Lists.Streams <> tl def
+R5532:5532 Coq.Lists.Streams <> b var
+R5522:5523 Coq.Lists.Streams <> tl def
+R5525:5525 Coq.Lists.Streams <> a var
+R5495:5495 Coq.Lists.Streams <> Zip.f var
+R5505:5506 Coq.Lists.Streams <> hd def
+R5508:5508 Coq.Lists.Streams <> b var
+R5498:5499 Coq.Lists.Streams <> hd def
+R5501:5501 Coq.Lists.Streams <> a var
+prf 5544:5561 <> Str_nth_tl_zipWith
+R5577:5582 Coq.Lists.Streams <> Stream coind
+R5584:5584 Coq.Lists.Streams <> Zip.A var
+R5590:5595 Coq.Lists.Streams <> Stream coind
+R5597:5597 Coq.Lists.Streams <> Zip.B var
+R5628:5629 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5602:5611 Coq.Lists.Streams <> Str_nth_tl def
+R5616:5622 Coq.Lists.Streams <> zipWith def
+R5626:5626 Coq.Lists.Streams <> b var
+R5624:5624 Coq.Lists.Streams <> a var
+R5613:5613 Coq.Lists.Streams <> n var
+R5630:5636 Coq.Lists.Streams <> zipWith def
+R5656:5665 Coq.Lists.Streams <> Str_nth_tl def
+R5669:5669 Coq.Lists.Streams <> b var
+R5667:5667 Coq.Lists.Streams <> n var
+R5639:5648 Coq.Lists.Streams <> Str_nth_tl def
+R5652:5652 Coq.Lists.Streams <> a var
+R5650:5650 Coq.Lists.Streams <> n var
+R5735:5741 Coq.Lists.Streams <> Str_nth def
+prf 5784:5798 <> Str_nth_zipWith
+R5814:5819 Coq.Lists.Streams <> Stream coind
+R5821:5821 Coq.Lists.Streams <> Zip.A var
+R5827:5832 Coq.Lists.Streams <> Stream coind
+R5834:5834 Coq.Lists.Streams <> Zip.B var
+R5862:5863 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5838:5844 Coq.Lists.Streams <> Str_nth def
+R5849:5855 Coq.Lists.Streams <> zipWith def
+R5860:5860 Coq.Lists.Streams <> b var
+R5857:5857 Coq.Lists.Streams <> a var
+R5846:5846 Coq.Lists.Streams <> n var
+R5864:5864 Coq.Lists.Streams <> Zip.f var
+R5881:5887 Coq.Lists.Streams <> Str_nth def
+R5891:5891 Coq.Lists.Streams <> b var
+R5889:5889 Coq.Lists.Streams <> n var
+R5867:5873 Coq.Lists.Streams <> Str_nth def
+R5877:5877 Coq.Lists.Streams <> a var
+R5875:5875 Coq.Lists.Streams <> n var
+R5917:5923 Coq.Lists.Streams <> Str_nth def
+R5934:5951 Coq.Lists.Streams <> Str_nth_tl_zipWith thm
+R5934:5951 Coq.Lists.Streams <> Str_nth_tl_zipWith thm
+R5934:5951 Coq.Lists.Streams <> Str_nth_tl_zipWith thm
+R5977:5979 Coq.Lists.Streams Zip <> sec

@@ -1,0 +1,139 @@
+DIGEST 8aa8c7fd542e7f36b88906974b490be0
+FCoq.Structures.DecidableTypeEx
+R691:703 Coq.Structures.DecidableType <> <> lib
+R705:715 Coq.Structures.OrderedType <> <> lib
+R717:729 Coq.Structures.OrderedTypeEx <> <> lib
+R1108:1140 Coq.Structures.Equalities UsualDecidableTypeOrig <> mod
+modtype 1086:1103 <> UsualDecidableType
+R1232:1249 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1255:1267 Coq.Structures.DecidableType DecidableType <> mod
+R1272:1272 Coq.Structures.DecidableTypeEx U <> modtype
+mod 1219:1227 <> UDT_to_DT
+R1370:1397 Coq.Structures.Equalities MiniDecidableType <> mod
+modtype 1349:1365 <> MiniDecidableType
+R1420:1436 Coq.Structures.DecidableTypeEx MiniDecidableType <> mod
+R1442:1459 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1465:1483 Coq.Structures.Equalities Make_UDT <> modtype
+R1485:1485 Coq.Structures.DecidableTypeEx M <> modtype
+mod 1408:1415 <> Make_UDT
+R1575:1585 Coq.Structures.OrderedType OrderedType <> mod
+R1591:1603 Coq.Structures.DecidableType DecidableType <> mod
+R1608:1608 Coq.Structures.DecidableTypeEx O <> modtype
+mod 1563:1570 <> OT_as_DT
+R1695:1712 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1717:1725 Coq.Structures.OrderedTypeEx Nat_as_OT <> modtype
+mod 1682:1690 <> Nat_as_DT
+R1753:1770 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1775:1788 Coq.Structures.OrderedTypeEx Positive_as_OT <> modtype
+mod 1735:1748 <> Positive_as_DT
+R1809:1826 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1831:1837 Coq.Structures.OrderedTypeEx N_as_OT <> modtype
+mod 1798:1804 <> N_as_DT
+R1858:1875 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R1880:1886 Coq.Structures.OrderedTypeEx Z_as_OT <> modtype
+mod 1847:1853 <> Z_as_DT
+R2021:2033 Coq.Structures.DecidableType DecidableType <> mod
+R2039:2051 Coq.Structures.DecidableType DecidableType <> mod
+mod 1997:2013 <> PairDecidableType
+def 2067:2067 PairDecidableType t
+R2072:2075 Coq.Init.Datatypes <> prod ind
+R2082:2085 Coq.Structures.DecidableTypeEx D2 t defax
+R2077:2080 Coq.Structures.DecidableTypeEx D1 t defax
+def 2101:2102 PairDecidableType eq
+R2132:2135 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2111:2115 Coq.Structures.DecidableTypeEx D1 eq defax
+R2126:2128 Coq.Init.Datatypes <> fst def
+R2130:2130 Coq.Structures.DecidableTypeEx <> y var
+R2118:2120 Coq.Init.Datatypes <> fst def
+R2122:2122 Coq.Structures.DecidableTypeEx <> x var
+R2136:2140 Coq.Structures.DecidableTypeEx D2 eq defax
+R2151:2153 Coq.Init.Datatypes <> snd def
+R2155:2155 Coq.Structures.DecidableTypeEx <> y var
+R2143:2145 Coq.Init.Datatypes <> snd def
+R2147:2147 Coq.Structures.DecidableTypeEx <> x var
+prf 2167:2173 PairDecidableType eq_refl
+R2188:2188 Coq.Structures.DecidableTypeEx PairDecidableType t def
+R2191:2192 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2196:2196 Coq.Structures.DecidableTypeEx <> x var
+R2194:2194 Coq.Structures.DecidableTypeEx <> x var
+prf 2256:2261 PairDecidableType eq_sym
+R2278:2278 Coq.Structures.DecidableTypeEx PairDecidableType t def
+R2287:2290 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2291:2292 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2296:2296 Coq.Structures.DecidableTypeEx <> x var
+R2294:2294 Coq.Structures.DecidableTypeEx <> y var
+R2281:2282 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2286:2286 Coq.Structures.DecidableTypeEx <> y var
+R2284:2284 Coq.Structures.DecidableTypeEx <> x var
+R2339:2340 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+prf 2375:2382 PairDecidableType eq_trans
+R2401:2401 Coq.Structures.DecidableTypeEx PairDecidableType t def
+R2410:2413 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2420:2423 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2424:2425 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2429:2429 Coq.Structures.DecidableTypeEx <> z var
+R2427:2427 Coq.Structures.DecidableTypeEx <> x var
+R2414:2415 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2419:2419 Coq.Structures.DecidableTypeEx <> z var
+R2417:2417 Coq.Structures.DecidableTypeEx <> y var
+R2404:2405 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2409:2409 Coq.Structures.DecidableTypeEx <> y var
+R2407:2407 Coq.Structures.DecidableTypeEx <> x var
+R2480:2481 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+def 2527:2532 PairDecidableType eq_dec
+R2548:2549 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2556:2560 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2568:2569 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2550:2551 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2555:2555 Coq.Structures.DecidableTypeEx <> y var
+R2553:2553 Coq.Structures.DecidableTypeEx <> x var
+R2561:2561 Coq.Init.Logic <> :type_scope:'~'_x not
+R2562:2563 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2567:2567 Coq.Structures.DecidableTypeEx <> y var
+R2565:2565 Coq.Structures.DecidableTypeEx <> x var
+R2612:2613 Coq.Structures.DecidableTypeEx PairDecidableType eq def
+R2634:2642 Coq.Structures.DecidableTypeEx D1 eq_dec defax
+R2662:2670 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R2634:2642 Coq.Structures.DecidableTypeEx D1 eq_dec defax
+R2662:2670 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R2662:2670 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R2706:2722 Coq.Structures.DecidableTypeEx PairDecidableType <> mod
+R2812:2829 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R2835:2852 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+mod 2783:2804 <> PairUsualDecidableType
+def 2867:2867 PairUsualDecidableType t
+R2872:2875 Coq.Init.Datatypes <> prod ind
+R2882:2885 Coq.Structures.DecidableTypeEx D2 t defax
+R2877:2880 Coq.Structures.DecidableTypeEx D1 t defax
+def 2900:2901 PairUsualDecidableType eq
+R2907:2908 Coq.Init.Logic <> eq ind
+R2910:2910 Coq.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 2925:2931 PairUsualDecidableType eq_refl
+R2937:2943 Coq.Init.Logic <> eq_refl constr
+R2945:2945 Coq.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 2960:2965 PairUsualDecidableType eq_sym
+R2971:2976 Coq.Init.Logic <> eq_sym thm
+R2978:2978 Coq.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 2993:3000 PairUsualDecidableType eq_trans
+R3006:3013 Coq.Init.Logic <> eq_trans thm
+R3015:3015 Coq.Structures.DecidableTypeEx PairUsualDecidableType t def
+def 3030:3035 PairUsualDecidableType eq_dec
+R3051:3052 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3059:3063 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3071:3072 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3053:3054 Coq.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3058:3058 Coq.Structures.DecidableTypeEx <> y var
+R3056:3056 Coq.Structures.DecidableTypeEx <> x var
+R3064:3064 Coq.Init.Logic <> :type_scope:'~'_x not
+R3065:3066 Coq.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3070:3070 Coq.Structures.DecidableTypeEx <> y var
+R3068:3068 Coq.Structures.DecidableTypeEx <> x var
+R3119:3127 Coq.Structures.DecidableTypeEx D1 eq_dec defax
+R3147:3155 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R3173:3174 Coq.Structures.DecidableTypeEx PairUsualDecidableType eq def
+R3177:3181 Coq.Structures.DecidableTypeEx D1 eq def
+R3184:3188 Coq.Structures.DecidableTypeEx D2 eq def
+R3119:3127 Coq.Structures.DecidableTypeEx D1 eq_dec defax
+R3147:3155 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R3147:3155 Coq.Structures.DecidableTypeEx D2 eq_dec defax
+R3277:3298 Coq.Structures.DecidableTypeEx PairUsualDecidableType <> mod

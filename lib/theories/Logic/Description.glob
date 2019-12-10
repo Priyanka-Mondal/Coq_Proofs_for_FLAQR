@@ -1,0 +1,19 @@
+DIGEST cbc77496c8273f6723dc8c3db2dd6515
+FCoq.Logic.Description
+R893:903 Coq.Logic.ChoiceFacts <> <> lib
+ax 938:970 <> constructive_definite_description
+R1000:1001 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R999:999 Coq.Logic.Description <> A var
+R1013:1013 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1028:1032 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1033:1034 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1036:1038 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1040:1042 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1046:1047 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1039:1039 Coq.Logic.Description <> A var
+R1043:1043 Coq.Logic.Description <> P var
+R1045:1045 Coq.Logic.Description <> x var
+R1014:1021 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1023:1024 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1025:1025 Coq.Logic.Description <> P var
+R1027:1027 Coq.Logic.Description <> x var

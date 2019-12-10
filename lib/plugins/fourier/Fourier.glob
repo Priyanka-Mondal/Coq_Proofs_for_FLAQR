@@ -1,0 +1,9 @@
+DIGEST 091c5cb342faeab94f0abd4bc8893aef
+FCoq.fourier.Fourier
+R764:768 Coq.setoid_ring.Field <> <> lib
+R786:791 Coq.Reals.DiscrR <> <> lib
+R809:820 Coq.fourier.Fourier_util <> <> lib
+R895:897 Coq.Reals.Rdefinitions <> IZR def
+R899:901 Coq.Reals.Rdefinitions <> IPR def
+R903:907 Coq.Reals.Rdefinitions <> IPR_2 def
+R968:978 Coq.Reals.RIneq <> Rge_antisym thm

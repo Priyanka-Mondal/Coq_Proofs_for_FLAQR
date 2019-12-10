@@ -1,0 +1,88 @@
+DIGEST 6c64e561be2a7bf8e14f528adbd72277
+FCoq.Sets.Relations_3
+R1838:1848 Coq.Sets.Relations_1 <> <> lib
+R1866:1876 Coq.Sets.Relations_2 <> <> lib
+sec 1888:1898 <> Relations_3
+var 1913:1913 Relations_3 U
+var 1935:1935 Relations_3 R
+R1939:1946 Coq.Sets.Relations_1 <> Relation def
+R1948:1948 Coq.Sets.Relations_3 <> Relations_3.U var
+def 1966:1973 <> coherent
+R1980:1980 Coq.Sets.Relations_3 <> Relations_3.U var
+R1999:2005 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2011:2012 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2026:2029 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2013:2017 Coq.Sets.Relations_2 <> Rstar ind
+R2025:2025 Coq.Sets.Relations_3 <> z var
+R2023:2023 Coq.Sets.Relations_3 <> x var
+R2021:2021 Coq.Sets.Relations_3 <> Relations_3.R var
+R2019:2019 Coq.Sets.Relations_3 <> Relations_3.U var
+R2030:2034 Coq.Sets.Relations_2 <> Rstar ind
+R2042:2042 Coq.Sets.Relations_3 <> z var
+R2040:2040 Coq.Sets.Relations_3 <> y var
+R2038:2038 Coq.Sets.Relations_3 <> Relations_3.R var
+R2036:2036 Coq.Sets.Relations_3 <> Relations_3.U var
+def 2060:2076 <> locally_confluent
+R2081:2081 Coq.Sets.Relations_3 <> Relations_3.U var
+R2110:2110 Coq.Sets.Relations_3 <> Relations_3.U var
+R2118:2121 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2127:2130 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2131:2138 Coq.Sets.Relations_3 <> coherent def
+R2142:2142 Coq.Sets.Relations_3 <> z var
+R2140:2140 Coq.Sets.Relations_3 <> y var
+R2122:2122 Coq.Sets.Relations_3 <> Relations_3.R var
+R2126:2126 Coq.Sets.Relations_3 <> z var
+R2124:2124 Coq.Sets.Relations_3 <> x var
+R2113:2113 Coq.Sets.Relations_3 <> Relations_3.R var
+R2117:2117 Coq.Sets.Relations_3 <> y var
+R2115:2115 Coq.Sets.Relations_3 <> x var
+def 2160:2176 <> Locally_confluent
+R2197:2197 Coq.Sets.Relations_3 <> Relations_3.U var
+R2200:2216 Coq.Sets.Relations_3 <> locally_confluent def
+R2218:2218 Coq.Sets.Relations_3 <> x var
+def 2236:2244 <> confluent
+R2249:2249 Coq.Sets.Relations_3 <> Relations_3.U var
+R2278:2278 Coq.Sets.Relations_3 <> Relations_3.U var
+R2294:2297 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2311:2314 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2315:2322 Coq.Sets.Relations_3 <> coherent def
+R2326:2326 Coq.Sets.Relations_3 <> z var
+R2324:2324 Coq.Sets.Relations_3 <> y var
+R2298:2302 Coq.Sets.Relations_2 <> Rstar ind
+R2310:2310 Coq.Sets.Relations_3 <> z var
+R2308:2308 Coq.Sets.Relations_3 <> x var
+R2306:2306 Coq.Sets.Relations_3 <> Relations_3.R var
+R2304:2304 Coq.Sets.Relations_3 <> Relations_3.U var
+R2281:2285 Coq.Sets.Relations_2 <> Rstar ind
+R2293:2293 Coq.Sets.Relations_3 <> y var
+R2291:2291 Coq.Sets.Relations_3 <> x var
+R2289:2289 Coq.Sets.Relations_3 <> Relations_3.R var
+R2287:2287 Coq.Sets.Relations_3 <> Relations_3.U var
+def 2344:2352 <> Confluent
+R2373:2373 Coq.Sets.Relations_3 <> Relations_3.U var
+R2376:2384 Coq.Sets.Relations_3 <> confluent def
+R2386:2386 Coq.Sets.Relations_3 <> x var
+ind 2403:2412 <> noetherian
+constr 2438:2461 <> definition_of_noetherian
+R2418:2418 Coq.Sets.Relations_3 <> Relations_3.U var
+R2474:2474 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2508:2512 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2513:2522 Coq.Sets.Relations_3 <> noetherian ind
+R2524:2524 Coq.Sets.Relations_3 <> x var
+R2484:2484 Coq.Sets.Relations_3 <> Relations_3.U var
+R2492:2495 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2496:2505 Coq.Sets.Relations_3 <> noetherian ind
+R2507:2507 Coq.Sets.Relations_3 <> y var
+R2487:2487 Coq.Sets.Relations_3 <> Relations_3.R var
+R2491:2491 Coq.Sets.Relations_3 <> y var
+R2489:2489 Coq.Sets.Relations_3 <> x var
+def 2542:2551 <> Noetherian
+R2572:2572 Coq.Sets.Relations_3 <> Relations_3.U var
+R2575:2584 Coq.Sets.Relations_3 <> noetherian ind
+R2586:2586 Coq.Sets.Relations_3 <> x var
+R2594:2604 Coq.Sets.Relations_3 Relations_3 <> sec
+R2619:2626 Coq.Sets.Relations_3 <> coherent def
+R2647:2663 Coq.Sets.Relations_3 <> locally_confluent def
+R2684:2692 Coq.Sets.Relations_3 <> confluent def
+R2713:2721 Coq.Sets.Relations_3 <> Confluent def
+R2787:2796 Coq.Sets.Relations_3 <> Noetherian def

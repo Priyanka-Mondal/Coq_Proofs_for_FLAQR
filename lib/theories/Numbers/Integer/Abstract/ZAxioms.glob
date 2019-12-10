@@ -1,0 +1,327 @@
+DIGEST 7bcffd81545c669e9b4e2f5499083822
+FCoq.Numbers.Integer.Abstract.ZAxioms
+R841:848 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R866:869 Coq.Bool.Bool <> <> lib
+R871:878 Coq.Numbers.NatInt.NZParity <> <> lib
+R880:884 Coq.Numbers.NatInt.NZPow <> <> lib
+R886:891 Coq.Numbers.NatInt.NZSqrt <> <> lib
+R893:897 Coq.Numbers.NatInt.NZLog <> <> lib
+R899:903 Coq.Numbers.NatInt.NZGcd <> <> lib
+R905:909 Coq.Numbers.NatInt.NZDiv <> <> lib
+R911:916 Coq.Numbers.NatInt.NZBits <> <> lib
+R1040:1051 Coq.Numbers.NatInt.NZAxioms NZAxiomsSig' <> mod
+modtype 1021:1026 <> ZAxiom
+ax 1062:1070 ZAxiom succ_pred
+R1091:1094 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1084:1084 Coq.Numbers.Integer.Abstract.ZAxioms Z S syndef
+R1087:1087 Coq.Numbers.Integer.Abstract.ZAxioms Z P syndef
+R1089:1089 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R1095:1095 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R1102:1107 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiom <> modtype
+R1291:1293 Coq.Structures.Equalities Typ <> mod
+modtype 1277:1279 <> Opp
+ax 1315:1317 Opp opp
+R1322:1325 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1326:1326 Coq.Numbers.Integer.Abstract.ZAxioms T t defax
+R1321:1321 Coq.Numbers.Integer.Abstract.ZAxioms T t defax
+R1333:1335 Coq.Numbers.Integer.Abstract.ZAxioms Opp <> modtype
+R1366:1368 Coq.Structures.Equalities Typ <> mod
+R1382:1384 Coq.Numbers.Integer.Abstract.ZAxioms Opp <> mod
+R1386:1386 Coq.Numbers.Integer.Abstract.ZAxioms T <> modtype
+modtype 1351:1361 <> OppNotation
+R1410:1412 Coq.Numbers.Integer.Abstract.ZAxioms O opp defax
+not 1400:1400 OppNotation ::'-'_x
+R1457:1467 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation <> modtype
+R1491:1493 Coq.Structures.Equalities Typ <> mod
+R1499:1501 Coq.Numbers.Integer.Abstract.ZAxioms Opp <> mod
+R1503:1503 Coq.Numbers.Integer.Abstract.ZAxioms T <> modtype
+R1508:1518 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation <> mod
+R1520:1520 Coq.Numbers.Integer.Abstract.ZAxioms T <> modtype
+modtype 1483:1486 <> Opp'
+R1554:1565 Coq.Numbers.NatInt.NZAxioms NZAxiomsSig' <> mod
+R1579:1582 Coq.Numbers.Integer.Abstract.ZAxioms Opp' <> mod
+R1584:1584 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+modtype 1536:1540 <> IsOpp
+inst 1606:1611 IsOpp opp_wd
+R1615:1620 Coq.Classes.Morphisms <> Proper class
+R1632:1634 Coq.Numbers.Integer.Abstract.ZAxioms O opp defax
+R1625:1627 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1623:1624 Coq.Numbers.Integer.Abstract.ZAxioms Z eq defax
+R1628:1629 Coq.Numbers.Integer.Abstract.ZAxioms Z eq defax
+ax 1644:1648 IsOpp opp_0
+R1655:1658 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1652:1653 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+ax 1669:1676 IsOpp opp_succ
+R1697:1700 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1690:1692 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R1696:1696 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R1693:1693 Coq.Numbers.Integer.Abstract.ZAxioms Z S syndef
+R1695:1695 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R1701:1701 Coq.Numbers.Integer.Abstract.ZAxioms Z P syndef
+R1704:1705 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R1706:1706 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R1714:1718 Coq.Numbers.Integer.Abstract.ZAxioms IsOpp <> modtype
+R1761:1771 Coq.Numbers.NatInt.NZAxioms NZAxiomsSig <> mod
+R1785:1787 Coq.Numbers.Integer.Abstract.ZAxioms Opp <> mod
+R1789:1789 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+modtype 1734:1747 <> OppCstNotation
+R1813:1815 Coq.Numbers.Integer.Abstract.ZAxioms B opp defax
+R1817:1819 Coq.Numbers.Integer.Abstract.ZAxioms A one defax
+not 1803:1803 OppCstNotation ::'-'_'1'
+R1843:1845 Coq.Numbers.Integer.Abstract.ZAxioms B opp defax
+R1847:1849 Coq.Numbers.Integer.Abstract.ZAxioms A two defax
+not 1833:1833 OppCstNotation ::'-'_'2'
+R1857:1870 Coq.Numbers.Integer.Abstract.ZAxioms OppCstNotation <> modtype
+R1904:1917 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R1922:1927 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiom <> mod
+R1932:1934 Coq.Numbers.Integer.Abstract.ZAxioms Opp <> mod
+R1939:1943 Coq.Numbers.Integer.Abstract.ZAxioms IsOpp <> mod
+modtype 1886:1899 <> ZAxiomsMiniSig
+R1977:1991 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1996:2001 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiom <> mod
+R2006:2009 Coq.Numbers.Integer.Abstract.ZAxioms Opp' <> mod
+R2014:2018 Coq.Numbers.Integer.Abstract.ZAxioms IsOpp <> mod
+R2024:2037 Coq.Numbers.Integer.Abstract.ZAxioms OppCstNotation <> mod
+modtype 1958:1972 <> ZAxiomsMiniSig'
+R2144:2158 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+modtype 2126:2131 <> HasAbs
+ax 2180:2182 HasAbs abs
+R2187:2190 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2191:2191 Coq.Numbers.Integer.Abstract.ZAxioms Z t defax
+R2186:2186 Coq.Numbers.Integer.Abstract.ZAxioms Z t defax
+ax 2201:2206 HasAbs abs_eq
+R2224:2227 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2233:2236 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2228:2230 Coq.Numbers.Integer.Abstract.ZAxioms HasAbs abs defax
+R2232:2232 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2237:2237 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2221:2222 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R2223:2223 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+ax 2247:2253 HasAbs abs_neq
+R2271:2274 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2280:2283 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2275:2277 Coq.Numbers.Integer.Abstract.ZAxioms HasAbs abs defax
+R2279:2279 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2284:2284 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R2285:2285 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2268:2269 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R2267:2267 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2292:2297 Coq.Numbers.Integer.Abstract.ZAxioms HasAbs <> modtype
+R2356:2370 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+modtype 2337:2342 <> HasSgn
+ax 2392:2394 HasSgn sgn
+R2399:2402 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2403:2403 Coq.Numbers.Integer.Abstract.ZAxioms Z t defax
+R2398:2398 Coq.Numbers.Integer.Abstract.ZAxioms Z t defax
+ax 2413:2420 HasSgn sgn_null
+R2438:2441 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2447:2450 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2442:2444 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn sgn defax
+R2446:2446 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2435:2436 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2434:2434 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+ax 2461:2467 HasSgn sgn_pos
+R2484:2487 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2493:2496 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2488:2490 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn sgn defax
+R2492:2492 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2482:2482 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R2483:2483 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+ax 2507:2513 HasSgn sgn_neg
+R2530:2533 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2539:2542 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2534:2536 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn sgn defax
+R2538:2538 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2528:2528 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R2527:2527 Coq.Numbers.Integer.Abstract.ZAxioms <> n var
+R2551:2556 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn <> modtype
+R2734:2748 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+R2762:2768 Coq.Numbers.NatInt.NZDiv DivMod' <> mod
+R2770:2770 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+modtype 2711:2722 <> ZDivSpecific
+ax 2781:2793 ZDivSpecific mod_pos_bound
+R2814:2817 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2819:2822 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R2830:2832 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R2824:2828 Coq.Numbers.NatInt.NZDiv DivModNotation ::x_'mod'_x not
+R2823:2823 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R2829:2829 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2824:2828 Coq.Numbers.NatInt.NZDiv DivModNotation ::x_'mod'_x not
+R2823:2823 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R2829:2829 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2833:2833 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2810:2812 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R2813:2813 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+ax 2843:2855 ZDivSpecific mod_neg_bound
+R2876:2879 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2881:2883 Coq.Structures.Orders LtLeNotation ::x_'<'_x_'<='_x not
+R2891:2894 Coq.Structures.Orders LtLeNotation ::x_'<'_x_'<='_x not
+R2880:2880 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2885:2889 Coq.Numbers.NatInt.NZDiv DivModNotation ::x_'mod'_x not
+R2884:2884 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R2890:2890 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2885:2889 Coq.Numbers.NatInt.NZDiv DivModNotation ::x_'mod'_x not
+R2884:2884 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R2890:2890 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2872:2874 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R2871:2871 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R2902:2913 Coq.Numbers.Integer.Abstract.ZAxioms ZDivSpecific <> modtype
+R2937:2950 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+R2956:2966 Coq.Numbers.NatInt.NZDiv NZDiv <> mod
+R2968:2968 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+R2973:2984 Coq.Numbers.Integer.Abstract.ZAxioms ZDivSpecific <> mod
+R2986:2986 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+modtype 2929:2932 <> ZDiv
+R3010:3023 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+R3029:3040 Coq.Numbers.NatInt.NZDiv NZDiv' <> mod
+R3042:3042 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+R3047:3058 Coq.Numbers.Integer.Abstract.ZAxioms ZDivSpecific <> mod
+R3060:3060 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+modtype 3001:3005 <> ZDiv'
+R3216:3218 Coq.Structures.Equalities Typ <> mod
+modtype 3196:3202 <> QuotRem
+ax 3241:3244 QuotRem quot
+ax 3246:3248 QuotRem rem
+R3253:3256 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3258:3261 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3262:3262 Coq.Numbers.Integer.Abstract.ZAxioms A t defax
+R3257:3257 Coq.Numbers.Integer.Abstract.ZAxioms A t defax
+R3252:3252 Coq.Numbers.Integer.Abstract.ZAxioms A t defax
+R3269:3275 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem <> modtype
+R3312:3314 Coq.Structures.Equalities Typ <> mod
+R3328:3334 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem <> mod
+R3336:3336 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+modtype 3291:3305 <> QuotRemNotation
+R3355:3358 Coq.Numbers.Integer.Abstract.ZAxioms B quot defax
+not 3347:3347 QuotRemNotation ::x_'÷'_x
+R3411:3413 Coq.Numbers.Integer.Abstract.ZAxioms B rem defax
+not 3402:3402 QuotRemNotation ::x_'rem'_x
+R3452:3466 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation <> modtype
+R3496:3498 Coq.Structures.Equalities Typ <> mod
+R3504:3510 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem <> mod
+R3512:3512 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+R3517:3531 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation <> mod
+R3533:3533 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+modtype 3482:3489 <> QuotRem'
+R3573:3587 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+R3601:3608 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem' <> mod
+R3610:3610 Coq.Numbers.Integer.Abstract.ZAxioms A <> modtype
+modtype 3549:3559 <> QuotRemSpec
+inst 3632:3638 QuotRemSpec quot_wd
+R3642:3647 Coq.Classes.Morphisms <> Proper class
+R3664:3667 Coq.Numbers.Integer.Abstract.ZAxioms B quot defax
+R3652:3654 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3650:3651 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+R3657:3659 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3655:3656 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+R3660:3661 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+inst 3688:3693 QuotRemSpec rem_wd
+R3697:3702 Coq.Classes.Morphisms <> Proper class
+R3719:3723 Coq.Numbers.Integer.Abstract.ZAxioms B rem defax
+R3707:3709 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3705:3706 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+R3712:3714 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R3710:3711 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+R3715:3716 Coq.Numbers.Integer.Abstract.ZAxioms A eq defax
+ax 3733:3740 QuotRemSpec quot_rem
+R3762:3765 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3767:3770 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3766:3766 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3779:3782 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3790:3790 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R3772:3773 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R3778:3778 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R3771:3771 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3775:3776 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'÷'_x not
+R3774:3774 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3777:3777 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3784:3788 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3783:3783 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3789:3789 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3757:3760 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R3756:3756 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+ax 3800:3812 QuotRemSpec rem_bound_pos
+R3832:3835 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3839:3842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3844:3847 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R3855:3857 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R3849:3853 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3848:3848 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3854:3854 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3849:3853 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3848:3848 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3854:3854 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3858:3858 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3837:3837 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R3838:3838 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3829:3830 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R3831:3831 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+ax 3868:3876 QuotRemSpec rem_opp_l
+R3898:3901 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3912:3915 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3902:3902 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3905:3910 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3903:3903 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R3904:3904 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3911:3911 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3916:3918 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R3926:3926 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R3920:3924 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3919:3919 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3925:3925 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3893:3896 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R3892:3892 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+ax 3936:3944 QuotRemSpec rem_opp_r
+R3966:3969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3980:3983 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R3971:3976 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3979:3979 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3970:3970 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3977:3977 Coq.Numbers.Integer.Abstract.ZAxioms OppNotation ::'-'_x not
+R3978:3978 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3985:3989 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemNotation ::x_'rem'_x not
+R3984:3984 Coq.Numbers.Integer.Abstract.ZAxioms <> a var
+R3990:3990 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3961:3964 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R3960:3960 Coq.Numbers.Integer.Abstract.ZAxioms <> b var
+R3997:4007 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemSpec <> modtype
+R4032:4045 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+R4051:4057 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem <> mod
+R4059:4059 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+R4064:4074 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemSpec <> mod
+R4076:4076 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+modtype 4023:4027 <> ZQuot
+R4101:4114 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+R4120:4127 Coq.Numbers.Integer.Abstract.ZAxioms QuotRem' <> mod
+R4129:4129 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+R4134:4144 Coq.Numbers.Integer.Abstract.ZAxioms QuotRemSpec <> mod
+R4146:4146 Coq.Numbers.Integer.Abstract.ZAxioms Z <> modtype
+modtype 4091:4096 <> ZQuot'
+R4275:4288 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig <> mod
+R4293:4306 Coq.Structures.Orders OrderFunctions <> mod
+R4314:4319 Coq.Numbers.Integer.Abstract.ZAxioms HasAbs <> mod
+R4324:4329 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn <> mod
+R4334:4350 Coq.Numbers.NatInt.NZParity NZParity <> mod
+R4358:4368 Coq.Numbers.NatInt.NZPow NZPow <> mod
+R4373:4385 Coq.Numbers.NatInt.NZSqrt NZSqrt <> mod
+R4390:4401 Coq.Numbers.NatInt.NZLog NZLog2 <> mod
+R4406:4416 Coq.Numbers.NatInt.NZGcd NZGcd <> mod
+R4424:4427 Coq.Numbers.Integer.Abstract.ZAxioms ZDiv <> mod
+R4432:4436 Coq.Numbers.Integer.Abstract.ZAxioms ZQuot <> mod
+R4441:4453 Coq.Numbers.NatInt.NZBits NZBits <> mod
+R4458:4465 Coq.Numbers.NatInt.NZAxioms NZSquare <> mod
+modtype 4261:4270 <> ZAxiomsSig
+R4496:4510 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsMiniSig' <> mod
+R4515:4529 Coq.Structures.Orders OrderFunctions' <> mod
+R4537:4542 Coq.Numbers.Integer.Abstract.ZAxioms HasAbs <> mod
+R4547:4552 Coq.Numbers.Integer.Abstract.ZAxioms HasSgn <> mod
+R4557:4573 Coq.Numbers.NatInt.NZParity NZParity <> mod
+R4581:4592 Coq.Numbers.NatInt.NZPow NZPow' <> mod
+R4597:4610 Coq.Numbers.NatInt.NZSqrt NZSqrt' <> mod
+R4615:4626 Coq.Numbers.NatInt.NZLog NZLog2 <> mod
+R4631:4642 Coq.Numbers.NatInt.NZGcd NZGcd' <> mod
+R4650:4654 Coq.Numbers.Integer.Abstract.ZAxioms ZDiv' <> mod
+R4659:4664 Coq.Numbers.Integer.Abstract.ZAxioms ZQuot' <> mod
+R4669:4682 Coq.Numbers.NatInt.NZBits NZBits' <> mod
+R4687:4694 Coq.Numbers.NatInt.NZAxioms NZSquare <> mod
+modtype 4481:4491 <> ZAxiomsSig'

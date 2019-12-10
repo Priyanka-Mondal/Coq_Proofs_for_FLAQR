@@ -1,0 +1,47 @@
+DIGEST 8aff2f4ef037e22b8d21229ab43d50a2
+FCoq.Arith.Factorial
+R691:698 Coq.Arith.PeanoNat <> <> lib
+R700:703 Coq.Arith.Plus <> <> lib
+R705:708 Coq.Arith.Mult <> <> lib
+R710:711 Coq.Arith.Lt <> <> lib
+def 770:773 <> fact
+R778:780 Coq.Init.Datatypes <> nat ind
+R785:787 Coq.Init.Datatypes <> nat ind
+R800:800 Coq.Arith.Factorial <> n var
+R813:813 Coq.Init.Datatypes <> O constr
+R826:826 Coq.Init.Datatypes <> S constr
+R836:838 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R833:833 Coq.Init.Datatypes <> S constr
+R835:835 Coq.Arith.Factorial <> n var
+R839:842 Coq.Arith.Factorial <> fact def
+R844:844 Coq.Arith.Factorial <> n var
+R864:867 Coq.Arith.Factorial <> fact def
+R864:867 Coq.Arith.Factorial <> fact def
+prf 883:891 <> lt_O_fact
+R898:900 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R901:904 Coq.Arith.Factorial <> fact def
+R906:906 Coq.Arith.Factorial <> n var
+prf 967:976 <> fact_neq_0
+R988:991 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R982:985 Coq.Arith.Factorial <> fact def
+R987:987 Coq.Arith.Factorial <> n var
+R1009:1022 Coq.Arith.PeanoNat Nat neq_0_lt_0 thm
+R1025:1033 Coq.Arith.Factorial <> lt_O_fact thm
+R1009:1022 Coq.Arith.PeanoNat Nat neq_0_lt_0 thm
+R1025:1033 Coq.Arith.Factorial <> lt_O_fact thm
+prf 1048:1054 <> fact_le
+R1068:1071 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1078:1081 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1072:1075 Coq.Arith.Factorial <> fact def
+R1077:1077 Coq.Arith.Factorial <> n var
+R1082:1085 Coq.Arith.Factorial <> fact def
+R1087:1087 Coq.Arith.Factorial <> m var
+R1063:1066 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1062:1062 Coq.Arith.Factorial <> n var
+R1067:1067 Coq.Arith.Factorial <> m var
+R1122:1125 Coq.Init.Peano <> le_n constr
+R1122:1125 Coq.Init.Peano <> le_n constr
+R1153:1156 Coq.Arith.Factorial <> fact def
+R1153:1156 Coq.Arith.Factorial <> fact def
+R1177:1188 Coq.Arith.PeanoNat Nat le_add_r thm
+R1177:1188 Coq.Arith.PeanoNat Nat le_add_r thm

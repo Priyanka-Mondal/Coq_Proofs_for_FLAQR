@@ -1,0 +1,31 @@
+DIGEST f32cae0caa5e91bba851945bf7615a29
+FCoq.Numbers.Natural.Abstract.NLog
+R727:733 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R735:738 Coq.Numbers.Natural.Abstract.NSub <> <> lib
+R740:743 Coq.Numbers.Natural.Abstract.NPow <> <> lib
+R745:751 Coq.Numbers.Natural.Abstract.NParity <> <> lib
+R753:757 Coq.Numbers.NatInt.NZLog <> <> lib
+R789:798 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> mod
+R807:814 Coq.Numbers.Natural.Abstract.NSub NSubProp <> mod
+R816:816 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R825:835 Coq.Numbers.Natural.Abstract.NParity NParityProp <> mod
+R837:837 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R839:839 Coq.Numbers.Natural.Abstract.NLog B <> modtype
+R848:855 Coq.Numbers.Natural.Abstract.NPow NPowProp <> mod
+R857:857 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R859:859 Coq.Numbers.Natural.Abstract.NLog B <> modtype
+R861:861 Coq.Numbers.Natural.Abstract.NLog C <> modtype
+modtype 773:781 <> NLog2Prop
+R929:938 Coq.Numbers.NatInt.NZLog NZLog2Prop <> mod
+R940:940 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R942:942 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R944:944 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R946:946 Coq.Numbers.Natural.Abstract.NLog B <> modtype
+R948:962 Coq.Numbers.Natural.Abstract.NLog D.Private_NZPow <> modtype
+R974:985 Coq.Numbers.NatInt.NZLog NZLog2UpProp <> modtype
+R987:987 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R989:989 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R991:991 Coq.Numbers.Natural.Abstract.NLog A <> modtype
+R993:993 Coq.Numbers.Natural.Abstract.NLog B <> modtype
+R995:1009 Coq.Numbers.Natural.Abstract.NLog D.Private_NZPow <> modtype
+R1016:1024 Coq.Numbers.Natural.Abstract.NLog NLog2Prop <> modtype

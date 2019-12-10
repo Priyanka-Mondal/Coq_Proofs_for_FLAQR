@@ -1,0 +1,142 @@
+DIGEST 35b99b720ab41af8f403fc7bebf989b2
+FCoq.extraction.ExtrOcamlIntConv
+R804:828 Coq.extraction.Extraction <> <> lib
+R847:851 Coq.Arith.Arith <> <> lib
+R853:858 Coq.ZArith.ZArith <> <> lib
+ax 872:874 <> int
+ax 894:901 <> int_zero
+R905:907 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 920:927 <> int_succ
+R934:937 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R938:940 Coq.extraction.ExtrOcamlIntConv <> int defax
+R931:933 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 953:959 <> int_opp
+R966:969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R970:972 Coq.extraction.ExtrOcamlIntConv <> int defax
+R963:965 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 985:993 <> int_twice
+R1000:1003 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1004:1006 Coq.extraction.ExtrOcamlIntConv <> int defax
+R997:999 Coq.extraction.ExtrOcamlIntConv <> int defax
+def 1232:1241 <> int_of_nat
+R1248:1251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1252:1254 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1245:1247 Coq.Init.Datatypes <> nat ind
+R1287:1287 Coq.extraction.ExtrOcamlIntConv <> n var
+R1299:1299 Coq.Init.Datatypes <> O constr
+R1304:1306 Coq.extraction.ExtrOcamlIntConv <> acc var
+R1313:1313 Coq.Init.Datatypes <> S constr
+R1320:1323 Coq.extraction.ExtrOcamlIntConv <> loop var
+R1340:1340 Coq.extraction.ExtrOcamlIntConv <> n var
+R1326:1333 Coq.extraction.ExtrOcamlIntConv <> int_succ defax
+R1335:1337 Coq.extraction.ExtrOcamlIntConv <> acc var
+R1349:1356 Coq.extraction.ExtrOcamlIntConv <> int_zero defax
+def 1369:1378 <> int_of_pos
+R1392:1392 Coq.extraction.ExtrOcamlIntConv <> p var
+R1403:1404 Coq.Numbers.BinNums <> xH constr
+R1409:1416 Coq.extraction.ExtrOcamlIntConv <> int_succ defax
+R1418:1425 Coq.extraction.ExtrOcamlIntConv <> int_zero defax
+R1431:1432 Coq.Numbers.BinNums <> xO constr
+R1439:1447 Coq.extraction.ExtrOcamlIntConv <> int_twice defax
+R1450:1459 Coq.extraction.ExtrOcamlIntConv <> int_of_pos def
+R1461:1461 Coq.extraction.ExtrOcamlIntConv <> p var
+R1468:1469 Coq.Numbers.BinNums <> xI constr
+R1476:1483 Coq.extraction.ExtrOcamlIntConv <> int_succ defax
+R1486:1494 Coq.extraction.ExtrOcamlIntConv <> int_twice defax
+R1497:1506 Coq.extraction.ExtrOcamlIntConv <> int_of_pos def
+R1508:1508 Coq.extraction.ExtrOcamlIntConv <> p var
+def 1528:1535 <> int_of_z
+R1549:1549 Coq.extraction.ExtrOcamlIntConv <> z var
+R1560:1561 Coq.Numbers.BinNums <> Z0 constr
+R1566:1573 Coq.extraction.ExtrOcamlIntConv <> int_zero defax
+R1579:1582 Coq.Numbers.BinNums <> Zpos constr
+R1589:1598 Coq.extraction.ExtrOcamlIntConv <> int_of_pos def
+R1606:1609 Coq.Numbers.BinNums <> Zneg constr
+R1616:1622 Coq.extraction.ExtrOcamlIntConv <> int_opp defax
+R1625:1634 Coq.extraction.ExtrOcamlIntConv <> int_of_pos def
+def 1655:1662 <> int_of_n
+R1676:1676 Coq.extraction.ExtrOcamlIntConv <> n var
+R1687:1688 Coq.Numbers.BinNums <> N0 constr
+R1693:1700 Coq.extraction.ExtrOcamlIntConv <> int_zero defax
+R1706:1709 Coq.Numbers.BinNums <> Npos constr
+R1716:1725 Coq.extraction.ExtrOcamlIntConv <> int_of_pos def
+ax 1897:1911 <> int_natlike_rec
+R1926:1929 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1930:1930 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1935:1939 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1943:1946 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1947:1947 Coq.extraction.ExtrOcamlIntConv <> A var
+R1940:1942 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1932:1933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1934:1934 Coq.extraction.ExtrOcamlIntConv <> A var
+R1931:1931 Coq.extraction.ExtrOcamlIntConv <> A var
+R1925:1925 Coq.extraction.ExtrOcamlIntConv <> A var
+def 2092:2101 <> nat_of_int
+R2108:2111 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2112:2114 Coq.Init.Datatypes <> nat ind
+R2105:2107 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2119:2133 Coq.extraction.ExtrOcamlIntConv <> int_natlike_rec defax
+R2139:2139 Coq.Init.Datatypes <> S constr
+R2137:2137 Coq.Init.Datatypes <> O constr
+ax 2153:2167 <> int_poslike_rec
+R2182:2185 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2186:2186 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2191:2195 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2196:2196 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2201:2205 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2209:2212 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2213:2213 Coq.extraction.ExtrOcamlIntConv <> A var
+R2206:2208 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2198:2199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2200:2200 Coq.extraction.ExtrOcamlIntConv <> A var
+R2197:2197 Coq.extraction.ExtrOcamlIntConv <> A var
+R2188:2189 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2190:2190 Coq.extraction.ExtrOcamlIntConv <> A var
+R2187:2187 Coq.extraction.ExtrOcamlIntConv <> A var
+R2181:2181 Coq.extraction.ExtrOcamlIntConv <> A var
+def 2407:2416 <> pos_of_int
+R2423:2426 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2427:2434 Coq.Numbers.BinNums <> positive ind
+R2420:2422 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2439:2453 Coq.extraction.ExtrOcamlIntConv <> int_poslike_rec defax
+R2463:2464 Coq.Numbers.BinNums <> xI constr
+R2460:2461 Coq.Numbers.BinNums <> xO constr
+R2457:2458 Coq.Numbers.BinNums <> xH constr
+ax 2478:2491 <> int_zlike_case
+R2506:2509 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2510:2510 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2517:2521 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2522:2522 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2529:2533 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2537:2540 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2541:2541 Coq.extraction.ExtrOcamlIntConv <> A var
+R2534:2536 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2526:2527 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2528:2528 Coq.extraction.ExtrOcamlIntConv <> A var
+R2523:2525 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2514:2515 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2516:2516 Coq.extraction.ExtrOcamlIntConv <> A var
+R2511:2513 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2505:2505 Coq.extraction.ExtrOcamlIntConv <> A var
+def 2673:2680 <> z_of_int
+R2687:2690 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2691:2691 Coq.Numbers.BinNums <> Z ind
+R2684:2686 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2697:2710 Coq.extraction.ExtrOcamlIntConv <> int_zlike_case defax
+R2779:2782 Coq.Numbers.BinNums <> Zneg constr
+R2785:2794 Coq.extraction.ExtrOcamlIntConv <> pos_of_int def
+R2796:2796 Coq.extraction.ExtrOcamlIntConv <> i var
+R2727:2730 Coq.Numbers.BinNums <> Zpos constr
+R2733:2742 Coq.extraction.ExtrOcamlIntConv <> pos_of_int def
+R2744:2744 Coq.extraction.ExtrOcamlIntConv <> i var
+R2714:2715 Coq.Numbers.BinNums <> Z0 constr
+def 2813:2820 <> n_of_int
+R2827:2830 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2831:2831 Coq.Numbers.BinNums <> N ind
+R2824:2826 Coq.extraction.ExtrOcamlIntConv <> int defax
+R2837:2850 Coq.extraction.ExtrOcamlIntConv <> int_zlike_case defax
+R2898:2899 Coq.Numbers.BinNums <> N0 constr
+R2867:2870 Coq.Numbers.BinNums <> Npos constr
+R2873:2882 Coq.extraction.ExtrOcamlIntConv <> pos_of_int def
+R2884:2884 Coq.extraction.ExtrOcamlIntConv <> i var
+R2854:2855 Coq.Numbers.BinNums <> N0 constr

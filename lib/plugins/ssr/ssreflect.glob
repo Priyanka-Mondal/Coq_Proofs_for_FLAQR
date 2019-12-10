@@ -1,0 +1,365 @@
+DIGEST 745b99b88d87973c4a428315ce128a05
+FCoq.ssr.ssreflect
+R768:771 Coq.Bool.Bool <> <> lib
+R828:838 Coq.ssrmatching.ssrmatching <> <> lib
+mod 4212:4220 <> SsrSyntax
+R4941:4949 Coq.ssr.ssreflect SsrSyntax <> mod
+not 5377:5377 <> :general_if_scope:'if'_x_'then'_x_'else'_x
+not 5519:5519 <> :general_if_scope:'if'_x_'return'_x_'then'_x_'else'_x
+not 5684:5684 <> :general_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x
+R6070:6073 Coq.Init.Datatypes <> bool ind
+R6062:6065 Coq.Init.Datatypes <> true constr
+not 6003:6003 <> :boolean_if_scope:'if'_x_'return'_x_'then'_x_'else'_x
+R6187:6190 Coq.Init.Datatypes <> bool ind
+R6179:6182 Coq.Init.Datatypes <> true constr
+not 6131:6131 <> :boolean_if_scope:'if'_x_'then'_x_'else'_x
+R6327:6330 Coq.Init.Datatypes <> bool ind
+R6314:6317 Coq.Init.Datatypes <> true constr
+not 6248:6248 <> :boolean_if_scope:'if'_x_'as'_x_'return'_x_'then'_x_'else'_x
+not 7612:7612 <> :core_scope:x_':'_x
+R7995:7997 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+not 7972:7972 <> :core_scope:x_':'_'Type'
+R8162:8164 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+not 8139:8139 <> :core_scope:x_':'_'Prop'
+def 8286:8298 <> abstract_lock
+R8303:8306 Coq.Init.Datatypes <> unit ind
+def 8320:8331 <> abstract_key
+R8336:8337 Coq.Init.Datatypes <> tt constr
+def 8352:8359 <> abstract
+R8386:8388 Coq.Init.Datatypes <> nat ind
+R8399:8411 Coq.ssr.ssreflect <> abstract_lock def
+R8430:8433 Coq.ssr.ssreflect <> lock var
+R8424:8425 Coq.Init.Datatypes <> tt constr
+R8438:8446 Coq.ssr.ssreflect <> statement var
+R8477:8484 Coq.ssr.ssreflect <> abstract def
+not 8459:8459 <> ::'<hidden'_x_'>'
+R8519:8526 Coq.ssr.ssreflect <> abstract def
+R8532:8543 Coq.ssr.ssreflect <> abstract_key def
+not 8503:8503 <> ::x_'(*'_x_'*)'
+ind 8591:8603 <> external_view
+constr 8615:8625 <> tactic_view
+R8634:8634 Coq.ssr.ssreflect <> external_view ind
+mod 10427:10438 <> TheCanonical
+ind 10454:10456 TheCanonical put
+constr 10489:10491 TheCanonical Put
+R10473:10474 Coq.ssr.ssreflect <> vT var
+R10482:10483 Coq.ssr.ssreflect <> sT var
+R10492:10492 Coq.ssr.ssreflect <> put ind
+R10492:10492 Coq.ssr.ssreflect <> s var
+R10492:10492 Coq.ssr.ssreflect <> v2 var
+R10492:10492 Coq.ssr.ssreflect <> v1 var
+R10492:10492 Coq.ssr.ssreflect <> sT var
+R10492:10492 Coq.ssr.ssreflect <> vT var
+def 10506:10508 TheCanonical get
+R10526:10528 Coq.ssr.ssreflect TheCanonical put coind
+R10540:10540 Coq.ssr.ssreflect <> s var
+R10538:10538 Coq.ssr.ssreflect <> v var
+R10536:10536 Coq.ssr.ssreflect <> v var
+R10533:10534 Coq.ssr.ssreflect <> sT var
+R10530:10531 Coq.ssr.ssreflect <> vT var
+R10564:10564 Coq.ssr.ssreflect <> p var
+R10551:10553 Coq.ssr.ssreflect TheCanonical Put constr
+R10569:10569 Coq.ssr.ssreflect <> s var
+def 10584:10589 TheCanonical get_by
+R10602:10605 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10606:10607 Coq.ssr.ssreflect <> vT var
+R10600:10601 Coq.ssr.ssreflect <> sT var
+R10613:10615 Coq.ssr.ssreflect TheCanonical get def
+R10620:10621 Coq.ssr.ssreflect <> sT var
+R10617:10618 Coq.ssr.ssreflect <> vT var
+R10629:10640 Coq.ssr.ssreflect TheCanonical <> mod
+R10705:10710 Coq.ssr.ssreflect <> get_by def
+R10705:10710 Coq.ssr.ssreflect <> get_by def
+R10793:10798 Coq.ssr.ssreflect <> get_by def
+R10832:10834 Coq.ssr.ssreflect <> Put constr
+R10845:10845 Coq.ssr.ssreflect <> s var
+R10842:10842 Coq.ssr.ssreflect <> s var
+R10836:10837 Coq.ssr.ssreflect <> v' var
+not 10757:10757 <> :form_scope:'['_'the'_x_'of'_x_'by'_x_']'
+R10933:10935 Coq.ssr.ssreflect <> get def
+R10953:10955 Coq.ssr.ssreflect <> Put constr
+R10971:10971 Coq.ssr.ssreflect <> s var
+R10969:10969 Coq.ssr.ssreflect <> s var
+not 10907:10907 <> :form_scope:'['_'the'_x_'of'_x_']'
+R11474:11479 Coq.ssr.ssreflect <> get_by def
+not 11437:11437 <> :form_scope:'['_'th'_'e'_x_'of'_x_'by'_x_']'
+R11610:11612 Coq.ssr.ssreflect <> get def
+not 11580:11580 <> :form_scope:'['_'th'_'e'_x_'of'_x_']'
+def 13988:13999 <> argumentType
+R14018:14018 Coq.ssr.ssreflect <> T var
+R14021:14021 Coq.ssr.ssreflect <> P var
+R14023:14023 Coq.ssr.ssreflect <> x var
+R14028:14028 Coq.ssr.ssreflect <> T var
+def 14042:14060 <> dependentReturnType
+R14079:14079 Coq.ssr.ssreflect <> T var
+R14082:14082 Coq.ssr.ssreflect <> P var
+R14084:14084 Coq.ssr.ssreflect <> x var
+R14089:14089 Coq.ssr.ssreflect <> P var
+def 14103:14112 <> returnType
+R14124:14127 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14128:14129 Coq.ssr.ssreflect <> rT var
+R14122:14123 Coq.ssr.ssreflect <> aT var
+R14134:14135 Coq.ssr.ssreflect <> rT var
+R14180:14198 Coq.ssr.ssreflect <> dependentReturnType def
+not 14148:14148 <> :type_scope:'{'_'type'_'of'_x_'for'_x_'}'
+ind 15908:15914 <> phantom
+constr 15929:15935 <> Phantom
+R15923:15923 Coq.ssr.ssreflect <> T var
+R15936:15936 Coq.ssr.ssreflect <> phantom ind
+R15936:15936 Coq.ssr.ssreflect <> p var
+R15936:15936 Coq.ssr.ssreflect <> T var
+R15948:15954 Coq.ssr.ssreflect <> phantom coind
+R15948:15954 Coq.ssr.ssreflect <> phantom coind
+R15985:15991 Coq.ssr.ssreflect <> Phantom constr
+R15985:15991 Coq.ssr.ssreflect <> Phantom constr
+ind 16024:16028 <> phant
+constr 16044:16048 <> Phant
+R16049:16049 Coq.ssr.ssreflect <> phant ind
+R16049:16049 Coq.ssr.ssreflect <> p var
+def 16145:16156 <> protect_term
+R16174:16174 Coq.ssr.ssreflect <> A var
+R16179:16179 Coq.ssr.ssreflect <> A var
+R16184:16184 Coq.ssr.ssreflect <> x var
+syndef 16846:16852 <> unkeyed
+R16877:16880 Coq.ssr.ssreflect <> flex var
+def 16946:16957 <> ssr_converse
+R16966:16966 Coq.ssr.ssreflect <> R var
+R16972:16972 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16980:16981 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16983:16983 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16973:16979 Coq.Init.Logic <> I constr
+R16982:16982 Coq.ssr.ssreflect <> r var
+R17007:17018 Coq.ssr.ssreflect <> ssr_converse def
+not 16995:16995 <> :form_scope:'=^~'_x
+syndef 19331:19337 <> nosimpl
+R19356:19357 Coq.Init.Datatypes <> tt constr
+R19350:19351 Coq.Init.Datatypes <> tt constr
+prf 19373:19382 <> master_key
+R19386:19389 Coq.Init.Datatypes <> unit ind
+R19405:19406 Coq.Init.Datatypes <> tt constr
+R19405:19406 Coq.Init.Datatypes <> tt constr
+def 19425:19430 <> locked
+R19448:19457 Coq.ssr.ssreflect <> master_key thm
+R19442:19443 Coq.Init.Datatypes <> tt constr
+R19470:19470 Coq.ssr.ssreflect <> A var
+R19475:19475 Coq.ssr.ssreflect <> x var
+prf 19485:19488 <> lock
+R19497:19499 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R19508:19511 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R19512:19512 Coq.ssr.ssreflect <> A var
+R19496:19496 Coq.ssr.ssreflect <> x var
+R19500:19505 Coq.ssr.ssreflect <> locked def
+R19507:19507 Coq.ssr.ssreflect <> x var
+prf 19636:19659 <> not_locked_false_eq_true
+R19675:19678 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R19663:19668 Coq.ssr.ssreflect <> locked def
+R19670:19674 Coq.Init.Datatypes <> false constr
+R19679:19682 Coq.Init.Datatypes <> true constr
+R19878:19886 Coq.Init.Logic <> sym_equal syndef
+R19957:19980 Coq.ssr.ssreflect <> not_locked_false_eq_true thm
+R20019:20020 Coq.Init.Logic <> :type_scope:'~'_x not
+R20019:20020 Coq.Init.Logic <> :type_scope:'~'_x not
+R20203:20211 Coq.Init.Logic <> sym_equal syndef
+R20275:20298 Coq.ssr.ssreflect <> not_locked_false_eq_true thm
+R20337:20338 Coq.Init.Logic <> :type_scope:'~'_x not
+R20337:20338 Coq.Init.Logic <> :type_scope:'~'_x not
+constr 20443:20452 <> Unlockable
+rec 20425:20434 <> unlockable
+proj 20455:20462 <> unlocked
+R20466:20466 Coq.ssr.ssreflect <> T var
+R20481:20483 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20473:20480 Coq.ssr.ssreflect <> unlocked meth
+R20484:20484 Coq.ssr.ssreflect <> v var
+prf 20494:20499 <> unlock
+R20524:20526 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20510:20517 Coq.ssr.ssreflect <> unlocked proj
+R20523:20523 Coq.ssr.ssreflect <> C var
+R20521:20521 Coq.ssr.ssreflect <> x var
+R20519:20519 Coq.ssr.ssreflect <> T var
+R20527:20527 Coq.ssr.ssreflect <> x var
+R20595:20604 Coq.ssr.ssreflect <> Unlockable constr
+R20613:20618 Coq.ssr.ssreflect <> unlock thm
+not 20564:20564 <> :form_scope:'['_'unlockable'_'of'_x_']'
+R20731:20740 Coq.ssr.ssreflect <> Unlockable constr
+R20760:20765 Coq.ssr.ssreflect <> unlock thm
+not 20699:20699 <> :form_scope:'['_'unlockable'_'fun'_x_']'
+def 20957:20967 <> locked_with
+R20985:20985 Coq.ssr.ssreflect <> k var
+R20979:20980 Coq.Init.Datatypes <> tt constr
+R21002:21004 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+R21005:21005 Coq.ssr.ssreflect <> T var
+R21001:21001 Coq.ssr.ssreflect <> x var
+prf 21177:21188 <> locked_withE
+R21223:21225 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R21227:21230 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R21231:21231 Coq.ssr.ssreflect <> T var
+R21198:21204 Coq.ssr.ssreflect <> unkeyed syndef
+R21207:21217 Coq.ssr.ssreflect <> locked_with def
+R21221:21221 Coq.ssr.ssreflect <> x var
+R21219:21219 Coq.ssr.ssreflect <> k var
+R21226:21226 Coq.ssr.ssreflect <> x var
+R21366:21375 Coq.ssr.ssreflect <> Unlockable constr
+R21400:21411 Coq.ssr.ssreflect <> locked_withE thm
+R21415:21415 Coq.ssr.ssreflect <> x var
+R21413:21413 Coq.ssr.ssreflect <> k var
+R21382:21392 Coq.ssr.ssreflect <> locked_with def
+R21396:21396 Coq.ssr.ssreflect <> x var
+R21394:21394 Coq.ssr.ssreflect <> k var
+R21379:21379 Coq.ssr.ssreflect <> x var
+R21377:21377 Coq.ssr.ssreflect <> T var
+prf 21504:21514 <> unlock_with
+R21561:21563 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R21565:21568 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R21569:21569 Coq.ssr.ssreflect <> T var
+R21524:21531 Coq.ssr.ssreflect <> unlocked proj
+R21534:21555 Coq.ssr.ssreflect <> locked_with_unlockable canonstruc
+R21559:21559 Coq.ssr.ssreflect <> x var
+R21557:21557 Coq.ssr.ssreflect <> k var
+R21564:21564 Coq.ssr.ssreflect <> x var
+R21586:21591 Coq.ssr.ssreflect <> unlock thm
+R21586:21591 Coq.ssr.ssreflect <> unlock thm
+def 21693:21700 <> ssr_have
+R21723:21728 Coq.ssr.ssreflect <> Plemma var
+R21738:21742 Coq.ssr.ssreflect <> Pgoal var
+R21747:21750 Coq.ssr.ssreflect <> rest var
+R21752:21755 Coq.ssr.ssreflect <> step var
+R21768:21775 Coq.ssr.ssreflect <> ssr_have def
+R21768:21775 Coq.ssr.ssreflect <> ssr_have def
+def 21805:21816 <> ssr_have_let
+R21864:21867 Coq.ssr.ssreflect <> step var
+R21854:21859 Coq.ssr.ssreflect <> Plemma var
+R21872:21876 Coq.ssr.ssreflect <> Pgoal var
+R21881:21885 Coq.ssr.ssreflect <> Pgoal var
+R21890:21893 Coq.ssr.ssreflect <> rest var
+R21906:21917 Coq.ssr.ssreflect <> ssr_have_let def
+R21906:21917 Coq.ssr.ssreflect <> ssr_have_let def
+def 21940:21947 <> ssr_suff
+R21975:21980 Coq.ssr.ssreflect <> Plemma var
+R21985:21989 Coq.ssr.ssreflect <> Pgoal var
+R21994:21997 Coq.ssr.ssreflect <> step var
+R21999:22002 Coq.ssr.ssreflect <> rest var
+R22015:22022 Coq.ssr.ssreflect <> ssr_suff def
+R22015:22022 Coq.ssr.ssreflect <> ssr_suff def
+def 22052:22059 <> ssr_wlog
+R22064:22071 Coq.ssr.ssreflect <> ssr_suff def
+R22084:22091 Coq.ssr.ssreflect <> ssr_wlog def
+R22084:22091 Coq.ssr.ssreflect <> ssr_wlog def
+def 22201:22225 <> nary_congruence_statement
+R22232:22234 Coq.Init.Datatypes <> nat ind
+R22248:22248 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22283:22287 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22259:22259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22274:22278 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22261:22264 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22266:22269 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22265:22265 Coq.ssr.ssreflect <> B var
+R22260:22260 Coq.ssr.ssreflect <> B var
+R22304:22304 Coq.ssr.ssreflect <> n var
+R22315:22315 Coq.Init.Datatypes <> O constr
+R22339:22339 Coq.ssr.ssreflect <> k var
+R22356:22356 Coq.ssr.ssreflect <> B var
+R22363:22365 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22361:22362 Coq.ssr.ssreflect <> x1 var
+R22366:22367 Coq.ssr.ssreflect <> x2 var
+R22341:22341 Coq.ssr.ssreflect <> B var
+R22374:22374 Coq.Init.Datatypes <> S constr
+R22409:22412 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22413:22413 Coq.ssr.ssreflect <> B var
+R22408:22408 Coq.ssr.ssreflect <> A var
+R22446:22450 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22475:22475 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22468:22474 Coq.ssr.ssreflect <> :core_scope:x_':'_'Prop' not
+R22451:22451 Coq.ssr.ssreflect <> e var
+R22462:22463 Coq.ssr.ssreflect <> f2 var
+R22465:22466 Coq.ssr.ssreflect <> x2 var
+R22454:22455 Coq.ssr.ssreflect <> f1 var
+R22457:22458 Coq.ssr.ssreflect <> x1 var
+R22441:22443 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22439:22440 Coq.ssr.ssreflect <> x1 var
+R22444:22445 Coq.ssr.ssreflect <> x2 var
+R22503:22527 Coq.ssr.ssreflect <> nary_congruence_statement def
+R22544:22544 Coq.ssr.ssreflect <> k var
+R22549:22550 Coq.ssr.ssreflect <> k' var
+R22556:22556 Coq.ssr.ssreflect <> e var
+R22554:22554 Coq.ssr.ssreflect <> B var
+R22552:22552 Coq.ssr.ssreflect <> A var
+prf 22574:22588 <> nary_congruence
+R22620:22620 Coq.ssr.ssreflect <> B var
+R22629:22635 Coq.ssr.ssreflect <> :core_scope:x_':'_'Prop' not
+R22624:22624 Coq.ssr.ssreflect <> e var
+R22628:22628 Coq.ssr.ssreflect <> y var
+R22626:22626 Coq.ssr.ssreflect <> y var
+R22643:22667 Coq.ssr.ssreflect <> nary_congruence_statement def
+R22671:22671 Coq.ssr.ssreflect <> k var
+R22669:22669 Coq.ssr.ssreflect <> n var
+prf 22830:22844 <> ssr_congr_arrow
+R22875:22878 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22885:22888 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22889:22893 Coq.ssr.ssreflect <> Pgoal var
+R22879:22884 Coq.ssr.ssreflect <> Plemma var
+R22867:22869 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22861:22866 Coq.ssr.ssreflect <> Plemma var
+R22870:22874 Coq.ssr.ssreflect <> Pgoal var
+R22929:22943 Coq.ssr.ssreflect <> ssr_congr_arrow thm
+R22929:22943 Coq.ssr.ssreflect <> ssr_congr_arrow thm
+sec 23055:23062 <> ApplyIff
+var 23076:23076 ApplyIff P
+var 23078:23078 ApplyIff Q
+var 23099:23102 ApplyIff eqPQ
+R23107:23111 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R23106:23106 Coq.ssr.ssreflect <> ApplyIff.P var
+R23112:23112 Coq.ssr.ssreflect <> ApplyIff.Q var
+prf 23122:23126 <> iffLR
+R23131:23134 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23135:23135 Coq.ssr.ssreflect <> ApplyIff.Q var
+R23130:23130 Coq.ssr.ssreflect <> ApplyIff.P var
+R23154:23157 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23154:23157 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23154:23157 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+prf 23171:23175 <> iffRL
+R23180:23183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23184:23184 Coq.ssr.ssreflect <> ApplyIff.P var
+R23179:23179 Coq.ssr.ssreflect <> ApplyIff.Q var
+R23203:23206 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23203:23206 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23203:23206 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+prf 23221:23226 <> iffLRn
+R23232:23235 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23236:23236 Coq.Init.Logic <> :type_scope:'~'_x not
+R23237:23237 Coq.ssr.ssreflect <> ApplyIff.Q var
+R23230:23230 Coq.Init.Logic <> :type_scope:'~'_x not
+R23231:23231 Coq.ssr.ssreflect <> ApplyIff.P var
+R23280:23283 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23280:23283 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23280:23283 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+prf 23300:23305 <> iffRLn
+R23311:23314 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23315:23315 Coq.Init.Logic <> :type_scope:'~'_x not
+R23316:23316 Coq.ssr.ssreflect <> ApplyIff.P var
+R23309:23309 Coq.Init.Logic <> :type_scope:'~'_x not
+R23310:23310 Coq.ssr.ssreflect <> ApplyIff.Q var
+R23359:23362 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23359:23362 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23359:23362 Coq.ssr.ssreflect <> ApplyIff.eqPQ var
+R23378:23385 Coq.ssr.ssreflect ApplyIff <> sec
+R23409:23414 Coq.ssr.ssreflect <> iffLRn thm
+R23418:23423 Coq.ssr.ssreflect <> iffRLn thm
+R23427:23431 Coq.ssr.ssreflect <> iffLR thm
+R23435:23439 Coq.ssr.ssreflect <> iffRL thm
+R23465:23470 Coq.ssr.ssreflect <> iffRLn thm
+R23474:23479 Coq.ssr.ssreflect <> iffLRn thm
+R23483:23487 Coq.ssr.ssreflect <> iffRL thm
+R23491:23495 Coq.ssr.ssreflect <> iffLR thm
+prf 24035:24050 <> abstract_context
+R24060:24063 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24059:24059 Coq.ssr.ssreflect <> T var
+R24076:24076 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24099:24103 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24104:24104 Coq.ssr.ssreflect <> P var
+R24106:24106 Coq.ssr.ssreflect <> x var
+R24092:24095 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24096:24096 Coq.ssr.ssreflect <> Q var
+R24098:24098 Coq.ssr.ssreflect <> x var
+R24088:24090 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24087:24087 Coq.ssr.ssreflect <> Q var
+R24091:24091 Coq.ssr.ssreflect <> P var

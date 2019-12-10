@@ -1,0 +1,22 @@
+DIGEST e8f6c7e5b7f7c093084e57d3edba3cc6
+FCoq.FSets.FSetWeakList
+R852:864 Coq.FSets.FSetInterface <> <> lib
+R1020:1029 Coq.Structures.Equalities <> <> lib
+R1031:1040 Coq.FSets.FSetCompat <> <> lib
+R1042:1053 Coq.MSets.MSetWeakList <> <> lib
+R1073:1085 Coq.Structures.DecidableType DecidableType <> mod
+R1091:1092 Coq.FSets.FSetInterface WS <> mod
+R1111:1111 Coq.FSets.FSetWeakList X <> modtype
+mod 1064:1067 <> Make
+R1127:1127 Coq.FSets.FSetWeakList X <> modtype
+mod 1122:1122 <> Make.E
+R1144:1163 Coq.Structures.Equalities Update_DT <> modtype
+R1165:1165 Coq.FSets.FSetWeakList X <> modtype
+mod 1138:1139 <> Make.X'
+R1184:1200 Coq.MSets.MSetWeakList Make <> modtype
+R1202:1203 Coq.FSets.FSetWeakList Make.X' <> modtype
+mod 1176:1179 <> Make.MSet
+R1215:1239 Coq.FSets.FSetCompat Backport_WSets <> modtype
+R1241:1241 Coq.FSets.FSetWeakList X <> modtype
+R1243:1246 Coq.FSets.FSetWeakList Make.MSet <> modtype
+R1253:1256 Coq.FSets.FSetWeakList Make <> mod

@@ -1,0 +1,2478 @@
+DIGEST d2021e7c9618bc87558f5651c97fcb89
+FCoq.MSets.MSetInterface
+R1629:1632 Coq.Bool.Bool <> <> lib
+R1634:1643 Coq.Lists.SetoidList <> <> lib
+R1645:1659 Coq.Classes.RelationClasses <> <> lib
+R1661:1669 Coq.Classes.Morphisms <> <> lib
+R1672:1684 Coq.Classes.RelationPairs <> <> lib
+R1686:1695 Coq.Structures.Equalities <> <> lib
+R1697:1702 Coq.Structures.Orders <> <> lib
+R1704:1714 Coq.Structures.OrdersFacts <> <> lib
+modtype 1777:1782 <> TypElt
+ax 1797:1797 TypElt t
+ax 1799:1801 TypElt elt
+R1815:1820 Coq.MSets.MSetInterface TypElt <> modtype
+R1854:1859 Coq.MSets.MSetInterface TypElt <> mod
+modtype 1836:1842 <> HasWOps
+ax 1876:1880 HasWOps empty
+R1884:1884 Coq.MSets.MSetInterface T t defax
+ax 1924:1931 HasWOps is_empty
+R1936:1939 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1940:1943 Coq.Init.Datatypes <> bool ind
+R1935:1935 Coq.MSets.MSetInterface T t defax
+ax 2004:2006 HasWOps mem
+R2013:2016 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2018:2021 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2022:2025 Coq.Init.Datatypes <> bool ind
+R2017:2017 Coq.MSets.MSetInterface T t defax
+R2010:2012 Coq.MSets.MSetInterface T elt defax
+ax 2102:2104 HasWOps add
+R2111:2114 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2116:2119 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2120:2120 Coq.MSets.MSetInterface T t defax
+R2115:2115 Coq.MSets.MSetInterface T t defax
+R2108:2110 Coq.MSets.MSetInterface T elt defax
+ax 2267:2275 HasWOps singleton
+R2282:2285 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2286:2286 Coq.MSets.MSetInterface T t defax
+R2279:2281 Coq.MSets.MSetInterface T elt defax
+ax 2374:2379 HasWOps remove
+R2386:2389 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2391:2394 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2395:2395 Coq.MSets.MSetInterface T t defax
+R2390:2390 Coq.MSets.MSetInterface T t defax
+R2383:2385 Coq.MSets.MSetInterface T elt defax
+ax 2543:2547 HasWOps union
+R2552:2555 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2557:2560 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2561:2561 Coq.MSets.MSetInterface T t defax
+R2556:2556 Coq.MSets.MSetInterface T t defax
+R2551:2551 Coq.MSets.MSetInterface T t defax
+ax 2597:2601 HasWOps inter
+R2606:2609 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2611:2614 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2615:2615 Coq.MSets.MSetInterface T t defax
+R2610:2610 Coq.MSets.MSetInterface T t defax
+R2605:2605 Coq.MSets.MSetInterface T t defax
+ax 2658:2661 HasWOps diff
+R2666:2669 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2671:2674 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2675:2675 Coq.MSets.MSetInterface T t defax
+R2670:2670 Coq.MSets.MSetInterface T t defax
+R2665:2665 Coq.MSets.MSetInterface T t defax
+ax 2716:2720 HasWOps equal
+R2725:2728 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2730:2733 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2734:2737 Coq.Init.Datatypes <> bool ind
+R2729:2729 Coq.MSets.MSetInterface T t defax
+R2724:2724 Coq.MSets.MSetInterface T t defax
+ax 2859:2864 HasWOps subset
+R2869:2872 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2874:2877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2878:2881 Coq.Init.Datatypes <> bool ind
+R2873:2873 Coq.MSets.MSetInterface T t defax
+R2868:2868 Coq.MSets.MSetInterface T t defax
+ax 2979:2982 HasWOps fold
+R3003:3003 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3017:3021 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3023:3026 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3028:3031 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3032:3032 Coq.MSets.MSetInterface <> A var
+R3027:3027 Coq.MSets.MSetInterface <> A var
+R3022:3022 Coq.MSets.MSetInterface T t defax
+R3007:3010 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3012:3015 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3016:3016 Coq.MSets.MSetInterface <> A var
+R3011:3011 Coq.MSets.MSetInterface <> A var
+R3004:3006 Coq.MSets.MSetInterface T elt defax
+ax 3233:3239 HasWOps for_all
+R3243:3243 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3255:3259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3261:3264 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3265:3268 Coq.Init.Datatypes <> bool ind
+R3260:3260 Coq.MSets.MSetInterface T t defax
+R3247:3250 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3251:3254 Coq.Init.Datatypes <> bool ind
+R3244:3246 Coq.MSets.MSetInterface T elt defax
+ax 3370:3376 HasWOps exists_
+R3380:3380 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3392:3396 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3398:3401 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3402:3405 Coq.Init.Datatypes <> bool ind
+R3397:3397 Coq.MSets.MSetInterface T t defax
+R3384:3387 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3388:3391 Coq.Init.Datatypes <> bool ind
+R3381:3383 Coq.MSets.MSetInterface T elt defax
+ax 3516:3521 HasWOps filter
+R3525:3525 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3537:3541 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3543:3546 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3547:3547 Coq.MSets.MSetInterface T t defax
+R3542:3542 Coq.MSets.MSetInterface T t defax
+R3529:3532 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3533:3536 Coq.Init.Datatypes <> bool ind
+R3526:3528 Coq.MSets.MSetInterface T elt defax
+ax 3654:3662 HasWOps partition
+R3666:3666 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3678:3682 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3684:3687 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3689:3691 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3688:3688 Coq.MSets.MSetInterface T t defax
+R3692:3692 Coq.MSets.MSetInterface T t defax
+R3683:3683 Coq.MSets.MSetInterface T t defax
+R3670:3673 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3674:3677 Coq.Init.Datatypes <> bool ind
+R3667:3669 Coq.MSets.MSetInterface T elt defax
+ax 3927:3934 HasWOps cardinal
+R3939:3942 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3943:3945 Coq.Init.Datatypes <> nat ind
+R3938:3938 Coq.MSets.MSetInterface T t defax
+ax 4010:4017 HasWOps elements
+R4022:4025 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4026:4029 Coq.Init.Datatypes <> list ind
+R4031:4033 Coq.MSets.MSetInterface T elt defax
+R4021:4021 Coq.MSets.MSetInterface T t defax
+ax 4122:4127 HasWOps choose
+R4132:4135 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4136:4141 Coq.Init.Datatypes <> option ind
+R4143:4145 Coq.MSets.MSetInterface T elt defax
+R4131:4131 Coq.MSets.MSetInterface T t defax
+R4318:4324 Coq.MSets.MSetInterface HasWOps <> modtype
+R4350:4362 Coq.Structures.Equalities DecidableType <> mod
+modtype 4340:4343 <> WOps
+def 4379:4381 WOps elt
+R4386:4388 Coq.MSets.MSetInterface E t defax
+ax 4403:4403 WOps t
+R4456:4462 Coq.MSets.MSetInterface HasWOps <> mod
+R4469:4472 Coq.MSets.MSetInterface WOps <> modtype
+R4638:4650 Coq.Structures.Equalities DecidableType <> mod
+modtype 4625:4631 <> WSetsOn
+R4709:4712 Coq.MSets.MSetInterface WOps <> mod
+R4714:4714 Coq.MSets.MSetInterface E <> modtype
+ax 4758:4759 WSetsOn In
+R4766:4769 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4771:4774 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4770:4770 Coq.MSets.MSetInterface WSetsOn t defax
+R4763:4765 Coq.MSets.MSetInterface WSetsOn elt def
+inst 4800:4808 WSetsOn In_compat
+R4812:4817 Coq.Classes.Morphisms <> Proper class
+R4837:4838 Coq.MSets.MSetInterface WSetsOn In defax
+R4824:4826 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4820:4823 Coq.MSets.MSetInterface E eq defax
+R4829:4831 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R4827:4828 Coq.Init.Logic <> eq ind
+R4832:4834 Coq.Init.Logic <> iff def
+def 4855:4859 WSetsOn Equal
+R4880:4882 Coq.MSets.MSetInterface WSetsOn elt def
+R4891:4895 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R4885:4886 Coq.MSets.MSetInterface WSetsOn In defax
+R4890:4890 Coq.MSets.MSetInterface <> s var
+R4888:4888 Coq.MSets.MSetInterface <> a var
+R4896:4897 Coq.MSets.MSetInterface WSetsOn In defax
+R4901:4902 Coq.MSets.MSetInterface <> s' var
+R4899:4899 Coq.MSets.MSetInterface <> a var
+def 4918:4923 WSetsOn Subset
+R4944:4946 Coq.MSets.MSetInterface WSetsOn elt def
+R4955:4958 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4959:4960 Coq.MSets.MSetInterface WSetsOn In defax
+R4964:4965 Coq.MSets.MSetInterface <> s' var
+R4962:4962 Coq.MSets.MSetInterface <> a var
+R4949:4950 Coq.MSets.MSetInterface WSetsOn In defax
+R4954:4954 Coq.MSets.MSetInterface <> s var
+R4952:4952 Coq.MSets.MSetInterface <> a var
+def 4981:4985 WSetsOn Empty
+R5003:5005 Coq.MSets.MSetInterface WSetsOn elt def
+R5008:5009 Coq.Init.Logic <> :type_scope:'~'_x not
+R5010:5011 Coq.MSets.MSetInterface WSetsOn In defax
+R5015:5015 Coq.MSets.MSetInterface <> s var
+R5013:5013 Coq.MSets.MSetInterface <> a var
+def 5031:5037 WSetsOn For_all
+R5047:5050 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5044:5046 Coq.MSets.MSetInterface WSetsOn elt def
+R5078:5081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5082:5082 Coq.MSets.MSetInterface <> P var
+R5084:5084 Coq.MSets.MSetInterface <> x var
+R5072:5073 Coq.MSets.MSetInterface WSetsOn In defax
+R5077:5077 Coq.MSets.MSetInterface <> s var
+R5075:5075 Coq.MSets.MSetInterface <> x var
+def 5100:5105 WSetsOn Exists
+R5115:5118 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5112:5114 Coq.MSets.MSetInterface WSetsOn elt def
+R5130:5136 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5138:5139 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5146:5149 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5140:5141 Coq.MSets.MSetInterface WSetsOn In defax
+R5145:5145 Coq.MSets.MSetInterface <> s var
+R5143:5143 Coq.MSets.MSetInterface <> x var
+R5150:5150 Coq.MSets.MSetInterface <> P var
+R5152:5152 Coq.MSets.MSetInterface <> x var
+R5183:5187 Coq.MSets.MSetInterface WSetsOn Equal def
+not 5167:5167 WSetsOn ::x_'[=]'_x
+R5255:5260 Coq.MSets.MSetInterface WSetsOn Subset def
+not 5238:5238 WSetsOn ::x_'[<=]'_x
+def 5314:5315 WSetsOn eq
+R5320:5323 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5325:5328 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5324:5324 Coq.MSets.MSetInterface WSetsOn t defax
+R5319:5319 Coq.MSets.MSetInterface WSetsOn t defax
+R5337:5341 Coq.MSets.MSetInterface WSetsOn Equal def
+R5354:5357 Coq.Structures.Equalities IsEq <> mod
+R5430:5437 Coq.Structures.Equalities HasEqDec <> mod
+sec 5493:5496 WSetsOn Spec
+var 5510:5510 WSetsOn.Spec s
+var 5512:5513 WSetsOn.Spec s'
+R5516:5516 Coq.MSets.MSetInterface WSetsOn t defax
+var 5530:5530 WSetsOn.Spec x
+var 5532:5532 WSetsOn.Spec y
+R5536:5538 Coq.MSets.MSetInterface WSetsOn elt def
+var 5552:5552 WSetsOn.Spec f
+R5559:5562 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5563:5566 Coq.Init.Datatypes <> bool ind
+R5556:5558 Coq.MSets.MSetInterface WSetsOn elt def
+syndef 5580:5586 WSetsOn compatb
+R5592:5597 Coq.Classes.Morphisms <> Proper class
+R5604:5606 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R5600:5603 Coq.MSets.MSetInterface E eq defax
+R5607:5614 Coq.Init.Logic <> eq ind
+ax 5647:5654 WSetsOn mem_spec
+R5672:5676 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5665:5667 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5658:5660 Coq.MSets.MSetInterface WSetsOn mem defax
+R5664:5664 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5662:5662 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5668:5671 Coq.Init.Datatypes <> true constr
+R5677:5678 Coq.MSets.MSetInterface WSetsOn In defax
+R5682:5682 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5680:5680 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 5697:5706 WSetsOn equal_spec
+R5727:5731 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5720:5722 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5710:5714 Coq.MSets.MSetInterface WSetsOn equal defax
+R5718:5719 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R5716:5716 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5723:5726 Coq.Init.Datatypes <> true constr
+R5733:5735 Coq.MSets.MSetInterface WSetsOn ::x_'[=]'_x not
+R5732:5732 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5736:5737 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+ax 5752:5762 WSetsOn subset_spec
+R5784:5788 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5777:5779 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5766:5771 Coq.MSets.MSetInterface WSetsOn subset defax
+R5775:5776 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R5773:5773 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5780:5783 Coq.Init.Datatypes <> true constr
+R5790:5793 Coq.MSets.MSetInterface WSetsOn ::x_'[<=]'_x not
+R5789:5789 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5794:5795 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+ax 5810:5819 WSetsOn empty_spec
+R5823:5827 Coq.MSets.MSetInterface WSetsOn Empty def
+R5829:5833 Coq.MSets.MSetInterface WSetsOn empty defax
+ax 5848:5860 WSetsOn is_empty_spec
+R5881:5885 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5874:5876 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5864:5871 Coq.MSets.MSetInterface WSetsOn is_empty defax
+R5873:5873 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5877:5880 Coq.Init.Datatypes <> true constr
+R5886:5890 Coq.MSets.MSetInterface WSetsOn Empty def
+R5892:5892 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+ax 5907:5914 WSetsOn add_spec
+R5932:5936 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5918:5919 Coq.MSets.MSetInterface WSetsOn In defax
+R5924:5926 Coq.MSets.MSetInterface WSetsOn add defax
+R5930:5930 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5928:5928 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5921:5921 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+R5945:5948 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R5937:5940 Coq.MSets.MSetInterface E eq defax
+R5944:5944 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5942:5942 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+R5949:5950 Coq.MSets.MSetInterface WSetsOn In defax
+R5954:5954 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5952:5952 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+ax 5969:5979 WSetsOn remove_spec
+R6000:6004 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R5983:5984 Coq.MSets.MSetInterface WSetsOn In defax
+R5989:5994 Coq.MSets.MSetInterface WSetsOn remove defax
+R5998:5998 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R5996:5996 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R5986:5986 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6011:6014 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6005:6006 Coq.MSets.MSetInterface WSetsOn In defax
+R6010:6010 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6008:6008 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6015:6015 Coq.Init.Logic <> :type_scope:'~'_x not
+R6016:6019 Coq.MSets.MSetInterface E eq defax
+R6023:6023 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6021:6021 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+ax 6038:6051 WSetsOn singleton_spec
+R6073:6077 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6055:6056 Coq.MSets.MSetInterface WSetsOn In defax
+R6061:6069 Coq.MSets.MSetInterface WSetsOn singleton defax
+R6071:6071 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6058:6058 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+R6078:6081 Coq.MSets.MSetInterface E eq defax
+R6085:6085 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6083:6083 Coq.MSets.MSetInterface <> WSetsOn.Spec.y var
+ax 6100:6109 WSetsOn union_spec
+R6130:6134 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6113:6114 Coq.MSets.MSetInterface WSetsOn In defax
+R6119:6123 Coq.MSets.MSetInterface WSetsOn union defax
+R6127:6128 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6125:6125 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6116:6116 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6141:6144 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R6135:6136 Coq.MSets.MSetInterface WSetsOn In defax
+R6140:6140 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6138:6138 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6145:6146 Coq.MSets.MSetInterface WSetsOn In defax
+R6150:6151 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6148:6148 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 6166:6175 WSetsOn inter_spec
+R6196:6200 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6179:6180 Coq.MSets.MSetInterface WSetsOn In defax
+R6185:6189 Coq.MSets.MSetInterface WSetsOn inter defax
+R6193:6194 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6191:6191 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6182:6182 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6207:6210 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6201:6202 Coq.MSets.MSetInterface WSetsOn In defax
+R6206:6206 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6204:6204 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6211:6212 Coq.MSets.MSetInterface WSetsOn In defax
+R6216:6217 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6214:6214 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 6232:6240 WSetsOn diff_spec
+R6260:6264 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6244:6245 Coq.MSets.MSetInterface WSetsOn In defax
+R6250:6253 Coq.MSets.MSetInterface WSetsOn diff defax
+R6257:6258 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6255:6255 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6247:6247 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6271:6274 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6265:6266 Coq.MSets.MSetInterface WSetsOn In defax
+R6270:6270 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6268:6268 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6275:6275 Coq.Init.Logic <> :type_scope:'~'_x not
+R6276:6277 Coq.MSets.MSetInterface WSetsOn In defax
+R6281:6282 Coq.MSets.MSetInterface <> WSetsOn.Spec.s' var
+R6279:6279 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 6297:6305 WSetsOn fold_spec
+R6332:6332 Coq.MSets.MSetInterface <> A var
+R6343:6346 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6348:6351 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6352:6352 Coq.MSets.MSetInterface <> A var
+R6347:6347 Coq.MSets.MSetInterface <> A var
+R6340:6342 Coq.MSets.MSetInterface WSetsOn elt def
+R6370:6372 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6360:6363 Coq.MSets.MSetInterface WSetsOn fold defax
+R6369:6369 Coq.MSets.MSetInterface <> i var
+R6367:6367 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6365:6365 Coq.MSets.MSetInterface <> f var
+R6373:6381 Coq.Lists.List <> fold_left def
+R6405:6405 Coq.MSets.MSetInterface <> i var
+R6393:6400 Coq.MSets.MSetInterface WSetsOn elements defax
+R6402:6402 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6384:6387 Coq.Program.Basics <> flip def
+R6389:6389 Coq.MSets.MSetInterface <> f var
+ax 6420:6432 WSetsOn cardinal_spec
+R6446:6448 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6436:6443 Coq.MSets.MSetInterface WSetsOn cardinal defax
+R6445:6445 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6449:6454 Coq.Init.Datatypes <> length def
+R6457:6464 Coq.MSets.MSetInterface WSetsOn elements defax
+R6466:6466 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+ax 6482:6492 WSetsOn filter_spec
+R6505:6513 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6556:6556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6531:6535 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6514:6515 Coq.MSets.MSetInterface WSetsOn In defax
+R6520:6525 Coq.MSets.MSetInterface WSetsOn filter defax
+R6529:6529 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6527:6527 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6517:6517 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6542:6545 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R6536:6537 Coq.MSets.MSetInterface WSetsOn In defax
+R6541:6541 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6539:6539 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6549:6551 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6546:6546 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6548:6548 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6552:6555 Coq.Init.Datatypes <> true constr
+R6496:6502 Coq.MSets.MSetInterface WSetsOn compatb syndef
+R6504:6504 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+ax 6571:6582 WSetsOn for_all_spec
+R6595:6603 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6658:6658 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6622:6626 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6615:6617 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6604:6610 Coq.MSets.MSetInterface WSetsOn for_all defax
+R6614:6614 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6612:6612 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6618:6621 Coq.Init.Datatypes <> true constr
+R6627:6633 Coq.MSets.MSetInterface WSetsOn For_all def
+R6657:6657 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6648:6650 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6645:6645 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6647:6647 Coq.MSets.MSetInterface <> x var
+R6651:6654 Coq.Init.Datatypes <> true constr
+R6586:6592 Coq.MSets.MSetInterface WSetsOn compatb syndef
+R6594:6594 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+ax 6673:6683 WSetsOn exists_spec
+R6696:6704 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6758:6758 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6723:6727 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6716:6718 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6705:6711 Coq.MSets.MSetInterface WSetsOn exists_ defax
+R6715:6715 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6713:6713 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6719:6722 Coq.Init.Datatypes <> true constr
+R6728:6733 Coq.MSets.MSetInterface WSetsOn Exists def
+R6757:6757 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6748:6750 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6745:6745 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6747:6747 Coq.MSets.MSetInterface <> x var
+R6751:6754 Coq.Init.Datatypes <> true constr
+R6687:6693 Coq.MSets.MSetInterface WSetsOn compatb syndef
+R6695:6695 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+ax 6773:6787 WSetsOn partition_spec1
+R6800:6807 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6827:6831 Coq.MSets.MSetInterface WSetsOn ::x_'[=]'_x not
+R6808:6810 Coq.Init.Datatypes <> fst def
+R6813:6821 Coq.MSets.MSetInterface WSetsOn partition defax
+R6825:6825 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6823:6823 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6832:6837 Coq.MSets.MSetInterface WSetsOn filter defax
+R6841:6841 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6839:6839 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6791:6797 Coq.MSets.MSetInterface WSetsOn compatb syndef
+R6799:6799 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+ax 6856:6870 WSetsOn partition_spec2
+R6883:6890 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6910:6914 Coq.MSets.MSetInterface WSetsOn ::x_'[=]'_x not
+R6891:6893 Coq.Init.Datatypes <> snd def
+R6896:6904 Coq.MSets.MSetInterface WSetsOn partition defax
+R6908:6908 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6906:6906 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6915:6920 Coq.MSets.MSetInterface WSetsOn filter defax
+R6944:6944 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6932:6935 Coq.Init.Datatypes <> negb def
+R6938:6938 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+R6940:6940 Coq.MSets.MSetInterface <> x var
+R6874:6880 Coq.MSets.MSetInterface WSetsOn compatb syndef
+R6882:6882 Coq.MSets.MSetInterface <> WSetsOn.Spec.f var
+ax 6959:6972 WSetsOn elements_spec1
+R6999:7003 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R6976:6978 Coq.Lists.SetoidList <> InA ind
+R6988:6995 Coq.MSets.MSetInterface WSetsOn elements defax
+R6997:6997 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R6985:6985 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R6980:6983 Coq.MSets.MSetInterface E eq defax
+R7004:7005 Coq.MSets.MSetInterface WSetsOn In defax
+R7009:7009 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7007:7007 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 7124:7138 WSetsOn elements_spec2w
+R7142:7147 Coq.Lists.SetoidList <> NoDupA ind
+R7155:7162 Coq.MSets.MSetInterface WSetsOn elements defax
+R7164:7164 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7149:7152 Coq.MSets.MSetInterface E eq defax
+ax 7180:7191 WSetsOn choose_spec1
+R7212:7215 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7216:7217 Coq.MSets.MSetInterface WSetsOn In defax
+R7221:7221 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7219:7219 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+R7203:7205 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7195:7200 Coq.MSets.MSetInterface WSetsOn choose defax
+R7202:7202 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7206:7209 Coq.Init.Datatypes <> Some constr
+R7211:7211 Coq.MSets.MSetInterface <> WSetsOn.Spec.x var
+ax 7236:7247 WSetsOn choose_spec2
+R7266:7269 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7270:7274 Coq.MSets.MSetInterface WSetsOn Empty def
+R7276:7276 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7259:7261 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7251:7256 Coq.MSets.MSetInterface WSetsOn choose defax
+R7258:7258 Coq.MSets.MSetInterface <> WSetsOn.Spec.s var
+R7262:7265 Coq.Init.Datatypes <> None constr
+R7286:7289 Coq.MSets.MSetInterface WSetsOn.Spec <> sec
+R7297:7303 Coq.MSets.MSetInterface WSetsOn <> modtype
+modtype 7495:7499 <> WSets
+R7523:7535 Coq.Structures.Equalities DecidableType <> mod
+mod 7519:7519 <> WSets.E
+R7548:7554 Coq.MSets.MSetInterface WSetsOn <> mod
+R7556:7556 Coq.MSets.MSetInterface WSets.E <> modtype
+R7563:7567 Coq.MSets.MSetInterface WSets <> modtype
+R7797:7802 Coq.MSets.MSetInterface TypElt <> mod
+modtype 7777:7785 <> HasOrdOps
+ax 7819:7825 HasOrdOps compare
+R7830:7833 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7835:7838 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7839:7848 Coq.Init.Datatypes <> comparison ind
+R7834:7834 Coq.MSets.MSetInterface T t defax
+R7829:7829 Coq.MSets.MSetInterface T t defax
+ax 7965:7971 HasOrdOps min_elt
+R7976:7979 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7980:7985 Coq.Init.Datatypes <> option ind
+R7987:7989 Coq.MSets.MSetInterface T elt defax
+R7975:7975 Coq.MSets.MSetInterface T t defax
+ax 8138:8144 HasOrdOps max_elt
+R8149:8152 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8153:8158 Coq.Init.Datatypes <> option ind
+R8160:8162 Coq.MSets.MSetInterface T elt defax
+R8148:8148 Coq.MSets.MSetInterface T t defax
+R8250:8258 Coq.MSets.MSetInterface HasOrdOps <> modtype
+R8283:8293 Coq.Structures.Orders OrderedType <> mod
+R8299:8302 Coq.MSets.MSetInterface WOps <> mod
+R8304:8304 Coq.MSets.MSetInterface E <> modtype
+R8309:8317 Coq.MSets.MSetInterface HasOrdOps <> mod
+modtype 8274:8276 <> Ops
+R8346:8356 Coq.Structures.Orders OrderedType <> mod
+modtype 8334:8339 <> SetsOn
+R8370:8376 Coq.MSets.MSetInterface WSetsOn <> mod
+R8378:8378 Coq.MSets.MSetInterface E <> modtype
+R8383:8391 Coq.MSets.MSetInterface HasOrdOps <> mod
+R8396:8400 Coq.Structures.Orders HasLt <> mod
+R8405:8414 Coq.Structures.Orders IsStrOrder <> mod
+sec 8428:8431 SetsOn Spec
+var 8445:8445 SetsOn.Spec s
+var 8447:8448 SetsOn.Spec s'
+R8451:8451 Coq.MSets.MSetInterface SetsOn t defax
+var 8465:8465 SetsOn.Spec x
+var 8467:8467 SetsOn.Spec y
+R8471:8473 Coq.MSets.MSetInterface SetsOn elt def
+ax 8489:8500 SetsOn compare_spec
+R8504:8511 Coq.Init.Datatypes <> CompSpec def
+R8525:8531 Coq.MSets.MSetInterface SetsOn compare defax
+R8535:8536 Coq.MSets.MSetInterface <> SetsOn.Spec.s' var
+R8533:8533 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8521:8522 Coq.MSets.MSetInterface <> SetsOn.Spec.s' var
+R8519:8519 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8516:8517 Coq.MSets.MSetInterface SetsOn lt defax
+R8513:8514 Coq.MSets.MSetInterface SetsOn eq def
+ax 8601:8614 SetsOn elements_spec2
+R8618:8621 Coq.Sorting.Sorted <> sort syndef
+R8629:8636 Coq.MSets.MSetInterface SetsOn elements defax
+R8638:8638 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8623:8626 Coq.MSets.MSetInterface E lt defax
+ax 8864:8876 SetsOn min_elt_spec1
+R8898:8901 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8902:8903 Coq.MSets.MSetInterface SetsOn In defax
+R8907:8907 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8905:8905 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R8889:8891 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8880:8886 Coq.MSets.MSetInterface SetsOn min_elt defax
+R8888:8888 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8892:8895 Coq.Init.Datatypes <> Some constr
+R8897:8897 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+ax 8922:8934 SetsOn min_elt_spec2
+R8956:8959 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8966:8969 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8970:8971 Coq.Init.Logic <> :type_scope:'~'_x not
+R8972:8975 Coq.MSets.MSetInterface E lt defax
+R8979:8979 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R8977:8977 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R8960:8961 Coq.MSets.MSetInterface SetsOn In defax
+R8965:8965 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8963:8963 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R8947:8949 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8938:8944 Coq.MSets.MSetInterface SetsOn min_elt defax
+R8946:8946 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R8950:8953 Coq.Init.Datatypes <> Some constr
+R8955:8955 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+ax 8994:9006 SetsOn min_elt_spec3
+R9026:9029 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9030:9034 Coq.MSets.MSetInterface SetsOn Empty def
+R9036:9036 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9019:9021 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9010:9016 Coq.MSets.MSetInterface SetsOn min_elt defax
+R9018:9018 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9022:9025 Coq.Init.Datatypes <> None constr
+ax 9052:9064 SetsOn max_elt_spec1
+R9086:9089 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9090:9091 Coq.MSets.MSetInterface SetsOn In defax
+R9095:9095 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9093:9093 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R9077:9079 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9068:9074 Coq.MSets.MSetInterface SetsOn max_elt defax
+R9076:9076 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9080:9083 Coq.Init.Datatypes <> Some constr
+R9085:9085 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+ax 9110:9122 SetsOn max_elt_spec2
+R9144:9147 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9154:9157 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9158:9159 Coq.Init.Logic <> :type_scope:'~'_x not
+R9160:9163 Coq.MSets.MSetInterface E lt defax
+R9167:9167 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R9165:9165 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R9148:9149 Coq.MSets.MSetInterface SetsOn In defax
+R9153:9153 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9151:9151 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R9135:9137 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9126:9132 Coq.MSets.MSetInterface SetsOn max_elt defax
+R9134:9134 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9138:9141 Coq.Init.Datatypes <> Some constr
+R9143:9143 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+ax 9182:9194 SetsOn max_elt_spec3
+R9214:9217 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9218:9222 Coq.MSets.MSetInterface SetsOn Empty def
+R9224:9224 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9207:9209 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9198:9204 Coq.MSets.MSetInterface SetsOn max_elt defax
+R9206:9206 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9210:9213 Coq.Init.Datatypes <> None constr
+ax 9286:9297 SetsOn choose_spec3
+R9318:9321 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9340:9347 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9358:9361 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9362:9365 Coq.MSets.MSetInterface E eq defax
+R9369:9369 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R9367:9367 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R9348:9352 Coq.MSets.MSetInterface SetsOn Equal def
+R9356:9357 Coq.MSets.MSetInterface <> SetsOn.Spec.s' var
+R9354:9354 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9331:9333 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9322:9327 Coq.MSets.MSetInterface SetsOn choose defax
+R9329:9330 Coq.MSets.MSetInterface <> SetsOn.Spec.s' var
+R9334:9337 Coq.Init.Datatypes <> Some constr
+R9339:9339 Coq.MSets.MSetInterface <> SetsOn.Spec.y var
+R9309:9311 Coq.Init.Logic <> :type_scope:x_'='_x not
+R9301:9306 Coq.MSets.MSetInterface SetsOn choose defax
+R9308:9308 Coq.MSets.MSetInterface <> SetsOn.Spec.s var
+R9312:9315 Coq.Init.Datatypes <> Some constr
+R9317:9317 Coq.MSets.MSetInterface <> SetsOn.Spec.x var
+R9379:9382 Coq.MSets.MSetInterface SetsOn.Spec <> sec
+R9390:9395 Coq.MSets.MSetInterface SetsOn <> modtype
+modtype 9602:9605 <> Sets
+R9629:9639 Coq.Structures.Orders OrderedType <> mod
+mod 9625:9625 <> Sets.E
+R9652:9657 Coq.MSets.MSetInterface SetsOn <> mod
+R9659:9659 Coq.MSets.MSetInterface Sets.E <> modtype
+R9666:9669 Coq.MSets.MSetInterface Sets <> modtype
+R9690:9693 Coq.MSets.MSetInterface Sets <> mod
+modtype 9685:9685 <> S
+R11908:11920 Coq.Structures.Equalities DecidableType <> mod
+modtype 11894:11901 <> WRawSets
+R11979:11982 Coq.MSets.MSetInterface WOps <> mod
+R11984:11984 Coq.MSets.MSetInterface E <> modtype
+ax 12047:12050 WRawSets IsOk
+R12055:12058 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12054:12054 Coq.MSets.MSetInterface WRawSets t defax
+ind 12073:12074 WRawSets Ok
+constr 12092:12093 WRawSets ok
+rec 12073:12074 WRawSets Ok
+proj 12092:12093 WRawSets ok
+R12079:12079 Coq.MSets.MSetInterface WRawSets t defax
+R12097:12100 Coq.MSets.MSetInterface WRawSets IsOk defax
+R12102:12102 Coq.MSets.MSetInterface <> s var
+ax 12357:12360 WRawSets isok
+R12365:12368 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12369:12372 Coq.Init.Datatypes <> bool ind
+R12364:12364 Coq.MSets.MSetInterface WRawSets t defax
+inst 12540:12546 WRawSets isok_Ok
+R12558:12560 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12552:12555 Coq.MSets.MSetInterface WRawSets isok defax
+R12557:12557 Coq.MSets.MSetInterface <> s var
+R12561:12564 Coq.Init.Datatypes <> true constr
+R12569:12570 Coq.MSets.MSetInterface WRawSets Ok class
+R12572:12572 Coq.MSets.MSetInterface <> s var
+ax 12621:12622 WRawSets In
+R12629:12632 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12634:12637 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12633:12633 Coq.MSets.MSetInterface WRawSets t defax
+R12626:12628 Coq.MSets.MSetInterface WRawSets elt def
+inst 12663:12671 WRawSets In_compat
+R12675:12680 Coq.Classes.Morphisms <> Proper class
+R12700:12701 Coq.MSets.MSetInterface WRawSets In defax
+R12687:12689 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R12683:12686 Coq.MSets.MSetInterface E eq defax
+R12692:12694 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R12690:12691 Coq.Init.Logic <> eq ind
+R12695:12697 Coq.Init.Logic <> iff def
+def 12718:12722 WRawSets Equal
+R12743:12745 Coq.MSets.MSetInterface WRawSets elt def
+R12754:12758 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R12748:12749 Coq.MSets.MSetInterface WRawSets In defax
+R12753:12753 Coq.MSets.MSetInterface <> s var
+R12751:12751 Coq.MSets.MSetInterface <> a var
+R12759:12760 Coq.MSets.MSetInterface WRawSets In defax
+R12764:12765 Coq.MSets.MSetInterface <> s' var
+R12762:12762 Coq.MSets.MSetInterface <> a var
+def 12781:12786 WRawSets Subset
+R12807:12809 Coq.MSets.MSetInterface WRawSets elt def
+R12818:12821 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12822:12823 Coq.MSets.MSetInterface WRawSets In defax
+R12827:12828 Coq.MSets.MSetInterface <> s' var
+R12825:12825 Coq.MSets.MSetInterface <> a var
+R12812:12813 Coq.MSets.MSetInterface WRawSets In defax
+R12817:12817 Coq.MSets.MSetInterface <> s var
+R12815:12815 Coq.MSets.MSetInterface <> a var
+def 12844:12848 WRawSets Empty
+R12866:12868 Coq.MSets.MSetInterface WRawSets elt def
+R12871:12872 Coq.Init.Logic <> :type_scope:'~'_x not
+R12873:12874 Coq.MSets.MSetInterface WRawSets In defax
+R12878:12878 Coq.MSets.MSetInterface <> s var
+R12876:12876 Coq.MSets.MSetInterface <> a var
+def 12894:12900 WRawSets For_all
+R12910:12913 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12907:12909 Coq.MSets.MSetInterface WRawSets elt def
+R12941:12944 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12945:12945 Coq.MSets.MSetInterface <> P var
+R12947:12947 Coq.MSets.MSetInterface <> x var
+R12935:12936 Coq.MSets.MSetInterface WRawSets In defax
+R12940:12940 Coq.MSets.MSetInterface <> s var
+R12938:12938 Coq.MSets.MSetInterface <> x var
+def 12963:12968 WRawSets Exists
+R12978:12981 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12975:12977 Coq.MSets.MSetInterface WRawSets elt def
+R12993:12999 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13001:13002 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R13009:13012 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R13003:13004 Coq.MSets.MSetInterface WRawSets In defax
+R13008:13008 Coq.MSets.MSetInterface <> s var
+R13006:13006 Coq.MSets.MSetInterface <> x var
+R13013:13013 Coq.MSets.MSetInterface <> P var
+R13015:13015 Coq.MSets.MSetInterface <> x var
+R13046:13050 Coq.MSets.MSetInterface WRawSets Equal def
+not 13030:13030 WRawSets ::x_'[=]'_x
+R13118:13123 Coq.MSets.MSetInterface WRawSets Subset def
+not 13101:13101 WRawSets ::x_'[<=]'_x
+def 13177:13178 WRawSets eq
+R13183:13186 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13188:13191 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13187:13187 Coq.MSets.MSetInterface WRawSets t defax
+R13182:13182 Coq.MSets.MSetInterface WRawSets t defax
+R13200:13204 Coq.MSets.MSetInterface WRawSets Equal def
+inst 13226:13233 WRawSets eq_equiv
+R13237:13247 Coq.Classes.RelationClasses <> Equivalence class
+R13249:13250 Coq.MSets.MSetInterface WRawSets eq def
+inst 13352:13359 WRawSets empty_ok
+R13363:13364 Coq.MSets.MSetInterface WRawSets Ok class
+R13366:13370 Coq.MSets.MSetInterface WRawSets empty defax
+inst 13392:13397 WRawSets add_ok
+R13405:13406 Coq.MSets.MSetInterface WRawSets Ok class
+R13408:13408 Coq.MSets.MSetInterface <> s var
+R13413:13414 Coq.MSets.MSetInterface WRawSets Ok class
+R13417:13419 Coq.MSets.MSetInterface WRawSets add defax
+R13423:13423 Coq.MSets.MSetInterface <> s var
+R13421:13421 Coq.MSets.MSetInterface <> x var
+inst 13446:13454 WRawSets remove_ok
+R13462:13463 Coq.MSets.MSetInterface WRawSets Ok class
+R13465:13465 Coq.MSets.MSetInterface <> s var
+R13470:13471 Coq.MSets.MSetInterface WRawSets Ok class
+R13474:13479 Coq.MSets.MSetInterface WRawSets remove defax
+R13483:13483 Coq.MSets.MSetInterface <> s var
+R13481:13481 Coq.MSets.MSetInterface <> x var
+inst 13506:13517 WRawSets singleton_ok
+R13523:13524 Coq.MSets.MSetInterface WRawSets Ok class
+R13527:13535 Coq.MSets.MSetInterface WRawSets singleton defax
+R13537:13537 Coq.MSets.MSetInterface <> x var
+inst 13560:13567 WRawSets union_ok
+R13576:13577 Coq.MSets.MSetInterface WRawSets Ok class
+R13579:13579 Coq.MSets.MSetInterface <> s var
+R13582:13583 Coq.MSets.MSetInterface WRawSets Ok class
+R13585:13586 Coq.MSets.MSetInterface <> s' var
+R13591:13592 Coq.MSets.MSetInterface WRawSets Ok class
+R13595:13599 Coq.MSets.MSetInterface WRawSets union defax
+R13603:13604 Coq.MSets.MSetInterface <> s' var
+R13601:13601 Coq.MSets.MSetInterface <> s var
+inst 13627:13634 WRawSets inter_ok
+R13643:13644 Coq.MSets.MSetInterface WRawSets Ok class
+R13646:13646 Coq.MSets.MSetInterface <> s var
+R13649:13650 Coq.MSets.MSetInterface WRawSets Ok class
+R13652:13653 Coq.MSets.MSetInterface <> s' var
+R13658:13659 Coq.MSets.MSetInterface WRawSets Ok class
+R13662:13666 Coq.MSets.MSetInterface WRawSets inter defax
+R13670:13671 Coq.MSets.MSetInterface <> s' var
+R13668:13668 Coq.MSets.MSetInterface <> s var
+inst 13694:13700 WRawSets diff_ok
+R13709:13710 Coq.MSets.MSetInterface WRawSets Ok class
+R13712:13712 Coq.MSets.MSetInterface <> s var
+R13715:13716 Coq.MSets.MSetInterface WRawSets Ok class
+R13718:13719 Coq.MSets.MSetInterface <> s' var
+R13724:13725 Coq.MSets.MSetInterface WRawSets Ok class
+R13728:13731 Coq.MSets.MSetInterface WRawSets diff defax
+R13735:13736 Coq.MSets.MSetInterface <> s' var
+R13733:13733 Coq.MSets.MSetInterface <> s var
+inst 13759:13767 WRawSets filter_ok
+R13775:13776 Coq.MSets.MSetInterface WRawSets Ok class
+R13778:13778 Coq.MSets.MSetInterface <> s var
+R13783:13784 Coq.MSets.MSetInterface WRawSets Ok class
+R13787:13792 Coq.MSets.MSetInterface WRawSets filter defax
+R13796:13796 Coq.MSets.MSetInterface <> s var
+R13794:13794 Coq.MSets.MSetInterface <> f var
+inst 13819:13831 WRawSets partition_ok1
+R13839:13840 Coq.MSets.MSetInterface WRawSets Ok class
+R13842:13842 Coq.MSets.MSetInterface <> s var
+R13847:13848 Coq.MSets.MSetInterface WRawSets Ok class
+R13851:13853 Coq.Init.Datatypes <> fst def
+R13856:13864 Coq.MSets.MSetInterface WRawSets partition defax
+R13868:13868 Coq.MSets.MSetInterface <> s var
+R13866:13866 Coq.MSets.MSetInterface <> f var
+inst 13892:13904 WRawSets partition_ok2
+R13912:13913 Coq.MSets.MSetInterface WRawSets Ok class
+R13915:13915 Coq.MSets.MSetInterface <> s var
+R13920:13921 Coq.MSets.MSetInterface WRawSets Ok class
+R13924:13926 Coq.Init.Datatypes <> snd def
+R13929:13937 Coq.MSets.MSetInterface WRawSets partition defax
+R13941:13941 Coq.MSets.MSetInterface <> s var
+R13939:13939 Coq.MSets.MSetInterface <> f var
+sec 14028:14031 WRawSets Spec
+var 14045:14045 WRawSets.Spec s
+var 14047:14048 WRawSets.Spec s'
+R14051:14051 Coq.MSets.MSetInterface WRawSets t defax
+var 14065:14065 WRawSets.Spec x
+var 14067:14067 WRawSets.Spec y
+R14071:14073 Coq.MSets.MSetInterface WRawSets elt def
+var 14087:14087 WRawSets.Spec f
+R14094:14097 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14098:14101 Coq.Init.Datatypes <> bool ind
+R14091:14093 Coq.MSets.MSetInterface WRawSets elt def
+syndef 14115:14121 WRawSets compatb
+R14127:14132 Coq.Classes.Morphisms <> Proper class
+R14139:14141 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R14135:14138 Coq.MSets.MSetInterface E eq defax
+R14142:14149 Coq.Init.Logic <> eq ind
+ax 14182:14189 WRawSets mem_spec
+R14202:14203 Coq.MSets.MSetInterface WRawSets Ok class
+R14205:14205 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14223:14227 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14216:14218 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14209:14211 Coq.MSets.MSetInterface WRawSets mem defax
+R14215:14215 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14213:14213 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14219:14222 Coq.Init.Datatypes <> true constr
+R14228:14229 Coq.MSets.MSetInterface WRawSets In defax
+R14233:14233 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14231:14231 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 14248:14257 WRawSets equal_spec
+R14270:14271 Coq.MSets.MSetInterface WRawSets Ok class
+R14273:14273 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14276:14277 Coq.MSets.MSetInterface WRawSets Ok class
+R14279:14280 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14305:14309 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14298:14300 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14288:14292 Coq.MSets.MSetInterface WRawSets equal defax
+R14296:14297 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14294:14294 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14301:14304 Coq.Init.Datatypes <> true constr
+R14311:14313 Coq.MSets.MSetInterface WRawSets ::x_'[=]'_x not
+R14310:14310 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14314:14315 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+ax 14330:14340 WRawSets subset_spec
+R14353:14354 Coq.MSets.MSetInterface WRawSets Ok class
+R14356:14356 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14359:14360 Coq.MSets.MSetInterface WRawSets Ok class
+R14362:14363 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14389:14393 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14382:14384 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14371:14376 Coq.MSets.MSetInterface WRawSets subset defax
+R14380:14381 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14378:14378 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14385:14388 Coq.Init.Datatypes <> true constr
+R14395:14398 Coq.MSets.MSetInterface WRawSets ::x_'[<=]'_x not
+R14394:14394 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14399:14400 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+ax 14415:14424 WRawSets empty_spec
+R14428:14432 Coq.MSets.MSetInterface WRawSets Empty def
+R14434:14438 Coq.MSets.MSetInterface WRawSets empty defax
+ax 14453:14465 WRawSets is_empty_spec
+R14486:14490 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14479:14481 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14469:14476 Coq.MSets.MSetInterface WRawSets is_empty defax
+R14478:14478 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14482:14485 Coq.Init.Datatypes <> true constr
+R14491:14495 Coq.MSets.MSetInterface WRawSets Empty def
+R14497:14497 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+ax 14512:14519 WRawSets add_spec
+R14532:14533 Coq.MSets.MSetInterface WRawSets Ok class
+R14535:14535 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14557:14561 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14543:14544 Coq.MSets.MSetInterface WRawSets In defax
+R14549:14551 Coq.MSets.MSetInterface WRawSets add defax
+R14555:14555 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14553:14553 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14546:14546 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+R14570:14573 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R14562:14565 Coq.MSets.MSetInterface E eq defax
+R14569:14569 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14567:14567 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+R14574:14575 Coq.MSets.MSetInterface WRawSets In defax
+R14579:14579 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14577:14577 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+ax 14594:14604 WRawSets remove_spec
+R14617:14618 Coq.MSets.MSetInterface WRawSets Ok class
+R14620:14620 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14645:14649 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14628:14629 Coq.MSets.MSetInterface WRawSets In defax
+R14634:14639 Coq.MSets.MSetInterface WRawSets remove defax
+R14643:14643 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14641:14641 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14631:14631 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+R14656:14659 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R14650:14651 Coq.MSets.MSetInterface WRawSets In defax
+R14655:14655 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14653:14653 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+R14660:14660 Coq.Init.Logic <> :type_scope:'~'_x not
+R14661:14664 Coq.MSets.MSetInterface E eq defax
+R14668:14668 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14666:14666 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+ax 14683:14696 WRawSets singleton_spec
+R14718:14722 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14700:14701 Coq.MSets.MSetInterface WRawSets In defax
+R14706:14714 Coq.MSets.MSetInterface WRawSets singleton defax
+R14716:14716 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14703:14703 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+R14723:14726 Coq.MSets.MSetInterface E eq defax
+R14730:14730 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14728:14728 Coq.MSets.MSetInterface <> WRawSets.Spec.y var
+ax 14745:14754 WRawSets union_spec
+R14767:14768 Coq.MSets.MSetInterface WRawSets Ok class
+R14770:14770 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14773:14774 Coq.MSets.MSetInterface WRawSets Ok class
+R14776:14777 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14802:14806 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14785:14786 Coq.MSets.MSetInterface WRawSets In defax
+R14791:14795 Coq.MSets.MSetInterface WRawSets union defax
+R14799:14800 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14797:14797 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14788:14788 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14813:14816 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R14807:14808 Coq.MSets.MSetInterface WRawSets In defax
+R14812:14812 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14810:14810 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14817:14818 Coq.MSets.MSetInterface WRawSets In defax
+R14822:14823 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14820:14820 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 14838:14847 WRawSets inter_spec
+R14860:14861 Coq.MSets.MSetInterface WRawSets Ok class
+R14863:14863 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14866:14867 Coq.MSets.MSetInterface WRawSets Ok class
+R14869:14870 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14895:14899 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14878:14879 Coq.MSets.MSetInterface WRawSets In defax
+R14884:14888 Coq.MSets.MSetInterface WRawSets inter defax
+R14892:14893 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14890:14890 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14881:14881 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14906:14909 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R14900:14901 Coq.MSets.MSetInterface WRawSets In defax
+R14905:14905 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14903:14903 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14910:14911 Coq.MSets.MSetInterface WRawSets In defax
+R14915:14916 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14913:14913 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 14931:14939 WRawSets diff_spec
+R14952:14953 Coq.MSets.MSetInterface WRawSets Ok class
+R14955:14955 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14958:14959 Coq.MSets.MSetInterface WRawSets Ok class
+R14961:14962 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14986:14990 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R14970:14971 Coq.MSets.MSetInterface WRawSets In defax
+R14976:14979 Coq.MSets.MSetInterface WRawSets diff defax
+R14983:14984 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R14981:14981 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14973:14973 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R14997:15000 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R14991:14992 Coq.MSets.MSetInterface WRawSets In defax
+R14996:14996 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R14994:14994 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15001:15001 Coq.Init.Logic <> :type_scope:'~'_x not
+R15002:15003 Coq.MSets.MSetInterface WRawSets In defax
+R15007:15008 Coq.MSets.MSetInterface <> WRawSets.Spec.s' var
+R15005:15005 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 15023:15031 WRawSets fold_spec
+R15058:15058 Coq.MSets.MSetInterface <> A var
+R15069:15072 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15074:15077 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15078:15078 Coq.MSets.MSetInterface <> A var
+R15073:15073 Coq.MSets.MSetInterface <> A var
+R15066:15068 Coq.MSets.MSetInterface WRawSets elt def
+R15096:15098 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15086:15089 Coq.MSets.MSetInterface WRawSets fold defax
+R15095:15095 Coq.MSets.MSetInterface <> i var
+R15093:15093 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15091:15091 Coq.MSets.MSetInterface <> f var
+R15099:15107 Coq.Lists.List <> fold_left def
+R15131:15131 Coq.MSets.MSetInterface <> i var
+R15119:15126 Coq.MSets.MSetInterface WRawSets elements defax
+R15128:15128 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15110:15113 Coq.Program.Basics <> flip def
+R15115:15115 Coq.MSets.MSetInterface <> f var
+ax 15146:15158 WRawSets cardinal_spec
+R15171:15172 Coq.MSets.MSetInterface WRawSets Ok class
+R15174:15174 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15192:15194 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15182:15189 Coq.MSets.MSetInterface WRawSets cardinal defax
+R15191:15191 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15195:15200 Coq.Init.Datatypes <> length def
+R15203:15210 Coq.MSets.MSetInterface WRawSets elements defax
+R15212:15212 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+ax 15228:15238 WRawSets filter_spec
+R15251:15259 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15302:15302 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15277:15281 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R15260:15261 Coq.MSets.MSetInterface WRawSets In defax
+R15266:15271 Coq.MSets.MSetInterface WRawSets filter defax
+R15275:15275 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15273:15273 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15263:15263 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15288:15291 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R15282:15283 Coq.MSets.MSetInterface WRawSets In defax
+R15287:15287 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15285:15285 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15295:15297 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15292:15292 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15294:15294 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15298:15301 Coq.Init.Datatypes <> true constr
+R15242:15248 Coq.MSets.MSetInterface WRawSets compatb syndef
+R15250:15250 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+ax 15317:15328 WRawSets for_all_spec
+R15341:15349 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15404:15404 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15368:15372 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R15361:15363 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15350:15356 Coq.MSets.MSetInterface WRawSets for_all defax
+R15360:15360 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15358:15358 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15364:15367 Coq.Init.Datatypes <> true constr
+R15373:15379 Coq.MSets.MSetInterface WRawSets For_all def
+R15403:15403 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15394:15396 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15391:15391 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15393:15393 Coq.MSets.MSetInterface <> x var
+R15397:15400 Coq.Init.Datatypes <> true constr
+R15332:15338 Coq.MSets.MSetInterface WRawSets compatb syndef
+R15340:15340 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+ax 15419:15429 WRawSets exists_spec
+R15442:15450 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15504:15504 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15469:15473 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R15462:15464 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15451:15457 Coq.MSets.MSetInterface WRawSets exists_ defax
+R15461:15461 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15459:15459 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15465:15468 Coq.Init.Datatypes <> true constr
+R15474:15479 Coq.MSets.MSetInterface WRawSets Exists def
+R15503:15503 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15494:15496 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15491:15491 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15493:15493 Coq.MSets.MSetInterface <> x var
+R15497:15500 Coq.Init.Datatypes <> true constr
+R15433:15439 Coq.MSets.MSetInterface WRawSets compatb syndef
+R15441:15441 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+ax 15519:15533 WRawSets partition_spec1
+R15546:15553 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15573:15577 Coq.MSets.MSetInterface WRawSets ::x_'[=]'_x not
+R15554:15556 Coq.Init.Datatypes <> fst def
+R15559:15567 Coq.MSets.MSetInterface WRawSets partition defax
+R15571:15571 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15569:15569 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15578:15583 Coq.MSets.MSetInterface WRawSets filter defax
+R15587:15587 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15585:15585 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15537:15543 Coq.MSets.MSetInterface WRawSets compatb syndef
+R15545:15545 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+ax 15602:15616 WRawSets partition_spec2
+R15629:15636 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15656:15660 Coq.MSets.MSetInterface WRawSets ::x_'[=]'_x not
+R15637:15639 Coq.Init.Datatypes <> snd def
+R15642:15650 Coq.MSets.MSetInterface WRawSets partition defax
+R15654:15654 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15652:15652 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15661:15666 Coq.MSets.MSetInterface WRawSets filter defax
+R15690:15690 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15678:15681 Coq.Init.Datatypes <> negb def
+R15684:15684 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+R15686:15686 Coq.MSets.MSetInterface <> x var
+R15620:15626 Coq.MSets.MSetInterface WRawSets compatb syndef
+R15628:15628 Coq.MSets.MSetInterface <> WRawSets.Spec.f var
+ax 15705:15718 WRawSets elements_spec1
+R15745:15749 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R15722:15724 Coq.Lists.SetoidList <> InA ind
+R15734:15741 Coq.MSets.MSetInterface WRawSets elements defax
+R15743:15743 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15731:15731 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15726:15729 Coq.MSets.MSetInterface E eq defax
+R15750:15751 Coq.MSets.MSetInterface WRawSets In defax
+R15755:15755 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15753:15753 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 15770:15784 WRawSets elements_spec2w
+R15797:15798 Coq.MSets.MSetInterface WRawSets Ok class
+R15800:15800 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15804:15809 Coq.Lists.SetoidList <> NoDupA ind
+R15817:15824 Coq.MSets.MSetInterface WRawSets elements defax
+R15826:15826 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15811:15814 Coq.MSets.MSetInterface E eq defax
+ax 15842:15853 WRawSets choose_spec1
+R15874:15877 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15878:15879 Coq.MSets.MSetInterface WRawSets In defax
+R15883:15883 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15881:15881 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+R15865:15867 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15857:15862 Coq.MSets.MSetInterface WRawSets choose defax
+R15864:15864 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15868:15871 Coq.Init.Datatypes <> Some constr
+R15873:15873 Coq.MSets.MSetInterface <> WRawSets.Spec.x var
+ax 15898:15909 WRawSets choose_spec2
+R15928:15931 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R15932:15936 Coq.MSets.MSetInterface WRawSets Empty def
+R15938:15938 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15921:15923 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15913:15918 Coq.MSets.MSetInterface WRawSets choose defax
+R15920:15920 Coq.MSets.MSetInterface <> WRawSets.Spec.s var
+R15924:15927 Coq.Init.Datatypes <> None constr
+R15948:15951 Coq.MSets.MSetInterface WRawSets.Spec <> sec
+R15959:15966 Coq.MSets.MSetInterface WRawSets <> modtype
+R16038:16050 Coq.Structures.Equalities DecidableType <> mod
+R16055:16062 Coq.MSets.MSetInterface WRawSets <> mod
+R16064:16064 Coq.MSets.MSetInterface E <> modtype
+R16070:16076 Coq.MSets.MSetInterface WSetsOn <> mod
+R16078:16078 Coq.MSets.MSetInterface E <> modtype
+mod 16023:16033 <> WRaw2SetsOn
+def 16191:16193 WRaw2SetsOn elt
+R16198:16200 Coq.MSets.MSetInterface E t defax
+constr 16218:16220 WRaw2SetsOn Mkt
+rec 16212:16213 WRaw2SetsOn t_
+proj 16223:16226 WRaw2SetsOn this
+proj 16236:16240 WRaw2SetsOn is_ok
+R16231:16233 Coq.MSets.MSetInterface M t defax
+R16244:16247 Coq.MSets.MSetInterface M Ok class
+R16249:16252 Coq.MSets.MSetInterface <> this meth
+def 16268:16268 WRaw2SetsOn t
+R16273:16274 Coq.MSets.MSetInterface WRaw2SetsOn t_ rec
+R16288:16290 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R16288:16290 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+def 16362:16363 WRaw2SetsOn In
+R16370:16372 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16379:16379 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16385:16388 Coq.MSets.MSetInterface M In defax
+R16395:16398 Coq.MSets.MSetInterface WRaw2SetsOn this proj
+R16392:16392 Coq.MSets.MSetInterface <> s var
+R16390:16390 Coq.MSets.MSetInterface <> x var
+def 16414:16418 WRaw2SetsOn Equal
+R16428:16428 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16445:16447 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16456:16460 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R16450:16451 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16455:16455 Coq.MSets.MSetInterface <> s var
+R16453:16453 Coq.MSets.MSetInterface <> a var
+R16461:16462 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16466:16467 Coq.MSets.MSetInterface <> s' var
+R16464:16464 Coq.MSets.MSetInterface <> a var
+def 16482:16487 WRaw2SetsOn Subset
+R16497:16497 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16514:16516 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16525:16528 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16529:16530 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16534:16535 Coq.MSets.MSetInterface <> s' var
+R16532:16532 Coq.MSets.MSetInterface <> a var
+R16519:16520 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16524:16524 Coq.MSets.MSetInterface <> s var
+R16522:16522 Coq.MSets.MSetInterface <> a var
+def 16550:16554 WRaw2SetsOn Empty
+R16561:16561 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16578:16580 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16583:16584 Coq.Init.Logic <> :type_scope:'~'_x not
+R16585:16586 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16590:16590 Coq.MSets.MSetInterface <> s var
+R16588:16588 Coq.MSets.MSetInterface <> a var
+def 16605:16611 WRaw2SetsOn For_all
+R16621:16624 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16618:16620 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16635:16635 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16657:16660 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16661:16661 Coq.MSets.MSetInterface <> P var
+R16663:16663 Coq.MSets.MSetInterface <> x var
+R16651:16652 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16656:16656 Coq.MSets.MSetInterface <> s var
+R16654:16654 Coq.MSets.MSetInterface <> x var
+def 16678:16683 WRaw2SetsOn Exists
+R16693:16696 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R16690:16692 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16707:16707 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16713:16719 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R16721:16722 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R16729:16732 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R16723:16724 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R16728:16728 Coq.MSets.MSetInterface <> s var
+R16726:16726 Coq.MSets.MSetInterface <> x var
+R16733:16733 Coq.MSets.MSetInterface <> P var
+R16735:16735 Coq.MSets.MSetInterface <> x var
+def 16751:16753 WRaw2SetsOn mem
+R16760:16762 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16769:16769 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16775:16779 Coq.MSets.MSetInterface M mem defax
+R16783:16783 Coq.MSets.MSetInterface <> s var
+R16781:16781 Coq.MSets.MSetInterface <> x var
+def 16798:16800 WRaw2SetsOn add
+R16807:16809 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16816:16816 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16821:16821 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16826:16828 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R16831:16835 Coq.MSets.MSetInterface M add defax
+R16839:16839 Coq.MSets.MSetInterface <> s var
+R16837:16837 Coq.MSets.MSetInterface <> x var
+def 16855:16860 WRaw2SetsOn remove
+R16867:16869 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16876:16876 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16881:16881 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16886:16888 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R16891:16898 Coq.MSets.MSetInterface M remove defax
+R16902:16902 Coq.MSets.MSetInterface <> s var
+R16900:16900 Coq.MSets.MSetInterface <> x var
+def 16918:16926 WRaw2SetsOn singleton
+R16933:16935 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R16940:16940 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16945:16947 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R16950:16960 Coq.MSets.MSetInterface M singleton defax
+R16962:16962 Coq.MSets.MSetInterface <> x var
+def 16978:16982 WRaw2SetsOn union
+R16992:16992 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R16997:16997 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17002:17004 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17007:17013 Coq.MSets.MSetInterface M union defax
+R17017:17018 Coq.MSets.MSetInterface <> s' var
+R17015:17015 Coq.MSets.MSetInterface <> s var
+def 17034:17038 WRaw2SetsOn inter
+R17048:17048 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17053:17053 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17058:17060 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17063:17069 Coq.MSets.MSetInterface M inter defax
+R17073:17074 Coq.MSets.MSetInterface <> s' var
+R17071:17071 Coq.MSets.MSetInterface <> s var
+def 17090:17093 WRaw2SetsOn diff
+R17103:17103 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17108:17108 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17113:17115 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17118:17123 Coq.MSets.MSetInterface M diff defax
+R17127:17128 Coq.MSets.MSetInterface <> s' var
+R17125:17125 Coq.MSets.MSetInterface <> s var
+def 17144:17148 WRaw2SetsOn equal
+R17158:17158 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17164:17170 Coq.MSets.MSetInterface M equal defax
+R17174:17175 Coq.MSets.MSetInterface <> s' var
+R17172:17172 Coq.MSets.MSetInterface <> s var
+def 17190:17195 WRaw2SetsOn subset
+R17205:17205 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17211:17218 Coq.MSets.MSetInterface M subset defax
+R17222:17223 Coq.MSets.MSetInterface <> s' var
+R17220:17220 Coq.MSets.MSetInterface <> s var
+def 17238:17242 WRaw2SetsOn empty
+R17246:17246 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17251:17253 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17255:17261 Coq.MSets.MSetInterface M empty defax
+def 17276:17283 WRaw2SetsOn is_empty
+R17290:17290 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17296:17305 Coq.MSets.MSetInterface M is_empty defax
+R17307:17307 Coq.MSets.MSetInterface <> s var
+def 17322:17329 WRaw2SetsOn elements
+R17336:17336 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17341:17344 Coq.Init.Datatypes <> list ind
+R17346:17348 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17353:17362 Coq.MSets.MSetInterface M elements defax
+R17364:17364 Coq.MSets.MSetInterface <> s var
+def 17379:17384 WRaw2SetsOn choose
+R17391:17391 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17396:17401 Coq.Init.Datatypes <> option ind
+R17403:17405 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17410:17417 Coq.MSets.MSetInterface M choose defax
+R17419:17419 Coq.MSets.MSetInterface <> s var
+def 17434:17437 WRaw2SetsOn fold
+R17457:17460 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17462:17465 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17466:17466 Coq.MSets.MSetInterface <> A var
+R17461:17461 Coq.MSets.MSetInterface <> A var
+R17454:17456 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17473:17473 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17479:17482 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17483:17483 Coq.MSets.MSetInterface <> A var
+R17478:17478 Coq.MSets.MSetInterface <> A var
+R17488:17493 Coq.MSets.MSetInterface M fold defax
+R17497:17497 Coq.MSets.MSetInterface <> s var
+R17495:17495 Coq.MSets.MSetInterface <> f var
+def 17512:17519 WRaw2SetsOn cardinal
+R17526:17526 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17532:17541 Coq.MSets.MSetInterface M cardinal defax
+R17543:17543 Coq.MSets.MSetInterface <> s var
+def 17558:17563 WRaw2SetsOn filter
+R17573:17576 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17577:17580 Coq.Init.Datatypes <> bool ind
+R17570:17572 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17587:17587 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17592:17592 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17597:17599 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17602:17609 Coq.MSets.MSetInterface M filter defax
+R17613:17613 Coq.MSets.MSetInterface <> s var
+R17611:17611 Coq.MSets.MSetInterface <> f var
+def 17629:17635 WRaw2SetsOn for_all
+R17645:17648 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17649:17652 Coq.Init.Datatypes <> bool ind
+R17642:17644 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17659:17659 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17665:17673 Coq.MSets.MSetInterface M for_all defax
+R17677:17677 Coq.MSets.MSetInterface <> s var
+R17675:17675 Coq.MSets.MSetInterface <> f var
+def 17692:17698 WRaw2SetsOn exists_
+R17708:17711 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17712:17715 Coq.Init.Datatypes <> bool ind
+R17705:17707 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17722:17722 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17728:17736 Coq.MSets.MSetInterface M exists_ defax
+R17740:17740 Coq.MSets.MSetInterface <> s var
+R17738:17738 Coq.MSets.MSetInterface <> f var
+def 17755:17763 WRaw2SetsOn partition
+R17773:17776 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17777:17780 Coq.Init.Datatypes <> bool ind
+R17770:17772 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R17787:17787 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17793:17795 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R17792:17792 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17796:17796 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17813:17823 Coq.MSets.MSetInterface M partition defax
+R17827:17827 Coq.MSets.MSetInterface <> s var
+R17825:17825 Coq.MSets.MSetInterface <> f var
+R17832:17832 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17844:17845 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17857:17857 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17833:17835 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17838:17840 Coq.Init.Datatypes <> fst def
+R17842:17842 Coq.MSets.MSetInterface <> p var
+R17846:17848 Coq.MSets.MSetInterface WRaw2SetsOn Mkt constr
+R17851:17853 Coq.Init.Datatypes <> snd def
+R17855:17855 Coq.MSets.MSetInterface <> p var
+inst 17871:17879 WRaw2SetsOn In_compat
+R17883:17888 Coq.Classes.Morphisms <> Proper class
+R17908:17909 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R17895:17897 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R17891:17894 Coq.MSets.MSetInterface E eq defax
+R17900:17902 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R17898:17899 Coq.Init.Logic <> eq ind
+R17903:17905 Coq.Init.Logic <> iff def
+R17946:17956 Coq.MSets.MSetInterface M In_compat prfax
+R17946:17956 Coq.MSets.MSetInterface M In_compat prfax
+def 17989:17990 WRaw2SetsOn eq
+R17995:17998 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18000:18003 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R17999:17999 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R17994:17994 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R18012:18016 Coq.MSets.MSetInterface WRaw2SetsOn Equal def
+inst 18030:18037 WRaw2SetsOn eq_equiv
+R18041:18051 Coq.Classes.RelationClasses <> Equivalence class
+R18053:18054 Coq.MSets.MSetInterface WRaw2SetsOn eq def
+def 18095:18100 WRaw2SetsOn eq_dec
+R18117:18117 Coq.MSets.MSetInterface WRaw2SetsOn t def
+R18121:18122 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18130:18134 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18143:18144 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18123:18124 Coq.MSets.MSetInterface WRaw2SetsOn eq def
+R18128:18129 Coq.MSets.MSetInterface <> s' var
+R18126:18126 Coq.MSets.MSetInterface <> s var
+R18135:18135 Coq.Init.Logic <> :type_scope:'~'_x not
+R18136:18137 Coq.MSets.MSetInterface WRaw2SetsOn eq def
+R18141:18142 Coq.MSets.MSetInterface <> s' var
+R18139:18139 Coq.MSets.MSetInterface <> s var
+R18191:18191 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18204:18206 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18220:18220 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18192:18198 Coq.MSets.MSetInterface M Equal def
+R18207:18207 Coq.Init.Logic <> :type_scope:'~'_x not
+R18208:18214 Coq.MSets.MSetInterface M Equal def
+R18191:18191 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18204:18206 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18220:18220 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18192:18198 Coq.MSets.MSetInterface M Equal def
+R18207:18207 Coq.Init.Logic <> :type_scope:'~'_x not
+R18208:18214 Coq.MSets.MSetInterface M Equal def
+R18236:18242 Coq.MSets.MSetInterface M equal defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18236:18242 Coq.MSets.MSetInterface M equal defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+R18285:18296 Coq.MSets.MSetInterface M equal_spec defax
+sec 18332:18335 WRaw2SetsOn Spec
+var 18349:18349 WRaw2SetsOn.Spec s
+var 18351:18352 WRaw2SetsOn.Spec s'
+R18356:18356 Coq.MSets.MSetInterface WRaw2SetsOn t def
+var 18370:18370 WRaw2SetsOn.Spec x
+var 18372:18372 WRaw2SetsOn.Spec y
+R18376:18378 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+var 18392:18392 WRaw2SetsOn.Spec f
+R18399:18402 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R18403:18406 Coq.Init.Datatypes <> bool ind
+R18396:18398 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+syndef 18420:18426 WRaw2SetsOn compatb
+R18432:18437 Coq.Classes.Morphisms <> Proper class
+R18444:18446 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R18440:18443 Coq.MSets.MSetInterface E eq defax
+R18447:18454 Coq.Init.Logic <> eq ind
+prf 18483:18490 WRaw2SetsOn mem_spec
+R18508:18512 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R18501:18503 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18494:18496 Coq.MSets.MSetInterface WRaw2SetsOn mem def
+R18500:18500 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18498:18498 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18504:18507 Coq.Init.Datatypes <> true constr
+R18513:18514 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R18518:18518 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18516:18516 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18538:18547 Coq.MSets.MSetInterface M mem_spec defax
+R18538:18547 Coq.MSets.MSetInterface M mem_spec defax
+prf 18570:18579 WRaw2SetsOn equal_spec
+R18600:18604 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R18593:18595 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18583:18587 Coq.MSets.MSetInterface WRaw2SetsOn equal def
+R18591:18592 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18589:18589 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18596:18599 Coq.Init.Datatypes <> true constr
+R18605:18609 Coq.MSets.MSetInterface WRaw2SetsOn Equal def
+R18613:18614 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18611:18611 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18634:18645 Coq.MSets.MSetInterface M equal_spec defax
+R18634:18645 Coq.MSets.MSetInterface M equal_spec defax
+prf 18670:18680 WRaw2SetsOn subset_spec
+R18702:18706 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R18695:18697 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18684:18689 Coq.MSets.MSetInterface WRaw2SetsOn subset def
+R18693:18694 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18691:18691 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18698:18701 Coq.Init.Datatypes <> true constr
+R18707:18712 Coq.MSets.MSetInterface WRaw2SetsOn Subset def
+R18716:18717 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R18714:18714 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18737:18749 Coq.MSets.MSetInterface M subset_spec defax
+R18737:18749 Coq.MSets.MSetInterface M subset_spec defax
+prf 18774:18783 WRaw2SetsOn empty_spec
+R18787:18791 Coq.MSets.MSetInterface WRaw2SetsOn Empty def
+R18793:18797 Coq.MSets.MSetInterface WRaw2SetsOn empty def
+R18815:18826 Coq.MSets.MSetInterface M empty_spec defax
+R18815:18826 Coq.MSets.MSetInterface M empty_spec defax
+prf 18842:18854 WRaw2SetsOn is_empty_spec
+R18875:18879 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R18868:18870 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18858:18865 Coq.MSets.MSetInterface WRaw2SetsOn is_empty def
+R18867:18867 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18871:18874 Coq.Init.Datatypes <> true constr
+R18880:18884 Coq.MSets.MSetInterface WRaw2SetsOn Empty def
+R18886:18886 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18906:18920 Coq.MSets.MSetInterface M is_empty_spec defax
+R18906:18920 Coq.MSets.MSetInterface M is_empty_spec defax
+prf 18939:18946 WRaw2SetsOn add_spec
+R18964:18968 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R18950:18951 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R18956:18958 Coq.MSets.MSetInterface WRaw2SetsOn add def
+R18962:18962 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18960:18960 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18953:18953 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R18977:18980 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R18969:18972 Coq.MSets.MSetInterface E eq defax
+R18976:18976 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R18974:18974 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R18981:18982 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R18986:18986 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R18984:18984 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19006:19015 Coq.MSets.MSetInterface M add_spec defax
+R19006:19015 Coq.MSets.MSetInterface M add_spec defax
+prf 19040:19050 WRaw2SetsOn remove_spec
+R19071:19075 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19054:19055 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19060:19065 Coq.MSets.MSetInterface WRaw2SetsOn remove def
+R19069:19069 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19067:19067 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19057:19057 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19082:19085 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R19076:19077 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19081:19081 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19079:19079 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19086:19086 Coq.Init.Logic <> :type_scope:'~'_x not
+R19087:19090 Coq.MSets.MSetInterface E eq defax
+R19094:19094 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19092:19092 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19114:19126 Coq.MSets.MSetInterface M remove_spec defax
+R19114:19126 Coq.MSets.MSetInterface M remove_spec defax
+prf 19151:19164 WRaw2SetsOn singleton_spec
+R19186:19190 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19168:19169 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19174:19182 Coq.MSets.MSetInterface WRaw2SetsOn singleton def
+R19184:19184 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19171:19171 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19191:19194 Coq.MSets.MSetInterface E eq defax
+R19198:19198 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19196:19196 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.y var
+R19218:19233 Coq.MSets.MSetInterface M singleton_spec defax
+R19218:19233 Coq.MSets.MSetInterface M singleton_spec defax
+prf 19254:19263 WRaw2SetsOn union_spec
+R19284:19288 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19267:19268 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19273:19277 Coq.MSets.MSetInterface WRaw2SetsOn union def
+R19281:19282 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19279:19279 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19270:19270 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19295:19298 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R19289:19290 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19294:19294 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19292:19292 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19299:19300 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19304:19305 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19302:19302 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19325:19336 Coq.MSets.MSetInterface M union_spec defax
+R19325:19336 Coq.MSets.MSetInterface M union_spec defax
+prf 19363:19372 WRaw2SetsOn inter_spec
+R19393:19397 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19376:19377 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19382:19386 Coq.MSets.MSetInterface WRaw2SetsOn inter def
+R19390:19391 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19388:19388 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19379:19379 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19404:19407 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R19398:19399 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19403:19403 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19401:19401 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19408:19409 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19413:19414 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19411:19411 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19434:19445 Coq.MSets.MSetInterface M inter_spec defax
+R19434:19445 Coq.MSets.MSetInterface M inter_spec defax
+prf 19472:19480 WRaw2SetsOn diff_spec
+R19500:19504 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19484:19485 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19490:19493 Coq.MSets.MSetInterface WRaw2SetsOn diff def
+R19497:19498 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19495:19495 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19487:19487 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19511:19514 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R19505:19506 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19510:19510 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19508:19508 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19515:19515 Coq.Init.Logic <> :type_scope:'~'_x not
+R19516:19517 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19521:19522 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s' var
+R19519:19519 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19542:19552 Coq.MSets.MSetInterface M diff_spec defax
+R19542:19552 Coq.MSets.MSetInterface M diff_spec defax
+prf 19579:19587 WRaw2SetsOn fold_spec
+R19614:19614 Coq.MSets.MSetInterface <> A var
+R19625:19628 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19630:19633 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19634:19634 Coq.MSets.MSetInterface <> A var
+R19629:19629 Coq.MSets.MSetInterface <> A var
+R19622:19624 Coq.MSets.MSetInterface WRaw2SetsOn elt def
+R19654:19656 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19644:19647 Coq.MSets.MSetInterface WRaw2SetsOn fold def
+R19653:19653 Coq.MSets.MSetInterface <> i var
+R19651:19651 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19649:19649 Coq.MSets.MSetInterface <> f var
+R19657:19665 Coq.Lists.List <> fold_left def
+R19699:19699 Coq.MSets.MSetInterface <> i var
+R19687:19694 Coq.MSets.MSetInterface WRaw2SetsOn elements def
+R19696:19696 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19679:19679 Coq.MSets.MSetInterface <> f var
+R19683:19683 Coq.MSets.MSetInterface <> a var
+R19681:19681 Coq.MSets.MSetInterface <> e var
+R19719:19729 Coq.MSets.MSetInterface M fold_spec defax
+R19719:19729 Coq.MSets.MSetInterface M fold_spec defax
+prf 19748:19760 WRaw2SetsOn cardinal_spec
+R19774:19776 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19764:19771 Coq.MSets.MSetInterface WRaw2SetsOn cardinal def
+R19773:19773 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19777:19782 Coq.Init.Datatypes <> length def
+R19785:19792 Coq.MSets.MSetInterface WRaw2SetsOn elements def
+R19794:19794 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19815:19829 Coq.MSets.MSetInterface M cardinal_spec defax
+R19831:19831 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19815:19829 Coq.MSets.MSetInterface M cardinal_spec defax
+R19831:19831 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+prf 19850:19860 WRaw2SetsOn filter_spec
+R19873:19881 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19924:19924 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R19899:19903 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R19882:19883 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19888:19893 Coq.MSets.MSetInterface WRaw2SetsOn filter def
+R19897:19897 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19895:19895 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R19885:19885 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19910:19913 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R19904:19905 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R19909:19909 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R19907:19907 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19917:19919 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19914:19914 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R19916:19916 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R19920:19923 Coq.Init.Datatypes <> true constr
+R19864:19870 Coq.MSets.MSetInterface WRaw2SetsOn compatb syndef
+R19872:19872 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R19944:19956 Coq.MSets.MSetInterface M filter_spec defax
+R19944:19956 Coq.MSets.MSetInterface M filter_spec defax
+prf 19979:19990 WRaw2SetsOn for_all_spec
+R20003:20011 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20066:20066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20030:20034 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R20023:20025 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20012:20018 Coq.MSets.MSetInterface WRaw2SetsOn for_all def
+R20022:20022 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20020:20020 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20026:20029 Coq.Init.Datatypes <> true constr
+R20035:20041 Coq.MSets.MSetInterface WRaw2SetsOn For_all def
+R20065:20065 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20056:20058 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20053:20053 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20055:20055 Coq.MSets.MSetInterface <> x var
+R20059:20062 Coq.Init.Datatypes <> true constr
+R19994:20000 Coq.MSets.MSetInterface WRaw2SetsOn compatb syndef
+R20002:20002 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20086:20099 Coq.MSets.MSetInterface M for_all_spec defax
+R20086:20099 Coq.MSets.MSetInterface M for_all_spec defax
+prf 20120:20130 WRaw2SetsOn exists_spec
+R20143:20151 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20205:20205 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20170:20174 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R20163:20165 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20152:20158 Coq.MSets.MSetInterface WRaw2SetsOn exists_ def
+R20162:20162 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20160:20160 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20166:20169 Coq.Init.Datatypes <> true constr
+R20175:20180 Coq.MSets.MSetInterface WRaw2SetsOn Exists def
+R20204:20204 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20195:20197 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20192:20192 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20194:20194 Coq.MSets.MSetInterface <> x var
+R20198:20201 Coq.Init.Datatypes <> true constr
+R20134:20140 Coq.MSets.MSetInterface WRaw2SetsOn compatb syndef
+R20142:20142 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20225:20237 Coq.MSets.MSetInterface M exists_spec defax
+R20225:20237 Coq.MSets.MSetInterface M exists_spec defax
+prf 20258:20272 WRaw2SetsOn partition_spec1
+R20285:20288 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20289:20293 Coq.MSets.MSetInterface WRaw2SetsOn Equal def
+R20318:20323 Coq.MSets.MSetInterface WRaw2SetsOn filter def
+R20327:20327 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20325:20325 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20296:20298 Coq.Init.Datatypes <> fst def
+R20301:20309 Coq.MSets.MSetInterface WRaw2SetsOn partition def
+R20313:20313 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20311:20311 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20276:20282 Coq.MSets.MSetInterface WRaw2SetsOn compatb syndef
+R20284:20284 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20348:20364 Coq.MSets.MSetInterface M partition_spec1 defax
+R20348:20364 Coq.MSets.MSetInterface M partition_spec1 defax
+prf 20385:20399 WRaw2SetsOn partition_spec2
+R20412:20421 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20422:20426 Coq.MSets.MSetInterface WRaw2SetsOn Equal def
+R20451:20456 Coq.MSets.MSetInterface WRaw2SetsOn filter def
+R20480:20480 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20468:20471 Coq.Init.Datatypes <> negb def
+R20474:20474 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20476:20476 Coq.MSets.MSetInterface <> x var
+R20429:20431 Coq.Init.Datatypes <> snd def
+R20434:20442 Coq.MSets.MSetInterface WRaw2SetsOn partition def
+R20446:20446 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20444:20444 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20403:20409 Coq.MSets.MSetInterface WRaw2SetsOn compatb syndef
+R20411:20411 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.f var
+R20501:20517 Coq.MSets.MSetInterface M partition_spec2 defax
+R20501:20517 Coq.MSets.MSetInterface M partition_spec2 defax
+prf 20538:20551 WRaw2SetsOn elements_spec1
+R20578:20582 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R20555:20557 Coq.Lists.SetoidList <> InA ind
+R20567:20574 Coq.MSets.MSetInterface WRaw2SetsOn elements def
+R20576:20576 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20564:20564 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20559:20562 Coq.MSets.MSetInterface E eq defax
+R20583:20584 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R20588:20588 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20586:20586 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20608:20623 Coq.MSets.MSetInterface M elements_spec1 defax
+R20608:20623 Coq.MSets.MSetInterface M elements_spec1 defax
+prf 20644:20658 WRaw2SetsOn elements_spec2w
+R20662:20667 Coq.Lists.SetoidList <> NoDupA ind
+R20675:20682 Coq.MSets.MSetInterface WRaw2SetsOn elements def
+R20684:20684 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20669:20672 Coq.MSets.MSetInterface E eq defax
+R20705:20721 Coq.MSets.MSetInterface M elements_spec2w defax
+R20705:20721 Coq.MSets.MSetInterface M elements_spec2w defax
+prf 20742:20753 WRaw2SetsOn choose_spec1
+R20774:20777 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20778:20779 Coq.MSets.MSetInterface WRaw2SetsOn In def
+R20783:20783 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20781:20781 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20765:20767 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20757:20762 Coq.MSets.MSetInterface WRaw2SetsOn choose def
+R20764:20764 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20768:20771 Coq.Init.Datatypes <> Some constr
+R20773:20773 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.x var
+R20803:20816 Coq.MSets.MSetInterface M choose_spec1 defax
+R20803:20816 Coq.MSets.MSetInterface M choose_spec1 defax
+prf 20837:20848 WRaw2SetsOn choose_spec2
+R20867:20870 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R20871:20875 Coq.MSets.MSetInterface WRaw2SetsOn Empty def
+R20877:20877 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20860:20862 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20852:20857 Coq.MSets.MSetInterface WRaw2SetsOn choose def
+R20859:20859 Coq.MSets.MSetInterface <> WRaw2SetsOn.Spec.s var
+R20863:20866 Coq.Init.Datatypes <> None constr
+R20897:20910 Coq.MSets.MSetInterface M choose_spec2 defax
+R20897:20910 Coq.MSets.MSetInterface M choose_spec2 defax
+R20927:20930 Coq.MSets.MSetInterface WRaw2SetsOn.Spec <> sec
+R20938:20948 Coq.MSets.MSetInterface WRaw2SetsOn <> mod
+R20972:20984 Coq.Structures.Equalities DecidableType <> mod
+R20989:20996 Coq.MSets.MSetInterface WRawSets <> mod
+R20998:20998 Coq.MSets.MSetInterface D <> modtype
+R21004:21008 Coq.MSets.MSetInterface WSets <> mod
+R21027:21027 Coq.MSets.MSetInterface D <> modtype
+mod 20959:20967 <> WRaw2Sets
+R21044:21044 Coq.MSets.MSetInterface D <> modtype
+mod 21039:21039 <> WRaw2Sets.E
+R21057:21067 Coq.MSets.MSetInterface WRaw2SetsOn <> modtype
+R21069:21069 Coq.MSets.MSetInterface D <> modtype
+R21071:21071 Coq.MSets.MSetInterface M <> modtype
+R21078:21086 Coq.MSets.MSetInterface WRaw2Sets <> mod
+R21154:21164 Coq.Structures.Orders OrderedType <> mod
+modtype 21141:21147 <> RawSets
+R21178:21185 Coq.MSets.MSetInterface WRawSets <> mod
+R21187:21187 Coq.MSets.MSetInterface E <> modtype
+R21192:21200 Coq.MSets.MSetInterface HasOrdOps <> mod
+R21205:21209 Coq.Structures.Orders HasLt <> mod
+R21214:21223 Coq.Structures.Orders IsStrOrder <> mod
+sec 21237:21240 RawSets Spec
+var 21254:21254 RawSets.Spec s
+var 21256:21257 RawSets.Spec s'
+R21260:21260 Coq.MSets.MSetInterface RawSets t defax
+var 21274:21274 RawSets.Spec x
+var 21276:21276 RawSets.Spec y
+R21280:21282 Coq.MSets.MSetInterface RawSets elt def
+ax 21334:21345 RawSets compare_spec
+R21358:21359 Coq.MSets.MSetInterface RawSets Ok class
+R21361:21361 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21364:21365 Coq.MSets.MSetInterface RawSets Ok class
+R21367:21368 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R21372:21379 Coq.Init.Datatypes <> CompSpec def
+R21393:21399 Coq.MSets.MSetInterface RawSets compare defax
+R21403:21404 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R21401:21401 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21389:21390 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R21387:21387 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21384:21385 Coq.MSets.MSetInterface RawSets lt defax
+R21381:21382 Coq.MSets.MSetInterface RawSets eq def
+ax 21469:21482 RawSets elements_spec2
+R21495:21496 Coq.MSets.MSetInterface RawSets Ok class
+R21498:21498 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21502:21505 Coq.Sorting.Sorted <> sort syndef
+R21513:21520 Coq.MSets.MSetInterface RawSets elements defax
+R21522:21522 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21507:21510 Coq.MSets.MSetInterface E lt defax
+ax 21575:21587 RawSets min_elt_spec1
+R21609:21612 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21613:21614 Coq.MSets.MSetInterface RawSets In defax
+R21618:21618 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21616:21616 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R21600:21602 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21591:21597 Coq.MSets.MSetInterface RawSets min_elt defax
+R21599:21599 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21603:21606 Coq.Init.Datatypes <> Some constr
+R21608:21608 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+ax 21633:21645 RawSets min_elt_spec2
+R21658:21659 Coq.MSets.MSetInterface RawSets Ok class
+R21661:21661 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21683:21686 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21693:21696 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21697:21698 Coq.Init.Logic <> :type_scope:'~'_x not
+R21699:21702 Coq.MSets.MSetInterface E lt defax
+R21706:21706 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R21704:21704 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R21687:21688 Coq.MSets.MSetInterface RawSets In defax
+R21692:21692 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21690:21690 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R21674:21676 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21665:21671 Coq.MSets.MSetInterface RawSets min_elt defax
+R21673:21673 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21677:21680 Coq.Init.Datatypes <> Some constr
+R21682:21682 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+ax 21721:21733 RawSets min_elt_spec3
+R21753:21756 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21757:21761 Coq.MSets.MSetInterface RawSets Empty def
+R21763:21763 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21746:21748 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21737:21743 Coq.MSets.MSetInterface RawSets min_elt defax
+R21745:21745 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21749:21752 Coq.Init.Datatypes <> None constr
+ax 21815:21827 RawSets max_elt_spec1
+R21849:21852 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21853:21854 Coq.MSets.MSetInterface RawSets In defax
+R21858:21858 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21856:21856 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R21840:21842 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21831:21837 Coq.MSets.MSetInterface RawSets max_elt defax
+R21839:21839 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21843:21846 Coq.Init.Datatypes <> Some constr
+R21848:21848 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+ax 21873:21885 RawSets max_elt_spec2
+R21898:21899 Coq.MSets.MSetInterface RawSets Ok class
+R21901:21901 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21923:21926 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21933:21936 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21937:21938 Coq.Init.Logic <> :type_scope:'~'_x not
+R21939:21942 Coq.MSets.MSetInterface E lt defax
+R21946:21946 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R21944:21944 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R21927:21928 Coq.MSets.MSetInterface RawSets In defax
+R21932:21932 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21930:21930 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R21914:21916 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21905:21911 Coq.MSets.MSetInterface RawSets max_elt defax
+R21913:21913 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21917:21920 Coq.Init.Datatypes <> Some constr
+R21922:21922 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+ax 21961:21973 RawSets max_elt_spec3
+R21993:21996 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21997:22001 Coq.MSets.MSetInterface RawSets Empty def
+R22003:22003 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21986:21988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21977:21983 Coq.MSets.MSetInterface RawSets max_elt defax
+R21985:21985 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R21989:21992 Coq.Init.Datatypes <> None constr
+ax 22065:22076 RawSets choose_spec3
+R22089:22090 Coq.MSets.MSetInterface RawSets Ok class
+R22092:22092 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R22095:22096 Coq.MSets.MSetInterface RawSets Ok class
+R22098:22099 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R22124:22127 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22146:22149 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22160:22163 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22164:22167 Coq.MSets.MSetInterface E eq defax
+R22171:22171 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R22169:22169 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R22150:22154 Coq.MSets.MSetInterface RawSets Equal def
+R22158:22159 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R22156:22156 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R22137:22139 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22128:22133 Coq.MSets.MSetInterface RawSets choose defax
+R22135:22136 Coq.MSets.MSetInterface <> RawSets.Spec.s' var
+R22140:22143 Coq.Init.Datatypes <> Some constr
+R22145:22145 Coq.MSets.MSetInterface <> RawSets.Spec.y var
+R22115:22117 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22107:22112 Coq.MSets.MSetInterface RawSets choose defax
+R22114:22114 Coq.MSets.MSetInterface <> RawSets.Spec.s var
+R22118:22121 Coq.Init.Datatypes <> Some constr
+R22123:22123 Coq.MSets.MSetInterface <> RawSets.Spec.x var
+R22181:22184 Coq.MSets.MSetInterface RawSets.Spec <> sec
+R22192:22198 Coq.MSets.MSetInterface RawSets <> modtype
+R22254:22264 Coq.Structures.Orders OrderedType <> mod
+R22269:22275 Coq.MSets.MSetInterface RawSets <> mod
+R22277:22277 Coq.MSets.MSetInterface O <> modtype
+R22283:22288 Coq.MSets.MSetInterface SetsOn <> mod
+R22290:22290 Coq.MSets.MSetInterface O <> modtype
+mod 22240:22249 <> Raw2SetsOn
+R22303:22313 Coq.MSets.MSetInterface WRaw2SetsOn <> modtype
+R22315:22315 Coq.MSets.MSetInterface O <> modtype
+R22317:22317 Coq.MSets.MSetInterface M <> modtype
+def 22334:22340 Raw2SetsOn compare
+R22348:22348 Coq.MSets.MSetInterface Raw2SetsOn t def
+R22354:22362 Coq.MSets.MSetInterface M compare defax
+R22366:22367 Coq.MSets.MSetInterface <> s' var
+R22364:22364 Coq.MSets.MSetInterface <> s var
+def 22383:22389 Raw2SetsOn min_elt
+R22394:22394 Coq.MSets.MSetInterface Raw2SetsOn t def
+R22399:22404 Coq.Init.Datatypes <> option ind
+R22406:22408 Coq.MSets.MSetInterface Raw2SetsOn elt def
+R22413:22421 Coq.MSets.MSetInterface M min_elt defax
+R22423:22423 Coq.MSets.MSetInterface <> s var
+def 22439:22445 Raw2SetsOn max_elt
+R22450:22450 Coq.MSets.MSetInterface Raw2SetsOn t def
+R22455:22460 Coq.Init.Datatypes <> option ind
+R22462:22464 Coq.MSets.MSetInterface Raw2SetsOn elt def
+R22469:22477 Coq.MSets.MSetInterface M max_elt defax
+R22479:22479 Coq.MSets.MSetInterface <> s var
+def 22495:22496 Raw2SetsOn lt
+R22504:22504 Coq.MSets.MSetInterface Raw2SetsOn t def
+R22510:22513 Coq.MSets.MSetInterface M lt defax
+R22517:22518 Coq.MSets.MSetInterface <> s' var
+R22515:22515 Coq.MSets.MSetInterface <> s var
+inst 22564:22574 Raw2SetsOn lt_strorder
+R22578:22588 Coq.Classes.RelationClasses <> StrictOrder class
+R22590:22591 Coq.MSets.MSetInterface Raw2SetsOn lt def
+R22624:22625 Coq.MSets.MSetInterface Raw2SetsOn lt def
+R22644:22653 Coq.Classes.RelationClasses <> complement def
+R22676:22688 Coq.Classes.RelationClasses <> irreflexivity def
+R22676:22688 Coq.Classes.RelationClasses <> irreflexivity def
+inst 22747:22755 Raw2SetsOn lt_compat
+R22759:22764 Coq.Classes.Morphisms <> Proper class
+R22782:22783 Coq.MSets.MSetInterface Raw2SetsOn lt def
+R22769:22771 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R22767:22768 Coq.MSets.MSetInterface Raw2SetsOn eq def
+R22774:22776 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R22772:22773 Coq.MSets.MSetInterface Raw2SetsOn eq def
+R22777:22779 Coq.Init.Logic <> iff def
+R22816:22817 Coq.MSets.MSetInterface Raw2SetsOn eq def
+R22820:22821 Coq.MSets.MSetInterface Raw2SetsOn lt def
+R22892:22895 Coq.MSets.MSetInterface M eq def
+R22892:22895 Coq.MSets.MSetInterface M eq def
+R22920:22923 Coq.MSets.MSetInterface M eq def
+R22920:22923 Coq.MSets.MSetInterface M eq def
+sec 22986:22989 Raw2SetsOn Spec
+var 23003:23003 Raw2SetsOn.Spec s
+var 23005:23006 Raw2SetsOn.Spec s'
+var 23008:23010 Raw2SetsOn.Spec s''
+R23014:23014 Coq.MSets.MSetInterface Raw2SetsOn t def
+var 23028:23028 Raw2SetsOn.Spec x
+var 23030:23030 Raw2SetsOn.Spec y
+R23034:23036 Coq.MSets.MSetInterface Raw2SetsOn elt def
+prf 23048:23059 Raw2SetsOn compare_spec
+R23063:23070 Coq.Init.Datatypes <> CompSpec def
+R23084:23090 Coq.MSets.MSetInterface Raw2SetsOn compare def
+R23094:23095 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23092:23092 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23080:23081 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23078:23078 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23075:23076 Coq.MSets.MSetInterface Raw2SetsOn lt def
+R23072:23073 Coq.MSets.MSetInterface Raw2SetsOn eq def
+R23115:23121 Coq.MSets.MSetInterface Raw2SetsOn compare def
+R23135:23148 Coq.MSets.MSetInterface M compare_spec defax
+R23152:23153 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23150:23150 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23135:23148 Coq.MSets.MSetInterface M compare_spec defax
+R23152:23153 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R23150:23150 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+prf 23229:23242 Raw2SetsOn elements_spec2
+R23246:23249 Coq.Sorting.Sorted <> sort syndef
+R23257:23264 Coq.MSets.MSetInterface Raw2SetsOn elements def
+R23266:23266 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23251:23254 Coq.MSets.MSetInterface O lt defax
+R23287:23302 Coq.MSets.MSetInterface M elements_spec2 defax
+R23287:23302 Coq.MSets.MSetInterface M elements_spec2 defax
+prf 23360:23372 Raw2SetsOn min_elt_spec1
+R23394:23397 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23398:23399 Coq.MSets.MSetInterface Raw2SetsOn In def
+R23403:23403 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23401:23401 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23385:23387 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23376:23382 Coq.MSets.MSetInterface Raw2SetsOn min_elt def
+R23384:23384 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23388:23391 Coq.Init.Datatypes <> Some constr
+R23393:23393 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23423:23437 Coq.MSets.MSetInterface M min_elt_spec1 defax
+R23423:23437 Coq.MSets.MSetInterface M min_elt_spec1 defax
+prf 23458:23470 Raw2SetsOn min_elt_spec2
+R23492:23495 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23502:23505 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23506:23507 Coq.Init.Logic <> :type_scope:'~'_x not
+R23508:23511 Coq.MSets.MSetInterface O lt defax
+R23515:23515 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23513:23513 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23496:23497 Coq.MSets.MSetInterface Raw2SetsOn In def
+R23501:23501 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23499:23499 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23483:23485 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23474:23480 Coq.MSets.MSetInterface Raw2SetsOn min_elt def
+R23482:23482 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23486:23489 Coq.Init.Datatypes <> Some constr
+R23491:23491 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23535:23549 Coq.MSets.MSetInterface M min_elt_spec2 defax
+R23535:23549 Coq.MSets.MSetInterface M min_elt_spec2 defax
+prf 23574:23586 Raw2SetsOn min_elt_spec3
+R23606:23609 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23610:23614 Coq.MSets.MSetInterface Raw2SetsOn Empty def
+R23616:23616 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23599:23601 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23590:23596 Coq.MSets.MSetInterface Raw2SetsOn min_elt def
+R23598:23598 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23602:23605 Coq.Init.Datatypes <> None constr
+R23636:23650 Coq.MSets.MSetInterface M min_elt_spec3 defax
+R23636:23650 Coq.MSets.MSetInterface M min_elt_spec3 defax
+prf 23706:23718 Raw2SetsOn max_elt_spec1
+R23740:23743 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23744:23745 Coq.MSets.MSetInterface Raw2SetsOn In def
+R23749:23749 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23747:23747 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23731:23733 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23722:23728 Coq.MSets.MSetInterface Raw2SetsOn max_elt def
+R23730:23730 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23734:23737 Coq.Init.Datatypes <> Some constr
+R23739:23739 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23769:23783 Coq.MSets.MSetInterface M max_elt_spec1 defax
+R23769:23783 Coq.MSets.MSetInterface M max_elt_spec1 defax
+prf 23804:23816 Raw2SetsOn max_elt_spec2
+R23838:23841 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23848:23851 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23852:23853 Coq.Init.Logic <> :type_scope:'~'_x not
+R23854:23857 Coq.MSets.MSetInterface O lt defax
+R23861:23861 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23859:23859 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23842:23843 Coq.MSets.MSetInterface Raw2SetsOn In def
+R23847:23847 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23845:23845 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R23829:23831 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23820:23826 Coq.MSets.MSetInterface Raw2SetsOn max_elt def
+R23828:23828 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23832:23835 Coq.Init.Datatypes <> Some constr
+R23837:23837 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R23881:23895 Coq.MSets.MSetInterface M max_elt_spec2 defax
+R23881:23895 Coq.MSets.MSetInterface M max_elt_spec2 defax
+prf 23920:23932 Raw2SetsOn max_elt_spec3
+R23952:23955 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R23956:23960 Coq.MSets.MSetInterface Raw2SetsOn Empty def
+R23962:23962 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23945:23947 Coq.Init.Logic <> :type_scope:x_'='_x not
+R23936:23942 Coq.MSets.MSetInterface Raw2SetsOn max_elt def
+R23944:23944 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R23948:23951 Coq.Init.Datatypes <> None constr
+R23982:23996 Coq.MSets.MSetInterface M max_elt_spec3 defax
+R23982:23996 Coq.MSets.MSetInterface M max_elt_spec3 defax
+prf 24062:24073 Raw2SetsOn choose_spec3
+R24098:24101 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24120:24123 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24134:24137 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24138:24141 Coq.MSets.MSetInterface O eq defax
+R24145:24145 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24143:24143 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24124:24128 Coq.MSets.MSetInterface Raw2SetsOn Equal def
+R24132:24133 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R24130:24130 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24111:24113 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24102:24107 Coq.MSets.MSetInterface Raw2SetsOn choose def
+R24109:24110 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s' var
+R24114:24117 Coq.Init.Datatypes <> Some constr
+R24119:24119 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.y var
+R24089:24091 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24081:24086 Coq.MSets.MSetInterface Raw2SetsOn choose def
+R24088:24088 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.s var
+R24092:24095 Coq.Init.Datatypes <> Some constr
+R24097:24097 Coq.MSets.MSetInterface <> Raw2SetsOn.Spec.x var
+R24165:24178 Coq.MSets.MSetInterface M choose_spec3 defax
+R24165:24178 Coq.MSets.MSetInterface M choose_spec3 defax
+R24206:24209 Coq.MSets.MSetInterface Raw2SetsOn.Spec <> sec
+R24217:24226 Coq.MSets.MSetInterface Raw2SetsOn <> mod
+R24249:24259 Coq.Structures.Orders OrderedType <> mod
+R24264:24270 Coq.MSets.MSetInterface RawSets <> mod
+R24272:24272 Coq.MSets.MSetInterface O <> modtype
+R24278:24281 Coq.MSets.MSetInterface Sets <> mod
+R24300:24300 Coq.MSets.MSetInterface O <> modtype
+mod 24237:24244 <> Raw2Sets
+R24317:24317 Coq.MSets.MSetInterface O <> modtype
+mod 24312:24312 <> Raw2Sets.E
+R24330:24339 Coq.MSets.MSetInterface Raw2SetsOn <> modtype
+R24341:24341 Coq.MSets.MSetInterface O <> modtype
+R24343:24343 Coq.MSets.MSetInterface M <> modtype
+R24350:24357 Coq.MSets.MSetInterface Raw2Sets <> mod
+R24694:24704 Coq.Structures.Orders OrderedType <> mod
+modtype 24688:24689 <> IN
+ax 24726:24726 IN t
+ax 24754:24755 IN In
+R24762:24765 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24767:24770 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24766:24766 Coq.MSets.MSetInterface IN t defax
+R24759:24761 Coq.MSets.MSetInterface O t defax
+inst 24795:24803 IN In_compat
+R24807:24812 Coq.Classes.Morphisms <> Proper class
+R24832:24833 Coq.MSets.MSetInterface IN In defax
+R24819:24821 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R24815:24818 Coq.MSets.MSetInterface O eq defax
+R24824:24826 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R24822:24823 Coq.Init.Logic <> eq ind
+R24827:24829 Coq.Init.Logic <> iff def
+def 24848:24852 IN Equal
+R24878:24882 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R24872:24873 Coq.MSets.MSetInterface IN In defax
+R24877:24877 Coq.MSets.MSetInterface <> s var
+R24875:24875 Coq.MSets.MSetInterface <> x var
+R24883:24884 Coq.MSets.MSetInterface IN In defax
+R24888:24889 Coq.MSets.MSetInterface <> s' var
+R24886:24886 Coq.MSets.MSetInterface <> x var
+def 24904:24908 IN Empty
+R24925:24925 Coq.Init.Logic <> :type_scope:'~'_x not
+R24926:24927 Coq.MSets.MSetInterface IN In defax
+R24931:24931 Coq.MSets.MSetInterface <> s var
+R24929:24929 Coq.MSets.MSetInterface <> x var
+R24938:24939 Coq.MSets.MSetInterface IN <> modtype
+R24969:24979 Coq.Structures.Orders OrderedType <> mod
+R24991:24992 Coq.MSets.MSetInterface IN <> mod
+R24994:24994 Coq.MSets.MSetInterface O <> modtype
+mod 24950:24964 <> MakeSetOrdering
+R25019:25034 Coq.Structures.OrdersFacts OrderedTypeFacts <> modtype
+R25036:25036 Coq.MSets.MSetInterface O <> modtype
+mod 25013:25014 <> MakeSetOrdering.MO
+def 25052:25053 MakeSetOrdering eq
+R25058:25061 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25063:25066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25062:25062 Coq.MSets.MSetInterface M t defax
+R25057:25057 Coq.MSets.MSetInterface M t defax
+R25075:25079 Coq.MSets.MSetInterface M Equal def
+inst 25093:25100 MakeSetOrdering eq_equiv
+R25104:25114 Coq.Classes.RelationClasses <> Equivalence class
+R25116:25117 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R25158:25163 Coq.Classes.Morphisms <> Proper class
+R25183:25184 Coq.MSets.MSetInterface M In defax
+R25170:25172 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25166:25169 Coq.MSets.MSetInterface O eq defax
+R25175:25177 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25173:25174 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R25178:25180 Coq.Init.Logic <> iff def
+def 25261:25265 MakeSetOrdering Below
+R25290:25293 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25294:25297 Coq.MSets.MSetInterface O lt defax
+R25301:25301 Coq.MSets.MSetInterface <> x var
+R25299:25299 Coq.MSets.MSetInterface <> y var
+R25284:25285 Coq.MSets.MSetInterface M In defax
+R25289:25289 Coq.MSets.MSetInterface <> s var
+R25287:25287 Coq.MSets.MSetInterface <> y var
+def 25316:25320 MakeSetOrdering Above
+R25345:25348 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25349:25352 Coq.MSets.MSetInterface O lt defax
+R25356:25356 Coq.MSets.MSetInterface <> y var
+R25354:25354 Coq.MSets.MSetInterface <> x var
+R25339:25340 Coq.MSets.MSetInterface M In defax
+R25344:25344 Coq.MSets.MSetInterface <> s var
+R25342:25342 Coq.MSets.MSetInterface <> y var
+def 25372:25382 MakeSetOrdering EquivBefore
+R25415:25419 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25438:25438 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25426:25430 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R25420:25421 Coq.MSets.MSetInterface M In defax
+R25425:25425 Coq.MSets.MSetInterface <> s var
+R25423:25423 Coq.MSets.MSetInterface <> y var
+R25431:25432 Coq.MSets.MSetInterface M In defax
+R25436:25437 Coq.MSets.MSetInterface <> s' var
+R25434:25434 Coq.MSets.MSetInterface <> y var
+R25407:25410 Coq.MSets.MSetInterface O lt defax
+R25414:25414 Coq.MSets.MSetInterface <> x var
+R25412:25412 Coq.MSets.MSetInterface <> y var
+def 25454:25465 MakeSetOrdering EmptyBetween
+R25495:25498 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25507:25510 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25511:25514 Coq.MSets.MSetInterface O lt defax
+R25518:25518 Coq.MSets.MSetInterface <> x var
+R25516:25516 Coq.MSets.MSetInterface <> z var
+R25499:25502 Coq.MSets.MSetInterface O lt defax
+R25506:25506 Coq.MSets.MSetInterface <> y var
+R25504:25504 Coq.MSets.MSetInterface <> z var
+R25489:25490 Coq.MSets.MSetInterface M In defax
+R25494:25494 Coq.MSets.MSetInterface <> s var
+R25492:25492 Coq.MSets.MSetInterface <> z var
+def 25534:25535 MakeSetOrdering lt
+R25545:25551 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R25553:25554 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R25573:25580 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25676:25676 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25555:25565 Coq.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R25571:25572 Coq.MSets.MSetInterface <> s' var
+R25569:25569 Coq.MSets.MSetInterface <> s var
+R25567:25567 Coq.MSets.MSetInterface <> x var
+R25581:25581 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R25602:25611 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R25675:25675 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R25589:25592 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25582:25583 Coq.MSets.MSetInterface M In defax
+R25587:25588 Coq.MSets.MSetInterface <> s' var
+R25585:25585 Coq.MSets.MSetInterface <> x var
+R25593:25597 Coq.MSets.MSetInterface MakeSetOrdering Below def
+R25601:25601 Coq.MSets.MSetInterface <> s var
+R25599:25599 Coq.MSets.MSetInterface <> x var
+R25618:25622 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25612:25613 Coq.MSets.MSetInterface M In defax
+R25617:25617 Coq.MSets.MSetInterface <> s var
+R25615:25615 Coq.MSets.MSetInterface <> x var
+R25623:25629 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R25631:25632 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R25640:25643 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25633:25634 Coq.MSets.MSetInterface M In defax
+R25638:25639 Coq.MSets.MSetInterface <> s' var
+R25636:25636 Coq.MSets.MSetInterface <> y var
+R25652:25655 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R25644:25647 Coq.MSets.MSetInterface O lt defax
+R25651:25651 Coq.MSets.MSetInterface <> y var
+R25649:25649 Coq.MSets.MSetInterface <> x var
+R25656:25667 Coq.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+R25673:25674 Coq.MSets.MSetInterface <> s' var
+R25671:25671 Coq.MSets.MSetInterface <> y var
+R25669:25669 Coq.MSets.MSetInterface <> x var
+R25692:25697 Coq.Classes.Morphisms <> Proper class
+R25722:25732 Coq.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R25704:25706 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25700:25703 Coq.MSets.MSetInterface O eq defax
+R25709:25711 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25707:25708 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R25714:25716 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25712:25713 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R25717:25719 Coq.Init.Logic <> iff def
+R25752:25762 Coq.MSets.MSetInterface MakeSetOrdering EquivBefore def
+R25888:25893 Coq.Classes.Morphisms <> Proper class
+R25913:25917 Coq.MSets.MSetInterface MakeSetOrdering Below def
+R25900:25902 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25896:25899 Coq.MSets.MSetInterface O eq defax
+R25905:25907 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R25903:25904 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R25908:25910 Coq.Init.Logic <> iff def
+R25937:25941 Coq.MSets.MSetInterface MakeSetOrdering Below def
+R26038:26043 Coq.Classes.Morphisms <> Proper class
+R26063:26067 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R26050:26052 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26046:26049 Coq.MSets.MSetInterface O eq defax
+R26055:26057 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26053:26054 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R26058:26060 Coq.Init.Logic <> iff def
+R26087:26091 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R26188:26193 Coq.Classes.Morphisms <> Proper class
+R26220:26231 Coq.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+R26200:26202 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26196:26199 Coq.MSets.MSetInterface O eq defax
+R26207:26209 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26203:26206 Coq.MSets.MSetInterface O eq defax
+R26212:26214 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26210:26211 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R26215:26217 Coq.Init.Logic <> iff def
+R26251:26262 Coq.MSets.MSetInterface MakeSetOrdering EmptyBetween def
+inst 26384:26392 MakeSetOrdering lt_compat
+R26396:26401 Coq.Classes.Morphisms <> Proper class
+R26419:26420 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R26406:26408 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26404:26405 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R26411:26413 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R26409:26410 Coq.MSets.MSetInterface MakeSetOrdering eq def
+R26414:26416 Coq.Init.Logic <> iff def
+R26440:26441 Coq.MSets.MSetInterface MakeSetOrdering lt def
+inst 26540:26550 MakeSetOrdering lt_strorder
+R26554:26564 Coq.Classes.RelationClasses <> StrictOrder class
+R26566:26567 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R26892:26895 Coq.MSets.MSetInterface O lt defax
+R26892:26895 Coq.MSets.MSetInterface O lt defax
+R28750:28753 Coq.MSets.MSetInterface O lt defax
+R28750:28753 Coq.MSets.MSetInterface O lt defax
+prf 28929:28938 MakeSetOrdering lt_empty_r
+R28963:28966 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R28967:28968 Coq.Init.Logic <> :type_scope:'~'_x not
+R28969:28970 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R28974:28975 Coq.MSets.MSetInterface <> s' var
+R28972:28972 Coq.MSets.MSetInterface <> s var
+R28955:28959 Coq.MSets.MSetInterface M Empty def
+R28961:28962 Coq.MSets.MSetInterface <> s' var
+def 29098:29100 MakeSetOrdering Add
+R29129:29133 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R29122:29123 Coq.MSets.MSetInterface M In defax
+R29127:29128 Coq.MSets.MSetInterface <> s' var
+R29125:29125 Coq.MSets.MSetInterface <> y var
+R29142:29145 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R29134:29137 Coq.MSets.MSetInterface O eq defax
+R29141:29141 Coq.MSets.MSetInterface <> y var
+R29139:29139 Coq.MSets.MSetInterface <> x var
+R29146:29147 Coq.MSets.MSetInterface M In defax
+R29151:29151 Coq.MSets.MSetInterface <> s var
+R29149:29149 Coq.MSets.MSetInterface <> y var
+prf 29162:29171 MakeSetOrdering lt_empty_l
+R29205:29208 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29219:29222 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29235:29238 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29239:29240 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R29245:29247 Coq.MSets.MSetInterface <> s2' var
+R29242:29243 Coq.MSets.MSetInterface <> s1 var
+R29223:29225 Coq.MSets.MSetInterface MakeSetOrdering Add def
+R29232:29234 Coq.MSets.MSetInterface <> s2' var
+R29229:29230 Coq.MSets.MSetInterface <> s2 var
+R29227:29227 Coq.MSets.MSetInterface <> x var
+R29209:29213 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R29217:29218 Coq.MSets.MSetInterface <> s2 var
+R29215:29215 Coq.MSets.MSetInterface <> x var
+R29197:29201 Coq.MSets.MSetInterface M Empty def
+R29203:29204 Coq.MSets.MSetInterface <> s1 var
+prf 29533:29541 MakeSetOrdering lt_add_lt
+R29587:29590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29602:29605 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29619:29622 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29636:29642 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29653:29656 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R29657:29658 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R29664:29666 Coq.MSets.MSetInterface <> s2' var
+R29660:29662 Coq.MSets.MSetInterface <> s1' var
+R29643:29646 Coq.MSets.MSetInterface O lt defax
+R29651:29652 Coq.MSets.MSetInterface <> x2 var
+R29648:29649 Coq.MSets.MSetInterface <> x1 var
+R29623:29625 Coq.MSets.MSetInterface MakeSetOrdering Add def
+R29633:29635 Coq.MSets.MSetInterface <> s2' var
+R29630:29631 Coq.MSets.MSetInterface <> s2 var
+R29627:29628 Coq.MSets.MSetInterface <> x2 var
+R29606:29608 Coq.MSets.MSetInterface MakeSetOrdering Add def
+R29616:29618 Coq.MSets.MSetInterface <> s1' var
+R29613:29614 Coq.MSets.MSetInterface <> s1 var
+R29610:29611 Coq.MSets.MSetInterface <> x1 var
+R29591:29595 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R29600:29601 Coq.MSets.MSetInterface <> s2 var
+R29597:29598 Coq.MSets.MSetInterface <> x2 var
+R29576:29580 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R29585:29586 Coq.MSets.MSetInterface <> s1 var
+R29582:29583 Coq.MSets.MSetInterface <> x1 var
+prf 30102:30110 MakeSetOrdering lt_add_eq
+R30156:30159 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30171:30174 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30188:30191 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30205:30211 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30222:30225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30234:30237 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R30238:30239 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R30245:30247 Coq.MSets.MSetInterface <> s2' var
+R30241:30243 Coq.MSets.MSetInterface <> s1' var
+R30226:30227 Coq.MSets.MSetInterface MakeSetOrdering lt def
+R30232:30233 Coq.MSets.MSetInterface <> s2 var
+R30229:30230 Coq.MSets.MSetInterface <> s1 var
+R30212:30215 Coq.MSets.MSetInterface O eq defax
+R30220:30221 Coq.MSets.MSetInterface <> x2 var
+R30217:30218 Coq.MSets.MSetInterface <> x1 var
+R30192:30194 Coq.MSets.MSetInterface MakeSetOrdering Add def
+R30202:30204 Coq.MSets.MSetInterface <> s2' var
+R30199:30200 Coq.MSets.MSetInterface <> s2 var
+R30196:30197 Coq.MSets.MSetInterface <> x2 var
+R30175:30177 Coq.MSets.MSetInterface MakeSetOrdering Add def
+R30185:30187 Coq.MSets.MSetInterface <> s1' var
+R30182:30183 Coq.MSets.MSetInterface <> s1 var
+R30179:30180 Coq.MSets.MSetInterface <> x1 var
+R30160:30164 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R30169:30170 Coq.MSets.MSetInterface <> s2 var
+R30166:30167 Coq.MSets.MSetInterface <> x2 var
+R30145:30149 Coq.MSets.MSetInterface MakeSetOrdering Above def
+R30154:30155 Coq.MSets.MSetInterface <> s1 var
+R30151:30152 Coq.MSets.MSetInterface <> x1 var
+R30334:30337 Coq.MSets.MSetInterface O lt defax
+R30334:30337 Coq.MSets.MSetInterface O lt defax
+R30949:30963 Coq.MSets.MSetInterface MakeSetOrdering <> mod
+R30995:31005 Coq.Structures.Orders OrderedType <> mod
+mod 30975:30990 <> MakeListOrdering
+R31021:31036 Coq.Structures.OrdersFacts OrderedTypeFacts <> modtype
+R31038:31038 Coq.MSets.MSetInterface O <> modtype
+mod 31017:31018 <> MakeListOrdering.MO
+syndef 31058:31058 MakeListOrdering t
+R31064:31067 Coq.Init.Datatypes <> list ind
+R31069:31071 Coq.MSets.MSetInterface O t defax
+syndef 31091:31092 MakeListOrdering In
+R31098:31100 Coq.Lists.SetoidList <> InA ind
+R31102:31105 Coq.MSets.MSetInterface O eq defax
+def 31122:31123 MakeListOrdering eq
+R31149:31153 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R31143:31144 Coq.MSets.MSetInterface MakeListOrdering In syndef
+R31148:31148 Coq.MSets.MSetInterface <> s var
+R31146:31146 Coq.MSets.MSetInterface <> x var
+R31154:31155 Coq.MSets.MSetInterface MakeListOrdering In syndef
+R31159:31160 Coq.MSets.MSetInterface <> s' var
+R31157:31157 Coq.MSets.MSetInterface <> x var
+inst 31174:31181 MakeListOrdering eq_equiv
+R31185:31195 Coq.Classes.RelationClasses <> Equivalence class
+R31197:31198 Coq.MSets.MSetInterface MakeListOrdering eq def
+ind 31218:31224 MakeListOrdering lt_list
+constr 31252:31257 MakeListOrdering lt_nil
+constr 31300:31309 MakeListOrdering lt_cons_lt
+constr 31383:31392 MakeListOrdering lt_cons_eq
+R31229:31232 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31234:31237 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31233:31233 Coq.MSets.MSetInterface MakeListOrdering t syndef
+R31228:31228 Coq.MSets.MSetInterface MakeListOrdering t syndef
+R31273:31279 Coq.MSets.MSetInterface <> lt_list ind
+R31287:31290 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R31286:31286 Coq.MSets.MSetInterface <> x var
+R31291:31291 Coq.MSets.MSetInterface <> s var
+R31281:31283 Coq.Init.Datatypes <> nil constr
+R31346:31349 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31350:31356 Coq.MSets.MSetInterface <> lt_list ind
+R31369:31372 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R31368:31368 Coq.MSets.MSetInterface <> y var
+R31373:31374 Coq.MSets.MSetInterface <> s' var
+R31360:31363 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R31359:31359 Coq.MSets.MSetInterface <> x var
+R31364:31364 Coq.MSets.MSetInterface <> s var
+R31338:31341 Coq.MSets.MSetInterface O lt defax
+R31345:31345 Coq.MSets.MSetInterface <> y var
+R31343:31343 Coq.MSets.MSetInterface <> x var
+R31429:31432 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31445:31448 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31449:31455 Coq.MSets.MSetInterface <> lt_list ind
+R31468:31471 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R31467:31467 Coq.MSets.MSetInterface <> y var
+R31472:31473 Coq.MSets.MSetInterface <> s' var
+R31459:31462 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R31458:31458 Coq.MSets.MSetInterface <> x var
+R31463:31463 Coq.MSets.MSetInterface <> s var
+R31433:31439 Coq.MSets.MSetInterface <> lt_list ind
+R31443:31444 Coq.MSets.MSetInterface <> s' var
+R31441:31441 Coq.MSets.MSetInterface <> s var
+R31421:31424 Coq.MSets.MSetInterface O eq defax
+R31428:31428 Coq.MSets.MSetInterface <> y var
+R31426:31426 Coq.MSets.MSetInterface <> x var
+R31496:31502 Coq.MSets.MSetInterface <> lt_list ind
+def 31518:31519 MakeListOrdering lt
+R31524:31530 Coq.MSets.MSetInterface MakeListOrdering lt_list ind
+R31546:31547 Coq.MSets.MSetInterface MakeListOrdering lt def
+inst 31561:31571 MakeListOrdering lt_strorder
+R31575:31585 Coq.Classes.RelationClasses <> StrictOrder class
+R31587:31588 Coq.MSets.MSetInterface MakeListOrdering lt def
+R31652:31655 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31656:31656 Coq.Init.Logic <> :type_scope:'~'_x not
+R31657:31658 Coq.MSets.MSetInterface MakeListOrdering lt def
+R31662:31663 Coq.MSets.MSetInterface <> s' var
+R31660:31660 Coq.MSets.MSetInterface <> s var
+R31649:31649 Coq.Init.Logic <> :type_scope:x_'='_x not
+R31648:31648 Coq.MSets.MSetInterface <> s var
+R31650:31651 Coq.MSets.MSetInterface <> s' var
+R31652:31655 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R31656:31656 Coq.Init.Logic <> :type_scope:'~'_x not
+R31657:31658 Coq.MSets.MSetInterface MakeListOrdering lt def
+R31662:31663 Coq.MSets.MSetInterface <> s' var
+R31660:31660 Coq.MSets.MSetInterface <> s var
+R31649:31649 Coq.Init.Logic <> :type_scope:x_'='_x not
+R31648:31648 Coq.MSets.MSetInterface <> s var
+R31650:31651 Coq.MSets.MSetInterface <> s' var
+R31734:31756 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R31734:31756 Coq.Classes.RelationClasses <> StrictOrder_Irreflexive meth
+R31824:31830 Coq.Init.Logic <> eq_refl constr
+R31824:31830 Coq.Init.Logic <> eq_refl constr
+R32204:32205 Coq.MSets.MSetInterface MakeListOrdering lt def
+inst 32236:32245 MakeListOrdering lt_compat'
+R32251:32256 Coq.Classes.Morphisms <> Proper class
+R32294:32295 Coq.MSets.MSetInterface MakeListOrdering lt def
+R32271:32273 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R32259:32265 Coq.Lists.SetoidList <> eqlistA ind
+R32267:32270 Coq.MSets.MSetInterface O eq defax
+R32286:32288 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R32274:32280 Coq.Lists.SetoidList <> eqlistA ind
+R32282:32285 Coq.MSets.MSetInterface O eq defax
+R32289:32291 Coq.Init.Logic <> iff def
+R32313:32333 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R32313:32333 Coq.Classes.Morphisms <> proper_sym_impl_iff_2 thm
+R32540:32541 Coq.MSets.MSetInterface MakeListOrdering lt def
+prf 32569:32575 MakeListOrdering eq_cons
+R32609:32612 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32621:32624 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32625:32626 Coq.MSets.MSetInterface MakeListOrdering eq def
+R32640:32643 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R32639:32639 Coq.MSets.MSetInterface <> y var
+R32644:32645 Coq.MSets.MSetInterface <> l2 var
+R32630:32633 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R32629:32629 Coq.MSets.MSetInterface <> x var
+R32634:32635 Coq.MSets.MSetInterface <> l1 var
+R32613:32614 Coq.MSets.MSetInterface MakeListOrdering eq def
+R32619:32620 Coq.MSets.MSetInterface <> l2 var
+R32616:32617 Coq.MSets.MSetInterface <> l1 var
+R32601:32604 Coq.MSets.MSetInterface O eq defax
+R32608:32608 Coq.MSets.MSetInterface <> y var
+R32606:32606 Coq.MSets.MSetInterface <> x var
+R32666:32667 Coq.MSets.MSetInterface MakeListOrdering eq def
+prf 32854:32866 MakeListOrdering cons_CompSpec
+R32902:32907 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32930:32933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32934:32941 Coq.Init.Datatypes <> CompSpec def
+R32967:32967 Coq.MSets.MSetInterface <> c var
+R32961:32962 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R32959:32960 Coq.MSets.MSetInterface <> x2 var
+R32963:32964 Coq.MSets.MSetInterface <> l2 var
+R32952:32953 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R32950:32951 Coq.MSets.MSetInterface <> x1 var
+R32954:32955 Coq.MSets.MSetInterface <> l1 var
+R32946:32947 Coq.MSets.MSetInterface MakeListOrdering lt def
+R32943:32944 Coq.MSets.MSetInterface MakeListOrdering eq def
+R32908:32915 Coq.Init.Datatypes <> CompSpec def
+R32929:32929 Coq.MSets.MSetInterface <> c var
+R32926:32927 Coq.MSets.MSetInterface <> l2 var
+R32923:32924 Coq.MSets.MSetInterface <> l1 var
+R32920:32921 Coq.MSets.MSetInterface MakeListOrdering lt def
+R32917:32918 Coq.MSets.MSetInterface MakeListOrdering eq def
+R32892:32895 Coq.MSets.MSetInterface O eq defax
+R32900:32901 Coq.MSets.MSetInterface <> x2 var
+R32897:32898 Coq.MSets.MSetInterface <> x1 var
+R33079:33094 Coq.MSets.MSetInterface MakeListOrdering <> mod

@@ -1,0 +1,679 @@
+DIGEST 726963ed391a317ee56119b29eab3584
+FBignums.SpecViaZ.NSig
+R691:696 Coq.ZArith.BinInt <> <> lib
+modtype 862:866 <> NType
+ax 881:881 NType t
+ax 903:906 NType to_Z
+R911:914 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R915:915 Coq.Numbers.BinNums <> Z ind
+R910:910 Bignums.SpecViaZ.NSig NType t defax
+R946:949 Bignums.SpecViaZ.NSig NType to_Z defax
+not 934:934 NType ::'['_x_']'
+ax 966:973 NType spec_pos
+R987:990 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R991:991 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R993:993 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R992:992 Bignums.SpecViaZ.NSig <> x var
+ax 1008:1011 NType of_N
+R1016:1019 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1020:1020 Bignums.SpecViaZ.NSig NType t defax
+R1015:1015 Coq.Numbers.BinNums <> N ind
+ax 1034:1042 NType spec_of_N
+R1068:1070 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1055:1058 Bignums.SpecViaZ.NSig NType to_Z defax
+R1061:1064 Bignums.SpecViaZ.NSig NType of_N defax
+R1066:1066 Bignums.SpecViaZ.NSig <> x var
+R1071:1076 Coq.ZArith.BinInt Z of_N def
+R1078:1078 Bignums.SpecViaZ.NSig <> x var
+def 1093:1096 NType to_N
+R1103:1108 Coq.ZArith.BinInt Z to_N def
+R1111:1114 Bignums.SpecViaZ.NSig NType to_Z defax
+R1116:1116 Bignums.SpecViaZ.NSig <> n var
+def 1133:1134 NType eq
+R1146:1148 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1143:1143 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1145:1145 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1144:1144 Bignums.SpecViaZ.NSig <> n var
+R1149:1149 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1151:1151 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1150:1150 Bignums.SpecViaZ.NSig <> m var
+def 1166:1167 NType lt
+R1179:1181 Coq.ZArith.BinInt <> :Z_scope:x_'<'_x not
+R1176:1176 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1178:1178 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1177:1177 Bignums.SpecViaZ.NSig <> n var
+R1182:1182 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1184:1184 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1183:1183 Bignums.SpecViaZ.NSig <> m var
+def 1199:1200 NType le
+R1212:1215 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R1209:1209 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1211:1211 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1210:1210 Bignums.SpecViaZ.NSig <> n var
+R1216:1216 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1218:1218 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R1217:1217 Bignums.SpecViaZ.NSig <> m var
+ax 1233:1239 NType compare
+R1244:1247 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1249:1252 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1253:1262 Coq.Init.Datatypes <> comparison ind
+R1248:1248 Bignums.SpecViaZ.NSig NType t defax
+R1243:1243 Bignums.SpecViaZ.NSig NType t defax
+ax 1276:1278 NType eqb
+R1283:1286 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1288:1291 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1292:1295 Coq.Init.Datatypes <> bool ind
+R1287:1287 Bignums.SpecViaZ.NSig NType t defax
+R1282:1282 Bignums.SpecViaZ.NSig NType t defax
+ax 1309:1311 NType ltb
+R1316:1319 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1321:1324 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1325:1328 Coq.Init.Datatypes <> bool ind
+R1320:1320 Bignums.SpecViaZ.NSig NType t defax
+R1315:1315 Bignums.SpecViaZ.NSig NType t defax
+ax 1342:1344 NType leb
+R1349:1352 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1354:1357 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1358:1361 Coq.Init.Datatypes <> bool ind
+R1353:1353 Bignums.SpecViaZ.NSig NType t defax
+R1348:1348 Bignums.SpecViaZ.NSig NType t defax
+ax 1375:1377 NType max
+R1382:1385 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1387:1390 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1391:1391 Bignums.SpecViaZ.NSig NType t defax
+R1386:1386 Bignums.SpecViaZ.NSig NType t defax
+R1381:1381 Bignums.SpecViaZ.NSig NType t defax
+ax 1405:1407 NType min
+R1412:1415 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1417:1420 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1421:1421 Bignums.SpecViaZ.NSig NType t defax
+R1416:1416 Bignums.SpecViaZ.NSig NType t defax
+R1411:1411 Bignums.SpecViaZ.NSig NType t defax
+ax 1435:1438 NType zero
+R1442:1442 Bignums.SpecViaZ.NSig NType t defax
+ax 1456:1458 NType one
+R1462:1462 Bignums.SpecViaZ.NSig NType t defax
+ax 1476:1478 NType two
+R1482:1482 Bignums.SpecViaZ.NSig NType t defax
+ax 1496:1499 NType succ
+R1504:1507 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1508:1508 Bignums.SpecViaZ.NSig NType t defax
+R1503:1503 Bignums.SpecViaZ.NSig NType t defax
+ax 1522:1525 NType pred
+R1530:1533 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1534:1534 Bignums.SpecViaZ.NSig NType t defax
+R1529:1529 Bignums.SpecViaZ.NSig NType t defax
+ax 1548:1550 NType add
+R1556:1559 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1561:1564 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1565:1565 Bignums.SpecViaZ.NSig NType t defax
+R1560:1560 Bignums.SpecViaZ.NSig NType t defax
+R1555:1555 Bignums.SpecViaZ.NSig NType t defax
+ax 1579:1581 NType sub
+R1586:1589 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1591:1594 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1595:1595 Bignums.SpecViaZ.NSig NType t defax
+R1590:1590 Bignums.SpecViaZ.NSig NType t defax
+R1585:1585 Bignums.SpecViaZ.NSig NType t defax
+ax 1609:1611 NType mul
+R1616:1619 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1621:1624 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1625:1625 Bignums.SpecViaZ.NSig NType t defax
+R1620:1620 Bignums.SpecViaZ.NSig NType t defax
+R1615:1615 Bignums.SpecViaZ.NSig NType t defax
+ax 1639:1644 NType square
+R1649:1652 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1653:1653 Bignums.SpecViaZ.NSig NType t defax
+R1648:1648 Bignums.SpecViaZ.NSig NType t defax
+ax 1667:1673 NType pow_pos
+R1678:1681 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1690:1693 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1694:1694 Bignums.SpecViaZ.NSig NType t defax
+R1682:1689 Coq.Numbers.BinNums <> positive ind
+R1677:1677 Bignums.SpecViaZ.NSig NType t defax
+ax 1708:1712 NType pow_N
+R1717:1720 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1722:1725 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1726:1726 Bignums.SpecViaZ.NSig NType t defax
+R1721:1721 Coq.Numbers.BinNums <> N ind
+R1716:1716 Bignums.SpecViaZ.NSig NType t defax
+ax 1740:1742 NType pow
+R1747:1750 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1752:1755 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1756:1756 Bignums.SpecViaZ.NSig NType t defax
+R1751:1751 Bignums.SpecViaZ.NSig NType t defax
+R1746:1746 Bignums.SpecViaZ.NSig NType t defax
+ax 1770:1773 NType sqrt
+R1778:1781 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1782:1782 Bignums.SpecViaZ.NSig NType t defax
+R1777:1777 Bignums.SpecViaZ.NSig NType t defax
+ax 1796:1799 NType log2
+R1804:1807 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1808:1808 Bignums.SpecViaZ.NSig NType t defax
+R1803:1803 Bignums.SpecViaZ.NSig NType t defax
+ax 1822:1829 NType div_eucl
+R1834:1837 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1839:1842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1844:1846 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R1843:1843 Bignums.SpecViaZ.NSig NType t defax
+R1847:1847 Bignums.SpecViaZ.NSig NType t defax
+R1838:1838 Bignums.SpecViaZ.NSig NType t defax
+R1833:1833 Bignums.SpecViaZ.NSig NType t defax
+ax 1861:1863 NType div
+R1868:1871 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1873:1876 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1877:1877 Bignums.SpecViaZ.NSig NType t defax
+R1872:1872 Bignums.SpecViaZ.NSig NType t defax
+R1867:1867 Bignums.SpecViaZ.NSig NType t defax
+ax 1891:1896 NType modulo
+R1901:1904 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1906:1909 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1910:1910 Bignums.SpecViaZ.NSig NType t defax
+R1905:1905 Bignums.SpecViaZ.NSig NType t defax
+R1900:1900 Bignums.SpecViaZ.NSig NType t defax
+ax 1924:1926 NType gcd
+R1931:1934 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1936:1939 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1940:1940 Bignums.SpecViaZ.NSig NType t defax
+R1935:1935 Bignums.SpecViaZ.NSig NType t defax
+R1930:1930 Bignums.SpecViaZ.NSig NType t defax
+ax 1954:1957 NType even
+R1962:1965 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1966:1969 Coq.Init.Datatypes <> bool ind
+R1961:1961 Bignums.SpecViaZ.NSig NType t defax
+ax 1983:1985 NType odd
+R1990:1993 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1994:1997 Coq.Init.Datatypes <> bool ind
+R1989:1989 Bignums.SpecViaZ.NSig NType t defax
+ax 2011:2017 NType testbit
+R2022:2025 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2027:2030 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2031:2034 Coq.Init.Datatypes <> bool ind
+R2026:2026 Bignums.SpecViaZ.NSig NType t defax
+R2021:2021 Bignums.SpecViaZ.NSig NType t defax
+ax 2048:2053 NType shiftr
+R2058:2061 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2063:2066 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2067:2067 Bignums.SpecViaZ.NSig NType t defax
+R2062:2062 Bignums.SpecViaZ.NSig NType t defax
+R2057:2057 Bignums.SpecViaZ.NSig NType t defax
+ax 2081:2086 NType shiftl
+R2091:2094 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2096:2099 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2100:2100 Bignums.SpecViaZ.NSig NType t defax
+R2095:2095 Bignums.SpecViaZ.NSig NType t defax
+R2090:2090 Bignums.SpecViaZ.NSig NType t defax
+ax 2114:2117 NType land
+R2122:2125 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2127:2130 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2131:2131 Bignums.SpecViaZ.NSig NType t defax
+R2126:2126 Bignums.SpecViaZ.NSig NType t defax
+R2121:2121 Bignums.SpecViaZ.NSig NType t defax
+ax 2145:2147 NType lor
+R2152:2155 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2157:2160 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2161:2161 Bignums.SpecViaZ.NSig NType t defax
+R2156:2156 Bignums.SpecViaZ.NSig NType t defax
+R2151:2151 Bignums.SpecViaZ.NSig NType t defax
+ax 2175:2179 NType ldiff
+R2184:2187 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2189:2192 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2193:2193 Bignums.SpecViaZ.NSig NType t defax
+R2188:2188 Bignums.SpecViaZ.NSig NType t defax
+R2183:2183 Bignums.SpecViaZ.NSig NType t defax
+ax 2207:2210 NType lxor
+R2215:2218 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2220:2223 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2224:2224 Bignums.SpecViaZ.NSig NType t defax
+R2219:2219 Bignums.SpecViaZ.NSig NType t defax
+R2214:2214 Bignums.SpecViaZ.NSig NType t defax
+ax 2238:2241 NType div2
+R2246:2249 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2250:2250 Bignums.SpecViaZ.NSig NType t defax
+R2245:2245 Bignums.SpecViaZ.NSig NType t defax
+ax 2265:2276 NType spec_compare
+R2302:2305 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2316:2316 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2291:2297 Bignums.SpecViaZ.NSig NType compare defax
+R2301:2301 Bignums.SpecViaZ.NSig <> y var
+R2299:2299 Bignums.SpecViaZ.NSig <> x var
+R2309:2312 Coq.ZArith.BinInt <> :Z_scope:x_'?='_x not
+R2306:2306 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2308:2308 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2307:2307 Bignums.SpecViaZ.NSig <> x var
+R2313:2313 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2315:2315 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2314:2314 Bignums.SpecViaZ.NSig <> y var
+ax 2330:2337 NType spec_eqb
+R2360:2363 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2374:2374 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2353:2355 Bignums.SpecViaZ.NSig NType eqb defax
+R2359:2359 Bignums.SpecViaZ.NSig <> y var
+R2357:2357 Bignums.SpecViaZ.NSig <> x var
+R2367:2370 Coq.ZArith.BinInt <> :Z_scope:x_'=?'_x not
+R2364:2364 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2366:2366 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2365:2365 Bignums.SpecViaZ.NSig <> x var
+R2371:2371 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2373:2373 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2372:2372 Bignums.SpecViaZ.NSig <> y var
+ax 2388:2395 NType spec_ltb
+R2418:2421 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2432:2432 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2411:2413 Bignums.SpecViaZ.NSig NType ltb defax
+R2417:2417 Bignums.SpecViaZ.NSig <> y var
+R2415:2415 Bignums.SpecViaZ.NSig <> x var
+R2425:2428 Coq.ZArith.BinInt <> :Z_scope:x_'<?'_x not
+R2422:2422 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2424:2424 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2423:2423 Bignums.SpecViaZ.NSig <> x var
+R2429:2429 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2431:2431 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2430:2430 Bignums.SpecViaZ.NSig <> y var
+ax 2446:2453 NType spec_leb
+R2476:2479 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2491:2491 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2469:2471 Bignums.SpecViaZ.NSig NType leb defax
+R2475:2475 Bignums.SpecViaZ.NSig <> y var
+R2473:2473 Bignums.SpecViaZ.NSig <> x var
+R2483:2487 Coq.ZArith.BinInt <> :Z_scope:x_'<=?'_x not
+R2480:2480 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2482:2482 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2481:2481 Bignums.SpecViaZ.NSig <> x var
+R2488:2488 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2490:2490 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2489:2489 Bignums.SpecViaZ.NSig <> y var
+ax 2505:2512 NType spec_max
+R2537:2539 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2528:2528 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2536:2536 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2529:2531 Bignums.SpecViaZ.NSig NType max defax
+R2535:2535 Bignums.SpecViaZ.NSig <> y var
+R2533:2533 Bignums.SpecViaZ.NSig <> x var
+R2540:2544 Coq.ZArith.BinInt Z max def
+R2550:2550 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2552:2552 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2551:2551 Bignums.SpecViaZ.NSig <> y var
+R2546:2546 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2548:2548 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2547:2547 Bignums.SpecViaZ.NSig <> x var
+ax 2566:2573 NType spec_min
+R2598:2600 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2589:2589 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2597:2597 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2590:2592 Bignums.SpecViaZ.NSig NType min defax
+R2596:2596 Bignums.SpecViaZ.NSig <> y var
+R2594:2594 Bignums.SpecViaZ.NSig <> x var
+R2601:2605 Coq.ZArith.BinInt Z min def
+R2611:2611 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2613:2613 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2612:2612 Bignums.SpecViaZ.NSig <> y var
+R2607:2607 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2609:2609 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2608:2608 Bignums.SpecViaZ.NSig <> x var
+ax 2627:2632 NType spec_0
+R2641:2643 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2635:2635 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2640:2640 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2636:2639 Bignums.SpecViaZ.NSig NType zero defax
+ax 2658:2663 NType spec_1
+R2671:2673 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2666:2666 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2670:2670 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2667:2669 Bignums.SpecViaZ.NSig NType one defax
+ax 2688:2693 NType spec_2
+R2701:2703 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2696:2696 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2700:2700 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2697:2699 Bignums.SpecViaZ.NSig NType two defax
+ax 2718:2726 NType spec_succ
+R2747:2749 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2739:2739 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2746:2746 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2740:2743 Bignums.SpecViaZ.NSig NType succ defax
+R2745:2745 Bignums.SpecViaZ.NSig <> n var
+R2753:2755 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R2750:2750 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2752:2752 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2751:2751 Bignums.SpecViaZ.NSig <> n var
+ax 2770:2777 NType spec_add
+R2801:2803 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2792:2792 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2800:2800 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2793:2795 Bignums.SpecViaZ.NSig NType add defax
+R2799:2799 Bignums.SpecViaZ.NSig <> y var
+R2797:2797 Bignums.SpecViaZ.NSig <> x var
+R2807:2809 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R2804:2804 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2806:2806 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2805:2805 Bignums.SpecViaZ.NSig <> x var
+R2810:2810 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2812:2812 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2811:2811 Bignums.SpecViaZ.NSig <> y var
+ax 2826:2834 NType spec_pred
+R2855:2857 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2847:2847 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2854:2854 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2848:2851 Bignums.SpecViaZ.NSig NType pred defax
+R2853:2853 Bignums.SpecViaZ.NSig <> x var
+R2858:2862 Coq.ZArith.BinInt Z max def
+R2870:2872 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R2867:2867 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2869:2869 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2868:2868 Bignums.SpecViaZ.NSig <> x var
+ax 2888:2895 NType spec_sub
+R2919:2921 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2910:2910 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2918:2918 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2911:2913 Bignums.SpecViaZ.NSig NType sub defax
+R2917:2917 Bignums.SpecViaZ.NSig <> y var
+R2915:2915 Bignums.SpecViaZ.NSig <> x var
+R2922:2926 Coq.ZArith.BinInt Z max def
+R2934:2936 Coq.ZArith.BinInt <> :Z_scope:x_'-'_x not
+R2931:2931 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2933:2933 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2932:2932 Bignums.SpecViaZ.NSig <> x var
+R2937:2937 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2939:2939 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2938:2938 Bignums.SpecViaZ.NSig <> y var
+ax 2954:2961 NType spec_mul
+R2985:2987 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2976:2976 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2984:2984 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2977:2979 Bignums.SpecViaZ.NSig NType mul defax
+R2983:2983 Bignums.SpecViaZ.NSig <> y var
+R2981:2981 Bignums.SpecViaZ.NSig <> x var
+R2991:2993 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R2988:2988 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2990:2990 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2989:2989 Bignums.SpecViaZ.NSig <> x var
+R2994:2994 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2996:2996 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R2995:2995 Bignums.SpecViaZ.NSig <> y var
+ax 3010:3020 NType spec_square
+R3043:3045 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3033:3033 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3042:3042 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3034:3039 Bignums.SpecViaZ.NSig NType square defax
+R3041:3041 Bignums.SpecViaZ.NSig <> x var
+R3049:3051 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3046:3046 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3048:3048 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3047:3047 Bignums.SpecViaZ.NSig <> x var
+R3052:3052 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3054:3054 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3053:3053 Bignums.SpecViaZ.NSig <> x var
+ax 3068:3079 NType spec_pow_pos
+R3107:3109 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3094:3094 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3106:3106 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3095:3101 Bignums.SpecViaZ.NSig NType pow_pos defax
+R3105:3105 Bignums.SpecViaZ.NSig <> n var
+R3103:3103 Bignums.SpecViaZ.NSig <> x var
+R3113:3115 Coq.ZArith.BinInt <> :Z_scope:x_'^'_x not
+R3110:3110 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3112:3112 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3111:3111 Bignums.SpecViaZ.NSig <> x var
+R3116:3119 Coq.Numbers.BinNums <> Zpos constr
+R3121:3121 Bignums.SpecViaZ.NSig <> n var
+ax 3135:3144 NType spec_pow_N
+R3170:3172 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3159:3159 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3169:3169 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3160:3164 Bignums.SpecViaZ.NSig NType pow_N defax
+R3168:3168 Bignums.SpecViaZ.NSig <> n var
+R3166:3166 Bignums.SpecViaZ.NSig <> x var
+R3176:3178 Coq.ZArith.BinInt <> :Z_scope:x_'^'_x not
+R3173:3173 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3175:3175 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3174:3174 Bignums.SpecViaZ.NSig <> x var
+R3179:3184 Coq.ZArith.BinInt Z of_N def
+R3186:3186 Bignums.SpecViaZ.NSig <> n var
+ax 3200:3207 NType spec_pow
+R3231:3233 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3222:3222 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3230:3230 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3223:3225 Bignums.SpecViaZ.NSig NType pow defax
+R3229:3229 Bignums.SpecViaZ.NSig <> n var
+R3227:3227 Bignums.SpecViaZ.NSig <> x var
+R3237:3239 Coq.ZArith.BinInt <> :Z_scope:x_'^'_x not
+R3234:3234 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3236:3236 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3235:3235 Bignums.SpecViaZ.NSig <> x var
+R3240:3240 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3242:3242 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3241:3241 Bignums.SpecViaZ.NSig <> n var
+ax 3256:3264 NType spec_sqrt
+R3285:3287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3277:3277 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3284:3284 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3278:3281 Bignums.SpecViaZ.NSig NType sqrt defax
+R3283:3283 Bignums.SpecViaZ.NSig <> x var
+R3288:3293 Coq.ZArith.BinInt Z sqrt def
+R3295:3295 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3297:3297 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3296:3296 Bignums.SpecViaZ.NSig <> x var
+ax 3311:3319 NType spec_log2
+R3340:3342 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3332:3332 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3339:3339 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3333:3336 Bignums.SpecViaZ.NSig NType log2 defax
+R3338:3338 Bignums.SpecViaZ.NSig <> x var
+R3343:3348 Coq.ZArith.BinInt Z log2 def
+R3350:3350 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3352:3352 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3351:3351 Bignums.SpecViaZ.NSig <> x var
+ax 3366:3378 NType spec_div_eucl
+R3408:3415 Bignums.SpecViaZ.NSig NType div_eucl defax
+R3419:3419 Bignums.SpecViaZ.NSig <> y var
+R3417:3417 Bignums.SpecViaZ.NSig <> x var
+R3434:3436 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3424:3424 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3428:3429 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3433:3433 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3425:3425 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3427:3427 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3426:3426 Bignums.SpecViaZ.NSig <> q var
+R3430:3430 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3432:3432 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3431:3431 Bignums.SpecViaZ.NSig <> r var
+R3437:3446 Coq.ZArith.BinInt Z div_eucl def
+R3452:3452 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3454:3454 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3453:3453 Bignums.SpecViaZ.NSig <> y var
+R3448:3448 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3450:3450 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3449:3449 Bignums.SpecViaZ.NSig <> x var
+ax 3468:3475 NType spec_div
+R3499:3501 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3490:3490 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3498:3498 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3491:3493 Bignums.SpecViaZ.NSig NType div defax
+R3497:3497 Bignums.SpecViaZ.NSig <> y var
+R3495:3495 Bignums.SpecViaZ.NSig <> x var
+R3505:3507 Coq.ZArith.BinInt <> :Z_scope:x_'/'_x not
+R3502:3502 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3504:3504 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3503:3503 Bignums.SpecViaZ.NSig <> x var
+R3508:3508 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3510:3510 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3509:3509 Bignums.SpecViaZ.NSig <> y var
+ax 3524:3534 NType spec_modulo
+R3561:3563 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3549:3549 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3560:3560 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3550:3555 Bignums.SpecViaZ.NSig NType modulo defax
+R3559:3559 Bignums.SpecViaZ.NSig <> y var
+R3557:3557 Bignums.SpecViaZ.NSig <> x var
+R3567:3571 Coq.ZArith.BinInt <> :Z_scope:x_'mod'_x not
+R3564:3564 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3566:3566 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3565:3565 Bignums.SpecViaZ.NSig <> x var
+R3572:3572 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3574:3574 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3573:3573 Bignums.SpecViaZ.NSig <> y var
+ax 3588:3595 NType spec_gcd
+R3619:3621 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3610:3610 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3618:3618 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3611:3613 Bignums.SpecViaZ.NSig NType gcd defax
+R3617:3617 Bignums.SpecViaZ.NSig <> b var
+R3615:3615 Bignums.SpecViaZ.NSig <> a var
+R3622:3626 Coq.ZArith.BinInt Z gcd def
+R3632:3632 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3634:3634 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3633:3633 Bignums.SpecViaZ.NSig <> b var
+R3628:3628 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3630:3630 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3629:3629 Bignums.SpecViaZ.NSig <> a var
+ax 3648:3656 NType spec_even
+R3675:3677 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3669:3672 Bignums.SpecViaZ.NSig NType even defax
+R3674:3674 Bignums.SpecViaZ.NSig <> x var
+R3678:3683 Coq.ZArith.BinInt Z even def
+R3685:3685 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3687:3687 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3686:3686 Bignums.SpecViaZ.NSig <> x var
+ax 3701:3708 NType spec_odd
+R3726:3728 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3721:3723 Bignums.SpecViaZ.NSig NType odd defax
+R3725:3725 Bignums.SpecViaZ.NSig <> x var
+R3729:3733 Coq.ZArith.BinInt Z odd def
+R3735:3735 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3737:3737 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3736:3736 Bignums.SpecViaZ.NSig <> x var
+ax 3751:3762 NType spec_testbit
+R3788:3790 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3777:3783 Bignums.SpecViaZ.NSig NType testbit defax
+R3787:3787 Bignums.SpecViaZ.NSig <> p var
+R3785:3785 Bignums.SpecViaZ.NSig <> x var
+R3791:3799 Coq.ZArith.BinInt Z testbit def
+R3805:3805 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3807:3807 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3806:3806 Bignums.SpecViaZ.NSig <> p var
+R3801:3801 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3803:3803 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3802:3802 Bignums.SpecViaZ.NSig <> x var
+ax 3821:3831 NType spec_shiftr
+R3858:3860 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3846:3846 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3857:3857 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3847:3852 Bignums.SpecViaZ.NSig NType shiftr defax
+R3856:3856 Bignums.SpecViaZ.NSig <> p var
+R3854:3854 Bignums.SpecViaZ.NSig <> x var
+R3861:3868 Coq.ZArith.BinInt Z shiftr def
+R3874:3874 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3876:3876 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3875:3875 Bignums.SpecViaZ.NSig <> p var
+R3870:3870 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3872:3872 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3871:3871 Bignums.SpecViaZ.NSig <> x var
+ax 3890:3900 NType spec_shiftl
+R3927:3929 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3915:3915 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3926:3926 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3916:3921 Bignums.SpecViaZ.NSig NType shiftl defax
+R3925:3925 Bignums.SpecViaZ.NSig <> p var
+R3923:3923 Bignums.SpecViaZ.NSig <> x var
+R3930:3937 Coq.ZArith.BinInt Z shiftl def
+R3943:3943 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3945:3945 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3944:3944 Bignums.SpecViaZ.NSig <> p var
+R3939:3939 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3941:3941 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3940:3940 Bignums.SpecViaZ.NSig <> x var
+ax 3959:3967 NType spec_land
+R3992:3994 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3982:3982 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3991:3991 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R3983:3986 Bignums.SpecViaZ.NSig NType land defax
+R3990:3990 Bignums.SpecViaZ.NSig <> y var
+R3988:3988 Bignums.SpecViaZ.NSig <> x var
+R3995:4000 Coq.ZArith.BinInt Z land def
+R4006:4006 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4008:4008 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4007:4007 Bignums.SpecViaZ.NSig <> y var
+R4002:4002 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4004:4004 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4003:4003 Bignums.SpecViaZ.NSig <> x var
+ax 4022:4029 NType spec_lor
+R4053:4055 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4044:4044 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4052:4052 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4045:4047 Bignums.SpecViaZ.NSig NType lor defax
+R4051:4051 Bignums.SpecViaZ.NSig <> y var
+R4049:4049 Bignums.SpecViaZ.NSig <> x var
+R4056:4060 Coq.ZArith.BinInt Z lor def
+R4066:4066 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4068:4068 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4067:4067 Bignums.SpecViaZ.NSig <> y var
+R4062:4062 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4064:4064 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4063:4063 Bignums.SpecViaZ.NSig <> x var
+ax 4082:4091 NType spec_ldiff
+R4117:4119 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4106:4106 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4116:4116 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4107:4111 Bignums.SpecViaZ.NSig NType ldiff defax
+R4115:4115 Bignums.SpecViaZ.NSig <> y var
+R4113:4113 Bignums.SpecViaZ.NSig <> x var
+R4120:4126 Coq.ZArith.BinInt Z ldiff def
+R4132:4132 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4134:4134 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4133:4133 Bignums.SpecViaZ.NSig <> y var
+R4128:4128 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4130:4130 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4129:4129 Bignums.SpecViaZ.NSig <> x var
+ax 4148:4156 NType spec_lxor
+R4181:4183 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4171:4171 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4180:4180 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4172:4175 Bignums.SpecViaZ.NSig NType lxor defax
+R4179:4179 Bignums.SpecViaZ.NSig <> y var
+R4177:4177 Bignums.SpecViaZ.NSig <> x var
+R4184:4189 Coq.ZArith.BinInt Z lxor def
+R4195:4195 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4197:4197 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4196:4196 Bignums.SpecViaZ.NSig <> y var
+R4191:4191 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4193:4193 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4192:4192 Bignums.SpecViaZ.NSig <> x var
+ax 4211:4219 NType spec_div2
+R4240:4242 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4232:4232 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4239:4239 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4233:4236 Bignums.SpecViaZ.NSig NType div2 defax
+R4238:4238 Bignums.SpecViaZ.NSig <> x var
+R4243:4248 Coq.ZArith.BinInt Z div2 def
+R4250:4250 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4252:4252 Bignums.SpecViaZ.NSig NType ::'['_x_']' not
+R4251:4251 Bignums.SpecViaZ.NSig <> x var
+R4260:4264 Bignums.SpecViaZ.NSig NType <> modtype
+R4305:4309 Bignums.SpecViaZ.NSig NType <> mod
+modtype 4280:4293 <> NType_Notation
+R4335:4338 Bignums.SpecViaZ.NSig N to_Z defax
+not 4323:4323 NType_Notation ::'['_x_']'
+R4359:4360 Bignums.SpecViaZ.NSig N eq def
+not 4351:4351 NType_Notation ::x_'=='_x
+R4394:4397 Bignums.SpecViaZ.NSig N zero defax
+not 4387:4387 NType_Notation ::'0'
+R4417:4419 Bignums.SpecViaZ.NSig N one defax
+not 4410:4410 NType_Notation ::'1'
+R4439:4441 Bignums.SpecViaZ.NSig N two defax
+not 4432:4432 NType_Notation ::'2'
+R4458:4460 Bignums.SpecViaZ.NSig N add defax
+not 4451:4451 NType_Notation ::x_'+'_x
+R4477:4479 Bignums.SpecViaZ.NSig N sub defax
+not 4470:4470 NType_Notation ::x_'-'_x
+R4496:4498 Bignums.SpecViaZ.NSig N mul defax
+not 4489:4489 NType_Notation ::x_'*'_x
+R4515:4517 Bignums.SpecViaZ.NSig N pow defax
+not 4508:4508 NType_Notation ::x_'^'_x
+R4535:4536 Bignums.SpecViaZ.NSig N le def
+not 4527:4527 NType_Notation ::x_'<='_x
+R4553:4554 Bignums.SpecViaZ.NSig N lt def
+not 4546:4546 NType_Notation ::x_'<'_x
+R4561:4574 Bignums.SpecViaZ.NSig NType_Notation <> modtype
+R4600:4604 Bignums.SpecViaZ.NSig NType <> mod
+R4609:4622 Bignums.SpecViaZ.NSig NType_Notation <> mod
+modtype 4590:4595 <> NType'

@@ -1,0 +1,28 @@
+DIGEST 904ba2fcbe2e898f855eb0bb155cef7a
+FCoq.ZArith.Zmisc
+R691:696 Coq.Arith.Wf_nat <> <> lib
+R714:719 Coq.ZArith.BinInt <> <> lib
+R737:744 Coq.ZArith.Zcompare <> <> lib
+R762:767 Coq.ZArith.Zorder <> <> lib
+R785:788 Coq.Bool.Bool <> <> lib
+syndef 962:965 <> iter
+R971:976 Coq.ZArith.BinInt Z iter def
+prf 1001:1013 <> iter_nat_of_Z
+R1039:1044 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1057:1059 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1045:1050 Coq.ZArith.BinInt Z iter def
+R1056:1056 Coq.ZArith.Zmisc <> x var
+R1054:1054 Coq.ZArith.Zmisc <> f var
+R1052:1052 Coq.ZArith.Zmisc <> n var
+R1060:1067 Coq.Arith.Wf_nat <> iter_nat syndef
+R1083:1083 Coq.ZArith.Zmisc <> A var
+R1087:1087 Coq.ZArith.Zmisc <> x var
+R1085:1085 Coq.ZArith.Zmisc <> f var
+R1070:1078 Coq.ZArith.BinInt Z abs_nat def
+R1080:1080 Coq.ZArith.Zmisc <> n var
+R1034:1037 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R1038:1038 Coq.ZArith.Zmisc <> n var
+R1146:1151 Coq.ZArith.BinInt Z iter def
+R1154:1162 Coq.ZArith.BinInt Z abs_nat def
+R1171:1186 Coq.PArith.Pnat Pos2Nat inj_iter thm
+R1171:1186 Coq.PArith.Pnat Pos2Nat inj_iter thm

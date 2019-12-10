@@ -1,0 +1,35 @@
+DIGEST 631a9d4ff5bb2b402b7ee7ea694c0d1d
+FCoq.setoid_ring.ZArithRing
+R691:694 Coq.setoid_ring.Ring <> <> lib
+R712:722 Coq.ZArith.ZArith_base <> <> lib
+R740:747 Coq.ZArith.Zpow_def <> <> lib
+R838:841 Coq.Init.Datatypes <> true constr
+R838:841 Coq.Init.Datatypes <> true constr
+R865:875 Coq.setoid_ring.InitialRing <> NotConstant def
+R927:930 Coq.Numbers.BinNums <> Zpos constr
+R927:930 Coq.Numbers.BinNums <> Zpos constr
+R951:952 Coq.Numbers.BinNums <> Z0 constr
+R951:952 Coq.Numbers.BinNums <> Z0 constr
+R988:992 Coq.Init.Datatypes <> false constr
+R965:968 Coq.Init.Datatypes <> true constr
+syndef 1012:1017 <> N_of_Z
+R1022:1027 Coq.ZArith.BinInt Z to_N def
+R1094:1097 Coq.Init.Datatypes <> true constr
+R1094:1097 Coq.Init.Datatypes <> true constr
+R1136:1146 Coq.setoid_ring.InitialRing <> NotConstant def
+R1110:1115 Coq.setoid_ring.ZArithRing <> N_of_Z syndef
+R1249:1253 Coq.ZArith.BinInt Z pow def
+R1258:1261 Coq.Numbers.BinNums <> Zneg constr
+R1249:1253 Coq.ZArith.BinInt Z pow def
+R1258:1261 Coq.Numbers.BinNums <> Zneg constr
+R1296:1297 Coq.Numbers.BinNums <> Z0 constr
+R1348:1350 Coq.setoid_ring.InitialRing <> Zth thm
+R1365:1375 Coq.ZArith.Zbool <> Zeq_bool_eq thm
+R1448:1460 Coq.ZArith.Zpow_def <> Zpower_theory thm
+R1675:1686 Coq.setoid_ring.InitialRing <> get_signZ_th thm
+R1618:1641 Coq.setoid_ring.InitialRing <> Ztriv_div_th thm
+R1656:1660 Coq.setoid_ring.Ring_theory <> IDphi def
+R1662:1662 Coq.Numbers.BinNums <> Z ind
+R1645:1649 Coq.setoid_ring.Ring_theory <> Eqsth thm
+R1651:1651 Coq.Numbers.BinNums <> Z ind
+R1426:1431 Coq.ZArith.BinInt Z succ def

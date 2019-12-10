@@ -1,0 +1,66 @@
+DIGEST 7cdccc6eb1d2f28142e80e4f73088e57
+FCoq.Logic.IndefiniteDescription
+R1011:1021 Coq.Logic.ChoiceFacts <> <> lib
+ax 1056:1090 <> constructive_indefinite_description
+R1120:1121 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1119:1119 Coq.Logic.IndefiniteDescription <> A var
+R1133:1133 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1147:1151 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1152:1153 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1155:1157 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1159:1161 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1165:1166 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1158:1158 Coq.Logic.IndefiniteDescription <> A var
+R1162:1162 Coq.Logic.IndefiniteDescription <> P var
+R1164:1164 Coq.Logic.IndefiniteDescription <> x var
+R1134:1140 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1142:1143 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1144:1144 Coq.Logic.IndefiniteDescription <> P var
+R1146:1146 Coq.Logic.IndefiniteDescription <> x var
+prf 1176:1208 <> constructive_definite_description
+R1238:1239 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1237:1237 Coq.Logic.IndefiniteDescription <> A var
+R1251:1251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1266:1270 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1271:1272 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1274:1276 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1278:1280 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1284:1285 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1277:1277 Coq.Logic.IndefiniteDescription <> A var
+R1281:1281 Coq.Logic.IndefiniteDescription <> P var
+R1283:1283 Coq.Logic.IndefiniteDescription <> x var
+R1252:1259 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1261:1262 Coq.Init.Logic <> :type_scope:'exists'_'!'_x_'..'_x_','_x not
+R1263:1263 Coq.Logic.IndefiniteDescription <> P var
+R1265:1265 Coq.Logic.IndefiniteDescription <> x var
+R1311:1345 Coq.Logic.IndefiniteDescription <> constructive_indefinite_description prfax
+R1311:1345 Coq.Logic.IndefiniteDescription <> constructive_indefinite_description prfax
+prf 1372:1388 <> functional_choice
+R1418:1419 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1421:1422 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1420:1420 Coq.Logic.IndefiniteDescription <> B var
+R1417:1417 Coq.Logic.IndefiniteDescription <> A var
+R1434:1434 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1468:1477 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1518:1518 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1478:1484 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1493:1494 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1490:1491 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1492:1492 Coq.Logic.IndefiniteDescription <> B var
+R1489:1489 Coq.Logic.IndefiniteDescription <> A var
+R1506:1506 Coq.Logic.IndefiniteDescription <> A var
+R1509:1509 Coq.Logic.IndefiniteDescription <> R var
+R1514:1514 Coq.Logic.IndefiniteDescription <> f var
+R1516:1516 Coq.Logic.IndefiniteDescription <> x var
+R1511:1511 Coq.Logic.IndefiniteDescription <> x var
+R1446:1446 Coq.Logic.IndefiniteDescription <> A var
+R1449:1455 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1461:1462 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1460:1460 Coq.Logic.IndefiniteDescription <> B var
+R1463:1463 Coq.Logic.IndefiniteDescription <> R var
+R1467:1467 Coq.Logic.IndefiniteDescription <> y var
+R1465:1465 Coq.Logic.IndefiniteDescription <> x var
+R1536:1575 Coq.Logic.ChoiceFacts <> constructive_indefinite_descr_fun_choice thm
+R1536:1575 Coq.Logic.ChoiceFacts <> constructive_indefinite_descr_fun_choice thm
+R1586:1620 Coq.Logic.IndefiniteDescription <> constructive_indefinite_description prfax
+R1586:1620 Coq.Logic.IndefiniteDescription <> constructive_indefinite_description prfax

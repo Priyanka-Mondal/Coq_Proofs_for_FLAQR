@@ -1,0 +1,134 @@
+DIGEST c1d59c1d63b512f79a40278aa95d2b4a
+FCoq.Bool.Sumbool
+def 1026:1040 <> sumbool_of_bool
+R1053:1056 Coq.Init.Datatypes <> bool ind
+R1059:1059 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1068:1072 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1082:1082 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1061:1063 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1060:1060 Coq.Bool.Sumbool <> b var
+R1064:1067 Coq.Init.Datatypes <> true constr
+R1074:1076 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1073:1073 Coq.Bool.Sumbool <> b var
+R1077:1081 Coq.Init.Datatypes <> false constr
+def 1163:1173 <> bool_eq_rec
+R1189:1192 Coq.Init.Datatypes <> bool ind
+R1202:1205 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1198:1201 Coq.Init.Datatypes <> bool ind
+R1216:1216 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1235:1239 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1240:1240 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1261:1265 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1266:1266 Coq.Bool.Sumbool <> P var
+R1268:1268 Coq.Bool.Sumbool <> b var
+R1250:1253 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1254:1254 Coq.Bool.Sumbool <> P var
+R1256:1260 Coq.Init.Datatypes <> false constr
+R1242:1244 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1241:1241 Coq.Bool.Sumbool <> b var
+R1245:1249 Coq.Init.Datatypes <> false constr
+R1225:1228 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1229:1229 Coq.Bool.Sumbool <> P var
+R1231:1234 Coq.Init.Datatypes <> true constr
+R1218:1220 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1217:1217 Coq.Bool.Sumbool <> b var
+R1221:1224 Coq.Init.Datatypes <> true constr
+def 1312:1322 <> bool_eq_ind
+R1338:1341 Coq.Init.Datatypes <> bool ind
+R1351:1354 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1347:1350 Coq.Init.Datatypes <> bool ind
+R1366:1366 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1385:1389 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1390:1390 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1411:1415 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1416:1416 Coq.Bool.Sumbool <> P var
+R1418:1418 Coq.Bool.Sumbool <> b var
+R1400:1403 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1404:1404 Coq.Bool.Sumbool <> P var
+R1406:1410 Coq.Init.Datatypes <> false constr
+R1392:1394 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1391:1391 Coq.Bool.Sumbool <> b var
+R1395:1399 Coq.Init.Datatypes <> false constr
+R1375:1378 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1379:1379 Coq.Bool.Sumbool <> P var
+R1381:1384 Coq.Init.Datatypes <> true constr
+R1368:1370 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1367:1367 Coq.Bool.Sumbool <> b var
+R1371:1374 Coq.Init.Datatypes <> true constr
+sec 1504:1514 <> connectives
+var 1530:1530 connectives A
+var 1532:1532 connectives B
+var 1534:1534 connectives C
+var 1536:1536 connectives D
+var 1560:1561 connectives H1
+R1565:1565 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1567:1571 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1573:1573 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1566:1566 Coq.Bool.Sumbool <> connectives.A var
+R1572:1572 Coq.Bool.Sumbool <> connectives.B var
+var 1589:1590 connectives H2
+R1594:1594 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1596:1600 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1602:1602 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1595:1595 Coq.Bool.Sumbool <> connectives.C var
+R1601:1601 Coq.Bool.Sumbool <> connectives.D var
+def 1619:1629 <> sumbool_and
+R1633:1633 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1640:1644 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1651:1651 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1635:1638 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1634:1634 Coq.Bool.Sumbool <> connectives.A var
+R1639:1639 Coq.Bool.Sumbool <> connectives.C var
+R1646:1649 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1645:1645 Coq.Bool.Sumbool <> connectives.B var
+R1650:1650 Coq.Bool.Sumbool <> connectives.D var
+R1663:1664 Coq.Bool.Sumbool <> connectives.H1 var
+R1672:1673 Coq.Bool.Sumbool <> connectives.H2 var
+R1663:1664 Coq.Bool.Sumbool <> connectives.H1 var
+R1672:1673 Coq.Bool.Sumbool <> connectives.H2 var
+R1672:1673 Coq.Bool.Sumbool <> connectives.H2 var
+def 1707:1716 <> sumbool_or
+R1720:1720 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1727:1731 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1738:1738 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1722:1725 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1721:1721 Coq.Bool.Sumbool <> connectives.A var
+R1726:1726 Coq.Bool.Sumbool <> connectives.C var
+R1733:1736 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1732:1732 Coq.Bool.Sumbool <> connectives.B var
+R1737:1737 Coq.Bool.Sumbool <> connectives.D var
+R1750:1751 Coq.Bool.Sumbool <> connectives.H1 var
+R1759:1760 Coq.Bool.Sumbool <> connectives.H2 var
+R1750:1751 Coq.Bool.Sumbool <> connectives.H1 var
+R1759:1760 Coq.Bool.Sumbool <> connectives.H2 var
+R1759:1760 Coq.Bool.Sumbool <> connectives.H2 var
+def 1794:1804 <> sumbool_not
+R1808:1808 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1810:1814 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1816:1816 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1809:1809 Coq.Bool.Sumbool <> connectives.B var
+R1815:1815 Coq.Bool.Sumbool <> connectives.A var
+R1828:1829 Coq.Bool.Sumbool <> connectives.H1 var
+R1828:1829 Coq.Bool.Sumbool <> connectives.H1 var
+R1854:1864 Coq.Bool.Sumbool connectives <> sec
+def 2102:2116 <> bool_of_sumbool
+R2148:2151 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2152:2152 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2154:2156 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2161:2163 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2182:2182 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2157:2160 Coq.Init.Datatypes <> bool ind
+R2167:2167 Coq.Bool.Sumbool <> b var
+R2181:2181 Coq.Bool.Sumbool <> B var
+R2174:2174 Coq.Bool.Sumbool <> A var
+R2139:2139 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2141:2145 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2147:2147 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2140:2140 Coq.Bool.Sumbool <> A var
+R2146:2146 Coq.Bool.Sumbool <> B var
+R2226:2229 Coq.Init.Datatypes <> true constr
+R2240:2244 Coq.Init.Datatypes <> false constr
+R2226:2229 Coq.Init.Datatypes <> true constr
+R2240:2244 Coq.Init.Datatypes <> false constr
+R2279:2293 Coq.Bool.Sumbool <> bool_of_sumbool def
+R2279:2293 Coq.Bool.Sumbool <> bool_of_sumbool def

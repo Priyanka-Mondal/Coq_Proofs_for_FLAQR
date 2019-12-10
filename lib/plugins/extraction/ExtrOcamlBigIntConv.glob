@@ -1,0 +1,142 @@
+DIGEST b56eb0a4202e81a0c6b39b668e651ce0
+FCoq.extraction.ExtrOcamlBigIntConv
+R949:973 Coq.extraction.Extraction <> <> lib
+R992:996 Coq.Arith.Arith <> <> lib
+R998:1003 Coq.ZArith.ZArith <> <> lib
+ax 1017:1022 <> bigint
+ax 1042:1052 <> bigint_zero
+R1056:1061 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+ax 1074:1084 <> bigint_succ
+R1094:1097 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1098:1103 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R1088:1093 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+ax 1116:1125 <> bigint_opp
+R1135:1138 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1139:1144 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R1129:1134 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+ax 1157:1168 <> bigint_twice
+R1178:1181 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1182:1187 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R1172:1177 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+def 1462:1474 <> bigint_of_nat
+R1481:1484 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1485:1490 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R1478:1480 Coq.Init.Datatypes <> nat ind
+R1523:1523 Coq.extraction.ExtrOcamlBigIntConv <> n var
+R1535:1535 Coq.Init.Datatypes <> O constr
+R1540:1542 Coq.extraction.ExtrOcamlBigIntConv <> acc var
+R1549:1549 Coq.Init.Datatypes <> S constr
+R1556:1559 Coq.extraction.ExtrOcamlBigIntConv <> loop var
+R1579:1579 Coq.extraction.ExtrOcamlBigIntConv <> n var
+R1562:1572 Coq.extraction.ExtrOcamlBigIntConv <> bigint_succ defax
+R1574:1576 Coq.extraction.ExtrOcamlBigIntConv <> acc var
+R1588:1598 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zero defax
+def 1611:1623 <> bigint_of_pos
+R1637:1637 Coq.extraction.ExtrOcamlBigIntConv <> p var
+R1648:1649 Coq.Numbers.BinNums <> xH constr
+R1654:1664 Coq.extraction.ExtrOcamlBigIntConv <> bigint_succ defax
+R1666:1676 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zero defax
+R1682:1683 Coq.Numbers.BinNums <> xO constr
+R1690:1701 Coq.extraction.ExtrOcamlBigIntConv <> bigint_twice defax
+R1704:1716 Coq.extraction.ExtrOcamlBigIntConv <> bigint_of_pos def
+R1718:1718 Coq.extraction.ExtrOcamlBigIntConv <> p var
+R1725:1726 Coq.Numbers.BinNums <> xI constr
+R1733:1743 Coq.extraction.ExtrOcamlBigIntConv <> bigint_succ defax
+R1746:1757 Coq.extraction.ExtrOcamlBigIntConv <> bigint_twice defax
+R1760:1772 Coq.extraction.ExtrOcamlBigIntConv <> bigint_of_pos def
+R1774:1774 Coq.extraction.ExtrOcamlBigIntConv <> p var
+def 1794:1804 <> bigint_of_z
+R1818:1818 Coq.extraction.ExtrOcamlBigIntConv <> z var
+R1829:1830 Coq.Numbers.BinNums <> Z0 constr
+R1835:1845 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zero defax
+R1851:1854 Coq.Numbers.BinNums <> Zpos constr
+R1861:1873 Coq.extraction.ExtrOcamlBigIntConv <> bigint_of_pos def
+R1881:1884 Coq.Numbers.BinNums <> Zneg constr
+R1891:1900 Coq.extraction.ExtrOcamlBigIntConv <> bigint_opp defax
+R1903:1915 Coq.extraction.ExtrOcamlBigIntConv <> bigint_of_pos def
+def 1936:1946 <> bigint_of_n
+R1960:1960 Coq.extraction.ExtrOcamlBigIntConv <> n var
+R1971:1972 Coq.Numbers.BinNums <> N0 constr
+R1977:1987 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zero defax
+R1993:1996 Coq.Numbers.BinNums <> Npos constr
+R2003:2015 Coq.extraction.ExtrOcamlBigIntConv <> bigint_of_pos def
+ax 2196:2213 <> bigint_natlike_rec
+R2228:2231 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2232:2232 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2237:2241 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2248:2251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2252:2252 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2242:2247 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2234:2235 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2236:2236 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2233:2233 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2227:2227 Coq.extraction.ExtrOcamlBigIntConv <> A var
+def 2321:2333 <> nat_of_bigint
+R2343:2346 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2347:2349 Coq.Init.Datatypes <> nat ind
+R2337:2342 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2354:2371 Coq.extraction.ExtrOcamlBigIntConv <> bigint_natlike_rec defax
+R2377:2377 Coq.Init.Datatypes <> S constr
+R2375:2375 Coq.Init.Datatypes <> O constr
+ax 2391:2408 <> bigint_poslike_rec
+R2422:2422 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2427:2431 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2432:2432 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2437:2441 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2443:2446 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2453:2456 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2457:2457 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2447:2452 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2442:2442 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2434:2435 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2436:2436 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2433:2433 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2424:2425 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2426:2426 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2423:2423 Coq.extraction.ExtrOcamlBigIntConv <> A var
+def 2531:2543 <> pos_of_bigint
+R2553:2556 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2557:2564 Coq.Numbers.BinNums <> positive ind
+R2547:2552 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2569:2586 Coq.extraction.ExtrOcamlBigIntConv <> bigint_poslike_rec defax
+R2596:2597 Coq.Numbers.BinNums <> xH constr
+R2593:2594 Coq.Numbers.BinNums <> xO constr
+R2590:2591 Coq.Numbers.BinNums <> xI constr
+ax 2611:2627 <> bigint_zlike_case
+R2643:2646 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2647:2647 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2657:2661 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2662:2662 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2672:2676 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2683:2686 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2687:2687 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2677:2682 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2669:2670 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2671:2671 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2663:2668 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2654:2655 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2656:2656 Coq.extraction.ExtrOcamlBigIntConv <> A var
+R2648:2653 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2642:2642 Coq.extraction.ExtrOcamlBigIntConv <> A var
+def 2753:2763 <> z_of_bigint
+R2773:2776 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2777:2777 Coq.Numbers.BinNums <> Z ind
+R2767:2772 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2783:2799 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zlike_case defax
+R2874:2877 Coq.Numbers.BinNums <> Zneg constr
+R2880:2892 Coq.extraction.ExtrOcamlBigIntConv <> pos_of_bigint def
+R2894:2894 Coq.extraction.ExtrOcamlBigIntConv <> i var
+R2816:2819 Coq.Numbers.BinNums <> Zpos constr
+R2822:2834 Coq.extraction.ExtrOcamlBigIntConv <> pos_of_bigint def
+R2836:2836 Coq.extraction.ExtrOcamlBigIntConv <> i var
+R2803:2804 Coq.Numbers.BinNums <> Z0 constr
+def 2911:2921 <> n_of_bigint
+R2931:2934 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2935:2935 Coq.Numbers.BinNums <> N ind
+R2925:2930 Coq.extraction.ExtrOcamlBigIntConv <> bigint defax
+R2941:2957 Coq.extraction.ExtrOcamlBigIntConv <> bigint_zlike_case defax
+R3008:3009 Coq.Numbers.BinNums <> N0 constr
+R2974:2977 Coq.Numbers.BinNums <> Npos constr
+R2980:2992 Coq.extraction.ExtrOcamlBigIntConv <> pos_of_bigint def
+R2994:2994 Coq.extraction.ExtrOcamlBigIntConv <> i var
+R2961:2962 Coq.Numbers.BinNums <> N0 constr

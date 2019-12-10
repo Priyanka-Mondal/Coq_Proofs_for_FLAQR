@@ -1,0 +1,116 @@
+DIGEST 4a28af06b2d9a61f08dd0f6e5e27d7ae
+FCoq.Init.Logic_Type
+R848:856 Coq.Init.Datatypes <> <> lib
+R874:878 Coq.Init.Logic <> <> lib
+def 930:933 <> notT
+R948:951 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R952:956 Coq.Init.Logic <> False ind
+R947:947 Coq.Init.Logic_Type <> A var
+sec 1001:1024 <> identity_is_a_congruence
+var 1039:1039 identity_is_a_congruence A
+var 1041:1041 identity_is_a_congruence B
+var 1061:1061 identity_is_a_congruence f
+R1066:1069 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1070:1070 Coq.Init.Logic_Type <> identity_is_a_congruence.B var
+R1065:1065 Coq.Init.Logic_Type <> identity_is_a_congruence.A var
+var 1085:1085 identity_is_a_congruence x
+var 1087:1087 identity_is_a_congruence y
+var 1089:1089 identity_is_a_congruence z
+R1093:1093 Coq.Init.Logic_Type <> identity_is_a_congruence.A var
+prf 1104:1115 <> identity_sym
+R1131:1134 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1135:1142 Coq.Init.Datatypes <> identity ind
+R1146:1146 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+R1144:1144 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1119:1126 Coq.Init.Datatypes <> identity ind
+R1130:1130 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1128:1128 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+prf 1198:1211 <> identity_trans
+R1227:1230 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1243:1246 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1247:1254 Coq.Init.Datatypes <> identity ind
+R1258:1258 Coq.Init.Logic_Type <> identity_is_a_congruence.z var
+R1256:1256 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+R1231:1238 Coq.Init.Datatypes <> identity ind
+R1242:1242 Coq.Init.Logic_Type <> identity_is_a_congruence.z var
+R1240:1240 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1215:1222 Coq.Init.Datatypes <> identity ind
+R1226:1226 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1224:1224 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+prf 1310:1323 <> identity_congr
+R1339:1342 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1343:1350 Coq.Init.Datatypes <> identity ind
+R1359:1359 Coq.Init.Logic_Type <> identity_is_a_congruence.f var
+R1361:1361 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1353:1353 Coq.Init.Logic_Type <> identity_is_a_congruence.f var
+R1355:1355 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+R1327:1334 Coq.Init.Datatypes <> identity ind
+R1338:1338 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1336:1336 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+prf 1414:1429 <> not_identity_sym
+R1452:1455 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1456:1459 Coq.Init.Logic_Type <> notT def
+R1462:1469 Coq.Init.Datatypes <> identity ind
+R1473:1473 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+R1471:1471 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1433:1436 Coq.Init.Logic_Type <> notT def
+R1439:1446 Coq.Init.Datatypes <> identity ind
+R1450:1450 Coq.Init.Logic_Type <> identity_is_a_congruence.y var
+R1448:1448 Coq.Init.Logic_Type <> identity_is_a_congruence.x var
+R1547:1570 Coq.Init.Logic_Type identity_is_a_congruence <> sec
+def 1585:1598 <> identity_ind_r
+R1623:1623 Coq.Init.Logic_Type <> A var
+R1630:1633 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1629:1629 Coq.Init.Logic_Type <> A var
+R1644:1647 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1657:1657 Coq.Init.Logic_Type <> A var
+R1672:1675 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1676:1676 Coq.Init.Logic_Type <> P var
+R1678:1678 Coq.Init.Logic_Type <> y var
+R1660:1667 Coq.Init.Datatypes <> identity ind
+R1671:1671 Coq.Init.Logic_Type <> a var
+R1669:1669 Coq.Init.Logic_Type <> y var
+R1641:1641 Coq.Init.Logic_Type <> P var
+R1643:1643 Coq.Init.Logic_Type <> a var
+R1708:1719 Coq.Init.Logic_Type <> identity_sym thm
+R1708:1719 Coq.Init.Logic_Type <> identity_sym thm
+def 1767:1780 <> identity_rec_r
+R1805:1805 Coq.Init.Logic_Type <> A var
+R1812:1815 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1811:1811 Coq.Init.Logic_Type <> A var
+R1825:1828 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1838:1838 Coq.Init.Logic_Type <> A var
+R1853:1856 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1857:1857 Coq.Init.Logic_Type <> P var
+R1859:1859 Coq.Init.Logic_Type <> y var
+R1841:1848 Coq.Init.Datatypes <> identity ind
+R1852:1852 Coq.Init.Logic_Type <> a var
+R1850:1850 Coq.Init.Logic_Type <> y var
+R1822:1822 Coq.Init.Logic_Type <> P var
+R1824:1824 Coq.Init.Logic_Type <> a var
+R1889:1900 Coq.Init.Logic_Type <> identity_sym thm
+R1889:1900 Coq.Init.Logic_Type <> identity_sym thm
+def 1948:1962 <> identity_rect_r
+R1987:1987 Coq.Init.Logic_Type <> A var
+R1994:1997 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1993:1993 Coq.Init.Logic_Type <> A var
+R2008:2011 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2021:2021 Coq.Init.Logic_Type <> A var
+R2036:2039 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2040:2040 Coq.Init.Logic_Type <> P var
+R2042:2042 Coq.Init.Logic_Type <> y var
+R2024:2031 Coq.Init.Datatypes <> identity ind
+R2035:2035 Coq.Init.Logic_Type <> a var
+R2033:2033 Coq.Init.Logic_Type <> y var
+R2005:2005 Coq.Init.Logic_Type <> P var
+R2007:2007 Coq.Init.Logic_Type <> a var
+R2072:2083 Coq.Init.Logic_Type <> identity_sym thm
+R2072:2083 Coq.Init.Logic_Type <> identity_sym thm
+syndef 2182:2188 <> refl_id
+R2193:2205 Coq.Init.Datatypes <> identity_refl constr
+syndef 2232:2237 <> sym_id
+R2242:2253 Coq.Init.Logic_Type <> identity_sym thm
+syndef 2280:2287 <> trans_id
+R2292:2305 Coq.Init.Logic_Type <> identity_trans thm
+syndef 2332:2341 <> sym_not_id
+R2346:2361 Coq.Init.Logic_Type <> not_identity_sym thm

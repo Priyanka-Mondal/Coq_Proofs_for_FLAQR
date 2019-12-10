@@ -1,0 +1,73 @@
+DIGEST 766125b38d86635a59e68c627bfc98a9
+FCoq.Numbers.Cyclic.Abstract.DoubleType
+R866:871 Coq.ZArith.ZArith <> <> lib
+def 912:915 <> base
+R927:931 Coq.ZArith.BinInt Z pow def
+R936:939 Coq.Numbers.BinNums <> Zpos constr
+R941:946 Coq.Numbers.Cyclic.Abstract.DoubleType <> digits var
+R960:963 Coq.Numbers.Cyclic.Abstract.DoubleType <> base def
+sec 995:999 <> Carry
+var 1013:1013 Carry A
+ind 1035:1039 <> carry
+constr 1048:1049 <> C0
+constr 1068:1069 <> C1
+R1054:1057 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1058:1062 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry ind
+R1053:1053 Coq.Numbers.Cyclic.Abstract.DoubleType <> Carry.A var
+R1074:1077 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1078:1082 Coq.Numbers.Cyclic.Abstract.DoubleType <> carry ind
+R1073:1073 Coq.Numbers.Cyclic.Abstract.DoubleType <> Carry.A var
+def 1098:1109 <> interp_carry
+R1117:1117 Coq.Numbers.BinNums <> Z ind
+R1122:1122 Coq.Numbers.BinNums <> Z ind
+R1133:1136 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1137:1137 Coq.Numbers.BinNums <> Z ind
+R1132:1132 Coq.Numbers.Cyclic.Abstract.DoubleType <> Carry.A var
+R1153:1153 Coq.Numbers.Cyclic.Abstract.DoubleType <> c var
+R1164:1165 Coq.Numbers.Cyclic.Abstract.DoubleType <> C0 constr
+R1172:1177 Coq.Numbers.Cyclic.Abstract.DoubleType <> interp var
+R1185:1186 Coq.Numbers.Cyclic.Abstract.DoubleType <> C1 constr
+R1199:1201 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R1197:1197 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R1193:1196 Coq.Numbers.Cyclic.Abstract.DoubleType <> sign var
+R1198:1198 Coq.Numbers.Cyclic.Abstract.DoubleType <> B var
+R1202:1207 Coq.Numbers.Cyclic.Abstract.DoubleType <> interp var
+R1223:1227 Coq.Numbers.Cyclic.Abstract.DoubleType Carry <> sec
+sec 1239:1242 <> Zn2Z
+var 1256:1258 Zn2Z znz
+ind 1501:1504 <> zn2z
+constr 1513:1514 <> W0
+constr 1527:1528 <> WW
+R1518:1521 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z ind
+R1535:1538 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1542:1545 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1546:1549 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z ind
+R1539:1541 Coq.Numbers.Cyclic.Abstract.DoubleType <> Zn2Z.znz var
+R1532:1534 Coq.Numbers.Cyclic.Abstract.DoubleType <> Zn2Z.znz var
+def 1565:1573 <> zn2z_to_Z
+R1579:1579 Coq.Numbers.BinNums <> Z ind
+R1593:1594 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1595:1595 Coq.Numbers.BinNums <> Z ind
+R1590:1592 Coq.Numbers.Cyclic.Abstract.DoubleType <> Zn2Z.znz var
+R1601:1604 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z ind
+R1618:1618 Coq.Numbers.Cyclic.Abstract.DoubleType <> x var
+R1629:1630 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+R1641:1642 Coq.Numbers.Cyclic.Abstract.DoubleType <> WW constr
+R1667:1669 Coq.ZArith.BinInt <> :Z_scope:x_'+'_x not
+R1662:1664 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R1653:1658 Coq.Numbers.Cyclic.Abstract.DoubleType <> w_to_Z var
+R1665:1666 Coq.Numbers.Cyclic.Abstract.DoubleType <> wB var
+R1670:1675 Coq.Numbers.Cyclic.Abstract.DoubleType <> w_to_Z var
+R1692:1695 Coq.Numbers.Cyclic.Abstract.DoubleType Zn2Z <> sec
+R1709:1710 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+R1709:1710 Coq.Numbers.Cyclic.Abstract.DoubleType <> W0 constr
+def 1955:1958 <> word
+R1972:1974 Coq.Init.Datatypes <> nat ind
+R1994:1994 Coq.Numbers.Cyclic.Abstract.DoubleType <> n var
+R2004:2004 Coq.Init.Datatypes <> O constr
+R2009:2009 Coq.Numbers.Cyclic.Abstract.DoubleType <> w var
+R2014:2014 Coq.Init.Datatypes <> S constr
+R2021:2024 Coq.Numbers.Cyclic.Abstract.DoubleType <> zn2z ind
+R2027:2030 Coq.Numbers.Cyclic.Abstract.DoubleType <> word def
+R2034:2034 Coq.Numbers.Cyclic.Abstract.DoubleType <> n var
+R2032:2032 Coq.Numbers.Cyclic.Abstract.DoubleType <> w var

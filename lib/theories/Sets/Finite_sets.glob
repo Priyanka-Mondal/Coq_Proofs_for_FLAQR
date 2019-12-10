@@ -1,0 +1,124 @@
+DIGEST a96a7844627da916b6138be304f1bd6b
+FCoq.Sets.Finite_sets
+R1838:1846 Coq.Sets.Ensembles <> <> lib
+sec 1858:1872 <> Ensembles_finis
+var 1886:1886 Ensembles_finis U
+ind 1909:1914 <> Finite
+constr 1946:1960 <> Empty_is_finite
+constr 1991:2005 <> Union_is_finite
+R1928:1931 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1918:1925 Coq.Sets.Ensembles <> Ensemble def
+R1927:1927 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R1964:1969 Coq.Sets.Finite_sets <> Finite ind
+R1972:1980 Coq.Sets.Ensembles <> Empty_set ind
+R1982:1982 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2024:2031 Coq.Sets.Ensembles <> Ensemble def
+R2033:2033 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2052:2055 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2065:2065 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2078:2081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2082:2087 Coq.Sets.Finite_sets <> Finite ind
+R2090:2092 Coq.Sets.Ensembles <> Add def
+R2098:2098 Coq.Sets.Finite_sets <> x var
+R2096:2096 Coq.Sets.Finite_sets <> A var
+R2094:2094 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2068:2069 Coq.Init.Logic <> :type_scope:'~'_x not
+R2070:2071 Coq.Sets.Ensembles <> In def
+R2077:2077 Coq.Sets.Finite_sets <> x var
+R2075:2075 Coq.Sets.Finite_sets <> A var
+R2073:2073 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2044:2049 Coq.Sets.Finite_sets <> Finite ind
+R2051:2051 Coq.Sets.Finite_sets <> A var
+ind 2115:2122 <> cardinal
+constr 2161:2170 <> card_empty
+constr 2205:2212 <> card_add
+R2136:2139 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2143:2146 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2140:2142 Coq.Init.Datatypes <> nat ind
+R2126:2133 Coq.Sets.Ensembles <> Ensemble def
+R2135:2135 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2174:2181 Coq.Sets.Finite_sets <> cardinal ind
+R2184:2192 Coq.Sets.Ensembles <> Empty_set ind
+R2194:2194 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2232:2239 Coq.Sets.Ensembles <> Ensemble def
+R2241:2241 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2247:2249 Coq.Init.Datatypes <> nat ind
+R2273:2276 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2286:2286 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2299:2302 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2303:2310 Coq.Sets.Finite_sets <> cardinal ind
+R2325:2325 Coq.Init.Datatypes <> S constr
+R2327:2327 Coq.Sets.Finite_sets <> n var
+R2313:2315 Coq.Sets.Ensembles <> Add def
+R2321:2321 Coq.Sets.Finite_sets <> x var
+R2319:2319 Coq.Sets.Finite_sets <> A var
+R2317:2317 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2289:2290 Coq.Init.Logic <> :type_scope:'~'_x not
+R2291:2292 Coq.Sets.Ensembles <> In def
+R2298:2298 Coq.Sets.Finite_sets <> x var
+R2296:2296 Coq.Sets.Finite_sets <> A var
+R2294:2294 Coq.Sets.Finite_sets <> Ensembles_finis.U var
+R2261:2268 Coq.Sets.Finite_sets <> cardinal ind
+R2272:2272 Coq.Sets.Finite_sets <> n var
+R2270:2270 Coq.Sets.Finite_sets <> A var
+R2336:2350 Coq.Sets.Finite_sets Ensembles_finis <> sec
+R2462:2478 Coq.Sets.Constructive_sets <> <> lib
+sec 2490:2510 <> Ensembles_finis_facts
+var 2524:2524 Ensembles_finis_facts U
+prf 2543:2557 <> cardinal_invert
+R2575:2582 Coq.Sets.Ensembles <> Ensemble def
+R2584:2584 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2590:2592 Coq.Init.Datatypes <> nat ind
+R2616:2625 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2632:2632 Coq.Sets.Finite_sets <> p var
+R2642:2642 Coq.Init.Datatypes <> O constr
+R2648:2650 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2647:2647 Coq.Sets.Finite_sets <> X var
+R2651:2659 Coq.Sets.Ensembles <> Empty_set ind
+R2661:2661 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2666:2666 Coq.Init.Datatypes <> S constr
+R2683:2689 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2695:2709 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2769:2769 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2710:2716 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2722:2723 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2737:2740 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2725:2727 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2724:2724 Coq.Sets.Finite_sets <> X var
+R2728:2730 Coq.Sets.Ensembles <> Add def
+R2736:2736 Coq.Sets.Finite_sets <> x var
+R2734:2734 Coq.Sets.Finite_sets <> A var
+R2732:2732 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2751:2754 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2741:2742 Coq.Init.Logic <> :type_scope:'~'_x not
+R2743:2744 Coq.Sets.Ensembles <> In def
+R2750:2750 Coq.Sets.Finite_sets <> x var
+R2748:2748 Coq.Sets.Finite_sets <> A var
+R2746:2746 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2755:2762 Coq.Sets.Finite_sets <> cardinal ind
+R2766:2766 Coq.Sets.Finite_sets <> A var
+R2764:2764 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2602:2609 Coq.Sets.Finite_sets <> cardinal ind
+R2615:2615 Coq.Sets.Finite_sets <> p var
+R2613:2613 Coq.Sets.Finite_sets <> X var
+R2611:2611 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+prf 2867:2879 <> cardinal_elim
+R2897:2904 Coq.Sets.Ensembles <> Ensemble def
+R2906:2906 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2912:2914 Coq.Init.Datatypes <> nat ind
+R2938:2947 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2954:2954 Coq.Sets.Finite_sets <> p var
+R2964:2964 Coq.Init.Datatypes <> O constr
+R2970:2972 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2969:2969 Coq.Sets.Finite_sets <> X var
+R2973:2981 Coq.Sets.Ensembles <> Empty_set ind
+R2983:2983 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2988:2988 Coq.Init.Datatypes <> S constr
+R2995:3003 Coq.Sets.Ensembles <> Inhabited ind
+R3007:3007 Coq.Sets.Finite_sets <> X var
+R3005:3005 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R2924:2931 Coq.Sets.Finite_sets <> cardinal ind
+R2937:2937 Coq.Sets.Finite_sets <> p var
+R2935:2935 Coq.Sets.Finite_sets <> X var
+R2933:2933 Coq.Sets.Finite_sets <> Ensembles_finis_facts.U var
+R3093:3113 Coq.Sets.Finite_sets Ensembles_finis_facts <> sec

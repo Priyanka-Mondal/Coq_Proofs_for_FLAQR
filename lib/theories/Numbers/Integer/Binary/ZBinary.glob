@@ -1,0 +1,25 @@
+DIGEST 4d9486e739370b8e2a6181dcaeb9025d
+FCoq.Numbers.Integer.Binary.ZBinary
+R842:848 Coq.Numbers.Integer.Abstract.ZAxioms <> <> lib
+R850:860 Coq.Numbers.Integer.Abstract.ZProperties <> <> lib
+R862:867 Coq.ZArith.BinInt <> <> lib
+R969:978 Coq.Numbers.Integer.Abstract.ZAxioms ZAxiomsSig <> mod
+R983:1002 Coq.Structures.Orders UsualOrderedTypeFull <> mod
+R1007:1016 Coq.Structures.Orders TotalOrder <> mod
+R1022:1043 Coq.Structures.Equalities UsualDecidableTypeFull <> mod
+R1049:1056 Coq.ZArith.BinInt Z <> modtype
+mod 963:963 <> Z
+sec 1271:1279 <> TestOrder
+var 1287:1290 TestOrder test
+R1310:1313 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1318:1321 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1323:1323 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1322:1322 Coq.Numbers.Integer.Binary.ZBinary <> x var
+R1324:1324 Coq.Numbers.Integer.Binary.ZBinary <> y var
+R1315:1316 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R1314:1314 Coq.Numbers.Integer.Binary.ZBinary <> y var
+R1317:1317 Coq.Numbers.Integer.Binary.ZBinary <> x var
+R1307:1308 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R1306:1306 Coq.Numbers.Integer.Binary.ZBinary <> x var
+R1309:1309 Coq.Numbers.Integer.Binary.ZBinary <> y var
+R1355:1363 Coq.Numbers.Integer.Binary.ZBinary TestOrder <> sec

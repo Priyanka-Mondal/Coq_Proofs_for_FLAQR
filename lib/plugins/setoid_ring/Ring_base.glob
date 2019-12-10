@@ -1,0 +1,6 @@
+DIGEST 19c7c23d5522660ff395fd2b1f06dfeb
+FCoq.setoid_ring.Ring_base
+R843:847 Coq.quote.Quote <> <> lib
+R901:911 Coq.setoid_ring.Ring_theory <> <> lib
+R929:936 Coq.setoid_ring.Ring_tac <> <> lib
+R954:964 Coq.setoid_ring.InitialRing <> <> lib

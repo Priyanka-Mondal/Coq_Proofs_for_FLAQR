@@ -1,0 +1,10 @@
+DIGEST 8aa0adc54547fd755a515ae973b4b740
+FCoq.extraction.ExtrOcamlBasic
+R684:708 Coq.extraction.Extraction <> <> lib
+R785:788 Coq.Init.Datatypes <> bool ind
+R832:837 Coq.Init.Datatypes <> option ind
+R882:885 Coq.Init.Datatypes <> unit ind
+R923:926 Coq.Init.Datatypes <> list ind
+R973:976 Coq.Init.Datatypes <> prod ind
+R1217:1223 Coq.Init.Specif <> sumbool ind
+R1267:1271 Coq.Init.Specif <> sumor ind

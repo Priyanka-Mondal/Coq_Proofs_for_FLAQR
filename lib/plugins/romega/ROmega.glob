@@ -1,0 +1,7 @@
+DIGEST eec74f7f2b53c8de691e7327e35d40d1
+FCoq.romega.ROmega
+R277:289 Coq.romega.ReflOmegaCore <> <> lib
+R307:312 Coq.Setoids.Setoid <> <> lib
+R330:337 Coq.omega.PreOmega <> <> lib
+R355:365 Coq.ZArith.ZArith_base <> <> lib
+R383:393 Coq.omega.OmegaPlugin <> <> lib

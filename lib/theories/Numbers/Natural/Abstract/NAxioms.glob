@@ -1,0 +1,149 @@
+DIGEST 70204ea23e619428f7428e54bb849f22
+FCoq.Numbers.Natural.Abstract.NAxioms
+R841:844 Coq.Bool.Bool <> <> lib
+R846:853 Coq.Numbers.NatInt.NZAxioms <> <> lib
+R855:862 Coq.Numbers.NatInt.NZParity <> <> lib
+R864:868 Coq.Numbers.NatInt.NZPow <> <> lib
+R870:875 Coq.Numbers.NatInt.NZSqrt <> <> lib
+R877:881 Coq.Numbers.NatInt.NZLog <> <> lib
+R883:887 Coq.Numbers.NatInt.NZDiv <> <> lib
+R889:893 Coq.Numbers.NatInt.NZGcd <> <> lib
+R895:900 Coq.Numbers.NatInt.NZBits <> <> lib
+R1016:1027 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+modtype 996:1001 <> NAxiom
+ax 1038:1043 NAxiom pred_0
+R1050:1053 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1047:1047 Coq.Numbers.Natural.Abstract.NAxioms NZ P syndef
+R1061:1066 Coq.Numbers.Natural.Abstract.NAxioms NAxiom <> modtype
+R1100:1113 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig <> mod
+R1118:1123 Coq.Numbers.Natural.Abstract.NAxioms NAxiom <> mod
+modtype 1082:1095 <> NAxiomsMiniSig
+R1157:1171 Coq.Numbers.NatInt.NZAxioms NZOrdAxiomsSig' <> mod
+R1176:1181 Coq.Numbers.Natural.Abstract.NAxioms NAxiom <> mod
+modtype 1138:1152 <> NAxiomsMiniSig'
+R1406:1420 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+R1435:1441 Coq.Numbers.NatInt.NZDiv DivMod' <> mod
+R1443:1443 Coq.Numbers.Natural.Abstract.NAxioms N <> modtype
+modtype 1381:1392 <> NDivSpecific
+ax 1454:1468 NDivSpecific mod_upper_bound
+R1490:1493 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1501:1503 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1495:1499 Coq.Numbers.NatInt.NZDiv DivModNotation ::x_'mod'_x not
+R1494:1494 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R1500:1500 Coq.Numbers.Natural.Abstract.NAxioms <> b var
+R1504:1504 Coq.Numbers.Natural.Abstract.NAxioms <> b var
+R1485:1488 Coq.Structures.Equalities EqNotation ::x_'~='_x not
+R1484:1484 Coq.Numbers.Natural.Abstract.NAxioms <> b var
+R1511:1522 Coq.Numbers.Natural.Abstract.NAxioms NDivSpecific <> modtype
+R1662:1675 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig <> mod
+R1680:1693 Coq.Structures.Orders OrderFunctions <> mod
+R1700:1716 Coq.Numbers.NatInt.NZParity NZParity <> mod
+R1721:1731 Coq.Numbers.NatInt.NZPow NZPow <> mod
+R1736:1748 Coq.Numbers.NatInt.NZSqrt NZSqrt <> mod
+R1753:1764 Coq.Numbers.NatInt.NZLog NZLog2 <> mod
+R1771:1781 Coq.Numbers.NatInt.NZGcd NZGcd <> mod
+R1786:1796 Coq.Numbers.NatInt.NZDiv NZDiv <> mod
+R1801:1813 Coq.Numbers.NatInt.NZBits NZBits <> mod
+R1818:1825 Coq.Numbers.NatInt.NZAxioms NZSquare <> mod
+modtype 1648:1657 <> NAxiomsSig
+R1856:1870 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+R1875:1889 Coq.Structures.Orders OrderFunctions' <> mod
+R1896:1912 Coq.Numbers.NatInt.NZParity NZParity <> mod
+R1917:1928 Coq.Numbers.NatInt.NZPow NZPow' <> mod
+R1933:1946 Coq.Numbers.NatInt.NZSqrt NZSqrt' <> mod
+R1951:1962 Coq.Numbers.NatInt.NZLog NZLog2 <> mod
+R1969:1980 Coq.Numbers.NatInt.NZGcd NZGcd' <> mod
+R1985:1996 Coq.Numbers.NatInt.NZDiv NZDiv' <> mod
+R2001:2014 Coq.Numbers.NatInt.NZBits NZBits' <> mod
+R2019:2026 Coq.Numbers.NatInt.NZAxioms NZSquare <> mod
+modtype 1841:1851 <> NAxiomsSig'
+R2146:2157 Coq.Numbers.NatInt.NZAxioms NZDomainSig' <> mod
+modtype 2122:2131 <> NAxiomsRec
+ax 2179:2187 NAxiomsRec recursion
+R2211:2214 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2215:2215 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2227:2231 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2233:2236 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2237:2237 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2232:2232 Coq.Numbers.Natural.Abstract.NAxioms NZ t defax
+R2217:2220 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2222:2225 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2226:2226 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2221:2221 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2216:2216 Coq.Numbers.Natural.Abstract.NAxioms NZ t defax
+R2210:2210 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+inst 2258:2269 NAxiomsRec recursion_wd
+R2289:2296 Coq.Relations.Relation_Definitions <> relation def
+R2298:2298 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2304:2309 Coq.Classes.Morphisms <> Proper class
+R2353:2361 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec recursion defax
+R2315:2319 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2312:2314 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2320:2320 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2335:2340 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2323:2325 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2321:2322 Coq.Numbers.Natural.Abstract.NAxioms NZ eq defax
+R2329:2331 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2326:2328 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2332:2334 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2343:2347 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2341:2342 Coq.Numbers.Natural.Abstract.NAxioms NZ eq defax
+R2348:2350 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+ax 2371:2381 NAxiomsRec recursion_0
+R2403:2403 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2412:2415 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2417:2420 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2421:2421 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2416:2416 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2411:2411 Coq.Numbers.Natural.Abstract.NAxioms NZ t defax
+R2440:2442 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2425:2433 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec recursion defax
+R2437:2437 Coq.Numbers.Natural.Abstract.NAxioms <> f var
+R2435:2435 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R2443:2443 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+ax 2453:2466 NAxiomsRec recursion_succ
+R2490:2497 Coq.Relations.Relation_Definitions <> relation def
+R2499:2499 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2507:2507 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2516:2519 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2521:2524 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2525:2525 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2520:2520 Coq.Numbers.Natural.Abstract.NAxioms <> A var
+R2515:2515 Coq.Numbers.Natural.Abstract.NAxioms NZ t defax
+R2540:2543 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2569:2578 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2589:2591 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2616:2616 Coq.Numbers.Natural.Abstract.NAxioms <> f var
+R2621:2629 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec recursion defax
+R2635:2635 Coq.Numbers.Natural.Abstract.NAxioms <> n var
+R2633:2633 Coq.Numbers.Natural.Abstract.NAxioms <> f var
+R2631:2631 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R2618:2618 Coq.Numbers.Natural.Abstract.NAxioms <> n var
+R2594:2602 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec recursion defax
+R2609:2609 Coq.Numbers.Natural.Abstract.NAxioms NZ S syndef
+R2611:2611 Coq.Numbers.Natural.Abstract.NAxioms <> n var
+R2606:2606 Coq.Numbers.Natural.Abstract.NAxioms <> f var
+R2604:2604 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R2544:2549 Coq.Classes.Morphisms <> Proper class
+R2568:2568 Coq.Numbers.Natural.Abstract.NAxioms <> f var
+R2554:2556 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2552:2553 Coq.Numbers.Natural.Abstract.NAxioms NZ eq defax
+R2560:2562 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R2557:2559 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2563:2565 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2533:2535 Coq.Numbers.Natural.Abstract.NAxioms <> Aeq var
+R2539:2539 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R2537:2537 Coq.Numbers.Natural.Abstract.NAxioms <> a var
+R2645:2654 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec <> modtype
+R2687:2700 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig <> mod
+R2705:2714 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec <> mod
+modtype 2670:2682 <> NAxiomsRecSig
+R2747:2761 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsMiniSig' <> mod
+R2766:2775 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec <> mod
+modtype 2729:2742 <> NAxiomsRecSig'
+R2809:2818 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig <> mod
+R2823:2832 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec <> mod
+modtype 2791:2804 <> NAxiomsFullSig
+R2866:2876 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig' <> mod
+R2881:2890 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRec <> mod
+modtype 2847:2861 <> NAxiomsFullSig'

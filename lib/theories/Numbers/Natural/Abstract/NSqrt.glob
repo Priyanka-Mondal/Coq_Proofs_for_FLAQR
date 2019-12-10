@@ -1,0 +1,222 @@
+DIGEST dc7d3fc991e4d59dcefbdefbf7e4f245
+FCoq.Numbers.Natural.Abstract.NSqrt
+R734:740 Coq.Numbers.Natural.Abstract.NAxioms <> <> lib
+R742:745 Coq.Numbers.Natural.Abstract.NSub <> <> lib
+R747:752 Coq.Numbers.NatInt.NZSqrt <> <> lib
+R785:795 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsSig' <> mod
+R809:816 Coq.Numbers.Natural.Abstract.NSub NSubProp <> mod
+R818:818 Coq.Numbers.Natural.Abstract.NSqrt A <> modtype
+mod 763:771 <> NSqrtProp
+R856:858 Coq.Structures.Equalities Nop <> mod
+R863:872 Coq.Numbers.NatInt.NZSqrt NZSqrtProp <> mod
+R874:874 Coq.Numbers.Natural.Abstract.NSqrt A <> modtype
+R876:876 Coq.Numbers.Natural.Abstract.NSqrt A <> modtype
+R878:878 Coq.Numbers.Natural.Abstract.NSqrt B <> modtype
+mod 838:851 <> NSqrtProp.Private_NZSqrt
+R921:930 Coq.Numbers.Natural.Abstract.NSqrt B neq_0_lt_0 thm
+R944:949 Coq.Numbers.Natural.Abstract.NSqrt B le_0_l thm
+prf 1068:1077 NSqrtProp sqrt_spec'
+R1100:1103 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R1105:1107 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R1095:1095 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1091:1093 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1094:1094 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1096:1098 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1099:1099 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1104:1104 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1104:1104 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1116:1118 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1108:1108 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R1111:1113 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1114:1114 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1119:1119 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R1122:1124 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1125:1125 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1141:1149 Coq.Numbers.Natural.Abstract.NSqrt A sqrt_spec prfax
+def 1169:1179 NSqrtProp sqrt_unique
+R1213:1216 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1221:1224 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1217:1219 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1220:1220 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1225:1225 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1198:1199 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R1201:1201 Coq.Structures.Orders LtLeNotation ::x_'<='_x_'<'_x not
+R1196:1196 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1195:1195 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1197:1197 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1200:1200 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1200:1200 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1202:1202 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1206:1208 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1212:1212 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1203:1203 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R1205:1205 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1209:1209 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R1211:1211 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1231:1241 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_unique thm
+prf 1251:1261 NSqrtProp sqrt_square
+R1283:1286 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R1275:1278 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1282:1282 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1280:1280 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1279:1279 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1281:1281 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1287:1287 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1302:1312 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_square thm
+def 1332:1343 NSqrtProp sqrt_le_mono
+R1363:1366 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1371:1374 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1367:1369 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1370:1370 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1375:1377 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1378:1378 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1360:1361 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1359:1359 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1362:1362 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1384:1395 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_le_mono thm
+def 1410:1423 NSqrtProp sqrt_lt_cancel
+R1450:1453 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1455:1457 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1454:1454 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1458:1458 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1443:1445 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1439:1441 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1442:1442 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1446:1448 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1449:1449 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1464:1477 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_lt_cancel thm
+prf 1487:1500 NSqrtProp sqrt_le_square
+R1522:1526 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1519:1520 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1517:1517 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1516:1516 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1518:1518 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1521:1521 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1528:1531 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1527:1527 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1532:1534 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1535:1535 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1550:1563 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_le_square thm
+prf 1578:1591 NSqrtProp sqrt_lt_square
+R1612:1616 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1608:1608 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1607:1607 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1610:1610 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1609:1609 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1611:1611 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1621:1623 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1617:1619 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1620:1620 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1624:1624 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1639:1652 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_lt_square thm
+def 1672:1677 NSqrtProp sqrt_0
+R1682:1687 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_0 thm
+def 1701:1706 NSqrtProp sqrt_1
+R1711:1716 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_1 thm
+def 1730:1735 NSqrtProp sqrt_2
+R1740:1745 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_2 thm
+def 1760:1770 NSqrtProp sqrt_lt_lin
+R1787:1790 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1795:1795 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1791:1793 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1794:1794 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1796:1796 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1785:1785 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R1786:1786 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1802:1812 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_lt_lin thm
+prf 1822:1832 NSqrtProp sqrt_le_lin
+R1850:1851 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1846:1848 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1849:1849 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1852:1852 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1867:1877 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_le_lin thm
+def 1897:1910 NSqrtProp sqrt_mul_below
+R1937:1940 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R1930:1932 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1926:1928 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1929:1929 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1933:1935 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1936:1936 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1941:1944 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1948:1948 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R1946:1946 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R1945:1945 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R1947:1947 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R1954:1967 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_mul_below thm
+prf 1977:1990 NSqrtProp sqrt_mul_above
+R2014:2016 Coq.Structures.Orders LtNotation ::x_'<'_x not
+R2006:2009 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2013:2013 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2011:2011 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R2010:2010 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2012:2012 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2025:2027 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R2017:2017 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2020:2022 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2023:2023 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2028:2028 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2031:2033 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2034:2034 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2050:2063 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_mul_above thm
+prf 2078:2089 NSqrtProp sqrt_succ_le
+R2111:2114 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R2103:2106 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2110:2110 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2107:2107 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2109:2109 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2115:2115 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2118:2120 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2121:2121 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2137:2148 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_succ_le thm
+prf 2163:2174 NSqrtProp sqrt_succ_or
+R2208:2211 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2196:2199 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2188:2191 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2195:2195 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2192:2192 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2194:2194 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2200:2200 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2203:2205 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2206:2206 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2220:2223 Coq.Structures.Equalities EqNotation ::x_'=='_x not
+R2212:2215 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2219:2219 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2216:2216 Coq.Numbers.Natural.Abstract.NSqrt A S syndef
+R2218:2218 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2224:2226 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2227:2227 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2242:2253 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_succ_or thm
+def 2273:2283 NSqrtProp sqrt_add_le
+R2307:2310 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R2299:2302 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2306:2306 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2304:2304 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R2303:2303 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2305:2305 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2315:2317 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R2311:2313 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2314:2314 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2318:2320 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2321:2321 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2327:2337 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp sqrt_add_le thm
+prf 2347:2357 NSqrtProp add_sqrt_le
+R2384:2387 Coq.Structures.Orders LeNotation ::x_'<='_x not
+R2377:2379 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R2373:2375 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2376:2376 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2380:2382 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2383:2383 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2388:2391 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2399:2399 Coq.Numbers.NatInt.NZSqrt SqrtNotation ::'√'_x not
+R2393:2394 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R2398:2398 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'*'_x not
+R2396:2396 Coq.Numbers.NatInt.NZAxioms AddSubMulNotation ::x_'+'_x not
+R2395:2395 Coq.Numbers.Natural.Abstract.NSqrt <> a var
+R2397:2397 Coq.Numbers.Natural.Abstract.NSqrt <> b var
+R2414:2424 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp add_sqrt_le thm
+R2518:2529 Coq.Numbers.NatInt.NZSqrt NZSqrtUpProp <> mod
+R2531:2531 Coq.Numbers.Natural.Abstract.NSqrt A <> modtype
+R2533:2533 Coq.Numbers.Natural.Abstract.NSqrt A <> modtype
+R2535:2535 Coq.Numbers.Natural.Abstract.NSqrt B <> modtype
+R2537:2550 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp.Private_NZSqrt <> modtype
+R2558:2566 Coq.Numbers.Natural.Abstract.NSqrt NSqrtProp <> mod

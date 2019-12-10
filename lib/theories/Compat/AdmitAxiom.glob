@@ -1,0 +1,5 @@
+DIGEST 313fa2f6684649d85b731c2f43178d8f
+FCoq.Compat.AdmitAxiom
+ax 941:954 <> proof_admitted
+R958:962 Coq.Init.Logic <> False ind
+R1000:1013 Coq.Compat.AdmitAxiom <> proof_admitted prfax

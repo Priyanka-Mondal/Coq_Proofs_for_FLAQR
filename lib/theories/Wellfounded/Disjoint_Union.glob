@@ -1,0 +1,68 @@
+DIGEST b98472ea457313fd021e23eb01e25402
+FCoq.Wellfounded.Disjoint_Union
+R827:844 Coq.Relations.Relation_Operators <> <> lib
+sec 856:872 <> Wf_Disjoint_Union
+var 887:887 Wf_Disjoint_Union A
+var 889:889 Wf_Disjoint_Union B
+var 910:912 Wf_Disjoint_Union leA
+R917:920 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R922:925 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R921:921 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+R916:916 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+var 943:945 Wf_Disjoint_Union leB
+R950:953 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R955:958 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R954:954 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R949:949 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+syndef 977:982 <> Le_AsB
+R988:993 Coq.Relations.Relation_Operators <> le_AsB ind
+R1003:1005 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R999:1001 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R997:997 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R995:995 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+prf 1018:1026 <> acc_A_sum
+R1039:1039 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+R1051:1054 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1055:1057 Coq.Init.Wf <> Acc ind
+R1067:1069 Coq.Init.Datatypes <> inl constr
+R1073:1073 Coq.Wellfounded.Disjoint_Union <> x var
+R1071:1071 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R1059:1064 Coq.Wellfounded.Disjoint_Union <> Le_AsB syndef
+R1042:1044 Coq.Init.Wf <> Acc ind
+R1050:1050 Coq.Wellfounded.Disjoint_Union <> x var
+R1046:1048 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1113:1121 Coq.Init.Wf <> Acc_intro constr
+R1113:1121 Coq.Init.Wf <> Acc_intro constr
+prf 1197:1205 <> acc_B_sum
+R1229:1232 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1242:1242 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.B var
+R1254:1257 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1258:1260 Coq.Init.Wf <> Acc ind
+R1270:1272 Coq.Init.Datatypes <> inr constr
+R1276:1276 Coq.Wellfounded.Disjoint_Union <> x var
+R1274:1274 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.A var
+R1262:1267 Coq.Wellfounded.Disjoint_Union <> Le_AsB syndef
+R1245:1247 Coq.Init.Wf <> Acc ind
+R1253:1253 Coq.Wellfounded.Disjoint_Union <> x var
+R1249:1251 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R1213:1224 Coq.Init.Wf <> well_founded def
+R1226:1228 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1316:1324 Coq.Init.Wf <> Acc_intro constr
+R1316:1324 Coq.Init.Wf <> Acc_intro constr
+R1390:1398 Coq.Wellfounded.Disjoint_Union <> acc_A_sum thm
+R1390:1398 Coq.Wellfounded.Disjoint_Union <> acc_A_sum thm
+prf 1434:1448 <> wf_disjoint_sum
+R1472:1475 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1492:1495 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1496:1507 Coq.Init.Wf <> well_founded def
+R1509:1514 Coq.Wellfounded.Disjoint_Union <> Le_AsB syndef
+R1476:1487 Coq.Init.Wf <> well_founded def
+R1489:1491 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leB var
+R1456:1467 Coq.Init.Wf <> well_founded def
+R1469:1471 Coq.Wellfounded.Disjoint_Union <> Wf_Disjoint_Union.leA var
+R1549:1560 Coq.Init.Wf <> well_founded def
+R1600:1608 Coq.Wellfounded.Disjoint_Union <> acc_A_sum thm
+R1600:1608 Coq.Wellfounded.Disjoint_Union <> acc_A_sum thm
+R1643:1651 Coq.Wellfounded.Disjoint_Union <> acc_B_sum thm
+R1643:1651 Coq.Wellfounded.Disjoint_Union <> acc_B_sum thm
+R1689:1705 Coq.Wellfounded.Disjoint_Union Wf_Disjoint_Union <> sec

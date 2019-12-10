@@ -1,0 +1,122 @@
+DIGEST 4bcd7d0799462688a55f78e663809c09
+FCoq.QArith.Qminmax
+R691:701 Coq.QArith.QArith_base <> <> lib
+R703:708 Coq.Structures.Orders <> <> lib
+R710:721 Coq.QArith.QOrderedType <> <> lib
+R723:735 Coq.Structures.GenericMinMax <> <> lib
+def 901:904 <> Qmax
+R909:912 Coq.Structures.GenericMinMax <> gmax def
+R914:921 Coq.QArith.QArith_base <> Qcompare def
+def 935:938 <> Qmin
+R943:946 Coq.Structures.GenericMinMax <> gmin def
+R948:955 Coq.QArith.QArith_base <> Qcompare def
+R980:988 Coq.Structures.GenericMinMax HasMinMax <> mod
+R990:996 Coq.QArith.QOrderedType Q_as_OT <> modtype
+mod 966:975 <> QHasMinMax
+R1014:1026 Coq.Structures.GenericMinMax GenericMinMax <> modtype
+R1028:1034 Coq.QArith.QOrderedType Q_as_OT <> modtype
+mod 1007:1009 <> QHasMinMax.QMM
+def 1049:1051 QHasMinMax max
+R1056:1059 Coq.QArith.Qminmax <> Qmax def
+def 1074:1076 QHasMinMax min
+R1081:1084 Coq.QArith.Qminmax <> Qmin def
+def 1099:1103 QHasMinMax max_l
+R1108:1116 Coq.QArith.Qminmax QHasMinMax max_l thm
+def 1131:1135 QHasMinMax max_r
+R1140:1148 Coq.QArith.Qminmax QHasMinMax max_r thm
+def 1163:1167 QHasMinMax min_l
+R1172:1180 Coq.QArith.Qminmax QHasMinMax min_l thm
+def 1195:1199 QHasMinMax min_r
+R1204:1212 Coq.QArith.Qminmax QHasMinMax min_r thm
+R1219:1228 Coq.QArith.Qminmax QHasMinMax <> mod
+mod 1239:1239 <> Q
+R1318:1333 Coq.Structures.GenericMinMax MinMaxProperties <> modtype
+R1335:1341 Coq.QArith.QOrderedType Q_as_OT <> modtype
+R1343:1352 Coq.QArith.Qminmax QHasMinMax <> modtype
+prf 1466:1481 Q plus_max_distr_l
+R1519:1522 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1499:1502 Coq.QArith.Qminmax <> Qmax def
+R1514:1516 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1513:1513 Coq.QArith.Qminmax <> p var
+R1517:1517 Coq.QArith.Qminmax <> m var
+R1506:1508 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1505:1505 Coq.QArith.Qminmax <> p var
+R1509:1509 Coq.QArith.Qminmax <> n var
+R1524:1526 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1523:1523 Coq.QArith.Qminmax <> p var
+R1527:1530 Coq.QArith.Qminmax <> Qmax def
+R1534:1534 Coq.QArith.Qminmax <> m var
+R1532:1532 Coq.QArith.Qminmax <> n var
+R1559:1570 Coq.QArith.Qminmax Q max_monotone syndef
+R1559:1570 Coq.QArith.Qminmax Q max_monotone syndef
+R1643:1657 Coq.QArith.QArith_base <> Qplus_le_compat thm
+R1643:1657 Coq.QArith.QArith_base <> Qplus_le_compat thm
+prf 1681:1696 Q plus_max_distr_r
+R1734:1737 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1714:1717 Coq.QArith.Qminmax <> Qmax def
+R1729:1731 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1728:1728 Coq.QArith.Qminmax <> m var
+R1732:1732 Coq.QArith.Qminmax <> p var
+R1721:1723 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1720:1720 Coq.QArith.Qminmax <> n var
+R1724:1724 Coq.QArith.Qminmax <> p var
+R1746:1748 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1738:1741 Coq.QArith.Qminmax <> Qmax def
+R1745:1745 Coq.QArith.Qminmax <> m var
+R1743:1743 Coq.QArith.Qminmax <> n var
+R1749:1749 Coq.QArith.Qminmax <> p var
+R1777:1786 Coq.QArith.QArith_base <> Qplus_comm thm
+R1795:1804 Coq.QArith.QArith_base <> Qplus_comm thm
+R1813:1822 Coq.QArith.QArith_base <> Qplus_comm thm
+R1777:1786 Coq.QArith.QArith_base <> Qplus_comm thm
+R1777:1786 Coq.QArith.QArith_base <> Qplus_comm thm
+R1795:1804 Coq.QArith.QArith_base <> Qplus_comm thm
+R1795:1804 Coq.QArith.QArith_base <> Qplus_comm thm
+R1813:1822 Coq.QArith.QArith_base <> Qplus_comm thm
+R1813:1822 Coq.QArith.QArith_base <> Qplus_comm thm
+R1837:1852 Coq.QArith.Qminmax Q plus_max_distr_l thm
+R1837:1852 Coq.QArith.Qminmax Q plus_max_distr_l thm
+prf 1867:1882 Q plus_min_distr_l
+R1920:1923 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R1900:1903 Coq.QArith.Qminmax <> Qmin def
+R1915:1917 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1914:1914 Coq.QArith.Qminmax <> p var
+R1918:1918 Coq.QArith.Qminmax <> m var
+R1907:1909 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1906:1906 Coq.QArith.Qminmax <> p var
+R1910:1910 Coq.QArith.Qminmax <> n var
+R1925:1927 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R1924:1924 Coq.QArith.Qminmax <> p var
+R1928:1931 Coq.QArith.Qminmax <> Qmin def
+R1935:1935 Coq.QArith.Qminmax <> m var
+R1933:1933 Coq.QArith.Qminmax <> n var
+R1960:1971 Coq.QArith.Qminmax Q min_monotone syndef
+R1960:1971 Coq.QArith.Qminmax Q min_monotone syndef
+R2044:2058 Coq.QArith.QArith_base <> Qplus_le_compat thm
+R2044:2058 Coq.QArith.QArith_base <> Qplus_le_compat thm
+prf 2082:2097 Q plus_min_distr_r
+R2135:2138 Coq.QArith.QArith_base <> :Q_scope:x_'=='_x not
+R2115:2118 Coq.QArith.Qminmax <> Qmin def
+R2130:2132 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2129:2129 Coq.QArith.Qminmax <> m var
+R2133:2133 Coq.QArith.Qminmax <> p var
+R2122:2124 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2121:2121 Coq.QArith.Qminmax <> n var
+R2125:2125 Coq.QArith.Qminmax <> p var
+R2147:2149 Coq.QArith.QArith_base <> :Q_scope:x_'+'_x not
+R2139:2142 Coq.QArith.Qminmax <> Qmin def
+R2146:2146 Coq.QArith.Qminmax <> m var
+R2144:2144 Coq.QArith.Qminmax <> n var
+R2150:2150 Coq.QArith.Qminmax <> p var
+R2178:2187 Coq.QArith.QArith_base <> Qplus_comm thm
+R2196:2205 Coq.QArith.QArith_base <> Qplus_comm thm
+R2214:2223 Coq.QArith.QArith_base <> Qplus_comm thm
+R2178:2187 Coq.QArith.QArith_base <> Qplus_comm thm
+R2178:2187 Coq.QArith.QArith_base <> Qplus_comm thm
+R2196:2205 Coq.QArith.QArith_base <> Qplus_comm thm
+R2196:2205 Coq.QArith.QArith_base <> Qplus_comm thm
+R2214:2223 Coq.QArith.QArith_base <> Qplus_comm thm
+R2214:2223 Coq.QArith.QArith_base <> Qplus_comm thm
+R2238:2253 Coq.QArith.Qminmax Q plus_min_distr_l thm
+R2238:2253 Coq.QArith.Qminmax Q plus_min_distr_l thm
+R2266:2266 Coq.QArith.Qminmax Q <> mod

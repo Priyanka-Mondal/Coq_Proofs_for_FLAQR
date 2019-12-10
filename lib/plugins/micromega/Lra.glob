@@ -1,0 +1,19 @@
+DIGEST ba81dbeff641eff740edb8146a5b794f
+FCoq.micromega.Lra
+R1143:1152 Coq.micromega.RMicromega <> <> lib
+R1170:1179 Coq.micromega.QMicromega <> <> lib
+R1197:1208 Coq.Reals.Rdefinitions <> <> lib
+R1226:1238 Coq.micromega.RingMicromega <> <> lib
+R1256:1261 Coq.micromega.VarMap <> <> lib
+R1272:1290 Coq.micromega.Tauto <> <> lib
+R1390:1401 Coq.micromega.Tauto <> eval_f def
+R1404:1416 Coq.micromega.RMicromega <> Reval_formula def
+R1420:1423 Coq.micromega.VarMap <> find def
+R1425:1425 Coq.Reals.Rdefinitions <> R defax
+R1459:1477 Coq.micromega.RMicromega <> RTautoChecker_sound thm
+R1614:1620 Coq.Init.Logic <> eq_refl constr
+R1622:1625 Coq.Init.Datatypes <> true constr
+R1740:1743 Coq.Reals.Rdefinitions <> Rdiv def
+R1846:1849 Coq.Reals.Rdefinitions <> Rdiv def
+R1932:1932 Coq.Reals.Rdefinitions <> R defax
+R1932:1932 Coq.Reals.Rdefinitions <> R defax

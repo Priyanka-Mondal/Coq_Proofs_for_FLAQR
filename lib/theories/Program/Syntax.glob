@@ -1,0 +1,22 @@
+DIGEST d51857832323e07d6e84c3589ee15518
+FCoq.Program.Syntax
+R909:922 Coq.Init.Datatypes <> unit ind
+not 899:899 <> :type_scope:'()'
+R957:958 Coq.Init.Datatypes <> tt constr
+not 947:947 <> ::'()'
+R1048:1051 Coq.Init.Datatypes <> Some constr
+R1048:1051 Coq.Init.Datatypes <> Some constr
+R1070:1073 Coq.Init.Datatypes <> None constr
+R1070:1073 Coq.Init.Datatypes <> None constr
+R1091:1094 Coq.Init.Datatypes <> pair constr
+R1091:1094 Coq.Init.Datatypes <> pair constr
+R1117:1119 Coq.Init.Datatypes <> fst def
+R1117:1119 Coq.Init.Datatypes <> fst def
+R1140:1142 Coq.Init.Datatypes <> snd def
+R1140:1142 Coq.Init.Datatypes <> snd def
+R1164:1166 Coq.Init.Datatypes <> nil constr
+R1164:1166 Coq.Init.Datatypes <> nil constr
+R1183:1186 Coq.Init.Datatypes <> cons constr
+R1183:1186 Coq.Init.Datatypes <> cons constr
+R1206:1209 Coq.Lists.List <> <> lib
+R1255:1261 Coq.Bool.Bvector <> <> lib

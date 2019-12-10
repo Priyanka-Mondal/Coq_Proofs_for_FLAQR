@@ -1,0 +1,5 @@
+DIGEST fbbf6df975f3514f7ae42970dd5bb6c5
+FCoq.Compat.Coq86
+R756:771 Coq.Compat.Coq87 <> <> lib
+R790:814 Coq.extraction.Extraction <> <> lib
+R832:848 Coq.funind.FunInd <> <> lib

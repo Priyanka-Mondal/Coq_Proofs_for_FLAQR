@@ -1,0 +1,352 @@
+DIGEST e2d85ba44c5bd843362239f04605c575
+FBignums.BigZ.BigZ
+R691:694 Bignums.BigN.BigN <> <> lib
+R712:722 Coq.Numbers.Integer.Abstract.ZProperties <> <> lib
+R724:732 Coq.Numbers.Integer.Abstract.ZDivFloor <> <> lib
+R734:737 Bignums.SpecViaZ.ZSig <> <> lib
+R739:749 Bignums.SpecViaZ.ZSigZAxioms <> <> lib
+R751:755 Bignums.BigZ.ZMake <> <> lib
+R1275:1279 Bignums.SpecViaZ.ZSig ZType <> mod
+R1284:1298 Coq.Structures.Orders OrderedTypeFull <> mod
+R1303:1312 Coq.Structures.Orders TotalOrder <> mod
+R1318:1327 Bignums.BigZ.ZMake Make <> modtype
+R1329:1332 Bignums.BigN.BigN BigN <> modtype
+R1338:1351 Bignums.SpecViaZ.ZSigZAxioms ZTypeIsZAxioms <> modtype
+R1357:1366 Coq.Numbers.Integer.Abstract.ZProperties ZBasicProp <> mod
+R1383:1392 Coq.Numbers.Integer.Abstract.ZProperties ZExtraProp <> mod
+R1410:1422 Coq.Structures.Equalities HasEqBool2Dec <> modtype
+R1440:1462 Coq.Structures.GenericMinMax MinMaxLogicalProperties <> modtype
+R1480:1498 Coq.Structures.GenericMinMax MinMaxDecProperties <> modtype
+mod 1267:1270 <> BigZ
+syndef 1663:1666 <> bigZ
+R1671:1676 Bignums.BigZ.BigZ <> t def
+R1737:1744 Bignums.BigZ.BigZ <> Pos constr
+R1737:1744 Bignums.BigZ.BigZ <> Pos constr
+R1764:1771 Bignums.BigZ.BigZ <> Neg constr
+R1764:1771 Bignums.BigZ.BigZ <> Neg constr
+R1803:1811 Bignums.BigZ.BigZ <> zero def
+not 1796:1796 <> :bigZ_scope:'0'
+R1849:1856 Bignums.BigZ.BigZ <> one def
+not 1842:1842 <> :bigZ_scope:'1'
+R1894:1901 Bignums.BigZ.BigZ <> two def
+not 1887:1887 <> :bigZ_scope:'2'
+R1930:1937 Bignums.BigZ.BigZ <> add def
+not 1923:1923 <> :bigZ_scope:x_'+'_x
+R1966:1973 Bignums.BigZ.BigZ <> sub def
+not 1959:1959 <> :bigZ_scope:x_'-'_x
+R2008:2015 Bignums.BigZ.BigZ <> opp def
+not 1998:1998 <> :bigZ_scope:'-'_x
+R2047:2054 Bignums.BigZ.BigZ <> mul def
+not 2040:2040 <> :bigZ_scope:x_'*'_x
+R2083:2090 Bignums.BigZ.BigZ <> div def
+not 2076:2076 <> :bigZ_scope:x_'/'_x
+R2119:2126 Bignums.BigZ.BigZ <> pow def
+not 2112:2112 <> :bigZ_scope:x_'^'_x
+R2156:2167 Bignums.BigZ.BigZ <> compare def
+not 2148:2148 <> :bigZ_scope:x_'?='_x
+R2197:2204 Bignums.BigZ.BigZ <> eqb def
+not 2189:2189 <> :bigZ_scope:x_'=?'_x
+R2267:2274 Bignums.BigZ.BigZ <> leb def
+not 2258:2258 <> :bigZ_scope:x_'<=?'_x
+R2336:2343 Bignums.BigZ.BigZ <> ltb def
+not 2328:2328 <> :bigZ_scope:x_'<?'_x
+R2405:2411 Bignums.BigZ.BigZ <> eq def
+not 2397:2397 <> :bigZ_scope:x_'=='_x
+R2481:2481 Coq.Init.Logic <> :type_scope:'~'_x not
+R2483:2484 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+not 2468:2468 <> :bigZ_scope:x_'!='_x
+R2547:2553 Bignums.BigZ.BigZ <> lt def
+not 2540:2540 <> :bigZ_scope:x_'<'_x
+R2583:2589 Bignums.BigZ.BigZ <> le def
+not 2575:2575 <> :bigZ_scope:x_'<='_x
+R2627:2629 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<'_x not
+not 2614:2614 <> :bigZ_scope:x_'>'_x
+R2685:2688 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+not 2671:2671 <> :bigZ_scope:x_'>='_x
+R2749:2752 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2747:2747 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<'_x not
+R2754:2754 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<'_x not
+not 2730:2730 <> :bigZ_scope:x_'<'_x_'<'_x
+R2801:2804 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2799:2799 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<'_x not
+R2806:2807 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+not 2781:2781 <> :bigZ_scope:x_'<'_x_'<='_x
+R2855:2858 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2852:2853 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R2860:2860 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<'_x not
+not 2834:2834 <> :bigZ_scope:x_'<='_x_'<'_x
+R2909:2912 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2906:2907 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R2914:2915 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+not 2887:2887 <> :bigZ_scope:x_'<='_x_'<='_x
+R2954:2962 Bignums.BigZ.BigZ <> to_Z def
+not 2942:2942 <> :bigZ_scope:'['_x_']'
+R2996:3006 Bignums.BigZ.BigZ <> modulo def
+not 2987:2987 <> :bigZ_scope:x_'mod'_x
+R3068:3076 Bignums.BigZ.BigZ <> quot def
+not 3060:3060 <> :bigZ_scope:x_'÷'_x
+prf 3180:3188 <> spec_to_Z
+R3202:3205 Bignums.BigZ.BigZ <> bigZ syndef
+R3233:3235 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3210:3218 Bignums.BigN.BigN BigN to_Z def
+R3221:3229 Bignums.BigZ.BigZ <> to_N def
+R3231:3231 Bignums.BigZ.BigZ <> n var
+R3237:3237 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3247:3250 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3238:3242 Coq.ZArith.BinInt Z sgn def
+R3244:3244 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3246:3246 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3245:3245 Bignums.BigZ.BigZ <> n var
+R3251:3251 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3253:3253 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3252:3252 Bignums.BigZ.BigZ <> n var
+R3315:3327 Bignums.BigN.BigN BigN spec_pos thm
+R3339:3347 Bignums.BigN.BigN BigN to_Z def
+R3315:3327 Bignums.BigN.BigN BigN spec_pos thm
+R3315:3327 Bignums.BigN.BigN BigN spec_pos thm
+R3339:3347 Bignums.BigN.BigN BigN to_Z def
+R3339:3347 Bignums.BigN.BigN BigN to_Z def
+prf 3431:3439 <> spec_to_N
+R3449:3451 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3446:3446 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3448:3448 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3447:3447 Bignums.BigZ.BigZ <> n var
+R3461:3464 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3488:3488 Coq.ZArith.BinInt <> :Z_scope:x_'*'_x not
+R3452:3456 Coq.ZArith.BinInt Z sgn def
+R3458:3458 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3460:3460 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3459:3459 Bignums.BigZ.BigZ <> n var
+R3465:3473 Bignums.BigN.BigN BigN to_Z def
+R3476:3484 Bignums.BigZ.BigZ <> to_N def
+R3486:3486 Bignums.BigZ.BigZ <> n var
+R3540:3552 Bignums.BigN.BigN BigN spec_pos thm
+R3564:3572 Bignums.BigN.BigN BigN to_Z def
+R3540:3552 Bignums.BigN.BigN BigN spec_pos thm
+R3540:3552 Bignums.BigN.BigN BigN spec_pos thm
+R3564:3572 Bignums.BigN.BigN BigN to_Z def
+R3564:3572 Bignums.BigN.BigN BigN to_Z def
+prf 3656:3668 <> spec_to_Z_pos
+R3693:3698 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3722:3724 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3699:3707 Bignums.BigN.BigN BigN to_Z def
+R3710:3718 Bignums.BigZ.BigZ <> to_N def
+R3720:3720 Bignums.BigZ.BigZ <> n var
+R3725:3725 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3727:3727 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3726:3726 Bignums.BigZ.BigZ <> n var
+R3683:3686 Coq.ZArith.BinInt <> :Z_scope:x_'<='_x not
+R3687:3687 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3689:3689 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R3688:3688 Bignums.BigZ.BigZ <> n var
+R3786:3798 Bignums.BigN.BigN BigN spec_pos thm
+R3810:3818 Bignums.BigN.BigN BigN to_Z def
+R3786:3798 Bignums.BigN.BigN BigN spec_pos thm
+R3786:3798 Bignums.BigN.BigN BigN spec_pos thm
+R3810:3818 Bignums.BigN.BigN BigN to_Z def
+R3810:3818 Bignums.BigN.BigN BigN to_Z def
+prf 3927:3934 <> BigZring
+R3939:3949 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R3991:3997 Bignums.BigZ.BigZ <> eq def
+R3982:3989 Bignums.BigZ.BigZ <> opp def
+R3973:3980 Bignums.BigZ.BigZ <> sub def
+R3964:3971 Bignums.BigZ.BigZ <> mul def
+R3955:3962 Bignums.BigZ.BigZ <> add def
+R4026:4037 Bignums.BigZ.BigZ <> add_0_l thm
+R4026:4037 Bignums.BigZ.BigZ <> add_0_l thm
+R4046:4058 Bignums.BigZ.BigZ <> add_comm thm
+R4046:4058 Bignums.BigZ.BigZ <> add_comm thm
+R4067:4080 Bignums.BigZ.BigZ <> add_assoc thm
+R4067:4080 Bignums.BigZ.BigZ <> add_assoc thm
+R4089:4100 Bignums.BigZ.BigZ <> mul_1_l thm
+R4089:4100 Bignums.BigZ.BigZ <> mul_1_l thm
+R4109:4121 Bignums.BigZ.BigZ <> mul_comm thm
+R4109:4121 Bignums.BigZ.BigZ <> mul_comm thm
+R4130:4143 Bignums.BigZ.BigZ <> mul_assoc thm
+R4130:4143 Bignums.BigZ.BigZ <> mul_assoc thm
+R4152:4171 Bignums.BigZ.BigZ <> mul_add_distr_r thm
+R4152:4171 Bignums.BigZ.BigZ <> mul_add_distr_r thm
+R4190:4203 Bignums.BigZ.BigZ <> add_opp_r thm
+R4190:4203 Bignums.BigZ.BigZ <> add_opp_r thm
+R4212:4230 Bignums.BigZ.BigZ <> add_opp_diag_r thm
+R4212:4230 Bignums.BigZ.BigZ <> add_opp_diag_r thm
+prf 4245:4259 <> BigZeqb_correct
+R4290:4293 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4295:4296 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+R4294:4294 Bignums.BigZ.BigZ <> x var
+R4297:4297 Bignums.BigZ.BigZ <> y var
+R4275:4275 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4282:4285 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4277:4280 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=?'_x not
+R4276:4276 Bignums.BigZ.BigZ <> x var
+R4281:4281 Bignums.BigZ.BigZ <> y var
+R4286:4289 Coq.Init.Datatypes <> true constr
+R4317:4327 Bignums.BigZ.BigZ <> eqb_eq thm
+R4317:4327 Bignums.BigZ.BigZ <> eqb_eq thm
+def 4347:4355 <> BigZ_of_N
+R4362:4370 Bignums.BigZ.BigZ <> of_Z def
+R4373:4378 Coq.ZArith.BinInt Z of_N def
+R4380:4380 Bignums.BigZ.BigZ <> n var
+prf 4391:4399 <> BigZpower
+R4403:4414 Coq.setoid_ring.Ring_theory <> power_theory rec
+R4445:4452 Bignums.BigZ.BigZ <> pow def
+R4435:4443 Bignums.BigZ.BigZ <> BigZ_of_N def
+R4427:4433 Bignums.BigZ.BigZ <> eq def
+R4418:4425 Bignums.BigZ.BigZ <> mul def
+R4490:4496 Bignums.BigZ.BigZ <> eq def
+R4499:4507 Bignums.BigZ.BigZ <> BigZ_of_N def
+R4518:4530 Bignums.BigZ.BigZ <> spec_pow thm
+R4533:4546 Bignums.BigZ.BigZ <> spec_of_Z thm
+R4518:4530 Bignums.BigZ.BigZ <> spec_pow thm
+R4518:4530 Bignums.BigZ.BigZ <> spec_pow thm
+R4533:4546 Bignums.BigZ.BigZ <> spec_of_Z thm
+R4533:4546 Bignums.BigZ.BigZ <> spec_of_Z thm
+R4572:4581 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R4557:4569 Coq.ZArith.Zpow_def <> Zpower_theory thm
+R4572:4581 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R4557:4569 Coq.ZArith.Zpow_def <> Zpower_theory thm
+R4572:4581 Coq.setoid_ring.Ring_theory <> rpow_pow_N proj
+R4557:4569 Coq.ZArith.Zpow_def <> Zpower_theory thm
+prf 4688:4694 <> BigZdiv
+R4698:4707 Coq.setoid_ring.Ring_theory <> div_theory rec
+R4760:4763 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=?'_x not
+R4759:4759 Bignums.BigZ.BigZ <> b var
+R4782:4794 Bignums.BigZ.BigZ <> div_eucl def
+R4798:4798 Bignums.BigZ.BigZ <> b var
+R4796:4796 Bignums.BigZ.BigZ <> a var
+R4771:4771 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4773:4773 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4775:4775 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4774:4774 Bignums.BigZ.BigZ <> a var
+R4737:4738 Coq.Init.Datatypes <> id def
+R4726:4733 Bignums.BigZ.BigZ <> mul def
+R4717:4724 Bignums.BigZ.BigZ <> add def
+R4709:4715 Bignums.BigZ.BigZ <> eq def
+R4829:4830 Coq.Init.Datatypes <> id def
+R4861:4870 Coq.ZArith.BinInt Z eqb_spec thm
+R4861:4870 Coq.ZArith.BinInt Z eqb_spec thm
+R4926:4943 Bignums.BigZ.BigZ <> spec_div_eucl thm
+R4926:4943 Bignums.BigZ.BigZ <> spec_div_eucl thm
+R4963:4976 Coq.ZArith.Zdiv <> Z_div_mod_full thm
+R4982:4982 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4984:4984 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4978:4978 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4980:4980 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4963:4976 Coq.ZArith.Zdiv <> Z_div_mod_full thm
+R4982:4982 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4984:4984 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4978:4978 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R4980:4980 Bignums.BigZ.BigZ <> :bigZ_scope:'['_x_']' not
+R5001:5013 Bignums.BigZ.BigZ <> div_eucl def
+R5025:5034 Coq.ZArith.BinInt Z div_eucl def
+R5001:5013 Bignums.BigZ.BigZ <> div_eucl def
+R5025:5034 Coq.ZArith.BinInt Z div_eucl def
+R5196:5203 Bignums.BigZ.BigZ <> Pos constr
+R5196:5203 Bignums.BigZ.BigZ <> Pos constr
+R5226:5233 Bignums.BigZ.BigZ <> Neg constr
+R5226:5233 Bignums.BigZ.BigZ <> Neg constr
+R5256:5264 Bignums.BigZ.BigZ <> zero def
+R5256:5264 Bignums.BigZ.BigZ <> zero def
+R5286:5293 Bignums.BigZ.BigZ <> one def
+R5286:5293 Bignums.BigZ.BigZ <> one def
+R5315:5322 Bignums.BigZ.BigZ <> two def
+R5315:5322 Bignums.BigZ.BigZ <> two def
+R5344:5357 Bignums.BigZ.BigZ <> minus_one def
+R5344:5357 Bignums.BigZ.BigZ <> minus_one def
+R5392:5396 Coq.Init.Datatypes <> false constr
+R5370:5373 Coq.Init.Datatypes <> true constr
+R5335:5338 Coq.Init.Datatypes <> true constr
+R5306:5309 Coq.Init.Datatypes <> true constr
+R5277:5280 Coq.Init.Datatypes <> true constr
+R5451:5454 Coq.Init.Datatypes <> true constr
+R5451:5454 Coq.Init.Datatypes <> true constr
+R5473:5477 Coq.Init.Datatypes <> false constr
+R5473:5477 Coq.Init.Datatypes <> false constr
+R5490:5500 Coq.setoid_ring.InitialRing <> NotConstant def
+R5547:5554 Bignums.BigZ.BigZ <> Pos constr
+R5547:5554 Bignums.BigZ.BigZ <> Pos constr
+R5577:5585 Bignums.BigZ.BigZ <> zero def
+R5577:5585 Bignums.BigZ.BigZ <> zero def
+R5606:5613 Bignums.BigZ.BigZ <> one def
+R5606:5613 Bignums.BigZ.BigZ <> one def
+R5634:5641 Bignums.BigZ.BigZ <> two def
+R5634:5641 Bignums.BigZ.BigZ <> two def
+R5675:5685 Coq.setoid_ring.InitialRing <> NotConstant def
+R5755:5762 Bignums.BigZ.BigZ <> BigZring thm
+R5776:5790 Bignums.BigZ.BigZ <> BigZeqb_correct thm
+R5828:5836 Bignums.BigZ.BigZ <> BigZpower thm
+R5857:5863 Bignums.BigZ.BigZ <> BigZdiv thm
+sec 5876:5883 <> TestRing
+var 5890:5893 TestRing test
+R5926:5929 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+R5922:5924 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5916:5918 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5910:5912 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5914:5914 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R5913:5913 Bignums.BigZ.BigZ <> x var
+R5915:5915 Bignums.BigZ.BigZ <> y var
+R5920:5920 Bignums.BigZ.BigZ <> :bigZ_scope:x_'^'_x not
+R5919:5919 Bignums.BigZ.BigZ <> x var
+R5937:5939 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5933:5935 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5931:5931 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R5940:5940 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R5948:5949 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R5942:5944 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R5941:5941 Bignums.BigZ.BigZ <> y var
+R5946:5946 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R5947:5947 Bignums.BigZ.BigZ <> x var
+R5950:5950 Bignums.BigZ.BigZ <> x var
+var 6005:6009 TestRing test'
+R6061:6064 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+R6050:6052 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R6044:6046 Bignums.BigZ.BigZ <> :bigZ_scope:x_'-'_x not
+R6038:6040 Bignums.BigZ.BigZ <> :bigZ_scope:x_'-'_x not
+R6032:6034 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R6026:6028 Bignums.BigZ.BigZ <> :bigZ_scope:x_'+'_x not
+R6030:6030 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6029:6029 Bignums.BigZ.BigZ <> x var
+R6031:6031 Bignums.BigZ.BigZ <> y var
+R6036:6036 Bignums.BigZ.BigZ <> :bigZ_scope:x_'^'_x not
+R6035:6035 Bignums.BigZ.BigZ <> x var
+R6042:6042 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6048:6048 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6047:6047 Bignums.BigZ.BigZ <> y var
+R6049:6049 Bignums.BigZ.BigZ <> x var
+R6059:6059 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6054:6055 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6058:6058 Bignums.BigZ.BigZ <> :bigZ_scope:x_'*'_x not
+R6056:6056 Bignums.BigZ.BigZ <> :bigZ_scope:'-'_x not
+R6057:6057 Bignums.BigZ.BigZ <> x var
+R6060:6060 Bignums.BigZ.BigZ <> x var
+R6120:6127 Bignums.BigZ.BigZ TestRing <> sec
+sec 6223:6231 <> TestOrder
+var 6238:6241 TestOrder test
+R6258:6261 Bignums.BigZ.BigZ <> bigZ syndef
+R6268:6271 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6276:6279 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6281:6282 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+R6280:6280 Bignums.BigZ.BigZ <> x var
+R6283:6283 Bignums.BigZ.BigZ <> y var
+R6273:6274 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R6272:6272 Bignums.BigZ.BigZ <> y var
+R6275:6275 Bignums.BigZ.BigZ <> x var
+R6265:6266 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R6264:6264 Bignums.BigZ.BigZ <> x var
+R6267:6267 Bignums.BigZ.BigZ <> y var
+R6314:6322 Bignums.BigZ.BigZ TestOrder <> sec
+sec 6403:6411 <> TestOmega
+var 6418:6421 TestOmega test
+R6438:6441 Bignums.BigZ.BigZ <> bigZ syndef
+R6448:6451 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6456:6459 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6461:6462 Bignums.BigZ.BigZ <> :bigZ_scope:x_'=='_x not
+R6460:6460 Bignums.BigZ.BigZ <> x var
+R6463:6463 Bignums.BigZ.BigZ <> y var
+R6453:6454 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R6452:6452 Bignums.BigZ.BigZ <> y var
+R6455:6455 Bignums.BigZ.BigZ <> x var
+R6445:6446 Bignums.BigZ.BigZ <> :bigZ_scope:x_'<='_x not
+R6444:6444 Bignums.BigZ.BigZ <> x var
+R6447:6447 Bignums.BigZ.BigZ <> y var
+R6512:6520 Bignums.BigZ.BigZ TestOmega <> sec

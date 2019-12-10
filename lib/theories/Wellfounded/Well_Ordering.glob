@@ -1,0 +1,104 @@
+DIGEST 27f5d69cf88507d8a75a7443b63bb0eb
+FCoq.Wellfounded.Well_Ordering
+R820:824 Coq.Logic.Eqdep <> <> lib
+sec 836:847 <> WellOrdering
+var 861:861 WellOrdering A
+var 882:882 WellOrdering B
+R887:890 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R886:886 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+ind 910:911 <> WO
+constr 927:929 <> sup
+R943:943 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R952:955 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R956:957 Coq.Wellfounded.Well_Ordering <> WO ind
+R949:949 Coq.Wellfounded.Well_Ordering <> WellOrdering.B var
+R951:951 Coq.Wellfounded.Well_Ordering <> a var
+R961:962 Coq.Wellfounded.Well_Ordering <> WO ind
+ind 979:983 <> le_WO
+constr 1011:1016 <> le_sup
+R989:992 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R995:998 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R993:994 Coq.Wellfounded.Well_Ordering <> WO ind
+R987:988 Coq.Wellfounded.Well_Ordering <> WO ind
+R1030:1030 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1039:1042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1043:1044 Coq.Wellfounded.Well_Ordering <> WO ind
+R1036:1036 Coq.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1038:1038 Coq.Wellfounded.Well_Ordering <> a var
+R1050:1050 Coq.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1052:1052 Coq.Wellfounded.Well_Ordering <> a var
+R1056:1060 Coq.Wellfounded.Well_Ordering <> le_WO ind
+R1069:1071 Coq.Wellfounded.Well_Ordering <> sup constr
+R1075:1075 Coq.Wellfounded.Well_Ordering <> f var
+R1073:1073 Coq.Wellfounded.Well_Ordering <> a var
+R1063:1063 Coq.Wellfounded.Well_Ordering <> f var
+R1065:1065 Coq.Wellfounded.Well_Ordering <> v var
+prf 1090:1094 <> wf_WO
+R1098:1109 Coq.Init.Wf <> well_founded def
+R1111:1115 Coq.Wellfounded.Well_Ordering <> le_WO ind
+R1138:1149 Coq.Init.Wf <> well_founded def
+R1169:1177 Coq.Init.Wf <> Acc_intro constr
+R1169:1177 Coq.Init.Wf <> Acc_intro constr
+R1232:1240 Coq.Init.Wf <> Acc_intro constr
+R1232:1240 Coq.Init.Wf <> Acc_intro constr
+R1365:1367 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1365:1367 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1430:1438 Coq.Logic.Eqdep EqdepTheory inj_pair2 thm
+R1450:1450 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1459:1462 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1463:1464 Coq.Wellfounded.Well_Ordering <> WO ind
+R1455:1455 Coq.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1457:1458 Coq.Wellfounded.Well_Ordering <> a0 var
+R1440:1440 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1430:1438 Coq.Logic.Eqdep EqdepTheory inj_pair2 thm
+R1450:1450 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1459:1462 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1463:1464 Coq.Wellfounded.Well_Ordering <> WO ind
+R1455:1455 Coq.Wellfounded.Well_Ordering <> WellOrdering.B var
+R1457:1458 Coq.Wellfounded.Well_Ordering <> a0 var
+R1440:1440 Coq.Wellfounded.Well_Ordering <> WellOrdering.A var
+R1492:1503 Coq.Wellfounded.Well_Ordering WellOrdering <> sec
+sec 1516:1544 <> Characterisation_wf_relations
+var 1711:1711 Characterisation_wf_relations A
+var 1732:1734 Characterisation_wf_relations leA
+R1739:1742 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1744:1747 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1743:1743 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1738:1738 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+def 1768:1768 <> B
+R1773:1773 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1779:1779 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1781:1783 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1785:1787 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1795:1795 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1784:1784 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1788:1790 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.leA var
+R1794:1794 Coq.Wellfounded.Well_Ordering <> a var
+R1792:1792 Coq.Wellfounded.Well_Ordering <> x var
+def 1812:1814 <> wof
+R1834:1837 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1839:1842 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1843:1844 Coq.Wellfounded.Well_Ordering <> WO ind
+R1848:1848 Coq.Wellfounded.Well_Ordering <> B def
+R1846:1846 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1838:1838 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1818:1829 Coq.Init.Wf <> well_founded def
+R1831:1833 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.leA var
+R1883:1909 Coq.Init.Wf <> well_founded_induction_type thm
+R1920:1920 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1925:1926 Coq.Wellfounded.Well_Ordering <> WO ind
+R1930:1930 Coq.Wellfounded.Well_Ordering <> B def
+R1928:1928 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1883:1909 Coq.Init.Wf <> well_founded_induction_type thm
+R1920:1920 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1925:1926 Coq.Wellfounded.Well_Ordering <> WO ind
+R1930:1930 Coq.Wellfounded.Well_Ordering <> B def
+R1928:1928 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1969:1971 Coq.Wellfounded.Well_Ordering <> sup constr
+R1975:1975 Coq.Wellfounded.Well_Ordering <> B def
+R1973:1973 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1969:1971 Coq.Wellfounded.Well_Ordering <> sup constr
+R1975:1975 Coq.Wellfounded.Well_Ordering <> B def
+R1973:1973 Coq.Wellfounded.Well_Ordering <> Characterisation_wf_relations.A var
+R1992:1992 Coq.Wellfounded.Well_Ordering <> B def
+R2059:2087 Coq.Wellfounded.Well_Ordering Characterisation_wf_relations <> sec

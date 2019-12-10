@@ -1,0 +1,75 @@
+DIGEST e1f5426c0c3afe7b593b8b025b9a2491
+FCoq.setoid_ring.Rings_R
+R691:695 Coq.setoid_ring.Cring <> <> lib
+R713:727 Coq.setoid_ring.Integral_domain <> <> lib
+R765:769 Coq.Reals.Reals <> <> lib
+R787:795 Coq.setoid_ring.RealField <> <> lib
+prf 805:808 <> Rsth
+R812:824 Coq.Setoids.Setoid <> Setoid_Theory def
+R830:831 Coq.Init.Logic <> eq ind
+R833:833 Coq.Reals.Rdefinitions <> R defax
+R826:826 Coq.Reals.Rdefinitions <> R defax
+inst 890:893 <> Rops
+R898:905 Coq.setoid_ring.Ncring <> Ring_ops class
+R943:944 Coq.Init.Logic <> eq ind
+R946:946 Coq.Reals.Rdefinitions <> R defax
+R936:939 Coq.Reals.Rdefinitions <> Ropp defax
+R929:934 Coq.Reals.Rdefinitions <> Rminus def
+R923:927 Coq.Reals.Rdefinitions <> Rmult defax
+R917:921 Coq.Reals.Rdefinitions <> Rplus defax
+R907:907 Coq.Reals.Rdefinitions <> R defax
+inst 961:963 <> Rri
+R968:971 Coq.setoid_ring.Ncring <> Ring class
+R978:981 Coq.setoid_ring.Rings_R <> Rops inst
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1035:1044 Coq.Classes.Morphisms <> respectful def
+R1047:1052 Coq.Classes.Morphisms <> Proper class
+R1062:1069 Coq.setoid_ring.Algebra_syntax <> equality def
+R1079:1089 Coq.setoid_ring.Ncring <> eq_notation inst
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1014:1017 Coq.setoid_ring.Rings_R <> Rsth thm
+R1160:1168 Coq.Reals.Raxioms <> Rplus_0_l prfax
+R1160:1168 Coq.Reals.Raxioms <> Rplus_0_l prfax
+R1177:1186 Coq.Reals.Raxioms <> Rplus_comm prfax
+R1177:1186 Coq.Reals.Raxioms <> Rplus_comm prfax
+R1205:1215 Coq.Reals.Raxioms <> Rplus_assoc prfax
+R1205:1215 Coq.Reals.Raxioms <> Rplus_assoc prfax
+R1225:1233 Coq.Reals.Raxioms <> Rmult_1_l prfax
+R1225:1233 Coq.Reals.Raxioms <> Rmult_1_l prfax
+R1243:1251 Coq.Reals.RIneq <> Rmult_1_r thm
+R1243:1251 Coq.Reals.RIneq <> Rmult_1_r thm
+R1270:1280 Coq.Reals.Raxioms <> Rmult_assoc prfax
+R1270:1280 Coq.Reals.Raxioms <> Rmult_assoc prfax
+R1290:1307 Coq.Reals.RIneq <> Rmult_plus_distr_r thm
+R1290:1307 Coq.Reals.RIneq <> Rmult_plus_distr_r thm
+R1324:1341 Coq.Reals.Raxioms <> Rmult_plus_distr_l prfax
+R1324:1341 Coq.Reals.Raxioms <> Rmult_plus_distr_l prfax
+R1351:1361 Coq.Reals.Raxioms <> Rplus_opp_r prfax
+R1351:1361 Coq.Reals.Raxioms <> Rplus_opp_r prfax
+inst 1383:1386 <> Rcri
+R1390:1394 Coq.setoid_ring.Cring <> Cring class
+R1401:1403 Coq.setoid_ring.Rings_R <> Rri inst
+R1419:1428 Coq.Reals.Raxioms <> Rmult_comm prfax
+R1419:1428 Coq.Reals.Raxioms <> Rmult_comm prfax
+prf 1447:1456 <> R_one_zero
+R1462:1465 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+inst 1494:1496 <> Rdi
+R1501:1515 Coq.setoid_ring.Integral_domain <> Integral_domain class
+R1523:1526 Coq.setoid_ring.Rings_R <> Rcri inst
+R1552:1565 Coq.Reals.RIneq <> Rmult_integral thm
+R1552:1565 Coq.Reals.RIneq <> Rmult_integral thm
+R1574:1583 Coq.setoid_ring.Rings_R <> R_one_zero thm
+R1574:1583 Coq.setoid_ring.Rings_R <> R_one_zero thm

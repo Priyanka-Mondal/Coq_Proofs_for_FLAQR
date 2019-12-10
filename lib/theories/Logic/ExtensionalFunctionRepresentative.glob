@@ -1,0 +1,29 @@
+DIGEST 7435bcb3e696e7fb30824decd151a9f9
+FCoq.Logic.ExtensionalFunctionRepresentative
+ax 1192:1226 <> extensional_function_representative
+R1244:1250 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1255:1256 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R1270:1273 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1274:1274 Coq.Logic.ExtensionalFunctionRepresentative <> B var
+R1269:1269 Coq.Logic.ExtensionalFunctionRepresentative <> A var
+R1280:1280 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1305:1312 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1363:1363 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1294:1296 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1291:1291 Coq.Logic.ExtensionalFunctionRepresentative <> f var
+R1293:1293 Coq.Logic.ExtensionalFunctionRepresentative <> x var
+R1297:1300 Coq.Logic.ExtensionalFunctionRepresentative <> repr var
+R1304:1304 Coq.Logic.ExtensionalFunctionRepresentative <> x var
+R1302:1302 Coq.Logic.ExtensionalFunctionRepresentative <> f var
+R1323:1323 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1343:1347 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1354:1356 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1348:1351 Coq.Logic.ExtensionalFunctionRepresentative <> repr var
+R1353:1353 Coq.Logic.ExtensionalFunctionRepresentative <> f var
+R1357:1360 Coq.Logic.ExtensionalFunctionRepresentative <> repr var
+R1362:1362 Coq.Logic.ExtensionalFunctionRepresentative <> g var
+R1337:1339 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1334:1334 Coq.Logic.ExtensionalFunctionRepresentative <> f var
+R1336:1336 Coq.Logic.ExtensionalFunctionRepresentative <> x var
+R1340:1340 Coq.Logic.ExtensionalFunctionRepresentative <> g var
+R1342:1342 Coq.Logic.ExtensionalFunctionRepresentative <> x var

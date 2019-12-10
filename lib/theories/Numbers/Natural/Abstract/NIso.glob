@@ -1,0 +1,173 @@
+DIGEST 6f13d24f51c89fcaa090b4a851671c6e
+FCoq.Numbers.Natural.Abstract.NIso
+R841:845 Coq.Numbers.Natural.Abstract.NBase <> <> lib
+R878:890 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRecSig <> mod
+mod 856:867 <> Homomorphism
+R923:927 Coq.Numbers.Natural.Abstract.NIso N2 eq defax
+not 910:910 Homomorphism ::x_'=='_x
+def 979:990 Homomorphism homomorphism
+R1001:1004 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1005:1008 Coq.Numbers.Natural.Abstract.NIso N2 t defax
+R997:1000 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R1043:1046 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1032:1035 Coq.Numbers.Natural.Abstract.NIso Homomorphism ::x_'=='_x not
+R1023:1023 Coq.Numbers.Natural.Abstract.NIso <> f var
+R1025:1031 Coq.Numbers.Natural.Abstract.NIso N1 zero defax
+R1036:1042 Coq.Numbers.Natural.Abstract.NIso N2 zero defax
+R1070:1073 Coq.Numbers.Natural.Abstract.NIso Homomorphism ::x_'=='_x not
+R1057:1057 Coq.Numbers.Natural.Abstract.NIso <> f var
+R1060:1066 Coq.Numbers.Natural.Abstract.NIso N1 succ defax
+R1068:1068 Coq.Numbers.Natural.Abstract.NIso <> n var
+R1074:1080 Coq.Numbers.Natural.Abstract.NIso N2 succ defax
+R1083:1083 Coq.Numbers.Natural.Abstract.NIso <> f var
+R1085:1085 Coq.Numbers.Natural.Abstract.NIso <> n var
+def 1101:1119 Homomorphism natural_isomorphism
+R1127:1130 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1131:1134 Coq.Numbers.Natural.Abstract.NIso N2 t defax
+R1123:1126 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R1141:1152 Coq.Numbers.Natural.Abstract.NIso N1 recursion defax
+R1172:1175 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R1183:1186 Coq.Numbers.Natural.Abstract.NIso N2 t defax
+R1192:1198 Coq.Numbers.Natural.Abstract.NIso N2 succ defax
+R1200:1200 Coq.Numbers.Natural.Abstract.NIso <> p var
+R1154:1160 Coq.Numbers.Natural.Abstract.NIso N2 zero defax
+inst 1214:1235 Homomorphism natural_isomorphism_wd
+R1239:1244 Coq.Classes.Morphisms <> Proper class
+R1264:1282 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1252:1256 Coq.Classes.Morphisms ProperNotations :signature_scope:x_'==>'_x not
+R1247:1251 Coq.Numbers.Natural.Abstract.NIso N1 eq defax
+R1257:1261 Coq.Numbers.Natural.Abstract.NIso N2 eq defax
+R1299:1317 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+prf 1405:1425 Homomorphism natural_isomorphism_0
+R1456:1459 Coq.Numbers.Natural.Abstract.NIso Homomorphism ::x_'=='_x not
+R1429:1447 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1449:1455 Coq.Numbers.Natural.Abstract.NIso N1 zero defax
+R1460:1466 Coq.Numbers.Natural.Abstract.NIso N2 zero defax
+R1483:1501 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1516:1529 Coq.Numbers.Natural.Abstract.NIso N1 recursion_0 prfax
+R1516:1529 Coq.Numbers.Natural.Abstract.NIso N1 recursion_0 prfax
+R1516:1529 Coq.Numbers.Natural.Abstract.NIso N1 recursion_0 prfax
+prf 1546:1569 Homomorphism natural_isomorphism_succ
+R1586:1589 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R1623:1626 Coq.Numbers.Natural.Abstract.NIso Homomorphism ::x_'=='_x not
+R1592:1610 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1613:1619 Coq.Numbers.Natural.Abstract.NIso N1 succ defax
+R1621:1621 Coq.Numbers.Natural.Abstract.NIso <> n var
+R1627:1633 Coq.Numbers.Natural.Abstract.NIso N2 succ defax
+R1636:1654 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1656:1656 Coq.Numbers.Natural.Abstract.NIso <> n var
+R1674:1692 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1712:1728 Coq.Numbers.Natural.Abstract.NIso N1 recursion_succ prfax
+R1712:1728 Coq.Numbers.Natural.Abstract.NIso N1 recursion_succ prfax
+R1712:1728 Coq.Numbers.Natural.Abstract.NIso N1 recursion_succ prfax
+R1712:1728 Coq.Numbers.Natural.Abstract.NIso N1 recursion_succ prfax
+R1712:1728 Coq.Numbers.Natural.Abstract.NIso N1 recursion_succ prfax
+prf 1791:1801 Homomorphism hom_nat_iso
+R1805:1816 Coq.Numbers.Natural.Abstract.NIso Homomorphism homomorphism def
+R1818:1836 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1853:1864 Coq.Numbers.Natural.Abstract.NIso Homomorphism homomorphism def
+R1867:1885 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism def
+R1902:1922 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism_0 thm
+R1932:1955 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism_succ thm
+R1902:1922 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism_0 thm
+R1932:1955 Coq.Numbers.Natural.Abstract.NIso Homomorphism natural_isomorphism_succ thm
+R1969:1980 Coq.Numbers.Natural.Abstract.NIso Homomorphism <> mod
+R2008:2020 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRecSig <> mod
+mod 1991:1997 <> Inverse
+R2056:2064 Coq.Numbers.Natural.Abstract.NBase NBaseProp <> modtype
+R2066:2067 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+mod 2039:2051 <> Inverse.NBasePropMod1
+R2216:2227 Coq.Numbers.Natural.Abstract.NIso Homomorphism <> modtype
+R2229:2230 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+R2232:2233 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+mod 2207:2211 <> Inverse.Hom12
+R2252:2263 Coq.Numbers.Natural.Abstract.NIso Homomorphism <> modtype
+R2265:2266 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+R2268:2269 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+mod 2243:2247 <> Inverse.Hom21
+syndef 2288:2290 Inverse h12
+R2295:2319 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism def
+syndef 2337:2339 Inverse h21
+R2344:2368 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism def
+R2399:2403 Coq.Numbers.Natural.Abstract.NIso N1 eq defax
+not 2386:2386 Inverse ::x_'=='_x
+prf 2450:2464 Inverse inverse_nat_iso
+R2479:2482 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R2496:2499 Coq.Numbers.Natural.Abstract.NIso Inverse ::x_'=='_x not
+R2485:2487 Coq.Numbers.Natural.Abstract.NIso Inverse h21 syndef
+R2490:2492 Coq.Numbers.Natural.Abstract.NIso Inverse h12 syndef
+R2494:2494 Coq.Numbers.Natural.Abstract.NIso <> n var
+R2500:2500 Coq.Numbers.Natural.Abstract.NIso <> n var
+R2532:2558 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2561:2587 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2532:2558 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2532:2558 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2561:2587 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2561:2587 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_0 thm
+R2615:2644 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2647:2676 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2615:2644 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2615:2644 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2647:2676 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2647:2676 Coq.Numbers.Natural.Abstract.NIso Inverse natural_isomorphism_succ thm
+R2693:2699 Coq.Numbers.Natural.Abstract.NIso Inverse <> mod
+R2731:2743 Coq.Numbers.Natural.Abstract.NAxioms NAxiomsRecSig <> mod
+mod 2710:2720 <> Isomorphism
+R2764:2775 Coq.Numbers.Natural.Abstract.NIso Homomorphism <> modtype
+R2777:2778 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+R2780:2781 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+mod 2755:2759 <> Isomorphism.Hom12
+R2800:2811 Coq.Numbers.Natural.Abstract.NIso Homomorphism <> modtype
+R2813:2814 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+R2816:2817 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+mod 2791:2795 <> Isomorphism.Hom21
+R2840:2846 Coq.Numbers.Natural.Abstract.NIso Inverse <> modtype
+R2848:2849 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+R2851:2852 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+mod 2827:2835 <> Isomorphism.Inverse12
+R2875:2881 Coq.Numbers.Natural.Abstract.NIso Inverse <> modtype
+R2883:2884 Coq.Numbers.Natural.Abstract.NIso N2 <> modtype
+R2886:2887 Coq.Numbers.Natural.Abstract.NIso N1 <> modtype
+mod 2862:2870 <> Isomorphism.Inverse21
+syndef 2906:2908 Isomorphism h12
+R2913:2937 Coq.Numbers.Natural.Abstract.NIso Isomorphism natural_isomorphism def
+syndef 2955:2957 Isomorphism h21
+R2962:2986 Coq.Numbers.Natural.Abstract.NIso Isomorphism natural_isomorphism def
+def 3001:3011 Isomorphism isomorphism
+R3023:3026 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3027:3030 Coq.Numbers.Natural.Abstract.NIso N2 t defax
+R3019:3022 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R3043:3046 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3047:3050 Coq.Numbers.Natural.Abstract.NIso N1 t defax
+R3039:3042 Coq.Numbers.Natural.Abstract.NIso N2 t defax
+R3086:3089 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3065:3082 Coq.Numbers.Natural.Abstract.NIso Isomorphism homomorphism def
+R3084:3085 Coq.Numbers.Natural.Abstract.NIso <> f1 var
+R3111:3116 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3090:3107 Coq.Numbers.Natural.Abstract.NIso Isomorphism homomorphism def
+R3109:3110 Coq.Numbers.Natural.Abstract.NIso <> f2 var
+R3146:3151 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R3127:3131 Coq.Numbers.Natural.Abstract.NIso N1 eq defax
+R3145:3145 Coq.Numbers.Natural.Abstract.NIso <> n var
+R3134:3135 Coq.Numbers.Natural.Abstract.NIso <> f2 var
+R3138:3139 Coq.Numbers.Natural.Abstract.NIso <> f1 var
+R3141:3141 Coq.Numbers.Natural.Abstract.NIso <> n var
+R3162:3166 Coq.Numbers.Natural.Abstract.NIso N2 eq defax
+R3180:3180 Coq.Numbers.Natural.Abstract.NIso <> n var
+R3169:3170 Coq.Numbers.Natural.Abstract.NIso <> f1 var
+R3173:3174 Coq.Numbers.Natural.Abstract.NIso <> f2 var
+R3176:3176 Coq.Numbers.Natural.Abstract.NIso <> n var
+prf 3192:3202 Isomorphism iso_nat_iso
+R3206:3216 Coq.Numbers.Natural.Abstract.NIso Isomorphism isomorphism def
+R3222:3224 Coq.Numbers.Natural.Abstract.NIso Isomorphism h21 syndef
+R3218:3220 Coq.Numbers.Natural.Abstract.NIso Isomorphism h12 syndef
+R3241:3251 Coq.Numbers.Natural.Abstract.NIso Isomorphism isomorphism def
+R3267:3283 Coq.Numbers.Natural.Abstract.NIso Isomorphism hom_nat_iso thm
+R3267:3283 Coq.Numbers.Natural.Abstract.NIso Isomorphism hom_nat_iso thm
+R3299:3315 Coq.Numbers.Natural.Abstract.NIso Isomorphism hom_nat_iso thm
+R3299:3315 Coq.Numbers.Natural.Abstract.NIso Isomorphism hom_nat_iso thm
+R3331:3355 Coq.Numbers.Natural.Abstract.NIso Isomorphism inverse_nat_iso thm
+R3331:3355 Coq.Numbers.Natural.Abstract.NIso Isomorphism inverse_nat_iso thm
+R3364:3388 Coq.Numbers.Natural.Abstract.NIso Isomorphism inverse_nat_iso thm
+R3364:3388 Coq.Numbers.Natural.Abstract.NIso Isomorphism inverse_nat_iso thm
+R3401:3411 Coq.Numbers.Natural.Abstract.NIso Isomorphism <> mod

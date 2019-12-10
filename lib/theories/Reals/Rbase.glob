@@ -1,0 +1,6 @@
+DIGEST 6fd4760469c39e56180b5b7fb6b3bde0
+FCoq.Reals.Rbase
+R691:702 Coq.Reals.Rdefinitions <> <> lib
+R720:726 Coq.Reals.Raxioms <> <> lib
+R744:748 Coq.Reals.RIneq <> <> lib
+R766:771 Coq.Reals.DiscrR <> <> lib

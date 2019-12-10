@@ -1,0 +1,9 @@
+DIGEST 1d0e13663ae295021acb6bb4e25817eb
+FCoq.extraction.ExtrOcamlZInt
+R749:773 Coq.extraction.Extraction <> <> lib
+R792:797 Coq.ZArith.ZArith <> <> lib
+R799:804 Coq.NArith.NArith <> <> lib
+R822:835 Coq.extraction.ExtrOcamlBasic <> <> lib
+R1173:1180 Coq.Numbers.BinNums <> positive ind
+R1346:1346 Coq.Numbers.BinNums <> Z ind
+R1468:1468 Coq.Numbers.BinNums <> N ind
